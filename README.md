@@ -1,4 +1,4 @@
-Downloads html pages mentionned in a csv file into the current repository 
+Downloads html pages (from a csv file) into the current repository 
 ```
 bash download_corpus.sh path/to/file/*.csv
 ```
