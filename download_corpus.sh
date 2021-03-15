@@ -1,30 +1,30 @@
 #!/bin/bash
 # ------------------------------------------
-INPUT=$1 # file path
-OLDIFS=$IFS # separators
-IFS=','
+INPUT=$1 # path to file
+OLDIFS=$IFS 
+IFS=',' 
 
 
-i=1 # intitialize count of rows
+i=1 # start counting rows
 
 # open file
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 
 # loop through rows
-while read id pdf html html_abby stades # read comumns
+while read id pdf html html_abby stades # specify columns from the csv file
 do
-	echo i: $i
-	echo "Name : $id"
-	echo "HTML : $html"
-	wget -p -k $html # download files
+	echo i: $i # current number of the row
+	echo "Name : $id" # column that contains specific ids of the bulletins
+	echo "HTML : $html" # column that contains paths to html version of bulletins
+	wget -p -k $html # save html pages
 	echo ""
-	((i++)) # increment count of rows
+	((i++)) # increment the count 
 done < $INPUT
 
 # show last row
 echo "Last row : "
 echo $id
 echo $html
-wget -p -k $html # download files
+wget -p -k $html # download html
 
 IFS=$OLDIFS
