@@ -1,6 +1,6 @@
 #!/bin/bash
 # ------------------------------------------
-INPUT=$1 # path to file
+INPUT=$1 # path to csv file
 OLDIFS=$IFS 
 IFS=',' 
 
