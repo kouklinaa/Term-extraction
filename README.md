@@ -1,6 +1,6 @@
 ## How-to
 
-Download html pages from urls in the csv file into ***./resources/html_corpus/*** repository
+Download html pages from links stored in the csv file 
 ```
 bash download_corpus.sh path/to/file/*.csv
 ```
