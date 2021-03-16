@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="main">
+
+
+  <!--Load data-->
+  <read-html href="modules/read-html.plan"/>
+
+
+  <!--Load a glossary-->
+  <project-rdf href="modules/project-rdf.plan"/>
+
+
+  <!--Create an output-->
+  <export href="modules/export.plan"/>
+
+
+</alvisnlp-plan>

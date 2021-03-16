@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="project">
+
+<project-rdf class="RDFProjector">
+  <source>resources/usageCulture20210112.rdf</source>
+  <targetLayerName>go</targetLayerName>
+  <uriFeatureName>uri</uriFeatureName>
+  <wordStartCaseInsensitive/>
+  <constantAnnotationFeatures>type=GO</constantAnnotationFeatures>
+</project-rdf>
+
+</alvisnlp-plan>

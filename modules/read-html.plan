@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="read-html">
+
+  <read class="XMLReader">
+    <sourcePath>resources/ontology.inrae.fr/bsv/html/Corpus/Tests/Viticulture/html/pdf2blocs/20190619_LOR_BSV_Viticulture_cle8c2fdf.html</sourcePath>
+    <xslTransform>resources/html2alvisnlp.xslt</xslTransform>
+    <html/>
+  </read>
+
+</alvisnlp-plan>

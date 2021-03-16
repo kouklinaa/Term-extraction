@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="export">
+  <export class="TabularExport">
+    <outDir>output</outDir>
+    <corpusFile>export.txt</corpusFile>
+    <lines>documents.sections.layer</lines>
+    <columns separator=";">
+      section.document.@id;
+      section.@name;
+      @form;
+      start ^ "-" ^ end;
+      @type;
+      @form;
+      str:join:', '(nav:features, @key ^ "=" ^ @value)
+    </columns>
+  </export>
+</alvisnlp-plan>
