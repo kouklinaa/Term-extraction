@@ -3,7 +3,7 @@
 <alvisnlp-plan id="read-html">
 
   <read class="XMLReader">
-    <sourcePath>resources/ontology.inrae.fr/bsv/html/Corpus/Tests/Viticulture/html/pdf2blocs/20190619_LOR_BSV_Viticulture_cle8c2fdf.html</sourcePath>
+    <sourcePath>resources/html_corpus/</sourcePath>
     <xslTransform>resources/html2alvisnlp.xslt</xslTransform>
     <html/>
   </read>
