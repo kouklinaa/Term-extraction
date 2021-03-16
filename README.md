@@ -1,14 +1,16 @@
-Downloads html pages into the given repository 
+## How-to
+
+Download html pages into the given repository 
 ```
 bash download_corpus.sh path/to/file/*.csv
 ```
 
-Matches rdf terms within an html page
+Match terms within an html page
 ```
 alvisnlp -browser main.plan
 ```
 
-Repository tree :
+## Repository tree :
 ```
 ├── README.md
 ├── download_corpus.sh
