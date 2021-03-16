@@ -1,8 +1,8 @@
 #!/bin/bash
 # ------------------------------------------
 INPUT=$1 # path to csv file
-OLDIFS=$IFS 
-IFS=',' 
+OLDIFS=$IFS
+IFS=','
 
 
 i=1 # start counting rows
@@ -18,7 +18,7 @@ do
 	echo "HTML : $html" # column that contains paths to html version of bulletins
 	wget -p -k $html # save html pages
 	echo ""
-	((i++)) # increment the count 
+	((i++)) # increment the count
 done < $INPUT
 
 # show last row
@@ -26,5 +26,10 @@ echo "Last row : "
 echo $id
 echo $html
 wget -p -k $html # download html
+
+# move all html files to another location
+mkdir ./resources/html_corpus
+find . -name "*.html" -exec mv "{}" ./resources/html_corpus \;
+rm -rf ontology.inrae.fr
 
 IFS=$OLDIFS
