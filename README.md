@@ -5,7 +5,7 @@ Download html pages into ***./resources/html_corpus/*** repository
 bash download_corpus.sh path/to/file/*.csv
 ```
 
-Match terms within html pages
+Match terms with AlvisNLP tool
 ```
 alvisnlp -browser main.plan
 ```
