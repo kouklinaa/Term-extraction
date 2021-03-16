@@ -1,11 +1,11 @@
 ## How-to
 
-Download html pages from a csv file into **/resources/html_corpus** repository
+Download html pages into ***./resources/html_corpus/*** repository
 ```
 bash download_corpus.sh path/to/file/*.csv
 ```
 
-Match terms within an html page
+Match terms within html pages
 ```
 alvisnlp -browser main.plan
 ```
