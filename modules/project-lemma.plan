@@ -8,7 +8,7 @@
   <targetLayerName>gol</targetLayerName>
   <uriFeatureName>uri</uriFeatureName>
   <wordStartCaseInsensitive/>
-  <constantAnnotationFeatures>type=GO</constantAnnotationFeatures>
+  <constantAnnotationFeatures>type=GOL</constantAnnotationFeatures>
 </project-lemma>
 
 </alvisnlp-plan>
