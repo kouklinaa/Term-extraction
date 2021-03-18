@@ -16,7 +16,9 @@ alvisnlp -browser main.plan
 ├── download_corpus.sh
 ├── main.plan
 ├── modules
+│   ├── execute-treetagger.plan
 │   ├── export.plan
+│   ├── project-lemma.plan
 │   ├── project-rdf.plan
 │   └── read-html.plan
 ├── output
