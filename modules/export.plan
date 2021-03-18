@@ -8,7 +8,13 @@
     <columns separator=";">
       section.document.@id;
       section.@name;
+      before:words{-3}.@form;
+      before:words{-2}.@form;
+      before:words{-1}.@form;
       @form;
+      after:words{0}.@form;
+      after:words{1}.@form;
+      after:words{2}.@form;
       start ^ "-" ^ end;
       @type;
       @form;
@@ -16,3 +22,7 @@
     </columns>
   </export>
 </alvisnlp-plan>
+<!--
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+-->
