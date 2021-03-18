@@ -4,7 +4,7 @@
   <export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>export.txt</corpusFile>
-    <lines>documents.sections.layer</lines>
+    <lines>documents.sections.(layer:go | layer:gol)</lines>
     <columns separator=";">
       section.document.@id;
       section.@name;
