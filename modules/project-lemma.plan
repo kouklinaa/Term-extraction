@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="project-lemma">
+
+<project-lemma class="RDFProjector">
+  <source>resources/usageCulture20210112.rdf</source>
+  <subject layer="words" feature="lemma"/>
+  <targetLayerName>gol</targetLayerName>
+  <uriFeatureName>uri</uriFeatureName>
+  <wordStartCaseInsensitive/>
+  <constantAnnotationFeatures>type=GO</constantAnnotationFeatures>
+</project-lemma>
+
+</alvisnlp-plan>

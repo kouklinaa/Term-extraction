@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="execute-treetagger">
+
+<lemma class="TreeTagger">
+  <parFile>/Users/belka/Documents/work/inrae/outils/tree-tagger/lib/english.par</parFile>
+  <treeTaggerExecutable>/Users/belka/Documents/work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
+  <inputCharset>UTF-8</inputCharset>
+  <noUnknownLemma/>
+</lemma>
+</alvisnlp-plan>
