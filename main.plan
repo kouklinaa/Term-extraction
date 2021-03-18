@@ -7,31 +7,30 @@
   <read-html href="modules/read-html.plan"/>
 
 
-  <!--Load a glossary-->
+  <!--Load glossary-->
   <project-rdf href="modules/project-rdf.plan"/>
 
-  <!-- segment text to sentences and words -->
+  <!-- Segment text to sentences and words -->
   <import>res://segmentation.plan</import>
 
+  <!-- Remove non existing labels like <FW> -->
   <remove-pos class="Action">
     <target>documents.sections.layer:words[@pos]</target>
     <action>set:remove-feature:pos</action>
     <setFeatures/>
   </remove-pos>
 
-  <!--
-  <mots class="WoSMig"/>
-  <phrases class="SeSMig"/>
-  -->
 
-  <!-- execute treetagger -->
+  <!-- Execute treetagger -->
   <execute-treetagger href="modules/execute-treetagger.plan"/>
 
-  <!-- get lemmas on go entities -->
+
+  <!-- Lemmatize entities -->
   <project-lemma href="modules/project-lemma.plan"/>
   <overlaps-lemma class="RemoveOverlaps">
     <layerName>gol</layerName>
   </overlaps-lemma>
+
 
   <!--Create an output-->
   <export href="modules/export.plan"/>
