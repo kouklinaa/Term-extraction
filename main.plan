@@ -12,8 +12,17 @@
 
   <!-- segment text to sentences and words -->
   <import>res://segmentation.plan</import>
+
+  <remove-pos class="Action">
+    <target>documents.sections.layer:words[@pos]</target>
+    <action>set:remove-feature:pos</action>
+    <setFeatures/>
+  </remove-pos>
+
+  <!--
   <mots class="WoSMig"/>
   <phrases class="SeSMig"/>
+  -->
 
   <!-- execute treetagger -->
   <execute-treetagger href="modules/execute-treetagger.plan"/>
