@@ -2,10 +2,8 @@
 
 <alvisnlp-plan id="main">
 
-
-  <!--Load data-->
+  <!-- Load data-->
   <read-html href="modules/read-html.plan"/>
-
 
   <!--Load glossary-->
   <project-rdf href="modules/project-rdf.plan"/>
@@ -20,19 +18,17 @@
     <setFeatures/>
   </remove-pos>
 
-
   <!-- Execute treetagger -->
   <execute-treetagger href="modules/execute-treetagger.plan"/>
-
 
   <!-- Lemmatize entities -->
   <project-lemma href="modules/project-lemma.plan"/>
   <overlaps-lemma class="RemoveOverlaps">
-    <layerName>gol</layerName>
+    <layerName>lemmas</layerName>
   </overlaps-lemma>
 
 
-  <!--Create an output-->
+  <!--IV. Create an output-->
   <export href="modules/export.plan"/>
 
 

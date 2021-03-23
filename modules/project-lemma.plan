@@ -5,10 +5,10 @@
 <project-lemma class="RDFProjector">
   <source>resources/usageCulture20210112.rdf</source>
   <subject layer="words" feature="lemma"/>
-  <targetLayerName>gol</targetLayerName>
+  <targetLayerName>lemmas</targetLayerName>
   <uriFeatureName>uri</uriFeatureName>
   <wordStartCaseInsensitive/>
-  <constantAnnotationFeatures>type=GOL</constantAnnotationFeatures>
+  <constantAnnotationFeatures>type=LEMMATIZED</constantAnnotationFeatures>
 </project-lemma>
 
 </alvisnlp-plan>

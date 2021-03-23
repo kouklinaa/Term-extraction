@@ -3,26 +3,30 @@
 <alvisnlp-plan id="export">
   <export class="TabularExport">
     <outDir>output</outDir>
-    <corpusFile>export.txt</corpusFile>
-    <lines>documents.sections.(layer:go | layer:gol)</lines>
+    <corpusFile>export.csv</corpusFile>
+    <lines>documents.sections.(layer:lemmas)</lines>
+    <headers>"bsv","type","context","word","context","location", "features"</headers>
     <columns separator=";">
-      section.document.@id;
+      str:replace(str:basename(section.document.@id), ".html", "");
       section.@name;
-      before:words{-3}.@form;
-      before:words{-2}.@form;
-      before:words{-1}.@form;
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
       @form;
-      after:words{0}.@form;
-      after:words{1}.@form;
-      after:words{2}.@form;
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
       start ^ "-" ^ end;
-      @type;
-      @form;
       str:join:', '(nav:features, @key ^ "=" ^ @value)
     </columns>
   </export>
+  <trueCSV/>
 </alvisnlp-plan>
+
 <!--
-      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
-      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+before:words{-3}.@form;
+before:words{-2}.@form;
+before:words{-1}.@form;
+after:words{0}.@form;
+after:words{1}.@form;
+after:words{2}.@form;
+
+str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
 -->
