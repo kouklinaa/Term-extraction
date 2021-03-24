@@ -1,8 +1,8 @@
 ## How-to
 
-Download html pages from links stored in the csv file 
+Download html pages from links stored in the file *`Corpus_test_d2kab_Viticulture.csv`*
 ```
-bash download_corpus.sh path/to/file/*.csv
+bash download_corpus.sh 
 ```
 
 Match terms with AlvisNLP tool
@@ -22,7 +22,7 @@ alvisnlp -browser main.plan
 │   ├── project-rdf.plan
 │   └── read-html.plan
 ├── output
-│   └── export.txt
+│   └── export.csv
 └── resources
     ├── Corpus_test_d2kab_Viticulture.csv
     ├── html2alvisnlp.xslt
