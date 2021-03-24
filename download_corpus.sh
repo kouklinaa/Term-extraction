@@ -1,16 +1,18 @@
 #!/bin/bash
 
 
-INPUT=$1 # path to csv file
+INPUT=./resources/Corpus_test_d2kab_Viticulture.csv # path to the csv file
 OLDIFS=$IFS
-IFS=',' # separator
+IFS=',' # column separator
 i=1 # intitialize count
 
 
 
 # -------------------DOWNLOAD------------------------
 
-[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; } # open csv file
+
+[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; } # ensure that file exists, otherwise abort execution
+
 
 while read id pdf html html_abby stades # loop through rows and columns
 do
