@@ -12,7 +12,7 @@ $ alvisnlp -browser main.plan
 
 Visualize the most frequent terms
 ```
-$ 
+$ jupyter notebook visualize_results.ipynb
 ```
 
 ## Repository tree :
