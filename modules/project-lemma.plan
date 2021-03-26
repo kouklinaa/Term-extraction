@@ -5,10 +5,15 @@
 <project-lemma class="RDFProjector">
   <source>resources/usageCulture20210112.rdf</source>
   <subject layer="words" feature="lemma"/>
+  <!-- target lemmas instead of original forms of words -->
   <targetLayerName>lemmas</targetLayerName>
   <uriFeatureName>uri</uriFeatureName>
   <wordStartCaseInsensitive/>
-  <constantAnnotationFeatures>type=LEMMATIZED</constantAnnotationFeatures>
+  <constantAnnotationFeatures>type=GOL</constantAnnotationFeatures>
 </project-lemma>
+
+<overlaps-lemma class="RemoveOverlaps">
+  <layerName>lemmas</layerName>
+</overlaps-lemma>
 
 </alvisnlp-plan>

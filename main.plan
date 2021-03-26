@@ -21,15 +21,20 @@
   <!-- Execute treetagger -->
   <execute-treetagger href="modules/execute-treetagger.plan"/>
 
-  <!-- Lemmatize entities -->
+  <!-- Match terms via lemmas -->
   <project-lemma href="modules/project-lemma.plan"/>
-  <overlaps-lemma class="RemoveOverlaps">
-    <layerName>lemmas</layerName>
-  </overlaps-lemma>
-
 
   <!--IV. Create an output-->
   <export href="modules/export.plan"/>
 
+
+  <vocabulary class="AggregateValues">
+  <entries>documents.sections.layer:words</entries>
+  <key>@lemma</key>
+  <aggregators>
+    <count/>
+  </aggregators>
+  <outFile>output/words.txt</outFile>
+  </vocabulary>
 
 </alvisnlp-plan>
