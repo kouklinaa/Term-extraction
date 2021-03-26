@@ -23,8 +23,18 @@
       str:join:', '(nav:features, @key ^ "=" ^ @value)
 
     </columns>
+    <trueCSV/>
   </export>
-  <trueCSV/>
+
+  <tdidf class="KeywordsSelector">
+    <outFile>output/tfidf.txt</outFile>
+
+    <keywords>sections.layer:lemmas</keywords>
+    <keywordForm>@skos-prefLabel</keywordForm>
+
+    <scoreThreshold>-1000</scoreThreshold>
+    <scoreFunction>tfidf</scoreFunction>
+  </tdidf>
 </alvisnlp-plan>
 
 <!--
