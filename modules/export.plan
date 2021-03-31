@@ -5,7 +5,7 @@
     <outDir>output</outDir>
     <corpusFile>export.csv</corpusFile>
     <lines>documents.sections.(layer:lemmas)</lines>
-    <headers>"bsv","type","context","word",  "context","location", "features"</headers>
+    <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
       <!-- clean document id  -->
       str:replace(str:basename(section.document.@id), ".html", "");
@@ -15,12 +15,16 @@
       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
       <!-- extracted term  -->
       @form;
+      @skos-prefLabel;
       <!-- context after  -->
       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
       <!-- location  -->
       start ^ "-" ^ end;
       <!-- features  -->
       str:join:', '(nav:features, @key ^ "=" ^ @value)
+
+      <!-- features  ;
+      str:join:' '(inside:words, @lemma)-->
 
     </columns>
   </export>

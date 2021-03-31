@@ -31,9 +31,9 @@
   <vocabulary class="AggregateValues">
   <entries>documents.sections.layer:words</entries>
   <key>@lemma</key>
-  <aggregators>
+  <!-- <aggregators>
     <count/>
-  </aggregators>
+  </aggregators> -->
   <outFile>output/words.txt</outFile>
   </vocabulary>
 

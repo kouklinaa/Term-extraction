@@ -3,7 +3,7 @@
 <alvisnlp-plan id="read-html">
 
   <read class="XMLReader">
-    <sourcePath>resources/html_corpus/</sourcePath>
+    <sourcePath>resources/CorpusTestD2kabViti.html/</sourcePath>
     <xslTransform>resources/html2alvisnlp.xslt</xslTransform>
     <html/>
   </read>
