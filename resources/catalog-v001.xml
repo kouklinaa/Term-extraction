@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
+    <uri id="User Entered Import Resolution" name="http://ontology.inrae.fr/ppdo/ontology/20200818" uri="ppdo.rdf"/>
+    <uri id="User Entered Import Resolution" name="http://ontology.inrae.fr/frenchcropusage/20210112" uri="usageCulture20210112.rdf"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1617231931933" name="http://ontology.inrae.fr/ppdo/ontology" uri="ppdo.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1617231931933" name="duplicate:http://ontology.inrae.fr/ppdo/resource/grapevine" uri="all.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1617231931933" name="duplicate:http://ontology.inrae.fr/ppdo/resource/grapevine" uri="all.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1617231931933" name="duplicate:http://ontology.inrae.fr/ppdo/resource/grapevine" uri="grapevine_grapevine_scales.owl"/>
+    </group>
 </catalog>

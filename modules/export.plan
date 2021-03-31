@@ -30,6 +30,10 @@
     <trueCSV/>
   </export>
 
+
+
+
+  <!-- calculate tf-idf -->
   <tdidf class="KeywordsSelector">
     <outFile>output/tfidf.txt</outFile>
 

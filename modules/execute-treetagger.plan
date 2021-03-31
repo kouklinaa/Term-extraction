@@ -6,11 +6,13 @@
   <parFile>/Users/belka/Documents/work/inrae/outils/tree-tagger/lib/french.par</parFile>
   <treeTaggerExecutable>/Users/belka/Documents/work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
   <inputCharset>UTF-8</inputCharset>
-  <!-- <lemmaFeature>lemma</lemmaFeature> -->
+
+
   <outputCharset>UTF-8</outputCharset>
   <recordCharset>UTF-8</recordCharset>
   <recordDir>output</recordDir>
   <recordFeatures>form, lemma, pos</recordFeatures>
+
   <noUnknownLemma/>
 
 </lemma>

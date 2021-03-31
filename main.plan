@@ -2,10 +2,10 @@
 
 <alvisnlp-plan id="main">
 
-  <!-- Load data-->
+  <!-- Load corpus-->
   <read-html href="modules/read-html.plan"/>
 
-  <!--Load glossary-->
+  <!--Load ontology-->
   <project-rdf href="modules/project-rdf.plan"/>
 
   <!-- Segment text to sentences and words -->
@@ -24,10 +24,11 @@
   <!-- Match terms via lemmas -->
   <project-lemma href="modules/project-lemma.plan"/>
 
-  <!--IV. Create an output-->
+
+  <!-- Create an output-->
   <export href="modules/export.plan"/>
 
-
+  <!-- Save vocabulary -->
   <vocabulary class="AggregateValues">
   <entries>documents.sections.layer:words</entries>
   <key>@lemma</key>
@@ -36,5 +37,7 @@
   </aggregators> -->
   <outFile>output/words.txt</outFile>
   </vocabulary>
+
+
 
 </alvisnlp-plan>

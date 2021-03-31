@@ -3,7 +3,7 @@
 <alvisnlp-plan id="project-lemma">
 
 <project-lemma class="RDFProjector">
-  <source>resources/usageCulture20210112.rdf</source>
+  <source>resources/all.rdf</source>
   <subject layer="words" feature="lemma"/>
   <!-- target lemmas instead of original forms of words -->
   <targetLayerName>lemmas</targetLayerName>
