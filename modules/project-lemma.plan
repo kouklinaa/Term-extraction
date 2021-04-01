@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <alvisnlp-plan id="project-lemma">
+  <param name="source">
+    <alias module="project-lemma" param="source"/>
+  </param>
 
-<project-lemma class="RDFProjector">
-  <source>resources/all.rdf</source>
-  <subject layer="words" feature="lemma"/>
-  <!-- target lemmas instead of original forms of words -->
-  <targetLayerName>lemmas</targetLayerName>
-  <uriFeatureName>uri</uriFeatureName>
-  <wordStartCaseInsensitive/>
-  <constantAnnotationFeatures>type=GOL</constantAnnotationFeatures>
-</project-lemma>
+  <param name="targetLayerName">
+    <alias module="project-lemma" param="targetLayerName"/>
+  </param>
 
-<overlaps-lemma class="RemoveOverlaps">
-  <layerName>lemmas</layerName>
-</overlaps-lemma>
+  <project-lemma class="RDFProjector">
+    <!--<source>resources/all.rdf</source>-->
+    <subject layer="words" feature="lemma"/>
+    <!-- target lemmas instead of original forms of words -->
+    <!--<targetLayerName>lemmas</targetLayerName>-->
+    <uriFeatureName>uri</uriFeatureName>
+    <wordStartCaseInsensitive/>
+    <constantAnnotationFeatures>type=GOL</constantAnnotationFeatures>
+  </project-lemma>
 
 </alvisnlp-plan>

@@ -6,7 +6,7 @@
   <read-html href="modules/read-html.plan"/>
 
   <!--Load ontology-->
-  <project-rdf href="modules/project-rdf.plan"/>
+  <!--<project-rdf href="modules/project-rdf.plan"/>-->
 
   <!-- Segment text to sentences and words -->
   <import>res://segmentation.plan</import>
@@ -22,7 +22,10 @@
   <execute-treetagger href="modules/execute-treetagger.plan"/>
 
   <!-- Match terms via lemmas -->
-  <project-lemma href="modules/project-lemma.plan"/>
+  <project-lemma href="modules/project-lemma.plan">
+    <source>resources/all.rdf</source>
+    <targetLayerName>lemmas</targetLayerName>
+  </project-lemma>
 
 
   <!-- Create an output-->
