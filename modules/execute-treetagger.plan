@@ -20,10 +20,12 @@
     <noUnknownLemma/>
     <inputCharset>UTF-8</inputCharset>
     <outputCharset>UTF-8</outputCharset>
-    <recordCharset>UTF-8</recordCharset>
-    <recordDir>output</recordDir>
-    <recordFeatures>form, lemma, pos</recordFeatures>
   </tt>
 
 
 </alvisnlp-plan>
+
+
+<!-- <recordCharset>UTF-8</recordCharset>
+<recordDir>output</recordDir>
+<recordFeatures>form, lemma, pos</recordFeatures> -->

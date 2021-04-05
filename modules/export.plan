@@ -40,8 +40,8 @@
 
   <!-- calculate tf-idf -->
   <tdidf class="KeywordsSelector">
-    <outFile>output/tfidf.txt</outFile>
-    <keywords>sections.layer:lemmas</keywords>
+    <outFile>output/tfidf.csv</outFile>
+    <keywords>sections.layer:fcu</keywords>
     <keywordForm>@skos-prefLabel</keywordForm>
     <scoreThreshold>-1000</scoreThreshold>
     <scoreFunction>tfidf</scoreFunction>
