@@ -14,9 +14,10 @@
     <alias module="project-lemma" param="targetLayerName"/>
   </param>
 
-  
+
   <project-lemma class="RDFProjector">
     <subject layer="words" feature="lemma"/>
+    <language>fr</language>
     <uriFeatureName>uri</uriFeatureName>
     <wordStartCaseInsensitive/>
     <constantAnnotationFeatures>type=GOL</constantAnnotationFeatures>

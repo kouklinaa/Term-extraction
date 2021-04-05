@@ -2,14 +2,14 @@
 
 <alvisnlp-plan id="export">
 
-  
+
   <export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>export.csv</corpusFile>
     <lines>documents.sections.(layer:fcu | layer:stages)</lines>
     <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
-      <!-- clean document id  -->
+      <!-- short document id  -->
       str:replace(str:basename(section.document.@id), ".html", "");
       <!-- type of document  -->
       section.@name;
@@ -24,6 +24,7 @@
       start ^ "-" ^ end;
       <!-- features  -->
       str:join:', '(nav:features, @key ^ "=" ^ @value)
+
     </columns>
     <trueCSV/>
   </export>
