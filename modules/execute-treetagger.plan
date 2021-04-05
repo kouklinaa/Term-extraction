@@ -3,27 +3,27 @@
 <alvisnlp-plan id="execute-treetagger">
 
   <!-- Function loads and parameters treetagger
-  IN : path to french.par, path to treetagger executable file
-  OUT :
+  IN : path to language model file, path to treetagger executable file
+  OUT : tt annotations
   -->
 
   <param name="parFile">
-    <alias module="treetagger" param="parFile"/>
+    <alias module="tt" param="parFile"/>
   </param>
 
   <param name="treeTaggerExecutable">
-    <alias module="treetagger" param="treeTaggerExecutable"/>
+    <alias module="tt" param="treeTaggerExecutable"/>
   </param>
 
 
-  <treetagger class="TreeTagger">
+  <tt class="TreeTagger">
     <noUnknownLemma/>
     <inputCharset>UTF-8</inputCharset>
     <outputCharset>UTF-8</outputCharset>
     <recordCharset>UTF-8</recordCharset>
     <recordDir>output</recordDir>
     <recordFeatures>form, lemma, pos</recordFeatures>
-  </treetagger>
+  </tt>
 
 
 </alvisnlp-plan>
