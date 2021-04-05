@@ -41,7 +41,6 @@
   <!-- calculate tf-idf -->
   <tdidf class="KeywordsSelector">
     <outFile>output/tfidf.csv</outFile>
-
     <keywords>sections.layer:fcu</keywords>
     <documentId>str:replace(str:basename(@id), ".html", "")</documentId>
     <keywordForm>@skos-prefLabel</keywordForm>
