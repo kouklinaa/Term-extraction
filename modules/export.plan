@@ -2,7 +2,7 @@
 
 <alvisnlp-plan id="export">
 
-
+  <!-- save exctracted terms -->
   <export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>export.csv</corpusFile>
@@ -31,11 +31,11 @@
 
 
 
-  <!-- Save vocabulary -->
+  <!-- all tokenized words in corpus -->
   <vocabulary class="AggregateValues">
-  <entries>documents.sections.layer:words</entries>
-  <key>@lemma</key>
-  <outFile>output/words.txt</outFile>
+    <entries>documents.sections.layer:words</entries>
+    <key>@lemma</key>
+    <outFile>output/words.txt</outFile>
   </vocabulary>
 
   <!-- calculate tf-idf -->
