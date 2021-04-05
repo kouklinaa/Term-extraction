@@ -2,45 +2,68 @@
 
 <alvisnlp-plan id="main">
 
-  <!-- Load corpus-->
-  <read-html href="modules/read-html.plan"/>
+  <!--
 
-  <!--Load ontology-->
-  <!--<project-rdf href="modules/project-rdf.plan"/>-->
-
-  <!-- Segment text to sentences and words -->
-  <import>res://segmentation.plan</import>
-
-  <!-- Remove non existing labels like <FW> -->
-  <remove-pos class="Action">
-    <target>documents.sections.layer:words[@pos]</target>
-    <action>set:remove-feature:pos</action>
-    <setFeatures/>
-  </remove-pos>
-
-  <!-- Execute treetagger -->
-  <execute-treetagger href="modules/execute-treetagger.plan"/>
-
-  <!-- Match terms via lemmas -->
-  <project-lemma href="modules/project-lemma.plan">
-    <source>resources/all.rdf</source>
-    <targetLayerName>lemmas</targetLayerName>
-  </project-lemma>
+  Reads html corpus,
+  Loads vocabularies (rdf)
+  Projects lemmatized terms on data,
+  Stores results in a csv file
 
 
-  <!-- Create an output-->
-  <export href="modules/export.plan"/>
+  Time of execution :
+  9,53s user
+  1,88s system
+  166% cpu
+  6,862 total
 
-  <!-- Save vocabulary -->
-  <vocabulary class="AggregateValues">
-  <entries>documents.sections.layer:words</entries>
-  <key>@lemma</key>
-  <!-- <aggregators>
-    <count/>
-  </aggregators> -->
-  <outFile>output/words.txt</outFile>
-  </vocabulary>
+  -->
 
+
+  <!--
+    I. Load html corpus
+  -->
+    <read-html href="modules/read-html.plan">
+      <sourcePath>resources/CorpusTestD2kabViti.html/</sourcePath>
+    </read-html>
+
+
+  <!--
+    II. Match terms
+  -->
+
+    <!-- load segmentation plan -->
+    <import>res://segmentation.plan</import>
+
+    <!-- remove foreign words with label <FW> -->
+    <remove-pos class="Action">
+      <target>documents.sections.layer:words[@pos]</target>
+      <action>set:remove-feature:pos</action>
+      <setFeatures/>
+    </remove-pos>
+
+    <!-- load treetagger -->
+    <execute-treetagger href="modules/execute-treetagger.plan">
+      <parFile>../../../outils/tree-tagger/lib/french.par</parFile>
+      <treeTaggerExecutable>../../../outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
+    </execute-treetagger>
+
+    <!-- match fcu vocabulary-->
+    <project-fcu href="modules/project-lemma.plan">
+      <source>resources/usageCulture20210112.rdf</source>
+      <targetLayerName>fcu</targetLayerName>
+    </project-fcu>
+
+    <!-- match phenological stages -->
+    <project-stage href="modules/project-lemma.plan">
+      <source>resources/stades.rdf</source>
+      <targetLayerName>stages</targetLayerName>
+    </project-stage>
+
+
+  <!--
+    III. Create an output
+  -->
+    <export href="modules/export.plan"/>
 
 
 </alvisnlp-plan>

@@ -2,18 +2,35 @@
 
 <alvisnlp-plan id="execute-treetagger">
 
-<lemma class="TreeTagger">
-  <parFile>/Users/belka/Documents/work/inrae/outils/tree-tagger/lib/french.par</parFile>
-  <treeTaggerExecutable>/Users/belka/Documents/work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
-  <inputCharset>UTF-8</inputCharset>
+  <!-- Function loads and parameters treetagger
+  IN : path to french.par, path to treetagger executable file
+  OUT :
+  -->
+
+  <param name="parFile">
+    <alias module="treetagger" param="parFile"/>
+  </param>
+
+  <param name="treeTaggerExecutable">
+    <alias module="treetagger" param="treeTaggerExecutable"/>
+  </param>
 
 
-  <outputCharset>UTF-8</outputCharset>
-  <recordCharset>UTF-8</recordCharset>
-  <recordDir>output</recordDir>
-  <recordFeatures>form, lemma, pos</recordFeatures>
+  <treetagger class="TreeTagger">
+    <noUnknownLemma/>
+    <inputCharset>UTF-8</inputCharset>
+    <outputCharset>UTF-8</outputCharset>
+    <recordCharset>UTF-8</recordCharset>
+    <recordDir>output</recordDir>
+    <recordFeatures>form, lemma, pos</recordFeatures>
+  </treetagger>
 
-  <noUnknownLemma/>
 
-</lemma>
 </alvisnlp-plan>
+
+
+
+
+
+<!-- <parFile>/Users/belka/Documents/work/inrae/outils/tree-tagger/lib/french.par</parFile>
+<treeTaggerExecutable>/Users/belka/Documents/work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable> -->

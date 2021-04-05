@@ -2,8 +2,16 @@
 
 <alvisnlp-plan id="read-html">
 
+  <!-- Function reads html files
+  IN : source directory
+  OUT : xml trees
+  -->
+
+  <param name="sourcePath">
+    <alias module="read" param="sourcePath"/>
+  </param>
+
   <read class="XMLReader">
-    <sourcePath>resources/CorpusTestD2kabViti.html/</sourcePath>
     <xslTransform>resources/html2alvisnlp.xslt</xslTransform>
     <html/>
   </read>

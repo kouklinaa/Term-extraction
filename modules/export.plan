@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <alvisnlp-plan id="export">
+
+  
   <export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>export.csv</corpusFile>
-    <lines>documents.sections.(layer:lemmas)</lines>
+    <lines>documents.sections.(layer:fcu | layer:stages)</lines>
     <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
       <!-- clean document id  -->
@@ -22,28 +24,30 @@
       start ^ "-" ^ end;
       <!-- features  -->
       str:join:', '(nav:features, @key ^ "=" ^ @value)
-
-      <!-- features  ;
-      str:join:' '(inside:words, @lemma)-->
-
     </columns>
     <trueCSV/>
   </export>
 
 
 
+  <!-- Save vocabulary -->
+  <vocabulary class="AggregateValues">
+  <entries>documents.sections.layer:words</entries>
+  <key>@lemma</key>
+  <outFile>output/words.txt</outFile>
+  </vocabulary>
 
   <!-- calculate tf-idf -->
   <tdidf class="KeywordsSelector">
     <outFile>output/tfidf.txt</outFile>
-
     <keywords>sections.layer:lemmas</keywords>
     <keywordForm>@skos-prefLabel</keywordForm>
-
     <scoreThreshold>-1000</scoreThreshold>
     <scoreFunction>tfidf</scoreFunction>
   </tdidf>
 </alvisnlp-plan>
+
+
 
 <!--
 before:words{-3}.@form;
@@ -53,6 +57,8 @@ after:words{0}.@form;
 after:words{1}.@form;
 after:words{2}.@form;
 
-str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
-str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+-->
+
+<!-- features  ;
+str:join:' '(inside:words, @lemma)
 -->
