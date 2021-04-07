@@ -69,6 +69,32 @@
       <targetLayerName>stages</targetLayerName>
     </project-stage>
 
+    <!-- find conjunction patterns  -->
+    <conjunction class="PatternMatcher">
+      <pattern>
+
+        (
+        [ @pos ^= "DET:ART" ]*
+        [ @pos ^= "N" and inside:fcu ]
+        [ @pos ^= "PUN" and @lemma ^=","]
+        )*
+
+        [ @pos ^= "DET:ART" ]*
+        [ @pos ^= "N" and inside:fcu]
+
+        [ @pos ^= "KON" and @lemma ^= "et" or @lemma == ","]
+
+        [ @pos ^= "DET:ART" ]*
+        [ @pos ^= "N" and inside:fcu]
+
+      </pattern>
+      <actions>
+        <createAnnotation layer="patterns"/>
+      </actions>
+      <constantAnnotationFeatures>type=CONJ_PATTERN</constantAnnotationFeatures>
+    </conjunction>
+
+
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////

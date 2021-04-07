@@ -24,10 +24,32 @@
       start ^ "-" ^ end;
       <!-- features  -->
       str:join:', '(nav:features, @key ^ "=" ^ @value)
-
     </columns>
     <trueCSV/>
   </export>
+
+
+  <conj_export class="TabularExport">
+    <outDir>output</outDir>
+    <corpusFile>patterns.csv</corpusFile>
+    <lines>documents.sections.(layer:patterns)</lines>
+    <headers>"bsv","context", "word", "context", "location","features"</headers>
+    <columns separator=";">
+      <!-- short document id  -->
+      str:replace(str:basename(section.document.@id), ".html", "");
+      <!-- context before  -->
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+      <!-- extracted term  -->
+      @form;
+      <!-- context after  -->
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+      <!-- location  -->
+      start ^ "-" ^ end;
+      <!-- features  -->
+      str:join:', '(nav:features, @key ^ "=" ^ @value)
+    </columns>
+    <trueCSV/>
+  </conj_export>
 
 
 
@@ -37,6 +59,8 @@
     <key>@lemma</key>
     <outFile>output/words.txt</outFile>
   </vocabulary>
+
+
 
   <!-- calculate tf-idf -->
   <tdidf class="KeywordsSelector">
