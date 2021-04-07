@@ -95,6 +95,34 @@
     </conjunction>
 
 
+    <bbch class="PatternMatcher">
+      <pattern>
+
+        (
+          [ @form ^= "Stade" ]?
+          [ @form =~ "[0-9]{2}" ]
+        )?
+
+        [ @form ^= "BBCH" ]
+
+        (
+          [ @form == "-" ]?
+
+          [ @form =~ "[0-9]{2}" ]
+        )?
+
+        (
+          [ @form == ":" ]?
+          [ @form ^= "Stade" ]?
+          [ @form =~ "[0-9]{2}" ]
+        )?
+      </pattern>
+      <actions>
+        <createAnnotation layer="bbch"/>
+      </actions>
+      <constantAnnotationFeatures>type=BBCH</constantAnnotationFeatures>
+    </bbch>
+
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
