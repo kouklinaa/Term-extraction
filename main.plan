@@ -27,7 +27,7 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
     <read-html href="modules/read-html.plan">
-      <sourcePath>resources/CorpusTestD2kabViti.html/</sourcePath>
+      <sourcePath>resources/Corpus/</sourcePath>
     </read-html>
 
 
