@@ -53,8 +53,8 @@
 
     <!-- load treetagger -->
     <execute-treetagger href="modules/execute-treetagger.plan">
-      <parFile>../../../outils/tree-tagger/lib/french.par</parFile>
-      <treeTaggerExecutable>../../../outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
+      <parFile>../../work/inrae/outils/tree-tagger/lib/french.par</parFile>
+      <treeTaggerExecutable>../../work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
     </execute-treetagger>
 
     <!-- match fcu vocabulary-->
