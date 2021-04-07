@@ -73,6 +73,7 @@
     <conjunction class="PatternMatcher">
       <pattern>
 
+
         (
         [ @pos ^= "DET:ART" ]*
         [ @pos ^= "N" and inside:fcu ]
@@ -98,22 +99,38 @@
     <bbch class="PatternMatcher">
       <pattern>
 
+        <!--
+
+        Variations :
+
+        Stade 00 BBCH
+        BBCH
+        BBCH-00
+        BBCH-00 et 01
+        BBCH : Stade 00
+
+        -->
+
         (
           [ @form ^= "Stade" ]?
           [ @form =~ "[0-9]{2}" ]
         )?
+
 
         [ @form ^= "BBCH" ]
 
+
         (
           [ @form == "-" ]?
-
           [ @form =~ "[0-9]{2}" ]
+          ([ @form == "et" ]
+          [ @form =~ "[0-9]{2}" ])?
         )?
 
+
         (
-          [ @form == ":" ]?
-          [ @form ^= "Stade" ]?
+          [ @form == ":" ]
+          [ @form ^= "Stade" ]
           [ @form =~ "[0-9]{2}" ]
         )?
       </pattern>
