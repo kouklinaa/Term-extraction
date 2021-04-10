@@ -27,10 +27,12 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
     <read-html href="modules/read-html.plan">
-      <sourcePath>resources/Corpus/</sourcePath>
+      <sourcePath>resources/Corpus-v-08-04-21</sourcePath>
     </read-html>
 
 
+    <!-- 11 326 matches  -->
+    <!-- 11 540 matches  -->
 
 
   <!--
@@ -68,6 +70,23 @@
       <source>resources/stades.rdf</source>
       <targetLayerName>stages</targetLayerName>
     </project-stage>
+
+    <!-- delete repeating elements from the layer stages  -->
+    <remove-equal class="Action">
+      <target>documents.sections.layer:stages[outside:fcu]</target>
+      <action>delete</action>
+      <deleteElements/>
+    </remove-equal>
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // III. Find patterns
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+
 
     <!-- find conjunction patterns  -->
     <conjunction class="PatternMatcher">
@@ -144,7 +163,7 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // III. Create an output
+  // IV. Create an output
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
