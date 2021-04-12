@@ -32,7 +32,7 @@
   <conj_export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>patterns.csv</corpusFile>
-    <lines>documents.sections.(layer:patterns)</lines>
+    <lines>documents.sections.(layer:conjunctions)</lines>
     <headers>"bsv","context", "word", "context", "location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
@@ -82,7 +82,7 @@
   </vocabulary>
 
 
-
+  <!-- TODO II. divide score to simply tf -->
   <!-- calculate tf-idf -->
   <tdidf class="KeywordsSelector">
     <outFile>output/tfidf.csv</outFile>
@@ -92,6 +92,9 @@
     <scoreThreshold>-1000</scoreThreshold>
     <scoreFunction>tfidf</scoreFunction>
   </tdidf>
+
+
+  <!-- TODO III. topic modelling  -->
 </alvisnlp-plan>
 
 

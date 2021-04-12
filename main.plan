@@ -27,12 +27,10 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
     <read-html href="modules/read-html.plan">
-      <sourcePath>resources/Corpus-v-08-04-21</sourcePath>
+      <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
     </read-html>
 
 
-    <!-- 11 326 matches  -->
-    <!-- 11 540 matches  -->
 
 
   <!--
@@ -87,86 +85,18 @@
     -->
 
 
+    <patterns href="modules/find-patterns.plan"/>
+    <overlaps class="RemoveOverlaps">
+      <layerName>conjunctions</layerName>
+    </overlaps>
 
-    <!-- find conjunction patterns  -->
-    <conjunction class="PatternMatcher">
-      <pattern>
-
-
-        (
-        [ @pos ^= "DET:ART" ]*
-        [ @pos ^= "N" and inside:fcu ]
-        [ @pos ^= "PUN" and @lemma ^=","]
-        )*
-
-        [ @pos ^= "DET:ART" ]*
-        [ @pos ^= "N" and inside:fcu]
-
-        [ @pos ^= "KON" and @lemma ^= "et" or @lemma == ","]
-
-        [ @pos ^= "DET:ART" ]*
-        [ @pos ^= "N" and inside:fcu]
-
-      </pattern>
-      <actions>
-        <createAnnotation layer="patterns"/>
-      </actions>
-      <constantAnnotationFeatures>type=CONJ_PATTERN</constantAnnotationFeatures>
-    </conjunction>
-
-
-    <bbch class="PatternMatcher">
-      <pattern>
-
-        <!--
-
-        Variations :
-
-        Stade 00 BBCH
-        BBCH
-        BBCH-00
-        BBCH-00 et 01
-        BBCH : Stade 00
-
-        -->
-
-        (
-          [ @form ^= "Stade" ]?
-          [ @form =~ "[0-9]{2}" ]
-        )?
-
-
-        [ @form ^= "BBCH" ]
-
-
-        (
-          [ @form == "-" ]?
-          [ @form =~ "[0-9]{2}" ]
-          ([ @form == "et" ]
-          [ @form =~ "[0-9]{2}" ])?
-        )?
-
-
-        (
-          [ @form == ":" ]
-          [ @form ^= "Stade" ]
-          [ @form =~ "[0-9]{2}" ]
-        )?
-      </pattern>
-      <actions>
-        <createAnnotation layer="bbch"/>
-      </actions>
-      <constantAnnotationFeatures>type=BBCH</constantAnnotationFeatures>
-    </bbch>
-
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  // IV. Create an output
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // IV. Create an output
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+    -->
     <export href="modules/export.plan"/>
 
 
