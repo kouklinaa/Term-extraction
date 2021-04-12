@@ -31,7 +31,7 @@
 
   <conj_export class="TabularExport">
     <outDir>output</outDir>
-    <corpusFile>patterns.csv</corpusFile>
+    <corpusFile>conjunctions.csv</corpusFile>
     <lines>documents.sections.(layer:conjunctions)</lines>
     <headers>"bsv","context", "word", "context", "location","features"</headers>
     <columns separator=";">
