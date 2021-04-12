@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<!-- TODO I. split patterns, rename types -->
+
 <alvisnlp-plan id="patterns">
 
   <!--
@@ -18,15 +18,14 @@
 
       <!-- nom  -->
       [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]([ @pos ^= "PRP" or @pos ^= "PRP:det"][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
 
       <!-- et -->
       [ @pos ^= "KON" and @lemma ^= "et"]
 
       <!-- nom  -->
       [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM"]([ @pos ^= "PRP" or @pos ^= "PRP:det"][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
-
+      [ @pos ^= "NOM"]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
 
     </pattern>
     <actions>
@@ -43,22 +42,13 @@
       <!-- nom , nom, nom, -->
       (
         [ @pos ^= "DET:ART" ]?
-        [ @pos ^= "NOM"  ] ([ @pos ^= "PRP" or @pos ^= "PRP:det"][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
+        [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
         [ @pos ^= "PUN" and @lemma ^=","]
       )+
 
-
       <!-- nom  -->
       [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]([ @pos ^= "PRP" or @pos ^= "PRP:det"][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
-
-
-      <!-- et nom  -->
-      (
-        [ @pos ^= "KON" and @lemma ^= "et"]
-        [ @pos ^= "DET:ART" ]?
-        [ @pos ^= "NOM" ]([ @pos ^= "PRP" or @pos ^= "PRP:det"][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
-      )?
+      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
 
     </pattern>
     <actions>
@@ -66,6 +56,36 @@
     </actions>
     <constantAnnotationFeatures>type=N_PUN_N</constantAnnotationFeatures>
   </N_PUN_N>
+
+
+
+
+  <N_PUN_N_KON_N class="PatternMatcher">
+    <pattern>
+
+      <!-- nom , nom, nom, -->
+      (
+        [ @pos ^= "DET:ART" ]?
+        [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
+        [ @pos ^= "PUN" and @lemma ^=","]
+      )+
+
+      <!-- nom  -->
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+      <!-- et nom  -->
+
+      [ @pos ^= "KON" and @lemma ^= "et"]
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="conjunctions"/>
+    </actions>
+    <constantAnnotationFeatures>type=N_PUN_N_KON_N</constantAnnotationFeatures>
+  </N_PUN_N_KON_N>
 
 
 
@@ -77,7 +97,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-
+<!-- TODO I. split patterns, rename types -->
 
 <bbch class="PatternMatcher">
   <pattern>
