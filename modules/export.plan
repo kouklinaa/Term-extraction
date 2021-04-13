@@ -16,7 +16,7 @@
   <export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>export.csv</corpusFile>
-    <lines>documents.sections.(layer:fcu | layer:stages)</lines>
+    <lines>documents.sections.(layer:fcu | layer:stages | layer:bbch_matched)</lines>
     <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->

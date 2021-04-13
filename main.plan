@@ -97,6 +97,25 @@
       <layerName>bbch</layerName>
     </overlaps_bbch>
 
+    <project-bbch class="RDFProjector">
+      <subject layer="bbch" feature="form"/>
+      <source>resources/stades.rdf</source>
+      <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+      <targetLayerName>bbch_matched</targetLayerName>
+      <language>fr</language>
+      <uriFeatureName>uri</uriFeatureName>
+      <wordStartCaseInsensitive/>
+      <skipWhitespace/>
+      <skipConsecutiveWhitespaces/>
+      <allowJoined/>
+      <constantAnnotationFeatures>type=matched</constantAnnotationFeatures>
+    </project-bbch>
+
+    <!-- <vocab class="AggregateValues">
+      <entries>documents.sections.layer:bbch</entries>
+      <key>@form</key>
+      <outFile>output/bbch.txt</outFile>
+    </vocab> -->
 
 
     <!-- save matching  elements from the layer conjunctions  -->
