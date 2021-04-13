@@ -25,7 +25,8 @@
 
       <!-- nom  -->
       [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM"]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
+      [ @pos ^= "NOM"]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[
+       @pos ^= "NOM" or @pos ^= "NAM" ])?
 
     </pattern>
     <actions>
@@ -97,51 +98,152 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<!-- TODO I. split patterns, rename types -->
-
+<!-- ?? BBCH ?? -->
 <bbch class="PatternMatcher">
   <pattern>
-
-    <!--
-
-    Variations :
-
-    Stade 00 BBCH
-    BBCH
-    BBCH-00
-    BBCH-00 et 01
-    BBCH : Stade 00
-
-    -->
-
-    (
-      [ @form ^= "Stade" ]?
-      [ @form =~ "[0-9]{2}" ]
-    )?
-
-
-    [ @form ^= "BBCH" ]
-
-
-    (
-      [ @form == "-" ]?
-      [ @form =~ "[0-9]{2}" ]
-      ([ @form == "et" ]
-      [ @form =~ "[0-9]{2}" ])?
-    )?
-
-
-    (
-      [ @form == ":" ]
-      [ @form ^= "Stade" ]
-      [ @form =~ "[0-9]{2}" ]
-    )?
+      [ @form ^= "BBCH" ]
   </pattern>
   <actions>
     <createAnnotation layer="bbch"/>
   </actions>
   <constantAnnotationFeatures>type=BBCH</constantAnnotationFeatures>
 </bbch>
+
+
+
+<!-- type : Stade 00 BBCH -->
+<stade_dd_bbch class="PatternMatcher">
+  <pattern>
+      [ @form ^= "Stade" ]?
+      [ @form =~ "[0-9]{2}" ]
+      [ @form ^= "BBCH" ]
+  </pattern>
+  <actions>
+    <createAnnotation layer="bbch"/>
+  </actions>
+  <constantAnnotationFeatures>type=stade_dd_BBCH</constantAnnotationFeatures>
+</stade_dd_bbch>
+
+
+
+
+
+<!-- type : BBCH-00 -->
+<bbch_dd class="PatternMatcher">
+  <pattern>
+      [ @form =^ "BBCH" ]
+      [ @form == "-" ]?
+      [ @form =~ "[0-9]{2}" ]
+  </pattern>
+  <actions>
+    <createAnnotation layer="bbch"/>
+  </actions>
+  <constantAnnotationFeatures>type=BBCH_dd</constantAnnotationFeatures>
+</bbch_dd>
+
+
+
+<!-- type : bbch 13, 18 ou/et/à 32  -->
+<bbch_dd_kon_dd class="PatternMatcher">
+  <pattern>
+    [ @form =^ "BBCH" ]
+    [ @form == "-" ]?
+    [ @form =~ "[0-9]{2}" ]
+
+    (
+      [ @pos ^= "PUN"]
+      [ @form =~ "[0-9]{2}" ]
+    )*
+
+    [ @lemma == "ou" or @lemma == "et" or @lemma == "à"]
+    [ @form =~ "[0-9]{2}" ]
+
+  </pattern>
+  <actions>
+    <createAnnotation layer="bbch"/>
+  </actions>
+  <constantAnnotationFeatures>type=BBCH_dd_kon_dd</constantAnnotationFeatures>
+</bbch_dd_kon_dd>
+
+
+<!-- type : BBCH : Stade 00 -->
+<bbch_stade_dd class="PatternMatcher">
+  <pattern>
+    [ @form ^= "BBCH" ]
+    [ @form == ":" ]
+    [ @form ^= "Stade" ]
+    [ @form =~ "[0-9]{2}" ]
+  </pattern>
+  <actions>
+    <createAnnotation layer="bbch"/>
+  </actions>
+  <constantAnnotationFeatures>type=BBCH_stade_dd</constantAnnotationFeatures>
+</bbch_stade_dd>
+
+
+<!-- type : Stades BBCH (0 à 100) 00 01-->
+<bbch_tableau class="PatternMatcher">
+  <pattern>
+
+    [ @form == "Stades"]
+    [ @form ^= "BBCH" ]
+
+      [ @form == "(" ]
+      [ @form == "0" ]
+      [ @form == "à" ]
+      [ @form == "100" ]
+      [ @form == ")" ]
+
+    [ @form =~ "[0-9]{2}" ]+
+
+  </pattern>
+  <actions>
+    <createAnnotation layer="bbch"/>
+  </actions>
+  <constantAnnotationFeatures>type=BBCH_tableau</constantAnnotationFeatures>
+</bbch_tableau>
+
+
+<!-- type : Stade BBCH	Stade physio
+61	R1
+61	F1
+-->
+<bbch_tableau_stade_physio class="PatternMatcher">
+  <pattern>
+    [ @form == "Stade"]
+    [ @form ^= "BBCH" ]
+    [ @form == "Stade"]
+    [ @form == "physio"]
+    (
+      [ @form =~ "[0-9]{2}" ]*
+      [ @form =~ "[A-Z][0-9]" ]*
+    )+
+  </pattern>
+  <actions>
+    <createAnnotation layer="bbch"/>
+  </actions>
+  <constantAnnotationFeatures>type=BBCH_tableau_stade_physio</constantAnnotationFeatures>
+</bbch_tableau_stade_physio>
+
+<!-- TODO I. le stade BBCH entre parenthèses.
+
+http://ontology.inrae.fr/bsv/html/Corpus/Tests/GrandesCultures/pdf/BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad.pdf
+
+-->
+
+
+<!-- <par_bbch_par class="PatternMatcher">
+  <pattern>
+    ([ @form == "(" and @pos == "PUN"]
+    [ @form =~ "[0-9]{2}" and @pos == "NUM"]
+    [ @form == ")" and @pos == "PUN"])
+  </pattern>
+  <actions>
+    <createAnnotation layer="bbch"/>
+  </actions>
+  <constantAnnotationFeatures>type=(_BBCH_)</constantAnnotationFeatures>
+</par_bbch_par> -->
+
 
 
 </alvisnlp-plan>

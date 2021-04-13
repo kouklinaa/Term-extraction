@@ -2,6 +2,16 @@
 
 <alvisnlp-plan id="export">
 
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  FCU
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
   <!-- save exctracted terms -->
   <export class="TabularExport">
     <outDir>output</outDir>
@@ -28,11 +38,18 @@
     <trueCSV/>
   </export>
 
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Conjunctions
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
 
   <conj_export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>conjunctions.csv</corpusFile>
-    <lines>documents.sections.(layer:conjunctions)</lines>
+    <lines>documents.sections.layer:conjunctions[inside:fcu]</lines>
     <headers>"bsv","context", "word", "context", "location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
@@ -51,10 +68,20 @@
     <trueCSV/>
   </conj_export>
 
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Stades
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
   <bbch_export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>bbch.csv</corpusFile>
-    <lines>documents.sections.(layer:bbch)</lines>
+    <lines>documents.sections.layer:bbch</lines>
     <headers>"bsv","context", "word", "context", "location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
@@ -74,12 +101,30 @@
   </bbch_export>
 
 
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Tokenized words
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
   <!-- all tokenized words in corpus -->
   <vocabulary class="AggregateValues">
     <entries>documents.sections.layer:words</entries>
     <key>@lemma</key>
     <outFile>output/words.txt</outFile>
   </vocabulary>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Scores
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
 
 
   <!-- TODO II. divide score to simply tf -->

@@ -76,6 +76,8 @@
       <deleteElements/>
     </remove-equal>
 
+
+
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -86,9 +88,28 @@
 
 
     <patterns href="modules/find-patterns.plan"/>
-    <overlaps class="RemoveOverlaps">
+
+    <overlaps_conj class="RemoveOverlaps">
       <layerName>conjunctions</layerName>
-    </overlaps>
+    </overlaps_conj>
+
+    <overlaps_bbch class="RemoveOverlaps">
+      <layerName>bbch</layerName>
+    </overlaps_bbch>
+
+
+
+    <!-- save matching  elements from the layer conjunctions  -->
+    <!-- <match-conj class="Action">
+      <target>documents.sections.layer:conjunctions[inside:fcu]</target>
+      <action>set:feat:match("fcu")</action>
+      <setFeatures/>
+    </match-conj> -->
+
+
+
+
+
 
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
