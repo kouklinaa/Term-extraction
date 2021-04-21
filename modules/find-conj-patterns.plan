@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<alvisnlp-plan id="patterns">
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Conjunctions
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <N_KON_N class="PatternMatcher">
+    <pattern>
+
+      <!-- nom  -->
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+      <!-- et -->
+      [ @pos ^= "KON" and @lemma ^= "et"]
+
+      <!-- nom  -->
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM"]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[
+       @pos ^= "NOM" or @pos ^= "NAM" ])?
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="conjunctions"/>
+    </actions>
+    <constantAnnotationFeatures>type=N_KON_N</constantAnnotationFeatures>
+  </N_KON_N>
+
+
+
+  <N_PUN_N class="PatternMatcher">
+    <pattern>
+
+      <!-- nom , nom, nom, -->
+      (
+        [ @pos ^= "DET:ART" ]?
+        [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
+        [ @pos ^= "PUN" and @lemma ^=","]
+      )+
+
+      <!-- nom  -->
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="conjunctions"/>
+    </actions>
+    <constantAnnotationFeatures>type=N_PUN_N</constantAnnotationFeatures>
+  </N_PUN_N>
+
+
+
+
+  <N_PUN_N_KON_N class="PatternMatcher">
+    <pattern>
+
+      <!-- nom , nom, nom, -->
+      (
+        [ @pos ^= "DET:ART" ]?
+        [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
+        [ @pos ^= "PUN" and @lemma ^=","]
+      )+
+
+      <!-- nom  -->
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+      <!-- et nom  -->
+
+      [ @pos ^= "KON" and @lemma ^= "et"]
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="conjunctions"/>
+    </actions>
+    <constantAnnotationFeatures>type=N_PUN_N_KON_N</constantAnnotationFeatures>
+  </N_PUN_N_KON_N>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Align
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <overlaps_conj class="RemoveOverlaps">
+    <layerName>conjunctions</layerName>
+  </overlaps_conj>
+
+  <!-- save matching  elements from the layer conjunctions  -->
+  <match-conj class="Action">
+    <target>documents.sections.layer:conjunctions[inside:fcu]</target>
+    <action>set:feat:match("fcu")</action>
+    <setFeatures/>
+  </match-conj>
+
+
+  <conj_vocab class="AggregateValues">
+    <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
+    <key>str:replace(@form, inside:fcu, "[MASK]")</key>
+    <outFile>output/conj.txt</outFile>
+  </conj_vocab>
+
+</alvisnlp-plan>

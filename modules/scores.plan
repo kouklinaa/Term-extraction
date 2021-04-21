@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="scores">
+
+
+  <param name="outFile">
+    <alias module="scores" param="outFile"/>
+  </param>
+
+  <param name="keywords">
+    <alias module="scores" param="keywords"/>
+  </param>
+
+  <param name="scoreFunction">
+    <alias module="scores" param="scoreFunction"/>
+  </param>
+
+
+  <scores class="KeywordsSelector">
+    <documentId>str:replace(str:basename(@id), ".html", "")</documentId>
+    <keywordForm>@skos-prefLabel</keywordForm>
+    <scoreThreshold>-1000</scoreThreshold>
+  </scores>
+
+
+
+</alvisnlp-plan>

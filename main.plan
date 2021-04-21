@@ -6,15 +6,12 @@
 
   Reads html corpus,
   Loads vocabularies (rdf)
-  Projects lemmatized terms on data,
-  Stores results in a csv file
+  Projects terms,
+  Stores results
 
 
   Time of execution :
-  9,53s user
-  1,88s system
-  166% cpu
-  6,862 total
+
 
   -->
 
@@ -26,23 +23,27 @@
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
+
     <read-html href="modules/read-html.plan">
       <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
     </read-html>
 
 
-
-
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // II. Match terms
+  // II. Segment text
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
     <!-- load segmentation plan -->
     <import>res://segmentation.plan</import>
+
+
+    <!-- <tokens class="WoSMig">
+      <balancedPunctuations>)</balancedPunctuations>
+    </tokens> -->
 
     <!-- remove foreign words with label <FW> -->
     <remove-pos class="Action">
@@ -51,11 +52,22 @@
       <setFeatures/>
     </remove-pos>
 
+
     <!-- load treetagger -->
     <execute-treetagger href="modules/execute-treetagger.plan">
       <parFile>../../work/inrae/outils/tree-tagger/lib/french.par</parFile>
       <treeTaggerExecutable>../../work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
     </execute-treetagger>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // III. Match terms
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
 
     <!-- match fcu vocabulary-->
     <project-fcu href="modules/project-lemma.plan">
@@ -81,49 +93,13 @@
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // III. Find patterns
+    // IV. Find conjunctions
     //
     ///////////////////////////////////////////////////////////////////////////////////////
     -->
 
 
-    <patterns href="modules/find-patterns.plan"/>
-
-    <overlaps_conj class="RemoveOverlaps">
-      <layerName>conjunctions</layerName>
-    </overlaps_conj>
-
-    <overlaps_bbch class="RemoveOverlaps">
-      <layerName>bbch</layerName>
-    </overlaps_bbch>
-
-    <project-bbch class="RDFProjector">
-      <subject layer="bbch" feature="form"/>
-      <source>resources/stades.rdf</source>
-      <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
-      <targetLayerName>bbch_matched</targetLayerName>
-      <language>fr</language>
-      <uriFeatureName>uri</uriFeatureName>
-      <wordStartCaseInsensitive/>
-      <skipWhitespace/>
-      <skipConsecutiveWhitespaces/>
-      <allowJoined/>
-      <constantAnnotationFeatures>type=matched</constantAnnotationFeatures>
-    </project-bbch>
-
-    <!-- <vocab class="AggregateValues">
-      <entries>documents.sections.layer:bbch</entries>
-      <key>@form</key>
-      <outFile>output/bbch.txt</outFile>
-    </vocab> -->
-
-
-    <!-- save matching  elements from the layer conjunctions  -->
-    <!-- <match-conj class="Action">
-      <target>documents.sections.layer:conjunctions[inside:fcu]</target>
-      <action>set:feat:match("fcu")</action>
-      <setFeatures/>
-    </match-conj> -->
+    <conj-patterns href="modules/find-conj-patterns.plan"/>
 
 
 
@@ -133,7 +109,21 @@
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // IV. Create an output
+    // V. Find bbbch
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+
+    <bbch-patterns href="modules/find-bbch-patterns.plan"/>
+
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // VI. Save results
     //
     ///////////////////////////////////////////////////////////////////////////////////////
     -->
@@ -141,3 +131,40 @@
 
 
 </alvisnlp-plan>
+
+
+
+
+
+    <!-- save matching  elements from the layer conjunctions  -->
+    <!-- <rem-conj class="Action">
+      <target>documents.sections.layer:fcu[outside:conjunctions]</target>
+      <action>set:feat:match("conj")</action>
+      <setFeatures/>
+    </rem-conj> -->
+
+
+
+    <!-- delete repeating elements from the layer stages  -->
+    <!-- <remove-equal class="Action">
+      <target>documents.sections.(layer:conjunctions[@match=="fcu"]| layer:fcu[@match=="conj"])</target>
+      <action>delete</action>
+      <deleteElements/>
+    </remove-equal> -->
+
+    <!-- <layer class="MergeLayers">
+      <sourceLayerNames>conjunctions[@match == "fcu"],fcu[@match == "conj"]</sourceLayerNames>
+      <targetLayerName>conj_matched</targetLayerName>
+    </layer> -->
+
+
+
+
+    <!-- <compare class="CompareElements">
+      <sections>documents.sections</sections>
+      <reference>layer:conjunctions[@match == "fcu"]</reference>
+      <predicted>layer:fcu[@match == "conj"]</predicted>
+      <face>@form</face>
+      <outFile>output/compare.txt</outFile>
+      <similarity>strict</similarity>
+    </compare> -->

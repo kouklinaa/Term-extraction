@@ -16,7 +16,7 @@
   <export class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>export.csv</corpusFile>
-    <lines>documents.sections.(layer:fcu | layer:stages | layer:bbch_matched)</lines>
+    <lines>documents.sections.(layer:fcu | layer:stages)</lines>
     <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
@@ -72,7 +72,7 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  //  Stades
+  //  Stages
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
@@ -96,19 +96,28 @@
       start ^ "-" ^ end;
       <!-- features  -->
       str:join:', '(nav:features, @key ^ "=" ^ @value)
+
     </columns>
     <trueCSV/>
   </bbch_export>
 
 
+  <vocab class="AggregateValues">
+    <entries>documents.sections.layer:bbch</entries>
+    <key>@form</key>
+    <outFile>output/bbch.txt</outFile>
+  </vocab>
+
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  //  Tokenized words
+  //  Save tokenized words
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
+
+
   <!-- all tokenized words in corpus -->
   <vocabulary class="AggregateValues">
     <entries>documents.sections.layer:words</entries>
@@ -118,28 +127,32 @@
 
 
 
+
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  //  Scores
+  //  Save scores
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
 
-  <!-- TODO II. divide score to simply tf -->
-  <!-- calculate tf-idf -->
-  <tdidf class="KeywordsSelector">
+
+  <tf_idf href="modules/scores.plan">
     <outFile>output/tfidf.csv</outFile>
     <keywords>sections.layer:fcu</keywords>
-    <documentId>str:replace(str:basename(@id), ".html", "")</documentId>
-    <keywordForm>@skos-prefLabel</keywordForm>
-    <scoreThreshold>-1000</scoreThreshold>
     <scoreFunction>tfidf</scoreFunction>
-  </tdidf>
+  </tf_idf>
+
+  <bm25 href="modules/scores.plan">
+    <outFile>output/bm25.csv</outFile>
+    <keywords>sections.layer:fcu</keywords>
+    <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
+  </bm25>
 
 
-  <!-- TODO III. topic modelling  -->
+  <!-- TODO II. topic modelling  -->
+
 </alvisnlp-plan>
 
 

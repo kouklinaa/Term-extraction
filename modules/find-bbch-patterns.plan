@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="bbch-patterns">
+
+
+
+
+  <!-- ?? BBCH ?? -->
+  <bbch class="PatternMatcher">
+    <pattern>
+    [ @form ^= "BBCH" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer = "bbch"/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH</constantAnnotationFeatures>
+  </bbch>
+
+  <insert-space class="Action">
+    <target>documents.sections.layer:bbch[@type == "BBCH"]</target>
+    <action>set:feat:canonical-form(str:replace(@form, "BBCH", "BBCH "))</action>
+    <setFeatures/>
+  </insert-space>
+
+
+
+
+  <!-- BBCH-00 -->
+  <BBCH_DD class="PatternMatcher">
+    <pattern>
+      [ @form =^ "BBCH" ]
+      [ @form == "-"]?
+      (number:[ @form =~ "[0-9]{2}" ])
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH-DD</constantAnnotationFeatures>
+  </BBCH_DD>
+
+
+
+<!-- Stade 00 BBCH -->
+  <STADE_DD_BBCH class="PatternMatcher">
+    <pattern>
+      [ @form ^= "Stade" ]?
+      (number1:[ @form =~ "[0-9]{2}" ])
+      [ @form ^= "BBCH" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number1)'/>
+    </actions>
+    <constantAnnotationFeatures>type=STADE_DD_BBCH</constantAnnotationFeatures>
+  </STADE_DD_BBCH>
+
+
+
+<!-- BBCH : Stade 00 -->
+  <BBCH_STADE_DD class="PatternMatcher">
+    <pattern>
+      [ @form ^= "BBCH" ]
+      [ @form == ":" ]
+      [ @form ^= "Stade" ]
+      (number2 : [ @form =~ "[0-9]{2}" ])
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number2)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_STADE_DD</constantAnnotationFeatures>
+  </BBCH_STADE_DD>
+
+
+
+  <!-- BBCH 17 à 19-->
+  <!-- BBCH 17 - 19-->
+  <BBCH_RANGE class="PatternMatcher">
+    <pattern>
+      [ @form == "BBCH" ]
+      [ @form == "-"]?
+      (number3 : [ @form =~ "[0-9]{2}" ])
+
+      [@form == "à" or @form == "-"]
+      (number4 : [ @form =~ "[0-9]{2}" ])
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='number=group:number3,canonical-form=("BBCH " ^ group:number3)'/>
+      <createAnnotation layer="bbch" features='number=group:number4,canonical-form=("BBCH " ^ group:number4)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_RANGE</constantAnnotationFeatures>
+  </BBCH_RANGE>
+
+
+
+  <!-- BBCH-69 et 73 -->
+  <!-- BBCH 13, 18 ou 32 -->
+  <BBCH_DD_KON_DD class="PatternMatcher">
+    <pattern>
+      [ @form =^ "BBCH" ]
+      [ @form == "-"]?
+      (number5 : [ @form =~ "[0-9]{2}" ])
+
+      [@lemma == "et" or @lemma == "ou" or @lemma == ","]
+      (number6 : [ @form =~ "[0-9]{2}" ])
+
+      [@lemma == "et" or @lemma == "ou" or @lemma == ","]?
+      (number7 : [ @form =~ "[0-9]{2}" ])?
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number5)'/>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number6)'/>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number7)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_DD_KON_DD</constantAnnotationFeatures>
+  </BBCH_DD_KON_DD>
+
+
+
+
+  <BBCH_TABLEAU class="PatternMatcher">
+    <pattern>
+      [ @form == "Stades"]
+      [ @form ^= "BBCH" ]
+      [ @form == "(" ]
+      [ @form == "0" ]
+      [ @form == "à" ]
+      [ @form == "100" ]
+      [ @form == ")" ]
+      (number8 : [ @form =~ "[0-9]{2}" ])
+      (number9 : [ @form =~ "[0-9]{2}" ])?
+      (number10 : [ @form =~ "[0-9]{2}" ])?
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number8)'/>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number9)'/>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number10)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_TABLEAU</constantAnnotationFeatures>
+  </BBCH_TABLEAU>
+
+
+
+
+  <BBCH_TABLEAU_PHYSIO class="PatternMatcher">
+    <pattern>
+      [ @form == "Stade"]
+      [ @form ^= "BBCH" ]
+      [ @form == "Stade"]
+      [ @form == "physio"]
+
+      (number11 : [ @form =~ "[0-9]{2}" ])
+      [ @form =~ "[A-Z][0-9]" ] *
+
+      (number12 : [ @form =~ "[0-9]{2}" ])?
+      [ @form =~ "[A-Z][0-9]" ] *
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number11)'/>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number12)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_TABLEAU_PHYSIO</constantAnnotationFeatures>
+  </BBCH_TABLEAU_PHYSIO>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Align
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+
+
+
+  <!-- remove repeated terms -->
+  <overlaps_bbch class="RemoveOverlaps">
+    <layerName>bbch</layerName>
+    <removeEqual>false</removeEqual>
+  </overlaps_bbch>
+
+
+  <!-- remove empty extractions -->
+  <!-- <delete-empty-bbch class="Action">
+    <target>documents.sections.leyer:bbch[@canonical-form == "BBCH"]</target>
+    <action>delete</action>
+    <deleteElements/>
+  </delete-empty-bbch> -->
+
+
+  <!-- align extracted stages with their prefLabel -->
+  <project-bbch class="RDFProjector">
+    <subject layer="bbch" feature="canonical-form"/>
+    <source>resources/stades.rdf</source>
+    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+    <language>fr</language>
+    <uriFeatureName>uri</uriFeatureName>
+    <targetLayerName>stages</targetLayerName>
+    <wordStartCaseInsensitive/>
+    <allowJoined/>
+    <constantAnnotationFeatures>type=GO_BBCH</constantAnnotationFeatures>
+  </project-bbch>
+
+
+
+
+
+
+  <!-- TODO I. le stade BBCH entre parenthèses. http://ontology.inrae.fr/bsv/html/Corpus/Tests/GrandesCultures/pdf/BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad.pdf -->
+
+  <!-- <par_bbch_par class="PatternMatcher"> <pattern> ([ @form == "(" and @pos == "PUN"] [ @form =~ "[0-9]{2}" and @pos == "NUM"] [ @form == ")" and @pos == "PUN"]) </pattern> <actions> <createAnnotation layer="bbch"/> </actions>
+  <constantAnnotationFeatures>type=(_BBCH_)</constantAnnotationFeatures> </par_bbch_par> -->
+
+</alvisnlp-plan>
