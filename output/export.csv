@@ -2535,6 +2535,27 @@
 "BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"u-Charentes Grandes"	"cultures"	"Culture"	"N°10 du 16 avril 20"	"33280-33288"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Crop, skos-prefLabel=Culture, form=cultures"
 "BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	": 7 à 12 feuilles ("	"BBCH 17 à 19"	"stade secondaire 17 de la vigne"	"). Surveillez l'arri"	"1229-1241"	"type=GO_BBCH, uri=http://ontology.inrae.fr/ppdo/resource/grapevine#bbch_grapevine_secondaryStage_BBCH17, skos-prefLabel=stade secondaire 17 de la vigne, form=BBCH 17 à 19"
 "BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	": 7 à 12 feuilles ("	"BBCH 17 à 19"	"stade secondaire 19 de la vigne"	"). Surveillez l'arri"	"1229-1241"	"type=GO_BBCH, uri=http://ontology.inrae.fr/ppdo/resource/grapevine#bbch_grapevine_secondaryStage_BBCH19, skos-prefLabel=stade secondaire 19 de la vigne, form=BBCH 17 à 19"
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"quelques situations"	"(en 17).
+Tournesol
+ Stade : semis en cours. Limaces : à surveiller. Oiseaux : à surveiller.
+Blés d'hiver
+
+Stade : s'étalent de 2 nœuds (32) à DFP (37).Piétin verse : hors période de gestion pour tous les blés.Septoriose : en progression, risque faible à modéré selon les situations.Rouilles et oïdium : encore présents, à surveiller sur les variétés sensibles. Pucerons : signalés sur feuilles mais hors période de risque.
+Orges d'hiver
+ Stade : majorité à DFP (37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
+Maïs
+ Stade : semis en cours. Limaces : risque faible avec les faibles pluies annoncées.
+Nota : le stade BBCH est entre parenthèses"	"stade secondaire 17 de la vigne"	". Nombre de parcelle"	"1546-2461"	"type=GO_BBCH, uri=http://ontology.inrae.fr/ppdo/resource/grapevine#bbch_grapevine_secondaryStage_BBCH17, skos-prefLabel=stade secondaire 17 de la vigne, form=(en 17).
+Tournesol
+ Stade : semis en cours. Limaces : à surveiller. Oiseaux : à surveiller.
+Blés d'hiver
+
+Stade : s'étalent de 2 nœuds (32) à DFP (37).Piétin verse : hors période de gestion pour tous les blés.Septoriose : en progression, risque faible à modéré selon les situations.Rouilles et oïdium : encore présents, à surveiller sur les variétés sensibles. Pucerons : signalés sur feuilles mais hors période de risque.
+Orges d'hiver
+ Stade : majorité à DFP (37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
+Maïs
+ Stade : semis en cours. Limaces : risque faible avec les faibles pluies annoncées.
+Nota : le stade BBCH est entre parenthèses"
 "BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"il 2019 3/16 Colza"	"Stade phénologique"	"stade de développement"	"et état de la cultu"	"4799-4817"	"type=GOL, uri=http://ontology.inrae.fr/ppdo/ontology/GrowthStage, skos-prefLabel=stade de développement, form=Stade phénologique"
 "BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"sé dès le stade F1 ("	"BBCH 60"	"stade secondaire 60 de la vigne"	"). Pour la période d"	"6130-6137"	"type=GO_BBCH, uri=http://ontology.inrae.fr/ppdo/resource/grapevine#bbch_grapevine_secondaryStage_BBCH60, skos-prefLabel=stade secondaire 60 de la vigne, form=BBCH 60"
 "BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"jusqu'au stade G4 ("	"BBCH 73"	"stade secondaire 73 de la vigne"	"). Seuil indicatif d"	"9705-9712"	"type=GO_BBCH, uri=http://ontology.inrae.fr/ppdo/resource/grapevine#bbch_grapevine_secondaryStage_BBCH73, skos-prefLabel=stade secondaire 73 de la vigne, form=BBCH 73"
@@ -2596,6 +2617,49 @@
 "BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b"	"html"	"e-Aquitaine Grandes"	"cultures"	"Culture"	"/ Edition Poitou-Ch"	"13627-13635"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Crop, skos-prefLabel=Culture, form=cultures"
 "BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b"	"html"	"protection de leurs"	"cultures"	"Culture"	". Celle-ci se décide"	"14545-14553"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Crop, skos-prefLabel=Culture, form=cultures"
 "BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b"	"html"	"u-Charentes Grandes"	"cultures"	"Culture"	"N°19 du 18 juin 201"	"15113-15121"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Crop, skos-prefLabel=Culture, form=cultures"
+"BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b"	"html"	"té à 10 12 feuilles"	"(19).
+Pyrale : le pic de vol dans les Charentes est en cours en dép. 79 et 86.
+Animateur filières
+Khalid KOUBAÏTI FREDON Poitou-Charentes
+khalid.koubaiti@fredonpc.fr
+Animateurs délégués
+Céréales à paille et Maïs Sandrine REGALDO et Romain TSCHEILLER / ARVALIS
+s.regaldo@arvalis.fr r.tscheiller@arvalis.fr
+Oléagineux Elodie TOURTON / Terres Inovia
+e.tourton@terresinovia.fr
+Protéagineux Agathe PENANT / Terres Inovia
+a.penant@terresinovia.fr
+Directeur de publication
+Dominique GRACIET Président de la Chambre Régionale Nouvelle-Aquitaine Boulevard des Arcades 87060 LIMOGES Cedex 2 accueil@na.chambagri.fr
+Supervision
+DRAAF Service Régional de l'Alimentation Nouvelle-Aquitaine 22 Rue des Pénitents Blancs 87000 LIMOGES
+Supervision site de Poitiers
+Reproduction intégrale de ce bulletin autorisée. Reproduction partielle autorisée avec la mention"" extrait du bulletin de santé du végétal Nouvelle-Aquitaine Grandes cultures N°X du JJ/MM/AA ""
+Sésamie : vol variable, stades baladeurs dans le sud Poitou-Charentes.
+Cicadelle verte : faibles attaques.
+ Diabrotica : la surveillance est de mise. Cliquez si Vous souhaitez surveiller ce ravageur ?
+Nota : le stade BBCH est entre parenthèses"	"stade secondaire 19 de la vigne"	". Pois protéagineux"	"406-1590"	"type=GO_BBCH, uri=http://ontology.inrae.fr/ppdo/resource/grapevine#bbch_grapevine_secondaryStage_BBCH19, skos-prefLabel=stade secondaire 19 de la vigne, form=(19).
+Pyrale : le pic de vol dans les Charentes est en cours en dép. 79 et 86.
+Animateur filières
+Khalid KOUBAÏTI FREDON Poitou-Charentes
+khalid.koubaiti@fredonpc.fr
+Animateurs délégués
+Céréales à paille et Maïs Sandrine REGALDO et Romain TSCHEILLER / ARVALIS
+s.regaldo@arvalis.fr r.tscheiller@arvalis.fr
+Oléagineux Elodie TOURTON / Terres Inovia
+e.tourton@terresinovia.fr
+Protéagineux Agathe PENANT / Terres Inovia
+a.penant@terresinovia.fr
+Directeur de publication
+Dominique GRACIET Président de la Chambre Régionale Nouvelle-Aquitaine Boulevard des Arcades 87060 LIMOGES Cedex 2 accueil@na.chambagri.fr
+Supervision
+DRAAF Service Régional de l'Alimentation Nouvelle-Aquitaine 22 Rue des Pénitents Blancs 87000 LIMOGES
+Supervision site de Poitiers
+Reproduction intégrale de ce bulletin autorisée. Reproduction partielle autorisée avec la mention"" extrait du bulletin de santé du végétal Nouvelle-Aquitaine Grandes cultures N°X du JJ/MM/AA ""
+Sésamie : vol variable, stades baladeurs dans le sud Poitou-Charentes.
+Cicadelle verte : faibles attaques.
+ Diabrotica : la surveillance est de mise. Cliquez si Vous souhaitez surveiller ce ravageur ?
+Nota : le stade BBCH est entre parenthèses"
 "BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b"	"html"	"juin 2019 1/8 Maïs"	"Stade phénologique"	"stade de développement"	"et état de la cultu"	"2018-2036"	"type=GOL, uri=http://ontology.inrae.fr/ppdo/ontology/GrowthStage, skos-prefLabel=stade de développement, form=Stade phénologique"
 "BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"Animateurs délégués"	"Céréales à paille"	"céréale à paille"	"et Maïs Sandrine RE"	"417-434"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Cereales_paille, skos-prefLabel=céréale à paille, form=Céréales à paille"
 "BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"Animateurs délégués"	"Céréales"	"céréale"	"à paille et Maïs Sa"	"417-425"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Cereales, skos-prefLabel=céréale, form=Céréales"

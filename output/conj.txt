@@ -131,7 +131,6 @@ Vin, la Station
 [MASK], variété
 [MASK], zones
 allium et pomme de terre
-ananas, pêche, poire, abricot, figue et café
 arboriculture, maraîchage, pépinière
 aubergine et concombre
 aubergine et poivron
@@ -150,7 +149,7 @@ choux et dégât
 choux et navets
 choux, radis, roquette
 choux, salades, navets, scorsonères, céleri, phacélie, moutarde
-citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion
+citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
 colza , betteraves, pommes de terre, endives, haricots, pois
 colza, céréales
 colza, tournesol, pois

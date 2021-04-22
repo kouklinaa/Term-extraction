@@ -102,11 +102,11 @@
   </bbch_export>
 
 
-  <vocab class="AggregateValues">
+  <bbch_vocab class="AggregateValues">
     <entries>documents.sections.layer:bbch</entries>
     <key>@form</key>
     <outFile>output/bbch.txt</outFile>
-  </vocab>
+  </bbch_vocab>
 
 
   <!--
@@ -127,7 +127,6 @@
 
 
 
-
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
@@ -144,6 +143,18 @@
     <scoreFunction>tfidf</scoreFunction>
   </tf_idf>
 
+  <freq href="modules/scores.plan">
+    <outFile>output/freq.csv</outFile>
+    <keywords>sections.layer:fcu</keywords>
+    <scoreFunction type="freq"/>
+  </freq>
+
+  <freqrel href="modules/scores.plan">
+    <outFile>output/freq_rel.csv</outFile>
+    <keywords>sections.layer:fcu</keywords>
+    <scoreFunction type="freq" relative="true"/>
+  </freqrel>
+
   <bm25 href="modules/scores.plan">
     <outFile>output/bm25.csv</outFile>
     <keywords>sections.layer:fcu</keywords>
@@ -154,19 +165,3 @@
   <!-- TODO II. topic modelling  -->
 
 </alvisnlp-plan>
-
-
-
-<!--
-before:words{-3}.@form;
-before:words{-2}.@form;
-before:words{-1}.@form;
-after:words{0}.@form;
-after:words{1}.@form;
-after:words{2}.@form;
-
--->
-
-<!-- features  ;
-str:join:' '(inside:words, @lemma)
--->

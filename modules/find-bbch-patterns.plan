@@ -30,7 +30,7 @@
     <pattern>
       [ @form =^ "BBCH" ]
       [ @form == "-"]?
-      (number:[ @form =~ "[0-9]{2}" ])
+      (number:[ @form =~ "[0-9]{2}$" ])
     </pattern>
     <actions>
       <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number)'/>
@@ -38,6 +38,25 @@
     <constantAnnotationFeatures>type=BBCH-DD</constantAnnotationFeatures>
   </BBCH_DD>
 
+
+  <!-- BBCH-00) -->
+  <BBCH_DD_PAR class="PatternMatcher">
+    <pattern>
+      [ @form =^ "BBCH" ]
+      [ @form == "-"]?
+      [ @form =~ "[0-9]{2}"  and @form =^ ")" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch"/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH-DD-PAR</constantAnnotationFeatures>
+  </BBCH_DD_PAR>
+
+  <delete-par class="Action">
+    <target>documents.sections.layer:bbch[@type == "BBCH-DD-PAR"]</target>
+    <action>set:feat:canonical-form(str:replace(@form, ")", " "))</action>
+    <setFeatures/>
+  </delete-par>
 
 
 <!-- Stade 00 BBCH -->
@@ -163,6 +182,32 @@
 
 
 
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    //  Remove useless elements
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+
+
+  <!-- remove empty extractions -->
+  <delete-empty-bbch class="Action">
+    <target>documents.sections.layer:bbch[@canonical-form == "BBCH "]</target>
+    <action>delete</action>
+    <deleteElements/>
+  </delete-empty-bbch>
+
+  <!-- remove repeated terms -->
+  <overlaps_bbch class="RemoveOverlaps">
+    <layerName>bbch</layerName>
+    <removeEqual>false</removeEqual>
+  </overlaps_bbch>
+
+
+
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
@@ -172,22 +217,217 @@
   -->
 
 
+  <bbch_in_context50 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number13: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
 
 
+      [ true ]{5,50}
 
-  <!-- remove repeated terms -->
-  <overlaps_bbch class="RemoveOverlaps">
-    <layerName>bbch</layerName>
-    <removeEqual>false</removeEqual>
-  </overlaps_bbch>
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number13)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context50</constantAnnotationFeatures>
+  </bbch_in_context50>
+
+  <bbch_in_context100 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number13: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
 
 
-  <!-- remove empty extractions -->
-  <!-- <delete-empty-bbch class="Action">
-    <target>documents.sections.leyer:bbch[@canonical-form == "BBCH"]</target>
-    <action>delete</action>
-    <deleteElements/>
-  </delete-empty-bbch> -->
+      [ true ]{50,100}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number13)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context100</constantAnnotationFeatures>
+  </bbch_in_context100>
+
+  <bbch_in_context150 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number14: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
+
+
+      [ true ]{100,150}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number14)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context150</constantAnnotationFeatures>
+  </bbch_in_context150>
+
+  <bbch_in_context200 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number15: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
+
+
+      [ true ]{150,200}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number15)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context200</constantAnnotationFeatures>
+  </bbch_in_context200>
+
+  <bbch_in_context250 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number16: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
+
+
+      [ true ]{200,250}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number16)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context250</constantAnnotationFeatures>
+  </bbch_in_context250>
+
+  <bbch_in_context300 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number17: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
+
+
+      [ true ]{250,300}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number17)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context300</constantAnnotationFeatures>
+  </bbch_in_context300>
+
+  <bbch_in_context350 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number18: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
+
+
+      [ true ]{300,350}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number18)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context350</constantAnnotationFeatures>
+  </bbch_in_context350>
+
+  <bbch_in_context400 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number19: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
+
+
+      [ true ]{350,400}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number19)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context400</constantAnnotationFeatures>
+  </bbch_in_context400>
+
+  <bbch_in_context450 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number20: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
+
+
+      [ true ]{400,450}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number20)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context450</constantAnnotationFeatures>
+  </bbch_in_context450>
+
+  <bbch_in_context500 class="PatternMatcher">
+    <pattern>
+      [ @form == "("]
+      [ @form == "en"]?
+      (number21: [ @form =~ "[0-9]{2}"])
+      [ @form == ")" ]
+
+
+      [ true ]{450,500}
+
+      [ @form == "BBCH" ]
+      [ @form == "est" ]
+      [ @form == "entre" ]
+      [ @form == "parenthèses" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number21)'/>
+    </actions>
+    <constantAnnotationFeatures>type=BBCH_in_context500</constantAnnotationFeatures>
+  </bbch_in_context500>
+
+
 
 
   <!-- align extracted stages with their prefLabel -->
@@ -203,14 +443,5 @@
     <constantAnnotationFeatures>type=GO_BBCH</constantAnnotationFeatures>
   </project-bbch>
 
-
-
-
-
-
-  <!-- TODO I. le stade BBCH entre parenthèses. http://ontology.inrae.fr/bsv/html/Corpus/Tests/GrandesCultures/pdf/BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad.pdf -->
-
-  <!-- <par_bbch_par class="PatternMatcher"> <pattern> ([ @form == "(" and @pos == "PUN"] [ @form =~ "[0-9]{2}" and @pos == "NUM"] [ @form == ")" and @pos == "PUN"]) </pattern> <actions> <createAnnotation layer="bbch"/> </actions>
-  <constantAnnotationFeatures>type=(_BBCH_)</constantAnnotationFeatures> </par_bbch_par> -->
 
 </alvisnlp-plan>

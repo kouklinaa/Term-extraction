@@ -45,12 +45,6 @@
       <balancedPunctuations>)</balancedPunctuations>
     </tokens> -->
 
-    <!-- remove foreign words with label <FW> -->
-    <remove-pos class="Action">
-      <target>documents.sections.layer:words[@pos]</target>
-      <action>set:remove-feature:pos</action>
-      <setFeatures/>
-    </remove-pos>
 
 
     <!-- load treetagger -->
@@ -100,8 +94,6 @@
 
 
     <conj-patterns href="modules/find-conj-patterns.plan"/>
-
-
 
 
 
@@ -168,3 +160,19 @@
       <outFile>output/compare.txt</outFile>
       <similarity>strict</similarity>
     </compare> -->
+
+
+
+    <!--
+    before:words{-3}.@form;
+    before:words{-2}.@form;
+    before:words{-1}.@form;
+    after:words{0}.@form;
+    after:words{1}.@form;
+    after:words{2}.@form;
+
+    -->
+
+    <!-- features  ;
+    str:join:' '(inside:words, @lemma)
+    -->
