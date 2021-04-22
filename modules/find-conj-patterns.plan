@@ -100,6 +100,7 @@
 
   <overlaps_conj class="RemoveOverlaps">
     <layerName>conjunctions</layerName>
+    <removeEqual>false</removeEqual>
   </overlaps_conj>
 
   <!-- save matching  elements from the layer conjunctions  -->
@@ -110,10 +111,5 @@
   </match-conj>
 
 
-  <conj_vocab class="AggregateValues">
-    <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
-    <key>str:replace(@form, inside:fcu, "[MASK]")</key>
-    <outFile>output/conj.txt</outFile>
-  </conj_vocab>
 
 </alvisnlp-plan>

@@ -38,6 +38,12 @@
     <trueCSV/>
   </export>
 
+
+  <fcu_vocab class="AggregateValues">
+    <entries>documents.sections.layer:fcu</entries>
+    <key>@form</key>
+    <outFile>output/fcu.txt</outFile>
+  </fcu_vocab>
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
@@ -67,6 +73,18 @@
     </columns>
     <trueCSV/>
   </conj_export>
+
+  <conj_vocab class="AggregateValues">
+    <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
+    <key>@form</key>
+    <outFile>output/conj.txt</outFile>
+  </conj_vocab>
+
+  <conj_vocab_masked class="AggregateValues">
+    <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
+    <key>str:replace(@form, inside:fcu, "[MASK]")</key>
+    <outFile>output/conj_masked.txt</outFile>
+  </conj_vocab_masked>
 
 
   <!--
