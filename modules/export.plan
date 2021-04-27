@@ -15,8 +15,8 @@
   <!-- save exctracted terms -->
   <export class="TabularExport">
     <outDir>output</outDir>
-    <corpusFile>export.csv</corpusFile>
-    <lines>documents.sections.(layer:fcu | layer:stages)</lines>
+    <corpusFile>fcu.csv</corpusFile>
+    <lines>documents.sections.(layer:fcu)</lines>
     <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
