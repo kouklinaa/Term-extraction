@@ -25,7 +25,7 @@
   -->
 
     <read-html href="modules/read-html.plan">
-      <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
+      <sourcePath>resources/Corpus-v-12-04-21/train/CorpusTestD2kabViti.html/</sourcePath>
     </read-html>
 
 
@@ -54,6 +54,8 @@
     </execute-treetagger>
 
 
+    
+
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -68,6 +70,29 @@
       <source>resources/usageCulture20210112.rdf</source>
       <targetLayerName>fcu</targetLayerName>
     </project-fcu>
+
+    <fcu-tomap>
+      <yatea class="YateaExtractor">
+	<xmlTermsFile>output/yatea.xml</xmlTermsFile>
+	<language>FR</language>
+      </yatea>
+
+      <classify class="TomapProjector">
+	<tomapClassifier graylist="resources/tomap-graylist.txt">output/usageCulture.tomap</tomapClassifier>
+	<targetLayerName>fcu-tomap</targetLayerName>
+	<yateaFile output-feed="true">output/yatea.xml</yateaFile>
+	<conceptFeature>IRI</conceptFeature>
+	<explanationFeaturePrefix>tomap-</explanationFeaturePrefix>
+      </classify>
+
+      <label class="FileMapper">
+	<mappingFile>resources/usageCulture20210112.txt</mappingFile>
+	<target>documents.sections.layer:fcu-tomap</target>
+	<form>@IRI</form>
+	<targetFeatures>,,skos-prefLabel</targetFeatures>
+	<keyColumn>1</keyColumn>
+      </label>
+    </fcu-tomap>
 
     <!-- match phenological stages -->
     <project-stage href="modules/project-lemma.plan">

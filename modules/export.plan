@@ -13,7 +13,7 @@
 
 
   <!-- save exctracted terms -->
-  <export class="TabularExport">
+  <export-fcu class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>fcu.csv</corpusFile>
     <lines>documents.sections.(layer:fcu)</lines>
@@ -36,7 +36,32 @@
       str:join:', '(nav:features, @key ^ "=" ^ @value)
     </columns>
     <trueCSV/>
-  </export>
+  </export-fcu>
+
+  <export-fcu-tomap class="TabularExport">
+    <outDir>output</outDir>
+    <corpusFile>fcu-tomap.csv</corpusFile>
+    <lines>documents.sections.(layer:fcu-tomap)</lines>
+    <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
+    <columns separator=";">
+      <!-- short document id  -->
+      str:replace(str:basename(section.document.@id), ".html", "");
+      <!-- type of document  -->
+      section.@name;
+      <!-- context before  -->
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+      <!-- extracted term  -->
+      @form;
+      @skos-prefLabel;
+      <!-- context after  -->
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+      <!-- location  -->
+      start ^ "-" ^ end;
+      <!-- features  -->
+      str:join:', '(nav:features, @key ^ "=" ^ @value)
+    </columns>
+    <trueCSV/>
+  </export-fcu-tomap>
 
 
   <fcu_vocab class="AggregateValues">

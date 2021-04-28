@@ -1,0 +1,4 @@
+culture	NOM	culture
+cultures	NOM	culture
+feuille	NOM	feuille
+feuilles	NOM	feuille
