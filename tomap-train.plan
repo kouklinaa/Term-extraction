@@ -1,0 +1,41 @@
+<alvisnlp-plan id="tomap-train">
+  <read class="TabularReader">
+    <source>resources/usageCulture20210112.txt</source>
+    <sourceElement>$</sourceElement>
+    <lineActions>
+      new:document(tab:column(1)).(
+      new:section:label(tab:column(0))
+      | set:feat:skos-prefLabel(tab:column(2))
+      )
+    </lineActions>
+    <commitLines/>
+    <createDocuments/>
+    <createSections/>
+    <setFeatures/>
+  </read>
+
+  <seg href="res://segmentation.plan"/>
+
+  <pos class="TreeTagger">
+    <parFile>resources/french.par</parFile>
+    <noUnknownLemma/>
+  </pos>
+
+  <train class="TomapTrain">
+    <outFile>output/usageCulture.tomap</outFile>
+    <conceptIdentifier>document.@id</conceptIdentifier>
+    <language>FR</language>
+  </train>
+
+  <lemma class="TabularExport">
+    <outDir>.</outDir>
+    <corpusFile>resources/usageCulture20210112.lemma.txt</corpusFile>
+    <lines>documents.sections</lines>
+    <columns separator=";">
+      str:join:' '(layer:words, @lemma);
+      document.@id;
+      document.@skos-prefLabel
+    </columns>
+  </lemma>
+
+</alvisnlp-plan>
