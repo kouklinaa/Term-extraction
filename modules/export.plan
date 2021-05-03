@@ -17,12 +17,14 @@
     <outDir>output</outDir>
     <corpusFile>fcu.csv</corpusFile>
     <lines>documents.sections.(layer:fcu)</lines>
-    <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
+    <headers>"bsv","type", "length","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
       str:replace(str:basename(section.document.@id), ".html", "");
       <!-- type of document  -->
       section.@name;
+      <!-- length of document  -->
+      str:len(section.contents);
       <!-- context before  -->
       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
       <!-- extracted term  -->
@@ -38,30 +40,33 @@
     <trueCSV/>
   </export-fcu>
 
-  <export-fcu-tomap class="TabularExport">
+
+
+
+  <!-- <export-fcu-tomap class="TabularExport">
     <outDir>output</outDir>
     <corpusFile>fcu-tomap.csv</corpusFile>
     <lines>documents.sections.(layer:fcu-tomap)</lines>
     <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
-      <!-- short document id  -->
+
       str:replace(str:basename(section.document.@id), ".html", "");
-      <!-- type of document  -->
+
       section.@name;
-      <!-- context before  -->
+
       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
-      <!-- extracted term  -->
+
       @form;
       @skos-prefLabel;
-      <!-- context after  -->
+
       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
-      <!-- location  -->
+
       start ^ "-" ^ end;
-      <!-- features  -->
+
       str:join:', '(nav:features, @key ^ "=" ^ @value)
     </columns>
     <trueCSV/>
-  </export-fcu-tomap>
+  </export-fcu-tomap> -->
 
 
   <fcu_vocab class="AggregateValues">
@@ -81,7 +86,7 @@
     <outDir>output</outDir>
     <corpusFile>conjunctions.csv</corpusFile>
     <lines>documents.sections.layer:conjunctions[inside:fcu]</lines>
-    <headers>"bsv","context", "word", "context", "location","features"</headers>
+    <headers>"bsv","context", "full_expression", "no_match","match_with_fcu","context", "location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
       str:replace(str:basename(section.document.@id), ".html", "");
@@ -89,25 +94,30 @@
       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
       <!-- extracted term  -->
       @form;
+      <!-- TODO : no match with fcu  -->
+      str:replace(@form, overlapping:fcu, "");
+      <!-- match fcu  -->
+      str:join:', '(inside:fcu, @form ^ " ( " ^ @skos-prefLabel ^ " ) =" ^ @uri);
       <!-- context after  -->
       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
       <!-- location  -->
       start ^ "-" ^ end;
       <!-- features  -->
       str:join:', '(nav:features, @key ^ "=" ^ @value)
+
     </columns>
     <trueCSV/>
   </conj_export>
 
   <conj_vocab class="AggregateValues">
     <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
-    <key>@form</key>
+    <key>str:lower(str:normalizeSpace(@form))</key>
     <outFile>output/conj.txt</outFile>
   </conj_vocab>
 
   <conj_vocab_masked class="AggregateValues">
     <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
-    <key>str:replace(@form, inside:fcu, "[MASK]")</key>
+    <key>str:replace(str:lower(str:normalizeSpace(@form)), inside:fcu, "[MASK]")</key>
     <outFile>output/conj_masked.txt</outFile>
   </conj_vocab_masked>
 
@@ -205,6 +215,5 @@
   </bm25>
 
 
-  <!-- TODO II. topic modelling  -->
 
 </alvisnlp-plan>

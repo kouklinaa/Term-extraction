@@ -1,357 +1,331 @@
-AUBERGINE ,
-CONCOMBRE , TOMATE ET POIVRON
-Aleurode du chou et Punaise
-Aubergines, concombres, courgettes
-Batavia et Feuille de Chêne
-Blette et épinard
-Blé et orge
-Blé et triticale
-Carotte et céleri
-Carotte, Panais et Céleri
-Carottes et céleris
-Carottes, panais et céleris
-Chou et salade
-Chou, Navet
-Choux, Radis, Roquette
-Colza, apparition
-Colza, larve de teigne
-Colza, larve de tenthrède et dégâts
-Colza, larves
-Colza, macules de Phoma
-Colza, mouche du chou
-Colza, stade
-Colzas, pucerons
-Concombre, Courgette, Potiron
-Coteaux de Champlitte, Société de Viticulture
-Courges et courgettes
-Courgette et Potiron
-Courgette et courge
-Cultures et Polyculture
-Cultures et les méthodes
-Cultures et les méthodes de lutte
-Cultures, région
-Céréales, les Etablissements
-Description du réseau et stade de la culture
-Fraisier , Framboisier
-Fraisier et Framboisiers
-La couleur du colza, la qualité de l'enracinement et la disponibilité
-Laitue, Mâche
-Les aubergines et poivrons
-Les batavias et les laitues
-Les blés et triticale
-Les courges et les courgettes
-Les navets et radis
-Les pommes de terre, lorsqu'elles
-Les tomates et les poivrons
-MILEOS et Oignon
-Maïs, sorgho
-Mineuse du poireau, Mouche du chou, Mouche des semis, Mouche
-Mouche de la carotte, modélisation
-Mouche du chou et mouches des semis
-Mouche du chou, Mouche des semis
-Mouche du céleri, septoriose
-Navet, Rutabaga, Choux
-Navets, radis
-POIVRON , CONCOMBRE
-Piéride du chou, Piéride de la rave
-Pois de conserve, Haricots
-SOLANACEES
-  
-  
-    ET CONCOMBRE
-SOLANACEES ET CONCOMBRE
-Semis et levées de colza
-Solarisation et culture
-Soleil et ciel
-Stade et état des cultures
-Stade et état du maïs
-Stades et état des cultures
-TOMATE ,
-CONCOMBRE , POIVRON
-Teigne des crucifères et Piéride du chou
-Tournesol et colza
-Tournesol et oiseaux
-Vigne, SRA
-Vin, la Station
-Viticulture du Jura, Coopérative
-Viticulture, région
+[MASK] de printemps et d'automne
+[MASK] de printemps, la situation
+[MASK] et altises
+[MASK] et botrytis
+[MASK] et brocolisplantes
+[MASK] et feuilles
+[MASK] et la phase de ponte
+[MASK] et le remplissage des siliques
+[MASK] et les auxiliaires
+[MASK] et les effectifs
+[MASK] et les invite
+[MASK] et les méthodes
+[MASK] et photo de nezara
+[MASK] et romanesco
+[MASK] et températures
+[MASK] et trou de chenille
+[MASK] et usage
+[MASK], absence de vent, températures
+[MASK], aillets
+[MASK], couvert
+[MASK], e
+[MASK], galeries et mines
+[MASK], haie
+[MASK], indice
+[MASK], l'un
+[MASK], la herse
+[MASK], la nuisibilité
+[MASK], la pression
+[MASK], la résistance
+[MASK], la tubérisation
+[MASK], le développement
+[MASK], le risque
+[MASK], le temps
+[MASK], les corvidés
+[MASK], les espèces de limaces
+[MASK], les grappes
+[MASK], les insectes
+[MASK], les méligèthes
+[MASK], les orages et pluies
+[MASK], les semis
+[MASK], les symptômes
+[MASK], les températures
+[MASK], limitation
+[MASK], limon
+[MASK], orges
+[MASK], pollution des lots
+[MASK], protégeons-les
+[MASK], romanesco
+[MASK], tiges et feuilles
+[MASK], travail du sol, stade
+[MASK], un lâcher
+[MASK], variété
+[MASK], zones
+aleurode du chou et punaise
 allium et pomme de terre
 arboriculture, maraîchage, pépinière
+aubergine , concombre , tomate et poivron
 aubergine et concombre
 aubergine et poivron
-avril, le gel
+aubergines, concombres, courgettes
+avril, le [MASK]
 base de colza, céréales et fourrages
-batavia, la résistance
+batavia et feuille de chêne
+blette et épinard
 blé et escourgeon
-blé et la phase de ponte
 blé et orge
-blé, variété
-brocoli, romanesco
-bulbe, Oignon
-bulbille, échalote
-bulbilles et oignons de semis
-captures et la présence de colza
-chou de Milan et chou
+blé et triticale
+bulbe, oignon
+bulbille, [MASK]
+bulbilles et [MASK] de semis
+captures et la présence de [MASK]
+carotte et céleri
+carotte, panais et céleri
+carottes et céleris
+carottes, panais et céleris
+chou de milan et chou
 chou et altise
+chou et salade
 chou, navet
 choux et dégât
 choux et navets
 choux, radis, roquette
 choux, salades, navets, scorsonères, céleri, phacélie, moutarde
-châtaigniers, Limon
-ciboulette, aillets
-ciboulette, indice
-ciboulettes, aillets
-citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
+citron, goyave, banane, nèfle du japon, tomate, cerise de cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
 colza , betteraves, pommes de terre, endives, haricots, pois
-colza et altises
+colza, apparition
 colza, céréales
-colza, les semis
+colza, larve de teigne
+colza, larve de tenthrède et dégâts
+colza, larves
+colza, macules de phoma
+colza, mouche du chou
+colza, stade
 colza, tournesol, pois
 colza, tournesol, soja, pois
 colza, trèfle, repousses de céréales
-compte, le stade, la vigueur du colza
+colzas, pucerons
+compte, le stade, la vigueur du [MASK]
+concombre, courgette, potiron
 concombre, courgettes et d'autres
 concombre, tomate et poivron
-contamination du colza, l'application
-contraire du mildiou, les baies
+contamination du [MASK], l'application
+contraire du mildiou, les [MASK]
+coteaux de champlitte, société de viticulture
 coulures de fleurs, avortement de gousses
-coups de soleil et d'échaudage
-cours de culture, l'intervention
-cours de culture, l'ouverture des sacs
-cucurbitacée et piment
-cucurbitacées et salade
-cucurbitacées et tomate
+coups de [MASK] et d'échaudage
+courges et courgettes
+courgette et courge
+courgette et potiron
+cours de [MASK], l'intervention
+cours de [MASK], l'ouverture des sacs
+cucurbitacée et [MASK]
+cucurbitacées et [MASK]
 culture de tomates, l'arrachage
-culture, couvert
-culture, le temps
-culture, les températures
-culture, travail du sol, stade
 cultures de blettes et salades
 cultures de carottes, le vol
 cultures de concombres, d'aubergines
-cultures et les invite
 cultures et les méthodes
+cultures et les méthodes de lutte
+cultures et polyculture
 cultures(tournesol, sorgho
-cultures, le développement
-cultures, le risque
-cultures, les espèces de limaces
-cultures, les symptômes
-cultures, limitation
-cultures, protégeons-les
+cultures, région
 céréales, colza
+céréales, les etablissements
 céréales, lin
-d'Agriculture du Tarn, la Cave de Labastide, la Maison des Vins
-d'Agriculture du Tarn, la Maison des Vins
-d'hiver et escourgeons
-d'hiver et le triticale
-d'hiver et orge
+d'agriculture du tarn, la cave de labastide, la maison des vins
+d'agriculture du tarn, la maison des vins
+d'hiver et [MASK]
+d'hiver et le [MASK]
 d'hiver et pois de printemps
-d'hiver, pois
-datura, repousse de tomate
-début de culture, la surveillance
-dégâts de gel, d'ascochytose
-dégâts, maïs
-développement des colzas, le seuil de nuisibilité
-développement des fruits, les déchets
-développement du blé, les symptômes
-effet, l'apparition des fleurs
-effet, le colza
-effet, les colzas
+d'hiver, [MASK]
+datura, repousse de [MASK]
+description du réseau et stade de la [MASK]
+début de [MASK], la surveillance
+dégâts de [MASK], d'ascochytose
+dégâts, [MASK]
+développement des [MASK], le seuil de nuisibilité
+développement des [MASK], les déchets
+développement du [MASK], les symptômes
+effet, l'apparition des [MASK]
+effet, le [MASK]
+effet, les [MASK]
 endives, c'est
-escourgeon, orges
-et-Loire et Côte
-feuillage des cultures, la chenille
-feuille et fruit
-feuilles et fleurs
-feuilles et fruits
-feuilles et fruits de plantes
-feuilles, fleurs et dégâts
-feuilles, fruits et tige
-feuilles, fruits et tiges
-feuilles, le colza
-feuilles, les dégâts de gel
-feuilles, tiges et fruits
-feuilles, tiges et gousses
-fin de culture, la confusion
-fin de culture, les conditions
+et-loire et côte
+feuillage des [MASK], la chenille
+feuille et [MASK]
+feuilles et [MASK]
+feuilles et [MASK] de plantes
+feuilles, [MASK] et dégâts
+feuilles, [MASK] et tige
+feuilles, [MASK] et tiges
+feuilles, le [MASK]
+feuilles, les dégâts de [MASK]
+feuilles, tiges et [MASK]
+fin de [MASK], la confusion
+fin de [MASK], les conditions
 fleur et brocolis
-fleur et brocolisPlantes
-fleur et le remplissage des siliques
-fleur et romanesco
 fleur, choux
-fleur, la tubérisation
 fleur, le brocoli, l'épinard
 fleurs et fruits
-fleurs, la nuisibilité
-fleurs, les méligèthes
-fleurs, un lâcher
-foliole et fruit
-formation des gousses, secteurs
-forêt, haie
+foliole et [MASK]
+formation des [MASK], secteurs
+fraisier , framboisier
+fraisier et framboisiers
 fruit, tomate
 fruits de tomates et d'aubergines
-fruits et feuilles
 fruits et légumes
-fruits, galeries et mines
-fruits, tiges et feuilles
-grains de plomb, baies
-grossissement et maturation de fruit
+grains de plomb, [MASK]
+grossissement et maturation de [MASK]
 haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme de terre
-heures, vigne
-horticulture, zones
-hôtes(aubergine, tabac
+heures, [MASK]
+hôtes(aubergine, [MASK]
 inflorescences et les choux
-jour, les parcelles de colza
-l'Yonne et la Côte
-l'activité du champignon et la vigne
-l'approche de la véraison, les baies
+jour, les parcelles de [MASK]
+l'activité du champignon et la [MASK]
+l'approche de la véraison, les [MASK]
 l'aubergine, la pomme de terre, le poivron
-l'avocat, la mangue et la papaye
-l'implication des producteurs et techniciens du maïs
-l'état du colza et la dynamique de croissance
-la carotte, modélisation
-la chutes des feuilles, avortement des fleurs
-la compacité des grappes et les éclatements de baies
-la culture, c'est
-la culture, le seuil
-la culture, les captures
-la fermeture des grappes, les stomates des baies
-la fin de semaine, les stades des maïs
-la formation des gousses, stade
-la grappe, éclatements de baies
-la levée de la culture, l'observation des limaces
-la levée du maïs, la herse
-la levée, semence
-la maturation des fruits, décrochage
-la mouche de la carotte, la réalisation de piégeages
-la météo et le stade de la culture
-la rotation, colza
-la sensibilité des cultures et les secteurs
-la tige du colza, charançon de la tige
-la vigne, début et mi
-la vigne, les conditions
+l'avocat, la [MASK] et la papaye
+l'implication des producteurs et techniciens du [MASK]
+l'yonne et la côte
+l'état du [MASK] et la dynamique de croissance
+la [MASK], c'est
+la [MASK], début et mi
+la [MASK], le seuil
+la [MASK], les captures
+la [MASK], les conditions
+la [MASK], modélisation
+la chutes des feuilles, avortement des [MASK]
+la compacité des grappes et les éclatements de [MASK]
+la couleur du [MASK], la qualité de l'enracinement et la disponibilité
+la fermeture des grappes, les stomates des [MASK]
+la fin de semaine, les stades des [MASK]
+la formation des [MASK], stade
+la grappe, éclatements de [MASK]
+la levée de la [MASK], l'observation des limaces
+la levée du [MASK], la herse
+la levée, [MASK]
+la maturation des [MASK], décrochage
+la mouche de la [MASK], la réalisation de piégeages
+la météo et le stade de la [MASK]
+la rotation, [MASK]
+la sensibilité des [MASK] et les secteurs
+la tige du [MASK], charançon de la tige
 laitue et scarole
-le Maraîchage et la culture de fraises
-le blé, le stock de cocons
+laitue, mâche
+le [MASK], la reprise de végétation
+le [MASK], le stade
+le [MASK], le stock de cocons
 le frêne, le bouleau, le saule, le saule, le chêne, le hêtre, le noisetier, le sycomore
-le gel, la reprise de végétation
-le gel, le stade
+le maraîchage et la culture de fraises
 le nombre de vols et les choux
 le poivron, le concombre, le melon et la courge
-le sol, les vigne
-le stade de la culture et la sensibilité
-le stade de la culture et le nombre
-le stade de la culture,
->
-le stade du colza, les conditions
-le vent, le gel
+le sol, les [MASK]
+le stade de la [MASK] et la sensibilité
+le stade de la [MASK] et le nombre
+le stade de la [MASK], >
+le stade du [MASK], les conditions
+le vent, le [MASK]
+les [MASK] de printemps, les interventions
+les [MASK] et apparition des barbes
+les [MASK] et chaumes
+les [MASK] et le niveau
+les [MASK] et les feuilles
+les [MASK] et les graines
+les [MASK] et orges
+les [MASK], la gestion des foyers
+les [MASK], les eaux de ruissellement, les outils
+les [MASK], les plants
+les [MASK], stade
 les aubergines et poivrons
+les batavias et les laitues
 les betteraves, les laitues
-les blés et apparition des barbes
-les blés et orges
-les blés, stade
-les bâches des tunnels, les cultures
-les conifères, les rosiers
-les coups de soleil et les brûlures
+les blés et triticale
+les bâches des tunnels, les [MASK]
+les conifères, les [MASK]
+les coups de [MASK] et les brûlures
+les courges et les courgettes
 les cultures de cucurbitacées(concombre, melon, courgette
 les cultures de maïs, sorgho et riz
-les cultures de printemps, les interventions
-les cultures et le niveau
 les cultures et multiplications de betteraves
-les cultures, la gestion des foyers
 les céréales, les betteraves
 les effets du gel et les vignes
-les feuilles et les gousses
-les feuilles, fruits, pétioles et tiges
+les feuilles et les [MASK]
+les feuilles, [MASK], pétioles et tiges
 les fruits et fleurs
 les fruits et légumes
-les gousses et les feuilles
-les gousses et les graines
 les gousses, les grains de flageolet
-les implantations et la reprise des cultures
+les implantations et la reprise des [MASK]
 les melons et courgettes
+les navets et radis
 les oignons et échalotes
-les pailles et chaumes
 les panais et céleri
+les parcelles de [MASK], les oospores
 les parcelles de haricots et flageolets
-les parcelles de vignes, les oospores
-les rangs de bordure, les vignes
-les repousses, les adventices, une culture
+les pommes de terre, lorsqu'elles
+les rangs de bordure, les [MASK]
+les repousses, les adventices, une [MASK]
+les résidus de [MASK] et les plantes
 les résidus de culture et les semences
-les résidus de cultures et les plantes
-les semences, les eaux de ruissellement, les outils
-les semences, les plants
-les sources et le stade de la culture
-les spores de mildiou, l'allongement des rotations et l'utilisation de semences
-les tiges et les fruits
-les tiges et les gousses
+les sources et le stade de la [MASK]
+les spores de mildiou, l'allongement des rotations et l'utilisation de [MASK]
+les tiges et les [MASK]
+les tomates et les poivrons
 les tomates, poivrons, melons et courges
 les vergers et les cultures
-lieu et place de la semence
-liseron, pissenlit
+lieu et place de la [MASK]
+liseron, [MASK]
 luzerne, betterave
 luzerne, oignon
 légumes et choux
-maladie de la culture, les symptômes
+maladie de la [MASK], les symptômes
 maïs et la proximité de cultures
-maïs, la herse
 maïs, riz et sorgho
+maïs, sorgho
 melon, courge
-mildiou du tournesol, la maladie
-mildiou, dégâts de gel
-mildiou, les baies
-moments de la culture, un produit
-mouches de la carotte et niveaux de captures
+mildiou du [MASK], la maladie
+mildiou, dégâts de [MASK]
+mildiou, les [MASK]
+mileos et oignon
+mineuse du poireau, mouche du chou, mouche des semis, mouche
+moments de la [MASK], un produit
+mouche de la [MASK], modélisation
+mouche du [MASK], septoriose
+mouche du chou et mouches des semis
+mouche du chou, mouche des semis
+mouches de la [MASK] et niveaux de captures
 moutarde, phacélie
-noire, datura, repousses de tomate
-nombre de fruits et calibre
-octobre et blé
+navet, rutabaga, choux
+navets, radis
+noire, datura, repousses de [MASK]
+nombre de [MASK] et calibre
+octobre et [MASK]
 oignon et poireau
 oignon et échalote
-oignon, le risque
-oignon, les orages et pluies
 oignon, poireau, oignon
-orge, la pression
-orge, les symptômes
-paille et Maïs
 paille et colza
-parcelle de colza et interculture
+paille et maïs
+parcelle de [MASK] et interculture
 parcelle de concombre et courgette
-parcelles de blé et d'orge
-parcelles de flageolets, grossissement des grains
+parcelles de [MASK] et d'orge
+parcelles de [MASK], filets
+parcelles de [MASK], grossissement des grains
 parcelles de haricot et flageolet
-parcelles de haricots, filets
 parcelles de navet, choux, rutabaga
-part, les arrachages de betteraves
-pasteur, Laiteron, Pissenlit,Géranium, véronique, moutarde
+part, les arrachages de [MASK]
+pasteur, laiteron, pissenlit,géranium, véronique, moutarde
+piéride du chou, piéride de la rave
 plantations, les pépinières
-plants et les cultures
-poireau et les auxiliaires
+plants et les [MASK]
 poireaux, ciboulette, ail
 poireaux, oignons, pommes de terre, choux, betterave, luzerne
 poirier, mangue, banane
-pois de printemps, E
-pois et botrytis
+pois de conserve, haricots
+pois de printemps, e
 pois et féverole
-pois,
-    les grappes
 pois, haricot, flageolet
-pois, les
-    grappes
-pois, les grappes
 pois, luzerne, colza
+poivron , concombre
 poivron et tomate
 poivron, tomate
 poivrons de concombres et d'aubergine
 poivrons, aubergines et concombres
 pomme de terre, poivron
-pommes, pollution des lots
 prairies, jachères
-proximité et les cultures
-présence de pailles, sol
-présence et les auxiliaires de la vigne
-présence, la survie de la culture
+proximité et les [MASK]
+présence de [MASK], sol
+présence et les auxiliaires de la [MASK]
+présence, la survie de la [MASK]
 pépinière, fauchage des abords
 pépinière, les semis
 pêchers, amandiers
@@ -359,62 +333,63 @@ radis et navets
 radis, piérides du chou, tenthrède
 rappel, les cultures de haricot
 repousses, jardins
-rotation des cultures et lutte
+rotation des [MASK] et lutte
 résidus de maïs et sorgho
 salades, chicorées et asperges
-salades, les corvidés
-secteur, les vignes
-secteurs, la vigne
-sein des parcelles et les baies
-semaine de mai, la croissance de la vigne
-semaine, la mouche de la carotte
-semaine, le colza
-semaine, les maïs
-semaine, les stades des blés
-sence, la survie de la culture
-sensibilité de la céréale et la période
-situations, la levée de la culture
-sol du maïs et les corvidés
-sol, maïs
-solanacées et concombre
-soleil et températures
-soleil, absence de vent, températures
-soleil, les insectes
-stade des cultures, les pucerons
-stade, les stomates des baies
-stades du maïs, les attaques
-surveillerChou et navet
-symptômes de maladies et dégâts de gel
-taille de pois et début
-taille de pois et les grappes
-tallage, les céréales
+secteur, les [MASK]
+secteurs, la [MASK]
+sein des parcelles et les [MASK]
+semaine de mai, la croissance de la [MASK]
+semaine, la mouche de la [MASK]
+semaine, le [MASK]
+semaine, les [MASK]
+semaine, les stades des [MASK]
+semis et levées de [MASK]
+sence, la survie de la [MASK]
+sensibilité de la [MASK] et la période
+situations, la levée de la [MASK]
+sol du [MASK] et les corvidés
+sol, [MASK]
+solanacees et concombre
+solanacées et [MASK]
+solarisation et [MASK]
+soleil et ciel
+stade des [MASK], les pucerons
+stade et état des [MASK]
+stade et état du [MASK]
+stade, les stomates des [MASK]
+stades du [MASK], les attaques
+stades et état des [MASK]
+surveillerchou et [MASK]
+symptômes de maladies et dégâts de [MASK]
+taille de [MASK] et début
+taille de [MASK] et les grappes
+tallage, les [MASK]
+teigne des crucifères et piéride du chou
 tenthrèdes, piérides, mouches du chou
-tige, feuille et fruit
-tiges et feuilles de concombres
-tiges, fruits et feuilles
-tiges, pétioles, gousses
-tomate et les effectifs
-tomate et photo de Nezara
+tige, feuille et [MASK]
+tiges et feuilles de [MASK]
+tiges, [MASK] et feuilles
+tiges, pétioles, [MASK]
+tomate , concombre , poivron
 tomate et poivron
-tomate et trou de chenille
 tomate, concombre
-tomate, l'un
 tomate, poivron
+tournesol et colza
+tournesol et oiseaux
 tournesol et soja
-tournesol, E
 tournesol, soja, cultures
-traitements de semences, un suivi des races
-vigne et usage
-vigne, agrumes, caféiers, chênes, Les dépérissements
-vigueur et stade de
-    la culture
-vigueur et stade de la culture
-vue des maladies, les colzas
-végétaux, oliviers, Prunus
-véraison, la vigne
-week-end, les rayons du soleil
+traitements de [MASK], un suivi des races
+vigne, agrumes, caféiers, chênes, les dépérissements
+vigne, sra
+vigueur et stade de la [MASK]
+vin, la station
+viticulture du jura, coopérative
+viticulture, région
+vue des maladies, les [MASK]
+végétaux, [MASK], prunus
+véraison, la [MASK]
+week-end, les rayons du [MASK]
 échalotes de plantation, oignon de semis
-épinard de printemps et d'automne
-épinard de printemps, la situation
 épinards, choux, salades
-état du colza et dynamique de pousse
+état du [MASK] et dynamique de pousse

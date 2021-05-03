@@ -111,5 +111,14 @@
   </match-conj>
 
 
+  <!-- save matching  elements from the layer conjunctions  -->
+  <!-- save matching  elements from the layer conjunctions  -->
+  <rem-conj class="Action">
+    <target>documents.sections.layer:fcu[outside:conjunctions]</target>
+    <action>set:feat:match("conj")</action>
+    <setFeatures/>
+  </rem-conj>
+
+
 
 </alvisnlp-plan>
