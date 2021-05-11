@@ -1,0 +1,563 @@
+[MASK] de salvagnac, ets
+[MASK] de semis, le risque
+[MASK] de semis, un foyer de mildiou
+[MASK] et cabushaute
+[MASK] et chancre
+[MASK] et cochenilles
+[MASK] et d'aspv
+[MASK] et dégâts
+[MASK] et feuillage
+[MASK] et feuille de la parcelle
+[MASK] et kumquat
+[MASK] et l'autre
+[MASK] et le mildiou
+[MASK] et le pou de san
+[MASK] et les ailes
+[MASK] et les invite
+[MASK] et les éclatements
+[MASK] et lollo
+[MASK] et présence de pucerons
+[MASK] et une parcelle
+[MASK], chambres
+[MASK], chancre
+[MASK], dahlias
+[MASK], feuilles, tiges
+[MASK], fin du risque
+[MASK], l'anthracnose
+[MASK], l'application
+[MASK], l'impact
+[MASK], la bactérie
+[MASK], la coopérative
+[MASK], la larve
+[MASK], la parution des bulletins
+[MASK], la pression
+[MASK], la rouille
+[MASK], la situation
+[MASK], la surveillance
+[MASK], larves
+[MASK], le botrytis
+[MASK], le piégeage
+[MASK], le risque
+[MASK], le seuil
+[MASK], le seuil de nuisibilité
+[MASK], le stade de sensibilité
+[MASK], le type de sol
+[MASK], les anthonomes
+[MASK], les attaques
+[MASK], les auxiliaires
+[MASK], les berges des rivières, les terrains
+[MASK], les captures
+[MASK], les coccinelles
+[MASK], les cultures
+[MASK], les grappes
+[MASK], les insectes
+[MASK], les larves de psylles
+[MASK], les piégeages
+[MASK], les populations
+[MASK], les seuils de nuisibilité
+[MASK], muroise, mœre
+[MASK], o
+[MASK], p
+[MASK], pièges
+[MASK], pomélo
+[MASK], pousses
+[MASK], présence
+[MASK], red
+[MASK], solanacées
+[MASK], taille des arbres
+[MASK], un suivi
+[MASK], une parcelle
+[MASK], variété
+[MASK], variétés
+[MASK], véronique, gaillet
+[MASK], zeuzère
+[MASK], zones
+[MASK], éclaircissage
+[MASK], érable, platane et tilleul
+abri, la pomme de terre et le poireau
+abricot et pêche
+abricot, pêche, kiwi
+agrumes et citrus
+ail, salade
+amandiers et chênes de gauche
+arboriculture, maraîchage, pépinière
+artichaut, chrysanthèmes
+asparagus, bananier
+asperge, courgette, poireau
+attaque, la floraison des [MASK]
+aubergine et tomate
+aubépines, [MASK]
+avril, les [MASK]
+baguette et [MASK]
+batavia et laitue
+batavias et feuilles de chêne
+betteraves, pomme de terre, soja
+beurre, batavia et feuille de chêne
+blé de salvagnac, ets
+blé et maïs
+blé et orge
+blé, colza, orge, maïs, tournesol, soja
+blé, orge, triticale
+bois et [MASK]
+bois, haie, proximité de [MASK]
+bord de mer, le [MASK]
+boule de neige' et [MASK]
+branche et [MASK]
+branche, persil, fenouil
+bsv, le [MASK]
+bulbille, [MASK]
+calibre, la taille des olives
+carotte, céleri
+carotte, céleri et persil
+carotte, céleri, cerfeuil, panais et persil
+carotte, céleri, panais et persil
+carotte, panais, persil
+carotte, persil
+carpocapse des pommiers et poiriers
+carpocapses des pommes et poires
+cassis et groseillier
+cerisier et fraisier
+cerisier, fraisier, framboisier, cassis, mûrier
+cerisier, prunier et kiwi
+cerisiers, abricotiers, pêchers
+cerisiers, fraisiers, framboisiers, myrtilles, pêchers et abricotiers
+change, jardin de particulier
+chardonnay, [MASK]
+choisya, acacia, [MASK], griseline, hibiscus, polygala
+chou de bruxelles, la quasi
+chou et roquette
+chou, navet, radis, épinard, pomme de terre
+chou, observation de pucerons
+chou, radis et radis
+chou, radis, navet et rutabaga
+chou,épinard, salade
+choux et roquette
+choux, captures
+choux, l'indice de gravité
+choux, la partie
+choux, les captures de noctuelles
+choux, navets et radis
+choux, navets, radis
+choux, radis
+choux, radis, salades, oignons et poireaux
+choux, salades
+colza et tournesol
+colza, blé, orge
+colza, tournesol
+colza, tournesol, féverole, luzerne, maïs
+colza, tournesol, pois
+concombre et courgette
+concombre, courgette, melon
+concombre, tomate
+conseil, fruits du loir
+contre, les [MASK]
+coulures de [MASK], situation
+cours du stockage, les [MASK]
+crucifères(=chou, navet, radis, betterave, rhubarbe
+culture de courgette et concombre
+cultures de [MASK] et une augmentation de celles-ci
+cultures de [MASK] et une reprise de celles-ci
+cultures de tomate et aubergine
+cultures et [MASK]
+cultures, la vigne, la prairie et les zones
+cyclamen, primevère des jardins et gazania
+cyclamens, [MASK]
+céleri et persil
+céleri, cerfeuil, panais et persil
+céleri, chou, radis, poireau, courgette, pomme de terre
+céleri, panais et persil
+céleri, persil
+céleri, persil et carotte
+céréales et protéagineux
+céréales, ets
+céréales, la coopérative
+céréales, les etablissements
+céréales, maïs, zones
+céréales, producteurs
+d'agriculture du tarn, la cave de labastide, la maison des vins
+d'enrobage et d'utilisation des [MASK]
+d'hiver, orge de printemps, maïs, tournesol, triticale, soja
+d'horticulture de la mayenne, association des jardins
+d'industrie et [MASK] de conservation
+d'industrie et une parcelle de [MASK]
+d'oignon et [MASK]
+dates de semis, les [MASK]
+densité, mulch de [MASK]
+développement des [MASK], la période de risque
+effet, les [MASK] et plantes
+effet, les pensées, primevères des jardins
+elagage, pépinières
+enroulement du feuillage, déformation des [MASK]
+epinards et [MASK]
+escourgeons et blé
+fauchages et [MASK]
+feuilles de [MASK], endroit
+feuilles des [MASK], les feuilles
+feuilles et [MASK]
+feuilles et pousses d' [MASK]
+feuilles, [MASK]
+feuilles, [MASK] et sarments
+feuilles, [MASK], rameaux
+fleur et brocoli
+fleur, chou de bruxelles
+fleur, chou de bruxelles(suite)
+fleur, choux
+fleurs de pommiers, les dégâts
+fleurs et choux au maximum
+fleurs et fleurs
+fleurs et plantes du sud-ouest
+fleurs, choux
+floraison, les [MASK]
+forêt, pays de hanau
+forêts, fredon
+fourrages, les moulins
+fraise et framboise
+fraises, framboises
+fraisier et framboisier
+fraisiers, framboisiers
+framboise et fraise
+fruits et fleurs
+fruits et légumes
+fruits, l'op
+fruits, la pourriture des fruits
+fruits, op
+féverole, tournesol
+gala et stade
+gala, golden
+gel, coup de soleil
+gerbera, géranium
+golden et gala
+golden, gala
+golden, pink
+golden, stade
+golden,zone
+haricot et pois
+haricot et épinard
+hiver, le pourcentage de [MASK]
+horticulture et pépinière
+inflorescences et les [MASK]
+jardin de particulier, roquette
+jardin de particulier, viorne
+jardins et espaces
+jardins et prairies
+jardins, espaces
+jour, le stade du [MASK]
+jours, les [MASK]
+l'activité des altises et les [MASK] du réseau
+l'approche de la récolte, les [MASK]
+l'approche de la récolte, une parcelle de [MASK] et une parcelle
+l'enveloppe de la [MASK] et s'enfonce
+l'humidité, la proximité de [MASK]
+l'instar de la [MASK], eudémis
+l'ouest de la [MASK], présence de nuages
+l'épanouissement de la [MASK], les pétales
+l'œillet et la cécidomyie du [MASK]
+la [MASK] et l'agriculture
+la [MASK] et l'olivier
+la [MASK] et les surfaces
+la [MASK], feu
+la [MASK], le développement de la maladie
+la [MASK], maladie
+la [MASK], puceron
+la baisse des températures, le développement des [MASK]
+la cerise, la fraise
+la chrysomèle du [MASK], phaedon
+la croissance des [MASK], les seuils de risque
+la croissance et le développement des [MASK]
+la culture de [MASK], fiche
+la fin de la floraison, les [MASK]
+la forêt, fédération
+la féverole, la pomme de terre, la betterave, la luzerne et la race
+la luzerne, la carotte et la pomme de terre
+la maturité des [MASK], les conditions
+la maturité, les [MASK]
+la mi-mai, les parcelles de soja
+la mouche du chou, le pivot
+la parcelle de [MASK] et une stagnation des piégeages
+la pluie, les pucerons de la [MASK]
+la plupart des [MASK], les dégâts
+la pomme de terre et l'en
+la pomme de terre et la présence de l'inoculum
+la pomme de terre, le printemps
+la pomme, la figue, la vigne, le kiwi et le kaki
+la production et la commercialisation des [MASK]
+la région, les [MASK]
+la stagnation de la [MASK], l'activité
+la tige du [MASK] et le charançon de la tige
+la tige du [MASK] et méligèthes
+la tige du [MASK], le charançon de la tige
+la verse des [MASK] et l'humidité
+la vigne, les agrumes, le pêcher, le prunier, l'amandier, le laurier
+lady , golden
+laitue et batavia
+laitues et batavias
+le [MASK] et début
+le [MASK] et le mirabellier
+le [MASK], l'ambroisie
+le [MASK], la zone
+le [MASK], le coupe
+le [MASK], les taches
+le [MASK], vis
+le cyclamen, la primevère, le lis, le lilas, le troène, le tilleul, le bégonia, l'hortensia, le fusain, l'aubépine, le [MASK], l'hibiscus
+le céleri et le persil
+le cœur des [MASK], les chenilles
+le grossissement des [MASK] et l'installation de foyers
+le navet, le radis, les choux, le colza
+le pois et la féverole
+le potager du roi, le jardin du luxembourg, la ville de meulan, les vergers de molien, les vergers
+le pêcher et le prunier
+le retour du [MASK] et l'augmentation
+les [MASK] et le chiendent
+les [MASK] et les buis de chine
+les [MASK] et les cultures
+les [MASK] et les feuilles
+les [MASK] et les orges
+les [MASK] et les voiles
+les [MASK] et les zones
+les [MASK] et tiges
+les [MASK], la femelle
+les [MASK], le couvert
+les [MASK], le temps
+les [MASK], les débris de végétaux
+les [MASK], o
+les [MASK], qu'elles
+les aubergines et les poivrons
+les aubergines et les tomates
+les bogues et les [MASK]
+les bourgeons, pousses, [MASK]
+les carottes, les salades et les choux
+les chardonnay et melon de bourgogne
+les choux et les navets
+les choux et navets
+les choux, bettes
+les chênes, les érables, le charme, le hêtre, le châtaignier et le marronnier
+les citronniers, limettiers, mandariniers, orangers
+les cultures de [MASK] et solanacées
+les cultures de solanacées(tomates, aubergines, poivrons
+les côtes de meuse, un verger
+les feuilles des aulnes, charmes, [MASK], hêtres et tilleuls
+les feuilles des rhododendrons et [MASK]
+les feuilles et [MASK]
+les feuilles et les [MASK]
+les feuilles, les rameaux et les [MASK]
+les folioles et les [MASK]
+les fraises et les céleris
+les jardins et espaces
+les oignons et les poireaux
+les parcelles de [MASK] et d'abricotiers
+les parcelles de [MASK] et d'abricotiers du réseau
+les parcelles de [MASK] et d'abricotiers du secteur
+les parcs et jardins
+les pieds et les buttes de [MASK]
+les plantations, [MASK] des terrains
+les poireaux, les tomates et les oignons
+les poireaux, mouche de la carotte
+les poivrons et aubergines
+les poivrons et les aubergines
+les pommes de terre, les betteraves, le maïs
+les pommes et poires de table
+les pousses et les [MASK]
+les productions de pensées, primevères des jardins
+les prunes, abricots et pêches
+les pustules et le [MASK]
+les pépinières et les vergers
+les pépinières, cultures
+les rameaux, les feuilles, les [MASK]
+les ravageurs et les maladies de la [MASK]
+les saules, les peupliers, les bouleaux et les [MASK]
+les stades des blés et orge
+les tomates, les aubergines et les poivrons
+les vergers de molien, le jardin du luxembourg
+lin et plantes
+lin, plante
+lin, plantes
+lit de [MASK] et la concrétisation
+localisation, les parcelles de [MASK]
+légumes et espèces
+mai, les plants de [MASK]
+maladies et ravageurs des [MASK]
+maladies et ravageurs des rosiers
+maladies, les [MASK]
+maladies, les parcelles de [MASK]
+mars, les féveroles de printemps
+massif et [MASK]
+maïs et tournesol
+maïs, sorgho
+melon de b, chardonnay
+melon de bourgogne, cépage
+melon, la pression
+mildiou du [MASK], flavescence
+mildiou et oïdium de la [MASK]
+mildiou et oïdium de la vigne
+mirabelles et quetsches
+mouche du chou et altise
+mouche du chou, altises
+mouche du chou, les pontes
+mâches et bettes
+navet, radis
+navet, radis, poireau
+nœuds, le [MASK]
+octobre du parcs, jardins et jardins
+octobre,anthonome du [MASK]
+oeil, [MASK]
+oignon et poireau
+oignon et échalote
+oignon, ail
+oignon, ciboulette
+oignon, oignon
+oignon, échalote
+oignons, ciboulettes, poireaux, échalotes et ails
+oignons, poireaux, échalotes, ails, ciboulettes
+oignons, échalote
+oignons, échalotes
+oliviers, lauriers
+orangers et lauriers
+organe de plantes, feuilles, fleurs, fruits
+orge et blé
+oïdium, phoma et mouche du chou
+paille et tournesol
+paille, colza, lin, pois, féverole, tournesol
+paille, colza, lin, pois, labour
+parcelle de référence, le pourcentage de [MASK]
+parcelle, [MASK]
+parcelles de [MASK] et d'abricotiers
+parcelles de [MASK], stade
+parcelles de pois et féverole du réseau
+parcelles de pommiers et poiriers
+parcelles de pommiers et poiriers de savoie
+parcelles, [MASK]
+parcelles, les [MASK]
+parcs et jardins
+parcs, jardins
+parcs, jardins et jardins
+particulier aux pêchers, abricotiers et pruniers
+particulier, [MASK]
+pays de la loire, le [MASK]
+paysage, gestionnaires de jardins
+phase de croissance, les [MASK]
+pieds de [MASK] et d'aubergine
+pieds et [MASK]
+piment et poivron
+piégeage des noctuelles et mineuse de la [MASK]
+piégeage des noctuelles, teignes et mineuse de la [MASK]
+plaine, les [MASK]
+plantes et [MASK]
+plantes, [MASK] au stade
+plants de verveines et [MASK]
+point de piqure et le [MASK]
+poireau, oignons, échalotes
+poireau, oignons, échalotes, melon
+poireau, échalote et oignon
+pois de conserve, haricots
+pois de printemps et féverole
+pois de printemps, la maladie
+pois de printemps, les parcelles
+pois et féverole
+pois et féveroles
+pois, haricots, céleri
+pois, luzerne, colza
+pois, pomme de terre
+pois, tordeuse du pois
+pomme de terre et plantes
+pomme de terre, nettoyage
+pomme de terre, poivron, piment
+pommes et poires
+pommier et bois
+pommier et poirier
+pommier et prunier
+pommier, prunellier
+pommiers et poiriers
+pousse et [MASK]
+pousses et [MASK]
+production de [MASK], la coopérative
+prunes, cerises
+prunier et abricotier
+pruniers et pommiers
+pruniers, pêchers, abricotiers, amandiers
+pyrale et stade du maïs
+pépinière, la situation
+pépinière, les feuilles
+pêche et abricot
+radis et navet
+radis, fève
+radis, mâche
+radis, salades, choux
+raisin de table, la conservation du champignon
+raisin du cuve et raisin de table
+rameaux et [MASK]
+rameaux, feuilles et [MASK]
+ratures et le retour des [MASK]
+rave et [MASK]
+rave, [MASK]
+rave, la phacélie, la laitue
+recroquevillement des feuilles, avortement des [MASK], dépôt de fumagine
+recul des captures,céleri
+reinettes et golden
+repiquages et les [MASK]
+retour du [MASK] et travail du sol
+revanche, la parcelle de [MASK]
+risques de précipitation et le décollage' des [MASK]
+roquette, coopérative de vecquemont
+roquette, féculerie de vic
+rosier, rhododendron, pittospore, bambous, photinia, viburnum et hêtre
+rythme, la récolte des [MASK]
+récolte, mouche de la [MASK]
+réseau, les [MASK]
+résultats, le lot de [MASK]
+santé du végétalparcs, jardins
+sauges, géranium
+seigle, avoine
+semaine, le pourcentage de [MASK]
+semaine, les [MASK]
+semences de maïs et sorgho
+semences et fruits
+semences et plants de tomate
+septembre du parcs, jardins et jardins
+septembre, un comptage des [MASK]
+seuil de nuisibilité et état du [MASK]
+site, les aubergines et poivrons
+situations, le [MASK]
+soja, les chaumes de blé, les zones de construction, les lisières de champs
+solanacées et [MASK]
+splendana, le carpocapse de la [MASK]
+stade de la culture, les [MASK]
+stade, le [MASK]
+stade, proximité de [MASK]
+sud du réseau, les [MASK]
+tangor, citronnier
+teigne du [MASK] et mtn
+températures, les pois de printemps
+tenthrède de la rave, piéride du chou
+tilleul, marronnier, hortensia et [MASK]
+tomate et poivron
+tomate, poivron
+tomate,pomme de terre,poivron
+tomates et poivrons
+tomates, aubergines et concombres
+tournesol et maïs
+tournesol et soja
+tournesol, les chenilles
+type de [MASK], le seuil de nuisibilité
+une blessure du [MASK], le processus de germination
+une diminution de croissance et l'avortement des [MASK]
+une dizaine de jours, les [MASK]
+une macération de feuilles et tiges de [MASK]
+une semaine, les [MASK]
+vallée de seine, [MASK]
+vergers de beauregard, l'op
+vergers de pommiers et poiriers
+vergers et jardins
+vigne et arboriculture
+vigne, soufflet
+vigne, terres du sud
+villes et [MASK]
+vins de bourgueil, cave des producteurs
+viticulture du jura et la chambre
+zone, les parcelles de [MASK]
+échalion et oignon
+échalote et pomme de terre
+éclatement de [MASK], perforation
+éclatement des [MASK], nécrose des pétioles et feuilles
+épinard, fenouil, roquette
+érable et [MASK]
+étrilles, scarificateurs de [MASK]

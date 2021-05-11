@@ -14,8 +14,8 @@
 
   <!-- save exctracted terms -->
   <export-fcu class="TabularExport">
-    <outDir>output</outDir>
-    <corpusFile>fcu.csv</corpusFile>
+    <outDir>output/d2kab/fcu</outDir>
+    <corpusFile>fcu_d2kab.csv</corpusFile>
     <lines>documents.sections.(layer:fcu)</lines>
     <headers>"bsv","type", "length","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
@@ -72,8 +72,9 @@
   <fcu_vocab class="AggregateValues">
     <entries>documents.sections.layer:fcu</entries>
     <key>@form</key>
-    <outFile>output/fcu.txt</outFile>
+    <outFile>output/d2kab/fcu/fcu_d2kab.txt</outFile>
   </fcu_vocab>
+
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
@@ -83,8 +84,8 @@
   -->
 
   <conj_export class="TabularExport">
-    <outDir>output</outDir>
-    <corpusFile>conjunctions.csv</corpusFile>
+    <outDir>output/d2kab/conjunctions</outDir>
+    <corpusFile>conjunctions_d2kab.csv</corpusFile>
     <lines>documents.sections.layer:conjunctions[inside:fcu]</lines>
     <headers>"bsv","context", "full_expression", "no_match","match_with_fcu","context", "location","features"</headers>
     <columns separator=";">
@@ -112,14 +113,10 @@
   <conj_vocab class="AggregateValues">
     <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
     <key>str:lower(str:normalizeSpace(@form))</key>
-    <outFile>output/conj.txt</outFile>
+    <outFile>output/d2kab/conjunctions/conj_d2kab.txt</outFile>
   </conj_vocab>
 
-  <conj_vocab_masked class="AggregateValues">
-    <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
-    <key>str:replace(str:lower(str:normalizeSpace(@form)), inside:fcu, "[MASK]")</key>
-    <outFile>output/conj_masked.txt</outFile>
-  </conj_vocab_masked>
+
 
 
   <!--
@@ -132,8 +129,8 @@
 
 
   <bbch_export class="TabularExport">
-    <outDir>output</outDir>
-    <corpusFile>bbch.csv</corpusFile>
+    <outDir>output/d2kab/bbch</outDir>
+    <corpusFile>bbch_vespa.csv</corpusFile>
     <lines>documents.sections.layer:bbch</lines>
     <headers>"bsv","context", "word", "context", "location","features"</headers>
     <columns separator=";">
@@ -158,7 +155,7 @@
   <bbch_vocab class="AggregateValues">
     <entries>documents.sections.layer:bbch</entries>
     <key>@form</key>
-    <outFile>output/bbch.txt</outFile>
+    <outFile>output/d2kab/bbch/bbch_vespa.txt</outFile>
   </bbch_vocab>
 
 
@@ -175,7 +172,7 @@
   <vocabulary class="AggregateValues">
     <entries>documents.sections.layer:words</entries>
     <key>@lemma</key>
-    <outFile>output/words.txt</outFile>
+    <outFile>output/d2kab/words_d2kab.txt</outFile>
   </vocabulary>
 
 
@@ -191,25 +188,25 @@
 
 
   <tf_idf href="modules/scores.plan">
-    <outFile>output/tfidf.csv</outFile>
+    <outFile>output/d2kab/scores/tfidf_d2kab.csv</outFile>
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction>tfidf</scoreFunction>
   </tf_idf>
 
   <freq href="modules/scores.plan">
-    <outFile>output/freq.csv</outFile>
+    <outFile>output/d2kab/scores/freq_d2kab.csv</outFile>
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type="freq"/>
   </freq>
 
   <freqrel href="modules/scores.plan">
-    <outFile>output/freq_rel.csv</outFile>
+    <outFile>output/d2kab/scores/freq_rel_d2kab.csv</outFile>
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type="freq" relative="true"/>
   </freqrel>
 
   <bm25 href="modules/scores.plan">
-    <outFile>output/bm25.csv</outFile>
+    <outFile>output/d2kab/scores/bm25_d2kab.csv</outFile>
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
   </bm25>

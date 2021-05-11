@@ -21,6 +21,7 @@
     <subject layer="words" feature="lemma"/>
     <language>fr</language>
     <uriFeatureName>uri</uriFeatureName>
+    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
     <wordStartCaseInsensitive/>
     <constantAnnotationFeatures>type=GOL</constantAnnotationFeatures>
   </project-lemma>

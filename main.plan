@@ -28,10 +28,6 @@
     <import>res://segmentation.plan</import>
 
 
-    <!-- <tokens class="WoSMig">
-      <balancedPunctuations>)</balancedPunctuations>
-    </tokens> -->
-
 
 
     <!-- load treetagger -->
@@ -123,7 +119,6 @@
 
 
 
-
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -135,56 +130,3 @@
 
 
 </alvisnlp-plan>
-
-
-
-
-
-    <!-- save matching  elements from the layer conjunctions  -->
-    <!-- <rem-conj class="Action">
-      <target>documents.sections.layer:fcu[outside:conjunctions]</target>
-      <action>set:feat:match("conj")</action>
-      <setFeatures/>
-    </rem-conj> -->
-
-
-
-    <!-- delete repeating elements from the layer stages  -->
-    <!-- <remove-equal class="Action">
-      <target>documents.sections.(layer:conjunctions[@match=="fcu"]| layer:fcu[@match=="conj"])</target>
-      <action>delete</action>
-      <deleteElements/>
-    </remove-equal> -->
-
-    <!-- <layer class="MergeLayers">
-      <sourceLayerNames>conjunctions[@match == "fcu"],fcu[@match == "conj"]</sourceLayerNames>
-      <targetLayerName>conj_matched</targetLayerName>
-    </layer> -->
-
-
-
-
-    <!-- <compare class="CompareElements">
-      <sections>documents.sections</sections>
-      <reference>layer:conjunctions[@match == "fcu"]</reference>
-      <predicted>layer:fcu[@match == "conj"]</predicted>
-      <face>@form</face>
-      <outFile>output/compare.txt</outFile>
-      <similarity>strict</similarity>
-    </compare> -->
-
-
-
-    <!--
-    before:words{-3}.@form;
-    before:words{-2}.@form;
-    before:words{-1}.@form;
-    after:words{0}.@form;
-    after:words{1}.@form;
-    after:words{2}.@form;
-
-    -->
-
-    <!-- features  ;
-    str:join:' '(inside:words, @lemma)
-    -->
