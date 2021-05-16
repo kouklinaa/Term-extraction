@@ -11,8 +11,6 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
-
-  <!-- save exctracted terms -->
   <export-fcu class="TabularExport">
     <outDir>output/d2kab/fcu</outDir>
     <corpusFile>fcu_d2kab.csv</corpusFile>
@@ -40,8 +38,20 @@
     <trueCSV/>
   </export-fcu>
 
+  <fcu_vocab class="AggregateValues">
+    <entries>documents.sections.layer:fcu</entries>
+    <key>@form</key>
+    <outFile>output/d2kab/fcu/fcu_d2kab.txt</outFile>
+  </fcu_vocab>
 
 
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  ToMap
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
 
   <!-- <export-fcu-tomap class="TabularExport">
     <outDir>output</outDir>
@@ -69,11 +79,45 @@
   </export-fcu-tomap> -->
 
 
-  <fcu_vocab class="AggregateValues">
-    <entries>documents.sections.layer:fcu</entries>
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Phenological stages
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <bbch_export class="TabularExport">
+    <outDir>output/d2kab/bbch</outDir>
+    <corpusFile>bbch_vespa.csv</corpusFile>
+    <lines>documents.sections.layer:bbch</lines>
+    <headers>"bsv","context", "word", "context", "location","features"</headers>
+    <columns separator=";">
+      <!-- short document id  -->
+      str:replace(str:basename(section.document.@id), ".html", "");
+      <!-- context before  -->
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+      <!-- extracted term  -->
+      @form;
+      <!-- context after  -->
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+      <!-- location  -->
+      start ^ "-" ^ end;
+      <!-- features  -->
+      str:join:', '(nav:features, @key ^ "=" ^ @value)
+
+    </columns>
+    <trueCSV/>
+  </bbch_export>
+
+  <bbch_vocab class="AggregateValues">
+    <entries>documents.sections.layer:bbch</entries>
     <key>@form</key>
-    <outFile>output/d2kab/fcu/fcu_d2kab.txt</outFile>
-  </fcu_vocab>
+    <outFile>output/d2kab/bbch/bbch_vespa.txt</outFile>
+  </bbch_vocab>
+
+
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -117,65 +161,19 @@
   </conj_vocab>
 
 
-
-
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  //  Stages
+  //  Save all tokens
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
-
-  <bbch_export class="TabularExport">
-    <outDir>output/d2kab/bbch</outDir>
-    <corpusFile>bbch_vespa.csv</corpusFile>
-    <lines>documents.sections.layer:bbch</lines>
-    <headers>"bsv","context", "word", "context", "location","features"</headers>
-    <columns separator=";">
-      <!-- short document id  -->
-      str:replace(str:basename(section.document.@id), ".html", "");
-      <!-- context before  -->
-      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
-      <!-- extracted term  -->
-      @form;
-      <!-- context after  -->
-      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
-      <!-- location  -->
-      start ^ "-" ^ end;
-      <!-- features  -->
-      str:join:', '(nav:features, @key ^ "=" ^ @value)
-
-    </columns>
-    <trueCSV/>
-  </bbch_export>
-
-
-  <bbch_vocab class="AggregateValues">
-    <entries>documents.sections.layer:bbch</entries>
-    <key>@form</key>
-    <outFile>output/d2kab/bbch/bbch_vespa.txt</outFile>
-  </bbch_vocab>
-
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  //  Save tokenized words
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
-
-
-  <!-- all tokenized words in corpus -->
   <vocabulary class="AggregateValues">
     <entries>documents.sections.layer:words</entries>
     <key>@lemma</key>
     <outFile>output/d2kab/words_d2kab.txt</outFile>
   </vocabulary>
-
-
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -184,7 +182,6 @@
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
-
 
 
   <tf_idf href="modules/scores.plan">

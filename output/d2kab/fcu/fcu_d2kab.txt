@@ -75,7 +75,6 @@ Céréales
 Céréales à Paille
 Céréales à paille
 Céréales à pailles
-Côte
 ENDIVE
 ENDIVES
 ESCOURGEON
@@ -86,7 +85,6 @@ Engrais vert
 FLAGEOLET
 FRAISE
 FRAISES
-FRUIT
 Fenouil
 Feuille de Chêne
 Flageolet
@@ -97,12 +95,9 @@ Fraisier
 Fraisiers
 Framboisier
 Framboisiers
-Fruit
-Fruits
 Féverole
 Féverole de printemps
 GC
-Gel
 Grande Cultures
 Géranium
 Géraniums
@@ -111,7 +106,6 @@ HOUBLON
 Haricot
 Haricots
 Haricots verts
-Horticulture
 LAITUE
 LAITUE DE PLEIN CHAMP
 LANDE
@@ -134,7 +128,6 @@ MAÏS
 MELON
 Mamey
 Maraîchage
-Marron
 Maïs
 Maïs doux
 Melon
@@ -224,8 +217,6 @@ Salade
 Salades
 Scorsonère
 Scorsonères
-Semence
-Semences
 Soja
 Soleil
 Sorgho
@@ -328,8 +319,6 @@ céleris
 céréale
 céréales
 céréales à paille
-côte
-côtes
 endive
 endives
 engrais vert
@@ -354,19 +343,14 @@ fraisier
 fraisiers
 framboisier
 framboisiers
-fruit
 fruitiers
 fruitières
-fruits
-fruits tropicale
 fève
 fèves
 féverole
 féverole d'hiver
 féveroles
 féveroles d'hiver
-gel
-gels
 gousse
 gousses
 goyave
@@ -374,10 +358,7 @@ haricot
 haricot beurre
 haricot vert
 haricots
-horticulture
 houblon
-jachère
-jachères
 jardins
 laitue
 laitues
@@ -397,8 +378,6 @@ légumes
 légumes racines
 mangue
 maraîchage
-marron
-marrons
 maïs
 maïs doux
 maïs ensilage
@@ -421,7 +400,6 @@ oignons blancs
 oliviers
 oléagineux
 orange
-oranges
 orangé
 orangée
 orangées
@@ -435,7 +413,6 @@ pailles
 panais
 pastèque
 persil
-petits fruits
 phacélie
 piment
 pissenlit
@@ -465,8 +442,6 @@ prairies
 protéagineux
 prunier
 pruniers
-pépinière
-pépinières
 pêche
 pêcher
 pêchers
@@ -494,8 +469,6 @@ scarole
 scaroles
 scorsonère
 scorsonères
-semence
-semences
 soja
 sojas
 soleil

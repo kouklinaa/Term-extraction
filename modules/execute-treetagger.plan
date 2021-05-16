@@ -2,22 +2,7 @@
 
 <alvisnlp-plan id="execute-treetagger">
 
-
-  <!-- remove foreign words with label <FW> -->
-  <remove-pos class="Action">
-    <target>documents.sections.layer:words[@pos]</target>
-    <action>set:remove-feature:pos</action>
-    <setFeatures/>
-  </remove-pos>
-
-  <correct-word class="Action">
-      <target>documents.sections.layer:words[@form == "kaki"]</target>
-      <action>set:feat:pos("NOM")</action>
-      <setFeatures/>
-  </correct-word>
-
-
-
+  <!-- changeable parameters -->
   <param name="parFile">
     <alias module="tt" param="parFile"/>
   </param>
@@ -27,12 +12,12 @@
   </param>
 
 
+<!-- tree-tagger funciton -->
   <tt class="TreeTagger">
     <noUnknownLemma/>
     <inputCharset>UTF-8</inputCharset>
     <outputCharset>UTF-8</outputCharset>
   </tt>
-
 
 
 </alvisnlp-plan>

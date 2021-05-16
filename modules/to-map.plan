@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="tomap">
+
+  <yatea class="YateaExtractor">
+    <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
+    <perlLib>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/lib/perl5/site_perl</perlLib>
+    <rcFile>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/etc/yatea/yatea.rc</rcFile>
+    <configDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/config</configDir>
+    <localeDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/locale</localeDir>
+    <xmlTermsFile>output/yatea.xml</xmlTermsFile>
+    <language>FR</language>
+  </yatea>
+
+  <!-- <fcu-tomap>
+    <yatea class="YateaExtractor">
+<xmlTermsFile>output/yatea.xml</xmlTermsFile>
+<language>FR</language>
+    </yatea> -->
+
+    <!-- <classify class="TomapProjector">
+<tomapClassifier graylist="resources/tomap-graylist.txt">output/usageCulture.tomap</tomapClassifier>
+<targetLayerName>fcu-tomap</targetLayerName>
+<yateaFile output-feed="true">output/yatea.xml</yateaFile>
+<conceptFeature>IRI</conceptFeature>
+<explanationFeaturePrefix>tomap-</explanationFeaturePrefix>
+    </classify>
+
+    <label class="FileMapper">
+<mappingFile>resources/usageCulture20210112.txt</mappingFile>
+<target>documents.sections.layer:fcu-tomap</target>
+<form>@IRI</form>
+<targetFeatures>,,skos-prefLabel</targetFeatures>
+<keyColumn>1</keyColumn>
+    </label>
+  </fcu-tomap> -->
+</alvisnlp-plan>

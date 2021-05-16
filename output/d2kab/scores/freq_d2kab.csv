@@ -4,9 +4,7 @@
 20180911_bsv_grandes_cultures-26_cle0f15a8	blé	2.0
 20180911_bsv_grandes_cultures-26_cle0f15a8	tournesol	2.0
 20180911_bsv_grandes_cultures-26_cle0f15a8	céréale	1.0
-20180911_bsv_grandes_cultures-26_cle0f15a8	gel	1.0
 20180911_bsv_grandes_cultures-26_cle0f15a8	orge	1.0
-20180911_bsv_grandes_cultures-26_cle0f15a8	semence	1.0
 20180911_bsv_grandes_cultures-26_cle0f15a8	pêcher	1.0
 20180911_bsv_grandes_cultures-26_cle0f15a8	maïs fourrage	1.0
 20180911_bsv_grandes_cultures-26_cle0f15a8	fourrage annuel	1.0
@@ -30,7 +28,6 @@
 20181106_bsv_grandes_cultures_34_cle08159b	blé	3.0
 20181106_bsv_grandes_cultures_34_cle08159b	lin oléagineux d'hiver	2.0
 20181106_bsv_grandes_cultures_34_cle08159b	blé tendre	1.0
-20181106_bsv_grandes_cultures_34_cle08159b	semence	1.0
 20181106_bsv_grandes_cultures_34_cle08159b	mâche	1.0
 20181106_bsv_grandes_cultures_34_cle08159b	pêcher	1.0
 20190227_BSV_grandes_cultures_Auvergne_N02_cle0189db	colza	13.0
@@ -48,7 +45,6 @@
 20190320_LOR_BSV_Grandes_Cultures_cle83816d	blé tendre d'hiver	2.0
 20190320_LOR_BSV_Grandes_Cultures_cle83816d	orge d'hiver	2.0
 20190320_LOR_BSV_Grandes_Cultures_cle83816d	floriculture	2.0
-20190320_LOR_BSV_Grandes_Cultures_cle83816d	semence	1.0
 20190417_ALS_BSV_Grandes_Cultures_cle8c93cf	colza	10.0
 20190417_ALS_BSV_Grandes_Cultures_cle8c93cf	blé	8.0
 20190417_ALS_BSV_Grandes_Cultures_cle8c93cf	floriculture	3.0
@@ -62,7 +58,6 @@
 20190417_CHA_BSV_Grandes_Cultures_cle8333d7	féverole	7.0
 20190417_CHA_BSV_Grandes_Cultures_cle8333d7	blé	4.0
 20190417_CHA_BSV_Grandes_Cultures_cle8333d7	floriculture	4.0
-20190417_CHA_BSV_Grandes_Cultures_cle8333d7	gel	4.0
 20190417_CHA_BSV_Grandes_Cultures_cle8333d7	pois protéagineux d'hiver	3.0
 20190417_CHA_BSV_Grandes_Cultures_cle8333d7	céréale à paille	2.0
 20190417_CHA_BSV_Grandes_Cultures_cle8333d7	blé tendre	2.0
@@ -84,8 +79,6 @@
 20190507_LOR_BSV_Grandes_Cultures_cle893371	orge d'hiver	2.0
 20190507_LOR_BSV_Grandes_Cultures_cle893371	orge de printemps	2.0
 20190507_LOR_BSV_Grandes_Cultures_cle893371	floriculture	2.0
-20190507_LOR_BSV_Grandes_Cultures_cle893371	semence	2.0
-20190507_LOR_BSV_Grandes_Cultures_cle893371	oranger	1.0
 20190507_LOR_BSV_Grandes_Cultures_cle893371	abricotier pays	1.0
 20190507_LOR_BSV_Grandes_Cultures_cle893371	soja	1.0
 20190507_LOR_BSV_Grandes_Cultures_cle893371	prunier	1.0
@@ -94,22 +87,18 @@
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	maïs	7.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	colza	3.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	céréale	3.0
-20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	châtaignier	2.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	sorgho	2.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	sorgho grain	2.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	blé dur	2.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	céréale à paille	2.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	grande culture	1.0
-20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	oranger	1.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	rosier ornemental	1.0
 20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	orge	1.0
 20190522_BSV_grandes_cultures_Auvergne_N14_cle02c8cf	maïs	10.0
 20190522_BSV_grandes_cultures_Auvergne_N14_cle02c8cf	blé	5.0
-20190522_BSV_grandes_cultures_Auvergne_N14_cle02c8cf	gel	5.0
-20190522_BSV_grandes_cultures_Auvergne_N14_cle02c8cf	oranger	5.0
 20190522_BSV_grandes_cultures_Auvergne_N14_cle02c8cf	triticale	3.0
+20190522_BSV_grandes_cultures_Auvergne_N14_cle02c8cf	oranger	1.0
 20190522_BSV_grandes_cultures_Auvergne_N14_cle02c8cf	orge	1.0
-20190522_BSV_grandes_cultures_Auvergne_N14_cle02c8cf	semence	1.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	pois	10.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	tournesol	8.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	colza	7.0
@@ -118,15 +107,11 @@
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	orge	5.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	pois protéagineux de printemps	5.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	blé tendre	4.0
-20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	oranger	4.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	orge de printemps	3.0
-20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	gel	3.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	blé tendre d'hiver	2.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	orge d'hiver	2.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	céréale	1.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	soja	1.0
-20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	semence	1.0
-20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	châtaignier	1.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	rosier ornemental	1.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	légume à graines ou à gousses	1.0
 20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	prunier	1.0
@@ -151,7 +136,6 @@
 20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b	blé tendre	2.0
 20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b	blé dur	2.0
 20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b	pêcher	1.0
-20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b	semence	1.0
 20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b	orge	1.0
 20191210_bsv_grandes_cultures_cle8fd173	colza	18.0
 20191210_bsv_grandes_cultures_cle8fd173	céréale	9.0
@@ -161,7 +145,6 @@
 20191210_bsv_grandes_cultures_cle8fd173	blé tendre	1.0
 20191210_bsv_grandes_cultures_cle8fd173	blé dur	1.0
 20191210_bsv_grandes_cultures_cle8fd173	triticale	1.0
-20191210_bsv_grandes_cultures_cle8fd173	semence	1.0
 20191210_bsv_grandes_cultures_cle8fd173	avoine	1.0
 BSV-GC-n__20-02072019_cle4693f1	betterave	8.0
 BSV-GC-n__20-02072019_cle4693f1	maïs	6.0
@@ -241,7 +224,6 @@ BSV_GC_ARCMED_N03_18042019_cle479bcc	blé tendre	1.0
 BSV_GC_ARCMED_N03_18042019_cle479bcc	oranger	1.0
 BSV_GC_ARCMED_N04_30042019_cle47541c	blé	8.0
 BSV_GC_ARCMED_N04_30042019_cle47541c	oranger	2.0
-BSV_GC_ARCMED_N04_30042019_cle47541c	gel	1.0
 BSV_GC_ARCMED_N04_30042019_cle47541c	blé dur	1.0
 BSV_GC_NA_Limousin_02_20190305_cle077475	colza	12.0
 BSV_GC_NA_Limousin_02_20190305_cle077475	céréale à paille	9.0
@@ -259,7 +241,6 @@ BSV_GC_NA_Limousin_13_20190521_cle0cb17e	blé	11.0
 BSV_GC_NA_Limousin_13_20190521_cle0cb17e	maïs	10.0
 BSV_GC_NA_Limousin_13_20190521_cle0cb17e	céréale à paille	6.0
 BSV_GC_NA_Limousin_13_20190521_cle0cb17e	triticale	6.0
-BSV_GC_NA_Limousin_13_20190521_cle0cb17e	semence	5.0
 BSV_GC_NA_Limousin_13_20190521_cle0cb17e	céréale	3.0
 BSV_GC_NA_Limousin_13_20190521_cle0cb17e	blé tendre	3.0
 BSV_GC_NA_Limousin_13_20190521_cle0cb17e	blé tendre d'hiver	2.0
@@ -271,15 +252,12 @@ BSV_GC_NA_Limousin_17_20190730_cle0fa494	floriculture	4.0
 BSV_GC_NA_Limousin_17_20190730_cle0fa494	céréale à paille	2.0
 BSV_GC_NA_Limousin_17_20190730_cle0fa494	céréale	2.0
 BSV_GC_NA_Limousin_17_20190730_cle0fa494	oléagineux	1.0
-BSV_GC_NA_Limousin_17_20190730_cle0fa494	semence	1.0
-BSV_GC_NA_Limousin_17_20190730_cle0fa494	oranger	1.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	colza	14.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	mâche	8.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	céréale	6.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	céréale à paille	4.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	maïs	1.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	oléagineux	1.0
-BSV_GC_NA_Limousin_31_20191126_cle074695	gel	1.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	blé	1.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	culture fourragère	1.0
 BSV_GC_NA_Limousin_31_20191126_cle074695	céréale fourragère	1.0
@@ -298,7 +276,6 @@ BSV_GC_n_19_du_26_03_19_cle8bda1e	blé tendre	3.0
 BSV_GC_n_19_du_26_03_19_cle8bda1e	pois protéagineux d'hiver	3.0
 BSV_GC_n_19_du_26_03_19_cle8bda1e	pois protéagineux de printemps	2.0
 BSV_GC_n_19_du_26_03_19_cle8bda1e	céréale à paille	2.0
-BSV_GC_n_19_du_26_03_19_cle8bda1e	poirée	1.0
 BSV_GC_n_19_du_26_03_19_cle8bda1e	chou potager	1.0
 BSV_GC_n_19_du_26_03_19_cle8bda1e	chou	1.0
 BSV_GC_n_19_du_26_03_19_cle8bda1e	laurier	1.0
@@ -326,11 +303,9 @@ BSV_GC_n_27_du_21_05_19_cle8d148f	tournesol	5.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	colza	4.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	soja	4.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	betterave	3.0
-BSV_GC_n_27_du_21_05_19_cle8d148f	châtaignier	3.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	légume à graines ou à gousses	3.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	blé	2.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	orge à six rangs	2.0
-BSV_GC_n_27_du_21_05_19_cle8d148f	oranger	2.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	laurier	2.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	ray-grass	2.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	orge	2.0
@@ -339,14 +314,12 @@ BSV_GC_n_27_du_21_05_19_cle8d148f	céréale à paille	2.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	prunier	2.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	prairie	2.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	blé tendre	1.0
+BSV_GC_n_27_du_21_05_19_cle8d148f	oranger	1.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	avoine	1.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	orge de printemps	1.0
 BSV_GC_n_27_du_21_05_19_cle8d148f	céréale	1.0
-BSV_GC_n_27_du_21_05_19_cle8d148f	semence	1.0
-BSV_GC_n_27_du_21_05_19_cle8d148f	poirée	1.0
 BSV_GC_n_33_du_2_07_19_cle0b813e	maïs	9.0
 BSV_GC_n_33_du_2_07_19_cle0b813e	tournesol	6.0
-BSV_GC_n_33_du_2_07_19_cle0b813e	poirée	5.0
 BSV_GC_n_33_du_2_07_19_cle0b813e	soja	4.0
 BSV_GC_n_33_du_2_07_19_cle0b813e	betterave	3.0
 BSV_GC_n_33_du_2_07_19_cle0b813e	colza	2.0
@@ -359,16 +332,15 @@ BSV_GRANDES_CULTURES_2019_No21_cle091311	oignon	7.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	betterave	6.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	légume à graines ou à gousses	5.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	haricot	3.0
-BSV_GRANDES_CULTURES_2019_No21_cle091311	culture légumière	2.0
-BSV_GRANDES_CULTURES_2019_No21_cle091311	arboriculture	2.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	poireau	1.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	floriculture	1.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	haricot demi-sec	1.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	jardins familiaux	1.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	blé	1.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	colza	1.0
+BSV_GRANDES_CULTURES_2019_No21_cle091311	culture légumière	1.0
+BSV_GRANDES_CULTURES_2019_No21_cle091311	arboriculture	1.0
 BSV_GRANDES_CULTURES_2019_No21_cle091311	maraîchage	1.0
-BSV_GRANDES_CULTURES_2019_No21_cle091311	horticulture ornementale	1.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	pomme de terre	7.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	pommier	7.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	betterave	7.0
@@ -376,14 +348,13 @@ BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	oignon	7.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	maïs	5.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	haricot	3.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	légume à graines ou à gousses	2.0
-BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	culture légumière	2.0
-BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	arboriculture	2.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	poireau	1.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	jardins familiaux	1.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	blé	1.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	colza	1.0
+BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	culture légumière	1.0
+BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	arboriculture	1.0
 BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	maraîchage	1.0
-BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	horticulture ornementale	1.0
 BSV_GRANDES_CULTURES_2019_No36_cle02e122	colza	10.0
 BSV_GRANDES_CULTURES_2019_No36_cle02e122	blé	5.0
 BSV_GRANDES_CULTURES_2019_No36_cle02e122	betterave	3.0
@@ -401,8 +372,6 @@ BSV_GRANDES_CULTURES_2019_No7_cle8446d7	orge	4.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	blé	3.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	orge de printemps	2.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	pois protéagineux de printemps	2.0
-BSV_GRANDES_CULTURES_2019_No7_cle8446d7	culture légumière	2.0
-BSV_GRANDES_CULTURES_2019_No7_cle8446d7	arboriculture	2.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	orge d'hiver	1.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	féverole de printemps	1.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	féverole	1.0
@@ -414,8 +383,9 @@ BSV_GRANDES_CULTURES_2019_No7_cle8446d7	tomate	1.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	fourrage annuel	1.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	jardins familiaux	1.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	oignon	1.0
+BSV_GRANDES_CULTURES_2019_No7_cle8446d7	culture légumière	1.0
+BSV_GRANDES_CULTURES_2019_No7_cle8446d7	arboriculture	1.0
 BSV_GRANDES_CULTURES_2019_No7_cle8446d7	maraîchage	1.0
-BSV_GRANDES_CULTURES_2019_No7_cle8446d7	horticulture ornementale	1.0
 BSV_LIN_Olea_n12_NR_25032019_cle86164b	lin	20.0
 BSV_LIN_Olea_n12_NR_25032019_cle86164b	lin oléagineux	9.0
 BSV_LIN_Olea_n12_NR_25032019_cle86164b	oléagineux	9.0
@@ -438,7 +408,6 @@ BSV_NA_GC_AQUITAINE_N01_20190207_cle01cb7e	mâche	1.0
 BSV_NA_GC_AQUITAINE_N19_20190613_cle0c6817	maïs	8.0
 BSV_NA_GC_AQUITAINE_N19_20190613_cle0c6817	tournesol	8.0
 BSV_NA_GC_AQUITAINE_N19_20190613_cle0c6817	céréale à paille	2.0
-BSV_NA_GC_AQUITAINE_N19_20190613_cle0c6817	semence	2.0
 BSV_NA_GC_AQUITAINE_N19_20190613_cle0c6817	céréale	1.0
 BSV_NA_GC_AQUITAINE_N19_20190613_cle0c6817	oléagineux	1.0
 BSV_NA_GC_AQUITAINE_N19_20190613_cle0c6817	prairie	1.0
@@ -447,7 +416,6 @@ BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	maïs	12.0
 BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	colza	9.0
 BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	prairie	5.0
 BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	céréale à paille	2.0
-BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	semence	2.0
 BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	céréale	1.0
 BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	oléagineux	1.0
 BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	maïs grain	1.0
@@ -475,7 +443,6 @@ BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad	oléagineux	1.0
 BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad	rosier ornemental	1.0
 BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad	blé dur	1.0
 BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad	orge	1.0
-BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad	semence	1.0
 BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	maïs	19.0
 BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	pois	4.0
 BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	protéagineux	3.0
@@ -485,7 +452,6 @@ BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	céréale à paille	2.0
 BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	pois protéagineux	2.0
 BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	céréale	1.0
 BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	oléagineux	1.0
-BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	oranger	1.0
 BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	tournesol	1.0
 BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	colza	23.0
 BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	blé	7.0
@@ -499,7 +465,6 @@ BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	oléagineux	1.0
 BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	protéagineux	1.0
 BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	blé tendre d'hiver	1.0
 BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	orge d'hiver	1.0
-BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	semence	1.0
 BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	châtaignier	1.0
 BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	orge de printemps	1.0
 BSV_PDT_03_du_19_05_15_cle091415	pomme de terre	4.0
@@ -546,16 +511,15 @@ BSV_cereales_paille_15_du_16-04-19_cle81e145	céréale à paille	34.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	blé tendre	22.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	blé dur	17.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	orge	16.0
-BSV_cereales_paille_15_du_16-04-19_cle81e145	oranger	14.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	orge d'hiver	8.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	orge de printemps	7.0
+BSV_cereales_paille_15_du_16-04-19_cle81e145	oranger	4.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	céréale	3.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	maïs	3.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	sorgho grain	3.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	rosier ornemental	2.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	sorgho	2.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	blé tendre d'hiver	1.0
-BSV_cereales_paille_15_du_16-04-19_cle81e145	châtaignier	1.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	triticale	1.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	maïs fourrage	1.0
 BSV_cereales_paille_15_du_16-04-19_cle81e145	culture fourragère	1.0
@@ -564,29 +528,20 @@ BSV_cereales_paille_15_du_16-04-19_cle81e145	noyer	1.0
 BSV_mais_05_du_12-06-19_cle8158c5	maïs	40.0
 BSV_mais_05_du_12-06-19_cle8158c5	rosier ornemental	2.0
 BSV_mais_05_du_12-06-19_cle8158c5	prairie	2.0
-BSV_mais_05_du_12-06-19_cle8158c5	châtaignier	2.0
 BSV_mais_05_du_12-06-19_cle8158c5	amandier	1.0
-BSV_mais_05_du_12-06-19_cle8158c5	semence	1.0
 BSV_mais_05_du_12-06-19_cle8158c5	céréale à paille	1.0
-BSV_mais_05_du_12-06-19_cle8158c5	gel	1.0
 BSV_mais_11_du_23-07-19_cle86f6f1	maïs	39.0
 BSV_mais_11_du_23-07-19_cle86f6f1	rosier ornemental	2.0
 BSV_mais_11_du_23-07-19_cle86f6f1	prairie	2.0
-BSV_mais_11_du_23-07-19_cle86f6f1	châtaignier	2.0
 BSV_mais_11_du_23-07-19_cle86f6f1	amandier	1.0
-BSV_mais_11_du_23-07-19_cle86f6f1	semence	1.0
 BSV_mais_11_du_23-07-19_cle86f6f1	céréale à paille	1.0
-BSV_mais_11_du_23-07-19_cle86f6f1	gel	1.0
 BSV_mais_15_du_03-09-19_cle85c39e	maïs	40.0
 BSV_mais_15_du_03-09-19_cle85c39e	fourrage annuel	2.0
 BSV_mais_15_du_03-09-19_cle85c39e	rosier ornemental	2.0
 BSV_mais_15_du_03-09-19_cle85c39e	prairie	2.0
-BSV_mais_15_du_03-09-19_cle85c39e	châtaignier	2.0
 BSV_mais_15_du_03-09-19_cle85c39e	cognassier	1.0
 BSV_mais_15_du_03-09-19_cle85c39e	amandier	1.0
-BSV_mais_15_du_03-09-19_cle85c39e	semence	1.0
 BSV_mais_15_du_03-09-19_cle85c39e	céréale à paille	1.0
-BSV_mais_15_du_03-09-19_cle85c39e	gel	1.0
 BSV_no11_du_30-04-19_cle0bc1be	lin	11.0
 BSV_no11_du_30-04-19_cle0bc1be	blé	7.0
 BSV_no11_du_30-04-19_cle0bc1be	lin oléagineux	5.0
@@ -595,7 +550,6 @@ BSV_no11_du_30-04-19_cle0bc1be	colza	3.0
 BSV_no11_du_30-04-19_cle0bc1be	orge	3.0
 BSV_no11_du_30-04-19_cle0bc1be	chou potager	2.0
 BSV_no11_du_30-04-19_cle0bc1be	chou	2.0
-BSV_no11_du_30-04-19_cle0bc1be	semence	2.0
 BSV_no11_du_30-04-19_cle0bc1be	céréale à paille	2.0
 BSV_no11_du_30-04-19_cle0bc1be	lin oléagineux d'hiver	2.0
 BSV_no11_du_30-04-19_cle0bc1be	floriculture	1.0
@@ -609,7 +563,6 @@ BSV_no30_du_22-10-19_cle085f67	pêcher	3.0
 BSV_no30_du_22-10-19_cle085f67	chou potager	3.0
 BSV_no30_du_22-10-19_cle085f67	chou	3.0
 BSV_no30_du_22-10-19_cle085f67	céréale	2.0
-BSV_no30_du_22-10-19_cle085f67	gel	2.0
 BSV_no30_du_22-10-19_cle085f67	maïs grain	1.0
 BSV_no30_du_22-10-19_cle085f67	mâche	1.0
 BSV_no30_du_22-10-19_cle085f67	ray-grass	1.0
@@ -621,7 +574,6 @@ BSV_no6_du_26-03-19_cle8da969	lin oléagineux	4.0
 BSV_no6_du_26-03-19_cle8da969	oléagineux	4.0
 BSV_no6_du_26-03-19_cle8da969	orge	3.0
 BSV_no6_du_26-03-19_cle8da969	floriculture	3.0
-BSV_no6_du_26-03-19_cle8da969	semence	2.0
 BSV_no6_du_26-03-19_cle8da969	lin oléagineux d'hiver	2.0
 BSV_no6_du_26-03-19_cle8da969	céréale	1.0
 BSV_no6_du_26-03-19_cle8da969	pois	1.0
@@ -653,7 +605,6 @@ alsace_gdes_cultures_no3_du_13-03-19_cle4272b9	floriculture	1.0
 alsace_gdes_cultures_no3_du_13-03-19_cle4272b9	céréale	1.0
 bsv-gc-n__14-21-mai-2019_cle85ad4f	betterave	8.0
 bsv-gc-n__14-21-mai-2019_cle85ad4f	lin	7.0
-bsv-gc-n__14-21-mai-2019_cle85ad4f	oranger	5.0
 bsv-gc-n__14-21-mai-2019_cle85ad4f	orge	5.0
 bsv-gc-n__14-21-mai-2019_cle85ad4f	orge de printemps	3.0
 bsv-gc-n__14-21-mai-2019_cle85ad4f	colza	3.0
@@ -687,17 +638,14 @@ bsv_gc_arcmed_n03_18042019_cle485f1e	oranger	1.0
 bsv_gc_arcmed_n09_13062019_cle4a8a8c	pois chiche	5.0
 bsv_gc_arcmed_n09_13062019_cle4a8a8c	pois	5.0
 bsv_gc_arcmed_n09_13062019_cle4a8a8c	légume à graines ou à gousses	5.0
-bsv_gc_arcmed_n09_13062019_cle4a8a8c	semence	4.0
 bsv_gc_arcmed_n09_13062019_cle4a8a8c	tomate	1.0
 bsv_gc_arcmed_n09_3262159476651410763_cle013bb3	pois chiche	5.0
 bsv_gc_arcmed_n09_3262159476651410763_cle013bb3	pois	5.0
 bsv_gc_arcmed_n09_3262159476651410763_cle013bb3	légume à graines ou à gousses	5.0
-bsv_gc_arcmed_n09_3262159476651410763_cle013bb3	semence	4.0
 bsv_gc_arcmed_n09_3262159476651410763_cle013bb3	tomate	1.0
 bsv_gc_arcmed_n12_04072019_cle43eb7b	pois chiche	5.0
 bsv_gc_arcmed_n12_04072019_cle43eb7b	pois	5.0
 bsv_gc_arcmed_n12_04072019_cle43eb7b	légume à graines ou à gousses	5.0
-bsv_gc_arcmed_n12_04072019_cle43eb7b	semence	4.0
 bsv_gc_arcmed_n12_04072019_cle43eb7b	tomate	1.0
 bsv_gc_mp_n01_25092019_cle039d59	colza	10.0
 bsv_gc_mp_n01_25092019_cle039d59	tomate	3.0
@@ -719,7 +667,6 @@ bsv_gc_mp_n19_21032019_cle0c7f7d	céréale à paille	7.0
 bsv_gc_mp_n19_21032019_cle0c7f7d	blé tendre	7.0
 bsv_gc_mp_n19_21032019_cle0c7f7d	floriculture	6.0
 bsv_gc_mp_n19_21032019_cle0c7f7d	céréale	5.0
-bsv_gc_mp_n19_21032019_cle0c7f7d	semence	1.0
 bsv_gc_mp_n19_21032019_cle0c7f7d	tournesol	1.0
 bsv_gc_mp_n19_21032019_cle0c7f7d	soja	1.0
 bsv_gc_mp_n27_16052019_cle046a11	blé	45.0
@@ -738,7 +685,6 @@ bsv_gc_mp_n27_16052019_cle046a11	féverole	4.0
 bsv_gc_mp_n27_16052019_cle046a11	sorgho grain	2.0
 bsv_gc_mp_n27_16052019_cle046a11	féverole d'hiver	2.0
 bsv_gc_mp_n27_16052019_cle046a11	protéagineux	2.0
-bsv_gc_mp_n27_16052019_cle046a11	semence	1.0
 bsv_gc_mp_n27_16052019_cle046a11	orge d'hiver	1.0
 bsv_gc_mp_n27_16052019_cle046a11	maïs grain	1.0
 bsv_gc_mp_n27_16052019_cle046a11	maïs	1.0
@@ -747,7 +693,6 @@ bsv_gc_mp_n33_27062019_cle051c4f	tournesol	12.0
 bsv_gc_mp_n33_27062019_cle051c4f	légume à graines ou à gousses	6.0
 bsv_gc_mp_n33_27062019_cle051c4f	pois chiche	5.0
 bsv_gc_mp_n33_27062019_cle051c4f	pois	5.0
-bsv_gc_mp_n33_27062019_cle051c4f	semence	4.0
 bsv_gc_mp_n33_27062019_cle051c4f	soja	1.0
 bsv_gc_mp_n33_27062019_cle051c4f	tomate	1.0
 bsv_grandes_cultures_n02_27092018_cle87a58c	colza	10.0
@@ -769,7 +714,6 @@ bsv_grandes_cultures_n35_09082018-2_cle06f22b	légume à graines ou à gousses	5
 bsv_grandes_cultures_n35_09082018-2_cle06f22b	tournesol	1.0
 bsv_grandes_cultures_n35_09082018-2_cle06f22b	sorgho	1.0
 bsv_grandes_cultures_n35_09082018-2_cle06f22b	sorgho grain	1.0
-bsv_grandes_cultures_n35_09082018-2_cle06f22b	semence	1.0
 bsv_grandes_cultures_n35_09082018-2_cle06f22b	colza d'hiver	1.0
 char_gdes_Cultures_no11_du_30-04-19_cle096f9c	colza	7.0
 char_gdes_Cultures_no11_du_30-04-19_cle096f9c	tournesol	7.0
@@ -787,9 +731,7 @@ char_gdes_Cultures_no11_du_30-04-19_cle096f9c	orge d'hiver	2.0
 char_gdes_Cultures_no11_du_30-04-19_cle096f9c	blé tendre d'hiver	1.0
 char_gdes_Cultures_no11_du_30-04-19_cle096f9c	pêcher	1.0
 char_gdes_Cultures_no11_du_30-04-19_cle096f9c	fève	1.0
-char_gdes_Cultures_no11_du_30-04-19_cle096f9c	oranger	1.0
 char_gdes_Cultures_no11_du_30-04-19_cle096f9c	maïs grain	1.0
-char_gdes_Cultures_no11_du_30-04-19_cle096f9c	semence	1.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	pois	20.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	maïs	17.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	colza	8.0
@@ -805,7 +747,6 @@ char_gdes_Cultures_no14_du_22-05-19_cle0b1586	féverole	4.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	orge de printemps	3.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	prunier	3.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	orge d'hiver	2.0
-char_gdes_Cultures_no14_du_22-05-19_cle0b1586	oranger	2.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	floriculture	2.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	zone non agricole	2.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	jardin	2.0
@@ -814,7 +755,6 @@ char_gdes_Cultures_no14_du_22-05-19_cle0b1586	blé tendre d'hiver	1.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	rosier ornemental	1.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	légume à graines ou à gousses	1.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	féverole de printemps	1.0
-char_gdes_Cultures_no14_du_22-05-19_cle0b1586	gel	1.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	pomme de terre potagère	1.0
 char_gdes_Cultures_no14_du_22-05-19_cle0b1586	céréale	1.0
 char_gdes_Cultures_no26_du_14-08-19_cle0fb929	luzerne	10.0
@@ -823,7 +763,6 @@ char_gdes_Cultures_no26_du_14-08-19_cle0fb929	pomme de terre	3.0
 char_gdes_Cultures_no26_du_14-08-19_cle0fb929	pommier	3.0
 char_gdes_Cultures_no26_du_14-08-19_cle0fb929	céréale	1.0
 char_gdes_Cultures_no26_du_14-08-19_cle0fb929	pomme de terre potagère	1.0
-char_gdes_Cultures_no26_du_14-08-19_cle0fb929	culture fruitière	1.0
 ge_houblon_no6_du_19-06-19_cle41558d	houblon	4.0
 ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20180802_bsvmaraichage_19_cle04c2cf	concombre	11.0
@@ -846,7 +785,6 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20180802_bsvmaraichage_19_cle04c2cf	mâche	2.0
 20180802_bsvmaraichage_19_cle04c2cf	ciboulette	1.0
 20180802_bsvmaraichage_19_cle04c2cf	salade	1.0
-20180802_bsvmaraichage_19_cle04c2cf	semence	1.0
 20180920_bsvmaraichage_cle0649bf	concombre	19.0
 20180920_bsvmaraichage_cle0649bf	chou potager	17.0
 20180920_bsvmaraichage_cle0649bf	chou	17.0
@@ -864,8 +802,6 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20180920_bsvmaraichage_cle0649bf	laitue	2.0
 20180920_bsvmaraichage_cle0649bf	ciboulette	1.0
 20180920_bsvmaraichage_cle0649bf	chou cabus rouge	1.0
-20180920_bsvmaraichage_cle0649bf	culture fruitière	1.0
-20180920_bsvmaraichage_cle0649bf	semence	1.0
 20181011_bsvmaraichage_27_cle09c363	céleri	13.0
 20181011_bsvmaraichage_27_cle09c363	chou potager	10.0
 20181011_bsvmaraichage_27_cle09c363	chou	10.0
@@ -881,11 +817,9 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20181011_bsvmaraichage_27_cle09c363	laitue	3.0
 20181011_bsvmaraichage_27_cle09c363	oignon	2.0
 20181011_bsvmaraichage_27_cle09c363	céleri-rave	2.0
-20181011_bsvmaraichage_27_cle09c363	culture fruitière	2.0
 20181011_bsvmaraichage_27_cle09c363	concombre	1.0
 20181011_bsvmaraichage_27_cle09c363	ciboulette	1.0
 20181011_bsvmaraichage_27_cle09c363	oseille	1.0
-20181011_bsvmaraichage_27_cle09c363	semence	1.0
 20190502_BSV_legumes_cle079711	culture légumière	21.0
 20190502_BSV_legumes_cle079711	chou potager	19.0
 20190502_BSV_legumes_cle079711	chou	19.0
@@ -897,9 +831,6 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20190502_BSV_legumes_cle079711	laitue	3.0
 20190502_BSV_legumes_cle079711	poivron	3.0
 20190502_BSV_legumes_cle079711	Chou cabus blanc	2.0
-20190502_BSV_legumes_cle079711	arboriculture	2.0
-20190502_BSV_legumes_cle079711	horticulture ornementale	2.0
-20190502_BSV_legumes_cle079711	gel	2.0
 20190502_BSV_legumes_cle079711	salade	2.0
 20190502_BSV_legumes_cle079711	aubergine	2.0
 20190502_BSV_legumes_cle079711	chou pommé	1.0
@@ -922,22 +853,19 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20190731_BSV_legumes_cle01d6c6	laitue	6.0
 20190731_BSV_legumes_cle01d6c6	asperge	4.0
 20190731_BSV_legumes_cle01d6c6	céréale	4.0
-20190731_BSV_legumes_cle01d6c6	arboriculture	2.0
 20190731_BSV_legumes_cle01d6c6	colza	2.0
 20190731_BSV_legumes_cle01d6c6	oranger	1.0
 20190731_BSV_legumes_cle01d6c6	luzerne	1.0
 20190731_BSV_legumes_cle01d6c6	betterave	1.0
 20190731_BSV_legumes_cle01d6c6	oseille	1.0
 20190731_BSV_legumes_cle01d6c6	pissenlit	1.0
+20190731_BSV_legumes_cle01d6c6	arboriculture	1.0
 20190731_BSV_legumes_cle01d6c6	chou chinois	1.0
 20190731_BSV_legumes_cle01d6c6	radis	1.0
-20190731_BSV_legumes_cle01d6c6	horticulture ornementale	1.0
 20190731_BSV_legumes_cle01d6c6	chou cabus rouge	1.0
 20190731_BSV_legumes_cle01d6c6	chou pommé	1.0
 20190731_BSV_legumes_cle01d6c6	Chou cabus blanc	1.0
-20190731_BSV_legumes_cle01d6c6	semence	1.0
 20190731_BSV_legumes_cle01d6c6	maïs	1.0
-20190731_BSV_legumes_cle01d6c6	gel	1.0
 20190731_BSV_legumes_cle01d6c6	laitue batavia	1.0
 20190731_BSV_legumes_cle01d6c6	blé	1.0
 20190828_BSV_legumes_cle0ede1d	chou potager	37.0
@@ -951,7 +879,6 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20190828_BSV_legumes_cle0ede1d	pommier	4.0
 20190828_BSV_legumes_cle0ede1d	radis	3.0
 20190828_BSV_legumes_cle0ede1d	Chou cabus blanc	2.0
-20190828_BSV_legumes_cle0ede1d	gel	2.0
 20190828_BSV_legumes_cle0ede1d	oranger	1.0
 20190828_BSV_legumes_cle0ede1d	luzerne	1.0
 20190828_BSV_legumes_cle0ede1d	betterave	1.0
@@ -959,12 +886,10 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20190828_BSV_legumes_cle0ede1d	pissenlit	1.0
 20190828_BSV_legumes_cle0ede1d	chou chinois	1.0
 20190828_BSV_legumes_cle0ede1d	chou de Milan	1.0
-20190828_BSV_legumes_cle0ede1d	semence	1.0
 20190828_BSV_legumes_cle0ede1d	chou pommé	1.0
 20190828_BSV_legumes_cle0ede1d	céréale	1.0
 20190828_BSV_legumes_cle0ede1d	maïs	1.0
 20190828_BSV_legumes_cle0ede1d	tomate	1.0
-20190828_BSV_legumes_cle0ede1d	culture fruitière	1.0
 20190828_BSV_legumes_cle0ede1d	poivron	1.0
 20190828_BSV_legumes_cle0ede1d	concombre	1.0
 20190828_BSV_legumes_cle0ede1d	navet potager	1.0
@@ -990,9 +915,7 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 20199062_bsvmaraichage_no27_cle051121-1	fraisier	2.0
 20199062_bsvmaraichage_no27_cle051121-1	framboisier	2.0
 20199062_bsvmaraichage_no27_cle051121-1	navet potager	1.0
-20199062_bsvmaraichage_no27_cle051121-1	culture fruitière	1.0
 20199062_bsvmaraichage_no27_cle051121-1	melon	1.0
-20199062_bsvmaraichage_no27_cle051121-1	semence	1.0
 2019_BSV_Normandie_leg_22_sem35_cle43a9ca	chou potager	17.0
 2019_BSV_Normandie_leg_22_sem35_cle43a9ca	chou	17.0
 2019_BSV_Normandie_leg_22_sem35_cle43a9ca	carotte	14.0
@@ -1006,10 +929,6 @@ ge_houblon_no6_du_19-06-19_cle41558d	floriculture	1.0
 2019_BSV_Normandie_leg_22_sem35_cle43a9ca	pommier	3.0
 2019_BSV_Normandie_leg_22_sem35_cle43a9ca	navet potager	2.0
 2019_BSV_Normandie_leg_22_sem35_cle43a9ca	chou brocoli	1.0
-2019_BSV_Normandie_leg_22_sem35_cle43a9ca	arboriculture	1.0
-2019_BSV_Normandie_leg_22_sem35_cle43a9ca	horticulture ornementale	1.0
-2019_BSV_Normandie_leg_22_sem35_cle43a9ca	poirée	1.0
-BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	culture fruitière	23.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	maraîchage	11.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	tomate	11.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	melon	6.0
@@ -1024,8 +943,6 @@ BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	arboriculture fruitière	2.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	pêcher	2.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	tournesol	1.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	céréale	1.0
-BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	poirée	1.0
-BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	arboriculture fruitière tropicale	1.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	manguier	1.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	citronnier	1.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	goyavier	1.0
@@ -1046,7 +963,6 @@ BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	rosier ornemental	1.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	vigne	1.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	agrume	1.0
 BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	chêne	1.0
-BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	culture fruitière	16.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	maraîchage	9.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	tomate	9.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	melon	4.0
@@ -1061,7 +977,6 @@ BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	pêcher	2.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	pastèque	1.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	basilic	1.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	tournesol	1.0
-BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	arboriculture fruitière tropicale	1.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	manguier	1.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	citronnier	1.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	goyavier	1.0
@@ -1080,7 +995,6 @@ BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	rosier ornemental	1.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	vigne	1.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	agrume	1.0
 BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	chêne	1.0
-BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	culture fruitière	14.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	maraîchage	7.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	tomate	5.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	courgette	3.0
@@ -1089,12 +1003,9 @@ BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	arboriculture fruitière	3.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	concombre	2.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	aubergine	2.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	courge	2.0
-BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	châtaignier	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	moutarde	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	pastèque	1.0
-BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	poirée	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	tournesol	1.0
-BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	arboriculture fruitière tropicale	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	manguier	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	citronnier	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	goyavier	1.0
@@ -1108,9 +1019,9 @@ BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	bananier musa	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	figuier	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	culture légumière	1.0
 BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	poivron	1.0
-BSV_Legumes_102019_cle8be56a	culture légumière	19.0
 BSV_Legumes_102019_cle8be56a	chou potager	18.0
 BSV_Legumes_102019_cle8be56a	chou	18.0
+BSV_Legumes_102019_cle8be56a	culture légumière	18.0
 BSV_Legumes_102019_cle8be56a	carotte	16.0
 BSV_Legumes_102019_cle8be56a	oignon	14.0
 BSV_Legumes_102019_cle8be56a	poireau	11.0
@@ -1132,17 +1043,13 @@ BSV_Legumes_102019_cle8be56a	scorsonère	2.0
 BSV_Legumes_102019_cle8be56a	chou pommé	2.0
 BSV_Legumes_102019_cle8be56a	ciboulette	1.0
 BSV_Legumes_102019_cle8be56a	ail	1.0
-BSV_Legumes_102019_cle8be56a	oranger	1.0
 BSV_Legumes_102019_cle8be56a	luzerne	1.0
-BSV_Legumes_102019_cle8be56a	arboriculture	1.0
-BSV_Legumes_102019_cle8be56a	horticulture ornementale	1.0
 BSV_Legumes_102019_cle8be56a	maraîchage	1.0
 BSV_Legumes_102019_cle8be56a	fraisier	1.0
 BSV_Legumes_102019_cle8be56a	colza	1.0
 BSV_Legumes_102019_cle8be56a	phacélie	1.0
 BSV_Legumes_102019_cle8be56a	moutarde	1.0
 BSV_Legumes_102019_cle8be56a	céréale	1.0
-BSV_Legumes_102019_cle8be56a	semence	1.0
 BSV_Legumes_102019_cle8be56a	concombre	1.0
 BSV_Legumes_102019_cle8be56a	tomate	1.0
 BSV_Legumes_102019_cle8be56a	radis	1.0
@@ -1176,7 +1083,6 @@ BSV_Legumes_132019_cle871f9a	tomate	1.0
 BSV_Legumes_132019_cle871f9a	radis	1.0
 BSV_Legumes_132019_cle871f9a	navet potager	1.0
 BSV_Legumes_132019_cle871f9a	pomme de terre	1.0
-BSV_Legumes_132019_cle871f9a	culture fruitière	1.0
 BSV_Legumes_132019_cle871f9a	olivier	1.0
 BSV_Legumes_212019_cle835ca3	chou potager	16.0
 BSV_Legumes_212019_cle835ca3	chou	16.0
@@ -1192,7 +1098,6 @@ BSV_Legumes_212019_cle835ca3	poireau	3.0
 BSV_Legumes_212019_cle835ca3	haricot demi-sec	2.0
 BSV_Legumes_212019_cle835ca3	céleri	2.0
 BSV_Legumes_212019_cle835ca3	pommier	2.0
-BSV_Legumes_212019_cle835ca3	châtaignier	1.0
 BSV_Legumes_212019_cle835ca3	olivier	1.0
 BSV_Legumes_212019_cle835ca3	oignon	1.0
 BSV_Legumes_212019_cle835ca3	pois	1.0
@@ -1222,7 +1127,6 @@ BSV_Legumes_322019_2__cle44e13b	épinard	5.0
 BSV_Legumes_322019_2__cle44e13b	carotte	5.0
 BSV_Legumes_322019_2__cle44e13b	pois	4.0
 BSV_Legumes_322019_2__cle44e13b	haricot	3.0
-BSV_Legumes_322019_2__cle44e13b	poirée	2.0
 BSV_Legumes_322019_2__cle44e13b	chicorée de Bruxelle	2.0
 BSV_Legumes_322019_2__cle44e13b	chicorée endive	2.0
 BSV_Legumes_322019_2__cle44e13b	chou potager	2.0
@@ -1243,13 +1147,11 @@ BSV_Legumes_industries_2019_No20_cle06a888	chou	3.0
 BSV_Legumes_industries_2019_No20_cle06a888	haricot	2.0
 BSV_Legumes_industries_2019_No20_cle06a888	chou brocoli	2.0
 BSV_Legumes_industries_2019_No20_cle06a888	pommier	1.0
-BSV_Legumes_industries_2019_No20_cle06a888	oranger	1.0
 BSV_Legumes_industries_2019_No20_cle06a888	colza	1.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	culture légumière	13.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	oignon	7.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	tomate	7.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	concombre	6.0
-BSV_Legumes_n_08_du_17_07_19_cle838d16	poirée	5.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	aubergine	4.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	pomme de terre	3.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	pommier	3.0
@@ -1257,36 +1159,31 @@ BSV_Legumes_n_08_du_17_07_19_cle838d16	floriculture	2.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	blé	2.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	noyer	1.0
 BSV_Legumes_n_08_du_17_07_19_cle838d16	courgette	1.0
-BSV_Legumes_n_08_du_17_07_19_cle838d16	culture fruitière	1.0
 BSV_MARAICHAGE_2019_02_cle0c5c84	cresson	5.0
-BSV_MARAICHAGE_2019_02_cle0c5c84	culture légumière	2.0
-BSV_MARAICHAGE_2019_02_cle0c5c84	arboriculture	2.0
 BSV_MARAICHAGE_2019_02_cle0c5c84	pomme de terre	1.0
 BSV_MARAICHAGE_2019_02_cle0c5c84	pommier	1.0
+BSV_MARAICHAGE_2019_02_cle0c5c84	culture légumière	1.0
+BSV_MARAICHAGE_2019_02_cle0c5c84	arboriculture	1.0
 BSV_MARAICHAGE_2019_02_cle0c5c84	maraîchage	1.0
-BSV_MARAICHAGE_2019_02_cle0c5c84	horticulture ornementale	1.0
 BSV_MARAICHAGE_2019_02_cle0c5c84	zone non agricole	1.0
 BSV_MARAICHAGE_2019_15_cle04166a	pommier	7.0
 BSV_MARAICHAGE_2019_15_cle04166a	oignon	6.0
 BSV_MARAICHAGE_2019_15_cle04166a	pomme de terre	5.0
 BSV_MARAICHAGE_2019_15_cle04166a	haricot	2.0
 BSV_MARAICHAGE_2019_15_cle04166a	tomate	2.0
-BSV_MARAICHAGE_2019_15_cle04166a	culture légumière	2.0
-BSV_MARAICHAGE_2019_15_cle04166a	arboriculture	2.0
+BSV_MARAICHAGE_2019_15_cle04166a	culture légumière	1.0
+BSV_MARAICHAGE_2019_15_cle04166a	arboriculture	1.0
 BSV_MARAICHAGE_2019_15_cle04166a	maraîchage	1.0
-BSV_MARAICHAGE_2019_15_cle04166a	horticulture ornementale	1.0
 BSV_MARAICHAGE_2019_23_cle0745ab	pommier	4.0
 BSV_MARAICHAGE_2019_23_cle0745ab	oignon	4.0
 BSV_MARAICHAGE_2019_23_cle0745ab	pomme de terre	3.0
-BSV_MARAICHAGE_2019_23_cle0745ab	culture légumière	2.0
-BSV_MARAICHAGE_2019_23_cle0745ab	arboriculture	2.0
 BSV_MARAICHAGE_2019_23_cle0745ab	poireau	1.0
+BSV_MARAICHAGE_2019_23_cle0745ab	culture légumière	1.0
+BSV_MARAICHAGE_2019_23_cle0745ab	arboriculture	1.0
 BSV_MARAICHAGE_2019_23_cle0745ab	maraîchage	1.0
-BSV_MARAICHAGE_2019_23_cle0745ab	horticulture ornementale	1.0
 BSV_MARAICHAGE_2019_32_cle0b4427	cresson	6.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	carotte	10.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	maraîchage	9.0
-BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	culture fruitière	8.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	tomate	7.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	culture légumière	6.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	aubergine	6.0
@@ -1296,11 +1193,8 @@ BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	arboriculture fruitière	4.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	poireau	3.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ciboulette	2.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	courgette	2.0
-BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	poirée	2.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	poivron	2.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	salade	1.0
-BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	arboriculture	1.0
-BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	horticulture ornementale	1.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	fève	1.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	haricot	1.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	floriculture	1.0
@@ -1310,12 +1204,10 @@ BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	manguier	1.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	bananier	1.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	agrume	1.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	citronnier	1.0
-BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	oranger	1.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	melon	1.0
 BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	courge	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	maraîchage	13.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	tomate	12.0
-BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	culture fruitière	12.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	céleri	9.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	carotte	8.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	betterave	8.0
@@ -1326,11 +1218,9 @@ BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	aubergine	4.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	concombre	3.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	jardins familiaux	3.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	poivron	3.0
-BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	poirée	2.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	chou potager	2.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	chou	2.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	tournesol	1.0
-BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	semence	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	céréale	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	arboriculture fruitière	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	pêcher	1.0
@@ -1339,13 +1229,11 @@ BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	manguier	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	bananier	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	agrume	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	citronnier	1.0
-BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	oranger	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	melon	1.0
 BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	courge	1.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	céleri	9.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	maraîchage	9.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	carotte	8.0
-BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	culture fruitière	8.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	tomate	6.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	poireau	5.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	ciboulette	4.0
@@ -1357,7 +1245,6 @@ BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	manguier	1.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	bananier	1.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	agrume	1.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	citronnier	1.0
-BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	oranger	1.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	poivron	1.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	aubergine	1.0
 BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	melon	1.0
@@ -1379,15 +1266,12 @@ BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911	surface toujours en herbe	2.0
 BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911	sorgho	2.0
 BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911	sorgho grain	2.0
 BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911	oseille	1.0
-BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911	culture fruitière	1.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	tomate	10.0
-BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	culture fruitière	10.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	maraîchage	8.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	poivron	4.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	concombre	2.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	culture légumière	2.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	olivier	1.0
-BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	semence	1.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	pomme de terre	1.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	pommier	1.0
 BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	aubergine	1.0
@@ -1396,7 +1280,6 @@ BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	piment	1.0
 BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	aubergine	21.0
 BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	tomate	21.0
 BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	maraîchage	19.0
-BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	culture fruitière	15.0
 BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	piment	13.0
 BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	poivron	10.0
 BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	concombre	4.0
@@ -1412,15 +1295,10 @@ BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	olivier	1.0
 BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	poireau	1.0
 BSV_No8_pomme_de_terre_17_mai_2019_cle8f91d1	pomme de terre	4.0
 BSV_No8_pomme_de_terre_17_mai_2019_cle8f91d1	pommier	4.0
-BSV_No8_pomme_de_terre_17_mai_2019_cle8f91d1	gel	2.0
-BSV_No8_pomme_de_terre_17_mai_2019_cle8f91d1	oranger	1.0
 BSV_No8_pomme_de_terre_17_mai_2019_cle8f91d1	pomme de terre potagère	1.0
 BSV_No8_pomme_de_terre_17_mai_2019_cle8f91d1	salade	1.0
 BSV_No8_pomme_de_terre_17_mai_2019_cle8f91d1	culture légumière	1.0
 BSV_Tomate_Industrie_2019_no4_cle87ed7d	tomate	4.0
-BSV_Tomate_Industrie_2019_no4_cle87ed7d	culture fruitière	3.0
-BSV_Tomate_Industrie_2019_no4_cle87ed7d	poirée	1.0
-BSV_Tomate_Industrie_2019_no4_cle87ed7d	petit fruit	1.0
 BSV_legumes_02_du_20-03-19_cle455343	oignon	11.0
 BSV_legumes_02_du_20-03-19_cle455343	chou potager	6.0
 BSV_legumes_02_du_20-03-19_cle455343	chou	6.0
@@ -1456,7 +1334,6 @@ BSV_legumes_16_du_24-07-19_cle4f7928	pomme de terre	3.0
 BSV_legumes_16_du_24-07-19_cle4f7928	pommier	3.0
 BSV_legumes_16_du_24-07-19_cle4f7928	asperge	2.0
 BSV_legumes_16_du_24-07-19_cle4f7928	maraîchage	2.0
-BSV_legumes_16_du_24-07-19_cle4f7928	culture fruitière	2.0
 BSV_legumes_16_du_24-07-19_cle4f7928	légume à graines ou à gousses	2.0
 BSV_legumes_16_du_24-07-19_cle4f7928	scorsonère	1.0
 BSV_legumes_16_du_24-07-19_cle4f7928	pois	1.0
@@ -1474,7 +1351,6 @@ BSV_legumes_22_du_11-09-19__cle028fcc	fraisier	8.0
 BSV_legumes_22_du_11-09-19__cle028fcc	haricot	6.0
 BSV_legumes_22_du_11-09-19__cle028fcc	haricot demi-sec	6.0
 BSV_legumes_22_du_11-09-19__cle028fcc	poireau	6.0
-BSV_legumes_22_du_11-09-19__cle028fcc	culture fruitière	6.0
 BSV_legumes_22_du_11-09-19__cle028fcc	carotte	5.0
 BSV_legumes_22_du_11-09-19__cle028fcc	courgette	5.0
 BSV_legumes_22_du_11-09-19__cle028fcc	betterave	4.0
@@ -1506,7 +1382,6 @@ BSV_legumes_27_du_06-11-19__cle059f89	ciboulette	1.0
 BSV_legumes_27_du_06-11-19__cle059f89	céréale	1.0
 BSV_legumes_27_du_06-11-19__cle059f89	colza	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	tomate	19.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	culture fruitière	18.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	chou potager	15.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	chou	15.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	pomme de terre	9.0
@@ -1565,7 +1440,6 @@ BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	salade	6.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	carotte	6.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	oignon	6.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	navet potager	6.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	culture fruitière	6.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	chou-fleur	6.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	aubergine	5.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	poirée	5.0
@@ -1586,15 +1460,11 @@ BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	chou cabus rouge	2.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	jardins familiaux	2.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	oranger	2.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	ricin	1.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	arboriculture	1.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	horticulture ornementale	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	céréale	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	céleri-rave	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	chou de Bruxelles	1.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	semence	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	culture légumière	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	betterave potagère	1.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	châtaignier	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	arbuste à baies	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	soja	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	chou potager	20.0
@@ -1602,7 +1472,6 @@ BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	chou	20.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	tomate	13.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	carotte	10.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	pommier	8.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	culture fruitière	8.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	tabac	8.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	pomme de terre	7.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	salade	7.0
@@ -1625,11 +1494,11 @@ BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	ail	3.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	radis	3.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	courge	3.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	épinard	3.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	poirée	3.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	tournesol	3.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	chêne	2.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	chicorée endive	2.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	chicorée	2.0
+BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	poirée	2.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	arbuste à baies	2.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	noisetier	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	laitue batavia	1.0
@@ -1639,8 +1508,6 @@ BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	navet potager	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	chou brocoli	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	prairie	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	ricin	1.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	arboriculture	1.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	horticulture ornementale	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	céréale	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	asperge	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	betterave potagère	1.0
@@ -1649,7 +1516,6 @@ BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	jardin	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	pomme de terre potagère	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	riz	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	pastèque	1.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	châtaignier	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	fraisier	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	poireau	14.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	pommier	8.0
@@ -1660,7 +1526,6 @@ BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	épinard	6.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	salade	5.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	tomate	4.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	carotte	4.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	semence	4.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	culture légumière de plein champ	3.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	chou potager	3.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	chou	3.0
@@ -1672,7 +1537,6 @@ BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	fraisier	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	chou-fleur	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	floriculture	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	ciboulette	1.0
-BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	culture fruitière	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	noisetier	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	pissenlit	1.0
 BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	géranium	1.0
@@ -1688,16 +1552,12 @@ BSV_no14_legumes_05_juillet_2019_cle0e639d	poireau	3.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	courgette	3.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	artichaut	2.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	salade	2.0
-BSV_no14_legumes_05_juillet_2019_cle0e639d	oranger	2.0
-BSV_no14_legumes_05_juillet_2019_cle0e639d	arboriculture	2.0
-BSV_no14_legumes_05_juillet_2019_cle0e639d	horticulture ornementale	2.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	chicorée endive	2.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	chicorée	2.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	chicorée scarole	2.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	échalote	2.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	chou-fleur	1.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	floriculture	1.0
-BSV_no14_legumes_05_juillet_2019_cle0e639d	poirée	1.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	navet potager	1.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	radis	1.0
 BSV_no14_legumes_05_juillet_2019_cle0e639d	potimarron	1.0
@@ -1716,7 +1576,6 @@ BSV_no15_legumes_12_juillet_2019_cle032af3	courge	2.0
 BSV_no15_legumes_12_juillet_2019_cle032af3	courgette	2.0
 BSV_no15_legumes_12_juillet_2019_cle032af3	chou-fleur	1.0
 BSV_no15_legumes_12_juillet_2019_cle032af3	floriculture	1.0
-BSV_no15_legumes_12_juillet_2019_cle032af3	oranger	1.0
 BSV_no15_legumes_12_juillet_2019_cle032af3	chou brocoli	1.0
 BSV_no15_legumes_12_juillet_2019_cle032af3	culture légumière	1.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	céleri	9.0
@@ -1728,19 +1587,17 @@ BSV_no19_legumes_9_aout_2019_cle82c98c	salade	4.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	artichaut	4.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	courge	4.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	panais	3.0
-BSV_no19_legumes_9_aout_2019_cle82c98c	oranger	2.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	chou-fleur	1.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	floriculture	1.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	radis	1.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	navet potager	1.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	pommier	1.0
-BSV_no19_legumes_9_aout_2019_cle82c98c	culture fruitière	1.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	oignon	1.0
+BSV_no19_legumes_9_aout_2019_cle82c98c	oranger	1.0
 BSV_no19_legumes_9_aout_2019_cle82c98c	culture légumière	1.0
 B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	tomate	21.0
 B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	maraîchage	17.0
 B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	aubergine	15.0
-B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	culture fruitière	12.0
 B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	poivron	10.0
 B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	chou potager	5.0
 B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	chou	5.0
@@ -1768,7 +1625,6 @@ bsv_maraichage_lr_n02_23012019_cle055ce8	poirée	1.0
 bsv_maraichage_lr_n08_17042019_cle0913a2	maraîchage	11.0
 bsv_maraichage_lr_n08_17042019_cle0913a2	melon	5.0
 bsv_maraichage_lr_n08_17042019_cle0913a2	céleri	4.0
-bsv_maraichage_lr_n08_17042019_cle0913a2	culture fruitière	4.0
 bsv_maraichage_lr_n08_17042019_cle0913a2	artichaut	3.0
 bsv_maraichage_lr_n08_17042019_cle0913a2	courgette	3.0
 bsv_maraichage_lr_n08_17042019_cle0913a2	arboriculture fruitière	3.0
@@ -1784,7 +1640,6 @@ bsv_maraichage_lr_n08_17042019_cle0913a2	concombre	1.0
 bsv_maraichage_lr_n13_26-06-2019_cle03aab1	maraîchage	18.0
 bsv_maraichage_lr_n13_26-06-2019_cle03aab1	melon	11.0
 bsv_maraichage_lr_n13_26-06-2019_cle03aab1	tomate	9.0
-bsv_maraichage_lr_n13_26-06-2019_cle03aab1	culture fruitière	9.0
 bsv_maraichage_lr_n13_26-06-2019_cle03aab1	fraisier	5.0
 bsv_maraichage_lr_n13_26-06-2019_cle03aab1	courgette	5.0
 bsv_maraichage_lr_n13_26-06-2019_cle03aab1	courge	5.0
@@ -1831,7 +1686,6 @@ bsv_maraichage_n04_10052019_cle0fbc6b	maraîchage	7.0
 bsv_maraichage_n04_10052019_cle0fbc6b	salade	7.0
 bsv_maraichage_n04_10052019_cle0fbc6b	oignon	5.0
 bsv_maraichage_n04_10052019_cle0fbc6b	céleri	3.0
-bsv_maraichage_n04_10052019_cle0fbc6b	gel	1.0
 bsv_maraichage_n04_10052019_cle0fbc6b	pomme de terre	1.0
 bsv_maraichage_n04_10052019_cle0fbc6b	pommier	1.0
 bsv_maraichage_n04_10052019_cle0fbc6b	laitue beurre pommée	1.0
@@ -1863,7 +1717,6 @@ bsv_maraichage_n19_10102019_cle038cd4	carotte	7.0
 bsv_maraichage_n19_10102019_cle038cd4	salade	4.0
 bsv_maraichage_n19_10102019_cle038cd4	oignon	3.0
 bsv_maraichage_n19_10102019_cle038cd4	céleri	3.0
-bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	culture fruitière	10.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	melon	8.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	tomate	5.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	aubergine	4.0
@@ -1878,7 +1731,6 @@ bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	asperge	2.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	courgette	2.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	pastèque	2.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	engrais vert	2.0
-bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	oranger	2.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	poivron	2.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	fraisier	1.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	salade	1.0
@@ -1889,16 +1741,13 @@ bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	rosier ornemental	1.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	ricin	1.0
 bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	floriculture	1.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	tomate	29.0
-bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	culture fruitière	11.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	aubergine	10.0
-bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	semence	3.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	maraîchage	2.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	floriculture	2.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	maïs	2.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	riz	2.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	sorgho	2.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	sorgho grain	2.0
-bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	poirée	1.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	tabac	1.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	chou potager	1.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	chou	1.0
@@ -1906,7 +1755,6 @@ bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	poivron	1.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	laitue	1.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	luzerne	1.0
 bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	oignon	1.0
-bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	gel	1.0
 bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	céleri	6.0
 bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	salade	3.0
 bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	chou potager	3.0
@@ -1921,61 +1769,48 @@ bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	fraisier	2.0
 bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	laitue	1.0
 bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	chicorée scarole	1.0
 bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	chou brocoli	1.0
-bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	culture fruitière	1.0
 bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	céleri à cotes	1.0
 bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	floriculture	1.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	tomate	26.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	aubergine	12.0
-bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	culture fruitière	11.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	salade	5.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	maraîchage	3.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	poivron	3.0
-bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	semence	3.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	haricot	2.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	maïs	2.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	riz	2.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	sorgho	2.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	sorgho grain	2.0
-bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	poirée	1.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	tabac	1.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	floriculture	1.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	laitue	1.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	luzerne	1.0
 bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	oignon	1.0
-bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	gel	1.0
 bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7	tomate	10.0
 bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7	salade	4.0
 bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7	maraîchage	2.0
-bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7	culture fruitière	2.0
 bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7	laitue	2.0
-bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7	poirée	1.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	tomate	29.0
-bsv_maraichage_no9_du_03_Mai_2019_cle842127	culture fruitière	15.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	aubergine	8.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	fraisier	7.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	salade	5.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	courgette	4.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	floriculture	4.0
-bsv_maraichage_no9_du_03_Mai_2019_cle842127	poirée	3.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	melon	3.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	oranger	3.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	maraîchage	2.0
-bsv_maraichage_no9_du_03_Mai_2019_cle842127	semence	2.0
+bsv_maraichage_no9_du_03_Mai_2019_cle842127	poirée	2.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	chou potager	1.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	chou	1.0
 bsv_maraichage_no9_du_03_Mai_2019_cle842127	poivron	1.0
-20190619_LOR_BSV_Viticulture_cle8c2fdf	culture fruitière	5.0
 20190619_LOR_BSV_Viticulture_cle8c2fdf	vigne	3.0
 20190710_LOR_BSV_Viticulture_cle8bd128	arbuste à baies	7.0
-20190710_LOR_BSV_Viticulture_cle8bd128	culture fruitière	4.0
 20190710_LOR_BSV_Viticulture_cle8bd128	pois	2.0
 20190710_LOR_BSV_Viticulture_cle8bd128	vigne	2.0
-20190731_LOR_Viticulture-1_cle45ef1d	culture fruitière	7.0
 20190731_LOR_Viticulture-1_cle45ef1d	vigne	3.0
 20190731_LOR_Viticulture-1_cle45ef1d	tournesol	2.0
 20190731_LOR_Viticulture-1_cle45ef1d	arbuste à baies	2.0
 BSV-viti-RA-03_16-04-2019_cle0bbc57	vigne	22.0
-BSV-viti-RA-03_16-04-2019_cle0bbc57	gel	8.0
 BSV-viti-RA-03_16-04-2019_cle0bbc57	olivier	1.0
 BSV-viti-RA-03_16-04-2019_cle0bbc57	vigne de cuve	1.0
 BSV-viti-RA-15_09-07-2019_cle01ba24	arbuste à baies	54.0
@@ -1991,28 +1826,19 @@ BSV-viti-RA-16_16-07-2019_cle0bfb92	vigne de cuve	2.0
 BSV-viti-RA-16_16-07-2019_cle0bfb92	floriculture	1.0
 BSV-viti-RA-16_16-07-2019_cle0bfb92	olivier	1.0
 BSVViti_20190409_N3_cle88a431	vigne	6.0
-BSVViti_20190409_N3_cle88a431	gel	2.0
-BSVViti_20190409_N3_cle88a431	poirée	1.0
 BSVViti_20190618_N16_cle091811	arbuste à baies	7.0
 BSVViti_20190618_N16_cle091811	vigne	6.0
 BSVViti_20190618_N16_cle091811	floriculture	4.0
-BSVViti_20190618_N16_cle091811	poirée	2.0
 BSVViti_20190730_N22_cle019b19	vigne	7.0
 BSVViti_20190730_N22_cle019b19	arbuste à baies	3.0
-BSVViti_20190730_N22_cle019b19	poirée	1.0
 BSVViti_20190730_N22_cle019b19	arboriculture fruitière	1.0
-BSVViti_20190730_N22_cle019b19	culture fruitière	1.0
 BSVViti_20190820_N23_cle0c5111	vigne	4.0
-BSVViti_20190820_N23_cle0c5111	poirée	1.0
 BSV_12_-_2_juillet_2019_cle8252f7	vigne	9.0
-BSV_12_-_2_juillet_2019_cle8252f7	poirée	5.0
 BSV_12_-_2_juillet_2019_cle8252f7	arbuste à baies	2.0
 BSV_12_-_2_juillet_2019_cle8252f7	pois	1.0
 BSV_16_-_30_juillet_2019_cle8caa6e	vigne	8.0
-BSV_16_-_30_juillet_2019_cle8caa6e	poirée	4.0
 BSV_16_-_30_juillet_2019_cle8caa6e	arbuste à baies	2.0
 BSV_19-04-16_2_cle84b397	vigne	8.0
-BSV_19-04-16_2_cle84b397	gel	3.0
 BSV_19-06-25_12_cle0b3618	vigne	10.0
 BSV_19-06-25_12_cle0b3618	floriculture	2.0
 BSV_19-06-25_12_cle0b3618	arbuste à baies	1.0
@@ -2020,28 +1846,20 @@ BSV_19-07-30_17_cle08d978	vigne	6.0
 BSV_19-07-30_17_cle08d978	arbuste à baies	1.0
 BSV_19-07-30_17_cle08d978	tournesol	1.0
 BSV_1_-_16_avril_2019_cle43d31d	vigne	11.0
-BSV_1_-_16_avril_2019_cle43d31d	poirée	5.0
 BSV_1_-_16_avril_2019_cle43d31d	clémentinier	1.0
 BSV_2019_n13_cle0f596d	vigne	5.0
-BSV_2019_n13_cle0f596d	culture fruitière	3.0
 BSV_2019_n13_cle0f596d	tournesol	2.0
 BSV_2019_n13_cle0f596d	floriculture	1.0
 BSV_2019_n13_cle0f596d	pois	1.0
 BSV_2019_n16_cle04a239	vigne	6.0
 BSV_2019_n16_cle04a239	arbuste à baies	4.0
-BSV_2019_n16_cle04a239	culture fruitière	2.0
 BSV_2019_n18_cle02fbf1	vigne	6.0
 BSV_2019_n18_cle02fbf1	arbuste à baies	4.0
-BSV_2019_n18_cle02fbf1	culture fruitière	2.0
 BSV_4_-_7_mai_2019_cle8db5ca	vigne	8.0
-BSV_4_-_7_mai_2019_cle8db5ca	poirée	6.0
-BSV_4_-_7_mai_2019_cle8db5ca	gel	3.0
 BSV_NA_VIGNE_CHARENTES_02_20190409_cle8ac81e	vigne	17.0
 BSV_NA_VIGNE_CHARENTES_02_20190409_cle8ac81e	arbuste à baies	5.0
-BSV_NA_VIGNE_CHARENTES_02_20190409_cle8ac81e	gel	2.0
 BSV_NA_VIGNE_CHARENTES_02_20190409_cle8ac81e	vigne de cuve	1.0
 BSV_NA_VIGNE_CHARENTES_07_20190514_cle841735	vigne	23.0
-BSV_NA_VIGNE_CHARENTES_07_20190514_cle841735	oranger	1.0
 BSV_NA_VIGNE_CHARENTES_07_20190514_cle841735	rosier	1.0
 BSV_NA_VIGNE_CHARENTES_07_20190514_cle841735	vigne de cuve	1.0
 BSV_NA_VIGNE_CHARENTES_18_20190730_cle8d5827	vigne	13.0
@@ -2054,8 +1872,6 @@ BSV_NA_VIGNE_CHARENTES_22_20190903_cle8f1178	vigne	11.0
 BSV_NA_VIGNE_CHARENTES_22_20190903_cle8f1178	vigne de cuve	2.0
 BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	vigne	18.0
 BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	arbuste à baies	4.0
-BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	gel	3.0
-BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	châtaignier	1.0
 BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	céréale	1.0
 BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	vigne de cuve	1.0
 BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	vigne	23.0
@@ -2065,17 +1881,14 @@ BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	céréale	1.0
 BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	vigne de cuve	1.0
 BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d	vigne	20.0
 BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d	arbuste à baies	7.0
-BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d	culture fruitière	1.0
 BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d	floriculture	1.0
 BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d	céréale	1.0
 BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d	vigne de cuve	1.0
 BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	vigne	16.0
 BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	arbuste à baies	3.0
-BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	gel	2.0
 BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	floriculture	1.0
 BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	vigne de cuve	1.0
 BSV_NA_VIGNE_Limousin_07_20190522_cle81f925	vigne	23.0
-BSV_NA_VIGNE_Limousin_07_20190522_cle81f925	gel	3.0
 BSV_NA_VIGNE_Limousin_07_20190522_cle81f925	vigne de cuve	1.0
 BSV_NA_VIGNE_Limousin_14_20190709_cle8d4f42	vigne	18.0
 BSV_NA_VIGNE_Limousin_14_20190709_cle8d4f42	arbuste à baies	6.0
@@ -2083,15 +1896,11 @@ BSV_NA_VIGNE_Limousin_14_20190709_cle8d4f42	pois	2.0
 BSV_NA_VIGNE_Limousin_14_20190709_cle8d4f42	tournesol	1.0
 BSV_NA_VIGNE_Limousin_14_20190709_cle8d4f42	vigne de cuve	1.0
 BSV_NA_VIGNE_Limousin_17_20190730_cle835848	vigne	18.0
-BSV_NA_VIGNE_Limousin_17_20190730_cle835848	gel	1.0
 BSV_NA_VIGNE_Limousin_17_20190730_cle835848	tournesol	1.0
 BSV_NA_VIGNE_Limousin_17_20190730_cle835848	vigne de cuve	1.0
 BSV_NA_VIGNE_Nord_Aquitaine_04_20190416_cle876cf5	vigne	20.0
 BSV_NA_VIGNE_Nord_Aquitaine_04_20190416_cle876cf5	arbuste à baies	3.0
-BSV_NA_VIGNE_Nord_Aquitaine_04_20190416_cle876cf5	gel	2.0
-BSV_NA_VIGNE_Nord_Aquitaine_04_20190416_cle876cf5	poirée	1.0
 BSV_NA_VIGNE_Nord_Aquitaine_07_20190507_cle8b2385	vigne	30.0
-BSV_NA_VIGNE_Nord_Aquitaine_07_20190507_cle8b2385	gel	4.0
 BSV_NA_VIGNE_Nord_Aquitaine_07_20190507_cle8b2385	arbuste à baies	3.0
 BSV_NA_VIGNE_Nord_Aquitaine_17_20190716_cle8d5da5	vigne	24.0
 BSV_NA_VIGNE_Nord_Aquitaine_17_20190716_cle8d5da5	arbuste à baies	4.0
@@ -2122,13 +1931,10 @@ BSV_NA_VIGNE_Sud_Aquitaine_20_20190806_cle831e2b	arbuste à baies	6.0
 BSV_NA_VIGNE_Sud_Aquitaine_20_20190806_cle831e2b	tournesol	3.0
 BSV_NA_VIGNE_Sud_Aquitaine_20_20190806_cle831e2b	vigne de cuve	2.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	vigne	10.0
-BSV_Viticulture_2_17_mai_2019_cle8f88af	culture fruitière	7.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	arboriculture fruitière	2.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	tomate	2.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	pêcher	2.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	floriculture	1.0
-BSV_Viticulture_2_17_mai_2019_cle8f88af	poirée	1.0
-BSV_Viticulture_2_17_mai_2019_cle8f88af	arboriculture fruitière tropicale	1.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	manguier	1.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	citronnier	1.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	goyavier	1.0
@@ -2150,15 +1956,12 @@ BSV_Viticulture_2_17_mai_2019_cle8f88af	rosier ornemental	1.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	agrume	1.0
 BSV_Viticulture_2_17_mai_2019_cle8f88af	chêne	1.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	vigne	15.0
-BSV_Viticulture_5_18_juillet_2019_cle8b576d	culture fruitière	7.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	agrume	3.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	arbuste à baies	3.0
-BSV_Viticulture_5_18_juillet_2019_cle8b576d	poirée	2.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	arboriculture fruitière	2.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	tomate	2.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	pêcher	2.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	tournesol	1.0
-BSV_Viticulture_5_18_juillet_2019_cle8b576d	arboriculture fruitière tropicale	1.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	manguier	1.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	citronnier	1.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	goyavier	1.0
@@ -2179,12 +1982,10 @@ BSV_Viticulture_5_18_juillet_2019_cle8b576d	laurier	1.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	rosier ornemental	1.0
 BSV_Viticulture_5_18_juillet_2019_cle8b576d	chêne	1.0
 BSV_viti_01_du_16-04-19_cle878624	vigne	23.0
-BSV_viti_01_du_16-04-19_cle878624	gel	2.0
 BSV_viti_01_du_16-04-19_cle878624	poirier	1.0
 BSV_viti_12_du_02-07-19-1_cle05965f	vigne	26.0
 BSV_viti_12_du_02-07-19-1_cle05965f	pois	7.0
 BSV_viti_12_du_02-07-19-1_cle05965f	arbuste à baies	5.0
-BSV_viti_12_du_02-07-19-1_cle05965f	gel	1.0
 BSV_viti_12_du_02-07-19-1_cle05965f	tournesol	1.0
 BSV_viti_12_du_02-07-19-1_cle05965f	noyer	1.0
 BSV_viti_12_du_02-07-19-1_cle05965f	rosier ornemental	1.0
@@ -2196,16 +1997,13 @@ BSV_viti_13_du_09-07-19_cle86811a	tournesol	1.0
 BSV_viti_13_du_09-07-19_cle86811a	rosier ornemental	1.0
 BSV_viti_16_du_16-09-19_cle87b836	vigne	14.0
 alsace_vigne_no13_du_29-07-19_cle853dc6	vigne	6.0
-alsace_vigne_no13_du_29-07-19_cle853dc6	culture fruitière	4.0
 alsace_vigne_no13_du_29-07-19_cle853dc6	tournesol	1.0
 alsace_vigne_no13_du_29-07-19_cle853dc6	arbuste à baies	1.0
 alsace_vigne_no13_du_29-07-19_cle853dc6	vigne de cuve	1.0
 alsace_vigne_no14_du_20-08-19_cle8ee257	vigne	7.0
-alsace_vigne_no14_du_20-08-19_cle8ee257	culture fruitière	7.0
 alsace_vigne_no14_du_20-08-19_cle8ee257	arbuste à baies	3.0
 alsace_vigne_no14_du_20-08-19_cle8ee257	vigne de cuve	1.0
 alsace_vigne_no14_du_20-08-19_cle8ee257	arboriculture	1.0
-alsace_vigne_no8_du_25-06-19_cle818164	culture fruitière	5.0
 alsace_vigne_no8_du_25-06-19_cle818164	vigne	5.0
 alsace_vigne_no8_du_25-06-19_cle818164	pois	1.0
 bsv_raisin_n07_14052019_cle85bd4c	vigne	8.0
@@ -2230,8 +2028,6 @@ bsv_viti_13_27_06_2019_cle07f426	arbuste à baies	2.0
 bsv_viti_13_27_06_2019_cle07f426	melon	2.0
 bsv_viti_13_27_06_2019_cle07f426	floriculture	1.0
 bsv_viti_13_27_06_2019_cle07f426	pois	1.0
-bsv_viti_13_27_06_2019_cle07f426	culture fruitière	1.0
-bsv_viti_13_27_06_2019_cle07f426	gel	1.0
 bsv_viti_14_04_07_2019-1_cle888dd3	vigne	11.0
 bsv_viti_14_04_07_2019-1_cle888dd3	pois	3.0
 bsv_viti_14_04_07_2019-1_cle888dd3	arbuste à baies	2.0
@@ -2243,13 +2039,9 @@ bsv_viti_17_25_07_2019_cle0a86e1	tournesol	2.0
 bsv_viti_17_25_07_2019_cle0a86e1	melon	1.0
 bsv_viti_3_18_04_2019_cle43e1c9	vigne	6.0
 bsv_viti_3_18_04_2019_cle43e1c9	melon	3.0
-bsv_viti_3_18_04_2019_cle43e1c9	gel	2.0
 bsv_viti_lr_n03_16042019_cle82d51a	vigne	12.0
-bsv_viti_lr_n03_16042019_cle82d51a	gel	2.0
-bsv_viti_lr_n03_16042019_cle82d51a	oranger	1.0
 bsv_viti_lr_n06_06052019-1_cle4a8957-1	noyer	12.0
 bsv_viti_lr_n06_06052019-1_cle4a8957-1	arboriculture fruitière	4.0
-bsv_viti_lr_n06_06052019-1_cle4a8957-1	culture fruitière	3.0
 bsv_viti_lr_n06_06052019-1_cle4a8957-1	floriculture	2.0
 bsv_viti_lr_n06_06052019-1_cle4a8957-1	noisetier	1.0
 bsv_viti_lr_n06_06052019-1_cle4a8957-1	oranger	1.0
@@ -2259,32 +2051,25 @@ bsv_viti_lr_n17_30072019_cle8cc4c8	arbuste à baies	5.0
 bsv_viti_lr_n17_30072019_cle8cc4c8	arboriculture fruitière	3.0
 bsv_viti_lr_n17_30072019_cle8cc4c8	floriculture	1.0
 bsv_viti_mp_aveyron_n02_19042019-2_cle8676eb	vigne	15.0
-bsv_viti_mp_aveyron_n02_19042019-2_cle8676eb	gel	3.0
 bsv_viti_mp_aveyron_n02_19042019-2_cle8676eb	floriculture	1.0
 bsv_viti_mp_aveyron_n11_25062019_cle084a76	vigne	11.0
 bsv_viti_mp_aveyron_n14_17072019_cle05cdbe	vigne	16.0
 bsv_viti_mp_aveyron_n14_17072019_cle05cdbe	arbuste à baies	3.0
 bsv_viti_mp_aveyron_n14_17072019_cle05cdbe	pois	2.0
 bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	vigne	14.0
-bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	semence	9.0
 bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	arbuste à baies	6.0
-bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	gel	4.0
 bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	tournesol	3.0
 bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	céréale à paille	3.0
 bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	zone non agricole	1.0
 bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	pêcher	1.0
 bsv_viti_mp_aveyron_n16_30072019_cle0dd53b	céréale	1.0
 bsv_viti_mp_cahors_n05_07052019-1_cle882e62	vigne	12.0
-bsv_viti_mp_cahors_n05_07052019-1_cle882e62	gel	2.0
 bsv_viti_mp_cahors_n05_07052019-1_cle882e62	arbuste à baies	1.0
 bsv_viti_mp_cahors_n05_07052019-1_cle882e62	vigne de cuve	1.0
 bsv_viti_mp_cahors_n12_25062019_cle4cf277	vigne	10.0
 bsv_viti_mp_cahors_n12_25062019_cle4cf277	pois	1.0
-bsv_viti_mp_cahors_n12_25062019_cle4cf277	gel	1.0
 bsv_viti_mp_cahors_n12_25062019_cle4cf277	vigne de cuve	1.0
 bsv_viti_mp_cahors_n17_30072019_cle434e53	vigne	13.0
-bsv_viti_mp_cahors_n17_30072019_cle434e53	semence	9.0
-bsv_viti_mp_cahors_n17_30072019_cle434e53	gel	4.0
 bsv_viti_mp_cahors_n17_30072019_cle434e53	tournesol	3.0
 bsv_viti_mp_cahors_n17_30072019_cle434e53	céréale à paille	3.0
 bsv_viti_mp_cahors_n17_30072019_cle434e53	pois	1.0
@@ -2302,8 +2087,6 @@ bsv_viti_mp_fronton_tarnetgaronne_n13_25062019_cle48ca82	pois	3.0
 bsv_viti_mp_fronton_tarnetgaronne_n13_25062019_cle48ca82	arboriculture	1.0
 bsv_viti_mp_fronton_tarnetgaronne_n13_25062019_cle48ca82	chêne	1.0
 bsv_viti_mp_fronton_tarnetgaronne_n18_30072019_cle4d7faa	vigne	13.0
-bsv_viti_mp_fronton_tarnetgaronne_n18_30072019_cle4d7faa	semence	9.0
-bsv_viti_mp_fronton_tarnetgaronne_n18_30072019_cle4d7faa	gel	4.0
 bsv_viti_mp_fronton_tarnetgaronne_n18_30072019_cle4d7faa	tournesol	3.0
 bsv_viti_mp_fronton_tarnetgaronne_n18_30072019_cle4d7faa	céréale à paille	3.0
 bsv_viti_mp_fronton_tarnetgaronne_n18_30072019_cle4d7faa	arbuste à baies	2.0
@@ -2312,16 +2095,13 @@ bsv_viti_mp_fronton_tarnetgaronne_n18_30072019_cle4d7faa	pêcher	1.0
 bsv_viti_mp_fronton_tarnetgaronne_n18_30072019_cle4d7faa	céréale	1.0
 bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	vigne	20.0
 bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	arbuste à baies	3.0
-bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	gel	2.0
 bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	floriculture	1.0
 bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	vigne de cuve	1.0
 bsv_viti_mp_gaillac_n13_25062019_cle0e5f7f	vigne	10.0
 bsv_viti_mp_gaillac_n13_25062019_cle0e5f7f	pois	1.0
 bsv_viti_mp_gaillac_n13_25062019_cle0e5f7f	vigne de cuve	1.0
 bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa	vigne	13.0
-bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa	semence	9.0
 bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa	tournesol	4.0
-bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa	gel	4.0
 bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa	céréale à paille	3.0
 bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa	arbuste à baies	2.0
 bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa	vigne de cuve	1.0
