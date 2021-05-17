@@ -2,11 +2,6 @@
 
 <alvisnlp-plan id="project-lemma">
 
-  <!-- Function tragets lemmatized form of words and projects glossary
-  IN : glossary (rdf/owl), target layer
-  OUT : annotations type GOL
-  -->
-
   <param name="source">
     <alias module="project-lemma" param="source"/>
   </param>

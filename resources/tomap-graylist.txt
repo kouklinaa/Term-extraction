@@ -2,3 +2,12 @@ culture	NOM	culture
 cultures	NOM	culture
 feuille	NOM	feuille
 feuilles	NOM	feuille
+plante	NOM	plante
+plantes	NOM	plante
+champ	NOM	champ
+champs	NOM	champ
+sec	ADJ	sec
+agronomique	ADJ	agronomique
+grain	NOM	grain
+grains	NOM	grain
+eau	NOM	eau

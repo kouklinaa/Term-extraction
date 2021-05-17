@@ -3,117 +3,198 @@
 <alvisnlp-plan id="main">
 
 
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  // I. Load html corpus
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// I. Load html corpus
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
 
-    <read-html href="modules/read-html.plan">
-      <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
-    </read-html>
+  <read-html href="modules/read-html.plan">
+    <!-- vespa -->
+    <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
+    <!-- d2kab -->
+    <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
+  </read-html>
 
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  // II. Segment text
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
+  <read-terms class="TabularReader">
+    <source>resources/usageCulture20210112.txt</source>
+    <sourceElement>$</sourceElement>
+    <lineActions>
+      new:document(tab:column(1)).(
+      new:section:label(tab:column(0))
+      | set:feat:skos-prefLabel(tab:column(2))
+      )
+    </lineActions>
+    <commitLines/>
+    <createDocuments/>
+    <createSections/>
+    <setFeatures/>
+  </read-terms>
 
-    <!-- load segmentation plan -->
-    <import>res://segmentation.plan</import>
 
-    <!-- remove foreign words with label <FW> as they are usually not recognised by tree-tagger-->
-    <remove-fw class="Action">
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// II. Segment text
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+  <!-- load segmentation plan -->
+  <import>res://segmentation.plan</import>
+
+  <!-- remove foreign words with label <FW> as they are usually not recognised by tree-tagger-->
+  <remove-fw class="Action">
       <target>documents.sections.layer:words[@pos]</target>
       <action>set:remove-feature:pos</action>
       <setFeatures/>
     </remove-fw>
 
-    <!-- load treetagger -->
-    <execute-treetagger href="modules/execute-treetagger.plan">
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// III. Lemmatize text
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+  <!-- load treetagger -->
+  <execute-treetagger href="modules/execute-treetagger.plan">
       <parFile>../../work/inrae/outils/tree-tagger/lib/french.par</parFile>
       <treeTaggerExecutable>../../work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
     </execute-treetagger>
 
 
 
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  // III. Match fcu vocabulary
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// IV. Match fcu terms
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
 
   <!-- remove ambiguous words that can be wrongfully associated with fcu concepts -->
   <remove-ambiguous-words class="Action">
-    <target>documents.sections.layer:words[@lemma == "gel" or @lemma == "jachère" or @lemma == "orange" or @lemma == "marron" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "horticulture" or @lemma == "pépinière"]</target>
-    <action>remove:words</action>
-    <removeFromLayer/>
-  </remove-ambiguous-words>
+      <target>documents.sections.layer:words[@lemma == "gel" or @lemma == "jachère" or @lemma == "orange" or @lemma == "marron" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "horticulture" or @lemma == "pépinière" or @lemma == "soleil"]</target>
+      <action>remove:words</action>
+      <removeFromLayer/>
+    </remove-ambiguous-words>
 
-    <!-- load vocabulary and project it to a layer named fcu-->
-    <project-fcu href="modules/project-lemma.plan">
+  <!-- load vocabulary and project it to a layer named fcu-->
+  <project-fcu href="modules/project-lemma.plan">
       <source>resources/usageCulture20210112.rdf</source>
       <targetLayerName>fcu</targetLayerName>
-    </project-fcu>
+  </project-fcu>
 
 
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // IV. Match phenological stages
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-    -->
+  <!-- <train class="TomapTrain">
+    <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
+    <perlLib>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/lib/perl5/site_perl</perlLib>
+    <rcFile>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/etc/yatea/yatea.rc</rcFile>
+    <configDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/config</configDir>
+    <localeDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/locale</localeDir>
+    <outFile>output/usageCulture_d2kab.tomap</outFile>
+    <conceptIdentifier>document.@id</conceptIdentifier>
+    <language>FR</language>
+  </train>
+
+  <lemma class="TabularExport">
+    <outDir>.</outDir>
+    <corpusFile>resources/usageCulture20210112_d2kab.lemma.txt</corpusFile>
+    <lines>documents.sections</lines>
+    <columns separator=";">
+      str:join:' '(layer:words, @lemma);
+      document.@id;
+      document.@skos-prefLabel
+    </columns>
+  </lemma> -->
+
+  <yatea class="YateaExtractor">
+    <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
+    <perlLib>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/lib/perl5/site_perl</perlLib>
+    <rcFile>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/etc/yatea/yatea.rc</rcFile>
+    <configDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/config</configDir>
+    <localeDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/locale</localeDir>
+    <xmlTermsFile>output/yatea_d2kab.xml</xmlTermsFile>
+    <language>FR</language>
+  </yatea>
+
+  <classify class="TomapProjector">
+    <tomapClassifier graylist="resources/tomap-graylist.txt">output/usageCulture_d2kab.tomap</tomapClassifier>
+    <targetLayerName>fcu-tomap</targetLayerName>
+    <yateaFile output-feed="true">output/yatea_d2kab.xml</yateaFile>
+    <conceptFeature>IRI</conceptFeature>
+    <explanationFeaturePrefix>tomap-</explanationFeaturePrefix>
+  </classify>
+
+  <label class="FileMapper">
+    <mappingFile>resources/usageCulture20210112.txt</mappingFile>
+    <target>documents.sections.layer:fcu-tomap</target>
+    <form>@IRI</form>
+    <targetFeatures>,,skos-prefLabel</targetFeatures>
+    <keyColumn>1</keyColumn>
+  </label>
+  <!-- <project-fcu-tomap href="modules/to-map.plan"/> -->
 
 
-    <!-- load vocabulary and project it to a layer named stages -->
-    <project-stage href="modules/project-lemma.plan">
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// V. Match phenological stages
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+  <!-- load vocabulary and project it to a layer named stages -->
+  <project-stage href="modules/project-lemma.plan">
       <source>resources/stades.rdf</source>
       <targetLayerName>stages</targetLayerName>
     </project-stage>
 
-    <!-- delete repeating elements from the layer stages  -->
-    <remove-equal class="Action">
+  <!-- delete repeating elements from the layer stages  -->
+  <remove-equal class="Action">
       <target>documents.sections.layer:stages[outside:fcu]</target>
       <action>delete</action>
       <deleteElements/>
     </remove-equal>
 
-    <!-- find patterns bbch -->
-    <bbch-patterns href="modules/find-bbch-patterns.plan"/>
+  <!-- find patterns bbch -->
+  <bbch-patterns href="modules/find-bbch-patterns.plan"/>
 
 
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // VI. Find conjunctions
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-    -->
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// VII. Find conjunctions
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
 
-    <correct-conj class="Action">
-        <target>documents.sections.layer:words[@form == "kaki"]</target>
-        <action>set:feat:pos("NOM")</action>
-        <setFeatures/>
-    </correct-conj>
+  <correct-conj class="Action">
+    <target>documents.sections.layer:words[@form == "kaki"]</target>
+    <action>set:feat:pos("NOM")</action>
+    <setFeatures/>
+  </correct-conj>
 
-    <conj-patterns href="modules/find-conj-patterns.plan"/>
+  <conj-patterns href="modules/find-conj-patterns.plan"/>
 
 
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // VII. Save results
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-    -->
-    <export href="modules/export.plan"/>
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// VIII. Save results
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+  <export href="modules/export.plan"/>
 
 
 </alvisnlp-plan>
