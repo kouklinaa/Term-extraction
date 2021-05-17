@@ -13,9 +13,9 @@
 
   <read-html href="modules/read-html.plan">
     <!-- vespa -->
-    <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
+    <sourcePath>resources/CorpusVespa.html</sourcePath>
     <!-- d2kab -->
-    <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
+    <!-- <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath> -->
   </read-html>
 
   <read-terms class="TabularReader">
@@ -86,34 +86,34 @@
       <removeFromLayer/>
     </remove-ambiguous-words>
 
-  <!-- load vocabulary and project it to a layer named fcu-->
+  <!-- Baseline-->
   <project-fcu href="modules/project-lemma.plan">
       <source>resources/usageCulture20210112.rdf</source>
       <targetLayerName>fcu</targetLayerName>
   </project-fcu>
 
-
-  <!-- <train class="TomapTrain">
+  <!-- ToMap-->
+  <train class="TomapTrain">
     <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
     <perlLib>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/lib/perl5/site_perl</perlLib>
     <rcFile>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/etc/yatea/yatea.rc</rcFile>
     <configDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/config</configDir>
     <localeDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/locale</localeDir>
-    <outFile>output/usageCulture_d2kab.tomap</outFile>
+    <outFile>output/usageCulture_vespa.tomap</outFile>
     <conceptIdentifier>document.@id</conceptIdentifier>
     <language>FR</language>
   </train>
 
   <lemma class="TabularExport">
     <outDir>.</outDir>
-    <corpusFile>resources/usageCulture20210112_d2kab.lemma.txt</corpusFile>
+    <corpusFile>resources/usageCulture20210112_vespa.lemma.txt</corpusFile>
     <lines>documents.sections</lines>
     <columns separator=";">
       str:join:' '(layer:words, @lemma);
       document.@id;
       document.@skos-prefLabel
     </columns>
-  </lemma> -->
+  </lemma>
 
   <yatea class="YateaExtractor">
     <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
@@ -121,14 +121,14 @@
     <rcFile>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/etc/yatea/yatea.rc</rcFile>
     <configDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/config</configDir>
     <localeDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/locale</localeDir>
-    <xmlTermsFile>output/yatea_d2kab.xml</xmlTermsFile>
+    <xmlTermsFile>output/yatea_vespa.xml</xmlTermsFile>
     <language>FR</language>
   </yatea>
 
   <classify class="TomapProjector">
-    <tomapClassifier graylist="resources/tomap-graylist.txt">output/usageCulture_d2kab.tomap</tomapClassifier>
+    <tomapClassifier graylist="resources/tomap-graylist.txt">output/usageCulture_vespa.tomap</tomapClassifier>
     <targetLayerName>fcu-tomap</targetLayerName>
-    <yateaFile output-feed="true">output/yatea_d2kab.xml</yateaFile>
+    <yateaFile output-feed="true">output/yatea_vespa.xml</yateaFile>
     <conceptFeature>IRI</conceptFeature>
     <explanationFeaturePrefix>tomap-</explanationFeaturePrefix>
   </classify>
@@ -140,7 +140,7 @@
     <targetFeatures>,,skos-prefLabel</targetFeatures>
     <keyColumn>1</keyColumn>
   </label>
-  <!-- <project-fcu-tomap href="modules/to-map.plan"/> -->
+
 
 
 

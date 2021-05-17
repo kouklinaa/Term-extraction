@@ -12,10 +12,10 @@
   -->
 
   <export-fcu class="TabularExport">
-    <!-- <outDir>output/vespa/fcu</outDir>
-    <corpusFile>fcu_vespa.csv</corpusFile> -->
-    <outDir>output/d2kab/fcu</outDir>
-    <corpusFile>fcu_d2kab.csv</corpusFile>
+    <outDir>output/vespa/fcu</outDir>
+    <corpusFile>fcu_vespa.csv</corpusFile>
+    <!-- <outDir>output/d2kab/fcu</outDir>
+    <corpusFile>fcu_d2kab.csv</corpusFile> -->
     <lines>documents.sections.(layer:fcu)</lines>
     <headers>"bsv","type", "length","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
@@ -43,8 +43,8 @@
   <fcu_vocab class="AggregateValues">
     <entries>documents.sections.layer:fcu</entries>
     <key>@form</key>
-    <outFile>output/d2kab/fcu/fcu_d2kab.txt</outFile>
-    <!-- <outFile>output/vespa/fcu/fcu_vespa.txt</outFile> -->
+    <!-- <outFile>output/d2kab/fcu/fcu_d2kab.txt</outFile> -->
+    <outFile>output/vespa/fcu/fcu_vespa.txt</outFile>
   </fcu_vocab>
 
 
@@ -58,8 +58,8 @@
 
   <export-fcu-tomap class="TabularExport">
     <outDir>output</outDir>
-    <corpusFile>d2kab-fcu-tomap.csv</corpusFile>
-    <!-- <corpusFile>vespa-fcu-tomap.csv</corpusFile> -->
+    <!-- <corpusFile>d2kab-fcu-tomap.csv</corpusFile> -->
+    <corpusFile>vespa-fcu-tomap.csv</corpusFile>
     <lines>documents.sections.(layer:fcu-tomap)</lines>
     <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
@@ -93,10 +93,10 @@
 
 
   <bbch_export class="TabularExport">
-    <!-- <outDir>output/vespa/bbch</outDir>
-    <corpusFile>bbch_vespa.csv</corpusFile> -->
-    <outDir>output/d2kab/bbch</outDir>
-    <corpusFile>bbch_d2kab.csv</corpusFile>
+    <outDir>output/vespa/bbch</outDir>
+    <corpusFile>bbch_vespa.csv</corpusFile>
+    <!-- <outDir>output/d2kab/bbch</outDir>
+    <corpusFile>bbch_d2kab.csv</corpusFile> -->
     <lines>documents.sections.layer:bbch</lines>
     <headers>"bsv","context", "word", "context", "location","features"</headers>
     <columns separator=";">
@@ -120,8 +120,8 @@
   <bbch_vocab class="AggregateValues">
     <entries>documents.sections.layer:bbch</entries>
     <key>@form</key>
-    <!-- <outFile>output/vespa/bbch/bbch_vespa.txt</outFile> -->
-    <outFile>output/d2kab/bbch/bbch_d2kab.txt</outFile>
+    <outFile>output/vespa/bbch/bbch_vespa.txt</outFile>
+    <!-- <outFile>output/d2kab/bbch/bbch_d2kab.txt</outFile> -->
   </bbch_vocab>
 
 
@@ -135,10 +135,10 @@
   -->
 
   <conj_export class="TabularExport">
-    <!-- <outDir>output/vespa/conjunctions</outDir>
-    <corpusFile>conjunctions_vespa.csv</corpusFile> -->
-    <outDir>output/d2kab/conjunctions</outDir>
-    <corpusFile>conjunctions_d2kab.csv</corpusFile>
+    <outDir>output/vespa/conjunctions</outDir>
+    <corpusFile>conjunctions_vespa.csv</corpusFile>
+    <!-- <outDir>output/d2kab/conjunctions</outDir>
+    <corpusFile>conjunctions_d2kab.csv</corpusFile> -->
     <lines>documents.sections.layer:conjunctions[inside:fcu]</lines>
     <headers>"bsv","context", "full_expression", "no_match","match_with_fcu","context", "location","features"</headers>
     <columns separator=";">
@@ -166,7 +166,8 @@
   <conj_vocab class="AggregateValues">
     <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
     <key>str:lower(str:normalizeSpace(@form))</key>
-    <outFile>output/d2kab/conjunctions/conj_d2kab.txt</outFile>
+    <outFile>output/vespa/conjunctions/conj_vespa.txt</outFile>
+    <!-- <outFile>output/d2kab/conjunctions/conj_d2kab.txt</outFile> -->
   </conj_vocab>
 
 
@@ -181,8 +182,8 @@
   <vocabulary class="AggregateValues">
     <entries>documents.sections.layer:words</entries>
     <key>@lemma</key>
-    <!-- <outFile>output/vespa/words_vespa.txt</outFile> -->
-    <outFile>output/d2kab/words_d2kab.txt</outFile>
+    <outFile>output/vespa/words_vespa.txt</outFile>
+    <!-- <outFile>output/d2kab/words_d2kab.txt</outFile> -->
   </vocabulary>
 
   <!--
@@ -195,29 +196,29 @@
 
 
   <tf_idf href="modules/scores.plan">
-    <!-- <outFile>output/vespa/scores/tfidf_vespa.csv</outFile> -->
-    <outFile>output/d2kab/scores/tfidf_d2kab.csv</outFile>
+    <outFile>output/vespa/scores/tfidf_vespa.csv</outFile>
+    <!-- <outFile>output/d2kab/scores/tfidf_d2kab.csv</outFile> -->
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction>tfidf</scoreFunction>
   </tf_idf>
 
   <freq href="modules/scores.plan">
-    <!-- <outFile>output/vespa/scores/freq_vespa.csv</outFile> -->
-    <outFile>output/d2kab/scores/freq_d2kab.csv</outFile>
+    <outFile>output/vespa/scores/freq_vespa.csv</outFile>
+    <!-- <outFile>output/d2kab/scores/freq_d2kab.csv</outFile> -->
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type="freq"/>
   </freq>
 
   <freqrel href="modules/scores.plan">
-    <!-- <outFile>output/vespa/scores/freq_rel_vespa.csv</outFile> -->
-    <outFile>output/d2kab/scores/freq_rel_d2kab.csv</outFile>
+    <outFile>output/vespa/scores/freq_rel_vespa.csv</outFile>
+    <!-- <outFile>output/d2kab/scores/freq_rel_d2kab.csv</outFile> -->
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type="freq" relative="true"/>
   </freqrel>
 
   <bm25 href="modules/scores.plan">
-    <!-- <outFile>output/vespa/scores/bm25_vespa.csv</outFile> -->
-    <outFile>output/d2kab/scores/bm25_d2kab.csv</outFile>
+    <outFile>output/vespa/scores/bm25_vespa.csv</outFile>
+    <!-- <outFile>output/d2kab/scores/bm25_d2kab.csv</outFile> -->
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
   </bm25>
