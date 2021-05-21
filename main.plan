@@ -42,37 +42,11 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<fcu>
+<project-fcu href="modules/project-fcu.plan">
+  <outDirBaseline>output/vespa</outDirBaseline>
+  <outDirToMap>output/vespa</outDirToMap>
+</project-fcu>
 
-  <!-- Project terms -->
-  <baseline href="modules/project-lemma.plan">
-    <source>resources/usageCulture20210112.rdf</source>
-    <targetLayerName>fcu</targetLayerName>
-  </baseline>
-
-  <!-- Save results-->
-  <save-baseline href="modules/export.plan">
-    <outDir>output</outDir>
-    <corpusFile>fcu_vespa.csv</corpusFile>
-    <!-- <corpusFile>fcu_d2kab.csv</corpusFile> -->
-    <lines>documents.sections.(layer:fcu)</lines>
-  </save-baseline>
-
-  <!-- Project terms with ToMap-->
-  <tomap href="modules/tomap-classify.plan">
-    <xmlTermsFile>output/yatea_vespa.xml</xmlTermsFile>
-    <yateaFile output-feed="true">output/yatea_vespa.xml</yateaFile>
-  </tomap>
-
-  <!-- Save results-->
-  <save-tomap href="modules/export.plan">
-    <outDir>output</outDir>
-    <!-- <corpusFile>d2kab-fcu-tomap.csv</corpusFile> -->
-    <corpusFile>vespa-fcu-tomap.csv</corpusFile>
-    <lines>documents.sections.(layer:fcu-tomap)</lines>
-  </save-tomap>
-
-</fcu>
 
 <!--
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -82,33 +56,10 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<stages>
+<project-stages href="modules/project-stages.plan">
+  <outDir>output/vespa</outDir>
+</project-stages>
 
-  <!-- load vocabulary and project it to a layer named stages -->
-  <project-stage href="modules/project-lemma.plan">
-    <source>resources/stades.rdf</source>
-    <targetLayerName>stages</targetLayerName>
-  </project-stage>
-
-  <!-- delete repeating elements from the layer stages -->
-  <remove-equal class="Action">
-    <target>documents.sections.layer:stages[outside:fcu]</target>
-    <action>delete</action>
-    <deleteElements/>
-  </remove-equal>
-
-  <!-- find patterns bbch -->
-  <bbch-patterns href="modules/find-bbch-patterns.plan"/>
-
-  <!-- Save results-->
-  <save-bbch href="modules/export.plan">
-    <outDir>output</outDir>
-    <corpusFile>bbch_vespa.csv</corpusFile>
-    <!-- <corpusFile>bbch_d2kab.csv</corpusFile> -->
-    <lines>documents.sections.layer:bbch</lines>
-  </save-bbch>
-
-</stages>
 
 <!--
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -118,20 +69,11 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<conjunctions>
 
-  <!-- find patterns -->
-  <conj-patterns href="modules/find-conj-patterns.plan"/>
+<conj-patterns href="modules/find-conj-patterns.plan">
+  <outDir>output/vespa</outDir>
+</conj-patterns>
 
-  <!-- Save results-->
-  <save-conj href="modules/export.plan">
-    <outDir>output</outDir>
-    <corpusFile>conjunctions_vespa.csv</corpusFile>
-    <!-- <corpusFile>conjunctions_d2kab.csv</corpusFile> -->
-    <lines>documents.sections.layer:conjunctions[inside:fcu]</lines>
-  </save-conj>
-
-</conjunctions>
 
 <!--
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -142,8 +84,7 @@
 -->
 
 <bm25 href="modules/scores.plan">
-  <outFile>output/bm25_vespa.csv</outFile>
-  <!-- <outFile>output/d2kab/scores/bm25_d2kab.csv</outFile> -->
+  <outFile>output/vespa/bm25.csv</outFile>
   <keywords>sections.layer:fcu</keywords>
   <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
 </bm25>

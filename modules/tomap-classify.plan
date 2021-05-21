@@ -21,6 +21,7 @@
 
 
   <yatea class="YateaExtractor">
+    <xmlTermsFile>output/yatea.xml</xmlTermsFile>
     <language>FR</language>
     <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
     <perlLib>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/lib/perl5/site_perl</perlLib>
@@ -38,6 +39,7 @@
   -->
 
   <classify class="TomapProjector">
+    <yateaFile output-feed="true">output/yatea.xml</yateaFile>
     <tomapClassifier graylist="resources/tomap/tomap-graylist.txt">resources/tomap/usageCulture.tomap</tomapClassifier>
     <targetLayerName>fcu-tomap</targetLayerName>
     <conceptFeature>IRI</conceptFeature>

@@ -4,10 +4,16 @@
 
 <alvisnlp-plan id="patterns">
 
+  <!-- parameters -->
+  <param name="outDir">
+    <alias module="save-conj" param="outDir"/>
+  </param>
+
+
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  //  Conjunctions
+  //  Patterns
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
@@ -112,13 +118,26 @@
 
 
   <!-- save matching  elements from the layer conjunctions  -->
-  <!-- save matching  elements from the layer conjunctions  -->
   <rem-conj class="Action">
     <target>documents.sections.layer:fcu[outside:conjunctions]</target>
     <action>set:feat:match("conj")</action>
     <setFeatures/>
   </rem-conj>
 
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Save results
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <!-- Save results-->
+  <save-conj href="modules/export.plan">
+    <corpusFile>conjunctions.csv</corpusFile>
+    <lines>documents.sections.layer:conjunctions[inside:fcu]</lines>
+  </save-conj>
 
 
 </alvisnlp-plan>

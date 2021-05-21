@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="project-stages">
+
+  <!-- parameters -->
+  <param name="outDir">
+    <alias module="save-bbch" param="outDir"/>
+  </param>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // I. Load terms from ontology
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <!-- load vocabulary and project it to a layer named stages -->
+  <project-stage href="modules/project-lemma.plan">
+    <source>resources/stades.rdf</source>
+    <targetLayerName>stages</targetLayerName>
+  </project-stage>
+
+
+
+  <!-- delete repeating elements from the layer stages -->
+  <remove-equal class="Action">
+    <target>documents.sections.layer:stages[outside:fcu]</target>
+    <action>delete</action>
+    <deleteElements/>
+  </remove-equal>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // II. Match BBCH
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <!-- find patterns bbch -->
+  <bbch-patterns href="modules/find-bbch-patterns.plan"/>
+
+
+  <!-- Save results-->
+  <save-bbch href="modules/export.plan">
+    <corpusFile>bbch.csv</corpusFile>
+    <lines>documents.sections.layer:bbch</lines>
+  </save-bbch>
+
+</alvisnlp-plan>

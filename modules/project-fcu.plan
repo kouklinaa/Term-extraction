@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="project-fcu">
+
+
+  <!-- parameters -->
+  <param name="outDirBaseline">
+    <alias module="save-baseline" param="outDir"/>
+  </param>
+
+  <param name="outDirToMap">
+    <alias module="save-tomap" param="outDir"/>
+  </param>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // I. Baseline
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <!-- Project terms -->
+  <baseline href="modules/project-lemma.plan">
+    <source>resources/usageCulture20210112.rdf</source>
+    <targetLayerName>fcu</targetLayerName>
+  </baseline>
+
+  <!-- Save results-->
+  <save-baseline href="modules/export.plan">
+    <corpusFile>fcu-baseline.csv</corpusFile>
+    <lines>documents.sections.(layer:fcu)</lines>
+  </save-baseline>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // I. ToMap
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <!-- Project terms with ToMap-->
+  <tomap href="modules/tomap-classify.plan"/>
+
+
+  <!-- Save results-->
+  <save-tomap href="modules/export.plan">
+    <corpusFile>fcu-tomap.csv</corpusFile>
+    <lines>documents.sections.(layer:fcu-tomap)</lines>
+  </save-tomap>
+
+</alvisnlp-plan>
