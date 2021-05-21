@@ -14,7 +14,7 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // I. Process test corpus with yatea
+  // I. Load test corpus to yatea
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
@@ -32,17 +32,18 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // II. Project trained syntaxic heads on data
+  // II. Project syntaxic heads on corpus
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
   <classify class="TomapProjector">
-    <tomapClassifier graylist="resources/tomap-graylist.txt">output/usageCulture.tomap</tomapClassifier>
+    <tomapClassifier graylist="resources/tomap/tomap-graylist.txt">resources/tomap/usageCulture.tomap</tomapClassifier>
     <targetLayerName>fcu-tomap</targetLayerName>
     <conceptFeature>IRI</conceptFeature>
     <explanationFeaturePrefix>tomap-</explanationFeaturePrefix>
   </classify>
+
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -53,7 +54,7 @@
   -->
 
   <label class="FileMapper">
-    <mappingFile>resources/usageCulture20210112.txt</mappingFile>
+    <mappingFile>resources/tomap/usageCulture20210112.txt</mappingFile>
     <target>documents.sections.layer:fcu-tomap</target>
     <form>@IRI</form>
     <targetFeatures>,,skos-prefLabel</targetFeatures>
