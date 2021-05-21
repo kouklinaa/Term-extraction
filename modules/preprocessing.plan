@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="preprocessing">
+
+
+<!-- parameters -->
+<param name="parFile">
+  <alias module="tt" param="parFile"/>
+</param>
+
+<param name="treeTaggerExecutable">
+  <alias module="tt" param="treeTaggerExecutable"/>
+</param>
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// I. Tokenize
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- load segmentation plan -->
+<import>res://segmentation.plan</import>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// II. Lemmatize
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- remove foreign words with label <FW> as they are not recognised by french tree-tagger-->
+<remove-fw class="Action">
+  <target>documents.sections.layer:words[@pos]</target>
+  <action>set:remove-feature:pos</action>
+  <setFeatures/>
+</remove-fw>
+
+
+<!-- load treetagger -->
+<tt class="TreeTagger">
+  <noUnknownLemma/>
+  <inputCharset>UTF-8</inputCharset>
+  <outputCharset>UTF-8</outputCharset>
+</tt>
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// III. Correct ambiguous words
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<!-- remove ambiguous words that can be wrongfully associated with some fcu concepts -->
+<remove-ambiguous-words class="Action">
+  <target>documents.sections.layer:words[@lemma == "gel" or @lemma == "jachère" or @lemma == "orange" and @pos == "ADJ" or @lemma == "marron" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "horticulture" or @lemma == "pépinière" or @lemma
+    == "soleil"]</target>
+  <action>remove:words</action>
+  <removeFromLayer/>
+</remove-ambiguous-words>
+
+<!-- correct treetagger pos tag -->
+<correct-kaki class="Action">
+  <target>documents.sections.layer:words[@form == "kaki"]</target>
+  <action>set:feat:pos("NOM")</action>
+  <setFeatures/>
+</correct-kaki>
+
+
+
+</alvisnlp-plan>
