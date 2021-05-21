@@ -1,41 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <alvisnlp-plan id="tomap-train">
-  <read class="TabularReader">
-    <source>resources/usageCulture20210112.txt</source>
-    <sourceElement>$</sourceElement>
-    <lineActions>
-      new:document(tab:column(1)).(
-      new:section:label(tab:column(0))
-      | set:feat:skos-prefLabel(tab:column(2))
-      )
-    </lineActions>
-    <commitLines/>
-    <createDocuments/>
-    <createSections/>
-    <setFeatures/>
-  </read>
 
-  <seg href="res://segmentation.plan"/>
 
-  <pos class="TreeTagger">
-    <parFile>resources/french.par</parFile>
-    <noUnknownLemma/>
-  </pos>
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// I. Load ontology terms
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
 
-  <train class="TomapTrain">
-    <outFile>output/usageCulture.tomap</outFile>
-    <conceptIdentifier>document.@id</conceptIdentifier>
-    <language>FR</language>
-  </train>
+<read-terms class="TabularReader">
+  <source>../resources/usageCulture20210112.txt</source>
+  <sourceElement>$</sourceElement>
+  <lineActions>
+    new:document(tab:column(1)).( new:section:label(tab:column(0)) | set:feat:skos-prefLabel(tab:column(2)) )
+  </lineActions>
+  <commitLines/>
+  <createDocuments/>
+  <createSections/>
+  <setFeatures/>
+</read-terms>
 
-  <lemma class="TabularExport">
-    <outDir>.</outDir>
-    <corpusFile>resources/usageCulture20210112.lemma.txt</corpusFile>
-    <lines>documents.sections</lines>
-    <columns separator=";">
-      str:join:' '(layer:words, @lemma);
-      document.@id;
-      document.@skos-prefLabel
-    </columns>
-  </lemma>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// II. Preprocess
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<preprocessing href="preprocessing.plan">
+  <parFile>../../../work/inrae/outils/tree-tagger/lib/french.par</parFile>
+  <treeTaggerExecutable>../../../work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
+</preprocessing>
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// III. Calculate syntaxic heads of candidates
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<train class="TomapTrain">
+  <outFile>../output/usageCulture.tomap</outFile>
+  <conceptIdentifier>document.@id</conceptIdentifier>
+  <language>FR</language>
+  <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
+  <perlLib>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/lib/perl5/site_perl</perlLib>
+  <rcFile>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/etc/yatea/yatea.rc</rcFile>
+  <configDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/config</configDir>
+  <localeDir>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTeA/locale</localeDir>
+</train>
+
+
+<lemma class="TabularExport">
+  <outDir>../resources</outDir>
+  <corpusFile>usageCulture20210112.lemma.txt</corpusFile>
+  <lines>documents.sections</lines>
+  <columns separator=";">
+    str:join:' '(layer:words, @lemma); document.@id; document.@skos-prefLabel
+  </columns>
+</lemma>
 
 </alvisnlp-plan>
