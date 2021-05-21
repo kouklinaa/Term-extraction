@@ -3,20 +3,21 @@
 <alvisnlp-plan id="export">
 
 
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  //  FCU
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
+  <param name="corpusFile">
+    <alias module="export" param="corpusFile"/>
+  </param>
 
-  <export-fcu class="TabularExport">
-    <outDir>output/vespa/fcu</outDir>
-    <corpusFile>fcu_vespa.csv</corpusFile>
-    <!-- <outDir>output/d2kab/fcu</outDir>
-    <corpusFile>fcu_d2kab.csv</corpusFile> -->
-    <lines>documents.sections.(layer:fcu)</lines>
+  <param name="outDir">
+    <alias module="export" param="outDir"/>
+  </param>
+
+  <param name="lines">
+    <alias module="export" param="lines"/>
+  </param>
+
+
+
+  <export class="TabularExport">
     <headers>"bsv","type", "length","context","word","prefLabel","context","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
@@ -25,6 +26,7 @@
       section.@name;
       <!-- length of document  -->
       str:len(section.contents);
+      <!-- int(section.layer:words) -->
       <!-- context before  -->
       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
       <!-- extracted term  -->
@@ -38,190 +40,10 @@
       str:join:', '(nav:features, @key ^ "=" ^ @value)
     </columns>
     <trueCSV/>
-  </export-fcu>
-
-  <fcu_vocab class="AggregateValues">
-    <entries>documents.sections.layer:fcu</entries>
-    <key>@form</key>
-    <!-- <outFile>output/d2kab/fcu/fcu_d2kab.txt</outFile> -->
-    <outFile>output/vespa/fcu/fcu_vespa.txt</outFile>
-  </fcu_vocab>
-
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  //  ToMap
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
-
-  <export-fcu-tomap class="TabularExport">
-    <outDir>output</outDir>
-    <!-- <corpusFile>d2kab-fcu-tomap.csv</corpusFile> -->
-    <corpusFile>vespa-fcu-tomap.csv</corpusFile>
-    <lines>documents.sections.(layer:fcu-tomap)</lines>
-    <headers>"bsv","type","context","word","prefLabel","context","location","features"</headers>
-    <columns separator=";">
-
-      str:replace(str:basename(section.document.@id), ".html", "");
-
-      section.@name;
-
-      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
-
-      @form;
-      @skos-prefLabel;
-
-      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
-
-      start ^ "-" ^ end;
-
-      str:join:', '(nav:features, @key ^ "=" ^ @value)
-    </columns>
-    <trueCSV/>
-  </export-fcu-tomap>
-
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  //  Phenological stages
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
-
-
-  <bbch_export class="TabularExport">
-    <outDir>output/vespa/bbch</outDir>
-    <corpusFile>bbch_vespa.csv</corpusFile>
-    <!-- <outDir>output/d2kab/bbch</outDir>
-    <corpusFile>bbch_d2kab.csv</corpusFile> -->
-    <lines>documents.sections.layer:bbch</lines>
-    <headers>"bsv","context", "word", "context", "location","features"</headers>
-    <columns separator=";">
-      <!-- short document id  -->
-      str:replace(str:basename(section.document.@id), ".html", "");
-      <!-- context before  -->
-      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
-      <!-- extracted term  -->
-      @form;
-      <!-- context after  -->
-      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
-      <!-- location  -->
-      start ^ "-" ^ end;
-      <!-- features  -->
-      str:join:', '(nav:features, @key ^ "=" ^ @value)
-
-    </columns>
-    <trueCSV/>
-  </bbch_export>
-
-  <bbch_vocab class="AggregateValues">
-    <entries>documents.sections.layer:bbch</entries>
-    <key>@form</key>
-    <outFile>output/vespa/bbch/bbch_vespa.txt</outFile>
-    <!-- <outFile>output/d2kab/bbch/bbch_d2kab.txt</outFile> -->
-  </bbch_vocab>
+  </export>
 
 
 
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  //  Conjunctions
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
-
-  <conj_export class="TabularExport">
-    <outDir>output/vespa/conjunctions</outDir>
-    <corpusFile>conjunctions_vespa.csv</corpusFile>
-    <!-- <outDir>output/d2kab/conjunctions</outDir>
-    <corpusFile>conjunctions_d2kab.csv</corpusFile> -->
-    <lines>documents.sections.layer:conjunctions[inside:fcu]</lines>
-    <headers>"bsv","context", "full_expression", "no_match","match_with_fcu","context", "location","features"</headers>
-    <columns separator=";">
-      <!-- short document id  -->
-      str:replace(str:basename(section.document.@id), ".html", "");
-      <!-- context before  -->
-      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
-      <!-- extracted term  -->
-      @form;
-      <!-- TODO : no match with fcu  -->
-      str:replace(@form, overlapping:fcu, "");
-      <!-- match fcu  -->
-      str:join:', '(inside:fcu, @form ^ " ( " ^ @skos-prefLabel ^ " ) =" ^ @uri);
-      <!-- context after  -->
-      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
-      <!-- location  -->
-      start ^ "-" ^ end;
-      <!-- features  -->
-      str:join:', '(nav:features, @key ^ "=" ^ @value)
-
-    </columns>
-    <trueCSV/>
-  </conj_export>
-
-  <conj_vocab class="AggregateValues">
-    <entries>documents.sections.layer:conjunctions[@match == "fcu"]</entries>
-    <key>str:lower(str:normalizeSpace(@form))</key>
-    <outFile>output/vespa/conjunctions/conj_vespa.txt</outFile>
-    <!-- <outFile>output/d2kab/conjunctions/conj_d2kab.txt</outFile> -->
-  </conj_vocab>
-
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  //  Save all tokens
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
-
-  <vocabulary class="AggregateValues">
-    <entries>documents.sections.layer:words</entries>
-    <key>@lemma</key>
-    <outFile>output/vespa/words_vespa.txt</outFile>
-    <!-- <outFile>output/d2kab/words_d2kab.txt</outFile> -->
-  </vocabulary>
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  //  Save scores
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
-
-
-  <tf_idf href="modules/scores.plan">
-    <outFile>output/vespa/scores/tfidf_vespa.csv</outFile>
-    <!-- <outFile>output/d2kab/scores/tfidf_d2kab.csv</outFile> -->
-    <keywords>sections.layer:fcu</keywords>
-    <scoreFunction>tfidf</scoreFunction>
-  </tf_idf>
-
-  <freq href="modules/scores.plan">
-    <outFile>output/vespa/scores/freq_vespa.csv</outFile>
-    <!-- <outFile>output/d2kab/scores/freq_d2kab.csv</outFile> -->
-    <keywords>sections.layer:fcu</keywords>
-    <scoreFunction type="freq"/>
-  </freq>
-
-  <freqrel href="modules/scores.plan">
-    <outFile>output/vespa/scores/freq_rel_vespa.csv</outFile>
-    <!-- <outFile>output/d2kab/scores/freq_rel_d2kab.csv</outFile> -->
-    <keywords>sections.layer:fcu</keywords>
-    <scoreFunction type="freq" relative="true"/>
-  </freqrel>
-
-  <bm25 href="modules/scores.plan">
-    <outFile>output/vespa/scores/bm25_vespa.csv</outFile>
-    <!-- <outFile>output/d2kab/scores/bm25_d2kab.csv</outFile> -->
-    <keywords>sections.layer:fcu</keywords>
-    <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
-  </bm25>
 
 
 
