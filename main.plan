@@ -13,10 +13,16 @@
 
 
 <read-html href="modules/read-html.plan">
+
   <!-- vespa -->
-  <sourcePath>resources/CorpusVespa.html</sourcePath>
+  <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
+
   <!-- d2kab -->
   <!-- <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath> -->
+
+  <!-- alea -->
+  <sourcePath>resources/Corpus-v-12-04-21/test/</sourcePath>
+
 </read-html>
 
 
@@ -43,8 +49,19 @@
 -->
 
 <project-fcu href="modules/project-fcu.plan">
-  <outDirBaseline>output/vespa</outDirBaseline>
-  <outDirToMap>output/vespa</outDirToMap>
+
+  <!-- d2kab -->
+  <!-- <outDirBaseline>output/d2kab</outDirBaseline>
+  <outDirToMap>output/d2kab</outDirToMap> -->
+
+  <!-- vespa -->
+  <!-- <outDirBaseline>output/vespa</outDirBaseline>
+  <outDirToMap>output/vespa</outDirToMap> -->
+
+  <!-- alea -->
+  <outDirBaseline>output/alea</outDirBaseline>
+  <outDirToMap>output/alea</outDirToMap>
+
 </project-fcu>
 
 
@@ -57,7 +74,16 @@
 -->
 
 <project-stages href="modules/project-stages.plan">
-  <outDir>output/vespa</outDir>
+
+  <!-- d2kab -->
+  <!-- <outDir>output/d2kab</outDir> -->
+
+  <!-- vespa -->
+  <!-- <outDir>output/vespa</outDir> -->
+
+  <!-- alea -->
+  <outDir>output/alea</outDir>
+
 </project-stages>
 
 
@@ -71,7 +97,16 @@
 
 
 <conj-patterns href="modules/find-conj-patterns.plan">
-  <outDir>output/vespa</outDir>
+
+  <!-- d2kab -->
+  <!-- <outDir>output/d2kab</outDir> -->
+
+  <!-- vespa -->
+  <!-- <outDir>output/vespa</outDir> -->
+
+  <!-- alea -->
+  <outDir>output/alea</outDir>
+
 </conj-patterns>
 
 
@@ -84,9 +119,19 @@
 -->
 
 <bm25 href="modules/scores.plan">
-  <outFile>output/vespa/bm25.csv</outFile>
+
+  <!-- d2kab -->
+  <!-- <outFile>output/d2kab/bm25.csv</outFile> -->
+
+  <!-- vespa -->
+  <!-- <outFile>output/vespa/bm25.csv</outFile> -->
+
+  <!-- alea -->
+  <outFile>output/alea/bm25.csv</outFile>
+
   <keywords>sections.layer:fcu</keywords>
   <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
+
 </bm25>
 
 
