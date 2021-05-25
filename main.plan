@@ -34,10 +34,10 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<preprocessing href="modules/preprocessing.plan">
+<preprocess-text href="modules/preprocessing.plan">
   <parFile>../../work/inrae/outils/tree-tagger/lib/french.par</parFile>
   <treeTaggerExecutable>../../work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
-</preprocessing>
+</preprocess-text>
 
 
 <!--
@@ -96,7 +96,7 @@
 -->
 
 
-<conj-patterns href="modules/find-conj-patterns.plan">
+<find-conj href="modules/find-conj-patterns.plan">
 
   <!-- d2kab -->
   <!-- <outDir>output/d2kab</outDir> -->
@@ -107,7 +107,7 @@
   <!-- alea -->
   <outDir>output/alea</outDir>
 
-</conj-patterns>
+</find-conj>
 
 
 <!--
@@ -118,7 +118,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<bm25 href="modules/scores.plan">
+<calculate-bm25 href="modules/scores.plan">
 
   <!-- d2kab -->
   <!-- <outFile>output/d2kab/bm25.csv</outFile> -->
@@ -132,7 +132,7 @@
   <keywords>sections.layer:fcu</keywords>
   <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
 
-</bm25>
+</calculate-bm25>
 
 
 

@@ -16,16 +16,26 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // I. Baseline
+  // I. Baseline approach
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
-  <!-- Project terms -->
-  <baseline href="modules/project-lemma.plan">
+
+
+  <!-- Project terms with rdf projector-->
+  <project-baseline href="modules/project-lemma.plan">
     <source>resources/usageCulture20210112.rdf</source>
     <targetLayerName>fcu</targetLayerName>
-  </baseline>
+  </project-baseline>
+
+  <!-- Remove overlaps -->
+  <overlaps-baseline class="RemoveOverlaps">
+    <layerName>fcu</layerName>
+    <removeEqual/>
+    <removeIncluded/>
+    <removeOverlapping/>
+  </overlaps-baseline>
 
   <!-- Save results-->
   <save-baseline href="modules/export.plan">
@@ -34,22 +44,52 @@
   </save-baseline>
 
 
+
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // I. ToMap
+  // II. ToMap approach
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
   <!-- Project terms with ToMap-->
-  <tomap href="modules/tomap-classify.plan"/>
+  <project-tomap href="modules/tomap-classify.plan"/>
 
+
+  <!-- Remove overlaps -->
+  <overlaps-tomap class="RemoveOverlaps">
+    <layerName>fcu-tomap</layerName>
+    <removeEqual/>
+    <removeIncluded/>
+    <removeOverlapping/>
+  </overlaps-tomap>
 
   <!-- Save results-->
   <save-tomap href="modules/export.plan">
     <corpusFile>fcu-tomap.csv</corpusFile>
     <lines>documents.sections.(layer:fcu-tomap)</lines>
   </save-tomap>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // III. Compare outputs
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <compare-layers class="CompareElements">
+    <sections>documents.sections</sections>
+    <reference>layer:fcu</reference>
+    <predicted>layer:fcu-tomap</predicted>
+    <face>@form</face>
+    <outFile>output/compare.txt</outFile>
+    <similarity>strict</similarity>
+  </compare-layers>
+
+
 
 </alvisnlp-plan>

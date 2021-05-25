@@ -59,7 +59,7 @@
 
 <!-- remove ambiguous words that can be wrongfully associated with some fcu concepts -->
 <remove-ambiguous-words class="Action">
-  <target>documents.sections.layer:words[@lemma == "gel" or @lemma == "jachère" or @lemma == "orange" and @pos == "ADJ" or @lemma == "marron" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "horticulture" or @lemma == "pépinière" or @lemma
+  <target>documents.sections.layer:words[@lemma == "gel" or @lemma == "orange" and @pos == "ADJ" or @lemma == "marron" and @pos == "ADJ" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma
     == "soleil"]</target>
   <action>remove:words</action>
   <removeFromLayer/>
