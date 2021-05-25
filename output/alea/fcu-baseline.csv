@@ -1,4 +1,4 @@
-"bsv"	"type"	"length"	"context"	"word"	"prefLabel"	"context"	"location"	"features"
+"bsv"	"type"	"length"	"context before"	"form"	"prefLabel"	"context after"	"location"	"features"
 "01_TB_Als_cle8c6253"	"html"	"2478"	"t plantes parasites"	"Tabac"	"tabac"	"Quelques serres ont"	"469-474"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Tabac, skos-prefLabel=tabac, form=Tabac"
 "01_TB_Als_cle8c6253"	"html"	"2478"	"d'éparpiller de la"	"paille"	"céréale à paille"	", du miscanthus broy"	"1613-1619"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Cereales_paille, skos-prefLabel=céréale à paille, form=paille"
 "01_TB_Als_cle8c6253"	"html"	"2478"	"er de la paille, du"	"miscanthus"	"miscanthus"	"broyé ou des cendre"	"1624-1634"	"type=GOL, uri=http://ontology.inrae.fr/frenchcropusage/Miscanthus_industriels, skos-prefLabel=miscanthus, form=miscanthus"

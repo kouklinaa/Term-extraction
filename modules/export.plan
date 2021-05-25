@@ -18,7 +18,7 @@
 
 
   <export class="TabularExport">
-    <headers>"bsv","type", "length","context","word","prefLabel","context","location","features"</headers>
+    <headers>"bsv","type", "length","context before","form","prefLabel","context after","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
       str:replace(str:basename(section.document.@id), ".html", "");

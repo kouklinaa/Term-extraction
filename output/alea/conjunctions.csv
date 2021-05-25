@@ -1,4 +1,4 @@
-"bsv"	"type"	"length"	"context"	"word"	"prefLabel"	"context"	"location"	"features"
+"bsv"	"type"	"length"	"context before"	"form"	"prefLabel"	"context after"	"location"	"features"
 "05_GC_Als_cle8c3f61"	"html"	"4795"	"écocement. Comme en"	"maïs, les attaques"	""	"d'oscinies se manif"	"1006-1024"	"type=N_PUN_N, match=fcu, form=maïs, les attaques"
 "05bsv_jevi_20190502_cle8f22b6"	"html"	"24032"	"ine. Espaces verts,"	"parc et jardins"	""	"d'amateurs. Observa"	"2754-2769"	"type=N_KON_N, match=fcu, form=parc et jardins"
 "05bsv_jevi_20190502_cle8f22b6"	"html"	"24032"	"entices du potager ("	"betterave, chénopode, épinard, poirée"	""	"ou bette à cardes.."	"12597-12634"	"type=N_PUN_N, match=fcu, form=betterave, chénopode, épinard, poirée"

@@ -1,4 +1,4 @@
-"bsv"	"type"	"length"	"context"	"word"	"prefLabel"	"context"	"location"	"features"
+"bsv"	"type"	"length"	"context before"	"form"	"prefLabel"	"context after"	"location"	"features"
 "130507_BSV_Lin__Oleagineux_n9_F_cle4bfe17"	"html"	"11056"	"ce stade. Stade E1 ("	"BBCH 51"	""	") : Le premier bouto"	"7636-7643"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
 "130507_BSV_Lin__Oleagineux_n9_F_cle4bfe17"	"html"	"11056"	": CETIOM) Stade E5 ("	"BBCH 55"	""	") : Le deuxième bout"	"7762-7769"	"type=BBCH-DD, canonical-form=BBCH 55, form=BBCH 55"
 "130507_BSV_Lin__Oleagineux_n9_F_cle4bfe17"	"html"	"11056"	"eux- N° 9 Stade E7 ("	"BBCH 57"	""	") : Bouton fermé mai"	"8597-8604"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"

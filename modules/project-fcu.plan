@@ -12,6 +12,17 @@
     <alias module="save-tomap" param="outDir"/>
   </param>
 
+  <param name="outScoreBaseline">
+    <alias module="calculate-bm25-baseline" param="outFile"/>
+  </param>
+
+  <param name="outScoreToMap">
+    <alias module="calculate-bm25-tomap" param="outFile"/>
+  </param>
+
+  <param name="outFileCompare">
+    <alias module="compare-layers" param="outFile"/>
+  </param>
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -43,6 +54,11 @@
     <lines>documents.sections.(layer:fcu)</lines>
   </save-baseline>
 
+  <!-- Bm25-->
+  <calculate-bm25-baseline href="modules/scores.plan">
+    <keywords>sections.layer:fcu</keywords>
+    <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
+  </calculate-bm25-baseline>
 
 
   <!--
@@ -71,12 +87,18 @@
     <lines>documents.sections.(layer:fcu-tomap)</lines>
   </save-tomap>
 
+  <!-- Bm25-->
+  <calculate-bm25-tomap href="modules/scores.plan">
+    <keywords>sections.layer:fcu-tomap</keywords>
+    <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
+  </calculate-bm25-tomap>
+
 
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // III. Compare outputs
+  // III. Compare fcu outputs
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
@@ -85,10 +107,11 @@
     <sections>documents.sections</sections>
     <reference>layer:fcu</reference>
     <predicted>layer:fcu-tomap</predicted>
-    <face>@form</face>
-    <outFile>output/compare.txt</outFile>
+    <face>@skos-prefLabel</face>
     <similarity>strict</similarity>
   </compare-layers>
+
+
 
 
 

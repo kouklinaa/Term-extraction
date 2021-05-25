@@ -1,4 +1,4 @@
-"bsv"	"type"	"length"	"context"	"word"	"prefLabel"	"context"	"location"	"features"
+"bsv"	"type"	"length"	"context before"	"form"	"prefLabel"	"context after"	"location"	"features"
 "20160718-BSV_30_20_Cereales_Normandie_cle095921"	"html"	"14203"	"is la codification ("	"BBCH 13, 18 ou 32"	""	") ne nous est pas f"	"3796-3813"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 32, form=BBCH 13, 18 ou 32"
 "20160718-BSV_30_20_Cereales_Normandie_cle095921"	"html"	"14203"	"is la codification ("	"BBCH 13, 18 ou 32"	""	") ne nous est pas f"	"3796-3813"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 18, form=BBCH 13, 18 ou 32"
 "20160718-BSV_30_20_Cereales_Normandie_cle095921"	"html"	"14203"	"is la codification ("	"BBCH 13, 18 ou 32"	""	") ne nous est pas f"	"3796-3813"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 13, form=BBCH 13, 18 ou 32"

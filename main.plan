@@ -14,11 +14,11 @@
 
 <read-html href="modules/read-html.plan">
 
-  <!-- vespa -->
-  <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
-
   <!-- d2kab -->
   <!-- <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath> -->
+
+  <!-- vespa -->
+  <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
 
   <!-- alea -->
   <sourcePath>resources/Corpus-v-12-04-21/test/</sourcePath>
@@ -52,15 +52,26 @@
 
   <!-- d2kab -->
   <!-- <outDirBaseline>output/d2kab</outDirBaseline>
-  <outDirToMap>output/d2kab</outDirToMap> -->
+  <outDirToMap>output/d2kab</outDirToMap>
+  <outFileCompare>output/d2kab/compare.txt</outFileCompare>
+  <outScoreBaseline>output/d2kab/bm25-baseline.csv</outScoreBaseline>
+  <outScoreToMap>output/d2kab/bm25-tomap.csv</outScoreToMap> -->
+
 
   <!-- vespa -->
   <!-- <outDirBaseline>output/vespa</outDirBaseline>
-  <outDirToMap>output/vespa</outDirToMap> -->
+  <outDirToMap>output/vespa</outDirToMap>
+  <outFileCompare>output/vespa/compare.txt</outFileCompare>
+  <outScoreBaseline>output/vespa/bm25-baseline.csv</outScoreBaseline>
+  <outScoreToMap>output/vespa/bm25-tomap.csv</outScoreToMap> -->
+
 
   <!-- alea -->
   <outDirBaseline>output/alea</outDirBaseline>
   <outDirToMap>output/alea</outDirToMap>
+  <outFileCompare>output/alea/compare.txt</outFileCompare>
+  <outScoreBaseline>output/alea/bm25-baseline.csv</outScoreBaseline>
+  <outScoreToMap>output/alea/bm25-tomap.csv</outScoreToMap>
 
 </project-fcu>
 
@@ -108,31 +119,6 @@
   <outDir>output/alea</outDir>
 
 </find-conj>
-
-
-<!--
-///////////////////////////////////////////////////////////////////////////////////////
-//
-// VI. Calculate scores
-//
-///////////////////////////////////////////////////////////////////////////////////////
--->
-
-<calculate-bm25 href="modules/scores.plan">
-
-  <!-- d2kab -->
-  <!-- <outFile>output/d2kab/bm25.csv</outFile> -->
-
-  <!-- vespa -->
-  <!-- <outFile>output/vespa/bm25.csv</outFile> -->
-
-  <!-- alea -->
-  <outFile>output/alea/bm25.csv</outFile>
-
-  <keywords>sections.layer:fcu</keywords>
-  <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
-
-</calculate-bm25>
 
 
 

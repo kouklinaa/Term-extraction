@@ -1,4 +1,4 @@
-"bsv"	"type"	"length"	"context"	"word"	"prefLabel"	"context"	"location"	"features"
+"bsv"	"type"	"length"	"context before"	"form"	"prefLabel"	"context after"	"location"	"features"
 "20190227_BSV_grandes_cultures_Auvergne_N02_cle0189db"	"html"	"5558"	", avec le stade C2 ("	"BBCH31"	""	") majoritaire sur ce"	"905-911"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
 "20190228_BSV_grandes_cultures_Rhone-Alpes_N_02_cle46d5a8"	"html"	"5449"	"ée est au stade D1 ("	"BBCH50"	""	") c'est-à-dire avec"	"949-955"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
 "20190320_LOR_BSV_Grandes_Cultures_cle83816d"	"html"	"12851"	"boutons accolés(D1-"	"BBCH50"	""	") 1 méligèthe/plante"	"6951-6957"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"

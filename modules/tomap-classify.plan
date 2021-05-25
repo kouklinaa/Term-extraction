@@ -33,24 +33,27 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // II. Project syntaxic heads on corpus
+  // II. Search for terms and associate a category identifier
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
   <classify class="TomapProjector">
+    <subject layer="words" feature="lemma"/>
     <yateaFile output-feed="true">output/yatea.xml</yateaFile>
-    <tomapClassifier graylist="resources/tomap/tomap-graylist.txt">resources/tomap/usageCulture.tomap</tomapClassifier>
+    <tomapClassifier graylist="resources/tomap/tomap-graylist.txt" >resources/tomap/usageCulture.tomap</tomapClassifier>
     <targetLayerName>fcu-tomap</targetLayerName>
     <conceptFeature>IRI</conceptFeature>
     <explanationFeaturePrefix>tomap-</explanationFeaturePrefix>
+    <scoreFeature>similarity</scoreFeature>
+    <lemmaKeys/>
   </classify>
 
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // III. Add skos preflabels
+  // III. Add skos preflabels to fcu-tomap
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
