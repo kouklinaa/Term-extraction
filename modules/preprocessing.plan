@@ -24,13 +24,6 @@
 <!-- load segmentation plan -->
 <import>res://segmentation.plan</import>
 
-<!--
-///////////////////////////////////////////////////////////////////////////////////////
-//
-// II. Lemmatize
-//
-///////////////////////////////////////////////////////////////////////////////////////
--->
 
 <!-- remove foreign words with label <FW> as they are not recognised by french tree-tagger-->
 <remove-fw class="Action">
@@ -39,9 +32,25 @@
   <setFeatures/>
 </remove-fw>
 
+<!-- <add-punctuation class="Action">
+  <target>documents.sections.layer:html[@tag ^= "H"]</target>
+  <action>set:feat:copy(str:join(nav:features:form, @value ^ "."))</action>
+  <setFeatures/>
+</add-punctuation> -->
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// II. Lemmatize
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
 
 <!-- load treetagger -->
 <tt class="TreeTagger">
+  <parFile>/Users/belka/Documents/work/inrae/outils/tree-tagger/lib/french.par</parFile>
+  <treeTaggerExecutable>/Users/belka/Documents/work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
   <noUnknownLemma/>
   <inputCharset>UTF-8</inputCharset>
   <outputCharset>UTF-8</outputCharset>

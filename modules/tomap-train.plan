@@ -32,10 +32,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<preprocessing href="preprocessing.plan">
-  <parFile>../../../work/inrae/outils/tree-tagger/lib/french.par</parFile>
-  <treeTaggerExecutable>../../../work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
-</preprocessing>
+<preprocessing href="preprocessing.plan"/>
 
 
 <!--

@@ -18,7 +18,7 @@
 
 
   <export class="TabularExport">
-    <headers>"bsv","type", "length","context before","form","prefLabel","context after","location","features"</headers>
+    <headers>"bsv","type", "length", "header", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
       str:replace(str:basename(section.document.@id), ".html", "");
@@ -26,11 +26,14 @@
       section.@name;
       <!-- length of document  -->
       str:len(section.contents);
-      <!-- int(section.layer:words) -->
+      <!-- int(section.layer:words); -->
+      <!-- header tag -->
+      str:replace(str:join(nav:outside:html[@tag ^= "H"], @tag), "HTML" , "");
       <!-- context before  -->
       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
       <!-- extracted term  -->
       @form;
+      str:join:' '(inside:words, @lemma);
       @skos-prefLabel;
       <!-- context after  -->
       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
@@ -38,6 +41,7 @@
       start ^ "-" ^ end;
       <!-- features  -->
       str:join:', '(nav:features, @key ^ "=" ^ @value)
+
     </columns>
     <trueCSV/>
   </export>

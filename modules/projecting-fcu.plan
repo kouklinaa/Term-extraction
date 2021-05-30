@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<alvisnlp-plan id="project-fcu">
+<alvisnlp-plan id="projecting-fcu">
 
 
   <!-- parameters -->
@@ -8,21 +8,21 @@
     <alias module="save-baseline" param="outDir"/>
   </param>
 
-  <param name="outDirToMap">
+  <!-- <param name="outDirToMap">
     <alias module="save-tomap" param="outDir"/>
-  </param>
+  </param> -->
 
   <param name="outScoreBaseline">
     <alias module="calculate-bm25-baseline" param="outFile"/>
   </param>
 
-  <param name="outScoreToMap">
+  <!-- <param name="outScoreToMap">
     <alias module="calculate-bm25-tomap" param="outFile"/>
-  </param>
+  </param> -->
 
-  <param name="outFileCompare">
+  <!-- <param name="outFileCompare">
     <alias module="compare-layers" param="outFile"/>
-  </param>
+  </param> -->
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -70,28 +70,28 @@
   -->
 
   <!-- Project terms with ToMap-->
-  <project-tomap href="modules/tomap-classify.plan"/>
+  <!-- <project-tomap href="modules/tomap-classify.plan"/> -->
 
 
   <!-- Remove overlaps -->
-  <overlaps-tomap class="RemoveOverlaps">
+  <!-- <overlaps-tomap class="RemoveOverlaps">
     <layerName>fcu-tomap</layerName>
     <removeEqual/>
     <removeIncluded/>
     <removeOverlapping/>
-  </overlaps-tomap>
+  </overlaps-tomap> -->
 
   <!-- Save results-->
-  <save-tomap href="modules/export.plan">
+  <!-- <save-tomap href="modules/export.plan">
     <corpusFile>fcu-tomap.csv</corpusFile>
     <lines>documents.sections.(layer:fcu-tomap)</lines>
-  </save-tomap>
+  </save-tomap> -->
 
   <!-- Bm25-->
-  <calculate-bm25-tomap href="modules/scores.plan">
+  <!-- <calculate-bm25-tomap href="modules/scores.plan">
     <keywords>sections.layer:fcu-tomap</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
-  </calculate-bm25-tomap>
+  </calculate-bm25-tomap> -->
 
 
 
@@ -103,13 +103,13 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
-  <compare-layers class="CompareElements">
+  <!-- <compare-layers class="CompareElements">
     <sections>documents.sections</sections>
     <reference>layer:fcu</reference>
     <predicted>layer:fcu-tomap</predicted>
     <face>@skos-prefLabel</face>
-    <similarity>strict</similarity>
-  </compare-layers>
+    <similarity>jaccard</similarity>
+  </compare-layers> -->
 
 
 

@@ -1,90 +1,90 @@
-"bsv"	"type"	"length"	"context before"	"form"	"prefLabel"	"context after"	"location"	"features"
-"20190227_BSV_grandes_cultures_Auvergne_N02_cle0189db"	"html"	"5558"	", avec le stade C2 ("	"BBCH31"	""	") majoritaire sur ce"	"905-911"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
-"20190228_BSV_grandes_cultures_Rhone-Alpes_N_02_cle46d5a8"	"html"	"5449"	"ée est au stade D1 ("	"BBCH50"	""	") c'est-à-dire avec"	"949-955"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"20190320_LOR_BSV_Grandes_Cultures_cle83816d"	"html"	"12851"	"boutons accolés(D1-"	"BBCH50"	""	") 1 méligèthe/plante"	"6951-6957"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"20190320_LOR_BSV_Grandes_Cultures_cle83816d"	"html"	"12851"	"e boutons séparés(E-"	"BBCH57"	""	") 2-3 méligèthes/pla"	"7120-7126"	"type=BBCH, canonical-form=BBCH 57, form=BBCH57"
-"20190417_ALS_BSV_Grandes_Cultures_cle8c93cf"	"html"	"10842"	"outons accolés (D1)"	"BBCH50"	""	"1 méligèthe/plante"	"2840-2846"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"20190417_ALS_BSV_Grandes_Cultures_cle8c93cf"	"html"	"10842"	"boutons séparés (E)"	"BBCH 57"	""	"2-3 méligèthes/plan"	"3010-3017"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
-"20190417_CHA_BSV_Grandes_Cultures_cle8333d7"	"html"	"17409"	"boutons accolés (D1-"	"BBCH50"	""	") 1 méligèthe/plante"	"9607-9613"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	"compris entre F2 ="	"BBCH 61"	""	"(allongement de la"	"10702-10709"	"type=BBCH-DD, canonical-form=BBCH 61, form=BBCH 61"
-"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	"s ouvertes) et G4 ="	"BBCH 73"	""	"(Floraison terminée"	"10780-10787"	"type=BBCH-DD, canonical-form=BBCH 73, form=BBCH 73"
-"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	"lédons étalés (A2 ="	"BBCH 10"	""	") et deuxième paire"	"20832-20839"	"type=BBCH-DD, canonical-form=BBCH 10, form=BBCH 10"
-"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	"es étalées (B3 B4 ="	"BBCH 14"	""	"). Les parcelles les"	"20888-20895"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
-"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	"e de la levée (A0 ="	"BBCH 01"	""	") à 4 feuilles (B3/4"	"21340-21347"	"type=BBCH-DD, canonical-form=BBCH 01, form=BBCH 01"
-"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	"4 feuilles (B3/4 ="	"BBCH 14"	""	"). a. Limaces Des dé"	"21370-21377"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
-"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	"4 feuilles (B3-B4 ="	"BBCH 14"	""	") à boutons étoilé ("	"23827-23834"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
-"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	"outons étoilé (E1 ="	"BBCH 51"	""	"). Le seuil indicati"	"23859-23866"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
-"20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2"	"html"	"25116"	"le est au stade G3 ("	"BBCH72"	""	"). Retrouver les dif"	"1916-1922"	"type=BBCH, canonical-form=BBCH 72, form=BBCH72"
-"20190522_LOR_BSV_Grandes_Cultures_cle8b3b61"	"html"	"25125"	"les étalées (B1 B2="	"BBCH 12"	""	") et l'apparition de"	"19982-19989"	"type=BBCH-DD, canonical-form=BBCH 12, form=BBCH 12"
-"20190522_LOR_BSV_Grandes_Cultures_cle8b3b61"	"html"	"25125"	"4 feuilles (B3/4 ="	"BBCH 14"	""	"). a. Limaces Des dé"	"20345-20352"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
-"20190522_LOR_BSV_Grandes_Cultures_cle8b3b61"	"html"	"25125"	"4 feuilles (B3-B4 ="	"BBCH 14"	""	") à boutons étoilé ("	"22383-22390"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
-"20190522_LOR_BSV_Grandes_Cultures_cle8b3b61"	"html"	"25125"	"outons étoilé (E1 ="	"BBCH 51"	""	"). Le seuil indicati"	"22415-22422"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
-"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	"tylédon (stade A ou"	"BBCH 10"	""	") ;- 1 parcelle à 1"	"933-940"	"type=BBCH-DD, canonical-form=BBCH 10, form=BBCH 10"
-"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	"vraie (stade B1 ou"	"BBCH 11"	""	") ;- 3 parcelles à 2"	"987-994"	"type=BBCH-DD, canonical-form=BBCH 11, form=BBCH 11"
-"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	"vraies (stade B2 ou"	"BBCH 12"	""	") ;- 5 parcelles à 3"	"1044-1051"	"type=BBCH-DD, canonical-form=BBCH 12, form=BBCH 12"
-"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	"vraies (stade B3 ou"	"BBCH 13"	""	") ;- 1 parcelle à 4"	"1101-1108"	"type=BBCH-DD, canonical-form=BBCH 13, form=BBCH 13"
-"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	"vraies (stade B4 ou"	"BBCH 14"	""	"). Ravageurs Altises"	"1157-1164"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
-"20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714"	"html"	"9056"	"tylédon (stade A ou"	"BBCH 10"	""	") ; 2 parcelles à 3"	"1057-1064"	"type=BBCH-DD, canonical-form=BBCH 10, form=BBCH 10"
-"20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714"	"html"	"9056"	"vraies (stade B3 ou"	"BBCH 13"	""	") ; 3 parcelles à 6"	"1113-1120"	"type=BBCH-DD, canonical-form=BBCH 13, form=BBCH 13"
-"20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714"	"html"	"9056"	"vraies (stade B6 ou"	"BBCH 16"	""	") ; 1 parcelle à 7 f"	"1169-1176"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
-"20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714"	"html"	"9056"	"vraies (stade B7 ou"	"BBCH 17"	""	"). Ravageurs Altises"	"1224-1231"	"type=BBCH-DD, canonical-form=BBCH 17, form=BBCH 17"
-"20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b"	"html"	"16962"	"6 feuilles vraies ("	"BBCH 16"	""	") et 10 feuilles vra"	"419-426"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
-"20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b"	"html"	"16962"	"16) et 10 feuilles"	"vraies(BBCH 19"	""	") avec une majorité"	"443-457"	"type=BBCH-DD, canonical-form=BBCH 19, form=vraies(BBCH 19"
-"BSV_28-19_cereales_Normandie_R2015_cle8e8112"	"html"	"6478"	"is la codification ("	"BBCH 13, 18 ou 32"	""	") ne nous est pas f"	"3069-3086"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 32, form=BBCH 13, 18 ou 32"
-"BSV_28-19_cereales_Normandie_R2015_cle8e8112"	"html"	"6478"	"is la codification ("	"BBCH 13, 18 ou 32"	""	") ne nous est pas f"	"3069-3086"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 18, form=BBCH 13, 18 ou 32"
-"BSV_28-19_cereales_Normandie_R2015_cle8e8112"	"html"	"6478"	"is la codification ("	"BBCH 13, 18 ou 32"	""	") ne nous est pas f"	"3069-3086"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 13, form=BBCH 13, 18 ou 32"
-"BSV_28-19_cereales_Normandie_R2015_cle8e8112"	"html"	"6478"	"es de stade Echelle"	"BBCH : Stade 15"	""	", maïs à 5 feuilles"	"3819-3834"	"type=BBCH_STADE_DD, canonical-form=BBCH 15, form=BBCH : Stade 15"
-"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	"nœuds visibles (C2"	"BBCH31"	""	") à ""Boutons accolés"	"1278-1284"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
-"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	"les terminales ""(D1"	"BBCH50"	""	"). Charançon de la t"	"1352-1358"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	"es sensibles D1/D2 ("	"BBCH5051"	""	"). Céréales à paille"	"1722-1730"	"type=BBCH, canonical-form=BBCH 5051, form=BBCH5051"
-"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	"nœuds visibles"" (C2"	"BBCH31"	""	"). 38% sont au stade"	"2351-2357"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
-"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	"es terminales "" (D1"	"BBCH50"	""	"). Photo : V. LACORR"	"2443-2449"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	"stade "" épi 1 cm "" ("	"BBCH 30"	""	") devrait être attei"	"6650-6657"	"type=BBCH-DD, canonical-form=BBCH 30, form=BBCH 30"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"e "" caryopse sec "" ("	"BBCH 00"	""	") au stade "" 6 Feuil"	"1343-1350"	"type=BBCH-DD, canonical-form=BBCH 00, form=BBCH 00"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"ade "" 6 Feuilles "" ("	"BBCH 16"	""	"). Corvidés : les co"	"1377-1384"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"de "" Gonflement "" ("	"BBCH 45"	""	") à "" Fin épiaison """	"1724-1731"	"type=BBCH-DD, canonical-form=BBCH 45, form=BBCH 45"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"à "" Fin épiaison "" ("	"BBCH 59"	""	"). Septoriose : pres"	"1753-1760"	"type=BBCH-DD, canonical-form=BBCH 59, form=BBCH 59"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"caryopse sec "" ("	"BBCH 00"	""	"). imbibition graine"	"2871-2878"	"type=BBCH-DD, canonical-form=BBCH 00, form=BBCH 00"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"mbibition graine "" ("	"BBCH 01 - 03"	""	"). levée et feuille"	"2902-2914"	"type=BBCH-DD, canonical-form=BBCH 01 - 03, form=BBCH 01 - 03"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"rt du coléoptile "" ("	"BBCH 09 - 10"	""	"). 1 à 2 Feuilles """	"2956-2968"	"type=BBCH-DD, canonical-form=BBCH 09 - 10, form=BBCH 09 - 10"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	". 1 à 2 Feuilles "" ("	"BBCH 11 - 12"	""	"). 6 Feuilles "" (BBC"	"2989-3001"	"type=BBCH-DD, canonical-form=BBCH 11 - 12, form=BBCH 11 - 12"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"12). 6 Feuilles "" ("	"BBCH 16"	""	"). % de plan"	"3018-3025"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	": D u stade semis ("	"BBCH 00"	""	") au stade 3-4 feuil"	"4659-4666"	"type=BBCH-DD, canonical-form=BBCH 00, form=BBCH 00"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"stade 3-4 feuilles ("	"BBCH 14"	""	"). Symptômes : Trou"	"4691-4698"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"de la germination ("	"BBCH 05"	""	") au stade 8 à 10 fe"	"5750-5757"	"type=BBCH-DD, canonical-form=BBCH 05, form=BBCH 05"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"de 8 à 10 feuilles ("	"BBCH 18"	""	"). Symptômes : Attaq"	"5785-5792"	"type=BBCH-DD, canonical-form=BBCH 18, form=BBCH 18"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"sque : de la levée ("	"BBCH 09"	""	") à 5/6 feuilles (BB"	"6513-6520"	"type=BBCH-DD, canonical-form=BBCH 09, form=BBCH 09"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"09) à 5/6 feuilles ("	"BBCH 16"	""	"). Seuil indicatif d"	"6538-6545"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	": du stade 2 nœuds ("	"BBCH 32"	""	") à fin floraison (B"	"9809-9816"	"type=BBCH-DD, canonical-form=BBCH 32, form=BBCH 32"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"2) à fin floraison ("	"BBCH 69"	""	"). Seuil indicatif d"	"9835-9842"	"type=BBCH-DD, canonical-form=BBCH 69, form=BBCH 69"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"ère feuille étalée ("	"BBCH 39"	""	") :L'observation se"	"9915-9922"	"type=BBCH-DD, canonical-form=BBCH 39, form=BBCH 39"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"stade "" épi 1 cm "" ("	"BBCH 30"	""	") : présence de foye"	"12196-12203"	"type=BBCH-DD, canonical-form=BBCH 30, form=BBCH 30"
-"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	"ir du stade 1 nœud ("	"BBCH 31"	""	") : dès les première"	"12334-12341"	"type=BBCH-DD, canonical-form=BBCH 31, form=BBCH 31"
-"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	"l'inflorescence "" ("	"BBCH55"	""	") à "" floraison "" (B"	"1350-1356"	"type=BBCH, canonical-form=BBCH 55, form=BBCH55"
-"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	"5) à "" floraison "" ("	"BBCH65"	""	"). Cicadelles : les"	"1375-1381"	"type=BBCH, canonical-form=BBCH 65, form=BBCH65"
-"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	"l'inflorescence "" ("	"BBCH 55"	""	") 62 % sont au stade"	"1945-1952"	"type=BBCH-DD, canonical-form=BBCH 55, form=BBCH 55"
-"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	"tade "" floraison "" ("	"BBCH 65"	""	") % de plan"	"1988-1995"	"type=BBCH-DD, canonical-form=BBCH 65, form=BBCH 65"
-"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	"du stade bouton (D1"	"BBCH 50"	""	") à début floraison"	"8842-8849"	"type=BBCH-DD, canonical-form=BBCH 50, form=BBCH 50"
-"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	"début floraison (F1"	"BBCH 60"	""	"). Au-delà de ce sta"	"8873-8880"	"type=BBCH-DD, canonical-form=BBCH 60, form=BBCH 60"
-"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	"tade "" 8 feuilles """	"BBCH 18"	""	"à "" rosette "" BBCH"	"1357-1364"	"type=BBCH-DD, canonical-form=BBCH 18, form=BBCH 18"
-"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	"CH 18 à "" rosette """	"BBCH 19"	""	". Charançon du bourg"	"1379-1386"	"type=BBCH-DD, canonical-form=BBCH 19, form=BBCH 19"
-"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""" début tallage "" ("	"BBCH 21"	""	"). Limaces : vigilan"	"2144-2151"	"type=BBCH-DD, canonical-form=BBCH 21, form=BBCH 21"
-"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""" 8 feuilles "" (B8"	"BBCH 18"	""	"), 86 % sont au stad"	"2716-2723"	"type=BBCH-DD, canonical-form=BBCH 18, form=BBCH 18"
-"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	"ade "" Rosette "" (B9"	"BBCH 19"	""	"). Charançon"	"2761-2768"	"type=BBCH-DD, canonical-form=BBCH 19, form=BBCH 19"
-"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	"rs à "" 1 feuille "" ("	"BBCH 11"	""	"). Des semis ont pu"	"12311-12318"	"type=BBCH-DD, canonical-form=BBCH 11, form=BBCH 11"
-"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	"sque : de la levée ("	"BBCH 09"	""	") à au-delà fin tall"	"14971-14978"	"type=BBCH-DD, canonical-form=BBCH 09, form=BBCH 09"
-"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	"lage si nécessaire ("	"BBCH 29"	""	"et +). Evaluation d"	"15017-15024"	"type=BBCH-DD, canonical-form=BBCH 29, form=BBCH 29"
-"BSV_GC_n_19_du_26_03_19_cle8bda1e"	"html"	"21355"	"boutons accolés (D1"	"BBCH 50"	""	") au stade boutons s"	"2185-2192"	"type=BBCH-DD, canonical-form=BBCH 50, form=BBCH 50"
-"BSV_GC_n_19_du_26_03_19_cle8bda1e"	"html"	"21355"	"boutons séparés (E"	"BBCH 57"	""	"). La stratégie de l"	"2222-2229"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
-"BSV_NA_GC_AQUITAINE_N01_20190207_cle01cb7e"	"html"	"6830"	"jorité le stade C1 ("	"BBCH30"	""	": reprise de végéta"	"2238-2244"	"type=BBCH, canonical-form=BBCH 30, form=BBCH30"
-"BSV_NA_GC_AQUITAINE_N01_20190207_cle01cb7e"	"html"	"6830"	"s sont au stade C2 ("	"BBCH31"	""	": entre-noeuds visi"	"2345-2351"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
-"BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e"	"html"	"13015"	"épassé le stade B3 ("	"BBCH13"	""	": 3 feuilles), avec"	"4558-4564"	"type=BBCH, canonical-form=BBCH 13, form=BBCH13"
-"BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e"	"html"	"13015"	"es s'étalent de B2 ("	"BBCH12"	""	": 2 feuilles) au st"	"4675-4681"	"type=BBCH, canonical-form=BBCH 12, form=BBCH12"
-"BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e"	"html"	"13015"	"lles) au stade B10 ("	"BBCH19"	""	": 10 feuilles). Bul"	"4710-4716"	"type=BBCH, canonical-form=BBCH 19, form=BBCH19"
-"BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e"	"html"	"13015"	"bourgeon terminal ("	"BBCH31"	""	"). Mais la lutte con"	"6765-6771"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
-"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	": 7 à 12 feuilles ("	"BBCH 17 à 19"	""	"). Surveillez l'arri"	"1229-1241"	"type=BBCH_RANGE, number=19, canonical-form=BBCH 19, form=BBCH 17 à 19"
-"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	": 7 à 12 feuilles ("	"BBCH 17 à 19"	""	"). Surveillez l'arri"	"1229-1241"	"type=BBCH_RANGE, number=17, canonical-form=BBCH 17, form=BBCH 17 à 19"
-"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	"quelques situations"	"(en 17).
+"bsv"	"type"	"length"	"header"	"context before"	"form"	"lemma"	"prefLabel"	"context after"	"location"	"features"
+"20190227_BSV_grandes_cultures_Auvergne_N02_cle0189db"	"html"	"5558"	""	", avec le stade C2 ("	"BBCH31"	"BBCH31"	""	") majoritaire sur ce"	"905-911"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
+"20190228_BSV_grandes_cultures_Rhone-Alpes_N_02_cle46d5a8"	"html"	"5449"	""	"ée est au stade D1 ("	"BBCH50"	"BBCH50"	""	") c'est-à-dire avec"	"949-955"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"20190320_LOR_BSV_Grandes_Cultures_cle83816d"	"html"	"12851"	""	"boutons accolés(D1-"	"BBCH50"	"BBCH50"	""	") 1 méligèthe/plante"	"6951-6957"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"20190320_LOR_BSV_Grandes_Cultures_cle83816d"	"html"	"12851"	""	"e boutons séparés(E-"	"BBCH57"	"BBCH57"	""	") 2-3 méligèthes/pla"	"7120-7126"	"type=BBCH, canonical-form=BBCH 57, form=BBCH57"
+"20190417_ALS_BSV_Grandes_Cultures_cle8c93cf"	"html"	"10842"	""	"outons accolés (D1)"	"BBCH50"	"BBCH50"	""	"1 méligèthe/plante"	"2840-2846"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"20190417_ALS_BSV_Grandes_Cultures_cle8c93cf"	"html"	"10842"	""	"boutons séparés (E)"	"BBCH 57"	"BBCH @card@"	""	"2-3 méligèthes/plan"	"3010-3017"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
+"20190417_CHA_BSV_Grandes_Cultures_cle8333d7"	"html"	"17409"	""	"boutons accolés (D1-"	"BBCH50"	"BBCH50"	""	") 1 méligèthe/plante"	"9607-9613"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	""	"compris entre F2 ="	"BBCH 61"	"BBCH @card@"	""	"(allongement de la"	"10702-10709"	"type=BBCH-DD, canonical-form=BBCH 61, form=BBCH 61"
+"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	""	"s ouvertes) et G4 ="	"BBCH 73"	"BBCH @card@"	""	"(Floraison terminée"	"10780-10787"	"type=BBCH-DD, canonical-form=BBCH 73, form=BBCH 73"
+"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	""	"lédons étalés (A2 ="	"BBCH 10"	"BBCH @card@"	""	") et deuxième paire"	"20832-20839"	"type=BBCH-DD, canonical-form=BBCH 10, form=BBCH 10"
+"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	""	"es étalées (B3 B4 ="	"BBCH 14"	"BBCH @card@"	""	"). Les parcelles les"	"20888-20895"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
+"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	""	"e de la levée (A0 ="	"BBCH 01"	"BBCH @card@"	""	") à 4 feuilles (B3/4"	"21340-21347"	"type=BBCH-DD, canonical-form=BBCH 01, form=BBCH 01"
+"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	""	"4 feuilles (B3/4 ="	"BBCH 14"	"BBCH @card@"	""	"). a. Limaces Des dé"	"21370-21377"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
+"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	""	"4 feuilles (B3-B4 ="	"BBCH 14"	"BBCH @card@"	""	") à boutons étoilé ("	"23827-23834"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
+"20190507_LOR_BSV_Grandes_Cultures_cle893371"	"html"	"26483"	""	"outons étoilé (E1 ="	"BBCH 51"	"BBCH @card@"	""	"). Le seuil indicati"	"23859-23866"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
+"20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2"	"html"	"25116"	""	"le est au stade G3 ("	"BBCH72"	"BBCH72"	""	"). Retrouver les dif"	"1916-1922"	"type=BBCH, canonical-form=BBCH 72, form=BBCH72"
+"20190522_LOR_BSV_Grandes_Cultures_cle8b3b61"	"html"	"25125"	""	"les étalées (B1 B2="	"BBCH 12"	"BBCH @card@"	""	") et l'apparition de"	"19982-19989"	"type=BBCH-DD, canonical-form=BBCH 12, form=BBCH 12"
+"20190522_LOR_BSV_Grandes_Cultures_cle8b3b61"	"html"	"25125"	""	"4 feuilles (B3/4 ="	"BBCH 14"	"BBCH @card@"	""	"). a. Limaces Des dé"	"20345-20352"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
+"20190522_LOR_BSV_Grandes_Cultures_cle8b3b61"	"html"	"25125"	""	"4 feuilles (B3-B4 ="	"BBCH 14"	"BBCH @card@"	""	") à boutons étoilé ("	"22383-22390"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
+"20190522_LOR_BSV_Grandes_Cultures_cle8b3b61"	"html"	"25125"	""	"outons étoilé (E1 ="	"BBCH 51"	"BBCH @card@"	""	"). Le seuil indicati"	"22415-22422"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
+"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	""	"tylédon (stade A ou"	"BBCH 10"	"BBCH @card@"	""	") ;- 1 parcelle à 1"	"933-940"	"type=BBCH-DD, canonical-form=BBCH 10, form=BBCH 10"
+"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	""	"vraie (stade B1 ou"	"BBCH 11"	"BBCH @card@"	""	") ;- 3 parcelles à 2"	"987-994"	"type=BBCH-DD, canonical-form=BBCH 11, form=BBCH 11"
+"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	""	"vraies (stade B2 ou"	"BBCH 12"	"BBCH @card@"	""	") ;- 5 parcelles à 3"	"1044-1051"	"type=BBCH-DD, canonical-form=BBCH 12, form=BBCH 12"
+"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	""	"vraies (stade B3 ou"	"BBCH 13"	"BBCH @card@"	""	") ;- 1 parcelle à 4"	"1101-1108"	"type=BBCH-DD, canonical-form=BBCH 13, form=BBCH 13"
+"20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f"	"html"	"8946"	""	"vraies (stade B4 ou"	"BBCH 14"	"BBCH @card@"	""	"). Ravageurs Altises"	"1157-1164"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
+"20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714"	"html"	"9056"	""	"tylédon (stade A ou"	"BBCH 10"	"BBCH @card@"	""	") ; 2 parcelles à 3"	"1057-1064"	"type=BBCH-DD, canonical-form=BBCH 10, form=BBCH 10"
+"20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714"	"html"	"9056"	""	"vraies (stade B3 ou"	"BBCH 13"	"BBCH @card@"	""	") ; 3 parcelles à 6"	"1113-1120"	"type=BBCH-DD, canonical-form=BBCH 13, form=BBCH 13"
+"20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714"	"html"	"9056"	""	"vraies (stade B6 ou"	"BBCH 16"	"BBCH @card@"	""	") ; 1 parcelle à 7 f"	"1169-1176"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
+"20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714"	"html"	"9056"	""	"vraies (stade B7 ou"	"BBCH 17"	"BBCH @card@"	""	"). Ravageurs Altises"	"1224-1231"	"type=BBCH-DD, canonical-form=BBCH 17, form=BBCH 17"
+"20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b"	"html"	"16962"	""	"6 feuilles vraies ("	"BBCH 16"	"BBCH @card@"	""	") et 10 feuilles vra"	"419-426"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
+"20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b"	"html"	"16962"	""	"16) et 10 feuilles"	"vraies(BBCH 19"	"vraies(BBCH @card@"	""	") avec une majorité"	"443-457"	"type=BBCH-DD, canonical-form=BBCH 19, form=vraies(BBCH 19"
+"BSV_28-19_cereales_Normandie_R2015_cle8e8112"	"html"	"6478"	""	"is la codification ("	"BBCH 13, 18 ou 32"	"BBCH @card@ , @card@ ou @card@"	""	") ne nous est pas f"	"3069-3086"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 32, form=BBCH 13, 18 ou 32"
+"BSV_28-19_cereales_Normandie_R2015_cle8e8112"	"html"	"6478"	""	"is la codification ("	"BBCH 13, 18 ou 32"	"BBCH @card@ , @card@ ou @card@"	""	") ne nous est pas f"	"3069-3086"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 18, form=BBCH 13, 18 ou 32"
+"BSV_28-19_cereales_Normandie_R2015_cle8e8112"	"html"	"6478"	""	"is la codification ("	"BBCH 13, 18 ou 32"	"BBCH @card@ , @card@ ou @card@"	""	") ne nous est pas f"	"3069-3086"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 13, form=BBCH 13, 18 ou 32"
+"BSV_28-19_cereales_Normandie_R2015_cle8e8112"	"html"	"6478"	" H2"	"es de stade Echelle"	"BBCH : Stade 15"	"BBCH : stade @card@"	""	", maïs à 5 feuilles"	"3819-3834"	"type=BBCH_STADE_DD, canonical-form=BBCH 15, form=BBCH : Stade 15"
+"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	""	"nœuds visibles (C2"	"BBCH31"	"BBCH31"	""	") à ""Boutons accolés"	"1278-1284"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
+"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	""	"les terminales ""(D1"	"BBCH50"	"BBCH50"	""	"). Charançon de la t"	"1352-1358"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	""	"es sensibles D1/D2 ("	"BBCH5051"	"BBCH5051"	""	"). Céréales à paille"	"1722-1730"	"type=BBCH, canonical-form=BBCH 5051, form=BBCH5051"
+"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	""	"nœuds visibles"" (C2"	"BBCH31"	"BBCH31"	""	"). 38% sont au stade"	"2351-2357"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
+"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	""	"es terminales "" (D1"	"BBCH50"	"BBCH50"	""	"). Photo : V. LACORR"	"2443-2449"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"BSV_GC_NA_Limousin_02_20190305_cle077475"	"html"	"11937"	""	"stade "" épi 1 cm "" ("	"BBCH 30"	"BBCH @card@"	""	") devrait être attei"	"6650-6657"	"type=BBCH-DD, canonical-form=BBCH 30, form=BBCH 30"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"e "" caryopse sec "" ("	"BBCH 00"	"BBCH @card@"	""	") au stade "" 6 Feuil"	"1343-1350"	"type=BBCH-DD, canonical-form=BBCH 00, form=BBCH 00"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"ade "" 6 Feuilles "" ("	"BBCH 16"	"BBCH @card@"	""	"). Corvidés : les co"	"1377-1384"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"de "" Gonflement "" ("	"BBCH 45"	"BBCH @card@"	""	") à "" Fin épiaison """	"1724-1731"	"type=BBCH-DD, canonical-form=BBCH 45, form=BBCH 45"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"à "" Fin épiaison "" ("	"BBCH 59"	"BBCH @card@"	""	"). Septoriose : pres"	"1753-1760"	"type=BBCH-DD, canonical-form=BBCH 59, form=BBCH 59"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"caryopse sec "" ("	"BBCH 00"	"BBCH @card@"	""	"). imbibition graine"	"2871-2878"	"type=BBCH-DD, canonical-form=BBCH 00, form=BBCH 00"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"mbibition graine "" ("	"BBCH 01 - 03"	"BBCH @card@"	""	"). levée et feuille"	"2902-2914"	"type=BBCH-DD, canonical-form=BBCH 01 - 03, form=BBCH 01 - 03"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"rt du coléoptile "" ("	"BBCH 09 - 10"	"BBCH @card@"	""	"). 1 à 2 Feuilles """	"2956-2968"	"type=BBCH-DD, canonical-form=BBCH 09 - 10, form=BBCH 09 - 10"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	". 1 à 2 Feuilles "" ("	"BBCH 11 - 12"	"BBCH @card@"	""	"). 6 Feuilles "" (BBC"	"2989-3001"	"type=BBCH-DD, canonical-form=BBCH 11 - 12, form=BBCH 11 - 12"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"12). 6 Feuilles "" ("	"BBCH 16"	"BBCH @card@"	""	"). % de plan"	"3018-3025"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	": D u stade semis ("	"BBCH 00"	"BBCH @card@"	""	") au stade 3-4 feuil"	"4659-4666"	"type=BBCH-DD, canonical-form=BBCH 00, form=BBCH 00"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"stade 3-4 feuilles ("	"BBCH 14"	"BBCH @card@"	""	"). Symptômes : Trou"	"4691-4698"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"de la germination ("	"BBCH 05"	"BBCH @card@"	""	") au stade 8 à 10 fe"	"5750-5757"	"type=BBCH-DD, canonical-form=BBCH 05, form=BBCH 05"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"de 8 à 10 feuilles ("	"BBCH 18"	"BBCH @card@"	""	"). Symptômes : Attaq"	"5785-5792"	"type=BBCH-DD, canonical-form=BBCH 18, form=BBCH 18"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"sque : de la levée ("	"BBCH 09"	"BBCH @card@"	""	") à 5/6 feuilles (BB"	"6513-6520"	"type=BBCH-DD, canonical-form=BBCH 09, form=BBCH 09"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"09) à 5/6 feuilles ("	"BBCH 16"	"BBCH @card@"	""	"). Seuil indicatif d"	"6538-6545"	"type=BBCH-DD, canonical-form=BBCH 16, form=BBCH 16"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	": du stade 2 nœuds ("	"BBCH 32"	"BBCH @card@"	""	") à fin floraison (B"	"9809-9816"	"type=BBCH-DD, canonical-form=BBCH 32, form=BBCH 32"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"2) à fin floraison ("	"BBCH 69"	"BBCH @card@"	""	"). Seuil indicatif d"	"9835-9842"	"type=BBCH-DD, canonical-form=BBCH 69, form=BBCH 69"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"ère feuille étalée ("	"BBCH 39"	"BBCH @card@"	""	") :L'observation se"	"9915-9922"	"type=BBCH-DD, canonical-form=BBCH 39, form=BBCH 39"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"stade "" épi 1 cm "" ("	"BBCH 30"	"BBCH @card@"	""	") : présence de foye"	"12196-12203"	"type=BBCH-DD, canonical-form=BBCH 30, form=BBCH 30"
+"BSV_GC_NA_Limousin_13_20190521_cle0cb17e"	"html"	"19099"	""	"ir du stade 1 nœud ("	"BBCH 31"	"BBCH @card@"	""	") : dès les première"	"12334-12341"	"type=BBCH-DD, canonical-form=BBCH 31, form=BBCH 31"
+"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	""	"l'inflorescence "" ("	"BBCH55"	"BBCH55"	""	") à "" floraison "" (B"	"1350-1356"	"type=BBCH, canonical-form=BBCH 55, form=BBCH55"
+"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	""	"5) à "" floraison "" ("	"BBCH65"	"BBCH65"	""	"). Cicadelles : les"	"1375-1381"	"type=BBCH, canonical-form=BBCH 65, form=BBCH65"
+"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	""	"l'inflorescence "" ("	"BBCH 55"	"BBCH @card@"	""	") 62 % sont au stade"	"1945-1952"	"type=BBCH-DD, canonical-form=BBCH 55, form=BBCH 55"
+"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	""	"tade "" floraison "" ("	"BBCH 65"	"BBCH @card@"	""	") % de plan"	"1988-1995"	"type=BBCH-DD, canonical-form=BBCH 65, form=BBCH 65"
+"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	""	"du stade bouton (D1"	"BBCH 50"	"BBCH @card@"	""	") à début floraison"	"8842-8849"	"type=BBCH-DD, canonical-form=BBCH 50, form=BBCH 50"
+"BSV_GC_NA_Limousin_17_20190730_cle0fa494"	"html"	"17387"	""	"début floraison (F1"	"BBCH 60"	"BBCH @card@"	""	"). Au-delà de ce sta"	"8873-8880"	"type=BBCH-DD, canonical-form=BBCH 60, form=BBCH 60"
+"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""	"tade "" 8 feuilles """	"BBCH 18"	"BBCH @card@"	""	"à "" rosette "" BBCH"	"1357-1364"	"type=BBCH-DD, canonical-form=BBCH 18, form=BBCH 18"
+"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""	"CH 18 à "" rosette """	"BBCH 19"	"BBCH @card@"	""	". Charançon du bourg"	"1379-1386"	"type=BBCH-DD, canonical-form=BBCH 19, form=BBCH 19"
+"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""	""" début tallage "" ("	"BBCH 21"	"BBCH @card@"	""	"). Limaces : vigilan"	"2144-2151"	"type=BBCH-DD, canonical-form=BBCH 21, form=BBCH 21"
+"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""	""" 8 feuilles "" (B8"	"BBCH 18"	"BBCH @card@"	""	"), 86 % sont au stad"	"2716-2723"	"type=BBCH-DD, canonical-form=BBCH 18, form=BBCH 18"
+"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""	"ade "" Rosette "" (B9"	"BBCH 19"	"BBCH @card@"	""	"). Charançon"	"2761-2768"	"type=BBCH-DD, canonical-form=BBCH 19, form=BBCH 19"
+"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""	"rs à "" 1 feuille "" ("	"BBCH 11"	"BBCH @card@"	""	"). Des semis ont pu"	"12311-12318"	"type=BBCH-DD, canonical-form=BBCH 11, form=BBCH 11"
+"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""	"sque : de la levée ("	"BBCH 09"	"BBCH @card@"	""	") à au-delà fin tall"	"14971-14978"	"type=BBCH-DD, canonical-form=BBCH 09, form=BBCH 09"
+"BSV_GC_NA_Limousin_31_20191126_cle074695"	"html"	"17196"	""	"lage si nécessaire ("	"BBCH 29"	"BBCH @card@"	""	"et +). Evaluation d"	"15017-15024"	"type=BBCH-DD, canonical-form=BBCH 29, form=BBCH 29"
+"BSV_GC_n_19_du_26_03_19_cle8bda1e"	"html"	"21355"	""	"boutons accolés (D1"	"BBCH 50"	"BBCH @card@"	""	") au stade boutons s"	"2185-2192"	"type=BBCH-DD, canonical-form=BBCH 50, form=BBCH 50"
+"BSV_GC_n_19_du_26_03_19_cle8bda1e"	"html"	"21355"	""	"boutons séparés (E"	"BBCH 57"	"BBCH @card@"	""	"). La stratégie de l"	"2222-2229"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
+"BSV_NA_GC_AQUITAINE_N01_20190207_cle01cb7e"	"html"	"6830"	""	"jorité le stade C1 ("	"BBCH30"	"BBCH30"	""	": reprise de végéta"	"2238-2244"	"type=BBCH, canonical-form=BBCH 30, form=BBCH30"
+"BSV_NA_GC_AQUITAINE_N01_20190207_cle01cb7e"	"html"	"6830"	""	"s sont au stade C2 ("	"BBCH31"	"BBCH31"	""	": entre-noeuds visi"	"2345-2351"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
+"BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e"	"html"	"13015"	""	"épassé le stade B3 ("	"BBCH13"	"BBCH13"	""	": 3 feuilles), avec"	"4558-4564"	"type=BBCH, canonical-form=BBCH 13, form=BBCH13"
+"BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e"	"html"	"13015"	""	"es s'étalent de B2 ("	"BBCH12"	"BBCH12"	""	": 2 feuilles) au st"	"4675-4681"	"type=BBCH, canonical-form=BBCH 12, form=BBCH12"
+"BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e"	"html"	"13015"	""	"lles) au stade B10 ("	"BBCH19"	"BBCH19"	""	": 10 feuilles). Bul"	"4710-4716"	"type=BBCH, canonical-form=BBCH 19, form=BBCH19"
+"BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e"	"html"	"13015"	""	"bourgeon terminal ("	"BBCH31"	"BBCH31"	""	"). Mais la lutte con"	"6765-6771"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	""	": 7 à 12 feuilles ("	"BBCH 17 à 19"	"BBCH @card@ à @card@"	""	"). Surveillez l'arri"	"1229-1241"	"type=BBCH_RANGE, number=19, canonical-form=BBCH 19, form=BBCH 17 à 19"
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	""	": 7 à 12 feuilles ("	"BBCH 17 à 19"	"BBCH @card@ à @card@"	""	"). Surveillez l'arri"	"1229-1241"	"type=BBCH_RANGE, number=17, canonical-form=BBCH 17, form=BBCH 17 à 19"
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	""	"quelques situations"	"(en 17).
 Tournesol
  Stade : semis en cours. Limaces : à surveiller. Oiseaux : à surveiller.
 Blés d'hiver
@@ -94,7 +94,7 @@ Orges d'hiver
  Stade : majorité à DFP (37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
 Maïs
  Stade : semis en cours. Limaces : risque faible avec les faibles pluies annoncées.
-Nota : le stade BBCH est entre parenthèses"	""	". Nombre de parcelle"	"1546-2461"	"type=BBCH_in_context200, canonical-form=BBCH 17, form=(en 17).
+Nota : le stade BBCH est entre parenthèses"	"( en @card@ ) . tournesol stade : semis en cours|cour . limace : à surveiller . oiseau : à surveiller . blé d'hiver stade : s'étalent de @card@ nœud ( @card@ ) à DFP ( @card@ ) . piétin verse : hors période de gestion pour tout le blé . Septoriose : en progression , risquer faible à modéré selon le situation . rouille et oïdium : encore présent , à surveiller sur le variété sensible . puceron : signaler sur feuille mais hors période de risque . Orges d'hiver stade : majorité à DFP ( @card@ ) . Rhynchosporiose , helmintosporiose : présence modéré , à surveiller notamment en situation sans protection . rouille nain et oïdium : présent sur variété sensible . puceron : signaler sur feuille mais hors période de risque . Septoriose de l'orge : merci de nous faire remonter votre observation en cas de détection . maïs stade : semis en cours|cour . limace : risquer faible avec le faible pluie annoncer . nota : le stade BBCH être entre parenthèse"	""	". Nombre de parcelle"	"1546-2461"	"type=BBCH_in_context200, canonical-form=BBCH 17, form=(en 17).
 Tournesol
  Stade : semis en cours. Limaces : à surveiller. Oiseaux : à surveiller.
 Blés d'hiver
@@ -105,28 +105,28 @@ Orges d'hiver
 Maïs
  Stade : semis en cours. Limaces : risque faible avec les faibles pluies annoncées.
 Nota : le stade BBCH est entre parenthèses"
-"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	"'étalent de 2 nœuds"	"(32) à DFP (37).Piétin verse : hors période de gestion pour tous les blés.Septoriose : en progression, risque faible à modéré selon les situations.Rouilles et oïdium : encore présents, à surveiller sur les variétés sensibles. Pucerons : signalés sur feuilles mais hors période de risque.
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	""	"'étalent de 2 nœuds"	"(32) à DFP (37).Piétin verse : hors période de gestion pour tous les blés.Septoriose : en progression, risque faible à modéré selon les situations.Rouilles et oïdium : encore présents, à surveiller sur les variétés sensibles. Pucerons : signalés sur feuilles mais hors période de risque.
 Orges d'hiver
  Stade : majorité à DFP (37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
 Maïs
  Stade : semis en cours. Limaces : risque faible avec les faibles pluies annoncées.
-Nota : le stade BBCH est entre parenthèses"	""	". Nombre de parcelle"	"1681-2461"	"type=BBCH_in_context150, canonical-form=BBCH 32, form=(32) à DFP (37).Piétin verse : hors période de gestion pour tous les blés.Septoriose : en progression, risque faible à modéré selon les situations.Rouilles et oïdium : encore présents, à surveiller sur les variétés sensibles. Pucerons : signalés sur feuilles mais hors période de risque.
+Nota : le stade BBCH est entre parenthèses"	"( @card@ ) à DFP ( @card@ ) . piétin verse : hors période de gestion pour tout le blé . Septoriose : en progression , risquer faible à modéré selon le situation . rouille et oïdium : encore présent , à surveiller sur le variété sensible . puceron : signaler sur feuille mais hors période de risque . Orges d'hiver stade : majorité à DFP ( @card@ ) . Rhynchosporiose , helmintosporiose : présence modéré , à surveiller notamment en situation sans protection . rouille nain et oïdium : présent sur variété sensible . puceron : signaler sur feuille mais hors période de risque . Septoriose de l'orge : merci de nous faire remonter votre observation en cas de détection . maïs stade : semis en cours|cour . limace : risquer faible avec le faible pluie annoncer . nota : le stade BBCH être entre parenthèse"	""	". Nombre de parcelle"	"1681-2461"	"type=BBCH_in_context150, canonical-form=BBCH 32, form=(32) à DFP (37).Piétin verse : hors période de gestion pour tous les blés.Septoriose : en progression, risque faible à modéré selon les situations.Rouilles et oïdium : encore présents, à surveiller sur les variétés sensibles. Pucerons : signalés sur feuilles mais hors période de risque.
 Orges d'hiver
  Stade : majorité à DFP (37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
 Maïs
  Stade : semis en cours. Limaces : risque faible avec les faibles pluies annoncées.
 Nota : le stade BBCH est entre parenthèses"
-"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	"de : majorité à DFP"	"(37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	""	"de : majorité à DFP"	"(37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
 Maïs
  Stade : semis en cours. Limaces : risque faible avec les faibles pluies annoncées.
-Nota : le stade BBCH est entre parenthèses"	""	". Nombre de parcelle"	"2007-2461"	"type=BBCH_in_context100, canonical-form=BBCH 37, form=(37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
+Nota : le stade BBCH est entre parenthèses"	"( @card@ ) . Rhynchosporiose , helmintosporiose : présence modéré , à surveiller notamment en situation sans protection . rouille nain et oïdium : présent sur variété sensible . puceron : signaler sur feuille mais hors période de risque . Septoriose de l'orge : merci de nous faire remonter votre observation en cas de détection . maïs stade : semis en cours|cour . limace : risquer faible avec le faible pluie annoncer . nota : le stade BBCH être entre parenthèse"	""	". Nombre de parcelle"	"2007-2461"	"type=BBCH_in_context100, canonical-form=BBCH 37, form=(37). Rhynchosporiose, helmintosporiose : présence modérée, à surveiller notamment en situation sans protection. Rouille naine et oïdium : présentes sur variété sensible. Pucerons : signalés sur feuilles mais hors période de risque. Septoriose de l'orge : merci de nous faire remonter vos observations en cas de détection.
 Maïs
  Stade : semis en cours. Limaces : risque faible avec les faibles pluies annoncées.
 Nota : le stade BBCH est entre parenthèses"
-"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	"sé dès le stade F1 ("	"BBCH 60"	""	"). Pour la période d"	"6130-6137"	"type=BBCH-DD, canonical-form=BBCH 60, form=BBCH 60"
-"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	"chute des pétales ("	"BBCH 70"	""	") jusqu'à la fin de"	"6804-6811"	"type=BBCH-DD, canonical-form=BBCH 70, form=BBCH 70"
-"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	"jusqu'au stade G4 ("	"BBCH 73"	""	"). Seuil indicatif d"	"9705-9712"	"type=BBCH-DD, canonical-form=BBCH 73, form=BBCH 73"
-"BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b"	"html"	"15148"	"té à 10 12 feuilles"	"(19).
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	""	"sé dès le stade F1 ("	"BBCH 60"	"BBCH @card@"	""	"). Pour la période d"	"6130-6137"	"type=BBCH-DD, canonical-form=BBCH 60, form=BBCH 60"
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	""	"chute des pétales ("	"BBCH 70"	"BBCH @card@"	""	") jusqu'à la fin de"	"6804-6811"	"type=BBCH-DD, canonical-form=BBCH 70, form=BBCH 70"
+"BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad"	"html"	"33318"	""	"jusqu'au stade G4 ("	"BBCH 73"	"BBCH @card@"	""	"). Seuil indicatif d"	"9705-9712"	"type=BBCH-DD, canonical-form=BBCH 73, form=BBCH 73"
+"BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b"	"html"	"15148"	""	"té à 10 12 feuilles"	"(19).
 Pyrale : le pic de vol dans les Charentes est en cours en dép. 79 et 86.
 Animateur filières
 Khalid KOUBAÏTI FREDON Poitou-Charentes
@@ -147,7 +147,7 @@ Reproduction intégrale de ce bulletin autorisée. Reproduction partielle autori
 Sésamie : vol variable, stades baladeurs dans le sud Poitou-Charentes.
 Cicadelle verte : faibles attaques.
  Diabrotica : la surveillance est de mise. Cliquez si Vous souhaitez surveiller ce ravageur ?
-Nota : le stade BBCH est entre parenthèses"	""	". Pois protéagineux"	"406-1590"	"type=BBCH_in_context200, canonical-form=BBCH 19, form=(19).
+Nota : le stade BBCH est entre parenthèses"	"( @card@ ) . pyrale : le pic de vol dans le Charentes être en cours|cour en dép . @card@ et @card@ . animateur filière Khalid KOUBAÏTI fredon Poitou - Charentes khalid . koubaiti@fredonpc . fr animateur déléguer céréale à paille et maïs Sandrine REGALDO et Romain TSCHEILLER / ARVALIS s . regaldo@arvalis . fr r . tscheiller@arvalis . fr oléagineux Elodie TOURTON / terre Inovia e . tourton@terresinovia . fr Protéagineux Agathe PENANT / terre Inovia avoir . penant@terresinovia . fr directeur de publication Dominique GRACIET Président de le chambre régional nouveau - Aquitaine boulevard du arcade @card@ limoger cedex @card@ accueil@na . chambagri . fr supervision DRAAF service régional de l'Alimentation nouveau - Aquitaine @card@ rue du pénitent blanc @card@ limoger supervision site de Poitiers reproduction intégral de ce bulletin autoriser . reproduction partiel autoriser avec le mention "" extraire du bulletin de santé du végétal nouveau - Aquitaine grand culture N°X du JJ / messieurs / aa "" Sésamie : vol variable , stade baladeur dans le sud Poitou - Charentes . Cicadelle vert : faible attaque . Diabrotica : le surveillance être de mise . cliquer si vous souhaiter surveiller ce ravageur ? nota : le stade BBCH être entre parenthèse"	""	". Pois protéagineux"	"406-1590"	"type=BBCH_in_context200, canonical-form=BBCH 19, form=(19).
 Pyrale : le pic de vol dans les Charentes est en cours en dép. 79 et 86.
 Animateur filières
 Khalid KOUBAÏTI FREDON Poitou-Charentes
@@ -169,58 +169,58 @@ Sésamie : vol variable, stades baladeurs dans le sud Poitou-Charentes.
 Cicadelle verte : faibles attaques.
  Diabrotica : la surveillance est de mise. Cliquez si Vous souhaitez surveiller ce ravageur ?
 Nota : le stade BBCH est entre parenthèses"
-"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	"D2 majoritairement ("	"BBCH 53"	""	"). Méligèthes : prés"	"1209-1216"	"type=BBCH-DD, canonical-form=BBCH 53, form=BBCH 53"
-"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	"tade : fin-tallage ("	"BBCH 29"	""	"), épi 1 cm (BBCH 30"	"1389-1396"	"type=BBCH-DD, canonical-form=BBCH 29, form=BBCH 29"
-"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	"BBCH 29), épi 1 cm ("	"BBCH 30"	""	") pour les plus avan"	"1409-1416"	"type=BBCH-DD, canonical-form=BBCH 30, form=BBCH 30"
-"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	"tenant au stade D2 ("	"BBCH 53"	""	") et 76% des parcell"	"1943-1950"	"type=BBCH-DD, canonical-form=BBCH 53, form=BBCH 53"
-"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	"tteint le stade D1 ("	"BBCH 51"	""	"). Etonnamment en ce"	"2007-2014"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
-"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	"stades : Stade D1 ("	"BBCH 51"	""	") : "" Boutons accolé"	"2441-2448"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
-"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	"inales "". Stade D2 ("	"BBCH 53"	""	") : "" Inflorescence"	"2525-2532"	"type=BBCH-DD, canonical-form=BBCH 53, form=BBCH 53"
-"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	"visible "". Stade E ("	"BBCH 57"	""	") : "" Boutons séparé"	"2619-2626"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
-"alsace_gdes_cultures_no3_du_13-03-19_cle4272b9"	"html"	"8604"	"outons accolés (D1)"	"BBCH50"	""	"colza handicapé, pe"	"3647-3653"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"alsace_gdes_cultures_no3_du_13-03-19_cle4272b9"	"html"	"8604"	"boutons séparés (E)"	"BBCH 57"	""	"2-3 méligèthes/plan"	"3993-4000"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
-"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	"s sont au stade B4 ("	"BBCH14"	""	": 4 feuilles), B5 ("	"3341-3347"	"type=BBCH, canonical-form=BBCH 14, form=BBCH14"
-"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	": 4 feuilles), B5 ("	"BBCH15"	""	"),B6 (BBCH16), B9 (B"	"3367-3373"	"type=BBCH, canonical-form=BBCH 15, form=BBCH15"
-"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	"s), B5 (BBCH15),B6 ("	"BBCH16"	""	"), B9 (BBCH19). La m"	"3379-3385"	"type=BBCH, canonical-form=BBCH 16, form=BBCH16"
-"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	"5),B6 (BBCH16), B9 ("	"BBCH19"	""	"). La majorité des p"	"3392-3398"	"type=BBCH, canonical-form=BBCH 19, form=BBCH19"
-"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	"s sont au stade B3 ("	"BBCH13"	""	": 3 feuilles). Enfi"	"3445-3451"	"type=BBCH, canonical-form=BBCH 13, form=BBCH13"
-"bsv_gc_mp_n02_03102019_cle0d83ff"	"html"	"9729"	"rd'hui au stade B3 ("	"BBCH13"	""	": 3 feuilles) mais"	"2643-2649"	"type=BBCH, canonical-form=BBCH 13, form=BBCH13"
-"bsv_gc_mp_n02_03102019_cle0d83ff"	"html"	"9729"	"étalent donc de B9 ("	"BBCH19"	""	": 9 feuilles) au st"	"2763-2769"	"type=BBCH, canonical-form=BBCH 19, form=BBCH19"
-"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	"s sont au stade G1 ("	"BBCH65"	""	": chute des premier"	"4500-4506"	"type=BBCH, canonical-form=BBCH 65, form=BBCH65"
-"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	"ers pétales) et F2 ("	"BBCH61"	""	": nombreuses fleurs"	"4544-4550"	"type=BBCH, canonical-form=BBCH 61, form=BBCH61"
-"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	"% sont au stade F1 ("	"BBCH60"	""	": premières fleurs"	"4604-4610"	"type=BBCH, canonical-form=BBCH 60, form=BBCH60"
-"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	"ujours au stade D1 ("	"BBCH50"	""	": boutons accolés e"	"4748-4754"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	"sque : du stade D1 ("	"BBCH50"	""	"boutons floraux acc"	"6250-6256"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
-"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	"ccolés) au stade E ("	"BBCH57"	""	"boutons séparés). S"	"6294-6300"	"type=BBCH, canonical-form=BBCH 57, form=BBCH57"
-"bsv_gc_mp_n27_16052019_cle046a11"	"html"	"35430"	"rivent au stade G5 ("	"BBCH81"	""	": grains colorés)."	"19636-19642"	"type=BBCH, canonical-form=BBCH 81, form=BBCH81"
-"bsv_gc_mp_n27_16052019_cle046a11"	"html"	"35430"	"es début floraison ("	"BBCH60"	""	") et "" jeunes gousse"	"28357-28363"	"type=BBCH, canonical-form=BBCH 60, form=BBCH60"
-"bsv_grandes_cultures_n10_22112018_cle815c16"	"html"	"15302"	"passé le stade B10 ("	"BBCH19"	""	") et celles plus tar"	"2047-2053"	"type=BBCH, canonical-form=BBCH 19, form=BBCH19"
-"bsv_grandes_cultures_n10_22112018_cle815c16"	"html"	"15302"	"s sont au stade B4 ("	"BBCH14"	""	"). Action pilotée pa"	"2097-2103"	"type=BBCH, canonical-form=BBCH 14, form=BBCH14"
-"bsv_grandes_cultures_n10_22112018_cle815c16"	"html"	"15302"	"bourgeon terminal ("	"BBCH31"	""	"). Mais la lutte con"	"3351-3357"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"is "" à "" floraison """	"(BBCH 00"	""	"à BBCH 61) Coteaux"	"7443-7451"	"type=BBCH-DD, canonical-form=BBCH 00, form=(BBCH 00"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"oraison ""(BBCH 00 à"	"BBCH 61"	""	") Coteaux du Béarn G"	"7454-7461"	"type=BBCH-DD, canonical-form=BBCH 61, form=BBCH 61"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"s "" à "" 8 feuilles """	"(BBCH 00"	""	"à BBCH 18) 1 500 ha"	"7551-7559"	"type=BBCH-DD, canonical-form=BBCH 00, form=(BBCH 00"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"euilles ""(BBCH 00 à"	"BBCH 18"	""	") 1 500 ha 1 520 ha"	"7562-7569"	"type=BBCH-DD, canonical-form=BBCH 18, form=BBCH 18"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"à "" fin floraison """	"(BBCH 00"	""	"à BBCH 69) Cette se"	"7626-7634"	"type=BBCH-DD, canonical-form=BBCH 00, form=(BBCH 00"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"oraison ""(BBCH 00 à"	"BBCH 69"	""	") Cette semaine, 11"	"7637-7644"	"type=BBCH-DD, canonical-form=BBCH 69, form=BBCH 69"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"tade "" floraison "" ("	"BBCH 61"	""	") sont particulièrem"	"12312-12319"	"type=BBCH-DD, canonical-form=BBCH 61, form=BBCH 61"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"euilles trifoliées """	"(BBCH 12"	""	"), c'est-à-dire dura"	"15219-15227"	"type=BBCH-DD, canonical-form=BBCH 12, form=(BBCH 12"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"tade "" floraison "" ("	"BBCH 61"	""	"). Bulletin de Santé"	"16547-16554"	"type=BBCH-DD, canonical-form=BBCH 61, form=BBCH 61"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"e "" 3 7 feuilles "" ("	"BBCH 13-17"	""	") à "" fruits verts """	"17909-17919"	"type=BBCH-DD, canonical-form=BBCH 13-17, form=BBCH 13-17"
-"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	"à "" fruits verts "" ("	"BBCH 71"	""	"). Bulletin de Santé"	"17941-17948"	"type=BBCH-DD, canonical-form=BBCH 71, form=BBCH 71"
-"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	"derniers bouquets ("	"BBCH 89"	""	") Février"	"1234-1241"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	"derniers bouquets ("	"BBCH 89"	""	") Mars"	"1311-1318"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	"1 R14 ("	"BBCH 89"	""	") Avril"	"1374-1381"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	"1 R11 ("	"BBCH 89"	""	") Synthèse de pr"	"1426-1433"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	"olte > 2e couronne ("	"BBCH 89"	""	") Avril"	"19926-19933"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	"olte > 2e couronne ("	"BBCH 89"	""	") Synthèse de pr"	"20003-20010"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	"derniers bouquets ("	"BBCH 89"	""	") Février"	"1339-1346"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	"derniers bouquets ("	"BBCH 89"	""	") Mars"	"1416-1423"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	"R15 fin de culture ("	"BBCH 89"	""	") Avril"	"1494-1501"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	"1 R13 ("	"BBCH 89"	""	") Synthèse de pr"	"1546-1553"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	"olte > 2e couronne ("	"BBCH 89"	""	") Avril"	"18317-18324"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	"olte > 2e couronne ("	"BBCH 89"	""	") Synthèse de pr"	"18387-18394"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7"	"html"	"13520"	"(HS)"	"Stade BBCH
+"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	""	"D2 majoritairement ("	"BBCH 53"	"BBCH @card@"	""	"). Méligèthes : prés"	"1209-1216"	"type=BBCH-DD, canonical-form=BBCH 53, form=BBCH 53"
+"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	""	"tade : fin-tallage ("	"BBCH 29"	"BBCH @card@"	""	"), épi 1 cm (BBCH 30"	"1389-1396"	"type=BBCH-DD, canonical-form=BBCH 29, form=BBCH 29"
+"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	""	"BBCH 29), épi 1 cm ("	"BBCH 30"	"BBCH @card@"	""	") pour les plus avan"	"1409-1416"	"type=BBCH-DD, canonical-form=BBCH 30, form=BBCH 30"
+"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	""	"tenant au stade D2 ("	"BBCH 53"	"BBCH @card@"	""	") et 76% des parcell"	"1943-1950"	"type=BBCH-DD, canonical-form=BBCH 53, form=BBCH 53"
+"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	""	"tteint le stade D1 ("	"BBCH 51"	"BBCH @card@"	""	"). Etonnamment en ce"	"2007-2014"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
+"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	""	"stades : Stade D1 ("	"BBCH 51"	"BBCH @card@"	""	") : "" Boutons accolé"	"2441-2448"	"type=BBCH-DD, canonical-form=BBCH 51, form=BBCH 51"
+"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	""	"inales "". Stade D2 ("	"BBCH 53"	"BBCH @card@"	""	") : "" Inflorescence"	"2525-2532"	"type=BBCH-DD, canonical-form=BBCH 53, form=BBCH 53"
+"BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15"	"html"	"15207"	""	"visible "". Stade E ("	"BBCH 57"	"BBCH @card@"	""	") : "" Boutons séparé"	"2619-2626"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
+"alsace_gdes_cultures_no3_du_13-03-19_cle4272b9"	"html"	"8604"	""	"outons accolés (D1)"	"BBCH50"	"BBCH50"	""	"colza handicapé, pe"	"3647-3653"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"alsace_gdes_cultures_no3_du_13-03-19_cle4272b9"	"html"	"8604"	" H4"	"boutons séparés (E)"	"BBCH 57"	"BBCH @card@"	""	"2-3 méligèthes/plan"	"3993-4000"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
+"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	""	"s sont au stade B4 ("	"BBCH14"	"BBCH14"	""	": 4 feuilles), B5 ("	"3341-3347"	"type=BBCH, canonical-form=BBCH 14, form=BBCH14"
+"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	""	": 4 feuilles), B5 ("	"BBCH15"	"BBCH15"	""	"),B6 (BBCH16), B9 (B"	"3367-3373"	"type=BBCH, canonical-form=BBCH 15, form=BBCH15"
+"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	""	"s), B5 (BBCH15),B6 ("	"BBCH16"	"BBCH16"	""	"), B9 (BBCH19). La m"	"3379-3385"	"type=BBCH, canonical-form=BBCH 16, form=BBCH16"
+"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	""	"5),B6 (BBCH16), B9 ("	"BBCH19"	"BBCH19"	""	"). La majorité des p"	"3392-3398"	"type=BBCH, canonical-form=BBCH 19, form=BBCH19"
+"bsv_gc_mp_n01_25092019_cle039d59"	"html"	"10163"	""	"s sont au stade B3 ("	"BBCH13"	"BBCH13"	""	": 3 feuilles). Enfi"	"3445-3451"	"type=BBCH, canonical-form=BBCH 13, form=BBCH13"
+"bsv_gc_mp_n02_03102019_cle0d83ff"	"html"	"9729"	""	"rd'hui au stade B3 ("	"BBCH13"	"BBCH13"	""	": 3 feuilles) mais"	"2643-2649"	"type=BBCH, canonical-form=BBCH 13, form=BBCH13"
+"bsv_gc_mp_n02_03102019_cle0d83ff"	"html"	"9729"	""	"étalent donc de B9 ("	"BBCH19"	"BBCH19"	""	": 9 feuilles) au st"	"2763-2769"	"type=BBCH, canonical-form=BBCH 19, form=BBCH19"
+"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	""	"s sont au stade G1 ("	"BBCH65"	"BBCH65"	""	": chute des premier"	"4500-4506"	"type=BBCH, canonical-form=BBCH 65, form=BBCH65"
+"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	""	"ers pétales) et F2 ("	"BBCH61"	"BBCH61"	""	": nombreuses fleurs"	"4544-4550"	"type=BBCH, canonical-form=BBCH 61, form=BBCH61"
+"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	""	"% sont au stade F1 ("	"BBCH60"	"BBCH60"	""	": premières fleurs"	"4604-4610"	"type=BBCH, canonical-form=BBCH 60, form=BBCH60"
+"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	""	"ujours au stade D1 ("	"BBCH50"	"BBCH50"	""	": boutons accolés e"	"4748-4754"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	""	"sque : du stade D1 ("	"BBCH50"	"BBCH50"	""	"boutons floraux acc"	"6250-6256"	"type=BBCH, canonical-form=BBCH 50, form=BBCH50"
+"bsv_gc_mp_n19_21032019_cle0c7f7d"	"html"	"25467"	""	"ccolés) au stade E ("	"BBCH57"	"BBCH57"	""	"boutons séparés). S"	"6294-6300"	"type=BBCH, canonical-form=BBCH 57, form=BBCH57"
+"bsv_gc_mp_n27_16052019_cle046a11"	"html"	"35430"	""	"rivent au stade G5 ("	"BBCH81"	"BBCH81"	""	": grains colorés)."	"19636-19642"	"type=BBCH, canonical-form=BBCH 81, form=BBCH81"
+"bsv_gc_mp_n27_16052019_cle046a11"	"html"	"35430"	""	"es début floraison ("	"BBCH60"	"BBCH60"	""	") et "" jeunes gousse"	"28357-28363"	"type=BBCH, canonical-form=BBCH 60, form=BBCH60"
+"bsv_grandes_cultures_n10_22112018_cle815c16"	"html"	"15302"	""	"passé le stade B10 ("	"BBCH19"	"BBCH19"	""	") et celles plus tar"	"2047-2053"	"type=BBCH, canonical-form=BBCH 19, form=BBCH19"
+"bsv_grandes_cultures_n10_22112018_cle815c16"	"html"	"15302"	""	"s sont au stade B4 ("	"BBCH14"	"BBCH14"	""	"). Action pilotée pa"	"2097-2103"	"type=BBCH, canonical-form=BBCH 14, form=BBCH14"
+"bsv_grandes_cultures_n10_22112018_cle815c16"	"html"	"15302"	""	"bourgeon terminal ("	"BBCH31"	"BBCH31"	""	"). Mais la lutte con"	"3351-3357"	"type=BBCH, canonical-form=BBCH 31, form=BBCH31"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	" H4"	"is "" à "" floraison """	"(BBCH 00"	"(BBCH @card@"	""	"à BBCH 61) Coteaux"	"7443-7451"	"type=BBCH-DD, canonical-form=BBCH 00, form=(BBCH 00"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	" H4"	"oraison ""(BBCH 00 à"	"BBCH 61"	"BBCH @card@"	""	") Coteaux du Béarn G"	"7454-7461"	"type=BBCH-DD, canonical-form=BBCH 61, form=BBCH 61"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	" H4"	"s "" à "" 8 feuilles """	"(BBCH 00"	"(BBCH @card@"	""	"à BBCH 18) 1 500 ha"	"7551-7559"	"type=BBCH-DD, canonical-form=BBCH 00, form=(BBCH 00"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	" H4"	"euilles ""(BBCH 00 à"	"BBCH 18"	"BBCH @card@"	""	") 1 500 ha 1 520 ha"	"7562-7569"	"type=BBCH-DD, canonical-form=BBCH 18, form=BBCH 18"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	" H4"	"à "" fin floraison """	"(BBCH 00"	"(BBCH @card@"	""	"à BBCH 69) Cette se"	"7626-7634"	"type=BBCH-DD, canonical-form=BBCH 00, form=(BBCH 00"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	" H4"	"oraison ""(BBCH 00 à"	"BBCH 69"	"BBCH @card@"	""	") Cette semaine, 11"	"7637-7644"	"type=BBCH-DD, canonical-form=BBCH 69, form=BBCH 69"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	""	"tade "" floraison "" ("	"BBCH 61"	"BBCH @card@"	""	") sont particulièrem"	"12312-12319"	"type=BBCH-DD, canonical-form=BBCH 61, form=BBCH 61"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	""	"euilles trifoliées """	"(BBCH 12"	"(BBCH @card@"	""	"), c'est-à-dire dura"	"15219-15227"	"type=BBCH-DD, canonical-form=BBCH 12, form=(BBCH 12"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	""	"tade "" floraison "" ("	"BBCH 61"	"BBCH @card@"	""	"). Bulletin de Santé"	"16547-16554"	"type=BBCH-DD, canonical-form=BBCH 61, form=BBCH 61"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	""	"e "" 3 7 feuilles "" ("	"BBCH 13-17"	"BBCH @card@"	""	") à "" fruits verts """	"17909-17919"	"type=BBCH-DD, canonical-form=BBCH 13-17, form=BBCH 13-17"
+"BSV_NA_LEGUMES_PC__INDUSTRIE_08_20190704_cle039911"	"html"	"23290"	""	"à "" fruits verts "" ("	"BBCH 71"	"BBCH @card@"	""	"). Bulletin de Santé"	"17941-17948"	"type=BBCH-DD, canonical-form=BBCH 71, form=BBCH 71"
+"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	""	"derniers bouquets ("	"BBCH 89"	"BBCH @card@"	""	") Février"	"1234-1241"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	""	"derniers bouquets ("	"BBCH 89"	"BBCH @card@"	""	") Mars"	"1311-1318"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	""	"1 R14 ("	"BBCH 89"	"BBCH @card@"	""	") Avril"	"1374-1381"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	""	"1 R11 ("	"BBCH 89"	"BBCH @card@"	""	") Synthèse de pr"	"1426-1433"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	""	"olte > 2e couronne ("	"BBCH 89"	"BBCH @card@"	""	") Avril"	"19926-19933"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44"	"html"	"33538"	""	"olte > 2e couronne ("	"BBCH 89"	"BBCH @card@"	""	") Synthèse de pr"	"20003-20010"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	""	"derniers bouquets ("	"BBCH 89"	"BBCH @card@"	""	") Février"	"1339-1346"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	""	"derniers bouquets ("	"BBCH 89"	"BBCH @card@"	""	") Mars"	"1416-1423"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	""	"R15 fin de culture ("	"BBCH 89"	"BBCH @card@"	""	") Avril"	"1494-1501"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	""	"1 R13 ("	"BBCH 89"	"BBCH @card@"	""	") Synthèse de pr"	"1546-1553"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	""	"olte > 2e couronne ("	"BBCH 89"	"BBCH @card@"	""	") Avril"	"18317-18324"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no18_du_20_Septembre_2019_cle01c961"	"html"	"35544"	""	"olte > 2e couronne ("	"BBCH 89"	"BBCH @card@"	""	") Synthèse de pr"	"18387-18394"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7"	"html"	"13520"	""	"(HS)"	"Stade BBCH
     Stade physio
   
   
@@ -229,26 +229,7 @@ Nota : le stade BBCH est entre parenthèses"
   
   
     66 - 61
-    F6 F1"	""	"Remarque"	"1055-1131"	"type=BBCH_TABLEAU_PHYSIO, canonical-form=BBCH 66 - 61, form=Stade BBCH
-    Stade physio
-  
-  
-    89
-    R13
-  
-  
-    66 - 61
-    F6 F1"
-"bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7"	"html"	"13520"	"(HS)"	"Stade BBCH
-    Stade physio
-  
-  
-    89
-    R13
-  
-  
-    66 - 61
-    F6 F1"	""	"Remarque"	"1055-1131"	"type=BBCH_TABLEAU_PHYSIO, canonical-form=BBCH 89, form=Stade BBCH
+    F6 F1"	"stade BBCH stade physio @card@ R13 @card@ F6 F1"	""	"Remarque"	"1055-1131"	"type=BBCH_TABLEAU_PHYSIO, canonical-form=BBCH 66 - 61, form=Stade BBCH
     Stade physio
   
   
@@ -258,12 +239,31 @@ Nota : le stade BBCH est entre parenthèses"
   
     66 - 61
     F6 F1"
-"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	"1 R27 ("	"BBCH 89"	""	") Décembre"	"1279-1286"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	"2 R5 ("	"BBCH 89"	""	") Février"	"1333-1340"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	"+ 1AB F8 ("	"BBCH 68"	""	") Mars"	"1404-1411"	"type=BBCH-DD, canonical-form=BBCH 68, form=BBCH 68"
-"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	"1 F4-F5 ("	"BBCH 64-65"	""	") Avril"	"1469-1479"	"type=BBCH-DD, canonical-form=BBCH 64-65, form=BBCH 64-65"
-"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	"1 F2 ("	"BBCH 62"	""	") Synthèse de pr"	"1523-1530"	"type=BBCH-DD, canonical-form=BBCH 62, form=BBCH 62"
-"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	"1"	"Stade BBCH
+"bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7"	"html"	"13520"	""	"(HS)"	"Stade BBCH
+    Stade physio
+  
+  
+    89
+    R13
+  
+  
+    66 - 61
+    F6 F1"	"stade BBCH stade physio @card@ R13 @card@ F6 F1"	""	"Remarque"	"1055-1131"	"type=BBCH_TABLEAU_PHYSIO, canonical-form=BBCH 89, form=Stade BBCH
+    Stade physio
+  
+  
+    89
+    R13
+  
+  
+    66 - 61
+    F6 F1"
+"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	""	"1 R27 ("	"BBCH 89"	"BBCH @card@"	""	") Décembre"	"1279-1286"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	""	"2 R5 ("	"BBCH 89"	"BBCH @card@"	""	") Février"	"1333-1340"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	""	"+ 1AB F8 ("	"BBCH 68"	"BBCH @card@"	""	") Mars"	"1404-1411"	"type=BBCH-DD, canonical-form=BBCH 68, form=BBCH 68"
+"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	""	"1 F4-F5 ("	"BBCH 64-65"	"BBCH @card@"	""	") Avril"	"1469-1479"	"type=BBCH-DD, canonical-form=BBCH 64-65, form=BBCH 64-65"
+"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	""	"1 F2 ("	"BBCH 62"	"BBCH @card@"	""	") Synthèse de pr"	"1523-1530"	"type=BBCH-DD, canonical-form=BBCH 62, form=BBCH 62"
+"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	""	"1"	"Stade BBCH
     Stade physio
   
   
@@ -272,7 +272,7 @@ Nota : le stade BBCH est entre parenthèses"
   
   
     61
-    F1"	""	"Synthèse de pre"	"24082-24149"	"type=BBCH_TABLEAU_PHYSIO, canonical-form=BBCH 61, form=Stade BBCH
+    F1"	"stade BBCH stade physio @card@ R1 @card@ F1"	""	"Synthèse de pre"	"24082-24149"	"type=BBCH_TABLEAU_PHYSIO, canonical-form=BBCH 61, form=Stade BBCH
     Stade physio
   
   
@@ -282,7 +282,7 @@ Nota : le stade BBCH est entre parenthèses"
   
     61
     F1"
-"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	"1"	"Stade BBCH
+"bsv_maraichage_no9_du_03_Mai_2019_cle842127"	"html"	"47578"	""	"1"	"Stade BBCH
     Stade physio
   
   
@@ -291,7 +291,7 @@ Nota : le stade BBCH est entre parenthèses"
   
   
     61
-    F1"	""	"Synthèse de pre"	"24082-24149"	"type=BBCH_TABLEAU_PHYSIO, canonical-form=BBCH 61, form=Stade BBCH
+    F1"	"stade BBCH stade physio @card@ R1 @card@ F1"	""	"Synthèse de pre"	"24082-24149"	"type=BBCH_TABLEAU_PHYSIO, canonical-form=BBCH 61, form=Stade BBCH
     Stade physio
   
   
@@ -301,88 +301,88 @@ Nota : le stade BBCH est entre parenthèses"
   
     61
     F1"
-"BSV-viti-RA-15_09-07-2019_cle01ba24"	"html"	"24808"	"iques compris entre"	"BBCH 75"	""	"(les grappes penden"	"17971-17978"	"type=BBCH-DD, canonical-form=BBCH 75, form=BBCH 75"
-"BSV-viti-RA-15_09-07-2019_cle01ba24"	"html"	"24808"	"se touchent pas) et"	"BBCH 79"	""	"(fermeture de la gr"	"18028-18035"	"type=BBCH-DD, canonical-form=BBCH 79, form=BBCH 79"
-"BSV-viti-RA-16_16-07-2019_cle0bfb92"	"html"	"25133"	"ades phénologiques ("	"BBCH 79"	""	"): fermeture de la g"	"18295-18302"	"type=BBCH-DD, canonical-form=BBCH 79, form=BBCH 79"
-"BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93"	"html"	"15800"	"la fermeture. Stade"	"BBCH :Stade 75"	""	": les baies ont la"	"2815-2829"	"type=BBCH_STADE_DD, canonical-form=BBCH 75, form=BBCH :Stade 75"
-"BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93"	"html"	"15800"	"ille de pois. Stade"	"BBCH :
-Stade 75"	""	": les baies ont la"	"3152-3167"	"type=BBCH_STADE_DD, canonical-form=BBCH 75, form=BBCH :
+"BSV-viti-RA-15_09-07-2019_cle01ba24"	"html"	"24808"	""	"iques compris entre"	"BBCH 75"	"BBCH @card@"	""	"(les grappes penden"	"17971-17978"	"type=BBCH-DD, canonical-form=BBCH 75, form=BBCH 75"
+"BSV-viti-RA-15_09-07-2019_cle01ba24"	"html"	"24808"	""	"se touchent pas) et"	"BBCH 79"	"BBCH @card@"	""	"(fermeture de la gr"	"18028-18035"	"type=BBCH-DD, canonical-form=BBCH 79, form=BBCH 79"
+"BSV-viti-RA-16_16-07-2019_cle0bfb92"	"html"	"25133"	""	"ades phénologiques ("	"BBCH 79"	"BBCH @card@"	""	"): fermeture de la g"	"18295-18302"	"type=BBCH-DD, canonical-form=BBCH 79, form=BBCH 79"
+"BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93"	"html"	"15800"	""	"la fermeture. Stade"	"BBCH :Stade 75"	"BBCH : stade @card@"	""	": les baies ont la"	"2815-2829"	"type=BBCH_STADE_DD, canonical-form=BBCH 75, form=BBCH :Stade 75"
+"BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93"	"html"	"15800"	""	"ille de pois. Stade"	"BBCH :
+Stade 75"	"BBCH : stade @card@"	""	": les baies ont la"	"3152-3167"	"type=BBCH_STADE_DD, canonical-form=BBCH 75, form=BBCH :
 Stade 75"
-"BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d"	"html"	"17222"	"de la grappe. Stade"	"BBCH :Stade 79"	""	": la fermeture de l"	"4350-4364"	"type=BBCH_STADE_DD, canonical-form=BBCH 79, form=BBCH :Stade 79"
-"bsv_raisin_n07_14052019_cle85bd4c"	"html"	"6419"	"lles étalées (stade"	"53 BBCH"	""	") au stade boutons f"	"1309-1316"	"type=STADE_DD_BBCH, canonical-form=BBCH 53, form=53 BBCH"
-"bsv_raisin_n07_14052019_cle85bd4c"	"html"	"6419"	"raux séparés (stade"	"57 BBCH"	""	") sur les variétés p"	"1358-1365"	"type=STADE_DD_BBCH, canonical-form=BBCH 57, form=57 BBCH"
-"bsv_raisin_n07_14052019_cle85bd4c"	"html"	"6419"	"lini (0 à 50) 15 17"	"Stades BBCH (0 à 100)
+"BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d"	"html"	"17222"	""	"de la grappe. Stade"	"BBCH :Stade 79"	"BBCH : stade @card@"	""	": la fermeture de l"	"4350-4364"	"type=BBCH_STADE_DD, canonical-form=BBCH 79, form=BBCH :Stade 79"
+"bsv_raisin_n07_14052019_cle85bd4c"	"html"	"6419"	""	"lles étalées (stade"	"53 BBCH"	"@card@ BBCH"	""	") au stade boutons f"	"1309-1316"	"type=STADE_DD_BBCH, canonical-form=BBCH 53, form=53 BBCH"
+"bsv_raisin_n07_14052019_cle85bd4c"	"html"	"6419"	""	"raux séparés (stade"	"57 BBCH"	"@card@ BBCH"	""	") sur les variétés p"	"1358-1365"	"type=STADE_DD_BBCH, canonical-form=BBCH 57, form=57 BBCH"
+"bsv_raisin_n07_14052019_cle85bd4c"	"html"	"6419"	""	"lini (0 à 50) 15 17"	"Stades BBCH (0 à 100)
 55
-57"	""	"Descriptif des stad"	"1427-1454"	"type=BBCH_TABLEAU, canonical-form=BBCH 57, form=Stades BBCH (0 à 100)
-55
-57"
-"bsv_raisin_n07_14052019_cle85bd4c"	"html"	"6419"	"lini (0 à 50) 15 17"	"Stades BBCH (0 à 100)
-55
-57"	""	"Descriptif des stad"	"1427-1454"	"type=BBCH_TABLEAU, canonical-form=BBCH 55, form=Stades BBCH (0 à 100)
+57"	"stade BBCH ( @card@ à @card@ ) @card@ @card@"	""	"Descriptif des stad"	"1427-1454"	"type=BBCH_TABLEAU, canonical-form=BBCH 57, form=Stades BBCH (0 à 100)
 55
 57"
-"bsv_raisin_n12_18062019_cle8578dc"	"html"	"11763"	"i (0 à 50) 25 27 31"	"Stades BBCH (0 à 100)
+"bsv_raisin_n07_14052019_cle85bd4c"	"html"	"6419"	""	"lini (0 à 50) 15 17"	"Stades BBCH (0 à 100)
+55
+57"	"stade BBCH ( @card@ à @card@ ) @card@ @card@"	""	"Descriptif des stad"	"1427-1454"	"type=BBCH_TABLEAU, canonical-form=BBCH 55, form=Stades BBCH (0 à 100)
+55
+57"
+"bsv_raisin_n12_18062019_cle8578dc"	"html"	"11763"	""	"i (0 à 50) 25 27 31"	"Stades BBCH (0 à 100)
 69
 71
-75"	""	"Descriptif des stad"	"3829-3859"	"type=BBCH_TABLEAU, canonical-form=BBCH 71, form=Stades BBCH (0 à 100)
-69
-71
-75"
-"bsv_raisin_n12_18062019_cle8578dc"	"html"	"11763"	"i (0 à 50) 25 27 31"	"Stades BBCH (0 à 100)
-69
-71
-75"	""	"Descriptif des stad"	"3829-3859"	"type=BBCH_TABLEAU, canonical-form=BBCH 75, form=Stades BBCH (0 à 100)
-69
-71
-75"
-"bsv_raisin_n12_18062019_cle8578dc"	"html"	"11763"	"i (0 à 50) 25 27 31"	"Stades BBCH (0 à 100)
-69
-71
-75"	""	"Descriptif des stad"	"3829-3859"	"type=BBCH_TABLEAU, canonical-form=BBCH 69, form=Stades BBCH (0 à 100)
+75"	"stade BBCH ( @card@ à @card@ ) @card@ @card@ @card@"	""	"Descriptif des stad"	"3829-3859"	"type=BBCH_TABLEAU, canonical-form=BBCH 71, form=Stades BBCH (0 à 100)
 69
 71
 75"
-"bsv_raisin_n15_16072019_cle8c8617"	"html"	"9790"	"i (0 à 50) 31 32 33"	"Stades BBCH (0 à 100)
+"bsv_raisin_n12_18062019_cle8578dc"	"html"	"11763"	""	"i (0 à 50) 25 27 31"	"Stades BBCH (0 à 100)
+69
+71
+75"	"stade BBCH ( @card@ à @card@ ) @card@ @card@ @card@"	""	"Descriptif des stad"	"3829-3859"	"type=BBCH_TABLEAU, canonical-form=BBCH 75, form=Stades BBCH (0 à 100)
+69
+71
+75"
+"bsv_raisin_n12_18062019_cle8578dc"	"html"	"11763"	""	"i (0 à 50) 25 27 31"	"Stades BBCH (0 à 100)
+69
+71
+75"	"stade BBCH ( @card@ à @card@ ) @card@ @card@ @card@"	""	"Descriptif des stad"	"3829-3859"	"type=BBCH_TABLEAU, canonical-form=BBCH 69, form=Stades BBCH (0 à 100)
+69
+71
+75"
+"bsv_raisin_n15_16072019_cle8c8617"	"html"	"9790"	""	"i (0 à 50) 31 32 33"	"Stades BBCH (0 à 100)
 75
 76
-77"	""	"Descriptif des stad"	"1347-1377"	"type=BBCH_TABLEAU, canonical-form=BBCH 76, form=Stades BBCH (0 à 100)
+77"	"stade BBCH ( @card@ à @card@ ) @card@ @card@ @card@"	""	"Descriptif des stad"	"1347-1377"	"type=BBCH_TABLEAU, canonical-form=BBCH 76, form=Stades BBCH (0 à 100)
 75
 76
 77"
-"bsv_raisin_n15_16072019_cle8c8617"	"html"	"9790"	"i (0 à 50) 31 32 33"	"Stades BBCH (0 à 100)
+"bsv_raisin_n15_16072019_cle8c8617"	"html"	"9790"	""	"i (0 à 50) 31 32 33"	"Stades BBCH (0 à 100)
 75
 76
-77"	""	"Descriptif des stad"	"1347-1377"	"type=BBCH_TABLEAU, canonical-form=BBCH 77, form=Stades BBCH (0 à 100)
-75
-76
-77"
-"bsv_raisin_n15_16072019_cle8c8617"	"html"	"9790"	"i (0 à 50) 31 32 33"	"Stades BBCH (0 à 100)
-75
-76
-77"	""	"Descriptif des stad"	"1347-1377"	"type=BBCH_TABLEAU, canonical-form=BBCH 75, form=Stades BBCH (0 à 100)
+77"	"stade BBCH ( @card@ à @card@ ) @card@ @card@ @card@"	""	"Descriptif des stad"	"1347-1377"	"type=BBCH_TABLEAU, canonical-form=BBCH 77, form=Stades BBCH (0 à 100)
 75
 76
 77"
-"bsv_viti_13_27_06_2019_cle07f426"	"html"	"13709"	"ntre fin floraison ("	"BBCH 69"	""	"80% de fleurs ouver"	"840-847"	"type=BBCH-DD, canonical-form=BBCH 69, form=BBCH 69"
-"bsv_viti_13_27_06_2019_cle07f426"	"html"	"13709"	"ne entre les stades"	"BBCH-69 et 73"	""	"(grains de plomb, b"	"1016-1029"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 73, form=BBCH-69 et 73"
-"bsv_viti_13_27_06_2019_cle07f426"	"html"	"13709"	"ne entre les stades"	"BBCH-69 et 73"	""	"(grains de plomb, b"	"1016-1029"	"type=BBCH_DD_KON_DD, canonical-form=BBCH -69, form=BBCH-69 et 73"
-"bsv_viti_13_27_06_2019_cle07f426"	"html"	"13709"	"nt presque au stade"	"BBCH-75"	""	"( petit-pois) mais"	"1168-1175"	"type=BBCH-DD, canonical-form=BBCH -75, form=BBCH-75"
-"bsv_viti_14_04_07_2019-1_cle888dd3"	"html"	"15015"	"emaine prochaine. P"	"Stade 75 BBCH"	""	"Pois : les grains o"	"1479-1492"	"type=STADE_DD_BBCH, canonical-form=BBCH 75, form=Stade 75 BBCH"
-"bsv_viti_17_25_07_2019_cle0a86e1"	"html"	"14880"	"eture de la grappe ("	"BBCH 79"	""	") est acquis sur l'e"	"697-704"	"type=BBCH-DD, canonical-form=BBCH 79, form=BBCH 79"
-"bsv_viti_3_18_04_2019_cle43e1c9"	"html"	"9190"	"-3 feuilles étalées"	"Stade 11 BBCH"	""	"= stade 07 d'après"	"2086-2099"	"type=STADE_DD_BBCH, canonical-form=BBCH 11, form=Stade 11 BBCH"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 03 ou B ou"	"BBCH 05"	""	") dans les secteurs"	"2904-2911"	"type=BBCH-DD, canonical-form=BBCH 05, form=BBCH 05"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 15 ou G ou"	"BBCH 55"	""	") dans les parcelles"	"3023-3030"	"type=BBCH-DD, canonical-form=BBCH 55, form=BBCH 55"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 06 ou D ou"	"BBCH 10"	""	") et "" 2 ou 3 feuill"	"3175-3182"	"type=BBCH-DD, canonical-form=BBCH 10, form=BBCH 10"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 09 ou E ou"	"BBCH 12- 13"	""	"). Pyrénées-Orienta"	"3233-3244"	"type=BBCH-DD, canonical-form=BBCH 12- 13, form=BBCH 12- 13"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 17 ou H ou"	"BBCH 57"	""	"). 4 feuilles étalée"	"3441-3448"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	"talées(stade E-F ou"	"BBCH 14"	""	") BULLETIN DE SANTÉ"	"3483-3490"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 05 ou C ou"	"BBCH 09"	""	") dans la Vallée de"	"4725-4732"	"type=BBCH-DD, canonical-form=BBCH 09, form=BBCH 09"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 09 ou E ou"	"BBCH 12-13"	""	") dans le Minervois,"	"4842-4852"	"type=BBCH-DD, canonical-form=BBCH 12-13, form=BBCH 12-13"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 12 ou F ou"	"BBCH 14-53"	""	") dans le Biterrois."	"5027-5037"	"type=BBCH-DD, canonical-form=BBCH 14-53, form=BBCH 14-53"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""" (stade 6 ou D ou"	"BBCH 10)"	""	") au (stade "" 2 ou 3"	"11501-11509"	"type=BBCH-DD-PAR, canonical-form=BBCH 10 , form=BBCH 10)"
-"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	"""(stade 09 ou E ou"	"BBCH 12-13"	""	")) sont déterminante"	"11566-11576"	"type=BBCH-DD, canonical-form=BBCH 12-13, form=BBCH 12-13"
-"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	""" (stade 33 ou L ou"	"BBCH 77"	""	"). dans les secteurs"	"5306-5313"	"type=BBCH-DD, canonical-form=BBCH 77, form=BBCH 77"
-"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	"ison "" (stade 37 ou"	"BBCH 89"	""	") dans les parcelles"	"5400-5407"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
-"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	"aison ""(stade 35 ou"	"BBCH 81"	""	"). Stade "" mi vérais"	"5522-5529"	"type=BBCH-DD, canonical-form=BBCH 81, form=BBCH 81"
-"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	""" (stade L ou 33 ou"	"BBCH 77"	""	") dans le Nord Montp"	"13771-13778"	"type=BBCH-DD, canonical-form=BBCH 77, form=BBCH 77"
-"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	"ison "" (stade 35 ou"	"BBCH 81"	""	") dans toutes les au"	"13843-13850"	"type=BBCH-DD, canonical-form=BBCH 81, form=BBCH 81"
+"bsv_raisin_n15_16072019_cle8c8617"	"html"	"9790"	""	"i (0 à 50) 31 32 33"	"Stades BBCH (0 à 100)
+75
+76
+77"	"stade BBCH ( @card@ à @card@ ) @card@ @card@ @card@"	""	"Descriptif des stad"	"1347-1377"	"type=BBCH_TABLEAU, canonical-form=BBCH 75, form=Stades BBCH (0 à 100)
+75
+76
+77"
+"bsv_viti_13_27_06_2019_cle07f426"	"html"	"13709"	""	"ntre fin floraison ("	"BBCH 69"	"BBCH @card@"	""	"80% de fleurs ouver"	"840-847"	"type=BBCH-DD, canonical-form=BBCH 69, form=BBCH 69"
+"bsv_viti_13_27_06_2019_cle07f426"	"html"	"13709"	""	"ne entre les stades"	"BBCH-69 et 73"	"BBCH @card@ et @card@"	""	"(grains de plomb, b"	"1016-1029"	"type=BBCH_DD_KON_DD, canonical-form=BBCH 73, form=BBCH-69 et 73"
+"bsv_viti_13_27_06_2019_cle07f426"	"html"	"13709"	""	"ne entre les stades"	"BBCH-69 et 73"	"BBCH @card@ et @card@"	""	"(grains de plomb, b"	"1016-1029"	"type=BBCH_DD_KON_DD, canonical-form=BBCH -69, form=BBCH-69 et 73"
+"bsv_viti_13_27_06_2019_cle07f426"	"html"	"13709"	""	"nt presque au stade"	"BBCH-75"	"BBCH @card@"	""	"( petit-pois) mais"	"1168-1175"	"type=BBCH-DD, canonical-form=BBCH -75, form=BBCH-75"
+"bsv_viti_14_04_07_2019-1_cle888dd3"	"html"	"15015"	""	"emaine prochaine. P"	"Stade 75 BBCH"	"stade @card@ BBCH"	""	"Pois : les grains o"	"1479-1492"	"type=STADE_DD_BBCH, canonical-form=BBCH 75, form=Stade 75 BBCH"
+"bsv_viti_17_25_07_2019_cle0a86e1"	"html"	"14880"	""	"eture de la grappe ("	"BBCH 79"	"BBCH @card@"	""	") est acquis sur l'e"	"697-704"	"type=BBCH-DD, canonical-form=BBCH 79, form=BBCH 79"
+"bsv_viti_3_18_04_2019_cle43e1c9"	"html"	"9190"	""	"-3 feuilles étalées"	"Stade 11 BBCH"	"stade @card@ BBCH"	""	"= stade 07 d'après"	"2086-2099"	"type=STADE_DD_BBCH, canonical-form=BBCH 11, form=Stade 11 BBCH"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 03 ou B ou"	"BBCH 05"	"BBCH @card@"	""	") dans les secteurs"	"2904-2911"	"type=BBCH-DD, canonical-form=BBCH 05, form=BBCH 05"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 15 ou G ou"	"BBCH 55"	"BBCH @card@"	""	") dans les parcelles"	"3023-3030"	"type=BBCH-DD, canonical-form=BBCH 55, form=BBCH 55"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 06 ou D ou"	"BBCH 10"	"BBCH @card@"	""	") et "" 2 ou 3 feuill"	"3175-3182"	"type=BBCH-DD, canonical-form=BBCH 10, form=BBCH 10"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 09 ou E ou"	"BBCH 12- 13"	"BBCH @card@"	""	"). Pyrénées-Orienta"	"3233-3244"	"type=BBCH-DD, canonical-form=BBCH 12- 13, form=BBCH 12- 13"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 17 ou H ou"	"BBCH 57"	"BBCH @card@"	""	"). 4 feuilles étalée"	"3441-3448"	"type=BBCH-DD, canonical-form=BBCH 57, form=BBCH 57"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	"talées(stade E-F ou"	"BBCH 14"	"BBCH @card@"	""	") BULLETIN DE SANTÉ"	"3483-3490"	"type=BBCH-DD, canonical-form=BBCH 14, form=BBCH 14"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 05 ou C ou"	"BBCH 09"	"BBCH @card@"	""	") dans la Vallée de"	"4725-4732"	"type=BBCH-DD, canonical-form=BBCH 09, form=BBCH 09"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 09 ou E ou"	"BBCH 12-13"	"BBCH @card@"	""	") dans le Minervois,"	"4842-4852"	"type=BBCH-DD, canonical-form=BBCH 12-13, form=BBCH 12-13"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 12 ou F ou"	"BBCH 14-53"	"BBCH @card@"	""	") dans le Biterrois."	"5027-5037"	"type=BBCH-DD, canonical-form=BBCH 14-53, form=BBCH 14-53"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	""" (stade 6 ou D ou"	"BBCH 10)"	"BBCH 10)"	""	") au (stade "" 2 ou 3"	"11501-11509"	"type=BBCH-DD-PAR, canonical-form=BBCH 10 , form=BBCH 10)"
+"bsv_viti_lr_n03_16042019_cle82d51a"	"html"	"18234"	""	"""(stade 09 ou E ou"	"BBCH 12-13"	"BBCH @card@"	""	")) sont déterminante"	"11566-11576"	"type=BBCH-DD, canonical-form=BBCH 12-13, form=BBCH 12-13"
+"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	""	""" (stade 33 ou L ou"	"BBCH 77"	"BBCH @card@"	""	"). dans les secteurs"	"5306-5313"	"type=BBCH-DD, canonical-form=BBCH 77, form=BBCH 77"
+"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	""	"ison "" (stade 37 ou"	"BBCH 89"	"BBCH @card@"	""	") dans les parcelles"	"5400-5407"	"type=BBCH-DD, canonical-form=BBCH 89, form=BBCH 89"
+"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	""	"aison ""(stade 35 ou"	"BBCH 81"	"BBCH @card@"	""	"). Stade "" mi vérais"	"5522-5529"	"type=BBCH-DD, canonical-form=BBCH 81, form=BBCH 81"
+"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	""	""" (stade L ou 33 ou"	"BBCH 77"	"BBCH @card@"	""	") dans le Nord Montp"	"13771-13778"	"type=BBCH-DD, canonical-form=BBCH 77, form=BBCH 77"
+"bsv_viti_lr_n17_30072019_cle8cc4c8"	"html"	"25043"	""	"ison "" (stade 35 ou"	"BBCH 81"	"BBCH @card@"	""	") dans toutes les au"	"13843-13850"	"type=BBCH-DD, canonical-form=BBCH 81, form=BBCH 81"
