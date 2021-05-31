@@ -49,10 +49,10 @@
 
   <!-- d2kab -->
   <outDirBaseline>output/d2kab</outDirBaseline>
-  <!-- <outDirToMap>output/d2kab</outDirToMap> -->
-  <!-- <outFileCompare>output/d2kab/compare.txt</outFileCompare> -->
+  <outDirToMap>output/d2kab</outDirToMap>
+  <outFileCompare>output/d2kab/compare.txt</outFileCompare>
   <outScoreBaseline>output/d2kab/bm25-baseline.csv</outScoreBaseline>
-  <!-- <outScoreToMap>output/d2kab/bm25-tomap.csv</outScoreToMap> -->
+  <outScoreToMap>output/d2kab/bm25-tomap.csv</outScoreToMap>
 
 
   <!-- vespa -->
