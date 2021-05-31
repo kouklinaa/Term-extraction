@@ -12,8 +12,6 @@
     <alias module="save-tomap" param="outDir"/>
   </param>
 
-
-
   <param name="outFileCompare">
     <alias module="compare-layers" param="outFile"/>
   </param>
@@ -44,7 +42,7 @@
 
   <!-- Project terms with rdf projector-->
   <project-baseline href="modules/project-lemma.plan">
-    <source>resources/usageCulture20210112.rdf</source>
+    <source>resources/frenchCropUsage_20210525.rdf</source>
     <targetLayerName>fcu-baseline</targetLayerName>
   </project-baseline>
 
