@@ -22,6 +22,12 @@
     <scoreThreshold>-1000</scoreThreshold>
   </scores>
 
+  <scores-titles class="KeywordsSelector">
+    <documentId>str:replace(str:basename(@id), ".html", "")</documentId>
+    <keywordForm>@skos-prefLabel</keywordForm>
+    <scoreThreshold>-1000</scoreThreshold>
+  </scores-titles>
+
 
 
 </alvisnlp-plan>

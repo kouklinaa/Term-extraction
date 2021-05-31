@@ -8,13 +8,13 @@
     <alias module="save-baseline" param="outDir"/>
   </param>
 
-  <!-- <param name="outDirToMap">
-    <alias module="save-tomap" param="outDir"/>
-  </param> -->
-
   <param name="outScoreBaseline">
     <alias module="calculate-bm25-baseline" param="outFile"/>
   </param>
+
+  <!-- <param name="outDirToMap">
+    <alias module="save-tomap" param="outDir"/>
+  </param> -->
 
   <!-- <param name="outScoreToMap">
     <alias module="calculate-bm25-tomap" param="outFile"/>
@@ -48,6 +48,7 @@
     <removeOverlapping/>
   </overlaps-baseline>
 
+
   <!-- Save results-->
   <save-baseline href="modules/export.plan">
     <corpusFile>fcu-baseline.csv</corpusFile>
@@ -59,6 +60,8 @@
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
   </calculate-bm25-baseline>
+
+
 
 
   <!--

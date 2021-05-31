@@ -18,17 +18,17 @@
 
 
   <export class="TabularExport">
-    <headers>"bsv","type", "length", "header", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
+    <headers>"bsv","type", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
       str:replace(str:basename(section.document.@id), ".html", "");
       <!-- type of document  -->
       section.@name;
       <!-- length of document  -->
-      str:len(section.contents);
-      <!-- int(section.layer:words); -->
-      <!-- header tag -->
-      str:replace(str:join(nav:outside:html[@tag ^= "H"], @tag), "HTML" , "");
+      <!-- str:len(section.contents);  -->
+      int(section.layer:words);
+      <!-- html tag -->
+      str:replace(str:join(nav:outside:html[@tag], @tag ^ "."), "HTML. BODY. " , "");
       <!-- context before  -->
       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
       <!-- extracted term  -->
