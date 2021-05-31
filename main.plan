@@ -15,13 +15,13 @@
 <read-html href="modules/read-html.plan">
 
   <!-- d2kab -->
-  <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
+  <!-- <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath> -->
 
   <!-- vespa -->
   <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
 
   <!-- alea -->
-  <!-- <sourcePath>resources/Corpus-v-12-04-21/test/</sourcePath> -->
+  <sourcePath>resources/Corpus-v-12-04-21/test/</sourcePath>
 
 </read-html>
 
@@ -48,11 +48,11 @@
 <project-fcu href="modules/projecting-fcu.plan">
 
   <!-- d2kab -->
-  <outDirBaseline>output/d2kab</outDirBaseline>
+  <!-- <outDirBaseline>output/d2kab</outDirBaseline>
   <outDirToMap>output/d2kab</outDirToMap>
   <outFileCompare>output/d2kab/compare.txt</outFileCompare>
   <outScoreBaseline>output/d2kab/bm25-baseline.csv</outScoreBaseline>
-  <outScoreToMap>output/d2kab/bm25-tomap.csv</outScoreToMap>
+  <outScoreToMap>output/d2kab/bm25-tomap.csv</outScoreToMap> -->
 
 
   <!-- vespa -->
@@ -64,11 +64,11 @@
 
 
   <!-- alea -->
-  <!-- <outDirBaseline>output/alea</outDirBaseline>
+  <outDirBaseline>output/alea</outDirBaseline>
   <outDirToMap>output/alea</outDirToMap>
   <outFileCompare>output/alea/compare.txt</outFileCompare>
   <outScoreBaseline>output/alea/bm25-baseline.csv</outScoreBaseline>
-  <outScoreToMap>output/alea/bm25-tomap.csv</outScoreToMap> -->
+  <outScoreToMap>output/alea/bm25-tomap.csv</outScoreToMap>
 
 </project-fcu>
 
@@ -84,13 +84,13 @@
 <project-stages href="modules/project-stages.plan">
 
   <!-- d2kab -->
-  <outDir>output/d2kab</outDir>
+  <!-- <outDir>output/d2kab</outDir> -->
 
   <!-- vespa -->
   <!-- <outDir>output/vespa</outDir> -->
 
   <!-- alea -->
-  <!-- <outDir>output/alea</outDir> -->
+  <outDir>output/alea</outDir>
 
 </project-stages>
 
@@ -107,13 +107,13 @@
 <find-conj href="modules/find-conj-patterns.plan">
 
   <!-- d2kab -->
-  <outDir>output/d2kab</outDir>
+  <!-- <outDir>output/d2kab</outDir> -->
 
   <!-- vespa -->
   <!-- <outDir>output/vespa</outDir> -->
 
   <!-- alea -->
-  <!-- <outDir>output/alea</outDir> -->
+  <outDir>output/alea</outDir>
 
 </find-conj>
 

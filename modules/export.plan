@@ -21,7 +21,7 @@
     <headers>"bsv","type", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
     <columns separator=";">
       <!-- short document id  -->
-      str:replace(str:basename(section.document.@id), ".html", "");
+      section.document.@id; <!-- str:replace(str:basename(section.document.@id), ".html", ""); -->
       <!-- type of document  -->
       section.@name;
       <!-- length of document  -->
