@@ -75,7 +75,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/05bsv_jevi_20190502_cle8f22b6.html
-    Reference matches (86) :
+    Reference matches (90) :
         [0,0000] jardin
                  FAIL
         [0,0000] rosier
@@ -246,6 +246,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  laurier ornemental
         [0,0000] noisetier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] légume à graines ou à gousses
                  FAIL
 
@@ -309,14 +317,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5833] laurier ornemental
                  laurier
 
-    Recall   : 0.15490057210669253
+    Recall   : 0.14801610223528397
     Precision: 0.4411919820946707
-    F-Score  : 0.22929623916176017
+    F-Score  : 0.22166538193845486
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/119_BSV_Charentes_2015-07-28_cle88a1b6.html
-    Reference matches (13) :
+    Reference matches (14) :
         [0,0000] vigne
+                 FAIL
+        [0,0000] châtaignier
                  FAIL
         [0,0000] arbuste à baies
                  FAIL
@@ -351,12 +361,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/13_HORTI_Als_cle02386b.html
-    Reference matches (11) :
+    Reference matches (12) :
         [0,0000] culture légumière
                  FAIL
         [0,0000] poinsettia
                  FAIL
         [0,0000] géranium
+                 FAIL
+        [0,0000] tournesol
                  FAIL
         [0,0000] poinsettia
                  FAIL
@@ -383,15 +395,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/19bsv_jevi_20181108_cle871314.html
-    Reference matches (26) :
+    Reference matches (31) :
         [0,2593] jardin
                  zone non agricole
         [0,0000] jardin
                  FAIL
-        [0,1556] jardins familiaux
-                 ail
-        [0,0667] ail
-                 ail
+        [0,0000] poirée
+                 FAIL
+        [0,0000] jardins familiaux
+                 FAIL
+        [0,0000] ail
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] jardin
@@ -400,15 +414,21 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  zone non agricole
         [0,3889] jardin
                  zone non agricole
+        [0,0000] poirée
+                 FAIL
         [1,0000] zone non agricole
                  zone non agricole
         [0,0000] jardin
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] jardin
                  FAIL
         [0,0000] zone non agricole
                  FAIL
         [0,0000] jardins familiaux
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] jardins familiaux
                  FAIL
@@ -436,12 +456,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2069] arboriculture fruitière
                  jardin
+        [0,0000] culture fruitière
+                 FAIL
 
-    Predicted matches (9) :
+    Predicted matches (8) :
         [0,2593] zone non agricole
                  jardin
-        [0,1556] ail
-                 jardins familiaux
         [1,0000] zone non agricole
                  zone non agricole
         [0,3889] zone non agricole
@@ -457,13 +477,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2069] jardin
                  arboriculture fruitière
 
-    Recall   : 0.13708768881182673
-    Precision: 0.3886236936045365
-    F-Score  : 0.202679743127826
+    Recall   : 0.10780831248017009
+    Precision: 0.4177572108606591
+    F-Score  : 0.17138757368642424
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/2015-05-28_BSV_Grandes_Cultures_01_cle8ba414.html
-    Reference matches (55) :
+    Reference matches (57) :
         [0,0000] betterave
                  FAIL
         [0,0000] colza
@@ -512,6 +532,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,5882] betterave
                  betterave sucrière
+        [0,0000] semence
+                 FAIL
         [0,0000] betterave
                  FAIL
         [0,0000] colza
@@ -543,6 +565,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] pois protéagineux de printemps
                  pois protéagineux de printemps
         [0,0000] pois
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] légume à graines ou à gousses
                  FAIL
@@ -629,13 +653,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.3042977058592031
+    Recall   : 0.2936205933729153
     Precision: 0.6437066854713913
-    F-Score  : 0.41324379808039935
+    F-Score  : 0.40328611619894394
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/20160718-BSV_30_20_Cereales_Normandie_cle095921.html
-    Reference matches (29) :
+    Reference matches (31) :
         [0,0000] maïs
                  FAIL
         [0,0000] maïs
@@ -659,6 +683,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] maïs
                  FAIL
         [0,0000] maïs
+                 FAIL
+        [0,0000] semence
                  FAIL
         [1,0000] céréale à paille
                  céréale à paille
@@ -673,6 +699,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] céréale à paille
                  céréale à paille
         [0,0000] blé
+                 FAIL
+        [0,0000] oranger
                  FAIL
         [0,0000] blé
                  FAIL
@@ -707,13 +735,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2500] maïs popcorn
                  maïs
 
-    Recall   : 0.08668481548699333
+    Recall   : 0.08109224674589699
     Precision: 0.481719298245614
-    F-Score  : 0.14692978983114446
+    F-Score  : 0.1388162717812865
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/2017_BSV_manche_10_sem21_cle8d2aee.html
-    Reference matches (72) :
+    Reference matches (75) :
         [0,0000] poireau
                  FAIL
         [0,0000] oignon
@@ -858,6 +886,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tomate
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
 
     Predicted matches (9) :
         [0,2800] oignon
@@ -879,9 +913,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] céleri à cotes
                  céleri à cotes
 
-    Recall   : 0.09677083333333333
+    Recall   : 0.0929
     Precision: 0.7741666666666667
-    F-Score  : 0.17203703703703704
+    F-Score  : 0.16589285714285715
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/2017_BSV_manche_33_sem44_cle8f1de5.html
@@ -961,7 +995,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/20190403_LOR_BSV_Grandes_Cultures_cle8ff1e5.html
-    Reference matches (33) :
+    Reference matches (34) :
         [0,0000] céréale
                  FAIL
         [0,0000] céréale
@@ -1001,6 +1035,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] floriculture
                  FAIL
         [0,0000] colza
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] colza
                  FAIL
@@ -1051,9 +1087,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.22727272727272727
+    Recall   : 0.22058823529411764
     Precision: 0.75
-    F-Score  : 0.34883720930232553
+    F-Score  : 0.3409090909090909
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/55_02_note_commune_resistance_fongicides_maladies_cereales_2006_cle86a116.html
@@ -1105,13 +1141,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV-18-17_cle8f1356-1.html
-    Reference matches (6) :
+    Reference matches (8) :
+        [0,0000] gel
+                 FAIL
         [0,0000] arbuste à baies
                  FAIL
         [0,5455] vigne
                  vigne de cuve
         [0,6000] vigne
                  vigne de cuve
+        [0,0000] gel
+                 FAIL
         [0,4000] vigne
                  vigne de cuve
         [0,0000] arbuste à baies
@@ -1127,13 +1167,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,4000] vigne de cuve
                  vigne
 
-    Recall   : 0.25757575757575757
+    Recall   : 0.19318181818181818
     Precision: 0.5151515151515151
-    F-Score  : 0.3434343434343434
+    F-Score  : 0.2809917355371901
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV05_GC_LOR_S13_2020_cle4419d7.html
-    Reference matches (28) :
+    Reference matches (30) :
         [0,2353] orge
                  orge de printemps
         [0,0000] colza
@@ -1150,6 +1190,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  blé tendre d'hiver
         [1,0000] blé tendre d'hiver
                  blé tendre d'hiver
+        [0,0000] gel
+                 FAIL
         [0,0000] blé
                  FAIL
         [1,0000] blé tendre
@@ -1190,6 +1232,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] colza
                  FAIL
+        [0,0000] semence
+                 FAIL
 
     Predicted matches (7) :
         [0,2353] orge de printemps
@@ -1207,13 +1251,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,3333] colza de printemps
                  colza
 
-    Recall   : 0.1830065359477124
+    Recall   : 0.1708061002178649
     Precision: 0.7320261437908496
-    F-Score  : 0.29281045751633983
+    F-Score  : 0.2769828652181593
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV971_BanCas_N04_cle08e5ae.html
-    Reference matches (36) :
+    Reference matches (38) :
         [0,0000] bananier
                  FAIL
         [0,0000] bananier
@@ -1264,6 +1308,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] bananier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] bananier
                  FAIL
         [0,0000] bananier
@@ -1281,6 +1327,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arbuste à baies
                  FAIL
         [0,0000] jardin
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] culture légumière
                  FAIL
@@ -1297,17 +1345,21 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,4615] zone non agricole
                  jardin
 
-    Recall   : 0.05331323768823769
+    Recall   : 0.05050727780990939
     Precision: 0.4798191391941392
-    F-Score  : 0.09596382783882784
+    F-Score  : 0.09139412175126461
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV971_CulturesVivrieres-Bilan2018_cle81e161.html
-    Reference matches (12) :
+    Reference matches (14) :
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] culture légumière
                  FAIL
         [0,5000] pomme de terre potagère
                  patate douce
+        [0,0000] tournesol
+                 FAIL
         [0,5000] pomme de terre potagère
                  patate douce
         [0,3750] pomme de terre potagère
@@ -1353,9 +1405,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5000] patate douce
                  pomme de terre potagère
 
-    Recall   : 0.406322463768116
+    Recall   : 0.34827639751552797
     Precision: 0.44326086956521743
-    F-Score  : 0.42398865784499057
+    F-Score  : 0.3900695652173913
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_01-42_cereales_Normandie_2020_cle83b764.html
@@ -1401,12 +1453,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_17-VF_cle81c713.html
-    Reference matches (46) :
+    Reference matches (57) :
         [1,0000] arboriculture fruitière
                  arboriculture fruitière
         [0,0000] prunier
                  FAIL
         [0,0000] prunier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] poirier
                  FAIL
@@ -1464,9 +1518,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] prunier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] cerisier
                  FAIL
         [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] cerisier
                  FAIL
@@ -1484,9 +1542,25 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pommier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5833] arboriculture fruitière
                  jardin
@@ -1507,9 +1581,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5833] jardin
                  arboriculture fruitière
 
-    Recall   : 0.07712215320910974
+    Recall   : 0.062238930659983295
     Precision: 0.6666666666666667
-    F-Score  : 0.1382509858501508
+    F-Score  : 0.11384909264565425
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_2019_n14bis_cle0ca71b.html
@@ -1531,11 +1605,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_5_VF_cle84611d.html
-    Reference matches (80) :
+    Reference matches (89) :
         [1,0000] arboriculture fruitière
                  arboriculture fruitière
-        [0,2857] floriculture
-                 floriculture
+        [0,0000] gel
+                 FAIL
+        [0,0000] floriculture
+                 FAIL
         [0,0000] prunier
                  FAIL
         [0,0000] prunier
@@ -1594,6 +1670,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pommier
                  FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] prunier
                  FAIL
         [0,0000] pommier
@@ -1602,9 +1684,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] poirier
                  FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] floriculture
                  FAIL
@@ -1618,6 +1704,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] floriculture
                  FAIL
         [0,3846] floriculture
@@ -1629,6 +1717,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] prunier
                  FAIL
         [0,0000] prunier
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] poirier
                  FAIL
@@ -1643,6 +1733,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] colza
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] prunier
                  FAIL
@@ -1693,11 +1785,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture
                  FAIL
 
-    Predicted matches (12) :
+    Predicted matches (11) :
         [1,0000] arboriculture fruitière
                  arboriculture fruitière
-        [0,2857] floriculture
-                 floriculture
         [0,2500] poirier
                  pommier
         [1,0000] arboriculture fruitière
@@ -1719,9 +1809,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,3333] cerisier
                  cerisier
 
-    Recall   : 0.08834478021978023
-    Precision: 0.5711080586080586
-    F-Score  : 0.15301902713514975
+    Recall   : 0.07620076552660822
+    Precision: 0.5970529470529471
+    F-Score  : 0.13515229333392204
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_AF_5_15_mars_2019_cle452e6e.html
@@ -1757,18 +1847,26 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_AF_n19_du_11052017-1_cle84e61b.html
-    Reference matches (45) :
+    Reference matches (55) :
         [0,0000] pommier
                  FAIL
-        [0,1463] poirier
+        [0,1200] poirier
                  poirier
-        [0,2632] poirier
+        [0,1000] culture fruitière
+                 poirier
+        [0,1786] poirier
+                 poirier
+        [0,1786] culture fruitière
                  poirier
         [0,1852] pommier
                  pommier
+        [0,0000] gel
+                 FAIL
         [1,0000] pommier
                  pommier
         [0,0000] prunier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -1782,6 +1880,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2222] poirier
                  poirier
+        [0,0000] gel
+                 FAIL
         [0,0000] oranger
                  FAIL
         [0,0000] arboriculture
@@ -1796,12 +1896,20 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,4000] pommier
                  pommier
+        [0,0000] gel
+                 FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,3750] floriculture
                  floriculture
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
@@ -1831,6 +1939,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] prunier
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] prunier
                  FAIL
@@ -1850,9 +1960,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
 
     Predicted matches (8) :
-        [0,1463] poirier
+        [0,1200] poirier
                  poirier
-        [0,2632] poirier
+        [0,1786] poirier
                  poirier
         [0,1852] pommier
                  pommier
@@ -1867,9 +1977,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,4615] poirier
                  poirier
 
-    Recall   : 0.06785433837994101
-    Precision: 0.38168065338716817
-    F-Score  : 0.11522434819235265
+    Recall   : 0.05856524956524956
+    Precision: 0.3678146621896622
+    F-Score  : 0.1010420842587802
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_AF_n30_du_25052018_cle0ca846.html
@@ -1889,12 +1999,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_AF_n34_du_16072019_cle0a1d81.html
-    Reference matches (64) :
+    Reference matches (81) :
         [0,0000] pommier
                  FAIL
         [0,1333] poirier
                  poirier
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,2000] prunier
                  prunier
@@ -1916,9 +2030,23 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -1966,6 +2094,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
@@ -1979,6 +2113,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] prunier
                  FAIL
         [0,0000] prunier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -1990,9 +2126,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  cerisier
         [0,0000] cerisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] cerisier
                  FAIL
         [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] cerisier
                  FAIL
@@ -2002,7 +2142,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] prunier
                  FAIL
@@ -2029,13 +2173,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2857] cerisier
                  cerisier
 
-    Recall   : 0.022823660714285716
+    Recall   : 0.018033509700176368
     Precision: 0.27767857142857144
-    F-Score  : 0.04218032895609498
+    F-Score  : 0.03386753217707108
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_ARBO_2017_35_cle4d79ba.html
-    Reference matches (31) :
+    Reference matches (40) :
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
@@ -2046,13 +2190,25 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] poirier
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] floriculture
                  FAIL
@@ -2064,6 +2220,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  attier
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
@@ -2071,6 +2229,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] poirier
                  FAIL
@@ -2109,14 +2271,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] pomme de terre
                  pomme de terre
 
-    Recall   : 0.045007115749525616
+    Recall   : 0.034880514705882354
     Precision: 0.34880514705882354
-    F-Score  : 0.07972689075630252
+    F-Score  : 0.06341911764705882
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_ARBO_2018_11_cle44752f.html
-    Reference matches (12) :
+    Reference matches (13) :
         [0,0000] arboriculture
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -2147,9 +2311,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] pomme de terre
                  pomme de terre
 
-    Recall   : 0.08333333333333333
+    Recall   : 0.07692307692307693
     Precision: 0.5
-    F-Score  : 0.14285714285714285
+    F-Score  : 0.13333333333333336
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Arbo_06_20_cle882ae6.html
@@ -2189,7 +2353,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Arboriculture-Fruits_transformes__Bretagne-Normandie-Pays_de_la_Loire_no15_du_17-06-2020_cle0d4baf.html
-    Reference matches (35) :
+    Reference matches (43) :
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,2381] poirier
@@ -2202,9 +2368,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,4118] arboriculture fruitière
                  jardin
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -2218,10 +2390,18 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,4118] arboriculture fruitière
                  jardin
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
@@ -2285,22 +2465,32 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5000] jardin
                  arboriculture fruitière
 
-    Recall   : 0.14209003601440576
+    Recall   : 0.11565468047684191
     Precision: 0.43045963840081486
-    F-Score  : 0.21365491329844996
+    F-Score  : 0.18232326169267193
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Arboriculture-Fruits_transformes__Bretagne-Normandie-Pays_de_la_Loire_no_17_du_26-06-2018_cle861251.html
-    Reference matches (34) :
+    Reference matches (40) :
         [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [1,0000] pommier
                  pommier
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,3750] pommier
                  pommier
@@ -2333,6 +2523,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
@@ -2383,14 +2575,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] chanvre industriel
                  FAIL
 
-    Recall   : 0.13732843137254902
+    Recall   : 0.11672916666666666
     Precision: 0.46691666666666665
-    F-Score  : 0.2122348484848485
+    F-Score  : 0.18676666666666664
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Arboriculture-Fruits_transformes__Bretagne-Normandie-Pays_de_la_Loire_no_1_du_13-03-2018_cle0bf736.html
-    Reference matches (16) :
+    Reference matches (17) :
         [0,0000] arboriculture
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -2427,9 +2621,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5714] attier
                  pommier
 
-    Recall   : 0.03571428571428571
+    Recall   : 0.03361344537815126
     Precision: 0.5714285714285714
-    F-Score  : 0.06722689075630252
+    F-Score  : 0.06349206349206349
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Arboriculture_3_24_fevrier_2020-2-2_cle83ae58.html
@@ -2507,7 +2701,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Arboriculture_4_14mars2017_cle063599.html
-    Reference matches (13) :
+    Reference matches (16) :
         [0,5263] abricotier
                  abricotier pays
         [0,0000] pêcher
@@ -2524,11 +2718,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] prunier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -2539,9 +2739,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5263] abricotier pays
                  abricotier
 
-    Recall   : 0.04048582995951417
+    Recall   : 0.03289473684210526
     Precision: 0.5263157894736842
-    F-Score  : 0.07518796992481203
+    F-Score  : 0.06191950464396284
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Betteraves_du_22_juillet_2020_cle8647db.html
@@ -2597,9 +2797,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Bilan_Fruits_a_noyau_2018_cle888e1e.html
-    Reference matches (158) :
+    Reference matches (245) :
         [0,5263] arboriculture fruitière
                  culture fruitière
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] abricotier
                  FAIL
         [0,0000] pêcher
@@ -2613,6 +2819,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] floriculture
                  FAIL
         [0,2857] abricotier
+                 abricotier pays
+        [0,4000] arbre fruitier à noyau
                  abricotier pays
         [0,0000] abricotier
                  FAIL
@@ -2636,17 +2844,31 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] prunier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] cerisier
                  FAIL
         [0,0000] floriculture
                  FAIL
         [0,0000] cerisier
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] abricotier
                  FAIL
+        [0,0000] oranger
+                 FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,5333] cerisier
                  cerisier
@@ -2658,7 +2880,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pêcher
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
@@ -2680,11 +2908,19 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] abricotier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,3333] abricotier
                  abricotier pays
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] abricotier
                  FAIL
@@ -2692,9 +2928,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pommier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
                  FAIL
         [0,0000] abricotier
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,2308] oranger
                  oranger
@@ -2703,6 +2943,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] pêcher
                  FAIL
         [0,0000] pêcher
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pêcher
                  FAIL
@@ -2716,6 +2960,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] prunier
                  FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] cerisier
@@ -2724,15 +2970,23 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pêcher
                  FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] pêcher
                  FAIL
         [0,0000] abricotier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] abricotier
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] horticulture ornementale
                  FAIL
@@ -2756,25 +3010,63 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pêcher
                  FAIL
-        [0,0000] abricotier
+        [0,0000] arbre fruitier à noyau
                  FAIL
-        [0,0000] arboriculture fruitière
-                 FAIL
-        [0,0000] prunier
-                 FAIL
-        [0,0000] prunier
-                 FAIL
-        [0,0000] prunier
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] abricotier
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] prunier
+                 FAIL
+        [0,0000] prunier
+                 FAIL
+        [0,0000] prunier
+                 FAIL
         [0,0000] abricotier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] abricotier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] abricotier
                  FAIL
         [0,0000] abricotier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
@@ -2784,11 +3076,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2188] abricotier
                  abricotier
+        [0,4375] arbre fruitier à noyau
+                 abricotier
         [0,0000] abricotier
                  FAIL
         [0,0000] abricotier
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] abricotier
                  FAIL
@@ -2798,11 +3094,27 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] oranger
                  FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] olivier
                  FAIL
         [0,0000] floriculture
                  FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pêcher
                  FAIL
@@ -2814,9 +3126,25 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  cerisier
         [0,0000] floriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] cerisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,2857] cerisier
                  cerisier
@@ -2824,14 +3152,32 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  cerisier
         [0,0000] cerisier
                  FAIL
-        [0,0000] cerisier
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] cerisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] cerisier
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5714] cerisier
                  cerisier
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] pêcher
                  FAIL
         [0,0000] vigne
@@ -2845,6 +3191,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] chêne
                  FAIL
         [0,0000] luzerne
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] olivier
                  FAIL
@@ -2872,6 +3220,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] prunier
                  FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] pêcher
                  FAIL
         [0,0000] abricotier
@@ -2884,9 +3236,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] abricotier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,2857] cerisier
                  cerisier
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] abricotier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pêcher
                  FAIL
@@ -2896,15 +3256,27 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pêcher
                  FAIL
-        [0,0000] arboriculture fruitière
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] pêcher
                  FAIL
         [0,0000] abricotier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -2914,12 +3286,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2143] arboriculture fruitière
                  jardin
+        [0,0000] arbre fruitier à noyau
+                 FAIL
 
     Predicted matches (19) :
         [0,5263] culture fruitière
                  arboriculture fruitière
-        [0,2857] abricotier pays
-                 abricotier
+        [0,4000] abricotier pays
+                 arbre fruitier à noyau
         [0,3226] abricotier pays
                  abricotier
         [0,5333] cerisier
@@ -2932,8 +3306,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  oranger
         [0,2500] jardin
                  arboriculture fruitière
-        [0,2188] abricotier
-                 abricotier
+        [0,4375] abricotier
+                 arbre fruitier à noyau
         [0,0000] arbre à fruits à pépins
                  FAIL
         [0,5000] jardin
@@ -2955,13 +3329,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2143] jardin
                  arboriculture fruitière
 
-    Recall   : 0.04423288625364297
-    Precision: 0.3678313698987152
-    F-Score  : 0.0789694466449219
+    Recall   : 0.03194406542071669
+    Precision: 0.385359565387437
+    F-Score  : 0.05899757518713981
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Cassis_n_05_du_10_mai_2012_cle09e263.html
-    Reference matches (15) :
+    Reference matches (17) :
         [0,0000] cassissier
                  FAIL
         [0,0000] cassissier
@@ -2986,9 +3360,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] cassissier
                  FAIL
+        [0,0000] gel
+                 FAIL
         [0,4615] floriculture
                  floriculture
         [0,0000] floriculture
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] vigne
                  FAIL
@@ -3001,9 +3379,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,4615] floriculture
                  floriculture
 
-    Recall   : 0.09743589743589745
+    Recall   : 0.08597285067873305
     Precision: 0.4871794871794872
-    F-Score  : 0.16239316239316243
+    F-Score  : 0.1461538461538462
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Cereales_paille_14_cle09e79d.html
@@ -3461,24 +3839,52 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_FR_08_13082019_cle8c5d91.html
-    Reference matches (14) :
+    Reference matches (32) :
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,4375] fraisier
                  fraisier
         [0,3500] fraisier
                  fraisier
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] fraisier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] fraisier
                  FAIL
         [0,0000] fraisier
                  FAIL
-        [0,0000] fraisier
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] floriculture
                  FAIL
         [0,0000] fraisier
                  FAIL
-        [0,0000] floriculture
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] floriculture
                  FAIL
@@ -3486,7 +3892,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] floriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] floriculture
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] olivier
                  FAIL
@@ -3497,13 +3911,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,3500] fraisier
                  fraisier
 
-    Recall   : 0.05625
+    Recall   : 0.024609375
     Precision: 0.39375
-    F-Score  : 0.0984375
+    F-Score  : 0.04632352941176471
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_GC_NA_Limousin_18_20200901_cle088995.html
-    Reference matches (36) :
+    Reference matches (38) :
         [1,0000] céréale à paille
                  céréale à paille
         [0,0000] maïs
@@ -3556,9 +3970,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] colza
                  FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] colza
                  FAIL
         [0,0000] colza
+                 FAIL
+        [0,0000] oranger
                  FAIL
         [0,0000] colza
                  FAIL
@@ -3611,14 +4029,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.05115942028985507
+    Recall   : 0.04846681922196796
     Precision: 0.11510869565217391
-    F-Score  : 0.07083612040133778
+    F-Score  : 0.06821256038647343
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_GC_n_15_du_10_mars_2015_cle0bc9b5.html
-    Reference matches (8) :
+    Reference matches (11) :
         [0,0000] colza
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] colza
                  FAIL
@@ -3633,6 +4053,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] colza
                  FAIL
         [0,0000] chou
+                 FAIL
+        [0,0000] poirée
+                 FAIL
+        [0,0000] poirée
                  FAIL
 
     Predicted matches (5) :
@@ -3653,7 +4077,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_GC_n_22_du_30_avril_2013_cle82bfbf.html
-    Reference matches (42) :
+    Reference matches (52) :
         [0,0000] colza
                  FAIL
         [0,0000] tournesol
@@ -3692,6 +4116,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tournesol
                  FAIL
+        [0,0000] poirée
+                 FAIL
         [0,0000] blé
                  FAIL
         [0,0000] blé
@@ -3706,10 +4132,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] orge à six rangs
                  FAIL
+        [0,0000] poirée
+                 FAIL
         [0,0000] orge à six rangs
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [1,0000] pois protéagineux de printemps
                  pois protéagineux de printemps
+        [0,0000] poirée
+                 FAIL
         [0,0000] pois
                  FAIL
         [0,0000] colza
@@ -3720,9 +4152,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] luzerne
                  FAIL
+        [0,0000] semence
+                 FAIL
         [1,0000] céréale à paille
                  céréale à paille
         [0,0000] maïs
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] floriculture
                  FAIL
@@ -3735,6 +4175,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] luzerne
                  FAIL
         [0,0000] maïs
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] maïs
                  FAIL
@@ -3777,13 +4221,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] céréale à paille
                  céréale à paille
 
-    Recall   : 0.06122448979591836
+    Recall   : 0.04945054945054945
     Precision: 0.14285714285714285
-    F-Score  : 0.08571428571428572
+    F-Score  : 0.07346938775510205
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_GRANDES_CULTURES_2017_No5_cle8b8eff.html
-    Reference matches (45) :
+    Reference matches (46) :
         [1,0000] pomme de terre
                  pomme de terre
         [0,0000] colza
@@ -3811,6 +4255,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2500] colza
                  colza de printemps
         [0,0000] colza
+                 FAIL
+        [0,0000] tournesol
                  FAIL
         [0,0000] colza
                  FAIL
@@ -3907,9 +4353,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.17156084656084655
+    Recall   : 0.1678312629399586
     Precision: 0.5146825396825396
-    F-Score  : 0.2573412698412698
+    F-Score  : 0.2531225604996097
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_GRANDES_CULTURES_2018_No38_cle0b961f.html
@@ -4245,7 +4691,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_JEVI_4_24_juillet_2019_cle4fa1b8.html
-    Reference matches (59) :
+    Reference matches (68) :
         [0,0000] chêne
                  FAIL
         [0,0000] palmier
@@ -4272,6 +4718,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] floriculture
                  FAIL
+        [0,0000] tournesol
+                 FAIL
         [0,2917] palmier
                  chou potager
         [0,0000] palmier
@@ -4287,6 +4735,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] palmier
                  FAIL
         [0,0000] palmier
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] palmier
                  FAIL
@@ -4328,9 +4778,21 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] vigne de table
                  FAIL
-        [0,0000] arboriculture fruitière
+        [0,0000] arboriculture fruitière tropicale
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,3571] culture fruitière
+                 betterave sucrière
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] manguier
                  FAIL
@@ -4344,6 +4806,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,3529] cerisier
                  cerisier
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] ananas
                  FAIL
         [0,0000] pêcher
@@ -4365,7 +4829,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] courge
                  FAIL
 
-    Predicted matches (8) :
+    Predicted matches (9) :
         [0,0000] horticulture ornementale
                  FAIL
         [1,0000] zone non agricole
@@ -4380,12 +4844,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  laurier
         [0,0000] horticulture ornementale
                  FAIL
+        [0,3571] betterave sucrière
+                 culture fruitière
         [0,3529] cerisier
                  cerisier
 
-    Recall   : 0.04986825238570004
-    Precision: 0.32611169467787116
-    F-Score  : 0.08650791311151883
+    Recall   : 0.04852014335145823
+    Precision: 0.3295596016184252
+    F-Score  : 0.08458680649316026
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_KIWI_NA_N_3_2017-02-23_cle483144.html
@@ -4707,7 +5173,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Legumes_322019_2__cle44e13b.html
-    Reference matches (47) :
+    Reference matches (49) :
         [0,0000] poireau
                  FAIL
         [0,3182] poireau
@@ -4764,6 +5230,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] carotte
                  FAIL
+        [0,0000] poirée
+                 FAIL
         [0,0000] carotte
                  FAIL
         [0,0000] culture légumière
@@ -4771,6 +5239,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] carotte
                  FAIL
         [0,0000] carotte
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] olivier
                  FAIL
@@ -4819,9 +5289,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] haricot vert
                  haricot vert
 
-    Recall   : 0.05350559605878755
+    Recall   : 0.051321694178837036
     Precision: 0.35925185925185926
-    F-Score  : 0.0931393709171487
+    F-Score  : 0.08981296481296482
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Lin_09_cle07fbd6.html
@@ -4905,7 +5375,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Lin_bilan_cle8a2881.html
-    Reference matches (54) :
+    Reference matches (62) :
         [1,0000] lin oléagineux
                  lin oléagineux
         [1,0000] lin oléagineux
@@ -4923,6 +5393,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2727] lin
                  lin fibre de printemps
         [0,0000] lin
+                 FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] lin
                  FAIL
@@ -4936,22 +5410,34 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] lin
                  FAIL
-        [0,0000] lin
+        [0,0000] gel
                  FAIL
         [0,0000] lin
                  FAIL
         [0,0000] lin
                  FAIL
         [0,0000] lin
+                 FAIL
+        [0,0000] lin
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] floriculture
                  FAIL
         [0,0000] lin
                  FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
                  FAIL
         [1,0000] lin oléagineux d'hiver
                  lin oléagineux d'hiver
+        [0,0000] gel
+                 FAIL
         [0,0000] lin
                  FAIL
         [0,0000] oléagineux
@@ -5083,9 +5569,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] lin oléagineux d'hiver
                  lin oléagineux d'hiver
 
-    Recall   : 0.32532166907166915
+    Recall   : 0.2833446795140344
     Precision: 0.5323445493900041
-    F-Score  : 0.40384758919241687
+    F-Score  : 0.36983937115516075
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_MARAICHAGE_2018-17_cle04f12d.html
@@ -5179,7 +5665,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_MARAICHAGE_2019_07_cle0cc493.html
-    Reference matches (81) :
+    Reference matches (91) :
         [1,0000] pomme de terre
                  pomme de terre
         [1,0000] pomme de terre
@@ -5238,7 +5724,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] salade
                  FAIL
-        [0,0000] carotte
+        [0,0000] semence
                  FAIL
         [0,0000] carotte
                  FAIL
@@ -5246,6 +5732,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] carotte
                  FAIL
+        [0,0000] carotte
+                 FAIL
+        [0,5455] châtaignier
+                 artichaut
         [0,0000] carotte
                  FAIL
         [0,0000] carotte
@@ -5298,6 +5788,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  moutarde
         [0,0000] chou
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
@@ -5316,6 +5810,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] citronnier
                  FAIL
+        [0,0000] oranger
+                 FAIL
         [0,0000] tomate
                  FAIL
         [0,0000] poivron
@@ -5324,11 +5820,21 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] courge
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] culture légumière
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,3889] tomate
                  tomate
         [0,0000] poivron
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] semence
                  FAIL
         [1,0000] pomme de terre
                  pomme de terre
@@ -5343,7 +5849,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] culture légumière
                  FAIL
 
-    Predicted matches (22) :
+    Predicted matches (23) :
         [1,0000] pomme de terre
                  pomme de terre
         [1,0000] pomme de terre
@@ -5374,6 +5880,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  pomme de terre
         [1,0000] pomme de terre
                  pomme de terre
+        [0,5455] artichaut
+                 châtaignier
         [0,0000] culture légumière
                  FAIL
         [1,0000] pomme de terre
@@ -5389,13 +5897,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] pomme de terre
                  pomme de terre
 
-    Recall   : 0.20859576925853732
-    Precision: 0.7680116959064328
-    F-Score  : 0.3280826662124568
+    Recall   : 0.1916671632461106
+    Precision: 0.7583352980606984
+    F-Score  : 0.3059949448315099
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_MARAICHAGE_Nord_NA_24_20201021_cle8b8312.html
-    Reference matches (56) :
+    Reference matches (61) :
         [0,0000] poireau
                  FAIL
         [0,0000] céleri
@@ -5482,7 +5990,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] radis
                  FAIL
+        [0,0000] châtaignier
+                 FAIL
+        [0,0000] oranger
+                 FAIL
+        [0,0000] oranger
+                 FAIL
         [0,0000] jardin
+                 FAIL
+        [0,0000] oranger
                  FAIL
         [0,2778] chou
                  Chou cabus blanc
@@ -5503,6 +6019,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] chou
                  FAIL
         [0,0000] chou
+                 FAIL
+        [0,0000] tournesol
                  FAIL
         [0,0000] maraîchage
                  FAIL
@@ -5525,14 +6043,30 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] palmier
                  FAIL
 
-    Recall   : 0.034126825215211945
+    Recall   : 0.0313295444598667
     Precision: 0.27301460172169556
-    F-Score  : 0.06066991149371012
+    F-Score  : 0.05620888858976086
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_CHATAIGNIER_GSO_09_20190919_cle868eba.html
-    Reference matches (13) :
+    Reference matches (20) :
         [0,0000] châtaignier
+                 FAIL
+        [0,0000] châtaignier
+                 FAIL
+        [0,0000] châtaignier
+                 FAIL
+        [0,0000] châtaignier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] châtaignier
+                 FAIL
+        [0,0000] châtaignier
+                 FAIL
+        [0,0000] châtaignier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] châtaignier
                  FAIL
@@ -5542,19 +6076,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] châtaignier
                  FAIL
-        [0,0000] châtaignier
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] châtaignier
                  FAIL
-        [0,0000] châtaignier
-                 FAIL
-        [0,0000] châtaignier
-                 FAIL
-        [0,0000] châtaignier
-                 FAIL
-        [0,0000] châtaignier
-                 FAIL
-        [0,0000] châtaignier
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] châtaignier
                  FAIL
@@ -5567,7 +6099,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_CULTURES_LEGUMIERES-Nord_NA__20_20170830_cle02661b.html
-    Reference matches (62) :
+    Reference matches (76) :
         [0,0000] tomate
                  FAIL
         [0,0000] poireau
@@ -5581,6 +6113,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] melon
                  FAIL
         [0,0000] maraîchage
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] carotte
                  FAIL
@@ -5596,6 +6130,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,3846] melon
                  melon
+        [0,0000] culture fruitière
+                 FAIL
         [0,5000] poireau
                  poireau
         [0,0000] maraîchage
@@ -5606,11 +6142,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tomate
                  FAIL
+        [0,0000] poirée
+                 FAIL
         [0,0000] maraîchage
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] betterave
                  FAIL
         [0,0000] tomate
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] maraîchage
                  FAIL
@@ -5654,13 +6196,31 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] melon
                  FAIL
-        [0,0000] maraîchage
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] maraîchage
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] maraîchage
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,2941] melon
                  melon
         [0,0000] maraîchage
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] poireau
                  FAIL
@@ -5703,9 +6263,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,4545] radis noir potager
                  radis
 
-    Recall   : 0.026343201390639722
+    Recall   : 0.021490506397627143
     Precision: 0.4083196215549157
-    F-Score  : 0.0494932874612019
+    F-Score  : 0.04083196215549157
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_CULTURES__LEGUMIERES-Nord_Nouvelle_Aquitaine_n_28_cle424df5.html
@@ -5791,7 +6351,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_GC_AQUITAINE_N09_20190404_cle0279a3.html
-    Reference matches (57) :
+    Reference matches (58) :
         [1,0000] céréale à paille
                  céréale à paille
         [1,0000] céréale à paille
@@ -5906,6 +6466,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] colza
                  FAIL
+        [0,0000] semence
+                 FAIL
 
     Predicted matches (32) :
         [1,0000] céréale à paille
@@ -5973,13 +6535,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.18897935569762195
+    Recall   : 0.18572109094421466
     Precision: 0.3366194773363891
-    F-Score  : 0.24206344437672925
+    F-Score  : 0.23937385055032112
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_GC_Aquitaine_N5_20180322_cle4a4445.html
-    Reference matches (44) :
+    Reference matches (45) :
         [1,0000] céréale à paille
                  céréale à paille
         [0,0000] maïs
@@ -6068,6 +6630,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] colza
                  FAIL
+        [0,0000] semence
+                 FAIL
 
     Predicted matches (22) :
         [1,0000] céréale à paille
@@ -6115,20 +6679,24 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.17140151515151517
+    Recall   : 0.1675925925925926
     Precision: 0.34280303030303033
-    F-Score  : 0.22853535353535354
+    F-Score  : 0.22512437810945277
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_KIWI_15_20190613_cle86b7d5.html
-    Reference matches (7) :
+    Reference matches (9) :
         [0,0000] actinidia
                  FAIL
         [0,0000] actinidia
                  FAIL
         [0,0000] actinidia
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] actinidia
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] actinidia
                  FAIL
@@ -6167,7 +6735,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_PETITS_FRUITS_05_20190313-1_cle8c1a16.html
-    Reference matches (29) :
+    Reference matches (42) :
         [0,0000] fraisier
                  FAIL
         [0,0000] olivier
@@ -6176,7 +6744,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] framboisier
                  FAIL
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] fraisier
+                 FAIL
+        [0,0000] petit fruit
                  FAIL
         [0,0000] géranium
                  FAIL
@@ -6192,19 +6764,29 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  pommier
         [0,0000] rosier ornemental
                  FAIL
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] melon
+                 FAIL
+        [0,0000] petit fruit
                  FAIL
         [0,1351] floriculture
                  floriculture
         [0,1622] fraisier
                  floriculture
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] floriculture
                  FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] petit fruit
                  FAIL
         [0,0000] oranger
                  FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] fraisier
                  FAIL
@@ -6212,7 +6794,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] floriculture
                  FAIL
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] petit fruit
                  FAIL
         [0,0000] framboisier
                  FAIL
@@ -6220,11 +6808,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] mâche
                  FAIL
-        [0,0000] framboisier
+        [0,0000] petit fruit
                  FAIL
         [0,0000] framboisier
                  FAIL
         [0,0000] framboisier
+                 FAIL
+        [0,0000] framboisier
+                 FAIL
+        [0,0000] petit fruit
+                 FAIL
+        [0,0000] petit fruit
                  FAIL
 
     Predicted matches (6) :
@@ -6241,13 +6835,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] artichaut
                  FAIL
 
-    Recall   : 0.0700677755005854
+    Recall   : 0.048380130702785164
     Precision: 0.3161383923969736
-    F-Score  : 0.11471134200768483
+    F-Score  : 0.08391791239727037
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_POMMIER_NORD_18_20170719_cle4a8443.html
-    Reference matches (32) :
+    Reference matches (58) :
         [0,0000] pommier
                  FAIL
         [0,0000] pommier
@@ -6255,11 +6849,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
         [0,3889] pommier
                  attier
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] pommier
@@ -6269,15 +6867,33 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,3182] arboriculture fruitière
                  jardin
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,2667] pommier
                  attier
+        [0,0000] culture fruitière
+                 FAIL
         [0,5000] arboriculture fruitière
                  jardin
         [0,0000] arboriculture fruitière
@@ -6287,6 +6903,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5000] arboriculture fruitière
                  jardin
@@ -6298,11 +6916,39 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  jardin
         [0,5000] arboriculture fruitière
                  jardin
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,2333] arboriculture fruitière
                  jardin
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -6339,13 +6985,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,1364] zone non agricole
                  jardin
 
-    Recall   : 0.1163083036244801
+    Recall   : 0.0641700985514373
     Precision: 0.3101554763319469
-    F-Score  : 0.16917571436288015
+    F-Score  : 0.10633902045666752
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_POMMIER_POIRIER_LIMOUSIN_01_20200124_cle837b7a.html
-    Reference matches (31) :
+    Reference matches (36) :
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
@@ -6368,6 +7014,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  jardin
         [0,4444] poirier
                  jardin
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
@@ -6376,7 +7024,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] poirier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] floriculture
                  FAIL
@@ -6399,6 +7051,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -6425,13 +7081,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arbre à fruits à pépins
                  FAIL
 
-    Recall   : 0.05982905982905983
+    Recall   : 0.051519468186134856
     Precision: 0.21733821733821732
-    F-Score  : 0.09382883391693965
+    F-Score  : 0.08329424804762259
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_POMMIER_POIRIER_Sud_18_20180726_cle8d7184.html
-    Reference matches (50) :
+    Reference matches (73) :
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
@@ -6450,31 +7106,37 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] poirier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,4667] pommier
                  attier
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] châtaignier
                  FAIL
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
-        [0,0000] arboriculture fruitière
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
-        [0,0000] pommier
+        [0,0000] culture fruitière
                  FAIL
-        [0,0000] pommier
+        [0,0000] arboriculture fruitière
                  FAIL
-        [0,0000] poirier
-                 FAIL
-        [0,0000] pommier
-                 FAIL
-        [0,0000] pommier
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -6484,13 +7146,41 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pommier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] pommier
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] pommier
+                 FAIL
+        [0,0000] pommier
+                 FAIL
+        [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5000] arboriculture fruitière
                  jardin
@@ -6510,7 +7200,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  jardin
         [0,0000] poirier
                  FAIL
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
@@ -6524,6 +7220,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,4615] arboriculture fruitière
                  jardin
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
@@ -6549,13 +7251,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arbre à fruits à pépins
                  FAIL
 
-    Recall   : 0.05946153846153846
+    Recall   : 0.04072708113804004
     Precision: 0.3830586080586081
-    F-Score  : 0.10294335449002358
+    F-Score  : 0.0736261719483802
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_POMMIER_POIRIER_Sud_8_20190404_cle0177e8.html
-    Reference matches (62) :
+    Reference matches (70) :
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
@@ -6614,6 +7316,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pommier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] châtaignier
                  FAIL
         [0,0000] pommier
@@ -6634,9 +7342,19 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,3000] floriculture
                  floriculture
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,4615] arboriculture fruitière
                  jardin
@@ -6695,13 +7413,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] culture légumière
                  FAIL
 
-    Recall   : 0.042748828232699196
+    Recall   : 0.037863247863247865
     Precision: 0.40933048433048436
-    F-Score  : 0.07741295865028476
+    F-Score  : 0.06931484263054996
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_VIGNE_CHARENTE_03_20170419_cle86a6e5.html
-    Reference matches (18) :
+    Reference matches (19) :
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
@@ -6711,6 +7429,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,3333] vigne
                  vigne de cuve
@@ -6743,18 +7463,24 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,3333] vigne de cuve
                  vigne
 
-    Recall   : 0.018518518518518517
+    Recall   : 0.017543859649122806
     Precision: 0.3333333333333333
-    F-Score  : 0.03508771929824561
+    F-Score  : 0.03333333333333333
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_VIGNE_Limousin_06_20180515_cle841333.html
-    Reference matches (14) :
+    Reference matches (17) :
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
                  FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] vigne
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] vigne
                  FAIL
@@ -6787,7 +7513,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_VIGNE_Limousin_18_20180807_cle8eb5f7.html
-    Reference matches (18) :
+    Reference matches (20) :
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
@@ -6801,6 +7527,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arbuste à baies
                  FAIL
         [0,0000] vigne
+                 FAIL
+        [0,0000] tournesol
                  FAIL
         [0,0000] arbuste à baies
                  FAIL
@@ -6813,6 +7541,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] vigne
                  FAIL
         [0,0000] rosier ornemental
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] vigne
                  FAIL
@@ -6835,7 +7565,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_NA_VIGNE_Sud_Aquitaine_17_20190716_cle841a78.html
-    Reference matches (23) :
+    Reference matches (24) :
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
@@ -6872,6 +7602,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] vigne
                  FAIL
+        [0,0000] tournesol
+                 FAIL
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
@@ -6891,20 +7623,28 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,3125] vigne de cuve
                  vigne
 
-    Recall   : 0.025664251207729468
+    Recall   : 0.02459490740740741
     Precision: 0.19675925925925927
-    F-Score  : 0.045405982905982904
+    F-Score  : 0.04372427983539095
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Olivier_20200902_N13_cle8395b6.html
-    Reference matches (26) :
+    Reference matches (33) :
         [0,0000] olivier fruit à noyaux
                  FAIL
         [0,0000] olivier fruit à noyaux
                  FAIL
         [0,0000] olivier fruit à noyaux
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] olivier fruit à noyaux
                  FAIL
@@ -6930,7 +7670,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
@@ -6940,6 +7684,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2857] olivier fruit à noyaux
                  olivier fruit à noyaux
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
@@ -6959,9 +7705,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2593] jardin
                  arboriculture fruitière
 
-    Recall   : 0.03634513634513635
+    Recall   : 0.028635561968895305
     Precision: 0.31499118165784834
-    F-Score  : 0.06517058930852035
+    F-Score  : 0.052498530276308054
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Ornement_Normandie_n-09-2017_cle03389c.html
@@ -7019,19 +7765,23 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_PETITS_FRUITS_NA_01_20200114_cle04ef97.html
-    Reference matches (18) :
+    Reference matches (26) :
         [0,0000] olivier
                  FAIL
         [0,0000] framboisier
                  FAIL
         [0,4000] fraisier
                  fraisier
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] fraisier
                  FAIL
         [0,0000] géranium
                  FAIL
         [0,1500] rosier
                  rosier odorant
+        [0,0000] petit fruit
+                 FAIL
         [0,5000] pomme de terre
                  pommier
         [0,3478] fraisier
@@ -7044,17 +7794,29 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  pommier
         [0,0000] rosier ornemental
                  FAIL
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] floriculture
                  FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] petit fruit
                  FAIL
         [0,0000] oranger
                  FAIL
         [0,0000] floriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] fraisier
                  FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] petit fruit
+                 FAIL
+        [0,0000] petit fruit
+                 FAIL
+        [0,0000] petit fruit
                  FAIL
 
     Predicted matches (6) :
@@ -7071,13 +7833,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] artichaut
                  FAIL
 
-    Recall   : 0.1117071840423874
+    Recall   : 0.0773357427985759
     Precision: 0.3082398316970547
-    F-Score  : 0.16398546634721778
+    F-Score  : 0.123648684829593
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Presentation_du_reseau_2018_cle4a84c9.html
-    Reference matches (40) :
+    Reference matches (42) :
         [0,5263] arboriculture fruitière
                  culture fruitière
         [0,5263] arboriculture fruitière
@@ -7106,6 +7868,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  culture fruitière
         [0,0000] cerisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] pommier
@@ -7115,6 +7879,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] actinidia
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pêcher
                  FAIL
@@ -7179,15 +7945,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5263] culture fruitière
                  arboriculture fruitière
 
-    Recall   : 0.1106203007518797
+    Recall   : 0.10535266738274257
     Precision: 0.49164578111946533
-    F-Score  : 0.18060457265613014
+    F-Score  : 0.1735220403951054
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_RA_ARBO_no19du19062018_cle4af8d5-1.html
-    Reference matches (164) :
+    Reference matches (218) :
         [0,5263] arboriculture fruitière
                  culture fruitière
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] pêcher
                  FAIL
         [0,0000] abricotier
@@ -7201,6 +7969,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] cerisier
                  FAIL
         [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -7220,39 +7990,63 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,5263] arboriculture fruitière
                  culture fruitière
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] pêcher
                  FAIL
         [0,0000] abricotier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] cerisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,2400] culture fruitière
+                 arbre à fruits à pépins
         [0,1935] céréale à paille
                  lentille potagère
         [0,0000] céréale à paille
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] abricotier
                  FAIL
         [0,0000] abricotier
                  FAIL
         [0,0000] pêcher
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] abricotier
                  FAIL
         [0,0000] pêcher
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,5263] arboriculture fruitière
                  culture fruitière
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5000] arboriculture fruitière
                  jardin
@@ -7284,9 +8078,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] prunier
                  FAIL
         [0,0000] abricotier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] abricotier
                  FAIL
@@ -7304,6 +8104,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  culture fruitière
         [0,0000] pêcher
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
                  FAIL
         [0,0000] noyer
@@ -7314,32 +8116,62 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,5263] arboriculture fruitière
                  culture fruitière
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] tournesol
                  FAIL
         [0,5263] arboriculture fruitière
                  culture fruitière
         [0,0000] cerisier
                  FAIL
-        [0,0000] cerisier
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] cerisier
                  FAIL
         [0,0000] cerisier
+                 FAIL
+        [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5263] arboriculture fruitière
                  culture fruitière
         [0,2917] pommier
                  attier
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,5263] arboriculture fruitière
                  culture fruitière
-        [0,0000] arboriculture fruitière
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,5833] arbre fruitier à noyau
+                 arbre à fruits à pépins
+        [0,0000] arbre fruitier à noyau
+                 FAIL
+        [0,2692] arboriculture fruitière
+                 jardin
+        [0,2308] culture fruitière
+                 jardin
         [0,0000] arboriculture fruitière
                  FAIL
         [0,5263] arboriculture fruitière
@@ -7353,6 +8185,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] poirier
                  FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -7362,11 +8196,21 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  culture fruitière
         [0,0000] poirier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] poirier
                  FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] tournesol
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -7418,6 +8262,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] actinidia
                  FAIL
         [0,0000] actinidia
@@ -7440,7 +8286,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] abricotier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5263] arboriculture fruitière
                  culture fruitière
@@ -7474,10 +8324,28 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pêcher
                  FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
         [0,3333] céréale à paille
                  lentille potagère
         [1,0000] céréale à paille
                  céréale à paille
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
         [0,0000] tournesol
                  FAIL
         [0,0000] gel
@@ -7486,7 +8354,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] gel
                  FAIL
+        [0,0000] semence
+                 FAIL
         [0,0000] gel
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -7502,6 +8374,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] horticulture ornementale
                  FAIL
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
@@ -7515,11 +8389,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] poirier
                  FAIL
 
-    Predicted matches (46) :
+    Predicted matches (49) :
         [0,5263] culture fruitière
                  arboriculture fruitière
         [0,5263] culture fruitière
                  arboriculture fruitière
+        [0,2400] arbre à fruits à pépins
+                 culture fruitière
         [0,1935] lentille potagère
                  céréale à paille
         [0,5263] culture fruitière
@@ -7553,6 +8429,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2917] attier
                  pommier
         [0,5263] culture fruitière
+                 arboriculture fruitière
+        [0,5833] arbre à fruits à pépins
+                 arbre fruitier à noyau
+        [0,2692] jardin
                  arboriculture fruitière
         [0,5263] culture fruitière
                  arboriculture fruitière
@@ -7609,14 +8489,18 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] houblon
                  FAIL
 
-    Recall   : 0.11321862405059435
-    Precision: 0.40364900748472765
-    F-Score  : 0.17683670804092833
+    Recall   : 0.09124398017261838
+    Precision: 0.4012330295277873
+    F-Score  : 0.14867739151155293
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_Tomate_d_industrie_no3_cle4bdce9-2.html
-    Reference matches (1) :
+    Reference matches (3) :
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] oranger
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
 
     Predicted matches (1) :
@@ -7629,7 +8513,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_ZNA-PO_20190527_N2_cle048919.html
-    Reference matches (42) :
+    Reference matches (44) :
         [0,0000] jardin
                  FAIL
         [1,0000] zone non agricole
@@ -7643,6 +8527,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] agrume
                  FAIL
         [0,0000] palmier
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,5833] laurier
                  laurier ornemental
@@ -7710,6 +8596,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] rosier ornemental
                  FAIL
+        [0,0000] châtaignier
+                 FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture
@@ -7733,9 +8621,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5833] laurier ornemental
                  laurier
 
-    Recall   : 0.1349206349206349
+    Recall   : 0.12878787878787878
     Precision: 0.5416666666666667
-    F-Score  : 0.21603128054740955
+    F-Score  : 0.2080979284369115
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_ZNA_2018_N09_cle4f1dfc.html
@@ -7767,7 +8655,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_ZNA_n_04_du_29_avril_2011_cle8fd486.html
-    Reference matches (38) :
+    Reference matches (41) :
         [0,0000] zone non agricole
                  FAIL
         [0,0000] jardin
@@ -7804,6 +8692,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] châtaignier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] zone non agricole
                  FAIL
         [0,0000] jardin
@@ -7811,6 +8701,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] zone non agricole
                  FAIL
         [0,0000] châtaignier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] châtaignier
                  FAIL
@@ -7851,13 +8745,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5333] chou potager
                  palmier
 
-    Recall   : 0.028289473684210524
+    Recall   : 0.02621951219512195
     Precision: 0.43333333333333335
-    F-Score  : 0.05311163895486935
+    F-Score  : 0.04944714727996462
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b.html
-    Reference matches (31) :
+    Reference matches (33) :
         [0,0000] zone non agricole
                  FAIL
         [0,0000] zone non agricole
@@ -7874,11 +8768,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,3500] jardin
                  zone non agricole
+        [0,0000] poirée
+                 FAIL
         [0,0000] zone non agricole
                  FAIL
         [0,0000] jardin
                  FAIL
         [0,0000] zone non agricole
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] rosier
                  FAIL
@@ -7939,9 +8837,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] culture légumière
                  FAIL
 
-    Recall   : 0.08565977900004955
+    Recall   : 0.08046827724247078
     Precision: 0.331931643625192
-    F-Score  : 0.13617708456418132
+    F-Score  : 0.12953429995129442
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_ZNA_n_13_du_21_septembre_2012_cle82a3a6.html
@@ -8025,12 +8923,18 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_arbo_27_cle4dff21.html
-    Reference matches (21) :
+    Reference matches (26) :
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] tournesol
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -8046,11 +8950,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture
+                 FAIL
+        [0,0000] châtaignier
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -8077,10 +8985,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_arboriculture_25_du_23_05_19_cle077bda.html
-    Reference matches (128) :
+    Reference matches (159) :
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
@@ -8168,8 +9078,24 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] poirier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
+        [0,0000] tournesol
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] tournesol
+                 FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
         [0,0000] arboriculture fruitière
@@ -8204,11 +9130,25 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] poirier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
                  FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
         [0,0000] pêcher
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -8268,7 +9208,19 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] cerisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,3571] culture fruitière
+                 betterave sucrière
         [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] cerisier
                  FAIL
@@ -8276,19 +9228,29 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] cerisier
                  FAIL
-        [0,0000] cerisier
+        [0,0000] culture fruitière
                  FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] framboisier
                  FAIL
         [0,0000] fraisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] jardins familiaux
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] cerisier
                  FAIL
@@ -8300,12 +9262,20 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2941] floriculture
                  floriculture
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
+        [0,0000] oranger
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
@@ -8335,7 +9305,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,7222] arboriculture
                  arboriculture ornementale
 
-    Predicted matches (34) :
+    Predicted matches (35) :
         [0,7222] arboriculture ornementale
                  arboriculture
         [0,7222] arboriculture ornementale
@@ -8384,6 +9354,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  arboriculture
         [0,7222] arboriculture ornementale
                  arboriculture
+        [0,3571] betterave sucrière
+                 culture fruitière
         [0,7222] arboriculture ornementale
                  arboriculture
         [0,7222] arboriculture ornementale
@@ -8405,17 +9377,19 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,7222] arboriculture ornementale
                  arboriculture
 
-    Recall   : 0.14470724566657467
-    Precision: 0.5447802189800458
-    F-Score  : 0.22867317833730316
+    Recall   : 0.11874006479537368
+    Precision: 0.5394191514989833
+    F-Score  : 0.19463577631406612
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_arboriculture_31_du_20_06_19_cle016821.html
-    Reference matches (108) :
+    Reference matches (135) :
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
@@ -8459,6 +9433,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] poirier
                  FAIL
         [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -8477,6 +9453,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,4667] arboriculture fruitière
                  jardin
@@ -8491,6 +9473,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] pommier
                  FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -8526,7 +9510,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pêcher
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
@@ -8542,6 +9536,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,4667] pommier
                  attier
         [0,0000] pommier
@@ -8568,7 +9566,17 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] poirier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] poirier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] cerisier
                  FAIL
@@ -8584,15 +9592,27 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] cerisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] framboisier
                  FAIL
         [0,0000] fraisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] jardins familiaux
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -8610,8 +9630,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2941] floriculture
                  floriculture
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
+        [0,0000] oranger
+                 FAIL
         [0,7222] arboriculture
                  arboriculture ornementale
         [0,0000] pommier
@@ -8677,13 +9703,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,7222] arboriculture ornementale
                  arboriculture
 
-    Recall   : 0.13071498158894956
+    Recall   : 0.10457198527115964
     Precision: 0.6060281123058749
-    F-Score  : 0.21504634165938202
+    F-Score  : 0.1783663217892774
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_bilan_ble_campagne_2014_2015_cle037c1e.html
-    Reference matches (28) :
+    Reference matches (29) :
         [0,0000] blé
                  FAIL
         [1,0000] blé tendre
@@ -8707,6 +9733,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] blé tendre
                  blé tendre
         [0,0000] oranger
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [1,0000] blé tendre
                  blé tendre
@@ -8785,18 +9813,20 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] blé tendre
                  blé tendre
 
-    Recall   : 0.6834733893557423
+    Recall   : 0.6599053414469236
     Precision: 0.911297852474323
-    F-Score  : 0.7811124449779911
+    F-Score  : 0.7654901960784313
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_bilan_cereales_Normandie_R2015_V2_cle0e2acd.html
-    Reference matches (9) :
+    Reference matches (10) :
         [0,6429] blé tendre d'hiver
                  blé tendre d'hiver
         [1,0000] blé tendre
                  blé tendre
         [0,0000] blé
+                 FAIL
+        [0,0000] oranger
                  FAIL
         [1,0000] orge d'hiver
                  orge d'hiver
@@ -8825,13 +9855,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] blé tendre
                  blé tendre
 
-    Recall   : 0.5575396825396824
+    Recall   : 0.5017857142857143
     Precision: 0.8363095238095237
-    F-Score  : 0.669047619047619
+    F-Score  : 0.6272321428571428
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_ge_legumes_no11_du_01-07-20_cle497eed.html
-    Reference matches (110) :
+    Reference matches (111) :
         [0,0000] asperge
                  FAIL
         [0,0000] carotte
@@ -8984,6 +10014,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  légume tubercule
         [0,5000] culture légumière
                  légume tubercule
+        [0,0000] tournesol
+                 FAIL
         [0,5000] culture légumière
                  légume tubercule
         [1,0000] pomme de terre
@@ -9159,9 +10191,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5000] légume tubercule
                  culture légumière
 
-    Recall   : 0.30574034814548645
+    Recall   : 0.3029859305946262
     Precision: 0.6423877993986689
-    F-Score  : 0.4142981514498602
+    F-Score  : 0.4117619498583278
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_legumes_03_cle872d86.html
@@ -9699,7 +10731,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_legumes_05_cle827cb7-1.html
-    Reference matches (246) :
+    Reference matches (251) :
         [0,0000] asperge
                  FAIL
         [0,0000] asperge
@@ -9745,6 +10777,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] poireau
                  FAIL
         [0,0000] chou
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] tomate
                  FAIL
@@ -9846,6 +10880,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2857] fraisier
                  fraisier
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] culture légumière
                  FAIL
         [0,2000] floriculture
@@ -9946,6 +10982,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tomate
                  FAIL
+        [0,0000] châtaignier
+                 FAIL
         [0,0000] culture légumière
                  FAIL
         [0,0000] tomate
@@ -9983,6 +11021,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] pois
                  FAIL
         [0,0000] pois
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] culture légumière
                  FAIL
@@ -10321,13 +11363,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,1892] poireau
                  poireau
 
-    Recall   : 0.11516165333165747
+    Recall   : 0.11286759649238143
     Precision: 0.4155676080254864
-    F-Score  : 0.18034601178355772
+    F-Score  : 0.1775207885353474
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_legumes_12_du_22-07-20__cle0bb819.html
-    Reference matches (119) :
+    Reference matches (127) :
         [0,0000] asperge
                  FAIL
         [0,0000] poirée
@@ -10488,7 +11530,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tomate
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] poivron
+                 FAIL
+        [0,0000] tournesol
                  FAIL
         [0,0000] tomate
                  FAIL
@@ -10506,7 +11552,19 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  fraisier
         [0,0000] floriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] petit fruit
                  FAIL
         [0,3684] culture légumière
                  légume tubercule
@@ -10617,13 +11675,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2414] poireau
                  poireau
 
-    Recall   : 0.10358023734796663
+    Recall   : 0.09705549798746481
     Precision: 0.5135853435170012
-    F-Score  : 0.17239228313857383
+    F-Score  : 0.1632589171444772
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_legumes_12_du_26-06-19__cle047171.html
-    Reference matches (97) :
+    Reference matches (101) :
         [1,0000] betterave potagère
                  betterave potagère
         [0,0000] maraîchage
@@ -10742,6 +11800,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] concombre
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] tomate
                  FAIL
         [0,0000] tomate
@@ -10762,7 +11822,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  fraisier
         [0,0000] fraisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,3500] arboriculture fruitière
                  jardin
@@ -10871,13 +11937,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,1892] oignon
                  oignon
 
-    Recall   : 0.12673815178789122
+    Recall   : 0.12171881904381633
     Precision: 0.47107736227035124
-    F-Score  : 0.19973879178198298
+    F-Score  : 0.19345259642769166
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_legumes_15_cle8b2b14-1.html
-    Reference matches (271) :
+    Reference matches (276) :
         [0,0000] asperge
                  FAIL
         [1,0000] betterave potagère
@@ -10963,6 +12029,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] jardins familiaux
                  FAIL
         [0,0000] maïs
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] culture légumière
                  FAIL
@@ -11114,6 +12182,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] concombre
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] culture légumière
                  FAIL
         [0,0000] aubergine
@@ -11139,21 +12211,21 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] aubergine
                  FAIL
         [0,0000] concombre
-                 FAIL
-        [0,0000] aubergine
-                 FAIL
-        [0,0000] culture légumière
-                 FAIL
-        [0,0000] tomate
-                 FAIL
-        [0,0000] tomate
-                 FAIL
-        [0,0000] aubergine
                  FAIL
         [0,0000] aubergine
                  FAIL
         [0,0000] culture légumière
                  FAIL
+        [0,0000] tomate
+                 FAIL
+        [0,0000] tomate
+                 FAIL
+        [0,0000] aubergine
+                 FAIL
+        [0,0000] aubergine
+                 FAIL
+        [0,0000] culture légumière
+                 FAIL
         [0,0000] concombre
                  FAIL
         [0,0000] tomate
@@ -11161,6 +12233,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] poivron
                  FAIL
         [0,0000] poivron
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,2917] culture légumière
                  légume tubercule
@@ -11555,13 +12631,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,1795] poireau
                  poireau
 
-    Recall   : 0.11957191419300288
+    Recall   : 0.11740575632718761
     Precision: 0.4713604841228333
-    F-Score  : 0.19075439262473523
+    F-Score  : 0.18798779664707452
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_legumes_allium_pomme_de_terre_AURA_2020-9_cle0d26da.html
-    Reference matches (85) :
+    Reference matches (101) :
         [0,3889] pomme de terre
                  pommier
         [0,0000] culture légumière de plein champ
@@ -11672,6 +12748,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [1,0000] pomme de terre
                  pomme de terre
+        [0,0000] semence
+                 FAIL
         [1,0000] pomme de terre
                  pomme de terre
         [1,0000] pomme de terre
@@ -11708,6 +12786,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  pomme de terre
         [0,0000] tomate
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] tomate
                  FAIL
         [0,0000] jardins familiaux
@@ -11716,19 +12796,47 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] poivron
                  FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
         [0,2400] tomate
                  tomate
         [0,0000] tomate
                  FAIL
         [0,0000] tomate
                  FAIL
-        [0,0000] tomate
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] tomate
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] tomate
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,4615] tomate
                  tomate
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] tomate
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] tomate
                  FAIL
@@ -11813,18 +12921,20 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] culture légumière
                  FAIL
 
-    Recall   : 0.13622164122352573
+    Recall   : 0.11464197528712561
     Precision: 0.2968933206153766
-    F-Score  : 0.18675547587096272
+    F-Score  : 0.16541199291428124
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_maraichage_no20_du_23_Octobre_2020_cle81e1d1.html
-    Reference matches (35) :
+    Reference matches (44) :
         [0,0000] maraîchage
                  FAIL
         [0,0000] maraîchage
                  FAIL
         [0,0000] tomate
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] salade
                  FAIL
@@ -11836,13 +12946,19 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tomate
                  FAIL
-        [0,0000] tomate
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] tomate
                  FAIL
         [0,0000] tomate
                  FAIL
         [0,0000] tomate
+                 FAIL
+        [0,0000] tomate
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] tomate
                  FAIL
@@ -11852,8 +12968,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] piment
                  FAIL
+        [0,0000] semence
+                 FAIL
         [0,3889] tomate
                  tomate
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] semence
+                 FAIL
         [0,3333] tomate
                  tomate
         [0,0000] poivron
@@ -11868,6 +12990,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,3333] fraisier
                  fraisier
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] salade
                  FAIL
         [0,0000] salade
@@ -11885,6 +13009,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] salade
                  FAIL
         [0,0000] laitue
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] poirée
                  FAIL
@@ -11907,13 +13033,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,4286] laitue
                  laitue
 
-    Recall   : 0.07097505668934241
+    Recall   : 0.056457431457431456
     Precision: 0.35487528344671204
-    F-Score  : 0.11829176114890401
+    F-Score  : 0.09741674447556802
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_no13_du_15-05-18_cle01162f.html
-    Reference matches (60) :
+    Reference matches (63) :
         [0,1351] colza
                  colza de printemps
         [0,4211] céréale
@@ -11933,6 +13059,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] floriculture
                  FAIL
         [0,0000] colza
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] colza
                  FAIL
@@ -11980,6 +13108,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  fève maraichère
         [0,0000] fève
                  FAIL
+        [0,0000] tournesol
+                 FAIL
         [0,4375] féverole de printemps
                  féverole protéagineux
         [1,0000] féverole de printemps
@@ -11995,6 +13125,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] colza
                  FAIL
         [0,0000] maïs
+                 FAIL
+        [0,0000] oranger
                  FAIL
         [0,0000] poireau
                  FAIL
@@ -12097,9 +13229,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] lin oléagineux
                  lin oléagineux
 
-    Recall   : 0.32053075356747907
+    Recall   : 0.3052673843499801
     Precision: 0.6410615071349581
-    F-Score  : 0.42737433808997205
+    F-Score  : 0.41358806911932783
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_no17_pommes_de_terre_cle8966e3-1.html
@@ -12129,7 +13261,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_no19_du_23-06-2020_cle09c329.html
-    Reference matches (16) :
+    Reference matches (18) :
         [0,0000] maïs
                  FAIL
         [0,1818] maïs
@@ -12145,6 +13277,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] gel
                  FAIL
         [0,0000] maïs
+                 FAIL
+        [0,0000] oranger
+                 FAIL
+        [0,0000] oranger
                  FAIL
         [0,0000] maïs
                  FAIL
@@ -12171,13 +13307,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] blé tendre
                  blé tendre
 
-    Recall   : 0.13636363636363635
+    Recall   : 0.1212121212121212
     Precision: 0.7272727272727272
-    F-Score  : 0.2296650717703349
+    F-Score  : 0.20779220779220775
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_no31_du_05-11-19_cle05121a.html
-    Reference matches (18) :
+    Reference matches (20) :
         [0,0000] céréale
                  FAIL
         [0,4706] céréale
@@ -12212,7 +13348,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] colza
                  FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] colza
+                 FAIL
+        [0,0000] gel
                  FAIL
 
     Predicted matches (5) :
@@ -12227,9 +13367,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2273] colza de printemps
                  colza
 
-    Recall   : 0.10794994765583002
+    Recall   : 0.09715495289024702
     Precision: 0.38861981156098807
-    F-Score  : 0.16896513546129915
+    F-Score  : 0.15544792462439525
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_no4_cle0e4cd5-1.html
@@ -12267,7 +13407,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_no7_du_31-03-20_cle835128.html
-    Reference matches (20) :
+    Reference matches (22) :
         [0,1852] colza
                  colza de printemps
         [0,0000] blé
@@ -12277,6 +13417,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] floriculture
                  FAIL
         [0,0000] colza
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] colza
                  FAIL
@@ -12325,9 +13469,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [1,0000] blé tendre
                  blé tendre
 
-    Recall   : 0.19310799875505757
+    Recall   : 0.17555272614096143
     Precision: 0.5517371393001645
-    F-Score  : 0.2860859240815668
+    F-Score  : 0.2663558603518036
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_oleagineux_02_du_11-09-18_cle8aec1b.html
@@ -12493,36 +13637,60 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_petits-fruits-2019_N05_cle41f1d8.html
-    Reference matches (35) :
+    Reference matches (61) :
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] fraisier
                  FAIL
         [0,0000] groseillier
                  FAIL
         [0,0000] floriculture
                  FAIL
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,2941] floriculture
                  floriculture
         [0,4706] fraisier
                  floriculture
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] framboisier
+                 FAIL
+        [0,0000] petit fruit
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,3333] groseillier
                  groseillier
         [0,5294] groseillier
                  groseillier
-        [0,0000] fraisier
+        [0,0000] culture fruitière
                  FAIL
-        [0,0000] framboisier
-                 FAIL
-        [0,0000] framboisier
-                 FAIL
-        [0,0000] framboisier
+        [0,0000] petit fruit
                  FAIL
         [0,0000] fraisier
                  FAIL
         [0,0000] framboisier
+                 FAIL
+        [0,0000] framboisier
+                 FAIL
+        [0,0000] framboisier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] fraisier
+                 FAIL
+        [0,0000] framboisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,3750] fraisier
                  fraisier
@@ -12542,6 +13710,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] fraisier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] tournesol
                  FAIL
         [0,4500] tournesol
@@ -12550,10 +13728,24 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pêcher
                  FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
         [0,3333] céréale à paille
                  lentille potagère
         [1,0000] céréale à paille
                  céréale à paille
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
         [0,0000] tournesol
                  FAIL
         [0,0000] gel
@@ -12562,7 +13754,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] gel
                  FAIL
+        [0,0000] semence
+                 FAIL
         [0,0000] gel
+                 FAIL
+        [0,0000] semence
                  FAIL
 
     Predicted matches (13) :
@@ -12593,9 +13789,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] engrais vert
                  FAIL
 
-    Recall   : 0.12877561550936165
+    Recall   : 0.07388764824307635
     Precision: 0.3240791458283719
-    F-Score  : 0.18431291902293784
+    F-Score  : 0.12033891413354644
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_pomme_de_terre_8_du_10_mai_2016_cle0127ee.html
@@ -12637,7 +13833,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSV_viti_10_cle4e6966-2.html
-    Reference matches (23) :
+    Reference matches (25) :
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
@@ -12668,6 +13864,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arbuste à baies
                  FAIL
+        [0,0000] tournesol
+                 FAIL
         [0,0000] arbuste à baies
                  FAIL
         [0,0000] arbuste à baies
@@ -12675,6 +13873,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arbuste à baies
                  FAIL
         [0,0000] vigne
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] vigne
                  FAIL
@@ -12693,7 +13893,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSVarbo9_cle8977d6-1.html
-    Reference matches (60) :
+    Reference matches (61) :
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
@@ -12727,6 +13927,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] floriculture
                  FAIL
         [0,0000] floriculture
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] prunier
                  FAIL
@@ -12859,13 +14061,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5909] arboriculture ornementale
                  arboriculture
 
-    Recall   : 0.18024531874992183
+    Recall   : 0.1772904774589395
     Precision: 0.49251275740395783
-    F-Score  : 0.2639079993039705
+    F-Score  : 0.26072678473295136
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSVcampagnols10_cle06d1a1.html
-    Reference matches (42) :
+    Reference matches (43) :
         [0,0000] arboriculture
                  FAIL
         [0,0000] zone non agricole
@@ -12931,6 +14133,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] pommier
                  FAIL
         [0,0000] arboriculture
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -12989,9 +14193,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.12745098039215685
+    Recall   : 0.12448700410396717
     Precision: 0.24836601307189543
-    F-Score  : 0.16845694799658995
+    F-Score  : 0.16584734179036473
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BSVcampagnols3_cle8d3542.html
@@ -13365,7 +14569,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BULLETIN_DE_SANTE_DU_VEGETAL_GC_2013-_No10_-_30_avril_2013_cle858e15.html
-    Reference matches (34) :
+    Reference matches (35) :
         [0,0000] colza
                  FAIL
         [0,0000] floriculture
@@ -13399,6 +14603,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] floriculture
                  FAIL
         [0,0000] colza
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] colza
                  FAIL
@@ -13469,13 +14675,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.05220588235294117
+    Recall   : 0.05071428571428571
     Precision: 0.1109375
-    F-Score  : 0.071
+    F-Score  : 0.0696078431372549
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BULLETIN_DE_SANTE_DU_VEGETAL_GC_2013-_No14_-_28_MAI_2013_cle4c4dec.html
-    Reference matches (30) :
+    Reference matches (33) :
         [0,4500] ray-grass
                  chanvre oléagineux
         [0,0000] seigle
@@ -13494,7 +14700,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,2857] maïs
                  maïs popcorn
+        [0,0000] oranger
+                 FAIL
         [0,0000] blé
+                 FAIL
+        [0,0000] oranger
+                 FAIL
+        [0,0000] oranger
                  FAIL
         [0,0000] orge d'hiver
                  FAIL
@@ -13585,13 +14797,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.13825676911698415
+    Recall   : 0.12568797192453104
     Precision: 0.17067308049075228
-    F-Score  : 0.15276418716971704
+    F-Score  : 0.14476634614548053
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/BULLETIN_DE_SANTE_DU_VEGETAL_GC_2013-_No20_-_9_JUILLET_2013_cle8e731d.html
-    Reference matches (43) :
+    Reference matches (45) :
         [0,0000] orge d'hiver
                  FAIL
         [0,0000] seigle
@@ -13613,6 +14825,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] céréale
                  FAIL
         [0,0000] céréale
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,0000] céréale
                  FAIL
@@ -13717,16 +14933,18 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.07067826303239377
+    Recall   : 0.06753700689762072
     Precision: 0.1688425172440518
-    F-Score  : 0.09964476427517811
+    F-Score  : 0.09648143842517246
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/Cassis_n_6_du_16_05_19_cle034491.html
-    Reference matches (2) :
+    Reference matches (3) :
         [0,0000] cassissier
                  FAIL
         [0,0000] cassissier
+                 FAIL
+        [0,0000] poirée
                  FAIL
 
     Predicted matches (0) :
@@ -13737,7 +14955,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/Note_nat-_BSV_Aromia_bungii_juin_2018_v2_cle09d4e1.html
-    Reference matches (13) :
+    Reference matches (14) :
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture fruitière
@@ -13751,6 +14969,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] arboriculture
                  FAIL
         [0,0000] horticulture ornementale
+                 FAIL
+        [0,0000] arbre fruitier à noyau
                  FAIL
         [0,0000] arboriculture
                  FAIL
@@ -13777,13 +14997,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] houblon
                  FAIL
 
-    Recall   : 0.07692307692307693
+    Recall   : 0.07142857142857142
     Precision: 0.2
-    F-Score  : 0.1111111111111111
+    F-Score  : 0.10526315789473682
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/Note_nationale_meth_alternative_adventices_GC_validee-2_cle06dc5b.html
-    Reference matches (69) :
+    Reference matches (75) :
         [0,0000] céréale
                  FAIL
         [1,0000] colza d'hiver
@@ -13814,8 +15034,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] prairie
                  FAIL
+        [0,0000] semence
+                 FAIL
         [0,5000] avoine
                  avoine nue d'hiver
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
         [0,0000] ray-grass
                  FAIL
         [0,5000] avoine
@@ -13834,6 +15062,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tournesol
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,5294] tournesol
                  tournesol
         [0,0000] colza
@@ -13847,6 +15077,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] blé
                  FAIL
         [0,0000] pois protéagineux
+                 FAIL
+        [0,0000] semence
                  FAIL
         [0,2727] blé
                  blé tendre d'hiver
@@ -13993,9 +15225,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.1119852964398722
+    Recall   : 0.10302647272468243
     Precision: 0.2238706129107814
-    F-Score  : 0.14929150420167203
+    F-Score  : 0.14111229869226075
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/als_Grandes_Cultures_no10_2016-04-26_cle4d3231.html
@@ -14071,8 +15303,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/alsace03_BSV_VIGNE_250417_cle0358f2.html
-    Reference matches (3) :
+    Reference matches (7) :
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
+                 FAIL
         [0,0000] vigne
+                 FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] vigne
                  FAIL
@@ -14117,7 +15357,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/alsace_vigne_no10_du_23-06-20_cle812596.html
-    Reference matches (6) :
+    Reference matches (10) :
         [0,3636] pois
                  petits pois
         [0,4167] vigne
@@ -14128,6 +15368,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  petits pois
         [0,4000] pois
                  petits pois
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] vigne
                  FAIL
 
@@ -14143,9 +15391,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,4000] petits pois
                  pois
 
-    Recall   : 0.31792929292929295
+    Recall   : 0.19075757575757576
     Precision: 0.38151515151515153
-    F-Score  : 0.34683195592286503
+    F-Score  : 0.25434343434343437
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/annexe_au_BSV_GC_No16_desherbage_alternatif_mais_cle81f45a.html
@@ -14177,17 +15425,33 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bsv_01_fruits_rouges_25_avril_2018_cle8fdf59.html
-    Reference matches (5) :
+    Reference matches (13) :
         [0,0000] fraisier
                  FAIL
         [0,0000] fraisier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,4375] fraisier
                  fraisier
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] floriculture
                  FAIL
         [0,1429] floriculture
                  floriculture
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
+                 FAIL
+        [0,0000] gel
+                 FAIL
 
     Predicted matches (3) :
         [0,4375] fraisier
@@ -14197,9 +15461,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,1429] floriculture
                  floriculture
 
-    Recall   : 0.11607142857142856
+    Recall   : 0.04464285714285714
     Precision: 0.19345238095238093
-    F-Score  : 0.1450892857142857
+    F-Score  : 0.07254464285714285
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bsv_13_pdt_21_juin_cle8d177f-1.html
@@ -14345,13 +15609,21 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bsv_arbo_75_2015_cle429b97.html
-    Reference matches (35) :
+    Reference matches (51) :
         [0,0000] arboriculture
                  FAIL
         [0,0000] pommier
                  FAIL
         [0,3333] arboriculture fruitière
                  jardin
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] poirier
                  FAIL
         [0,0000] pommier
@@ -14361,6 +15633,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] pommier
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,4667] arboriculture fruitière
                  jardin
@@ -14374,11 +15648,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pommier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] bananier plantain
                  FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,4667] pommier
                  attier
@@ -14396,9 +15674,19 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pommier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
@@ -14406,7 +15694,15 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  jardin
         [0,0000] pommier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -14443,13 +15739,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,1364] zone non agricole
                  jardin
 
-    Recall   : 0.08231460643225348
+    Recall   : 0.05649041617899749
     Precision: 0.24008426876073932
-    F-Score  : 0.12259622234590944
+    F-Score  : 0.09146067381361499
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bsv_arbo_n25_19092017_cle4b1c13.html
-    Reference matches (27) :
+    Reference matches (40) :
         [0,0000] arboriculture
                  FAIL
         [0,0000] arboriculture
@@ -14458,24 +15754,46 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  attier
         [0,4667] prunier
                  prunier
+        [0,0000] arbre fruitier à noyau
+                 FAIL
         [0,0000] actinidia
                  FAIL
         [0,0000] arboriculture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] arboriculture fruitière
                  FAIL
         [0,0000] arboriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5000] arboriculture fruitière
                  jardin
         [0,0000] arboriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,3889] pommier
                  attier
+        [0,0000] petit fruit
+                 FAIL
         [0,0000] pommier
                  FAIL
         [0,0000] arboriculture
@@ -14488,6 +15806,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  prunier
         [1,0000] arbre fruitier à noyau
                  arbre fruitier à noyau
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,4118] arboriculture fruitière
                  jardin
         [0,3529] pêcher
@@ -14527,13 +15849,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2692] prunier
                  prunier
 
-    Recall   : 0.1864935385360222
+    Recall   : 0.12588313851181498
     Precision: 0.4682384364002011
-    F-Score  : 0.266745618743773
+    F-Score  : 0.19842175889556324
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bsv_grandes_cultures_n27_18052017_cle88cbb1-1.html
-    Reference matches (49) :
+    Reference matches (57) :
         [0,0000] colza
                  FAIL
         [0,0000] lin
@@ -14596,6 +15918,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tournesol
                  FAIL
+        [0,0000] semence
+                 FAIL
         [0,0000] tournesol
                  FAIL
         [0,0000] tournesol
@@ -14614,14 +15938,18 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] maïs
                  FAIL
-        [0,0000] maïs
-                 FAIL
+        [0,3077] maïs
+                 maïs popcorn
+        [0,6154] semence
+                 maïs popcorn
         [0,1176] maïs
                  maïs popcorn
         [0,2857] maïs
                  canne à sucre
         [0,2857] maïs
                  maïs popcorn
+        [0,0000] gel
+                 FAIL
         [0,0000] colza
                  FAIL
         [0,0000] protéagineux
@@ -14632,8 +15960,18 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] maïs
                  FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
+        [0,0000] semence
+                 FAIL
 
-    Predicted matches (21) :
+    Predicted matches (22) :
         [0,0000] grande culture
                  FAIL
         [0,0000] grande culture
@@ -14662,6 +16000,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,1538] maïs popcorn
                  maïs
+        [0,6154] maïs popcorn
+                 semence
         [0,1176] maïs popcorn
                  maïs
         [0,2857] canne à sucre
@@ -14677,16 +16017,18 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.10053192106013235
-    Precision: 0.23457448247364215
-    F-Score  : 0.14074468948418528
+    Recall   : 0.10261650973725277
+    Precision: 0.2518840339695955
+    F-Score  : 0.14582465885228021
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bsv_maraichage_no11_du_05_Juin_2020_cle012212.html
-    Reference matches (114) :
+    Reference matches (141) :
         [0,0000] maraîchage
                  FAIL
         [0,0000] maraîchage
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,0000] tomate
                  FAIL
@@ -14716,6 +16058,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tomate
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,4118] tomate
                  tomate
         [0,3333] tomate
@@ -14748,10 +16092,16 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] tomate
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] tomate
                  FAIL
         [0,4118] tomate
                  tomate
+        [0,0000] culture fruitière
+                 FAIL
         [0,3529] tomate
                  tomate
         [0,0000] tomate
@@ -14762,8 +16112,14 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] piment
                  FAIL
+        [0,0000] semence
+                 FAIL
         [0,3889] tomate
                  tomate
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] semence
+                 FAIL
         [0,3333] tomate
                  tomate
         [0,0000] poivron
@@ -14774,23 +16130,47 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] aubergine
                  FAIL
-        [0,0000] floriculture
-                 FAIL
-        [0,0000] aubergine
-                 FAIL
-        [0,0000] aubergine
-                 FAIL
-        [0,0000] aubergine
-                 FAIL
-        [0,0000] fraisier
-                 FAIL
-        [0,0000] fraisier
-                 FAIL
-        [0,0000] fraisier
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] floriculture
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] aubergine
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] aubergine
+                 FAIL
+        [0,0000] aubergine
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] fraisier
+                 FAIL
+        [0,0000] fraisier
+                 FAIL
+        [0,0000] fraisier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] floriculture
+                 FAIL
+        [0,0000] fraisier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] maraîchage
                  FAIL
@@ -14809,6 +16189,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,3846] melon
                  melon
         [0,0000] melon
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] melon
                  FAIL
@@ -14842,6 +16224,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  melon
         [0,0000] courgette
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] courgette
                  FAIL
         [0,0000] courgette
@@ -14864,6 +16248,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  courgette
         [0,0000] courgette
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] courgette
                  FAIL
         [0,0000] tomate
@@ -14880,7 +16268,11 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] chicorée scarole
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] laitue
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] tomate
                  FAIL
@@ -14899,6 +16291,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] sorgho grain
                  FAIL
         [0,0000] riz
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] tomate
                  FAIL
@@ -14967,9 +16361,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,2500] maïs popcorn
                  maïs
 
-    Recall   : 0.06959145665116281
+    Recall   : 0.05626543303711036
     Precision: 0.3051317714704831
-    F-Score  : 0.11333465797475087
+    F-Score  : 0.09501109051775522
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bsv_na_tabac_03_20180523_cle8e53e1.html
@@ -15085,7 +16479,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bsv_vigne_n1_fronton_23032017_cle825f73.html
-    Reference matches (32) :
+    Reference matches (33) :
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
@@ -15103,6 +16497,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] vigne
                  FAIL
         [0,0000] vigne
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] vigne
                  FAIL
@@ -15289,7 +16685,7 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/bulletindesanteduvegetalgc2014-n9-15avril2014_cle066b5e.html
-    Reference matches (35) :
+    Reference matches (36) :
         [0,0000] colza
                  FAIL
         [0,0000] blé
@@ -15309,6 +16705,8 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] colza
                  FAIL
         [0,0000] colza
+                 FAIL
+        [0,0000] gel
                  FAIL
         [0,0000] blé
                  FAIL
@@ -15407,13 +16805,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.1214868699994037
+    Recall   : 0.11811223472164249
     Precision: 0.18236547499905137
-    F-Score  : 0.14582747915736446
+    F-Score  : 0.14336899604455652
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/char_Grandes_Cultures_no22_2016-07-07_cle02be6e.html
-    Reference matches (60) :
+    Reference matches (62) :
         [0,0000] betterave
                  FAIL
         [0,0000] maïs
@@ -15524,6 +16922,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  pomme de terre
         [1,0000] pomme de terre
                  pomme de terre
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [1,0000] pomme de terre
                  pomme de terre
         [1,0000] pomme de terre
@@ -15587,9 +16989,9 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] grande culture
                  FAIL
 
-    Recall   : 0.2579145854145854
+    Recall   : 0.24959476007863104
     Precision: 0.6189950049950049
-    F-Score  : 0.36411470882059116
+    F-Score  : 0.3557442557442557
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/char_Grandes_Cultures_no42_2016-11-24_cle0385bf.html
@@ -15669,14 +17071,18 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/lorraine_arboriculture_no11_du_13-05-20_cle8ee895.html
-    Reference matches (28) :
+    Reference matches (43) :
         [0,0000] cerisier
                  FAIL
         [0,0000] prunier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] prunier
                  FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] pommier
                  FAIL
@@ -15690,23 +17096,45 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  arboriculture fruitière
         [0,0000] cerisier
                  FAIL
+        [0,0000] poirée
+                 FAIL
         [0,0000] cerisier
                  FAIL
         [0,0000] prunier
                  FAIL
-        [0,0000] prunier
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] prunier
                  FAIL
         [0,0000] prunier
                  FAIL
         [0,0000] prunier
+                 FAIL
+        [0,0000] prunier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] poirée
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] poirée
                  FAIL
         [0,5385] arboriculture fruitière
                  jardin
         [0,0000] pommier
                  FAIL
         [0,0000] pommier
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,5000] arboriculture fruitière
                  jardin
@@ -15726,6 +17154,10 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] pommier
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
+        [0,0000] culture fruitière
+                 FAIL
 
     Predicted matches (4) :
         [0,0000] arbre à fruits à pépins
@@ -15737,13 +17169,13 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,5000] jardin
                  arboriculture fruitière
 
-    Recall   : 0.0728021978021978
+    Recall   : 0.04740608228980322
     Precision: 0.5096153846153846
-    F-Score  : 0.12740384615384615
+    F-Score  : 0.0867430441898527
 
 
 html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21/test/CorpusAlea.html/lorraine_vigne_no14_du_29-07-20_cle4bcf91.html
-    Reference matches (18) :
+    Reference matches (23) :
         [0,0000] vigne
                  FAIL
         [0,0000] arboriculture
@@ -15762,19 +17194,29 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
                  FAIL
         [0,0000] arbuste à baies
                  FAIL
+        [0,0000] culture fruitière
+                 FAIL
         [0,0000] arbuste à baies
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] vigne
                  FAIL
         [0,0000] arboriculture
                  FAIL
         [0,0000] cerisier
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] prunier
                  FAIL
         [0,5909] arboriculture
                  arboriculture ornementale
         [0,0000] cerisier
+                 FAIL
+        [0,0000] petit fruit
+                 FAIL
+        [0,0000] culture fruitière
                  FAIL
         [0,0000] vigne
                  FAIL
@@ -15787,12 +17229,12 @@ html of /Users/belka/Documents/GitHub/termExtraction/resources/Corpus-v-12-04-21
         [0,0000] houblon
                  FAIL
 
-    Recall   : 0.03282828282828283
+    Recall   : 0.025691699604743084
     Precision: 0.29545454545454547
-    F-Score  : 0.0590909090909091
+    F-Score  : 0.04727272727272727
 
 
 Global results
-    Recall   : 0.13189334867372202
-    Precision: 0.4602288626791149
-    F-Score  : 0.20502904532617208
+    Recall   : 0.1175253346694037
+    Precision: 0.4605130955938095
+    F-Score  : 0.18726075238513398

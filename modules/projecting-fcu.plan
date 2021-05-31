@@ -8,20 +8,28 @@
     <alias module="save-baseline" param="outDir"/>
   </param>
 
-  <param name="outScoreBaseline">
-    <alias module="calculate-bm25-baseline" param="outFile"/>
-  </param>
-
   <param name="outDirToMap">
     <alias module="save-tomap" param="outDir"/>
+  </param>
+
+
+
+  <param name="outFileCompare">
+    <alias module="compare-layers" param="outFile"/>
+  </param>
+
+
+
+  <param name="outScoreBaseline">
+    <alias module="calculate-bm25-baseline" param="outFile"/>
   </param>
 
   <param name="outScoreToMap">
     <alias module="calculate-bm25-tomap" param="outFile"/>
   </param>
 
-  <param name="outFileCompare">
-    <alias module="compare-layers" param="outFile"/>
+  <param name="outScore">
+    <alias module="calculate-bm25" param="outFile"/>
   </param>
 
   <!--
@@ -37,22 +45,29 @@
   <!-- Project terms with rdf projector-->
   <project-baseline href="modules/project-lemma.plan">
     <source>resources/usageCulture20210112.rdf</source>
-    <targetLayerName>fcu</targetLayerName>
+    <targetLayerName>fcu-baseline</targetLayerName>
   </project-baseline>
+
 
   <!-- Remove overlaps -->
   <overlaps-baseline class="RemoveOverlaps">
-    <layerName>fcu</layerName>
+    <layerName>fcu-baseline</layerName>
     <removeEqual/>
     <removeIncluded/>
     <removeOverlapping/>
   </overlaps-baseline>
 
+  <!-- Filter results -->
+  <filtre-baseline class="Action">
+    <target>documents.sections.layer:fcu-baseline[@lemma == "gel" or @lemma == "orange" and @pos == "ADJ" or @lemma == "marron" and @pos == "ADJ" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "soleil"]</target>
+    <action>remove:fcu-baseline</action>
+    <removeFromLayer/>
+  </filtre-baseline>
 
   <!-- Save results-->
   <save-baseline href="modules/export.plan">
     <corpusFile>fcu-baseline.csv</corpusFile>
-    <lines>documents.sections.(layer:fcu)</lines>
+    <lines>documents.sections.(layer:fcu-baseline)</lines>
   </save-baseline>
 
   <!-- Bm25-->
@@ -60,7 +75,6 @@
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
   </calculate-bm25-baseline>
-
 
 
 
@@ -84,18 +98,19 @@
     <removeOverlapping/>
   </overlaps-tomap>
 
-
-  <filter-score class="Action">
+  <!-- Filter results -->
+  <filter-tomap class="Action">
     <target>documents.sections.layer:fcu-tomap[@similarity > 0.5]</target>
     <action>set:feat:score("positive")</action>
     <setFeatures/>
-  </filter-score>
+  </filter-tomap>
 
   <!-- Save results-->
   <save-tomap href="modules/export.plan">
     <corpusFile>fcu-tomap.csv</corpusFile>
     <lines>documents.sections.(layer:fcu-tomap[@score == "positive"])</lines>
   </save-tomap>
+
 
   <!-- Bm25-->
   <calculate-bm25-tomap href="modules/scores.plan">
@@ -108,21 +123,37 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  // III. Compare fcu outputs
+  // III. Compare outputs
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
   <compare-layers class="CompareElements">
     <sections>documents.sections</sections>
-    <reference>layer:fcu</reference>
+    <reference>layer:fcu-baseline</reference>
     <predicted>layer:fcu-tomap</predicted>
     <face>@skos-prefLabel</face>
     <similarity>jaccard</similarity>
   </compare-layers>
 
 
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // IV. Join outputs
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <merge-layers class="MergeLayers">
+    <sourceLayerNames>fcu-baseline, fcu-tomap[@score == "positive"]</sourceLayerNames>
+    <targetLayerName>fcu</targetLayerName>
+  </merge-layers>
 
 
+  <calculate-bm25 href="modules/scores.plan">
+    <keywords>sections.layer:fcu</keywords>
+    <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
+  </calculate-bm25>
 
 </alvisnlp-plan>

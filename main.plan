@@ -52,7 +52,8 @@
   <outDirToMap>output/d2kab</outDirToMap>
   <outFileCompare>output/d2kab/compare.txt</outFileCompare>
   <outScoreBaseline>output/d2kab/bm25-baseline.csv</outScoreBaseline>
-  <outScoreToMap>output/d2kab/bm25-tomap.csv</outScoreToMap> -->
+  <outScoreToMap>output/d2kab/bm25-tomap.csv</outScoreToMap>
+  <outScore>output/d2kab/bm25.csv</outScore> -->
 
 
   <!-- vespa -->
@@ -60,7 +61,8 @@
   <outDirToMap>output/vespa</outDirToMap>
   <outFileCompare>output/vespa/compare.txt</outFileCompare>
   <outScoreBaseline>output/vespa/bm25-baseline.csv</outScoreBaseline>
-  <outScoreToMap>output/vespa/bm25-tomap.csv</outScoreToMap> -->
+  <outScoreToMap>output/vespa/bm25-tomap.csv</outScoreToMap>
+  <outScore>output/vespa/bm25.csv</outScore> -->
 
 
   <!-- alea -->
@@ -69,6 +71,7 @@
   <outFileCompare>output/alea/compare.txt</outFileCompare>
   <outScoreBaseline>output/alea/bm25-baseline.csv</outScoreBaseline>
   <outScoreToMap>output/alea/bm25-tomap.csv</outScoreToMap>
+  <outScore>output/alea/bm25.csv</outScore>
 
 </project-fcu>
 
