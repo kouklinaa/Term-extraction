@@ -44,7 +44,7 @@
 -->
 
 <train class="TomapTrain">
-  <outFile>../resources/tomap/usageCulture.tomap</outFile>
+  <outFile>../resources/tomap/frenchCropUsage_20210525.tomap</outFile>
   <conceptIdentifier>document.@id</conceptIdentifier>
   <language>FR</language>
   <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
@@ -57,7 +57,7 @@
 
 <lemma class="TabularExport">
   <outDir>../resources/tomap</outDir>
-  <corpusFile>usageCulture20210112.lemma.txt</corpusFile>
+  <corpusFile>frenchCropUsage_20210525.lemma.txt</corpusFile>
   <lines>documents.sections</lines>
   <columns separator=";">
     str:join:' '(layer:words, @lemma); document.@id; document.@skos-prefLabel

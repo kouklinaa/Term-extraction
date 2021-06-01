@@ -1,0 +1,1692 @@
+multi usages	http://ontology.inrae.fr/frenchcropusage/Multi_usages	multi usages
+usages des plantes cultivées	http://ontology.inrae.fr/frenchcropusage/Usages_plantes_cultivees	usages des plantes cultivées
+abricotier	http://ontology.inrae.fr/frenchcropusage/Abricotiers	abricotier
+abricot	http://ontology.inrae.fr/frenchcropusage/Abricotiers	abricotier
+arbre fruitier à noyau	http://ontology.inrae.fr/frenchcropusage/Arbres_noyaux	arbre fruitier à noyau
+arbre à noyau	http://ontology.inrae.fr/frenchcropusage/Arbres_noyaux	arbre fruitier à noyau
+fruit à noyau	http://ontology.inrae.fr/frenchcropusage/Arbres_noyaux	arbre fruitier à noyau
+arboriculture fruitière	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere	arboriculture fruitière
+arbre fruitier	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere	arboriculture fruitière
+arbuste fruitier	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere	arboriculture fruitière
+fruitier	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere	arboriculture fruitière
+verger	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere	arboriculture fruitière
+abricotier pays	http://ontology.inrae.fr/frenchcropusage/Abricotiers_pays	abricotier pays
+abricot pays	http://ontology.inrae.fr/frenchcropusage/Abricotiers_pays	abricotier pays
+abricotier des antilles	http://ontology.inrae.fr/frenchcropusage/Abricotiers_pays	abricotier pays
+mamey	http://ontology.inrae.fr/frenchcropusage/Abricotiers_pays	abricotier pays
+abricotier-pays	http://ontology.inrae.fr/frenchcropusage/Abricotiers_pays	abricotier pays
+avocatier	http://ontology.inrae.fr/frenchcropusage/Avocatiers	avocatier
+avocat	http://ontology.inrae.fr/frenchcropusage/Avocatiers	avocatier
+litchi chinensis	http://ontology.inrae.fr/frenchcropusage/Litchis	litchi chinensis
+letchi	http://ontology.inrae.fr/frenchcropusage/Litchis	litchi chinensis
+litchi	http://ontology.inrae.fr/frenchcropusage/Litchis	litchi chinensis
+longanier	http://ontology.inrae.fr/frenchcropusage/Longaniers	longanier
+longane	http://ontology.inrae.fr/frenchcropusage/Longaniers	longanier
+longani	http://ontology.inrae.fr/frenchcropusage/Longaniers	longanier
+manguier	http://ontology.inrae.fr/frenchcropusage/Manguiers	manguier
+mangue	http://ontology.inrae.fr/frenchcropusage/Manguiers	manguier
+quenettier	http://ontology.inrae.fr/frenchcropusage/Quenettiers	quenettier
+ackee	http://ontology.inrae.fr/frenchcropusage/Quenettiers	quenettier
+guenepa	http://ontology.inrae.fr/frenchcropusage/Quenettiers	quenettier
+guinep.	http://ontology.inrae.fr/frenchcropusage/Quenettiers	quenettier
+kenepa	http://ontology.inrae.fr/frenchcropusage/Quenettiers	quenettier
+limoncillo	http://ontology.inrae.fr/frenchcropusage/Quenettiers	quenettier
+mamoncillo	http://ontology.inrae.fr/frenchcropusage/Quenettiers	quenettier
+quenette	http://ontology.inrae.fr/frenchcropusage/Quenettiers	quenettier
+ramboutan	http://ontology.inrae.fr/frenchcropusage/Ramboutans	ramboutan
+litchi velu	http://ontology.inrae.fr/frenchcropusage/Ramboutans	ramboutan
+cerisier	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+bigarreaux	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+cerisaie	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+cerise	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+cerise acide	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+cerise bigarreau	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+cerise douce	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+cerisier acide	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+cerisier doux	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+griotte	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+guigne	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+guignier	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+merise	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+merisier	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+cerise bigarreau pour transformation.	http://ontology.inrae.fr/frenchcropusage/Cerisiers	cerisier
+olivier fruit à noyaux	http://ontology.inrae.fr/frenchcropusage/Oliviers_fruits_noyaux	olivier fruit à noyaux
+olive	http://ontology.inrae.fr/frenchcropusage/Oliviers_fruits_noyaux	olivier fruit à noyaux
+oliveraie	http://ontology.inrae.fr/frenchcropusage/Oliviers_fruits_noyaux	olivier fruit à noyaux
+olive noire	http://ontology.inrae.fr/frenchcropusage/Oliviers_fruits_noyaux	olivier fruit à noyaux
+olive pour la bouche	http://ontology.inrae.fr/frenchcropusage/Oliviers_fruits_noyaux	olivier fruit à noyaux
+olive verte	http://ontology.inrae.fr/frenchcropusage/Oliviers_fruits_noyaux	olivier fruit à noyaux
+olive à huile	http://ontology.inrae.fr/frenchcropusage/Oliviers_fruits_noyaux	olivier fruit à noyaux
+oléiculture	http://ontology.inrae.fr/frenchcropusage/Oliviers_fruits_noyaux	olivier fruit à noyaux
+pêcher	http://ontology.inrae.fr/frenchcropusage/Pechers	pêcher
+brugnon	http://ontology.inrae.fr/frenchcropusage/Pechers	pêcher
+nectarine	http://ontology.inrae.fr/frenchcropusage/Pechers	pêcher
+pavie	http://ontology.inrae.fr/frenchcropusage/Pechers	pêcher
+pêche	http://ontology.inrae.fr/frenchcropusage/Pechers	pêcher
+pëcher de Pavie	http://ontology.inrae.fr/frenchcropusage/Pechers	pêcher
+pêche Pavie	http://ontology.inrae.fr/frenchcropusage/Pechers	pêcher
+pêche Pavie pour transformation	http://ontology.inrae.fr/frenchcropusage/Pechers	pêcher
+prunier	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+mirabelle	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+prune	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+prune d'ente	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+prunes à pruneaux	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+pruniculture	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+prunier d'ente	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+quetsche	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+quetschier	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+reine-claude	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+prune d'Ente	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+prunier d'Ente	http://ontology.inrae.fr/frenchcropusage/Pruniers	prunier
+arboriculture fruitière tropicale	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere_tropicale	arboriculture fruitière tropicale
+arbre à fruits tropicaux	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere_tropicale	arboriculture fruitière tropicale
+fruit tropical	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere_tropicale	arboriculture fruitière tropicale
+fruits tropicaux	http://ontology.inrae.fr/frenchcropusage/Arboriculture_fruitiere_tropicale	arboriculture fruitière tropicale
+combava	http://ontology.inrae.fr/frenchcropusage/Combavas	combava
+citron combera	http://ontology.inrae.fr/frenchcropusage/Combavas	combava
+combawa	http://ontology.inrae.fr/frenchcropusage/Combavas	combava
+cumbaba	http://ontology.inrae.fr/frenchcropusage/Combavas	combava
+cumbava	http://ontology.inrae.fr/frenchcropusage/Combavas	combava
+lime kaffir	http://ontology.inrae.fr/frenchcropusage/Combavas	combava
+makrut	http://ontology.inrae.fr/frenchcropusage/Combavas	combava
+attier	http://ontology.inrae.fr/frenchcropusage/Attiers	attier
+atte	http://ontology.inrae.fr/frenchcropusage/Attiers	attier
+pomme cannelle	http://ontology.inrae.fr/frenchcropusage/Attiers	attier
+pommier cannelle	http://ontology.inrae.fr/frenchcropusage/Attiers	attier
+cocotier	http://ontology.inrae.fr/frenchcropusage/Cocotiers	cocotier
+cocoteraie	http://ontology.inrae.fr/frenchcropusage/Cocotiers	cocotier
+noix de coco	http://ontology.inrae.fr/frenchcropusage/Cocotiers	cocotier
+corossolier	http://ontology.inrae.fr/frenchcropusage/Corossoliers	corossolier
+cachiment	http://ontology.inrae.fr/frenchcropusage/Corossoliers	corossolier
+corossol	http://ontology.inrae.fr/frenchcropusage/Corossoliers	corossolier
+corossol épineux	http://ontology.inrae.fr/frenchcropusage/Corossoliers	corossolier
+goyavier	http://ontology.inrae.fr/frenchcropusage/Goyaviers	goyavier
+goyave	http://ontology.inrae.fr/frenchcropusage/Goyaviers	goyavier
+goyave jaune	http://ontology.inrae.fr/frenchcropusage/Goyaviers	goyavier
+goyave poire	http://ontology.inrae.fr/frenchcropusage/Goyaviers	goyavier
+goyave pomme	http://ontology.inrae.fr/frenchcropusage/Goyaviers	goyavier
+goyave verte	http://ontology.inrae.fr/frenchcropusage/Goyaviers	goyavier
+goyavier de Chine	http://ontology.inrae.fr/frenchcropusage/Goyaviers_Chine	goyavier de Chine
+goyavier fraise	http://ontology.inrae.fr/frenchcropusage/Goyaviers_Chine	goyavier de Chine
+grenadille	http://ontology.inrae.fr/frenchcropusage/Grenadilles	grenadille
+fruit de la passion	http://ontology.inrae.fr/frenchcropusage/Grenadilles	grenadille
+fruit-de-la-passion	http://ontology.inrae.fr/frenchcropusage/Grenadilles	grenadille
+grenadia	http://ontology.inrae.fr/frenchcropusage/Grenadilles	grenadille
+maracudja	http://ontology.inrae.fr/frenchcropusage/Grenadilles	grenadille
+maracuja	http://ontology.inrae.fr/frenchcropusage/Grenadilles	grenadille
+pomme-liane	http://ontology.inrae.fr/frenchcropusage/Grenadilles	grenadille
+fruit de pourpre	http://ontology.inrae.fr/frenchcropusage/Grenadilles	grenadille
+mangoustanier	http://ontology.inrae.fr/frenchcropusage/Mangoustaniers	mangoustanier
+fruit des dieux	http://ontology.inrae.fr/frenchcropusage/Mangoustaniers	mangoustanier
+mangostan	http://ontology.inrae.fr/frenchcropusage/Mangoustaniers	mangoustanier
+mangostier	http://ontology.inrae.fr/frenchcropusage/Mangoustaniers	mangoustanier
+mangoustan	http://ontology.inrae.fr/frenchcropusage/Mangoustaniers	mangoustanier
+mangoustier	http://ontology.inrae.fr/frenchcropusage/Mangoustaniers	mangoustanier
+reine des fruits (en hommage à la reine Victoria)..	http://ontology.inrae.fr/frenchcropusage/Mangoustaniers	mangoustanier
+mangouste	http://ontology.inrae.fr/frenchcropusage/Mangoustaniers	mangoustanier
+carambolier	http://ontology.inrae.fr/frenchcropusage/Caramboliers	carambolier
+carambole	http://ontology.inrae.fr/frenchcropusage/Caramboliers	carambolier
+pomme de Goa	http://ontology.inrae.fr/frenchcropusage/Caramboliers	carambolier
+grenadier	http://ontology.inrae.fr/frenchcropusage/Grenadiers	grenadier
+grenade	http://ontology.inrae.fr/frenchcropusage/Grenadiers	grenadier
+grenadier commun	http://ontology.inrae.fr/frenchcropusage/Grenadiers	grenadier
+papayer	http://ontology.inrae.fr/frenchcropusage/Papayers	papayer
+melon des Tropiques	http://ontology.inrae.fr/frenchcropusage/Papayers	papayer
+papaye	http://ontology.inrae.fr/frenchcropusage/Papayers	papayer
+plaqueminier	http://ontology.inrae.fr/frenchcropusage/Plaqueminiers	plaqueminier
+figuier caque	http://ontology.inrae.fr/frenchcropusage/Plaqueminiers	plaqueminier
+kaki	http://ontology.inrae.fr/frenchcropusage/Plaqueminiers	plaqueminier
+plaqueminier du Japon	http://ontology.inrae.fr/frenchcropusage/Plaqueminiers	plaqueminier
+cacaoyer	http://ontology.inrae.fr/frenchcropusage/Cacaoyers	cacaoyer
+cacao	http://ontology.inrae.fr/frenchcropusage/Cacaoyers	cacaoyer
+cacaotier	http://ontology.inrae.fr/frenchcropusage/Cacaoyers	cacaoyer
+caféier	http://ontology.inrae.fr/frenchcropusage/Cafeiers	caféier
+café	http://ontology.inrae.fr/frenchcropusage/Cafeiers	caféier
+graine de café	http://ontology.inrae.fr/frenchcropusage/Cafeiers	caféier
+actinidia	http://ontology.inrae.fr/frenchcropusage/Actinidias	actinidia
+groseille de Chine	http://ontology.inrae.fr/frenchcropusage/Actinidias	actinidia
+kiwi	http://ontology.inrae.fr/frenchcropusage/Actinidias	actinidia
+yang tao	http://ontology.inrae.fr/frenchcropusage/Actinidias	actinidia
+actinidier	http://ontology.inrae.fr/frenchcropusage/Actinidias	actinidia
+arbuste  à baies	http://ontology.inrae.fr/frenchcropusage/Arbres_baies	arbuste  à baies
+baie	http://ontology.inrae.fr/frenchcropusage/Arbres_baies	arbuste  à baies
+cassissier	http://ontology.inrae.fr/frenchcropusage/Cassissiers	cassissier
+cassis	http://ontology.inrae.fr/frenchcropusage/Cassissiers	cassissier
+framboisier	http://ontology.inrae.fr/frenchcropusage/Framboisiers	framboisier
+framboise	http://ontology.inrae.fr/frenchcropusage/Framboisiers	framboisier
+groseillier	http://ontology.inrae.fr/frenchcropusage/Groseilliers	groseillier
+groseille	http://ontology.inrae.fr/frenchcropusage/Groseilliers	groseillier
+groseille blanche,	http://ontology.inrae.fr/frenchcropusage/Groseilliers	groseillier
+groseille rouge	http://ontology.inrae.fr/frenchcropusage/Groseilliers	groseillier
+groseille à grappe	http://ontology.inrae.fr/frenchcropusage/Groseilliers	groseillier
+groseille à maquereau	http://ontology.inrae.fr/frenchcropusage/Groseilliers	groseillier
+myrtille	http://ontology.inrae.fr/frenchcropusage/Myrtilles	myrtille
+canneberge	http://ontology.inrae.fr/frenchcropusage/Canneberges	canneberge
+atoca	http://ontology.inrae.fr/frenchcropusage/Canneberges	canneberge
+grande airelle rouge d’Amérique du Nord	http://ontology.inrae.fr/frenchcropusage/Canneberges	canneberge
+mûrier	http://ontology.inrae.fr/frenchcropusage/Muriers	mûrier
+mûre	http://ontology.inrae.fr/frenchcropusage/Muriers	mûrier
+mûrier blanc	http://ontology.inrae.fr/frenchcropusage/Muriers	mûrier
+mûrier noir	http://ontology.inrae.fr/frenchcropusage/Muriers	mûrier
+ronce	http://ontology.inrae.fr/frenchcropusage/Ronces	ronce
+mûre	http://ontology.inrae.fr/frenchcropusage/Ronces	ronce
+mûrier des haies	http://ontology.inrae.fr/frenchcropusage/Ronces	ronce
+ronceraie	http://ontology.inrae.fr/frenchcropusage/Ronces	ronce
+agrume	http://ontology.inrae.fr/frenchcropusage/Agrumes	agrume
+bigaradier	http://ontology.inrae.fr/frenchcropusage/Bigaradiers	bigaradier
+bigarade	http://ontology.inrae.fr/frenchcropusage/Bigaradiers	bigaradier
+eau de fleurs d'oranger	http://ontology.inrae.fr/frenchcropusage/Bigaradiers	bigaradier
+orange amère	http://ontology.inrae.fr/frenchcropusage/Bigaradiers	bigaradier
+essence de Néroli	http://ontology.inrae.fr/frenchcropusage/Bigaradiers	bigaradier
+huile de Néroli	http://ontology.inrae.fr/frenchcropusage/Bigaradiers	bigaradier
+citronnier	http://ontology.inrae.fr/frenchcropusage/Citronniers	citronnier
+citron	http://ontology.inrae.fr/frenchcropusage/Citronniers	citronnier
+clémentinier	http://ontology.inrae.fr/frenchcropusage/Clementiniers	clémentinier
+clémentine	http://ontology.inrae.fr/frenchcropusage/Clementiniers	clémentinier
+clémentine avec pépins	http://ontology.inrae.fr/frenchcropusage/Clementiniers	clémentinier
+clémentine corse	http://ontology.inrae.fr/frenchcropusage/Clementiniers	clémentinier
+clémentine sans pépins	http://ontology.inrae.fr/frenchcropusage/Clementiniers	clémentinier
+limettier	http://ontology.inrae.fr/frenchcropusage/Limettiers	limettier
+citron vert	http://ontology.inrae.fr/frenchcropusage/Limettiers	limettier
+lime	http://ontology.inrae.fr/frenchcropusage/Limettiers	limettier
+limette	http://ontology.inrae.fr/frenchcropusage/Limettiers	limettier
+mandarinier	http://ontology.inrae.fr/frenchcropusage/Mandariniers	mandarinier
+mandarine	http://ontology.inrae.fr/frenchcropusage/Mandariniers	mandarinier
+tangerine	http://ontology.inrae.fr/frenchcropusage/Mandariniers	mandarinier
+oranger	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+bigaradier	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+blonde	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+navel	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+orange	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+orange sanguine	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+orange tardive	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+orangeraie	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+sanguine	http://ontology.inrae.fr/frenchcropusage/Orangers	oranger
+pamplemoussier	http://ontology.inrae.fr/frenchcropusage/Pamplemoussiers	pamplemoussier
+pamplemousse	http://ontology.inrae.fr/frenchcropusage/Pamplemoussiers	pamplemoussier
+pomelo	http://ontology.inrae.fr/frenchcropusage/Pomelos	pomelo
+pamplemousse	http://ontology.inrae.fr/frenchcropusage/Pomelos	pomelo
+grape-fruit	http://ontology.inrae.fr/frenchcropusage/Pomelos	pomelo
+tangor	http://ontology.inrae.fr/frenchcropusage/Tangors	tangor
+cédratier	http://ontology.inrae.fr/frenchcropusage/Cedratiers	cédratier
+cédrat	http://ontology.inrae.fr/frenchcropusage/Cedratiers	cédratier
+culture fruitière	http://ontology.inrae.fr/frenchcropusage/Cultures_fruitieres	culture fruitière
+fruit	http://ontology.inrae.fr/frenchcropusage/Cultures_fruitieres	culture fruitière
+horticulture fruitière	http://ontology.inrae.fr/frenchcropusage/Cultures_fruitieres	culture fruitière
+arboriculture	http://ontology.inrae.fr/frenchcropusage/Arboriculture	arboriculture
+pépinière	http://ontology.inrae.fr/frenchcropusage/Arboriculture	arboriculture
+arbre à fruits à coques	http://ontology.inrae.fr/frenchcropusage/Arbres_fruits_coques	arbre à fruits à coques
+arbre à fruits secs	http://ontology.inrae.fr/frenchcropusage/Arbres_fruits_coques	arbre à fruits à coques
+fruit sec	http://ontology.inrae.fr/frenchcropusage/Arbres_fruits_coques	arbre à fruits à coques
+fruit à coque	http://ontology.inrae.fr/frenchcropusage/Arbres_fruits_coques	arbre à fruits à coques
+fruits à coques	http://ontology.inrae.fr/frenchcropusage/Arbres_fruits_coques	arbre à fruits à coques
+arbre à fruits à pépins	http://ontology.inrae.fr/frenchcropusage/Arbres_pepins	arbre à fruits à pépins
+arbre à pépins	http://ontology.inrae.fr/frenchcropusage/Arbres_pepins	arbre à fruits à pépins
+fruit à pépins	http://ontology.inrae.fr/frenchcropusage/Arbres_pepins	arbre à fruits à pépins
+figuier	http://ontology.inrae.fr/frenchcropusage/Figuiers	figuier
+figue	http://ontology.inrae.fr/frenchcropusage/Figuiers	figuier
+vigne cultivée	http://ontology.inrae.fr/frenchcropusage/Vignes_cultivees	vigne cultivée
+raisin	http://ontology.inrae.fr/frenchcropusage/Vignes_cultivees	vigne cultivée
+viticulture	http://ontology.inrae.fr/frenchcropusage/Vignes_cultivees	vigne cultivée
+arboriculture ornementale	http://ontology.inrae.fr/frenchcropusage/Arboriculture_ornementale	arboriculture ornementale
+végétaux d'ornement	http://ontology.inrae.fr/frenchcropusage/Arboriculture_ornementale	arboriculture ornementale
+plante aromatique	http://ontology.inrae.fr/frenchcropusage/Plantes_aromatiques	plante aromatique
+aromate	http://ontology.inrae.fr/frenchcropusage/Plantes_aromatiques	plante aromatique
+condiment	http://ontology.inrae.fr/frenchcropusage/Plantes_aromatiques	plante aromatique
+fines herbes	http://ontology.inrae.fr/frenchcropusage/Plantes_aromatiques	plante aromatique
+épice	http://ontology.inrae.fr/frenchcropusage/Plantes_aromatiques	plante aromatique
+plante à parfum	http://ontology.inrae.fr/frenchcropusage/Plantes_parfum	plante à parfum
+plante pour parfumerie	http://ontology.inrae.fr/frenchcropusage/Plantes_parfum	plante à parfum
+ail	http://ontology.inrae.fr/frenchcropusage/Ails	ail
+ail commun	http://ontology.inrae.fr/frenchcropusage/Ails	ail
+ail cultivé	http://ontology.inrae.fr/frenchcropusage/Ails	ail
+légume à bulbe	http://ontology.inrae.fr/frenchcropusage/Legumes_bulbes	légume à bulbe
+culture légumière	http://ontology.inrae.fr/frenchcropusage/Cultures_legumieres	culture légumière
+horticulture	http://ontology.inrae.fr/frenchcropusage/Cultures_legumieres	culture légumière
+légume	http://ontology.inrae.fr/frenchcropusage/Cultures_legumieres	culture légumière
+plante potagère	http://ontology.inrae.fr/frenchcropusage/Cultures_legumieres	culture légumière
+cerfeuil tubéreux	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_tubereux	cerfeuil tubéreux
+cerfeuil bulbeux	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_tubereux	cerfeuil tubéreux
+cerfeuil à bulbe	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_tubereux	cerfeuil tubéreux
+chérophylle bulbeux	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_tubereux	cerfeuil tubéreux
+échalote	http://ontology.inrae.fr/frenchcropusage/Echalotes	échalote
+échalote de Jersey	http://ontology.inrae.fr/frenchcropusage/Echalotes	échalote
+échalote grise	http://ontology.inrae.fr/frenchcropusage/Echalotes	échalote
+échalote rose	http://ontology.inrae.fr/frenchcropusage/Echalotes	échalote
+oignon	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+oignon blanc	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+oignon de Trébons.	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+oignon de couleur	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+oignon doux des Cévennes	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+oignon jaune	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+oignon rosé	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+oignon rosé de Roscoff	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+oignon rouge	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+ognon	http://ontology.inrae.fr/frenchcropusage/Oignons	oignon
+poireau	http://ontology.inrae.fr/frenchcropusage/Poireaux	poireau
+alpiste	http://ontology.inrae.fr/frenchcropusage/Alpistes	alpiste
+alpiste des Canaries	http://ontology.inrae.fr/frenchcropusage/Alpistes	alpiste
+blé des Canaries	http://ontology.inrae.fr/frenchcropusage/Alpistes	alpiste
+millet long	http://ontology.inrae.fr/frenchcropusage/Alpistes	alpiste
+céréale à paille	http://ontology.inrae.fr/frenchcropusage/Cereales_paille	céréale à paille
+céréales à paille	http://ontology.inrae.fr/frenchcropusage/Cereales_paille	céréale à paille
+paille	http://ontology.inrae.fr/frenchcropusage/Cereales_paille	céréale à paille
+céréale	http://ontology.inrae.fr/frenchcropusage/Cereales	céréale
+céréales	http://ontology.inrae.fr/frenchcropusage/Cereales	céréale
+céréales récoltées en grain	http://ontology.inrae.fr/frenchcropusage/Cereales	céréale
+pseudo-céréale	http://ontology.inrae.fr/frenchcropusage/Cereales	céréale
+avoine	http://ontology.inrae.fr/frenchcropusage/Avoines	avoine
+avoine byzantine	http://ontology.inrae.fr/frenchcropusage/Avoines	avoine
+avoine cultivée	http://ontology.inrae.fr/frenchcropusage/Avoines	avoine
+avoine nue	http://ontology.inrae.fr/frenchcropusage/Avoines_nues	avoine nue
+avoine à gruau	http://ontology.inrae.fr/frenchcropusage/Avoines_nues	avoine nue
+avoine rude	http://ontology.inrae.fr/frenchcropusage/Avoines_rudes	avoine rude
+avoine brésilienne	http://ontology.inrae.fr/frenchcropusage/Avoines_rudes	avoine rude
+avoine diploïde	http://ontology.inrae.fr/frenchcropusage/Avoines_rudes	avoine rude
+avoine fourragère	http://ontology.inrae.fr/frenchcropusage/Avoines_rudes	avoine rude
+blé	http://ontology.inrae.fr/frenchcropusage/Bles	blé
+froment	http://ontology.inrae.fr/frenchcropusage/Bles	blé
+méteil	http://ontology.inrae.fr/frenchcropusage/Meteils	méteil
+blé-seigle	http://ontology.inrae.fr/frenchcropusage/Meteils	méteil
+orge	http://ontology.inrae.fr/frenchcropusage/Orges	orge
+seigle	http://ontology.inrae.fr/frenchcropusage/Seigles	seigle
+sorgho	http://ontology.inrae.fr/frenchcropusage/Sorghos	sorgho
+triticale	http://ontology.inrae.fr/frenchcropusage/Triticales	triticale
+millet	http://ontology.inrae.fr/frenchcropusage/Millets	millet
+mil	http://ontology.inrae.fr/frenchcropusage/Millets	millet
+millet commun	http://ontology.inrae.fr/frenchcropusage/Millets	millet
+millet panis	http://ontology.inrae.fr/frenchcropusage/Millets	millet
+millet perle	http://ontology.inrae.fr/frenchcropusage/Millets	millet
+millet à grappes	http://ontology.inrae.fr/frenchcropusage/Millets	millet
+millets	http://ontology.inrae.fr/frenchcropusage/Millets	millet
+mils	http://ontology.inrae.fr/frenchcropusage/Millets	millet
+riz	http://ontology.inrae.fr/frenchcropusage/Riz	riz
+riziculture	http://ontology.inrae.fr/frenchcropusage/Riz	riz
+sarrasin	http://ontology.inrae.fr/frenchcropusage/Sarrasins	sarrasin
+blé noir	http://ontology.inrae.fr/frenchcropusage/Sarrasins	sarrasin
+blé de barbarie	http://ontology.inrae.fr/frenchcropusage/Sarrasins	sarrasin
+bucail	http://ontology.inrae.fr/frenchcropusage/Sarrasins	sarrasin
+carabin	http://ontology.inrae.fr/frenchcropusage/Sarrasins	sarrasin
+froment noir	http://ontology.inrae.fr/frenchcropusage/Sarrasins	sarrasin
+renouée sarrasin	http://ontology.inrae.fr/frenchcropusage/Sarrasins	sarrasin
+amandier	http://ontology.inrae.fr/frenchcropusage/Amandiers	amandier
+amandaie	http://ontology.inrae.fr/frenchcropusage/Amandiers	amandier
+amande	http://ontology.inrae.fr/frenchcropusage/Amandiers	amandier
+amande douce	http://ontology.inrae.fr/frenchcropusage/Amandiers	amandier
+amanderaie	http://ontology.inrae.fr/frenchcropusage/Amandiers	amandier
+châtaignier	http://ontology.inrae.fr/frenchcropusage/Chataigniers	châtaignier
+chataîgneraie	http://ontology.inrae.fr/frenchcropusage/Chataigniers	châtaignier
+châtaigne	http://ontology.inrae.fr/frenchcropusage/Chataigniers	châtaignier
+farine de châtaigne	http://ontology.inrae.fr/frenchcropusage/Chataigniers	châtaignier
+marron	http://ontology.inrae.fr/frenchcropusage/Chataigniers	châtaignier
+châtaignier commun	http://ontology.inrae.fr/frenchcropusage/Chataigniers	châtaignier
+noisetier	http://ontology.inrae.fr/frenchcropusage/Noisetiers	noisetier
+coudrier	http://ontology.inrae.fr/frenchcropusage/Noisetiers	noisetier
+noisette	http://ontology.inrae.fr/frenchcropusage/Noisetiers	noisetier
+noyer	http://ontology.inrae.fr/frenchcropusage/Noyers	noyer
+huile de noix	http://ontology.inrae.fr/frenchcropusage/Noyers	noyer
+noix	http://ontology.inrae.fr/frenchcropusage/Noyers	noyer
+noyeraie	http://ontology.inrae.fr/frenchcropusage/Noyers	noyer
+pistachier	http://ontology.inrae.fr/frenchcropusage/Pistachiers	pistachier
+pistache	http://ontology.inrae.fr/frenchcropusage/Pistachiers	pistachier
+pistachier vrai	http://ontology.inrae.fr/frenchcropusage/Pistachiers	pistachier
+ananas	http://ontology.inrae.fr/frenchcropusage/Ananas	ananas
+culture tropicale	http://ontology.inrae.fr/frenchcropusage/Cultures_tropicales	culture tropicale
+bananier	http://ontology.inrae.fr/frenchcropusage/Bananiers	bananier
+banane	http://ontology.inrae.fr/frenchcropusage/Bananiers	bananier
+bananeraie	http://ontology.inrae.fr/frenchcropusage/Bananiers	bananier
+banane créole	http://ontology.inrae.fr/frenchcropusage/Bananiers	bananier
+banane export	http://ontology.inrae.fr/frenchcropusage/Bananiers	bananier
+petit fruit	http://ontology.inrae.fr/frenchcropusage/Petits_fruits	petit fruit
+petit fruit rouge	http://ontology.inrae.fr/frenchcropusage/Petits_fruits	petit fruit
+canne à sucre	http://ontology.inrae.fr/frenchcropusage/Cannes_sucres	canne à sucre
+culture vivrière	http://ontology.inrae.fr/frenchcropusage/Cultures_vivrieres	culture vivrière
+légume exotique	http://ontology.inrae.fr/frenchcropusage/Legumes_exotiques	légume exotique
+légumes tropicaux	http://ontology.inrae.fr/frenchcropusage/Legumes_exotiques	légume exotique
+vanillier	http://ontology.inrae.fr/frenchcropusage/Vanilliers	vanillier
+vanille	http://ontology.inrae.fr/frenchcropusage/Vanilliers	vanillier
+vanille verte	http://ontology.inrae.fr/frenchcropusage/Vanilliers	vanillier
+curcuma	http://ontology.inrae.fr/frenchcropusage/Curcumas	curcuma
+gingembre  	http://ontology.inrae.fr/frenchcropusage/Gingembres	gingembre  
+vétiver	http://ontology.inrae.fr/frenchcropusage/Vetivers	vétiver
+essence de vétiver	http://ontology.inrae.fr/frenchcropusage/Vetivers	vétiver
+vétivier	http://ontology.inrae.fr/frenchcropusage/Vetivers	vétiver
+vétyver	http://ontology.inrae.fr/frenchcropusage/Vetivers	vétiver
+cardamome	http://ontology.inrae.fr/frenchcropusage/Cardamomes	cardamome
+sylviculture	http://ontology.inrae.fr/frenchcropusage/Sylviculture	sylviculture
+forêt	http://ontology.inrae.fr/frenchcropusage/Sylviculture	sylviculture
+bois	http://ontology.inrae.fr/frenchcropusage/Sylviculture	sylviculture
+foresterie	http://ontology.inrae.fr/frenchcropusage/Sylviculture	sylviculture
+badianier de Chine	http://ontology.inrae.fr/frenchcropusage/Badianiers_de_Chine	badianier de Chine
+anis étoilé	http://ontology.inrae.fr/frenchcropusage/Badianiers_de_Chine	badianier de Chine
+badiane chinoise	http://ontology.inrae.fr/frenchcropusage/Badianiers_de_Chine	badianier de Chine
+genêt des teinturiers	http://ontology.inrae.fr/frenchcropusage/Genets_des_teinturiers	genêt des teinturiers
+hamamélis	http://ontology.inrae.fr/frenchcropusage/Hamamelis	hamamélis
+hammelis	http://ontology.inrae.fr/frenchcropusage/Hamamelis	hamamélis
+sureau	http://ontology.inrae.fr/frenchcropusage/Sureaux	sureau
+horticulture ornementale	http://ontology.inrae.fr/frenchcropusage/Horticulture_ornementale	horticulture ornementale
+pépinière	http://ontology.inrae.fr/frenchcropusage/Horticulture_ornementale	horticulture ornementale
+végétaux d'ornement	http://ontology.inrae.fr/frenchcropusage/Horticulture_ornementale	horticulture ornementale
+horticulture non comestible	http://ontology.inrae.fr/frenchcropusage/Horticulture_ornementale	horticulture ornementale
+plante en pot	http://ontology.inrae.fr/frenchcropusage/Horticulture_ornementale	horticulture ornementale
+plante ornementale	http://ontology.inrae.fr/frenchcropusage/Horticulture_ornementale	horticulture ornementale
+plante à massif	http://ontology.inrae.fr/frenchcropusage/Horticulture_ornementale	horticulture ornementale
+chêne	http://ontology.inrae.fr/frenchcropusage/Chenes	chêne
+chênaie	http://ontology.inrae.fr/frenchcropusage/Chenes	chêne
+chêne pédonculé	http://ontology.inrae.fr/frenchcropusage/Chenes	chêne
+chêne rouvre	http://ontology.inrae.fr/frenchcropusage/Chenes	chêne
+olivier ornemental	http://ontology.inrae.fr/frenchcropusage/Oliviers_ornementaux	olivier ornemental
+vigne agrément	http://ontology.inrae.fr/frenchcropusage/Vignes_agrement	vigne agrément
+vigne vierge	http://ontology.inrae.fr/frenchcropusage/Vignes_agrement	vigne agrément
+laurier ornemental	http://ontology.inrae.fr/frenchcropusage/Lauriers_ornementaux	laurier ornemental
+Laurier-cerise	http://ontology.inrae.fr/frenchcropusage/Lauriers_ornementaux	laurier ornemental
+Laurier-rose	http://ontology.inrae.fr/frenchcropusage/Lauriers_ornementaux	laurier ornemental
+laurier du Portugal	http://ontology.inrae.fr/frenchcropusage/Lauriers_ornementaux	laurier ornemental
+laurier tin	http://ontology.inrae.fr/frenchcropusage/Lauriers_ornementaux	laurier ornemental
+oranger du Mexique	http://ontology.inrae.fr/frenchcropusage/Orangers_du_Mexique	oranger du Mexique
+photinie	http://ontology.inrae.fr/frenchcropusage/Photinies	photinie
+photinia	http://ontology.inrae.fr/frenchcropusage/Photinies	photinie
+rosier ornemental	http://ontology.inrae.fr/frenchcropusage/Rosiers_ornementaux	rosier ornemental
+rose	http://ontology.inrae.fr/frenchcropusage/Rosiers_ornementaux	rosier ornemental
+églantier ornemental	http://ontology.inrae.fr/frenchcropusage/Rosiers_ornementaux	rosier ornemental
+eleagnus	http://ontology.inrae.fr/frenchcropusage/Elaeagnus	eleagnus
+hibiscus ornemental	http://ontology.inrae.fr/frenchcropusage/Hibiscus_ornemental	hibiscus ornemental
+althéa	http://ontology.inrae.fr/frenchcropusage/Hibiscus_ornemental	hibiscus ornemental
+rose de Chine	http://ontology.inrae.fr/frenchcropusage/Hibiscus_ornemental	hibiscus ornemental
+ginkgo biloba	http://ontology.inrae.fr/frenchcropusage/Ginkgos_biloba	ginkgo biloba
+ovule de ginkgo biloba	http://ontology.inrae.fr/frenchcropusage/Ginkgos_biloba	ginkgo biloba
+tilleul	http://ontology.inrae.fr/frenchcropusage/Tilleuls	tilleul
+caroubier	http://ontology.inrae.fr/frenchcropusage/Caroubiers	caroubier
+caroube	http://ontology.inrae.fr/frenchcropusage/Caroubiers	caroubier
+poirier	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+jules guyot	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+poire	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+poire d'automne	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+poire d'hiver	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+poire de table	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+poire à cidre	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+william's	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+poire Williams	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+poire Williams pour transformation	http://ontology.inrae.fr/frenchcropusage/Poiriers	poirier
+pommier	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+gala	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+golden	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+granny smith	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+pomiculture	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+pomme	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+pomme de table	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+pomme golden	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+pomme à cidre	http://ontology.inrae.fr/frenchcropusage/Pommiers	pommier
+cognassier	http://ontology.inrae.fr/frenchcropusage/Cognassiers	cognassier
+coing	http://ontology.inrae.fr/frenchcropusage/Cognassiers	cognassier
+poire de Cydonie	http://ontology.inrae.fr/frenchcropusage/Cognassiers	cognassier
+pomme d’or	http://ontology.inrae.fr/frenchcropusage/Cognassiers	cognassier
+vigne	http://ontology.inrae.fr/frenchcropusage/Vignes	vigne
+vigne rouge	http://ontology.inrae.fr/frenchcropusage/Vignes_rouges	vigne rouge
+feuille de vigne rouge	http://ontology.inrae.fr/frenchcropusage/Vignes_rouges	vigne rouge
+bananier musa	http://ontology.inrae.fr/frenchcropusage/Bananiers_musa	bananier musa
+banane crue	http://ontology.inrae.fr/frenchcropusage/Bananiers_musa	bananier musa
+banane dessert	http://ontology.inrae.fr/frenchcropusage/Bananiers_musa	bananier musa
+banane sucrée	http://ontology.inrae.fr/frenchcropusage/Bananiers_musa	bananier musa
+banane verte	http://ontology.inrae.fr/frenchcropusage/Bananiers_musa	bananier musa
+figue	http://ontology.inrae.fr/frenchcropusage/Bananiers_musa	bananier musa
+bananier plantain	http://ontology.inrae.fr/frenchcropusage/Bananiers_plantains	bananier plantain
+banane cochon	http://ontology.inrae.fr/frenchcropusage/Bananiers_plantains	bananier plantain
+banane farine	http://ontology.inrae.fr/frenchcropusage/Bananiers_plantains	bananier plantain
+banane jaune	http://ontology.inrae.fr/frenchcropusage/Bananiers_plantains	bananier plantain
+banane plantain	http://ontology.inrae.fr/frenchcropusage/Bananiers_plantains	bananier plantain
+banane poingo	http://ontology.inrae.fr/frenchcropusage/Bananiers_plantains	bananier plantain
+banane à cuire	http://ontology.inrae.fr/frenchcropusage/Bananiers_plantains	bananier plantain
+plantain	http://ontology.inrae.fr/frenchcropusage/Bananiers_plantains	bananier plantain
+passiflore	http://ontology.inrae.fr/frenchcropusage/Passiflores	passiflore
+floriculture	http://ontology.inrae.fr/frenchcropusage/Cultures_florales	floriculture
+culture florale	http://ontology.inrae.fr/frenchcropusage/Cultures_florales	floriculture
+fleur	http://ontology.inrae.fr/frenchcropusage/Cultures_florales	floriculture
+fleur coupée	http://ontology.inrae.fr/frenchcropusage/Cultures_florales	floriculture
+plante verte	http://ontology.inrae.fr/frenchcropusage/Cultures_florales	floriculture
+ray-grass gazon	http://ontology.inrae.fr/frenchcropusage/Ray_grass_gazon	ray-grass gazon
+ivraie gazon	http://ontology.inrae.fr/frenchcropusage/Ray_grass_gazon	ray-grass gazon
+ray-grass mélange gazon	http://ontology.inrae.fr/frenchcropusage/Ray_grass_gazon	ray-grass gazon
+ray-grass pelouse	http://ontology.inrae.fr/frenchcropusage/Ray_grass_gazon	ray-grass gazon
+olivier	http://ontology.inrae.fr/frenchcropusage/Oliviers	olivier
+fraisier	http://ontology.inrae.fr/frenchcropusage/Fraisiers	fraisier
+fraise	http://ontology.inrae.fr/frenchcropusage/Fraisiers	fraisier
+fraise des bois	http://ontology.inrae.fr/frenchcropusage/Fraisiers	fraisier
+fraise sauvage	http://ontology.inrae.fr/frenchcropusage/Fraisiers	fraisier
+fraisiers jours courts	http://ontology.inrae.fr/frenchcropusage/Fraisiers	fraisier
+fraisiers remontants	http://ontology.inrae.fr/frenchcropusage/Fraisiers	fraisier
+plante médicinale	http://ontology.inrae.fr/frenchcropusage/Plantes_medicinales	plante médicinale
+protéagineux	http://ontology.inrae.fr/frenchcropusage/Proteagineux	protéagineux
+légumes secs	http://ontology.inrae.fr/frenchcropusage/Proteagineux	protéagineux
+arroche	http://ontology.inrae.fr/frenchcropusage/Arroches	arroche
+légume à feuilles	http://ontology.inrae.fr/frenchcropusage/Legumes_feuilles	légume à feuilles
+brède	http://ontology.inrae.fr/frenchcropusage/Bredes	brède
+brède mafane	http://ontology.inrae.fr/frenchcropusage/Bredes	brède
+cresson de Para	http://ontology.inrae.fr/frenchcropusage/Bredes	brède
+Brocoli-rave	http://ontology.inrae.fr/frenchcropusage/Brocolis_raves	Brocoli-rave
+grelot	http://ontology.inrae.fr/frenchcropusage/Brocolis_raves	Brocoli-rave
+rapini	http://ontology.inrae.fr/frenchcropusage/Brocolis_raves	Brocoli-rave
+cardon	http://ontology.inrae.fr/frenchcropusage/Cardons	cardon
+artichaut sauvage	http://ontology.inrae.fr/frenchcropusage/Cardons	cardon
+carde	http://ontology.inrae.fr/frenchcropusage/Cardons	cardon
+céleri à cotes	http://ontology.inrae.fr/frenchcropusage/Celeris_a_cotes	céleri à cotes
+céleri branche	http://ontology.inrae.fr/frenchcropusage/Celeris_a_cotes	céleri à cotes
+céleri-branche	http://ontology.inrae.fr/frenchcropusage/Celeris_a_cotes	céleri à cotes
+céleri à couper	http://ontology.inrae.fr/frenchcropusage/Celeris_couper	céleri à couper
+céleri chinois	http://ontology.inrae.fr/frenchcropusage/Celeris_couper	céleri à couper
+salade	http://ontology.inrae.fr/frenchcropusage/Salades	salade
+chou de Bruxelles	http://ontology.inrae.fr/frenchcropusage/Choux_Bruxelles	chou de Bruxelles
+chou pommé	http://ontology.inrae.fr/frenchcropusage/Choux_pommes	chou pommé
+chou cabus	http://ontology.inrae.fr/frenchcropusage/Choux_pommes	chou pommé
+chou chinois	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+bok choy	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+brède petsaï	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+chou de Chine	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+chou de Pékin	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+chou de Shanton	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+pak choï	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+pak-choï	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+paksoy	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+pet-saï	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+pé-tsaï	http://ontology.inrae.fr/frenchcropusage/Choux_chinois	chou chinois
+chou commun	http://ontology.inrae.fr/frenchcropusage/Choux_communs	chou commun
+chou vert	http://ontology.inrae.fr/frenchcropusage/Choux_communs	chou commun
+chou frisé	http://ontology.inrae.fr/frenchcropusage/Choux_frisés	chou frisé
+chou vert	http://ontology.inrae.fr/frenchcropusage/Choux_frisés	chou frisé
+chou d'aigrette	http://ontology.inrae.fr/frenchcropusage/Choux_frisés	chou frisé
+chou frangé	http://ontology.inrae.fr/frenchcropusage/Choux_frisés	chou frisé
+chou kale	http://ontology.inrae.fr/frenchcropusage/Choux_frisés	chou frisé
+chou lacinié	http://ontology.inrae.fr/frenchcropusage/Choux_frisés	chou frisé
+chou plume	http://ontology.inrae.fr/frenchcropusage/Choux_frisés	chou frisé
+épinard	http://ontology.inrae.fr/frenchcropusage/Epinards	épinard
+fenouil	http://ontology.inrae.fr/frenchcropusage/Fenouils	fenouil
+graine de fenouil	http://ontology.inrae.fr/frenchcropusage/Fenouils	fenouil
+oseille	http://ontology.inrae.fr/frenchcropusage/Oseilles	oseille
+rumex	http://ontology.inrae.fr/frenchcropusage/Oseilles	oseille
+poirée	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+carde	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+bette	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+bette à carde	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+bette à côte	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+bette à tondre	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+blette	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+côte	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+côte de bette	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+jotte	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+joute	http://ontology.inrae.fr/frenchcropusage/Poirees	poirée
+pourpier  maraicher	http://ontology.inrae.fr/frenchcropusage/Pourpiers_maraichers	pourpier  maraicher
+porcelane	http://ontology.inrae.fr/frenchcropusage/Pourpiers_maraichers	pourpier  maraicher
+tétragorne cornue	http://ontology.inrae.fr/frenchcropusage/Tetragorne_cornue	tétragorne cornue
+brède épinard	http://ontology.inrae.fr/frenchcropusage/Tetragorne_cornue	tétragorne cornue
+épinard de Nouvelle Zélande	http://ontology.inrae.fr/frenchcropusage/Tetragorne_cornue	tétragorne cornue
+épinard d’été	http://ontology.inrae.fr/frenchcropusage/Tetragorne_cornue	tétragorne cornue
+fenugrec condimentaire	http://ontology.inrae.fr/frenchcropusage/Fenugrecs_condimentaires	fenugrec condimentaire
+methi	http://ontology.inrae.fr/frenchcropusage/Fenugrecs_condimentaires	fenugrec condimentaire
+artichaut	http://ontology.inrae.fr/frenchcropusage/Artichauts	artichaut
+tête d'artichaut	http://ontology.inrae.fr/frenchcropusage/Artichauts	artichaut
+légumes fleurs	http://ontology.inrae.fr/frenchcropusage/Legumes_fleurs	légumes fleurs
+légumes à fleurs	http://ontology.inrae.fr/frenchcropusage/Legumes_fleurs	légumes fleurs
+chou brocoli	http://ontology.inrae.fr/frenchcropusage/Choux_brocolis	chou brocoli
+brocoli	http://ontology.inrae.fr/frenchcropusage/Choux_brocolis	chou brocoli
+chou-fleur	http://ontology.inrae.fr/frenchcropusage/Choux_fleurs	chou-fleur
+chou fleur	http://ontology.inrae.fr/frenchcropusage/Choux_fleurs	chou-fleur
+chou romanesco	http://ontology.inrae.fr/frenchcropusage/Choux_romanesco	chou romanesco
+brocoli à pomme	http://ontology.inrae.fr/frenchcropusage/Choux_romanesco	chou romanesco
+asperge	http://ontology.inrae.fr/frenchcropusage/Asperges	asperge
+asperge blanche	http://ontology.inrae.fr/frenchcropusage/Asperges	asperge
+asperge verte	http://ontology.inrae.fr/frenchcropusage/Asperges	asperge
+asperge violette	http://ontology.inrae.fr/frenchcropusage/Asperges	asperge
+aspergeraie	http://ontology.inrae.fr/frenchcropusage/Asperges	asperge
+légume tige	http://ontology.inrae.fr/frenchcropusage/Legumes_tiges	légume tige
+légume à tiges	http://ontology.inrae.fr/frenchcropusage/Legumes_tiges	légume tige
+chou-rave	http://ontology.inrae.fr/frenchcropusage/Choux_raves	chou-rave
+chou rave	http://ontology.inrae.fr/frenchcropusage/Choux_raves	chou-rave
+palmier	http://ontology.inrae.fr/frenchcropusage/Palmiers	palmier
+chou palmiste	http://ontology.inrae.fr/frenchcropusage/Palmiers	palmier
+coeur de palmier	http://ontology.inrae.fr/frenchcropusage/Palmiers	palmier
+rhubarbe	http://ontology.inrae.fr/frenchcropusage/Rhubarbes	rhubarbe
+rhubarbe des jardins	http://ontology.inrae.fr/frenchcropusage/Rhubarbes	rhubarbe
+radis potager	http://ontology.inrae.fr/frenchcropusage/Radis_potagers	radis potager
+radis blanc	http://ontology.inrae.fr/frenchcropusage/Radis_potagers	radis potager
+radis gris	http://ontology.inrae.fr/frenchcropusage/Radis_potagers	radis potager
+radis jaune	http://ontology.inrae.fr/frenchcropusage/Radis_potagers	radis potager
+radis rose	http://ontology.inrae.fr/frenchcropusage/Radis_potagers	radis potager
+radis violet	http://ontology.inrae.fr/frenchcropusage/Radis_potagers	radis potager
+aubergine	http://ontology.inrae.fr/frenchcropusage/Aubergines	aubergine
+légumes à fruits	http://ontology.inrae.fr/frenchcropusage/Legumes_fruits	légumes à fruits
+calebasse	http://ontology.inrae.fr/frenchcropusage/Calebasses	calebasse
+cougourde	http://ontology.inrae.fr/frenchcropusage/Calebasses	calebasse
+cougourdon	http://ontology.inrae.fr/frenchcropusage/Calebasses	calebasse
+courge-bouteille.	http://ontology.inrae.fr/frenchcropusage/Calebasses	calebasse
+cuyon	http://ontology.inrae.fr/frenchcropusage/Calebasses	calebasse
+gourde	http://ontology.inrae.fr/frenchcropusage/Calebasses	calebasse
+gourde pèlerine	http://ontology.inrae.fr/frenchcropusage/Calebasses	calebasse
+christophine	http://ontology.inrae.fr/frenchcropusage/Christophines	christophine
+brède chouchou	http://ontology.inrae.fr/frenchcropusage/Christophines	christophine
+chayote	http://ontology.inrae.fr/frenchcropusage/Christophines	christophine
+chayotte	http://ontology.inrae.fr/frenchcropusage/Christophines	christophine
+chouchou	http://ontology.inrae.fr/frenchcropusage/Christophines	christophine
+chouchoute	http://ontology.inrae.fr/frenchcropusage/Christophines	christophine
+coloquinte	http://ontology.inrae.fr/frenchcropusage/Christophines	christophine
+mirliton	http://ontology.inrae.fr/frenchcropusage/Christophines	christophine
+courge	http://ontology.inrae.fr/frenchcropusage/Courges	courge
+courge musquée	http://ontology.inrae.fr/frenchcropusage/Courges	courge
+giraumon	http://ontology.inrae.fr/frenchcropusage/Courges	courge
+concombre	http://ontology.inrae.fr/frenchcropusage/Concombres	concombre
+cornichon	http://ontology.inrae.fr/frenchcropusage/Cornichons	cornichon
+courgette	http://ontology.inrae.fr/frenchcropusage/Courgettes	courgette
+fleur de courgette	http://ontology.inrae.fr/frenchcropusage/Courgettes	courgette
+gombo	http://ontology.inrae.fr/frenchcropusage/Gombos	gombo
+cabo	http://ontology.inrae.fr/frenchcropusage/Gombos	gombo
+calou	http://ontology.inrae.fr/frenchcropusage/Gombos	gombo
+okura	http://ontology.inrae.fr/frenchcropusage/Gombos	gombo
+melon	http://ontology.inrae.fr/frenchcropusage/Melons	melon
+Cantaloup	http://ontology.inrae.fr/frenchcropusage/Melons	melon
+Galia	http://ontology.inrae.fr/frenchcropusage/Melons	melon
+brodé	http://ontology.inrae.fr/frenchcropusage/Melons	melon
+melonnière	http://ontology.inrae.fr/frenchcropusage/Melons	melon
+melon d’hiver	http://ontology.inrae.fr/frenchcropusage/Melons	melon
+pastèque	http://ontology.inrae.fr/frenchcropusage/Pasteques	pastèque
+melon d'eau	http://ontology.inrae.fr/frenchcropusage/Pasteques	pastèque
+piment	http://ontology.inrae.fr/frenchcropusage/Piments	piment
+piment fort	http://ontology.inrae.fr/frenchcropusage/Piments	piment
+poivron	http://ontology.inrae.fr/frenchcropusage/Poivrons	poivron
+piment doux	http://ontology.inrae.fr/frenchcropusage/Poivrons	poivron
+poivron jaune	http://ontology.inrae.fr/frenchcropusage/Poivrons	poivron
+poivron rouge	http://ontology.inrae.fr/frenchcropusage/Poivrons	poivron
+poivron vert	http://ontology.inrae.fr/frenchcropusage/Poivrons	poivron
+tomate	http://ontology.inrae.fr/frenchcropusage/Tomates	tomate
+tomate potagère	http://ontology.inrae.fr/frenchcropusage/Tomates	tomate
+tomate pour transformation	http://ontology.inrae.fr/frenchcropusage/Tomates	tomate
+coqueret du Pérou	http://ontology.inrae.fr/frenchcropusage/Coquerets_du_Perou	coqueret du Pérou
+groseille du cap	http://ontology.inrae.fr/frenchcropusage/Coquerets_du_Perou	coqueret du Pérou
+céréale fourragère	http://ontology.inrae.fr/frenchcropusage/Cereales_fourrageres	céréale fourragère
+céréales fourragères	http://ontology.inrae.fr/frenchcropusage/Cereales_fourrageres	céréale fourragère
+céréales récoltées en vert	http://ontology.inrae.fr/frenchcropusage/Cereales_fourrageres	céréale fourragère
+avoine d'hiver	http://ontology.inrae.fr/frenchcropusage/Avoines_hiver	avoine d'hiver
+avoine hiver	http://ontology.inrae.fr/frenchcropusage/Avoines_hiver	avoine d'hiver
+avoine de printemps	http://ontology.inrae.fr/frenchcropusage/Avoines_printemps	avoine de printemps
+avoine printemps	http://ontology.inrae.fr/frenchcropusage/Avoines_printemps	avoine de printemps
+fourrage annuel	http://ontology.inrae.fr/frenchcropusage/Fourrages_annuels	fourrage annuel
+ensilage	http://ontology.inrae.fr/frenchcropusage/Fourrages_annuels	fourrage annuel
+fourrage consommé en vert	http://ontology.inrae.fr/frenchcropusage/Fourrages_annuels	fourrage annuel
+fourrage ensillé	http://ontology.inrae.fr/frenchcropusage/Fourrages_annuels	fourrage annuel
+maïs céréale	http://ontology.inrae.fr/frenchcropusage/Mais_cereales	maïs céréale
+avoine nue d'hiver	http://ontology.inrae.fr/frenchcropusage/Avoines_nues_hiver	avoine nue d'hiver
+avoine à gruau d'hiver	http://ontology.inrae.fr/frenchcropusage/Avoines_nues_hiver	avoine nue d'hiver
+avoine nue de printemps	http://ontology.inrae.fr/frenchcropusage/Avoines_nues_printemps	avoine nue de printemps
+avoine à gruau de printemps	http://ontology.inrae.fr/frenchcropusage/Avoines_nues_printemps	avoine nue de printemps
+basilic	http://ontology.inrae.fr/frenchcropusage/Basilics	basilic
+pistou de Provence	http://ontology.inrae.fr/frenchcropusage/Basilics	basilic
+plante à parfum aromatique et médicinale	http://ontology.inrae.fr/frenchcropusage/Cultures_aromatiques_medicinales_parfum	plante à parfum aromatique et médicinale
+PPAM	http://ontology.inrae.fr/frenchcropusage/Cultures_aromatiques_medicinales_parfum	plante à parfum aromatique et médicinale
+cerfeuil anisé	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+cerfeuil d'Espagne	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+cerfeuil musqué	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+cerfeuil perpétuel	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+fougère musquée	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+gros persil	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+myrrhe	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+myrrhis odorant	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+graine de cerfeuil	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_anises	cerfeuil anisé
+cerfeuil commun	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_communs	cerfeuil commun
+cerfeuil cultivé	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_communs	cerfeuil commun
+cerfeuil des jardins	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_communs	cerfeuil commun
+herbe aiguillée	http://ontology.inrae.fr/frenchcropusage/Cerfeuils_communs	cerfeuil commun
+ciboule	http://ontology.inrae.fr/frenchcropusage/Ciboules	ciboule
+ail fistuleux	http://ontology.inrae.fr/frenchcropusage/Ciboules	ciboule
+chiboule	http://ontology.inrae.fr/frenchcropusage/Ciboules	ciboule
+cive	http://ontology.inrae.fr/frenchcropusage/Ciboules	ciboule
+oignon d'Espagne	http://ontology.inrae.fr/frenchcropusage/Ciboules	ciboule
+bunching oignon	http://ontology.inrae.fr/frenchcropusage/Ciboules	ciboule
+ciboulette	http://ontology.inrae.fr/frenchcropusage/Ciboulettes	ciboulette
+brelette	http://ontology.inrae.fr/frenchcropusage/Ciboulettes	ciboulette
+chiboulette	http://ontology.inrae.fr/frenchcropusage/Ciboulettes	ciboulette
+civette	http://ontology.inrae.fr/frenchcropusage/Ciboulettes	ciboulette
+houblon	http://ontology.inrae.fr/frenchcropusage/Houblons	houblon
+bois du diable	http://ontology.inrae.fr/frenchcropusage/Houblons	houblon
+couleuvrée septentrionale	http://ontology.inrae.fr/frenchcropusage/Houblons	houblon
+houblon grimpant	http://ontology.inrae.fr/frenchcropusage/Houblons	houblon
+houblonnière	http://ontology.inrae.fr/frenchcropusage/Houblons	houblon
+salsepareille indigène	http://ontology.inrae.fr/frenchcropusage/Houblons	houblon
+vigne du Nord.	http://ontology.inrae.fr/frenchcropusage/Houblons	houblon
+estragon	http://ontology.inrae.fr/frenchcropusage/Estragons	estragon
+lavande	http://ontology.inrae.fr/frenchcropusage/Lavandes	lavande
+essence de lavande	http://ontology.inrae.fr/frenchcropusage/Lavandes	lavande
+persil	http://ontology.inrae.fr/frenchcropusage/Persils	persil
+persil commun	http://ontology.inrae.fr/frenchcropusage/Persils	persil
+persil cultivé	http://ontology.inrae.fr/frenchcropusage/Persils	persil
+persil frisé	http://ontology.inrae.fr/frenchcropusage/Persils	persil
+persil odorant	http://ontology.inrae.fr/frenchcropusage/Persils	persil
+persin	http://ontology.inrae.fr/frenchcropusage/Persils	persil
+thym	http://ontology.inrae.fr/frenchcropusage/Thyms	thym
+farigoule	http://ontology.inrae.fr/frenchcropusage/Thyms	thym
+raifort	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+cran de Bretagne	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+cranson	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+herbe au scorbut	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+herbe aux cuillers	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+moutarde des Allemands	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+radis de cheval	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+raifort sauvage	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+wasabi alsacien	http://ontology.inrae.fr/frenchcropusage/Raiforts	raifort
+laurier aromatique	http://ontology.inrae.fr/frenchcropusage/Lauriers_aromates	laurier aromatique
+laurier sauce	http://ontology.inrae.fr/frenchcropusage/Lauriers_aromates	laurier aromatique
+aneth	http://ontology.inrae.fr/frenchcropusage/Aneths	aneth
+faux anis	http://ontology.inrae.fr/frenchcropusage/Aneths	aneth
+fenouil bâtard	http://ontology.inrae.fr/frenchcropusage/Aneths	aneth
+angélique	http://ontology.inrae.fr/frenchcropusage/Angeliques	angélique
+angélique officinale	http://ontology.inrae.fr/frenchcropusage/Angeliques	angélique
+archangélique	http://ontology.inrae.fr/frenchcropusage/Angeliques	angélique
+anis vert	http://ontology.inrae.fr/frenchcropusage/Anis_vert	anis vert
+anis	http://ontology.inrae.fr/frenchcropusage/Anis_vert	anis vert
+graine d’anis	http://ontology.inrae.fr/frenchcropusage/Anis_vert	anis vert
+bourrache	http://ontology.inrae.fr/frenchcropusage/Bourraches	bourrache
+bourrache officinale	http://ontology.inrae.fr/frenchcropusage/Bourraches	bourrache
+cannelier	http://ontology.inrae.fr/frenchcropusage/Canneliers	cannelier
+cannelier de Ceylan	http://ontology.inrae.fr/frenchcropusage/Canneliers	cannelier
+cannelle	http://ontology.inrae.fr/frenchcropusage/Canneliers	cannelier
+câprier	http://ontology.inrae.fr/frenchcropusage/Capriers	câprier
+carvi	http://ontology.inrae.fr/frenchcropusage/Carvis	carvi
+anis des Vosges	http://ontology.inrae.fr/frenchcropusage/Carvis	carvi
+cumin de Hollande	http://ontology.inrae.fr/frenchcropusage/Carvis	carvi
+cumin des prés	http://ontology.inrae.fr/frenchcropusage/Carvis	carvi
+coriandre	http://ontology.inrae.fr/frenchcropusage/Coriandres	coriandre
+coriandre cultivée	http://ontology.inrae.fr/frenchcropusage/Coriandres	coriandre
+crocus cultivé	http://ontology.inrae.fr/frenchcropusage/Crocus_cultives	crocus cultivé
+crocus à safran	http://ontology.inrae.fr/frenchcropusage/Crocus_cultives	crocus cultivé
+safran	http://ontology.inrae.fr/frenchcropusage/Crocus_cultives	crocus cultivé
+safran cultivé	http://ontology.inrae.fr/frenchcropusage/Crocus_cultives	crocus cultivé
+cumin	http://ontology.inrae.fr/frenchcropusage/Cumins	cumin
+faux anis	http://ontology.inrae.fr/frenchcropusage/Cumins	cumin
+cumin blanc	http://ontology.inrae.fr/frenchcropusage/Cumins	cumin
+cumin du Maroc	http://ontology.inrae.fr/frenchcropusage/Cumins	cumin
+gentiane	http://ontology.inrae.fr/frenchcropusage/Gentianes	gentiane
+gentiane jaune	http://ontology.inrae.fr/frenchcropusage/Gentianes	gentiane
+grande gentiane	http://ontology.inrae.fr/frenchcropusage/Gentianes	gentiane
+racine de gentiane	http://ontology.inrae.fr/frenchcropusage/Gentianes	gentiane
+livèche	http://ontology.inrae.fr/frenchcropusage/Liveches	livèche
+céleri de montagne	http://ontology.inrae.fr/frenchcropusage/Liveches	livèche
+céleri perpétuel	http://ontology.inrae.fr/frenchcropusage/Liveches	livèche
+lavas	http://ontology.inrae.fr/frenchcropusage/Liveches	livèche
+marjolaine	http://ontology.inrae.fr/frenchcropusage/Marjolaines	marjolaine
+marjolaine officinale	http://ontology.inrae.fr/frenchcropusage/Marjolaines	marjolaine
+marjolaine à coquilles	http://ontology.inrae.fr/frenchcropusage/Marjolaines	marjolaine
+origan des jardins	http://ontology.inrae.fr/frenchcropusage/Marjolaines	marjolaine
+mélisse	http://ontology.inrae.fr/frenchcropusage/Melisses	mélisse
+mélisse citronnelle	http://ontology.inrae.fr/frenchcropusage/Melisses	mélisse
+mélisse officinale	http://ontology.inrae.fr/frenchcropusage/Melisses	mélisse
+menthe	http://ontology.inrae.fr/frenchcropusage/Menthes	menthe
+menthe poivrée	http://ontology.inrae.fr/frenchcropusage/Menthes	menthe
+menthe verte	http://ontology.inrae.fr/frenchcropusage/Menthes	menthe
+origan	http://ontology.inrae.fr/frenchcropusage/Origans	origan
+marjolaine sauvage	http://ontology.inrae.fr/frenchcropusage/Origans	origan
+marjolaine vivace	http://ontology.inrae.fr/frenchcropusage/Origans	origan
+origan commun	http://ontology.inrae.fr/frenchcropusage/Origans	origan
+romarin	http://ontology.inrae.fr/frenchcropusage/Romarins	romarin
+sariette	http://ontology.inrae.fr/frenchcropusage/Sariettes	sariette
+sarriette	http://ontology.inrae.fr/frenchcropusage/Sariettes	sariette
+sauge	http://ontology.inrae.fr/frenchcropusage/Sauges	sauge
+sauge officinale	http://ontology.inrae.fr/frenchcropusage/Sauges	sauge
+sauge sclarée	http://ontology.inrae.fr/frenchcropusage/Sauges	sauge
+verveine	http://ontology.inrae.fr/frenchcropusage/Verveines	verveine
+betterave	http://ontology.inrae.fr/frenchcropusage/Betteraves	betterave
+betterave fourragère	http://ontology.inrae.fr/frenchcropusage/Betteraves_fourrageres	betterave fourragère
+betterave danoise	http://ontology.inrae.fr/frenchcropusage/Betteraves_fourrageres	betterave fourragère
+betterave demi-sucrière	http://ontology.inrae.fr/frenchcropusage/Betteraves_fourrageres	betterave fourragère
+betterave potagère	http://ontology.inrae.fr/frenchcropusage/Betteraves_potageres	betterave potagère
+betterave non fourragère	http://ontology.inrae.fr/frenchcropusage/Betteraves_potageres	betterave potagère
+betterave rouge	http://ontology.inrae.fr/frenchcropusage/Betteraves_potageres	betterave potagère
+betterave sucrière	http://ontology.inrae.fr/frenchcropusage/Betteraves_sucrieres	betterave sucrière
+betterave non fourragère	http://ontology.inrae.fr/frenchcropusage/Betteraves_sucrieres	betterave sucrière
+betterave industrielle	http://ontology.inrae.fr/frenchcropusage/Betteraves_sucrieres	betterave sucrière
+betteravier	http://ontology.inrae.fr/frenchcropusage/Betteraves_sucrieres	betterave sucrière
+mélasse	http://ontology.inrae.fr/frenchcropusage/Betteraves_sucrieres	betterave sucrière
+pulpe de betterave	http://ontology.inrae.fr/frenchcropusage/Betteraves_sucrieres	betterave sucrière
+pulpe de betterave deshydratée	http://ontology.inrae.fr/frenchcropusage/Betteraves_sucrieres	betterave sucrière
+choux, racines et tubercules fourragers	http://ontology.inrae.fr/frenchcropusage/Choux_racines_tubercules_fourragers	choux, racines et tubercules fourragers
+RTF	http://ontology.inrae.fr/frenchcropusage/Choux_racines_tubercules_fourragers	choux, racines et tubercules fourragers
+racines et tubercules fourragères	http://ontology.inrae.fr/frenchcropusage/Choux_racines_tubercules_fourragers	choux, racines et tubercules fourragers
+légume racine	http://ontology.inrae.fr/frenchcropusage/Legumes_racines	légume racine
+légume à racine	http://ontology.inrae.fr/frenchcropusage/Legumes_racines	légume racine
+culture industrielle	http://ontology.inrae.fr/frenchcropusage/Cultures_industrielles	culture industrielle
+culture industrie	http://ontology.inrae.fr/frenchcropusage/Cultures_industrielles	culture industrielle
+culture pour l'industrie	http://ontology.inrae.fr/frenchcropusage/Cultures_industrielles	culture industrielle
+Légumes à racines ou tubercules	http://ontology.inrae.fr/frenchcropusage/Legumes_racines_tubercules	Légumes à racines ou tubercules
+céleri-rave	http://ontology.inrae.fr/frenchcropusage/Celeris_raves	céleri-rave
+céleri navet	http://ontology.inrae.fr/frenchcropusage/Celeris_raves	céleri-rave
+céleri rave	http://ontology.inrae.fr/frenchcropusage/Celeris_raves	céleri-rave
+céleri-navet	http://ontology.inrae.fr/frenchcropusage/Celeris_raves	céleri-rave
+chou-navet à chair jaune	http://ontology.inrae.fr/frenchcropusage/Choux_navets_chair_jaune	chou-navet à chair jaune
+Rutabaga	http://ontology.inrae.fr/frenchcropusage/Choux_navets_chair_jaune	chou-navet à chair jaune
+chou navet à chair jaune	http://ontology.inrae.fr/frenchcropusage/Choux_navets_chair_jaune	chou-navet à chair jaune
+manioc	http://ontology.inrae.fr/frenchcropusage/Maniocs	manioc
+farine de manioc	http://ontology.inrae.fr/frenchcropusage/Maniocs	manioc
+fécule de manioc	http://ontology.inrae.fr/frenchcropusage/Maniocs	manioc
+navet potager	http://ontology.inrae.fr/frenchcropusage/Navets_potagers	navet potager
+navet d'automne	http://ontology.inrae.fr/frenchcropusage/Navets_potagers	navet potager
+navet de printemps	http://ontology.inrae.fr/frenchcropusage/Navets_potagers	navet potager
+panais	http://ontology.inrae.fr/frenchcropusage/Panais	panais
+radis noir potager	http://ontology.inrae.fr/frenchcropusage/Radis_noirs_potagers	radis noir potager
+radis d'Espagne	http://ontology.inrae.fr/frenchcropusage/Radis_noirs_potagers	radis noir potager
+radis d'hiver	http://ontology.inrae.fr/frenchcropusage/Radis_noirs_potagers	radis noir potager
+raifort cultivé	http://ontology.inrae.fr/frenchcropusage/Radis_noirs_potagers	radis noir potager
+raifort des Parisiens	http://ontology.inrae.fr/frenchcropusage/Radis_noirs_potagers	radis noir potager
+radis rave	http://ontology.inrae.fr/frenchcropusage/Radis_raves	radis rave
+salsifis  	http://ontology.inrae.fr/frenchcropusage/Salsifis	salsifis  
+barbe de bouc	http://ontology.inrae.fr/frenchcropusage/Salsifis	salsifis  
+cercifis commun	http://ontology.inrae.fr/frenchcropusage/Salsifis	salsifis  
+salsifis austral	http://ontology.inrae.fr/frenchcropusage/Salsifis	salsifis  
+salsifis blanc	http://ontology.inrae.fr/frenchcropusage/Salsifis	salsifis  
+salsifis à feuilles de poireau	http://ontology.inrae.fr/frenchcropusage/Salsifis	salsifis  
+scorsonère	http://ontology.inrae.fr/frenchcropusage/Scorsoneres	scorsonère
+salsifi	http://ontology.inrae.fr/frenchcropusage/Scorsoneres	scorsonère
+salsifi noir	http://ontology.inrae.fr/frenchcropusage/Scorsoneres	scorsonère
+scorsonère d'Espagne	http://ontology.inrae.fr/frenchcropusage/Scorsoneres	scorsonère
+scorzonère	http://ontology.inrae.fr/frenchcropusage/Scorsoneres	scorsonère
+carotte potagère	http://ontology.inrae.fr/frenchcropusage/Carottes_potageres	carotte potagère
+grande culture	http://ontology.inrae.fr/frenchcropusage/Grandes_cultures	grande culture
+GC	http://ontology.inrae.fr/frenchcropusage/Grandes_cultures	grande culture
+plante à fibre	http://ontology.inrae.fr/frenchcropusage/Plantes_fibres	plante à fibre
+plante textile	http://ontology.inrae.fr/frenchcropusage/Plantes_fibres	plante à fibre
+chicorée industrielle	http://ontology.inrae.fr/frenchcropusage/Chicorees_industrielles	chicorée industrielle
+chicorée racine	http://ontology.inrae.fr/frenchcropusage/Chicorees_industrielles	chicorée industrielle
+chicorée à café	http://ontology.inrae.fr/frenchcropusage/Chicorees_industrielles	chicorée industrielle
+chicorée à inuline	http://ontology.inrae.fr/frenchcropusage/Chicorees_industrielles	chicorée industrielle
+miscanthus	http://ontology.inrae.fr/frenchcropusage/Miscanthus_industriels	miscanthus
+herbe à éléphant	http://ontology.inrae.fr/frenchcropusage/Miscanthus_industriels	miscanthus
+miscanthus géant	http://ontology.inrae.fr/frenchcropusage/Miscanthus_industriels	miscanthus
+pomme de terre féculière	http://ontology.inrae.fr/frenchcropusage/Pommes_terre_feculieres	pomme de terre féculière
+amidon de pomme de terre	http://ontology.inrae.fr/frenchcropusage/Pommes_terre_feculieres	pomme de terre féculière
+fécule de pomme de terre	http://ontology.inrae.fr/frenchcropusage/Pommes_terre_feculieres	pomme de terre féculière
+féculerie	http://ontology.inrae.fr/frenchcropusage/Pommes_terre_feculieres	pomme de terre féculière
+tabac	http://ontology.inrae.fr/frenchcropusage/Tabac	tabac
+tabac blond	http://ontology.inrae.fr/frenchcropusage/Tabac	tabac
+tabac brun	http://ontology.inrae.fr/frenchcropusage/Tabac	tabac
+grand tabac	http://ontology.inrae.fr/frenchcropusage/Tabac	tabac
+herbe à Nicot	http://ontology.inrae.fr/frenchcropusage/Tabac	tabac
+tabac cultivé	http://ontology.inrae.fr/frenchcropusage/Tabac	tabac
+lavandin	http://ontology.inrae.fr/frenchcropusage/Lavandins	lavandin
+essence de lavandin	http://ontology.inrae.fr/frenchcropusage/Lavandins	lavandin
+rosier odorant	http://ontology.inrae.fr/frenchcropusage/Rosiers_parfum	rosier odorant
+pétale de rose	http://ontology.inrae.fr/frenchcropusage/Rosiers_parfum	rosier odorant
+hélichryse d’Italie	http://ontology.inrae.fr/frenchcropusage/Helichryse_Italie	hélichryse d’Italie
+hélichryse	http://ontology.inrae.fr/frenchcropusage/Helichryse_Italie	hélichryse d’Italie
+immortelle 	http://ontology.inrae.fr/frenchcropusage/Helichryse_Italie	hélichryse d’Italie
+immortelle d’Italie	http://ontology.inrae.fr/frenchcropusage/Helichryse_Italie	hélichryse d’Italie
+pensée	http://ontology.inrae.fr/frenchcropusage/Pensees	pensée
+parfum de violette	http://ontology.inrae.fr/frenchcropusage/Pensees	pensée
+violette	http://ontology.inrae.fr/frenchcropusage/Pensees	pensée
+jasmin à parfum	http://ontology.inrae.fr/frenchcropusage/Jasmins_parfum	jasmin à parfum
+jasmin d’Espagne	http://ontology.inrae.fr/frenchcropusage/Jasmins_parfum	jasmin à parfum
+violette odorante	http://ontology.inrae.fr/frenchcropusage/Violettes_odorantes	violette odorante
+fleur de violette	http://ontology.inrae.fr/frenchcropusage/Violettes_odorantes	violette odorante
+violette parfumée	http://ontology.inrae.fr/frenchcropusage/Violettes_odorantes	violette odorante
+Ylang-ylang	http://ontology.inrae.fr/frenchcropusage/Ylang_ylangs	Ylang-ylang
+ylang ylang	http://ontology.inrae.fr/frenchcropusage/Ylang_ylangs	Ylang-ylang
+blé dur	http://ontology.inrae.fr/frenchcropusage/Bles_durs	blé dur
+couscous	http://ontology.inrae.fr/frenchcropusage/Bles_durs	blé dur
+pâte	http://ontology.inrae.fr/frenchcropusage/Bles_durs	blé dur
+semoule	http://ontology.inrae.fr/frenchcropusage/Bles_durs	blé dur
+blé tendre	http://ontology.inrae.fr/frenchcropusage/Bles_tendres	blé tendre
+froment	http://ontology.inrae.fr/frenchcropusage/Bles_tendres	blé tendre
+farine panifiable	http://ontology.inrae.fr/frenchcropusage/Bles_tendres	blé tendre
+pain	http://ontology.inrae.fr/frenchcropusage/Bles_tendres	blé tendre
+engrain	http://ontology.inrae.fr/frenchcropusage/Engrains	engrain
+petit épeautre	http://ontology.inrae.fr/frenchcropusage/Engrains	engrain
+épeautre	http://ontology.inrae.fr/frenchcropusage/Epeautres	épeautre
+blé des gaulois	http://ontology.inrae.fr/frenchcropusage/Epeautres	épeautre
+grand épeautre	http://ontology.inrae.fr/frenchcropusage/Epeautres	épeautre
+blé dur d'hiver	http://ontology.inrae.fr/frenchcropusage/Bles_durs_hiver	blé dur d'hiver
+blé dur hiver	http://ontology.inrae.fr/frenchcropusage/Bles_durs_hiver	blé dur d'hiver
+blé dur de printemps	http://ontology.inrae.fr/frenchcropusage/Bles_durs_printemps	blé dur de printemps
+blé dur printemps	http://ontology.inrae.fr/frenchcropusage/Bles_durs_printemps	blé dur de printemps
+blé tendre d'hiver	http://ontology.inrae.fr/frenchcropusage/Bles_tendres_hiver	blé tendre d'hiver
+blé tendre hiver	http://ontology.inrae.fr/frenchcropusage/Bles_tendres_hiver	blé tendre d'hiver
+blé tendre de printemps	http://ontology.inrae.fr/frenchcropusage/Bles_tendres_printemps	blé tendre de printemps
+blé tendre printemps	http://ontology.inrae.fr/frenchcropusage/Bles_tendres_printemps	blé tendre de printemps
+cameline	http://ontology.inrae.fr/frenchcropusage/Camelines	cameline
+huile de caméline	http://ontology.inrae.fr/frenchcropusage/Camelines	cameline
+lin bätard	http://ontology.inrae.fr/frenchcropusage/Camelines	cameline
+sésame d'Allemagne	http://ontology.inrae.fr/frenchcropusage/Camelines	cameline
+oléagineux	http://ontology.inrae.fr/frenchcropusage/Oleagineux	oléagineux
+carthame	http://ontology.inrae.fr/frenchcropusage/Carthames	carthame
+huile de carthame	http://ontology.inrae.fr/frenchcropusage/Carthames	carthame
+chanvre oléagineux	http://ontology.inrae.fr/frenchcropusage/Chanvres_oleagineux	chanvre oléagineux
+chanvre non textile	http://ontology.inrae.fr/frenchcropusage/Chanvres_oleagineux	chanvre oléagineux
+chènevis	http://ontology.inrae.fr/frenchcropusage/Chanvres_oleagineux	chanvre oléagineux
+graine de chanvre	http://ontology.inrae.fr/frenchcropusage/Chanvres_oleagineux	chanvre oléagineux
+tourteau de chanvre	http://ontology.inrae.fr/frenchcropusage/Chanvres_oleagineux	chanvre oléagineux
+colza oléagineux	http://ontology.inrae.fr/frenchcropusage/Colzas_oleagineux	colza oléagineux
+huile de colza	http://ontology.inrae.fr/frenchcropusage/Colzas_oleagineux	colza oléagineux
+tourteau de colza	http://ontology.inrae.fr/frenchcropusage/Colzas_oleagineux	colza oléagineux
+lin oléagineux	http://ontology.inrae.fr/frenchcropusage/Lins_oleagineux	lin oléagineux
+graine de lin	http://ontology.inrae.fr/frenchcropusage/Lins_oleagineux	lin oléagineux
+huile de lin	http://ontology.inrae.fr/frenchcropusage/Lins_oleagineux	lin oléagineux
+lin graine	http://ontology.inrae.fr/frenchcropusage/Lins_oleagineux	lin oléagineux
+lin non textile	http://ontology.inrae.fr/frenchcropusage/Lins_oleagineux	lin oléagineux
+lin à graine	http://ontology.inrae.fr/frenchcropusage/Lins_oleagineux	lin oléagineux
+lin à graines	http://ontology.inrae.fr/frenchcropusage/Lins_oleagineux	lin oléagineux
+moutarde oléagineuse	http://ontology.inrae.fr/frenchcropusage/Moutardes_oleagineuses	moutarde oléagineuse
+navette oléagineuse	http://ontology.inrae.fr/frenchcropusage/Navettes_oleagineuses	navette oléagineuse
+huile de navette	http://ontology.inrae.fr/frenchcropusage/Navettes_oleagineuses	navette oléagineuse
+oeillette	http://ontology.inrae.fr/frenchcropusage/Oeillettes	oeillette
+huile d'oeillette	http://ontology.inrae.fr/frenchcropusage/Oeillettes	oeillette
+huile de graine de pavot	http://ontology.inrae.fr/frenchcropusage/Oeillettes	oeillette
+pavot bleu	http://ontology.inrae.fr/frenchcropusage/Oeillettes	oeillette
+pavot noir	http://ontology.inrae.fr/frenchcropusage/Oeillettes	oeillette
+pavot oeillette	http://ontology.inrae.fr/frenchcropusage/Oeillettes	oeillette
+pavot à oeillette	http://ontology.inrae.fr/frenchcropusage/Oeillettes	oeillette
+pavot-oeillette	http://ontology.inrae.fr/frenchcropusage/Oeillettes	oeillette
+ricin	http://ontology.inrae.fr/frenchcropusage/Ricins	ricin
+huile de ricin	http://ontology.inrae.fr/frenchcropusage/Ricins	ricin
+la ricine	http://ontology.inrae.fr/frenchcropusage/Ricins	ricin
+rincin commun	http://ontology.inrae.fr/frenchcropusage/Ricins	ricin
+sésame	http://ontology.inrae.fr/frenchcropusage/Sesames	sésame
+graine de sésame	http://ontology.inrae.fr/frenchcropusage/Sesames	sésame
+huile de sésame	http://ontology.inrae.fr/frenchcropusage/Sesames	sésame
+soja oléoprotéagineux	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+farine de soja	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+haricot oléagineux	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+huile de soja	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+lait de soja	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+pois chinois	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+soja jaune	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+soja oléagineux	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+soja protéagineux	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+soja à graines noires	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+soja à graines vertes	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+soya	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+tofu	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+tourteau de soja	http://ontology.inrae.fr/frenchcropusage/Sojas_oleoproteagineux	soja oléoprotéagineux
+tournesol oléagineux	http://ontology.inrae.fr/frenchcropusage/Tournesol_oleagineux	tournesol oléagineux
+huile de tournesol	http://ontology.inrae.fr/frenchcropusage/Tournesol_oleagineux	tournesol oléagineux
+tourteau de tournesol	http://ontology.inrae.fr/frenchcropusage/Tournesol_oleagineux	tournesol oléagineux
+arachide	http://ontology.inrae.fr/frenchcropusage/Arachides	arachide
+cacahouète	http://ontology.inrae.fr/frenchcropusage/Arachides	arachide
+cacahuète	http://ontology.inrae.fr/frenchcropusage/Arachides	arachide
+huile d’arachide	http://ontology.inrae.fr/frenchcropusage/Arachides	arachide
+niger oléagineux	http://ontology.inrae.fr/frenchcropusage/Nigers_oleagineux	niger oléagineux
+nyger oléagineux	http://ontology.inrae.fr/frenchcropusage/Nigers_oleagineux	niger oléagineux
+carotte	http://ontology.inrae.fr/frenchcropusage/Carottes	carotte
+carotte fourragère	http://ontology.inrae.fr/frenchcropusage/Carottes_fourrageres	carotte fourragère
+céleri	http://ontology.inrae.fr/frenchcropusage/Celeris	céleri
+ache des marais	http://ontology.inrae.fr/frenchcropusage/Celeris	céleri
+cèleri	http://ontology.inrae.fr/frenchcropusage/Celeris	céleri
+persil des marais	http://ontology.inrae.fr/frenchcropusage/Celeris	céleri
+culture légumière ou culture de chapignons	http://ontology.inrae.fr/frenchcropusage/Cultures_legumieres_champignons	culture légumière ou culture de chapignons
+jardins familiaux	http://ontology.inrae.fr/frenchcropusage/Cultures_jardins_familiaux	jardins familiaux
+jardin familial	http://ontology.inrae.fr/frenchcropusage/Cultures_jardins_familiaux	jardins familiaux
+jardins ouvriers	http://ontology.inrae.fr/frenchcropusage/Cultures_jardins_familiaux	jardins familiaux
+potager	http://ontology.inrae.fr/frenchcropusage/Cultures_jardins_familiaux	jardins familiaux
+vergers familiaux	http://ontology.inrae.fr/frenchcropusage/Cultures_jardins_familiaux	jardins familiaux
+culture légumière de plein champ	http://ontology.inrae.fr/frenchcropusage/Cultures_plein_champs	culture légumière de plein champ
+culture de plein champ	http://ontology.inrae.fr/frenchcropusage/Cultures_plein_champs	culture légumière de plein champ
+culture plein champ	http://ontology.inrae.fr/frenchcropusage/Cultures_plein_champs	culture légumière de plein champ
+légumes industries	http://ontology.inrae.fr/frenchcropusage/Cultures_plein_champs	culture légumière de plein champ
+légume à graines ou à gousses	http://ontology.inrae.fr/frenchcropusage/Legumes_graines_gousses	légume à graines ou à gousses
+gousse	http://ontology.inrae.fr/frenchcropusage/Legumes_graines_gousses	légume à graines ou à gousses
+lègume graine	http://ontology.inrae.fr/frenchcropusage/Legumes_graines_gousses	légume à graines ou à gousses
+lègume sec	http://ontology.inrae.fr/frenchcropusage/Legumes_graines_gousses	légume à graines ou à gousses
+lègumes secs	http://ontology.inrae.fr/frenchcropusage/Legumes_graines_gousses	légume à graines ou à gousses
+légume gousse	http://ontology.inrae.fr/frenchcropusage/Legumes_graines_gousses	légume à graines ou à gousses
+légume à cosse	http://ontology.inrae.fr/frenchcropusage/Legumes_graines_gousses	légume à graines ou à gousses
+légume à graines	http://ontology.inrae.fr/frenchcropusage/Legumes_graines_gousses	légume à graines ou à gousses
+maraîchage	http://ontology.inrae.fr/frenchcropusage/Maraichage	maraîchage
+légume frais	http://ontology.inrae.fr/frenchcropusage/Maraichage	maraîchage
+vente en frais de légumes	http://ontology.inrae.fr/frenchcropusage/Maraichage	maraîchage
+quinoa	http://ontology.inrae.fr/frenchcropusage/Quinoas	quinoa
+culture fourragère	http://ontology.inrae.fr/frenchcropusage/Cultures_fourrageres	culture fourragère
+fourrage	http://ontology.inrae.fr/frenchcropusage/Cultures_fourrageres	culture fourragère
+fourrage déshydraté	http://ontology.inrae.fr/frenchcropusage/Cultures_fourrageres	culture fourragère
+fourrage paturé	http://ontology.inrae.fr/frenchcropusage/Cultures_fourrageres	culture fourragère
+colza fourrager	http://ontology.inrae.fr/frenchcropusage/Colzas_fourragers	colza fourrager
+navette fourragère	http://ontology.inrae.fr/frenchcropusage/Navettes_fourrageres	navette fourragère
+féverole fourragère	http://ontology.inrae.fr/frenchcropusage/Feveroles_fourrageres	féverole fourragère
+faverole fourragère	http://ontology.inrae.fr/frenchcropusage/Feveroles_fourrageres	féverole fourragère
+fèverole fourragère	http://ontology.inrae.fr/frenchcropusage/Feveroles_fourrageres	féverole fourragère
+féve fourragère	http://ontology.inrae.fr/frenchcropusage/Feveroles_fourrageres	féverole fourragère
+féverolle fourragère	http://ontology.inrae.fr/frenchcropusage/Feveroles_fourrageres	féverole fourragère
+vesce fourragère	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce commune	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce cultivée	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce d'hiver	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce de Cerdagne	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce de Hongrie	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce de Pannonie	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce de printemps	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce hiver	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce printemps	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+vesce déshydratée	http://ontology.inrae.fr/frenchcropusage/Vesces_fourrageres	vesce fourragère
+lupin fourrager	http://ontology.inrae.fr/frenchcropusage/Lupins_fourragers	lupin fourrager
+lupin bleu	http://ontology.inrae.fr/frenchcropusage/Lupins_fourragers	lupin fourrager
+lupin doux fourrager	http://ontology.inrae.fr/frenchcropusage/Lupins_fourragers	lupin fourrager
+mélilot fourrager	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+petit trèfle jaune	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+couronne royale	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+herbe aux puces	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+luzerne batarde	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+mélilot blanc	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+mélilot de Sibérie	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+mélilot jaune	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+trèfle de Bokhara	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+trèfle des mouches	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+mélilot déshydraté	http://ontology.inrae.fr/frenchcropusage/Melilots_fourragers	mélilot fourrager
+moutarde fourragère	http://ontology.inrae.fr/frenchcropusage/Moutardes_fourrageres	moutarde fourragère
+pois fourrager	http://ontology.inrae.fr/frenchcropusage/Pois_fourragers	pois fourrager
+soja fourrager	http://ontology.inrae.fr/frenchcropusage/Sojas_fourragers	soja fourrager
+tournesol fourrager	http://ontology.inrae.fr/frenchcropusage/Tournesols_fourragers	tournesol fourrager
+tournesol fourrage	http://ontology.inrae.fr/frenchcropusage/Tournesols_fourragers	tournesol fourrager
+tournesol résolté en vert	http://ontology.inrae.fr/frenchcropusage/Tournesols_fourragers	tournesol fourrager
+trèfle incarnat	http://ontology.inrae.fr/frenchcropusage/Trefles_incarnats	trèfle incarnat
+trèfle du Roussillon	http://ontology.inrae.fr/frenchcropusage/Trefles_incarnats	trèfle incarnat
+trèfle farouche	http://ontology.inrae.fr/frenchcropusage/Trefles_incarnats	trèfle incarnat
+gesse fourragère	http://ontology.inrae.fr/frenchcropusage/Gesses_fourrageres	gesse fourragère
+gesse chiche	http://ontology.inrae.fr/frenchcropusage/Gesses_fourrageres	gesse fourragère
+gesse cultivée	http://ontology.inrae.fr/frenchcropusage/Gesses_fourrageres	gesse fourragère
+jarosse	http://ontology.inrae.fr/frenchcropusage/Gesses_fourrageres	gesse fourragère
+jarosse déshydratée	http://ontology.inrae.fr/frenchcropusage/Gesses_fourrageres	gesse fourragère
+fenugrec fourrager	http://ontology.inrae.fr/frenchcropusage/Fenugrecs_fourragers	fenugrec fourrager
+lentille fourragère	http://ontology.inrae.fr/frenchcropusage/Lentilles_fourrageres	lentille fourragère
+La paille de lentilles	http://ontology.inrae.fr/frenchcropusage/Lentilles_fourrageres	lentille fourragère
+lentille noirâtre	http://ontology.inrae.fr/frenchcropusage/Lentilles_fourrageres	lentille fourragère
+moha	http://ontology.inrae.fr/frenchcropusage/Mohas_fourragers	moha
+millet des oiseaux	http://ontology.inrae.fr/frenchcropusage/Mohas_fourragers	moha
+moha fourrager	http://ontology.inrae.fr/frenchcropusage/Mohas_fourragers	moha
+maïs	http://ontology.inrae.fr/frenchcropusage/Mais	maïs
+maïs fourrage	http://ontology.inrae.fr/frenchcropusage/Mais_fourrage	maïs fourrage
+maïs ensilage	http://ontology.inrae.fr/frenchcropusage/Mais_fourrage	maïs fourrage
+maïs fourrage consommé en vert	http://ontology.inrae.fr/frenchcropusage/Mais_fourrage	maïs fourrage
+maïs fourrage ensilé	http://ontology.inrae.fr/frenchcropusage/Mais_fourrage	maïs fourrage
+maïs-grain ensilé	http://ontology.inrae.fr/frenchcropusage/Mais_fourrage	maïs fourrage
+maïs grain	http://ontology.inrae.fr/frenchcropusage/Mais_grain	maïs grain
+grain de maïs	http://ontology.inrae.fr/frenchcropusage/Mais_grain	maïs grain
+maïs en grain	http://ontology.inrae.fr/frenchcropusage/Mais_grain	maïs grain
+orge à deux rangs	http://ontology.inrae.fr/frenchcropusage/Orges_deux_rangs	orge à deux rangs
+orge d'hiver	http://ontology.inrae.fr/frenchcropusage/Orges_hiver	orge d'hiver
+orge hiver	http://ontology.inrae.fr/frenchcropusage/Orges_hiver	orge d'hiver
+orge de printemps	http://ontology.inrae.fr/frenchcropusage/Orges_printemps	orge de printemps
+orge printemps	http://ontology.inrae.fr/frenchcropusage/Orges_printemps	orge de printemps
+orge à six rangs	http://ontology.inrae.fr/frenchcropusage/Orges_six_rangs	orge à six rangs
+escourgeon	http://ontology.inrae.fr/frenchcropusage/Orges_six_rangs	orge à six rangs
+seigle d'hiver	http://ontology.inrae.fr/frenchcropusage/Seigles_hiver	seigle d'hiver
+seigle hiver	http://ontology.inrae.fr/frenchcropusage/Seigles_hiver	seigle d'hiver
+seigle de printemps	http://ontology.inrae.fr/frenchcropusage/Seigles_printemps	seigle de printemps
+seigle printemps	http://ontology.inrae.fr/frenchcropusage/Seigles_printemps	seigle de printemps
+sorgho fourrager	http://ontology.inrae.fr/frenchcropusage/Sorghos_fourragers	sorgho fourrager
+sorgho ensilage	http://ontology.inrae.fr/frenchcropusage/Sorghos_fourragers	sorgho fourrager
+sorgho herbacé	http://ontology.inrae.fr/frenchcropusage/Sorghos_fourragers	sorgho fourrager
+sorgho grain	http://ontology.inrae.fr/frenchcropusage/Sorghos_grains	sorgho grain
+sorgho	http://ontology.inrae.fr/frenchcropusage/Sorghos_grains	sorgho grain
+sorgho à grain	http://ontology.inrae.fr/frenchcropusage/Sorghos_grains	sorgho grain
+triticale d'hiver	http://ontology.inrae.fr/frenchcropusage/Triticales_hiver	triticale d'hiver
+triticale hiver	http://ontology.inrae.fr/frenchcropusage/Triticales_hiver	triticale d'hiver
+triticale de printemps	http://ontology.inrae.fr/frenchcropusage/Triticales_printemps	triticale de printemps
+triticale printemp	http://ontology.inrae.fr/frenchcropusage/Triticales_printemps	triticale de printemps
+cerfeuil	http://ontology.inrae.fr/frenchcropusage/Cerfeuils	cerfeuil
+légume tubercule	http://ontology.inrae.fr/frenchcropusage/Legumes_tubercules	légume tubercule
+légume à tubercules	http://ontology.inrae.fr/frenchcropusage/Legumes_tubercules	légume tubercule
+crosne	http://ontology.inrae.fr/frenchcropusage/Crosnes	crosne
+crosne du japon	http://ontology.inrae.fr/frenchcropusage/Crosnes	crosne
+igname 	http://ontology.inrae.fr/frenchcropusage/Ignames	igname 
+patate douce	http://ontology.inrae.fr/frenchcropusage/Patates_douces	patate douce
+pomme de terre potagère	http://ontology.inrae.fr/frenchcropusage/Pommes_de_terre_potageres	pomme de terre potagère
+patate	http://ontology.inrae.fr/frenchcropusage/Pommes_de_terre_potageres	pomme de terre potagère
+pomme de terre de conservation	http://ontology.inrae.fr/frenchcropusage/Pommes_de_terre_potageres	pomme de terre potagère
+pomme de terre de consommation	http://ontology.inrae.fr/frenchcropusage/Pommes_de_terre_potageres	pomme de terre potagère
+pomme de terre de primeur	http://ontology.inrae.fr/frenchcropusage/Pommes_de_terre_potageres	pomme de terre potagère
+pomme de terre nouvelle	http://ontology.inrae.fr/frenchcropusage/Pommes_de_terre_potageres	pomme de terre potagère
+pomme de terre primeur	http://ontology.inrae.fr/frenchcropusage/Pommes_de_terre_potageres	pomme de terre potagère
+topinambour	http://ontology.inrae.fr/frenchcropusage/Topinambours	topinambour
+artichaut de Jérusalem	http://ontology.inrae.fr/frenchcropusage/Topinambours	topinambour
+soleil vivace	http://ontology.inrae.fr/frenchcropusage/Topinambours	topinambour
+truffe du Canada	http://ontology.inrae.fr/frenchcropusage/Topinambours	topinambour
+chanvre	http://ontology.inrae.fr/frenchcropusage/Chanvres	chanvre
+cannabis	http://ontology.inrae.fr/frenchcropusage/Chanvres	chanvre
+chanvre cultivé	http://ontology.inrae.fr/frenchcropusage/Chanvres	chanvre
+chènevière	http://ontology.inrae.fr/frenchcropusage/Chanvres	chanvre
+chanvre industriel	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+chanvre agricole	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+chanvre fibre	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+chanvre monoïque	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+chanvre papier	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+chanvre textile	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+chanvre à fibre	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+chènevotte	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+laine de chanvre	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+paille de chanvre	http://ontology.inrae.fr/frenchcropusage/Chanvres_fibres	chanvre industriel
+lin à fibres	http://ontology.inrae.fr/frenchcropusage/Lins_fibres	lin à fibres
+fibre de lin	http://ontology.inrae.fr/frenchcropusage/Lins_fibres	lin à fibres
+lin fibre	http://ontology.inrae.fr/frenchcropusage/Lins_fibres	lin à fibres
+lin fibres	http://ontology.inrae.fr/frenchcropusage/Lins_fibres	lin à fibres
+lin textile	http://ontology.inrae.fr/frenchcropusage/Lins_fibres	lin à fibres
+lupin à fibres	http://ontology.inrae.fr/frenchcropusage/Lupins_fibres	lupin à fibres
+lupin doux fibres	http://ontology.inrae.fr/frenchcropusage/Lupins_fibres	lupin à fibres
+lupin doux à fibre	http://ontology.inrae.fr/frenchcropusage/Lupins_fibres	lupin à fibres
+chicorée	http://ontology.inrae.fr/frenchcropusage/Chicorees	chicorée
+chicorée sauvage	http://ontology.inrae.fr/frenchcropusage/Chicorees	chicorée
+chicorée potagère	http://ontology.inrae.fr/frenchcropusage/Chicorees_potageres	chicorée potagère
+chicorée	http://ontology.inrae.fr/frenchcropusage/Chicorees_potageres	chicorée potagère
+endive	http://ontology.inrae.fr/frenchcropusage/Chicorees_potageres	chicorée potagère
+chicorée endive	http://ontology.inrae.fr/frenchcropusage/Chicorees_potageres	chicorée potagère
+chicorée de Bruxelle	http://ontology.inrae.fr/frenchcropusage/Chicorees_Bruxelles	chicorée de Bruxelle
+chicon	http://ontology.inrae.fr/frenchcropusage/Chicorees_Bruxelles	chicorée de Bruxelle
+chicorée italienne	http://ontology.inrae.fr/frenchcropusage/Chicorees_Bruxelles	chicorée de Bruxelle
+chicorée witloof	http://ontology.inrae.fr/frenchcropusage/Chicorees_Bruxelles	chicorée de Bruxelle
+endive	http://ontology.inrae.fr/frenchcropusage/Chicorees_Bruxelles	chicorée de Bruxelle
+chicorée frisée	http://ontology.inrae.fr/frenchcropusage/Chicorees_frisees	chicorée frisée
+Grosse pommant seule	http://ontology.inrae.fr/frenchcropusage/Chicorees_frisees	chicorée frisée
+Très fine maraîchère	http://ontology.inrae.fr/frenchcropusage/Chicorees_frisees	chicorée frisée
+chicorée endive	http://ontology.inrae.fr/frenchcropusage/Chicorees_frisees	chicorée frisée
+frisée	http://ontology.inrae.fr/frenchcropusage/Chicorees_frisees	chicorée frisée
+Été à cœur jaune	http://ontology.inrae.fr/frenchcropusage/Chicorees_frisees	chicorée frisée
+Wallonne	http://ontology.inrae.fr/frenchcropusage/Chicorees_frisees	chicorée frisée
+chicorée scarole	http://ontology.inrae.fr/frenchcropusage/Chicorees_scaroles	chicorée scarole
+chicorée endive	http://ontology.inrae.fr/frenchcropusage/Chicorees_scaroles	chicorée scarole
+Grosse bouclée	http://ontology.inrae.fr/frenchcropusage/Chicorees_scaroles	chicorée scarole
+Géante maraîchère	http://ontology.inrae.fr/frenchcropusage/Chicorees_scaroles	chicorée scarole
+Ronde verte à cœur plein	http://ontology.inrae.fr/frenchcropusage/Chicorees_scaroles	chicorée scarole
+scarole	http://ontology.inrae.fr/frenchcropusage/Chicorees_scaroles	chicorée scarole
+laitue	http://ontology.inrae.fr/frenchcropusage/Laitues	laitue
+laitue de plein champ	http://ontology.inrae.fr/frenchcropusage/Laitues	laitue
+laitue de serre	http://ontology.inrae.fr/frenchcropusage/Laitues	laitue
+laitue cultivée	http://ontology.inrae.fr/frenchcropusage/Laitues	laitue
+mâche	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+doucette	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+rosette	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+blanchette	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+boursette	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+clairette	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+oreillette	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+raiponce	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+valérianelle	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+valérianelle cultivée	http://ontology.inrae.fr/frenchcropusage/Maches	mâche
+mesclun	http://ontology.inrae.fr/frenchcropusage/Mescluns	mesclun
+pissenlit	http://ontology.inrae.fr/frenchcropusage/Pissenlits	pissenlit
+dent-de-lion	http://ontology.inrae.fr/frenchcropusage/Pissenlits	pissenlit
+roquette	http://ontology.inrae.fr/frenchcropusage/Roquettes	roquette
+chou	http://ontology.inrae.fr/frenchcropusage/Choux	chou
+chou fourrager	http://ontology.inrae.fr/frenchcropusage/Choux_fourragers	chou fourrager
+chou branchu	http://ontology.inrae.fr/frenchcropusage/Choux_fourragers	chou fourrager
+chou cavalier	http://ontology.inrae.fr/frenchcropusage/Choux_fourragers	chou fourrager
+chou feuillu	http://ontology.inrae.fr/frenchcropusage/Choux_fourragers	chou fourrager
+chou moellier	http://ontology.inrae.fr/frenchcropusage/Choux_fourragers	chou fourrager
+Chou navet	http://ontology.inrae.fr/frenchcropusage/Choux_navets	Chou navet
+chou potager	http://ontology.inrae.fr/frenchcropusage/Choux_potagers	chou potager
+chou	http://ontology.inrae.fr/frenchcropusage/Choux_potagers	chou potager
+chou coco	http://ontology.inrae.fr/frenchcropusage/Choux_potagers	chou potager
+chou palmiste	http://ontology.inrae.fr/frenchcropusage/Choux_potagers	chou potager
+palmier royal	http://ontology.inrae.fr/frenchcropusage/Choux_potagers	chou potager
+palmiste	http://ontology.inrae.fr/frenchcropusage/Choux_potagers	chou potager
+choux-navets à chair blanche	http://ontology.inrae.fr/frenchcropusage/Choux_navets_chair_blanche	choux-navets à chair blanche
+choux navet à chair blanche	http://ontology.inrae.fr/frenchcropusage/Choux_navets_chair_blanche	choux-navets à chair blanche
+chou de Milan	http://ontology.inrae.fr/frenchcropusage/Choux_Milan	chou de Milan
+chou cloqué	http://ontology.inrae.fr/frenchcropusage/Choux_Milan	chou de Milan
+chou de Savoie	http://ontology.inrae.fr/frenchcropusage/Choux_Milan	chou de Milan
+chou pommé frisé	http://ontology.inrae.fr/frenchcropusage/Choux_Milan	chou de Milan
+Chou cabus blanc	http://ontology.inrae.fr/frenchcropusage/Choux_cabus_blancs	Chou cabus blanc
+chou cabus	http://ontology.inrae.fr/frenchcropusage/Choux_cabus_blancs	Chou cabus blanc
+chou cabus à choucroute	http://ontology.inrae.fr/frenchcropusage/Choux_cabus_blancs	Chou cabus blanc
+chou à choucroute	http://ontology.inrae.fr/frenchcropusage/Choux_cabus_blancs	Chou cabus blanc
+choucroute	http://ontology.inrae.fr/frenchcropusage/Choux_cabus_blancs	Chou cabus blanc
+chou cabus rouge	http://ontology.inrae.fr/frenchcropusage/Choux_cabus_rouges	chou cabus rouge
+chou rouge	http://ontology.inrae.fr/frenchcropusage/Choux_cabus_rouges	chou cabus rouge
+chou vert	http://ontology.inrae.fr/frenchcropusage/Choux_verts	chou vert
+chou cabus vert	http://ontology.inrae.fr/frenchcropusage/Choux_verts	chou vert
+chou pommé vert	http://ontology.inrae.fr/frenchcropusage/Choux_verts	chou vert
+citrouille	http://ontology.inrae.fr/frenchcropusage/Citrouilles	citrouille
+courge butternut	http://ontology.inrae.fr/frenchcropusage/Courges_butternut	courge butternut
+courge cacahouète	http://ontology.inrae.fr/frenchcropusage/Courges_butternut	courge butternut
+doubeurre	http://ontology.inrae.fr/frenchcropusage/Courges_butternut	courge butternut
+pâtisson 	http://ontology.inrae.fr/frenchcropusage/Patissons	pâtisson 
+artichaut d'Espagne	http://ontology.inrae.fr/frenchcropusage/Patissons	pâtisson 
+bonnet d'électeur	http://ontology.inrae.fr/frenchcropusage/Patissons	pâtisson 
+bonnet-de-prêtre	http://ontology.inrae.fr/frenchcropusage/Patissons	pâtisson 
+ciblème	http://ontology.inrae.fr/frenchcropusage/Patissons	pâtisson 
+couronne impériale	http://ontology.inrae.fr/frenchcropusage/Patissons	pâtisson 
+potimarron	http://ontology.inrae.fr/frenchcropusage/Potimarrons	potimarron
+potiron	http://ontology.inrae.fr/frenchcropusage/Potirons	potiron
+courge musquée	http://ontology.inrae.fr/frenchcropusage/Courges_musquees	courge musquée
+courge muscade	http://ontology.inrae.fr/frenchcropusage/Courges_musquees	courge musquée
+sucrine	http://ontology.inrae.fr/frenchcropusage/Courges_musquees	courge musquée
+colza	http://ontology.inrae.fr/frenchcropusage/Colzas	colza
+colza d'hiver	http://ontology.inrae.fr/frenchcropusage/Colzas_hiver	colza d'hiver
+colza hiver	http://ontology.inrae.fr/frenchcropusage/Colzas_hiver	colza d'hiver
+colza de printemps	http://ontology.inrae.fr/frenchcropusage/Colzas_printemps	colza de printemps
+colza printemps	http://ontology.inrae.fr/frenchcropusage/Colzas_printemps	colza de printemps
+colza fourrager d'hiver	http://ontology.inrae.fr/frenchcropusage/Colzas_fourragers_hiver	colza fourrager d'hiver
+colza fourrager de printemps	http://ontology.inrae.fr/frenchcropusage/Colzas_fourragers_printemps	colza fourrager de printemps
+colza oléagineux d'hiver	http://ontology.inrae.fr/frenchcropusage/Colzas_oleagineux_hiver	colza oléagineux d'hiver
+colza d'hiver	http://ontology.inrae.fr/frenchcropusage/Colzas_oleagineux_hiver	colza oléagineux d'hiver
+colza oléagineux de printemps	http://ontology.inrae.fr/frenchcropusage/Colzas_oleagineux_printemps	colza oléagineux de printemps
+colza de printemps	http://ontology.inrae.fr/frenchcropusage/Colzas_oleagineux_printemps	colza oléagineux de printemps
+mélilot officinal	http://ontology.inrae.fr/frenchcropusage/Melilots_officinales	mélilot officinal
+mélilot jaune	http://ontology.inrae.fr/frenchcropusage/Melilots_officinales	mélilot officinal
+moutarde noire	http://ontology.inrae.fr/frenchcropusage/Moutardes_noires	moutarde noire
+sénevé noire	http://ontology.inrae.fr/frenchcropusage/Moutardes_noires	moutarde noire
+pavot officinale	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+alcaloide opiacé	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+codéine	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+morphine	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+opium	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+pavot blanc	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+pavot des jardins	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+pavot somnifère	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+pavot à opium	http://ontology.inrae.fr/frenchcropusage/Pavots_officinales	pavot officinale
+hibiscus médicinal	http://ontology.inrae.fr/frenchcropusage/Hibiscus_medicinal	hibiscus médicinal
+bardane	http://ontology.inrae.fr/frenchcropusage/Bardanes	bardane
+grande bardane	http://ontology.inrae.fr/frenchcropusage/Bardanes	bardane
+bleuet	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+audifoin	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+barbeau	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+blavelle	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+bleuet des champs	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+bleuet des montagnes	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+bleuet vivace	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+centaurée	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+jacée des montagnes	http://ontology.inrae.fr/frenchcropusage/Bleuets	bleuet
+bugle rampante	http://ontology.inrae.fr/frenchcropusage/Bugles_rampantes	bugle rampante
+bugle rampant	http://ontology.inrae.fr/frenchcropusage/Bugles_rampantes	bugle rampante
+camomille	http://ontology.inrae.fr/frenchcropusage/Camomilles	camomille
+camomille romaine	http://ontology.inrae.fr/frenchcropusage/Camomilles	camomille
+capitule de camomille	http://ontology.inrae.fr/frenchcropusage/Camomilles	camomille
+fleur de camomille	http://ontology.inrae.fr/frenchcropusage/Camomilles	camomille
+chardon-Marie	http://ontology.inrae.fr/frenchcropusage/Chardons_Marie	chardon-Marie
+chardon Marie	http://ontology.inrae.fr/frenchcropusage/Chardons_Marie	chardon-Marie
+pâquerette	http://ontology.inrae.fr/frenchcropusage/Paquerettes	pâquerette
+pâquerette vivace	http://ontology.inrae.fr/frenchcropusage/Paquerettes	pâquerette
+véronique	http://ontology.inrae.fr/frenchcropusage/Veroniques	véronique
+véronique officinale	http://ontology.inrae.fr/frenchcropusage/Veroniques	véronique
+églantier	http://ontology.inrae.fr/frenchcropusage/Eglantiers	églantier
+cynorhodon	http://ontology.inrae.fr/frenchcropusage/Eglantiers	églantier
+cynorrhodon	http://ontology.inrae.fr/frenchcropusage/Eglantiers	églantier
+rosier sauvage	http://ontology.inrae.fr/frenchcropusage/Eglantiers	églantier
+gaillet	http://ontology.inrae.fr/frenchcropusage/Gaillets	gaillet
+Gratte-langue	http://ontology.inrae.fr/frenchcropusage/Gaillets	gaillet
+gaillet gratteron	http://ontology.inrae.fr/frenchcropusage/Gaillets	gaillet
+ispaghul	http://ontology.inrae.fr/frenchcropusage/Ispaghuls	ispaghul
+plantain des Indes	http://ontology.inrae.fr/frenchcropusage/Ispaghuls	ispaghul
+psyllium blond	http://ontology.inrae.fr/frenchcropusage/Ispaghuls	ispaghul
+plantain pucier	http://ontology.inrae.fr/frenchcropusage/Plantains_puciers	plantain pucier
+plantain brun	http://ontology.inrae.fr/frenchcropusage/Plantains_puciers	plantain pucier
+plantain noir de Provence	http://ontology.inrae.fr/frenchcropusage/Plantains_puciers	plantain pucier
+plantain psyllium	http://ontology.inrae.fr/frenchcropusage/Plantains_puciers	plantain pucier
+mauve	http://ontology.inrae.fr/frenchcropusage/Mauves	mauve
+grande mauve	http://ontology.inrae.fr/frenchcropusage/Mauves	mauve
+mauve des bois	http://ontology.inrae.fr/frenchcropusage/Mauves	mauve
+mauve sylvestre	http://ontology.inrae.fr/frenchcropusage/Mauves	mauve
+millepertuis	http://ontology.inrae.fr/frenchcropusage/Millepertuis	millepertuis
+millepertuis commun	http://ontology.inrae.fr/frenchcropusage/Millepertuis	millepertuis
+millepertuis officinale	http://ontology.inrae.fr/frenchcropusage/Millepertuis	millepertuis
+millepertuis perforé	http://ontology.inrae.fr/frenchcropusage/Millepertuis	millepertuis
+ortie	http://ontology.inrae.fr/frenchcropusage/Orties	ortie
+grande ortie 	http://ontology.inrae.fr/frenchcropusage/Orties	ortie
+ortie commune	http://ontology.inrae.fr/frenchcropusage/Orties	ortie
+petite ortie	http://ontology.inrae.fr/frenchcropusage/Orties	ortie
+passiflore médicinale	http://ontology.inrae.fr/frenchcropusage/Passiflores_medicinales	passiflore médicinale
+liane de grenade	http://ontology.inrae.fr/frenchcropusage/Passiflores_medicinales	passiflore médicinale
+maypop	http://ontology.inrae.fr/frenchcropusage/Passiflores_medicinales	passiflore médicinale
+passiflore officinale	http://ontology.inrae.fr/frenchcropusage/Passiflores_medicinales	passiflore médicinale
+pivoire médicinale	http://ontology.inrae.fr/frenchcropusage/Pivoines_medicinales	pivoire médicinale
+valériane	http://ontology.inrae.fr/frenchcropusage/Valerianes	valériane
+racine de valériane	http://ontology.inrae.fr/frenchcropusage/Valerianes	valériane
+valériane des petites feuilles	http://ontology.inrae.fr/frenchcropusage/Valerianes	valériane
+valériane officinale	http://ontology.inrae.fr/frenchcropusage/Valerianes	valériane
+géranium	http://ontology.inrae.fr/frenchcropusage/Geraniums	géranium
+pélargonium	http://ontology.inrae.fr/frenchcropusage/Geraniums	géranium
+lupin ornemental	http://ontology.inrae.fr/frenchcropusage/Lupins_ornementaux	lupin ornemental
+anémone	http://ontology.inrae.fr/frenchcropusage/Anemones	anémone
+chrysanthème	http://ontology.inrae.fr/frenchcropusage/Chrysanthemes	chrysanthème
+gerbera	http://ontology.inrae.fr/frenchcropusage/Gerberas	gerbera
+gesse odorante	http://ontology.inrae.fr/frenchcropusage/Gesses_odorantes	gesse odorante
+pois de senteur	http://ontology.inrae.fr/frenchcropusage/Gesses_odorantes	gesse odorante
+pois fleur	http://ontology.inrae.fr/frenchcropusage/Gesses_odorantes	gesse odorante
+pois musqué	http://ontology.inrae.fr/frenchcropusage/Gesses_odorantes	gesse odorante
+hellébore noir	http://ontology.inrae.fr/frenchcropusage/Hellebores_noirs	hellébore noir
+elléboire noire	http://ontology.inrae.fr/frenchcropusage/Hellebores_noirs	hellébore noir
+rose de Noël	http://ontology.inrae.fr/frenchcropusage/Hellebores_noirs	hellébore noir
+poinsettia	http://ontology.inrae.fr/frenchcropusage/Poinsettias	poinsettia
+étoile de Noël	http://ontology.inrae.fr/frenchcropusage/Poinsettias	poinsettia
+renoncule cultivée	http://ontology.inrae.fr/frenchcropusage/Renoncules_cultivees	renoncule cultivée
+renoncule des fleuristes	http://ontology.inrae.fr/frenchcropusage/Renoncules_cultivees	renoncule cultivée
+renoncules des jardins	http://ontology.inrae.fr/frenchcropusage/Renoncules_cultivees	renoncule cultivée
+limonium	http://ontology.inrae.fr/frenchcropusage/Limoniums	limonium
+statice	http://ontology.inrae.fr/frenchcropusage/Limoniums	limonium
+lysanthius	http://ontology.inrae.fr/frenchcropusage/Lysanthius	lysanthius
+campanule du Texas	http://ontology.inrae.fr/frenchcropusage/Lysanthius	lysanthius
+eustome à grandes fleurs	http://ontology.inrae.fr/frenchcropusage/Lysanthius	lysanthius
+lisanthius	http://ontology.inrae.fr/frenchcropusage/Lysanthius	lysanthius
+jasmin ornemental	http://ontology.inrae.fr/frenchcropusage/Jasmins_ornementaux	jasmin ornemental
+marguerite	http://ontology.inrae.fr/frenchcropusage/Marguerites	marguerite
+fleur de marguerite	http://ontology.inrae.fr/frenchcropusage/Marguerites	marguerite
+marguerite commune	http://ontology.inrae.fr/frenchcropusage/Marguerites	marguerite
+passiflore ornemental	http://ontology.inrae.fr/frenchcropusage/Passiflores_ornementaux	passiflore ornemental
+passiflore bleue	http://ontology.inrae.fr/frenchcropusage/Passiflores_ornementaux	passiflore ornemental
+pivoine ornementale	http://ontology.inrae.fr/frenchcropusage/Pivoines_ornementales	pivoine ornementale
+pivoine arbustive	http://ontology.inrae.fr/frenchcropusage/Pivoines_ornementales	pivoine ornementale
+pivoine herbacée	http://ontology.inrae.fr/frenchcropusage/Pivoines_ornementales	pivoine ornementale
+primevère	http://ontology.inrae.fr/frenchcropusage/Primeveres	primevère
+silphie perfoliée	http://ontology.inrae.fr/frenchcropusage/Silphies_perfoliees	silphie perfoliée
+lupin	http://ontology.inrae.fr/frenchcropusage/Lupins	lupin
+prairie	http://ontology.inrae.fr/frenchcropusage/Prairies	prairie
+affourrage en vert	http://ontology.inrae.fr/frenchcropusage/Prairies	prairie
+foin	http://ontology.inrae.fr/frenchcropusage/Prairies	prairie
+paturage	http://ontology.inrae.fr/frenchcropusage/Prairies	prairie
+graminée fourragère	http://ontology.inrae.fr/frenchcropusage/Graminees_fourrageres	graminée fourragère
+légumineuse fourragère	http://ontology.inrae.fr/frenchcropusage/Legumineuses_fourrageres	légumineuse fourragère
+prairie artificielle	http://ontology.inrae.fr/frenchcropusage/Prairies_artificielles	prairie artificielle
+prairie temporaire	http://ontology.inrae.fr/frenchcropusage/Prairies_temporaires	prairie temporaire
+surfaces herbasées temporaires (de 5 ans ou moins)	http://ontology.inrae.fr/frenchcropusage/Prairies_temporaires	prairie temporaire
+surface toujours en herbe	http://ontology.inrae.fr/frenchcropusage/Surfaces_toujours_en_herbe	surface toujours en herbe
+STH	http://ontology.inrae.fr/frenchcropusage/Surfaces_toujours_en_herbe	surface toujours en herbe
+lande	http://ontology.inrae.fr/frenchcropusage/Surfaces_toujours_en_herbe	surface toujours en herbe
+parcours	http://ontology.inrae.fr/frenchcropusage/Surfaces_toujours_en_herbe	surface toujours en herbe
+lande productrice	http://ontology.inrae.fr/frenchcropusage/Surfaces_toujours_en_herbe	surface toujours en herbe
+radis fourrager	http://ontology.inrae.fr/frenchcropusage/Radis_fourragers	radis fourrager
+engrais vert	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+culture de couverture	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+culture intercalaire	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+engrais vert en dérobée	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+engrais verts de pleine saison	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+CIEV	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+CIPAN	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+cultures intermédiaires piège à nitrate	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+cultures intermédiaires à usage d’engrais vert	http://ontology.inrae.fr/frenchcropusage/Engrais_verts	engrais vert
+radis	http://ontology.inrae.fr/frenchcropusage/Radis	radis
+trèfle	http://ontology.inrae.fr/frenchcropusage/Trefles	trèfle
+trèfle d'Alexandrie	http://ontology.inrae.fr/frenchcropusage/Trefles	trèfle
+trèfle de Perse,	http://ontology.inrae.fr/frenchcropusage/Trefles	trèfle
+trèfle déshydraté	http://ontology.inrae.fr/frenchcropusage/Trefles	trèfle
+trèfle de Micheli	http://ontology.inrae.fr/frenchcropusage/Trefles_micheli	trèfle de Micheli
+trèfle de Perse	http://ontology.inrae.fr/frenchcropusage/Trefles_perse	trèfle de Perse
+trèfle blanc	http://ontology.inrae.fr/frenchcropusage/Trefles_blancs	trèfle blanc
+trèfle de Hollande	http://ontology.inrae.fr/frenchcropusage/Trefles_blancs	trèfle blanc
+trèfle rampant	http://ontology.inrae.fr/frenchcropusage/Trefles_blancs	trèfle blanc
+petit trèfle	http://ontology.inrae.fr/frenchcropusage/Trefles_blancs	trèfle blanc
+trèfle violet	http://ontology.inrae.fr/frenchcropusage/Trefles_violets	trèfle violet
+trèfle des prés	http://ontology.inrae.fr/frenchcropusage/Trefles_violets	trèfle violet
+trèfle hybride	http://ontology.inrae.fr/frenchcropusage/Trefles_hybrides	trèfle hybride
+pomme de terre	http://ontology.inrae.fr/frenchcropusage/Pommes_de_terre	pomme de terre
+haricot sabre	http://ontology.inrae.fr/frenchcropusage/Haricots_sabres	haricot sabre
+pois sabre	http://ontology.inrae.fr/frenchcropusage/Haricots_sabres	haricot sabre
+dolique asperge 	http://ontology.inrae.fr/frenchcropusage/Doliques_asperges	dolique asperge 
+dolique à longue cosse	http://ontology.inrae.fr/frenchcropusage/Doliques_asperges	dolique asperge 
+dolique à longue gousse	http://ontology.inrae.fr/frenchcropusage/Doliques_asperges	dolique asperge 
+haricot asperge	http://ontology.inrae.fr/frenchcropusage/Doliques_asperges	dolique asperge 
+haricot kilomètre	http://ontology.inrae.fr/frenchcropusage/Doliques_asperges	dolique asperge 
+haricot vert chinois	http://ontology.inrae.fr/frenchcropusage/Doliques_asperges	dolique asperge 
+pois kilomètre	http://ontology.inrae.fr/frenchcropusage/Doliques_asperges	dolique asperge 
+maïs doux	http://ontology.inrae.fr/frenchcropusage/Mais_doux	maïs doux
+maïs sucré	http://ontology.inrae.fr/frenchcropusage/Mais_doux	maïs doux
+maïs popcorn	http://ontology.inrae.fr/frenchcropusage/Mais_popcorn	maïs popcorn
+maïs soufflé	http://ontology.inrae.fr/frenchcropusage/Mais_popcorn	maïs popcorn
+maïs à éclater	http://ontology.inrae.fr/frenchcropusage/Mais_popcorn	maïs popcorn
+maïs éclaté	http://ontology.inrae.fr/frenchcropusage/Mais_popcorn	maïs popcorn
+pop-corn	http://ontology.inrae.fr/frenchcropusage/Mais_popcorn	maïs popcorn
+popcorn	http://ontology.inrae.fr/frenchcropusage/Mais_popcorn	maïs popcorn
+tactac	http://ontology.inrae.fr/frenchcropusage/Mais_popcorn	maïs popcorn
+légumineuse potagère	http://ontology.inrae.fr/frenchcropusage/Legumineuses_potageres	légumineuse potagère
+plante de service	http://ontology.inrae.fr/frenchcropusage/Plantes_de_service	plante de service
+lupin engrais vert	http://ontology.inrae.fr/frenchcropusage/Lupins_engrais_verts	lupin engrais vert
+lupin blanc	http://ontology.inrae.fr/frenchcropusage/Lupins_engrais_verts	lupin engrais vert
+lupin blanc de printemps	http://ontology.inrae.fr/frenchcropusage/Lupins_engrais_verts	lupin engrais vert
+lupin bleu	http://ontology.inrae.fr/frenchcropusage/Lupins_engrais_verts	lupin engrais vert
+lupin bleu de printemps	http://ontology.inrae.fr/frenchcropusage/Lupins_engrais_verts	lupin engrais vert
+lupin de printemps	http://ontology.inrae.fr/frenchcropusage/Lupins_engrais_verts	lupin engrais vert
+lupin jaune	http://ontology.inrae.fr/frenchcropusage/Lupins_engrais_verts	lupin engrais vert
+mélilot jaune	http://ontology.inrae.fr/frenchcropusage/Melilots_jaunes_engrais_verts	mélilot jaune
+mélilot officinal	http://ontology.inrae.fr/frenchcropusage/Melilots_jaunes_engrais_verts	mélilot jaune
+phacélie	http://ontology.inrae.fr/frenchcropusage/Phacelies	phacélie
+Phacélie à feuilles de tanaisie	http://ontology.inrae.fr/frenchcropusage/Phacelies	phacélie
+facélie	http://ontology.inrae.fr/frenchcropusage/Phacelies	phacélie
+phacélia	http://ontology.inrae.fr/frenchcropusage/Phacelies	phacélie
+fenugrec	http://ontology.inrae.fr/frenchcropusage/Fenugrecs_engrais_verts	fenugrec
+moutarde blanche service	http://ontology.inrae.fr/frenchcropusage/Moutardes_blanches_service	moutarde blanche service
+niger	http://ontology.inrae.fr/frenchcropusage/Nigers_engrais_verts	niger
+guizotia d'Abyssinie	http://ontology.inrae.fr/frenchcropusage/Nigers_engrais_verts	niger
+guizotia oléifère	http://ontology.inrae.fr/frenchcropusage/Nigers_engrais_verts	niger
+nyger	http://ontology.inrae.fr/frenchcropusage/Nigers_engrais_verts	niger
+gel	http://ontology.inrae.fr/frenchcropusage/Gels	gel
+gel PAC non industriel	http://ontology.inrae.fr/frenchcropusage/Gels	gel
+jachère	http://ontology.inrae.fr/frenchcropusage/Gels	gel
+jachère agronomique	http://ontology.inrae.fr/frenchcropusage/Gels	gel
+jachère conjoncturelle	http://ontology.inrae.fr/frenchcropusage/Gels	gel
+jachère mellifère	http://ontology.inrae.fr/frenchcropusage/Gels	gel
+jachère noire	http://ontology.inrae.fr/frenchcropusage/Gels	gel
+plante non récoltée	http://ontology.inrae.fr/frenchcropusage/Plantes_non_recoltees	plante non récoltée
+fenugrec	http://ontology.inrae.fr/frenchcropusage/Fenugrecs	fenugrec
+sénégrain	http://ontology.inrae.fr/frenchcropusage/Fenugrecs	fenugrec
+trigonelle	http://ontology.inrae.fr/frenchcropusage/Fenugrecs	fenugrec
+trigonelle fenugrec	http://ontology.inrae.fr/frenchcropusage/Fenugrecs	fenugrec
+mélilot	http://ontology.inrae.fr/frenchcropusage/Melilots	mélilot
+navette	http://ontology.inrae.fr/frenchcropusage/Navettes	navette
+navette fourragère d'hiver	http://ontology.inrae.fr/frenchcropusage/Navettes_fourrageres_hiver	navette fourragère d'hiver
+féverole	http://ontology.inrae.fr/frenchcropusage/Feveroles	féverole
+faverole	http://ontology.inrae.fr/frenchcropusage/Feveroles	féverole
+fèverole	http://ontology.inrae.fr/frenchcropusage/Feveroles	féverole
+féverolle	http://ontology.inrae.fr/frenchcropusage/Feveroles	féverole
+féverole d'hiver	http://ontology.inrae.fr/frenchcropusage/Feveroles_hiver	féverole d'hiver
+féverole hiver	http://ontology.inrae.fr/frenchcropusage/Feveroles_hiver	féverole d'hiver
+féverole de printemps	http://ontology.inrae.fr/frenchcropusage/Feveroles_printemps	féverole de printemps
+féverole printemps	http://ontology.inrae.fr/frenchcropusage/Feveroles_printemps	féverole de printemps
+féverole protéagineux	http://ontology.inrae.fr/frenchcropusage/Feveroles_proteagineux	féverole protéagineux
+la féverole à grains moyens	http://ontology.inrae.fr/frenchcropusage/Feveroles_proteagineux	féverole protéagineux
+la féverole à gros grains	http://ontology.inrae.fr/frenchcropusage/Feveroles_proteagineux	féverole protéagineux
+la féverole à petits grains	http://ontology.inrae.fr/frenchcropusage/Feveroles_proteagineux	féverole protéagineux
+fève	http://ontology.inrae.fr/frenchcropusage/Feves	fève
+féverole protéagineux d'hiver	http://ontology.inrae.fr/frenchcropusage/Feveroles_protéagineux_hiver	féverole protéagineux d'hiver
+féverole protéagineux de printemps	http://ontology.inrae.fr/frenchcropusage/Feveroles_proteagineux_printemps	féverole protéagineux de printemps
+fève maraichère	http://ontology.inrae.fr/frenchcropusage/Feves_maraicheres	fève maraichère
+gourgane	http://ontology.inrae.fr/frenchcropusage/Feves_maraicheres	fève maraichère
+grosse fève	http://ontology.inrae.fr/frenchcropusage/Feves_maraicheres	fève maraichère
+petite fève	http://ontology.inrae.fr/frenchcropusage/Feves_maraicheres	fève maraichère
+fève protéagineux	http://ontology.inrae.fr/frenchcropusage/Feves_proteagineux	fève protéagineux
+fève fourragère	http://ontology.inrae.fr/frenchcropusage/Feves_proteagineux	fève protéagineux
+lentille potagère	http://ontology.inrae.fr/frenchcropusage/Lentilles_potageres	lentille potagère
+lentille blonde	http://ontology.inrae.fr/frenchcropusage/Lentilles_potageres	lentille potagère
+lentille large blonde	http://ontology.inrae.fr/frenchcropusage/Lentilles_potageres	lentille potagère
+lentille protéagineuse	http://ontology.inrae.fr/frenchcropusage/Lentilles_potageres	lentille potagère
+lentille verte	http://ontology.inrae.fr/frenchcropusage/Lentilles_potageres	lentille potagère
+lentille verte du Puy	http://ontology.inrae.fr/frenchcropusage/Lentilles_potageres	lentille potagère
+paille de lentille	http://ontology.inrae.fr/frenchcropusage/Lentilles_potageres	lentille potagère
+pois chiche	http://ontology.inrae.fr/frenchcropusage/Pois_chiches	pois chiche
+farine de pois chiches	http://ontology.inrae.fr/frenchcropusage/Pois_chiches	pois chiche
+pois-chiche	http://ontology.inrae.fr/frenchcropusage/Pois_chiches	pois chiche
+lupin protéagineux	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux	lupin protéagineux
+lupin bleu	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux	lupin protéagineux
+lupin jaune	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux	lupin protéagineux
+graine de lupin	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux	lupin protéagineux
+lupin jaune amer	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux	lupin protéagineux
+tramousse	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux	lupin protéagineux
+lupin changeant	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux	lupin protéagineux
+lupin réticulé	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux	lupin protéagineux
+pois protéagineux	http://ontology.inrae.fr/frenchcropusage/Pois_proteagineux	pois protéagineux
+lupin fourrager d’hiver	http://ontology.inrae.fr/frenchcropusage/Lupins_fourragers_hiver	lupin fourrager d’hiver
+lupin fourrager de printemps	http://ontology.inrae.fr/frenchcropusage/Lupins_fourragers_printemps	lupin fourrager de printemps
+moutarde	http://ontology.inrae.fr/frenchcropusage/Moutardes	moutarde
+sanve	http://ontology.inrae.fr/frenchcropusage/Moutardes	moutarde
+sénevé	http://ontology.inrae.fr/frenchcropusage/Moutardes	moutarde
+moutarde blanche fourragère	http://ontology.inrae.fr/frenchcropusage/Moutardes_blanches_fourrageres	moutarde blanche fourragère
+pois	http://ontology.inrae.fr/frenchcropusage/Pois	pois
+pois cultivé	http://ontology.inrae.fr/frenchcropusage/Pois	pois
+pois fourrager d’hiver	http://ontology.inrae.fr/frenchcropusage/Pois_fourragers_hiver	pois fourrager d’hiver
+pois fourrager de printemps	http://ontology.inrae.fr/frenchcropusage/Pois_fourragers_printemps	pois fourrager de printemps
+soja	http://ontology.inrae.fr/frenchcropusage/Sojas	soja
+tournesol	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+graine à perroquet	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+grand-soleil	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+hélianthe	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+héliotrope	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+maurelle	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+soleil	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+soleil commun	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+soleil des jardins	http://ontology.inrae.fr/frenchcropusage/Tournesols	tournesol
+grandes catégories de cultures.	http://ontology.inrae.fr/frenchcropusage/Grandes_categories	grandes catégories de cultures.
+semence	http://ontology.inrae.fr/frenchcropusage/Semences	semence
+porte graine	http://ontology.inrae.fr/frenchcropusage/Semences	semence
+zone non agricole	http://ontology.inrae.fr/frenchcropusage/Zones_non_agricoles	zone non agricole
+jardin	http://ontology.inrae.fr/frenchcropusage/Zones_non_agricoles	zone non agricole
+espace vert	http://ontology.inrae.fr/frenchcropusage/Zones_non_agricoles	zone non agricole
+parc	http://ontology.inrae.fr/frenchcropusage/Zones_non_agricoles	zone non agricole
+zna	http://ontology.inrae.fr/frenchcropusage/Zones_non_agricoles	zone non agricole
+jardin	http://ontology.inrae.fr/frenchcropusage/Jardins	jardin
+jardin familial	http://ontology.inrae.fr/frenchcropusage/Jardins	jardin
+jardins ouvriers	http://ontology.inrae.fr/frenchcropusage/Jardins	jardin
+vergers familiaux	http://ontology.inrae.fr/frenchcropusage/Jardins	jardin
+jardins familiaux	http://ontology.inrae.fr/frenchcropusage/Jardins	jardin
+jardin d'agrément	http://ontology.inrae.fr/frenchcropusage/Jardins	jardin
+jardin ouvrier	http://ontology.inrae.fr/frenchcropusage/Jardins	jardin
+verger familial	http://ontology.inrae.fr/frenchcropusage/Jardins	jardin
+lin	http://ontology.inrae.fr/frenchcropusage/Lins	lin
+lin cultivé	http://ontology.inrae.fr/frenchcropusage/Lins	lin
+liniculture	http://ontology.inrae.fr/frenchcropusage/Lins	lin
+linière	http://ontology.inrae.fr/frenchcropusage/Lins	lin
+moutarde blanche	http://ontology.inrae.fr/frenchcropusage/Moutardes_blanches	moutarde blanche
+haricot	http://ontology.inrae.fr/frenchcropusage/Haricots	haricot
+haricot commun	http://ontology.inrae.fr/frenchcropusage/Haricots	haricot
+haricot nain	http://ontology.inrae.fr/frenchcropusage/Haricots	haricot
+haricot à rames	http://ontology.inrae.fr/frenchcropusage/Haricots	haricot
+haricot demi-sec	http://ontology.inrae.fr/frenchcropusage/Haricots_demi_sec	haricot demi-sec
+flageolet	http://ontology.inrae.fr/frenchcropusage/Haricots_demi_sec	haricot demi-sec
+haricot blanc	http://ontology.inrae.fr/frenchcropusage/Haricots_demi_sec	haricot demi-sec
+haricot coco	http://ontology.inrae.fr/frenchcropusage/Haricots_demi_sec	haricot demi-sec
+haricot grain	http://ontology.inrae.fr/frenchcropusage/Haricots_demi_sec	haricot demi-sec
+haricot à écosser	http://ontology.inrae.fr/frenchcropusage/Haricots_demi_sec	haricot demi-sec
+haricot sec	http://ontology.inrae.fr/frenchcropusage/Haricots_secs	haricot sec
+haricot blanc	http://ontology.inrae.fr/frenchcropusage/Haricots_secs	haricot sec
+haricot coco	http://ontology.inrae.fr/frenchcropusage/Haricots_secs	haricot sec
+haricot grain	http://ontology.inrae.fr/frenchcropusage/Haricots_secs	haricot sec
+haricot en grain	http://ontology.inrae.fr/frenchcropusage/Haricots_secs	haricot sec
+haricot en grain sec	http://ontology.inrae.fr/frenchcropusage/Haricots_secs	haricot sec
+haricot rouge	http://ontology.inrae.fr/frenchcropusage/Haricots_secs	haricot sec
+haricot vert	http://ontology.inrae.fr/frenchcropusage/Haricots_verts	haricot vert
+haricot nain	http://ontology.inrae.fr/frenchcropusage/Haricots_verts	haricot vert
+haricot à rames	http://ontology.inrae.fr/frenchcropusage/Haricots_verts	haricot vert
+haricot beurre	http://ontology.inrae.fr/frenchcropusage/Haricots_verts	haricot vert
+haricot plat	http://ontology.inrae.fr/frenchcropusage/Haricots_verts	haricot vert
+haricot mange tout	http://ontology.inrae.fr/frenchcropusage/Haricots_verts	haricot vert
+cornille	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+dolique de Chine	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+dolique mongette	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+dolique à œil noir	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+dolqiue géant	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+haricot dolique	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+haricot kunde	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+haricot à l'oeil noir	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+mongette	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+niébé	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+pois yeux noirs	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+pois à vache	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+voème	http://ontology.inrae.fr/frenchcropusage/Cornilles	cornille
+haricot d'Espagne	http://ontology.inrae.fr/frenchcropusage/Haricots_Espagne	haricot d'Espagne
+haricot fleur	http://ontology.inrae.fr/frenchcropusage/Haricots_Espagne	haricot d'Espagne
+haricot à bouquets	http://ontology.inrae.fr/frenchcropusage/Haricots_Espagne	haricot d'Espagne
+haricot écarlate	http://ontology.inrae.fr/frenchcropusage/Haricots_Espagne	haricot d'Espagne
+haricot-fleur	http://ontology.inrae.fr/frenchcropusage/Haricots_Espagne	haricot d'Espagne
+ray-grass	http://ontology.inrae.fr/frenchcropusage/Ray_grass	ray-grass
+herbe de seigle	http://ontology.inrae.fr/frenchcropusage/Ray_grass	ray-grass
+ivraie	http://ontology.inrae.fr/frenchcropusage/Ray_grass	ray-grass
+lolium	http://ontology.inrae.fr/frenchcropusage/Ray_grass	ray-grass
+ray grass	http://ontology.inrae.fr/frenchcropusage/Ray_grass	ray-grass
+zizanie	http://ontology.inrae.fr/frenchcropusage/Ray_grass	ray-grass
+laitue batavia	http://ontology.inrae.fr/frenchcropusage/Laitues_batavia	laitue batavia
+Dorée de printemps	http://ontology.inrae.fr/frenchcropusage/Laitues_batavia	laitue batavia
+batavia	http://ontology.inrae.fr/frenchcropusage/Laitues_batavia	laitue batavia
+batavia rouge	http://ontology.inrae.fr/frenchcropusage/Laitues_batavia	laitue batavia
+batavia verte	http://ontology.inrae.fr/frenchcropusage/Laitues_batavia	laitue batavia
+laitue Iceberg ;	http://ontology.inrae.fr/frenchcropusage/Laitues_batavia	laitue batavia
+laitue blondes	http://ontology.inrae.fr/frenchcropusage/Laitues_batavia	laitue batavia
+laitue à couper	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+Feuille de chêne blonde	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+Feuille de chêne rouge	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+Lolla blonda,	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+Lolla rossa	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+Lolo rossa	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+Radichetta	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+Salad Bowl	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+feuille de chêne	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+laitue frisée	http://ontology.inrae.fr/frenchcropusage/Laitues_couper	laitue à couper
+laitue beurre pommée	http://ontology.inrae.fr/frenchcropusage/Laitues_pommees	laitue beurre pommée
+Craquante d’Avignon	http://ontology.inrae.fr/frenchcropusage/Laitues_pommees	laitue beurre pommée
+Sucrine	http://ontology.inrae.fr/frenchcropusage/Laitues_pommees	laitue beurre pommée
+Têtue de Nimes	http://ontology.inrae.fr/frenchcropusage/Laitues_pommees	laitue beurre pommée
+laitue beurre	http://ontology.inrae.fr/frenchcropusage/Laitues_pommees	laitue beurre pommée
+laitue pommée	http://ontology.inrae.fr/frenchcropusage/Laitues_pommees	laitue beurre pommée
+laitue pommée lisse	http://ontology.inrae.fr/frenchcropusage/Laitues_pommees	laitue beurre pommée
+laitue romaine	http://ontology.inrae.fr/frenchcropusage/Laitues_romaines	laitue romaine
+chicon	http://ontology.inrae.fr/frenchcropusage/Laitues_romaines	laitue romaine
+Blonde maraîchère	http://ontology.inrae.fr/frenchcropusage/Laitues_romaines	laitue romaine
+Green tower	http://ontology.inrae.fr/frenchcropusage/Laitues_romaines	laitue romaine
+Grise maraîchère	http://ontology.inrae.fr/frenchcropusage/Laitues_romaines	laitue romaine
+Verte maraîchère	http://ontology.inrae.fr/frenchcropusage/Laitues_romaines	laitue romaine
+romaine	http://ontology.inrae.fr/frenchcropusage/Laitues_romaines	laitue romaine
+échalion	http://ontology.inrae.fr/frenchcropusage/Echalions	échalion
+Échalote cuisse de poulet	http://ontology.inrae.fr/frenchcropusage/Echalions	échalion
+navet	http://ontology.inrae.fr/frenchcropusage/Navets	navet
+radis chinois	http://ontology.inrae.fr/frenchcropusage/Radis_chinois	radis chinois
+radis blanc	http://ontology.inrae.fr/frenchcropusage/Radis_chinois	radis chinois
+radis japonais	http://ontology.inrae.fr/frenchcropusage/Radis_chinois	radis chinois
+lentille 	http://ontology.inrae.fr/frenchcropusage/Lentilles	lentille 
+lentille comestible	http://ontology.inrae.fr/frenchcropusage/Lentilles	lentille 
+lentille cultivée	http://ontology.inrae.fr/frenchcropusage/Lentilles	lentille 
+pois potager	http://ontology.inrae.fr/frenchcropusage/Pois_potagers	pois potager
+pois lisse	http://ontology.inrae.fr/frenchcropusage/Pois_potagers	pois potager
+pois ridé	http://ontology.inrae.fr/frenchcropusage/Pois_potagers	pois potager
+petits pois	http://ontology.inrae.fr/frenchcropusage/Petits_pois	petits pois
+petit poi	http://ontology.inrae.fr/frenchcropusage/Petits_pois	petits pois
+petits pois en grain	http://ontology.inrae.fr/frenchcropusage/Petits_pois	petits pois
+poi de conserve	http://ontology.inrae.fr/frenchcropusage/Petits_pois	petits pois
+pois de jardins	http://ontology.inrae.fr/frenchcropusage/Petits_pois	petits pois
+pois frais	http://ontology.inrae.fr/frenchcropusage/Petits_pois	petits pois
+pois lisses	http://ontology.inrae.fr/frenchcropusage/Petits_pois	petits pois
+pois ridés	http://ontology.inrae.fr/frenchcropusage/Petits_pois	petits pois
+pois sec	http://ontology.inrae.fr/frenchcropusage/Pois_secs	pois sec
+poi cassé	http://ontology.inrae.fr/frenchcropusage/Pois_secs	pois sec
+poi de casserie	http://ontology.inrae.fr/frenchcropusage/Pois_secs	pois sec
+pois mangetout	http://ontology.inrae.fr/frenchcropusage/Pois_mangetout	pois mangetout
+pois gourmand	http://ontology.inrae.fr/frenchcropusage/Pois_mangetout	pois mangetout
+haricot mungo	http://ontology.inrae.fr/frenchcropusage/Sojas_verts	haricot mungo
+ambérique verte	http://ontology.inrae.fr/frenchcropusage/Sojas_verts	haricot mungo
+germes de soja	http://ontology.inrae.fr/frenchcropusage/Sojas_verts	haricot mungo
+pousse de soja	http://ontology.inrae.fr/frenchcropusage/Sojas_verts	haricot mungo
+soja de régime	http://ontology.inrae.fr/frenchcropusage/Sojas_verts	haricot mungo
+soja vert	http://ontology.inrae.fr/frenchcropusage/Sojas_verts	haricot mungo
+lin fibre d'hiver	http://ontology.inrae.fr/frenchcropusage/Lins_fibres_hiver	lin fibre d'hiver
+lin textile d'hiver	http://ontology.inrae.fr/frenchcropusage/Lins_fibres_hiver	lin fibre d'hiver
+lin fibre de printemps	http://ontology.inrae.fr/frenchcropusage/Lins_fibres_printemps	lin fibre de printemps
+lin textile de printemps	http://ontology.inrae.fr/frenchcropusage/Lins_fibres_printemps	lin fibre de printemps
+lin oléagineux d'hiver	http://ontology.inrae.fr/frenchcropusage/lins_oleagineux_hiver	lin oléagineux d'hiver
+lin graine d'hiver	http://ontology.inrae.fr/frenchcropusage/lins_oleagineux_hiver	lin oléagineux d'hiver
+lin non textile d'hiver	http://ontology.inrae.fr/frenchcropusage/lins_oleagineux_hiver	lin oléagineux d'hiver
+lin oléagineux de printemps	http://ontology.inrae.fr/frenchcropusage/lins_oleagineux_printemps	lin oléagineux de printemps
+lin graine de printemps	http://ontology.inrae.fr/frenchcropusage/lins_oleagineux_printemps	lin oléagineux de printemps
+lin non textile de printemps	http://ontology.inrae.fr/frenchcropusage/lins_oleagineux_printemps	lin oléagineux de printemps
+lotier	http://ontology.inrae.fr/frenchcropusage/Lotiers	lotier
+lotier corniculé	http://ontology.inrae.fr/frenchcropusage/Lotiers	lotier
+pied-de-poule	http://ontology.inrae.fr/frenchcropusage/Lotiers	lotier
+lotier des marais	http://ontology.inrae.fr/frenchcropusage/Lotiers	lotier
+luzerne lupuline	http://ontology.inrae.fr/frenchcropusage/Lupulines	luzerne lupuline
+lupuline	http://ontology.inrae.fr/frenchcropusage/Lupulines	luzerne lupuline
+mignonette	http://ontology.inrae.fr/frenchcropusage/Lupulines	luzerne lupuline
+minette	http://ontology.inrae.fr/frenchcropusage/Lupulines	luzerne lupuline
+petit trèfle jaune	http://ontology.inrae.fr/frenchcropusage/Lupulines	luzerne lupuline
+luzerne	http://ontology.inrae.fr/frenchcropusage/Luzernes	luzerne
+alfa-alfa	http://ontology.inrae.fr/frenchcropusage/Luzernes	luzerne
+alfalfa	http://ontology.inrae.fr/frenchcropusage/Luzernes	luzerne
+foin de Bourgogne	http://ontology.inrae.fr/frenchcropusage/Luzernes	luzerne
+grand trèfle	http://ontology.inrae.fr/frenchcropusage/Luzernes	luzerne
+luzerne cultivée	http://ontology.inrae.fr/frenchcropusage/Luzernes	luzerne
+luzernière	http://ontology.inrae.fr/frenchcropusage/Luzernes	luzerne
+luzerne déshydratée	http://ontology.inrae.fr/frenchcropusage/Luzernes	luzerne
+sainfoin	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+espacette	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+esparcette	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+esparsette	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+sain-foin	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+sainfoin commun	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+sainfoin double	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+sainfoin remontant	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+sainfoin simple	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+sainfoin déshydraté	http://ontology.inrae.fr/frenchcropusage/Sainfoins	sainfoin
+ray-grass prairie	http://ontology.inrae.fr/frenchcropusage/Ray_grass_prairie	ray-grass prairie
+ivraie prairie	http://ontology.inrae.fr/frenchcropusage/Ray_grass_prairie	ray-grass prairie
+ray-grass hybride	http://ontology.inrae.fr/frenchcropusage/Ray_grass_prairie	ray-grass prairie
+brome	http://ontology.inrae.fr/frenchcropusage/Bromes	brome
+brome cathartique	http://ontology.inrae.fr/frenchcropusage/Bromes	brome
+brome sitchensis	http://ontology.inrae.fr/frenchcropusage/Bromes	brome
+brôme	http://ontology.inrae.fr/frenchcropusage/Bromes	brome
+dactyle	http://ontology.inrae.fr/frenchcropusage/Dactyles	dactyle
+dactyle aggloméré	http://ontology.inrae.fr/frenchcropusage/Dactyles	dactyle
+dactyle pelotonné	http://ontology.inrae.fr/frenchcropusage/Dactyles	dactyle
+fétuque	http://ontology.inrae.fr/frenchcropusage/Fetuques	fétuque
+fétuque des près	http://ontology.inrae.fr/frenchcropusage/Fetuques	fétuque
+fétuque élevée	http://ontology.inrae.fr/frenchcropusage/Fetuques	fétuque
+fléole	http://ontology.inrae.fr/frenchcropusage/Fleoles	fléole
+fléole des près	http://ontology.inrae.fr/frenchcropusage/Fleoles	fléole
+pâturin	http://ontology.inrae.fr/frenchcropusage/Paturins	pâturin
+X-festulolium	http://ontology.inrae.fr/frenchcropusage/X_festulolium	X-festulolium
+festulolium	http://ontology.inrae.fr/frenchcropusage/X_festulolium	X-festulolium
+lupin blanc	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux_blancs	lupin blanc
+lupin doux	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux_blancs	lupin blanc
+lupin blanc d'hiver	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux_blancs_hiver	lupin blanc d'hiver
+lupin doux d'hiver	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux_blancs_hiver	lupin blanc d'hiver
+lupin blanc de printemps	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux_blancs_printemps	lupin blanc de printemps
+luppin doux de printemps	http://ontology.inrae.fr/frenchcropusage/Lupins_proteagineux_blancs_printemps	lupin blanc de printemps
+moutarde blanche oléagineuse	http://ontology.inrae.fr/frenchcropusage/Moutardes_blanches_oleagineuses	moutarde blanche oléagineuse
+moutarde brune	http://ontology.inrae.fr/frenchcropusage/Moutardes_brunes	moutarde brune
+navette oléagineuse d’été	http://ontology.inrae.fr/frenchcropusage/Navettes_oleagineuses_ete	navette oléagineuse d’été
+navette d’été	http://ontology.inrae.fr/frenchcropusage/Navettes_oleagineuses_ete	navette oléagineuse d’été
+quesse améliorée	http://ontology.inrae.fr/frenchcropusage/Navettes_oleagineuses_ete	navette oléagineuse d’été
+navette oléagineuse d’hiver	http://ontology.inrae.fr/frenchcropusage/Navettes_oleagineuses_hiver	navette oléagineuse d’hiver
+navette d’hiver	http://ontology.inrae.fr/frenchcropusage/Navettes_oleagineuses_hiver	navette oléagineuse d’hiver
+Pavots	http://ontology.inrae.fr/frenchcropusage/Pavots	Pavots
+orge à deux rangs d'hiver	http://ontology.inrae.fr/frenchcropusage/Orges_deux_rangs_hiver	orge à deux rangs d'hiver
+orge d'hiver à deux rangs	http://ontology.inrae.fr/frenchcropusage/Orges_deux_rangs_hiver	orge à deux rangs d'hiver
+orge à deux rangs de printemps	http://ontology.inrae.fr/frenchcropusage/Orges_deux_rangs_printemps	orge à deux rangs de printemps
+orge de printemps à deux rangs	http://ontology.inrae.fr/frenchcropusage/Orges_deux_rangs_printemps	orge à deux rangs de printemps
+orge à six rangs d'hiver	http://ontology.inrae.fr/frenchcropusage/Orges_six_rangs_hiver	orge à six rangs d'hiver
+orge d'hiver à six rangs	http://ontology.inrae.fr/frenchcropusage/Orges_six_rangs_hiver	orge à six rangs d'hiver
+plantes ayant des cultures ambigues	http://ontology.inrae.fr/frenchcropusage/Plantes_cultures_ambigues	plantes ayant des cultures ambigues
+rosier	http://ontology.inrae.fr/frenchcropusage/Rosiers	rosier
+églantier	http://ontology.inrae.fr/frenchcropusage/Rosiers	rosier
+gesse	http://ontology.inrae.fr/frenchcropusage/Gesses	gesse
+laurier	http://ontology.inrae.fr/frenchcropusage/Lauriers	laurier
+niger	http://ontology.inrae.fr/frenchcropusage/Nigers	niger
+nyger	http://ontology.inrae.fr/frenchcropusage/Nigers	niger
+hibiscus	http://ontology.inrae.fr/frenchcropusage/Hibiscus	hibiscus
+jasmin 	http://ontology.inrae.fr/frenchcropusage/Jasmins	jasmin 
+pivoine	http://ontology.inrae.fr/frenchcropusage/Pivoines	pivoine
+pois protéagineux d'hiver	http://ontology.inrae.fr/frenchcropusage/Pois_proteagineux_hiver	pois protéagineux d'hiver
+pois d'hiver	http://ontology.inrae.fr/frenchcropusage/Pois_proteagineux_hiver	pois protéagineux d'hiver
+pois hiver	http://ontology.inrae.fr/frenchcropusage/Pois_proteagineux_hiver	pois protéagineux d'hiver
+pois protéagineux de printemps	http://ontology.inrae.fr/frenchcropusage/Pois_proteagineux_printemps	pois protéagineux de printemps
+pois de printemps	http://ontology.inrae.fr/frenchcropusage/Pois_proteagineux_printemps	pois protéagineux de printemps
+pois printemps	http://ontology.inrae.fr/frenchcropusage/Pois_proteagineux_printemps	pois protéagineux de printemps
+ray-grass anglais	http://ontology.inrae.fr/frenchcropusage/Ray_grass_anglais	ray-grass anglais
+bonne-herbe	http://ontology.inrae.fr/frenchcropusage/Ray_grass_anglais	ray-grass anglais
+ivraie vivace	http://ontology.inrae.fr/frenchcropusage/Ray_grass_anglais	ray-grass anglais
+ray grass anglais	http://ontology.inrae.fr/frenchcropusage/Ray_grass_anglais	ray-grass anglais
+ray-grass commun	http://ontology.inrae.fr/frenchcropusage/Ray_grass_anglais	ray-grass anglais
+ray-grass d'Italie	http://ontology.inrae.fr/frenchcropusage/Ray_grass_italie	ray-grass d'Italie
+ivraie d'Italie	http://ontology.inrae.fr/frenchcropusage/Ray_grass_italie	ray-grass d'Italie
+ivraie multiflore	http://ontology.inrae.fr/frenchcropusage/Ray_grass_italie	ray-grass d'Italie
+ivraie à nombreuses fleurs	http://ontology.inrae.fr/frenchcropusage/Ray_grass_italie	ray-grass d'Italie
+ray grass d'Italie	http://ontology.inrae.fr/frenchcropusage/Ray_grass_italie	ray-grass d'Italie
+vigne de cuve	http://ontology.inrae.fr/frenchcropusage/Vignes_cuve	vigne de cuve
+vin	http://ontology.inrae.fr/frenchcropusage/Vignes_cuve	vigne de cuve
+raisin de cuve	http://ontology.inrae.fr/frenchcropusage/Vignes_cuve	vigne de cuve
+vigne: raisin de cuve non en production	http://ontology.inrae.fr/frenchcropusage/Vignes_cuve	vigne de cuve
+vigne: raisins de cuve en production	http://ontology.inrae.fr/frenchcropusage/Vignes_cuve	vigne de cuve
+vigne jus	http://ontology.inrae.fr/frenchcropusage/Vignes_jus	vigne jus
+jus de raisin	http://ontology.inrae.fr/frenchcropusage/Vignes_jus	vigne jus
+vigne jus de raisin	http://ontology.inrae.fr/frenchcropusage/Vignes_jus	vigne jus
+vigne de table	http://ontology.inrae.fr/frenchcropusage/Vignes_table	vigne de table
+raisin de table	http://ontology.inrae.fr/frenchcropusage/Vignes_table	vigne de table
+vigne: raisin de table	http://ontology.inrae.fr/frenchcropusage/Vignes_table	vigne de table
+gesse service	http://ontology.inrae.fr/frenchcropusage/Gesses_service	gesse service
+gesse potagère	http://ontology.inrae.fr/frenchcropusage/Gesses_potageres	gesse potagère
+gesse commune	http://ontology.inrae.fr/frenchcropusage/Gesses_potageres	gesse potagère
+lentille d’Espagne	http://ontology.inrae.fr/frenchcropusage/Gesses_potageres	gesse potagère
+pois carré	http://ontology.inrae.fr/frenchcropusage/Gesses_potageres	gesse potagère
+conifère	http://ontology.inrae.fr/frenchcropusage/Coniferes	conifère
+aiguille	http://ontology.inrae.fr/frenchcropusage/Coniferes	conifère
+cône	http://ontology.inrae.fr/frenchcropusage/Coniferes	conifère
+feuillu	http://ontology.inrae.fr/frenchcropusage/Feuillus	feuillu
+feuille caduqe	http://ontology.inrae.fr/frenchcropusage/Feuillus	feuillu
+champignon	http://ontology.inrae.fr/frenchcropusage/Champignons	champignon
+champignon de Paris	http://ontology.inrae.fr/frenchcropusage/Champignons	champignon
+champignon de couche	http://ontology.inrae.fr/frenchcropusage/Champignons	champignon
+chapignonnière	http://ontology.inrae.fr/frenchcropusage/Champignons	champignon
+pin	http://ontology.inrae.fr/frenchcropusage/Pins	pin
+pinède	http://ontology.inrae.fr/frenchcropusage/Pins	pin
+serradelle	http://ontology.inrae.fr/frenchcropusage/Serradelles	serradelle
+ornithope cultivé	http://ontology.inrae.fr/frenchcropusage/Serradelles	serradelle
+pied d’oiseau	http://ontology.inrae.fr/frenchcropusage/Serradelles	serradelle
+serradelle déshydratée	http://ontology.inrae.fr/frenchcropusage/Serradelles	serradelle
+cresson alénois plante de service	http://ontology.inrae.fr/frenchcropusage/Cressons_alenois_service	cresson alénois plante de service
+navet fourrager	http://ontology.inrae.fr/frenchcropusage/Navets_fourragers	navet fourrager
+prairie naturelle	http://ontology.inrae.fr/frenchcropusage/Prairies_naturelles	prairie naturelle
+alpage	http://ontology.inrae.fr/frenchcropusage/Prairies_naturelles	prairie naturelle
+estive	http://ontology.inrae.fr/frenchcropusage/Prairies_naturelles	prairie naturelle
+prairie permanente	http://ontology.inrae.fr/frenchcropusage/Prairies_permanentes	prairie permanente
