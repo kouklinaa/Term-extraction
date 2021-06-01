@@ -70,7 +70,7 @@
 
   <!-- Bm25-->
   <calculate-bm25-baseline href="modules/scores.plan">
-    <keywords>sections.layer:fcu</keywords>
+    <keywords>sections.layer:fcu-baseline</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
   </calculate-bm25-baseline>
 
@@ -147,6 +147,14 @@
     <sourceLayerNames>fcu-baseline, fcu-tomap[@score == "positive"]</sourceLayerNames>
     <targetLayerName>fcu</targetLayerName>
   </merge-layers>
+
+  <!-- Remove overlaps -->
+  <overlaps-all class="RemoveOverlaps">
+    <layerName>fcu</layerName>
+    <removeEqual/>
+    <removeIncluded/>
+    <removeOverlapping/>
+  </overlaps-all>
 
 
   <calculate-bm25 href="modules/scores.plan">

@@ -15,13 +15,13 @@
 <read-html href="modules/read-html.plan">
 
   <!-- d2kab -->
-  <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
+  <!-- <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath> -->
 
   <!-- vespa -->
   <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
 
   <!-- alea -->
-  <!-- <sourcePath>resources/Corpus-v-12-04-21/test/</sourcePath> -->
+  <sourcePath>resources/Corpus-v-12-04-21/test/</sourcePath>
 
 </read-html>
 
@@ -48,12 +48,12 @@
 <project-fcu href="modules/projecting-fcu.plan">
 
   <!-- d2kab -->
-  <outDirBaseline>output/frenchCropUsage_20210525/d2kab</outDirBaseline>
+  <!-- <outDirBaseline>output/frenchCropUsage_20210525/d2kab</outDirBaseline>
   <outDirToMap>output/frenchCropUsage_20210525/d2kab</outDirToMap>
   <outFileCompare>output/frenchCropUsage_20210525/d2kab/compare.txt</outFileCompare>
   <outScoreBaseline>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</outScoreBaseline>
   <outScoreToMap>output/frenchCropUsage_20210525/d2kab/bm25-tomap.csv</outScoreToMap>
-  <outScore>output/frenchCropUsage_20210525/d2kab/bm25.csv</outScore>
+  <outScore>output/frenchCropUsage_20210525/d2kab/bm25.csv</outScore> -->
 
 
   <!-- vespa -->
@@ -66,12 +66,12 @@
 
 
   <!-- alea -->
-  <!-- <outDirBaseline>output/frenchCropUsage_20210525/alea</outDirBaseline>
+  <outDirBaseline>output/frenchCropUsage_20210525/alea</outDirBaseline>
   <outDirToMap>output/frenchCropUsage_20210525/alea</outDirToMap>
   <outFileCompare>output/frenchCropUsage_20210525/alea/compare.txt</outFileCompare>
   <outScoreBaseline>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</outScoreBaseline>
   <outScoreToMap>output/frenchCropUsage_20210525/alea/bm25-tomap.csv</outScoreToMap>
-  <outScore>output/frenchCropUsage_20210525/alea/bm25.csv</outScore> -->
+  <outScore>output/frenchCropUsage_20210525/alea/bm25.csv</outScore>
 
 </project-fcu>
 
@@ -87,13 +87,13 @@
 <project-stages href="modules/project-stages.plan">
 
   <!-- d2kab -->
-  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
+  <!-- <outDir>output/frenchCropUsage_20210525/d2kab</outDir> -->
 
   <!-- vespa -->
   <!-- <outDir>output/frenchCropUsage_20210525/vespa</outDir> -->
 
   <!-- alea -->
-  <!-- <outDir>output/frenchCropUsage_20210525/alea</outDir> -->
+  <outDir>output/frenchCropUsage_20210525/alea</outDir>
 
 </project-stages>
 
@@ -110,13 +110,13 @@
 <find-conj href="modules/find-conj-patterns.plan">
 
   <!-- d2kab -->
-  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
+  <!-- <outDir>output/frenchCropUsage_20210525/d2kab</outDir> -->
 
   <!-- vespa -->
   <!-- <outDir>output/frenchCropUsage_20210525/vespa</outDir> -->
 
   <!-- alea -->
-  <!-- <outDir>output/frenchCropUsage_20210525/alea</outDir> -->
+  <outDir>output/frenchCropUsage_20210525/alea</outDir>
 
 </find-conj>
 
