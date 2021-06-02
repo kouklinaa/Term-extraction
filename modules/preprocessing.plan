@@ -25,12 +25,12 @@
 <import>res://segmentation.plan</import>
 
 
-<!-- remove foreign words with label <FW> as they are not recognised by french tree-tagger-->
-<remove-fw class="Action">
+<!-- remove initial pos tags as foreign words are labeled as <FW> and are not recognised by french tree-tagger-->
+<remove-initial-pos-tags class="Action">
   <target>documents.sections.layer:words[@pos]</target>
   <action>set:remove-feature:pos</action>
   <setFeatures/>
-</remove-fw>
+</remove-initial-pos-tags>
 
 <!-- <add-punctuation class="Action">
   <target>documents.sections.layer:html[@tag ^= "H"]</target>

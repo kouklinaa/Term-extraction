@@ -23,30 +23,4 @@
   </scores>
 
 
-
-
-
 </alvisnlp-plan>
-
-
-
-<!-- <tf_idf href="modules/scores.plan">
-  <outFile>output/vespa/scores/tfidf_vespa.csv</outFile>
-  <outFile>output/d2kab/scores/tfidf_d2kab.csv</outFile>
-  <keywords>sections.layer:fcu</keywords>
-  <scoreFunction>tfidf</scoreFunction>
-</tf_idf>
-
-<freq href="modules/scores.plan">
-  <outFile>output/vespa/scores/freq_vespa.csv</outFile>
-  <outFile>output/d2kab/scores/freq_d2kab.csv</outFile>
-  <keywords>sections.layer:fcu</keywords>
-  <scoreFunction type="freq"/>
-</freq>
-
-<freqrel href="modules/scores.plan">
-  <outFile>output/vespa/scores/freq_rel_vespa.csv</outFile>
-  <outFile>output/d2kab/scores/freq_rel_d2kab.csv</outFile>
-  <keywords>sections.layer:fcu</keywords>
-  <scoreFunction type="freq" relative="true"/>
-</freqrel> -->
