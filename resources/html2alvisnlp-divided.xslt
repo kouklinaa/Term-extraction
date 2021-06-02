@@ -30,7 +30,7 @@ limitations under the License.
     </a:document>
   </xsl:template>
 
-  <xsl:template match="H1|H2|H2|H3|H4|H5|FIGURE|FOOTER|HEADER|P|TITLE|TD">
+  <xsl:template match="H1|H2|H2|H3|H4|H5|FIGURE|FOOTER|HEADER|P|TITLE|TD|DIV">
       <a:section xpath-name="name()" xpath-contents=".">
 	<xsl:for-each select="a:inline()">
 	  <a:annotation start="@inline:start" end="@inline:end" layers="html">
