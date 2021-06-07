@@ -179,7 +179,7 @@
   <!-- Remove duplicates -->
   <overlaps-all class="RemoveOverlaps">
     <layerName>fcu</layerName>
-    <removeIncluded>false</removeIncluded>
+    <removeIncluded>true</removeIncluded>
     <removeOverlapping>false</removeOverlapping>
   </overlaps-all>
 
