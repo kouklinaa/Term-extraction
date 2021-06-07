@@ -43,24 +43,30 @@
   -->
 
 
-
   <!-- Project terms with rdf projector-->
   <project-baseline href="modules/project-lemma.plan">
     <source>resources/frenchCropUsage_20210525.rdf</source>
     <targetLayerName>fcu-baseline</targetLayerName>
   </project-baseline>
 
+  <add-lemma-baseline class="Action">
+    <target>documents.sections.layer:fcu-baseline</target>
+    <action>set:feat:lemma(str:join:''(inside:words, @lemma))</action>
+    <setFeatures/>
+  </add-lemma-baseline>
+
+
   <!-- Remove overlaps -->
   <overlaps-baseline class="RemoveOverlaps">
     <layerName>fcu-baseline</layerName>
     <removeEqual/>
-    <removeIncluded/>
-    <removeOverlapping/>
+    <removeIncluded>false</removeIncluded>
+    <removeOverlapping>false</removeOverlapping>
   </overlaps-baseline>
 
   <!-- Filter results -->
   <filtre-baseline class="Action">
-    <target>documents.sections.layer:fcu-baseline[@form == "orange" and @pos == "ADJ" or @form == "oranges" and @pos == "ADJ" or @form == "marron" and @pos == "ADJ" or @form == "marrons" and @pos == "ADJ" or @form == "fruit" or @form == "Fruit" or @form == "fruits" or @form == "Fruits" or @form == "semence"  or @form == "Semence" or @form == "semences" or @form == "Semences" or @form == "côte" or @form == "Côte" or @form == "côtes" or @form == "Côtes" or @form == "soleil" or @form == "Soleil" or @form == "gel" or @form == "Gel" or @form == "gels"  or @form == "Gels" or @form == "fleur" or @form == "Fleur" or @form == "fleurs" or @form == "Fleurs"]</target>
+    <target>documents.sections.layer:fcu-baseline[@lemma == "orange" and @pos == "ADJ" or @lemma== "marron" and @pos == "ADJ" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "soleil" or @lemma == "gel" or @lemma == "fleur"]</target>
     <action>remove:fcu-baseline</action>
     <removeFromLayer/>
   </filtre-baseline>
@@ -92,40 +98,34 @@
   <!-- Project terms with ToMap-->
   <project-tomap href="modules/tomap-classify.plan"/>
 
+  <add-lemma-tomap class="Action">
+    <target>documents.sections.layer:fcu-tomap</target>
+    <action>set:feat:lemma(str:join:''(inside:words, @lemma))</action>
+  <setFeatures/>
+  </add-lemma-tomap>
 
   <!-- Remove overlaps -->
   <overlaps-tomap class="RemoveOverlaps">
     <layerName>fcu-tomap</layerName>
     <removeEqual/>
-    <removeIncluded/>
-    <removeOverlapping/>
+    <removeIncluded>false</removeIncluded>
+    <removeOverlapping>false</removeOverlapping>
   </overlaps-tomap>
 
 
   <!-- Filter results -->
   <filter-tomap>
     <ambiguous-words class="Action">
-      <target>documents.sections.layer:fcu-tomap[@form == "orange" and @pos == "ADJ" or @form == "oranges" and @pos == "ADJ" or @form == "marron" and @pos == "ADJ" or @form == "marrons" and @pos == "ADJ" or @form == "fruit" or @form == "Fruit" or @form == "fruits" or @form == "Fruits" or @form == "semence"  or @form == "Semence" or @form == "semences" or @form == "Semences" or @form == "côte" or @form == "Côte" or @form == "côtes" or @form == "Côtes" or @form == "soleil" or @form == "Soleil" or @form == "gel" or @form == "Gel" or @form == "gels"  or @form == "Gels" or @form == "fleur" or @form == "Fleur" or @form == "fleurs" or @form == "Fleurs"]</target>
+      <target>documents.sections.layer:fcu-tomap[@lemma == "orange" and @pos == "ADJ" or @lemma== "marron" and @pos == "ADJ" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "soleil" or @lemma == "gel" or @lemma == "fleur"]</target>
       <action>remove:fcu-tomap</action>
       <removeFromLayer/>
     </ambiguous-words>
 
-    <similarity-score class="Action">
-      <target>documents.sections.layer:fcu-tomap[@similarity > 0.7]</target>
-      <action>set:feat:score("negative")</action>
-      <setFeatures/>
-    </similarity-score>
-
-    <!-- <remove-negatives class="Action">
-      <target>documents[@set=="dev"].sections.layer:PredictedBacteria[@predictedClass == "0"]</target>
+    <remove-negatives class="Action">
+      <target>documents.sections.layer:fcu-tomap[0.5 > @similarity ]</target>
       <action>delete</action>
       <deleteElements>true</deleteElements>
-    </remove-negatives> -->
-    <!-- <layer class="MergeLayers">
-      <sourceLayerNames>fcu-tomap[@score == "positive"]</sourceLayerNames>
-      <targetLayerName>fcu-tomap-norm</targetLayerName>
-    </layer> -->
-
+    </remove-negatives>
 
   </filter-tomap>
 
@@ -133,13 +133,13 @@
   <!-- Save results-->
   <save-tomap href="modules/export.plan">
     <corpusFile>fcu-tomap.csv</corpusFile>
-    <lines>documents.sections.(layer:fcu-tomap[@score == "positive"])</lines>
+    <lines>documents.sections.(layer:fcu-tomap)</lines>
   </save-tomap>
 
 
   <!-- Bm25-->
   <calculate-bm25-tomap href="modules/scores.plan">
-    <keywords>sections.layer:fcu-tomap[@score == "positive"]</keywords>
+    <keywords>sections.layer:fcu-tomap</keywords>
     <scoreFunction type="bm25" k1="1.2" b="0.75"/>
   </calculate-bm25-tomap>
 
@@ -156,7 +156,7 @@
 <compare-layers class="CompareElements">
   <sections>documents.sections</sections>
   <reference>layer:fcu-baseline</reference>
-  <predicted>layer:fcu-tomap[@score == "positive"]</predicted>
+  <predicted>layer:fcu-tomap</predicted>
   <face>@skos-prefLabel</face>
   <similarity>strict</similarity>
 </compare-layers>
@@ -170,19 +170,18 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
-
+  <!-- Merge -->
   <merge-layers class="MergeLayers">
-    <sourceLayerNames>fcu-tomap[@score == "positive"], fcu-baseline</sourceLayerNames>
+    <sourceLayerNames>fcu-tomap, fcu-baseline</sourceLayerNames>
     <targetLayerName>fcu</targetLayerName>
   </merge-layers>
 
-
-  <!-- Remove overlaps -->
-  <!-- <overlaps-all class="RemoveOverlaps">
+  <!-- Remove duplicates -->
+  <overlaps-all class="RemoveOverlaps">
     <layerName>fcu</layerName>
-    <removeOverlapping/>
-  </overlaps-all> -->
-
+    <removeIncluded>false</removeIncluded>
+    <removeOverlapping>false</removeOverlapping>
+  </overlaps-all>
 
   <!-- Save results-->
   <save-all href="modules/export.plan">
@@ -190,7 +189,7 @@
     <lines>documents.sections.(layer:fcu)</lines>
   </save-all>
 
-
+  <!-- BM25-->
   <calculate-bm25 href="modules/scores.plan">
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
