@@ -15,10 +15,10 @@
 <read-html href="modules/read-html.plan">
 
   <!-- d2kab -->
-  <!-- <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath> -->
+  <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
 
   <!-- vespa -->
-  <sourcePath>resources/CorpusVespa.html</sourcePath>
+  <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
 
   <!-- alea -->
   <!-- <sourcePath>resources/Corpus-v-12-04-21/test/</sourcePath> -->
@@ -48,23 +48,31 @@
 <project-fcu href="modules/projecting-fcu.plan">
 
   <!-- d2kab -->
-  <!-- <outDirBaseline>output/frenchCropUsage_20210525/d2kab</outDirBaseline>
+  <outDirBaseline>output/frenchCropUsage_20210525/d2kab</outDirBaseline>
   <outDirToMap>output/frenchCropUsage_20210525/d2kab</outDirToMap>
   <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
   <outFileCompare>output/frenchCropUsage_20210525/d2kab/compare.txt</outFileCompare>
   <outScoreBaseline>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</outScoreBaseline>
   <outScoreToMap>output/frenchCropUsage_20210525/d2kab/bm25-tomap.csv</outScoreToMap>
-  <outScore>output/frenchCropUsage_20210525/d2kab/bm25.csv</outScore> -->
+  <outScore>output/frenchCropUsage_20210525/d2kab/bm25.csv</outScore>
+  <outTFIDFBaseline>output/frenchCropUsage_20210525/d2kab/tfidf-tomap.csv</outTFIDFBaseline>
+  <outTFIDFToMap>output/frenchCropUsage_20210525/d2kab/tfidf-tomap.csv</outTFIDFToMap>
+  <outTFIDF>output/frenchCropUsage_20210525/d2kab/tfidf.csv</outTFIDF>
+
 
 
   <!-- vespa -->
-  <outDirBaseline>output/frenchCropUsage_20210525/vespa</outDirBaseline>
+  <!-- <outDirBaseline>output/frenchCropUsage_20210525/vespa</outDirBaseline>
   <outDirToMap>output/frenchCropUsage_20210525/vespa</outDirToMap>
   <outDir>output/frenchCropUsage_20210525/vespa</outDir>
   <outFileCompare>output/frenchCropUsage_20210525/vespa/compare.txt</outFileCompare>
   <outScoreBaseline>output/frenchCropUsage_20210525/vespa/bm25-baseline.csv</outScoreBaseline>
   <outScoreToMap>output/frenchCropUsage_20210525/vespa/bm25-tomap.csv</outScoreToMap>
   <outScore>output/frenchCropUsage_20210525/vespa/bm25.csv</outScore>
+  <outTFIDFBaseline>output/frenchCropUsage_20210525/vespa/tfidf-tomap.csv</outTFIDFBaseline>
+  <outTFIDFToMap>output/frenchCropUsage_20210525/vespa/tfidf-tomap.csv</outTFIDFToMap>
+  <outTFIDF>output/frenchCropUsage_20210525/vespa/tfidf.csv</outTFIDF> -->
+
 
 
   <!-- alea -->
@@ -72,9 +80,14 @@
   <outDirToMap>output/frenchCropUsage_20210525/alea</outDirToMap>
   <outDir>output/frenchCropUsage_20210525/alea</outDir>
   <outFileCompare>output/frenchCropUsage_20210525/alea/compare.txt</outFileCompare>
+
   <outScoreBaseline>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</outScoreBaseline>
   <outScoreToMap>output/frenchCropUsage_20210525/alea/bm25-tomap.csv</outScoreToMap>
-  <outScore>output/frenchCropUsage_20210525/alea/bm25.csv</outScore> -->
+  <outScore>output/frenchCropUsage_20210525/alea/bm25.csv</outScore>
+
+  <outTFIDFBaseline>output/frenchCropUsage_20210525/alea/tfidf-tomap.csv</outTFIDFBaseline>
+  <outTFIDFToMap>output/frenchCropUsage_20210525/alea/tfidf-tomap.csv</outTFIDFToMap>
+  <outTFIDF>output/frenchCropUsage_20210525/alea/tfidf.csv</outTFIDF> -->
 
 </project-fcu>
 
@@ -90,10 +103,10 @@
 <project-stages href="modules/project-stages.plan">
 
   <!-- d2kab -->
-  <!-- <outDir>output/frenchCropUsage_20210525/d2kab</outDir> -->
+  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
 
   <!-- vespa -->
-  <outDir>output/frenchCropUsage_20210525/vespa</outDir>
+  <!-- <outDir>output/frenchCropUsage_20210525/vespa</outDir> -->
 
   <!-- alea -->
   <!-- <outDir>output/frenchCropUsage_20210525/alea</outDir> -->
@@ -113,10 +126,10 @@
 <find-conj href="modules/find-conj-patterns.plan">
 
   <!-- d2kab -->
-  <!-- <outDir>output/frenchCropUsage_20210525/d2kab</outDir> -->
+  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
 
   <!-- vespa -->
-  <outDir>output/frenchCropUsage_20210525/vespa</outDir>
+  <!-- <outDir>output/frenchCropUsage_20210525/vespa</outDir> -->
 
   <!-- alea -->
   <!-- <outDir>output/frenchCropUsage_20210525/alea</outDir> -->

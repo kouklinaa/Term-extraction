@@ -13,6 +13,7 @@
 
   <read class="XMLReader">
     <xslTransform>resources/html2alvisnlp-divided.xslt</xslTransform>
+    <!-- <xslTransform>resources/html2alvisnlp.xslt</xslTransform> -->
     <html/>
   </read>
 

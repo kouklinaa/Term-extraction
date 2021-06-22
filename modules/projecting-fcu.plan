@@ -34,6 +34,19 @@
   <alias module="calculate-bm25" param="outFile"/>
 </param>
 
+
+<param name="outTFIDFBaseline">
+  <alias module="calculate-tdidf-baseline" param="outFile"/>
+</param>
+
+<param name="outTFIDFToMap">
+  <alias module="calculate-tdidf-tomap" param="outFile"/>
+</param>
+
+<param name="outTFIDF">
+  <alias module="calculate-tdidf" param="outFile"/>
+</param>
+
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
@@ -60,8 +73,8 @@
   <overlaps-baseline class="RemoveOverlaps">
     <layerName>fcu-baseline</layerName>
     <removeEqual/>
-    <removeIncluded>false</removeIncluded>
-    <removeOverlapping>false</removeOverlapping>
+    <removeIncluded>true</removeIncluded>
+    <removeOverlapping>true</removeOverlapping>
   </overlaps-baseline>
 
   <!-- Filter results -->
@@ -83,7 +96,10 @@
     <scoreFunction type="bm25" k1="1.2" b="0.75"/>
   </calculate-bm25-baseline>
 
-
+  <calculate-tdidf-baseline href="modules/scores.plan">
+     <keywords>sections.layer:fcu-baseline</keywords>
+     <scoreFunction>tfidf</scoreFunction>
+   </calculate-tdidf-baseline>
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -108,8 +124,8 @@
   <overlaps-tomap class="RemoveOverlaps">
     <layerName>fcu-tomap</layerName>
     <removeEqual/>
-    <removeIncluded>false</removeIncluded>
-    <removeOverlapping>false</removeOverlapping>
+    <removeIncluded>true</removeIncluded>
+    <removeOverlapping>true</removeOverlapping>
   </overlaps-tomap>
 
 
@@ -122,7 +138,7 @@
     </ambiguous-words>
 
     <remove-negatives class="Action">
-      <target>documents.sections.layer:fcu-tomap[0.5 > @similarity ]</target>
+      <target>documents.sections.layer:fcu-tomap[0.4 > @similarity ]</target>
       <action>delete</action>
       <deleteElements>true</deleteElements>
     </remove-negatives>
@@ -143,6 +159,10 @@
     <scoreFunction type="bm25" k1="1.2" b="0.75"/>
   </calculate-bm25-tomap>
 
+  <calculate-tdidf-tomap href="modules/scores.plan">
+     <keywords>sections.layer:fcu-tomap</keywords>
+     <scoreFunction>tfidf</scoreFunction>
+   </calculate-tdidf-tomap>
 
 
   <!--
@@ -180,7 +200,7 @@
   <overlaps-all class="RemoveOverlaps">
     <layerName>fcu</layerName>
     <removeIncluded>true</removeIncluded>
-    <removeOverlapping>false</removeOverlapping>
+    <removeOverlapping>true</removeOverlapping>
   </overlaps-all>
 
   <!-- Save results-->
@@ -194,5 +214,11 @@
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
   </calculate-bm25>
+
+
+  <calculate-tdidf href="modules/scores.plan">
+     <keywords>sections.layer:fcu</keywords>
+     <scoreFunction>tfidf</scoreFunction>
+   </calculate-tdidf>
 
 </alvisnlp-plan>
