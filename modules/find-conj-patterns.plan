@@ -65,28 +65,31 @@
   </N_PUN_N>
 
 
-
-
   <N_PUN_N_KON_N class="PatternMatcher">
     <pattern>
-
       <!-- nom , nom, nom, -->
       (
         [ @pos ^= "DET:ART" ]?
-        [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
+        [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
+        [ @pos ^= "DET:ART" ]?
+        [ @pos ^= "NOM" or @pos ^= "NAM" ])?
         [ @pos ^= "PUN" and @lemma ^=","]
       )+
 
       <!-- nom  -->
       [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+      [ @pos ^= "NOM" ]
+      ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" or @pos ^= "NAM"])?
 
       <!-- et nom  -->
-
       [ @pos ^= "KON" and @lemma ^= "et"]
       [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
-
+      [ @pos ^= "NOM" ]
+      ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" or @pos ^= "NAM"])?
     </pattern>
     <actions>
       <createAnnotation layer="conjunctions"/>
@@ -109,20 +112,28 @@
     <removeEqual>false</removeEqual>
   </overlaps_conj>
 
+
+  <!-- <insert-space class="Action">
+    <target>documents.sections.layer:conjunctions</target>
+    <action>set:feat:canonical-form(str:replace(@form, "BBCH", "BBCH "))</action>
+    <setFeatures/>
+  </insert-space> -->
+
   <!-- save matching  elements from the layer conjunctions  -->
-  <match-conj class="Action">
-    <target>documents.sections.layer:conjunctions[inside:fcu]</target>
+  <!-- <match-conj class="Action">
+    <target>documents.sections.layer:conjunctions[inside:fcu-baseline]</target>
     <action>set:feat:match("fcu")</action>
     <setFeatures/>
-  </match-conj>
+  </match-conj> -->
+
 
 
   <!-- save matching  elements from the layer conjunctions  -->
-  <rem-conj class="Action">
-    <target>documents.sections.layer:fcu[outside:conjunctions]</target>
+  <!-- <rem-conj class="Action">
+    <target>documents.sections.layer:fcu-baseline[outside:conjunctions]</target>
     <action>set:feat:match("conj")</action>
     <setFeatures/>
-  </rem-conj>
+  </rem-conj> -->
 
 
   <!--
@@ -134,10 +145,44 @@
   -->
 
   <!-- Save results-->
-  <save-conj href="modules/export.plan">
+
+  <save-conj class="TabularExport">
+     <!-- <outDir>output/vespa/conjunctions</outDir> -->
+     <corpusFile>conjunctions.csv</corpusFile>
+     <lines>documents.sections.layer:conjunctions[inside:fcu-baseline]</lines>
+     <headers>"bsv","context", "full_expression","match_with_fcu", "context", "location","features"</headers>
+     <columns separator=";">
+       <!-- short document id  -->
+       str:replace(str:basename(section.document.@id), ".html", "");
+       <!-- context before  -->
+       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+       <!-- extracted term  -->
+       @form;
+
+       <!-- match fcu  -->
+       <!-- str:join:', '(inside:fcu-baseline, @form ^ " ( " ^ @skos-prefLabel ^ " ) =" ^ @uri); -->
+       str:join:', '(inside:fcu-baseline, @form );
+
+       <!-- TODO : no match with fcu  -->
+       <!-- str:replace(@form, inside:words[@form == ","], ""); -->
+       <!-- str:replace(@form, overlapping:fcu-baseline, ""); -->
+       <!-- str:replace(@form, conjunctions[match("fcu")], ""); -->
+
+
+       <!-- context after  -->
+       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+       <!-- location  -->
+       start ^ "-" ^ end;
+       <!-- features  -->
+       str:join:', '(nav:features, @key ^ "=" ^ @value)
+     </columns>
+     <trueCSV/>
+   </save-conj>
+
+  <!-- <save-conj href="modules/export.plan">
     <corpusFile>conjunctions.csv</corpusFile>
-    <lines>documents.sections.layer:conjunctions[inside:fcu]</lines>
-  </save-conj>
+    <lines>documents.sections.layer:conjunctions</lines>
+  </save-conj> -->
 
 
 </alvisnlp-plan>

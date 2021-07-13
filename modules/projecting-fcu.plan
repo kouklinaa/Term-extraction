@@ -8,6 +8,16 @@
   <alias module="save-baseline" param="outDir"/>
 </param>
 
+<param name="outScoreBaseline">
+  <alias module="calculate-bm25-baseline" param="outFile"/>
+</param>
+
+<param name="outTFIDFBaseline">
+  <alias module="calculate-tdidf-baseline" param="outFile"/>
+</param>
+
+
+<!--
 <param name="outDirToMap">
   <alias module="save-tomap" param="outDir"/>
 </param>
@@ -16,14 +26,8 @@
   <alias module="save-all" param="outDir"/>
 </param>
 
-
 <param name="outFileCompare">
   <alias module="compare-layers" param="outFile"/>
-</param>
-
-
-<param name="outScoreBaseline">
-  <alias module="calculate-bm25-baseline" param="outFile"/>
 </param>
 
 <param name="outScoreToMap">
@@ -35,9 +39,6 @@
 </param>
 
 
-<param name="outTFIDFBaseline">
-  <alias module="calculate-tdidf-baseline" param="outFile"/>
-</param>
 
 <param name="outTFIDFToMap">
   <alias module="calculate-tdidf-tomap" param="outFile"/>
@@ -45,7 +46,7 @@
 
 <param name="outTFIDF">
   <alias module="calculate-tdidf" param="outFile"/>
-</param>
+</param> -->
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -55,11 +56,21 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
+  <!-- <project-baseline class="RDFProjector">
+    <subject layer="words" feature="lemma"/>
+    <source>resources/frenchCropUsage_20210525.rdf</source>
+    <targetLayerName>fcu-baseline</targetLayerName>
+    <language>fr</language>
+    <uriFeatureName>uri</uriFeatureName>
+    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+    <wordStartCaseInsensitive/>
+    <constantAnnotationFeatures>type=RDF</constantAnnotationFeatures>
+  </project-baseline> -->
 
   <!-- Project terms with rdf projector-->
   <project-baseline href="modules/project-lemma.plan">
-    <source>resources/frenchCropUsage_20210525.rdf</source>
-    <targetLayerName>fcu-baseline</targetLayerName>
+  <source>resources/frenchCropUsage_20210525.rdf</source>
+  <targetLayerName>fcu-baseline</targetLayerName>
   </project-baseline>
 
   <add-lemma-baseline class="Action">
@@ -79,7 +90,15 @@
 
   <!-- Filter results -->
   <filtre-baseline class="Action">
-    <target>documents.sections.layer:fcu-baseline[@lemma == "orange" and @pos == "ADJ" or @lemma== "marron" and @pos == "ADJ" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "soleil" or @lemma == "gel" or @lemma == "fleur"]</target>
+    <target>documents.sections.layer:fcu-baseline[
+      @lemma == "orange" and @pos == "ADJ"
+      or @lemma== "marron" and @pos == "ADJ"
+      or @lemma == "fruit"
+      or @lemma == "semence"
+      or @lemma == "côte"
+      or @lemma == "soleil"
+      or @lemma == "gel"
+      or @lemma == "fleur"]</target>
     <action>remove:fcu-baseline</action>
     <removeFromLayer/>
   </filtre-baseline>
@@ -112,25 +131,25 @@
 
 
   <!-- Project terms with ToMap-->
-  <project-tomap href="modules/tomap-classify.plan"/>
+  <!-- <project-tomap href="modules/tomap-classify.plan"/>
 
   <add-lemma-tomap class="Action">
     <target>documents.sections.layer:fcu-tomap</target>
     <action>set:feat:lemma(str:join:''(inside:words, @lemma))</action>
   <setFeatures/>
-  </add-lemma-tomap>
+  </add-lemma-tomap> -->
 
   <!-- Remove overlaps -->
-  <overlaps-tomap class="RemoveOverlaps">
+  <!-- <overlaps-tomap class="RemoveOverlaps">
     <layerName>fcu-tomap</layerName>
     <removeEqual/>
     <removeIncluded>true</removeIncluded>
     <removeOverlapping>true</removeOverlapping>
-  </overlaps-tomap>
+  </overlaps-tomap> -->
 
 
   <!-- Filter results -->
-  <filter-tomap>
+  <!-- <filter-tomap>
     <ambiguous-words class="Action">
       <target>documents.sections.layer:fcu-tomap[@lemma == "orange" and @pos == "ADJ" or @lemma== "marron" and @pos == "ADJ" or @lemma == "fruit" or @lemma == "semence" or @lemma == "côte" or @lemma == "soleil" or @lemma == "gel" or @lemma == "fleur"]</target>
       <action>remove:fcu-tomap</action>
@@ -138,23 +157,23 @@
     </ambiguous-words>
 
     <remove-negatives class="Action">
-      <target>documents.sections.layer:fcu-tomap[0.4 > @similarity ]</target>
+      <target>documents.sections.layer:fcu-tomap[0.5 > @similarity ]</target>
       <action>delete</action>
       <deleteElements>true</deleteElements>
     </remove-negatives>
 
-  </filter-tomap>
+  </filter-tomap> -->
 
 
   <!-- Save results-->
-  <save-tomap href="modules/export.plan">
+  <!-- <save-tomap href="modules/export.plan">
     <corpusFile>fcu-tomap.csv</corpusFile>
     <lines>documents.sections.(layer:fcu-tomap)</lines>
-  </save-tomap>
+  </save-tomap> -->
 
 
   <!-- Bm25-->
-  <calculate-bm25-tomap href="modules/scores.plan">
+  <!-- <calculate-bm25-tomap href="modules/scores.plan">
     <keywords>sections.layer:fcu-tomap</keywords>
     <scoreFunction type="bm25" k1="1.2" b="0.75"/>
   </calculate-bm25-tomap>
@@ -162,7 +181,7 @@
   <calculate-tdidf-tomap href="modules/scores.plan">
      <keywords>sections.layer:fcu-tomap</keywords>
      <scoreFunction>tfidf</scoreFunction>
-   </calculate-tdidf-tomap>
+   </calculate-tdidf-tomap> -->
 
 
   <!--
@@ -173,13 +192,13 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
-<compare-layers class="CompareElements">
+<!-- <compare-layers class="CompareElements">
   <sections>documents.sections</sections>
   <reference>layer:fcu-baseline</reference>
   <predicted>layer:fcu-tomap</predicted>
   <face>@skos-prefLabel</face>
   <similarity>strict</similarity>
-</compare-layers>
+</compare-layers> -->
 
 
   <!--
@@ -191,34 +210,34 @@
   -->
 
   <!-- Merge -->
-  <merge-layers class="MergeLayers">
+  <!-- <merge-layers class="MergeLayers">
     <sourceLayerNames>fcu-tomap, fcu-baseline</sourceLayerNames>
     <targetLayerName>fcu</targetLayerName>
-  </merge-layers>
+  </merge-layers> -->
 
   <!-- Remove duplicates -->
-  <overlaps-all class="RemoveOverlaps">
+  <!-- <overlaps-all class="RemoveOverlaps">
     <layerName>fcu</layerName>
     <removeIncluded>true</removeIncluded>
     <removeOverlapping>true</removeOverlapping>
-  </overlaps-all>
+  </overlaps-all> -->
 
   <!-- Save results-->
-  <save-all href="modules/export.plan">
+  <!-- <save-all href="modules/export.plan">
     <corpusFile>fcu.csv</corpusFile>
     <lines>documents.sections.(layer:fcu)</lines>
-  </save-all>
+  </save-all> -->
 
   <!-- BM25-->
-  <calculate-bm25 href="modules/scores.plan">
+  <!-- <calculate-bm25 href="modules/scores.plan">
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
-  </calculate-bm25>
+  </calculate-bm25> -->
 
 
-  <calculate-tdidf href="modules/scores.plan">
+  <!-- <calculate-tdidf href="modules/scores.plan">
      <keywords>sections.layer:fcu</keywords>
      <scoreFunction>tfidf</scoreFunction>
-   </calculate-tdidf>
+   </calculate-tdidf> -->
 
 </alvisnlp-plan>

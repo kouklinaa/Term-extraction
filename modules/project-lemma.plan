@@ -15,7 +15,7 @@
     <uriFeatureName>uri</uriFeatureName>
     <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
     <wordStartCaseInsensitive/>
-    <constantAnnotationFeatures>type=GOL</constantAnnotationFeatures>
+    <constantAnnotationFeatures>type=RDFProjector</constantAnnotationFeatures>
   </project-lemma>
 
 </alvisnlp-plan>

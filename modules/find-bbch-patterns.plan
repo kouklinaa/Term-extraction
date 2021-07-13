@@ -430,18 +430,7 @@
 
 
 
-  <!-- align extracted stages with their prefLabel -->
-  <project-bbch class="RDFProjector">
-    <subject layer="bbch" feature="canonical-form"/>
-    <source>resources/stades.rdf</source>
-    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
-    <language>fr</language>
-    <uriFeatureName>uri</uriFeatureName>
-    <targetLayerName>stages</targetLayerName>
-    <wordStartCaseInsensitive/>
-    <allowJoined/>
-    <constantAnnotationFeatures>type=GO_BBCH</constantAnnotationFeatures>
-  </project-bbch>
+
 
 
 </alvisnlp-plan>

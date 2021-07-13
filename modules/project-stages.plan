@@ -4,6 +4,11 @@
 
   <!-- parameters -->
   <param name="outDir">
+    <alias module="save-stages" param="outDir"/>
+  </param>
+
+  <!-- parameters -->
+  <param name="outDirBBCH">
     <alias module="save-bbch" param="outDir"/>
   </param>
 
@@ -19,9 +24,11 @@
 
   <!-- load vocabulary and project it to a layer named stages -->
   <project-stage href="modules/project-lemma.plan">
-    <source>resources/stades.rdf</source>
+    <!-- <source>resources/stades.rdf</source> -->
+    <source>resources/ppdo_20210709.rdf</source>
     <targetLayerName>stages</targetLayerName>
   </project-stage>
+
 
 
 
@@ -44,11 +51,64 @@
   <!-- find patterns bbch -->
   <bbch-patterns href="modules/find-bbch-patterns.plan"/>
 
+  <!-- align extracted stages with their prefLabel -->
+  <project-bbch-patterns class="RDFProjector">
+    <source>resources/ppdo_20210709.rdf</source>
+    <subject layer="bbch" feature="canonical-form"/>
+    <targetLayerName>stages</targetLayerName>
+    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+    <language>fr</language>
+    <uriFeatureName>uri</uriFeatureName>
+    <wordStartCaseInsensitive/>
+    <allowJoined/>
+    <constantAnnotationFeatures>type=PATTERN_BBCH</constantAnnotationFeatures>
+  </project-bbch-patterns>
+
+  <overlaps-stages class="RemoveOverlaps">
+    <layerName>stages</layerName>
+    <removeEqual/>
+    <removeIncluded>true</removeIncluded>
+    <removeOverlapping>true</removeOverlapping>
+  </overlaps-stages>
+
 
   <!-- Save results-->
+  <save-stages href="modules/export.plan">
+    <corpusFile>stages.csv</corpusFile>
+    <lines>documents.sections.(layer:stages)</lines>
+  </save-stages>
+
+
+
+
+
+
+  <!-- align extracted stages with their prefLabel -->
+  <project-patterns class="RDFProjector">
+    <source>resources/ppdo_20210709.rdf</source>
+    <subject layer="bbch" feature="canonical-form"/>
+    <targetLayerName>bbch</targetLayerName>
+    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+    <language>fr</language>
+    <uriFeatureName>uri</uriFeatureName>
+    <wordStartCaseInsensitive/>
+    <allowJoined/>
+    <constantAnnotationFeatures>type=PATTERN_BBCH</constantAnnotationFeatures>
+  </project-patterns>
+
+  <!-- <overlaps-bbch class="RemoveOverlaps">
+    <layerName>bbch</layerName>
+    <removeEqual>false</removeEqual>
+    <removeIncluded>true</removeIncluded>
+    <removeOverlapping>true</removeOverlapping>
+  </overlaps-bbch> -->
+
   <save-bbch href="modules/export.plan">
     <corpusFile>bbch.csv</corpusFile>
-    <lines>documents.sections.layer:bbch</lines>
+    <lines>documents.sections.(layer:bbch)</lines>
   </save-bbch>
+
+
+
 
 </alvisnlp-plan>

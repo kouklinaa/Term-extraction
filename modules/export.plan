@@ -17,6 +17,7 @@
 
 
 
+
   <export class="TabularExport">
     <headers>"bsv", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
     <columns separator=";">
@@ -43,6 +44,7 @@
     </columns>
     <trueCSV/>
   </export>
+
 
 
 

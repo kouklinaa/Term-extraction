@@ -49,16 +49,17 @@
 
   <!-- d2kab -->
   <outDirBaseline>output/frenchCropUsage_20210525/d2kab</outDirBaseline>
-  <outDirToMap>output/frenchCropUsage_20210525/d2kab</outDirToMap>
-  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
-  <outFileCompare>output/frenchCropUsage_20210525/d2kab/compare.txt</outFileCompare>
   <outScoreBaseline>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</outScoreBaseline>
-  <outScoreToMap>output/frenchCropUsage_20210525/d2kab/bm25-tomap.csv</outScoreToMap>
-  <outScore>output/frenchCropUsage_20210525/d2kab/bm25.csv</outScore>
   <outTFIDFBaseline>output/frenchCropUsage_20210525/d2kab/tfidf-tomap.csv</outTFIDFBaseline>
-  <outTFIDFToMap>output/frenchCropUsage_20210525/d2kab/tfidf-tomap.csv</outTFIDFToMap>
-  <outTFIDF>output/frenchCropUsage_20210525/d2kab/tfidf.csv</outTFIDF>
 
+  <!-- <outDirToMap>output/frenchCropUsage_20210525/d2kab</outDirToMap>
+  <outScoreToMap>output/frenchCropUsage_20210525/d2kab/bm25-tomap.csv</outScoreToMap>
+  <outTFIDFToMap>output/frenchCropUsage_20210525/d2kab/tfidf-tomap.csv</outTFIDFToMap>
+
+  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
+  <outScore>output/frenchCropUsage_20210525/d2kab/bm25.csv</outScore>
+  <outTFIDF>output/frenchCropUsage_20210525/d2kab/tfidf.csv</outTFIDF>
+  <outFileCompare>output/frenchCropUsage_20210525/d2kab/compare.txt</outFileCompare> -->
 
 
   <!-- vespa -->
@@ -71,8 +72,8 @@
   <outScore>output/frenchCropUsage_20210525/vespa/bm25.csv</outScore>
   <outTFIDFBaseline>output/frenchCropUsage_20210525/vespa/tfidf-tomap.csv</outTFIDFBaseline>
   <outTFIDFToMap>output/frenchCropUsage_20210525/vespa/tfidf-tomap.csv</outTFIDFToMap>
-  <outTFIDF>output/frenchCropUsage_20210525/vespa/tfidf.csv</outTFIDF> -->
-
+  <outTFIDF>output/frenchCropUsage_20210525/vespa/tfidf.csv</outTFIDF>
+ -->
 
 
   <!-- alea -->
@@ -104,6 +105,7 @@
 
   <!-- d2kab -->
   <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
+  <outDirBBCH>output/frenchCropUsage_20210525/d2kab</outDirBBCH>
 
   <!-- vespa -->
   <!-- <outDir>output/frenchCropUsage_20210525/vespa</outDir> -->
@@ -126,6 +128,7 @@
 <find-conj href="modules/find-conj-patterns.plan">
 
   <!-- d2kab -->
+  <!-- <outDir>output/frenchCropUsage_20210525/d2kab</outDir> -->
   <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
 
   <!-- vespa -->
