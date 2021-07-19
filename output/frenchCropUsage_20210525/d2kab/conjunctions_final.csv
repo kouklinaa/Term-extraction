@@ -1,91 +1,82 @@
 	bsv	context	full_expression	match_with_fcu	proposition	context.1	location	features
 0	20180911_bsv_grandes_cultures-26_cle0f15a8	1 Pluri-annuelles (	prairies, jachères	prairies, jachères		) 5 Colza/Blé Maïs/	4028-4046	type=N_PUN_N, form=prairies, jachères
-1	20181106_bsv_grandes_cultures_34_cle08159b	7 feuilles Enquête	Tournesol et oiseaux	Tournesol	oiseaux	Céréales à paille L	675-695	type=N_KON_N, form=Tournesol et oiseaux
+1	20181106_bsv_grandes_cultures_34_cle08159b	7 feuilles Enquête	Tournesol et oiseaux	Tournesol		Céréales à paille L	675-695	type=N_KON_N, form=Tournesol et oiseaux
 2	20181106_bsv_grandes_cultures_34_cle08159b	L Baris Du point de	vue des maladies, les colzas	colzas	vue des maladies	sont très sains. Qu	9623-9651	type=N_PUN_N, form=vue des maladies, les colzas
 3	20190320_LOR_BSV_Grandes_Cultures_cle83816d	aison démarrée pour	les blés et orges	blés	orges	d'hiver Colza .....	240-257	type=N_KON_N, form=les blés et orges
-4	20190417_ALS_BSV_Grandes_Cultures_cle8c93cf	celle en prenant en	compte, le stade, la vigueur du colza	colza	"vigueur du colza,
-stade,
-compte"	ainsi que le niveau	3803-3840	type=N_PUN_N, form=compte, le stade, la vigueur du colza
+4	20190417_ALS_BSV_Grandes_Cultures_cle8c93cf	celle en prenant en	compte, le stade, la vigueur du colza	colza	vigueur du colza	ainsi que le niveau	3803-3840	type=N_PUN_N, form=compte, le stade, la vigueur du colza
 5	20190417_ALS_BSV_Grandes_Cultures_cle8c93cf	a dans la rotation (	colza, tournesol, soja, pois	colza, tournesol, soja, pois		) Les attaques rece	4362-4390	type=N_PUN_N, form=colza, tournesol, soja, pois
-6	20190417_CHA_BSV_Grandes_Cultures_cle8333d7	ritaire 1 Nœud pour	les blés, stade	blés	stade	1-2 Nœuds pour les	226-241	type=N_PUN_N, form=les blés, stade
+6	20190417_CHA_BSV_Grandes_Cultures_cle8333d7	ritaire 1 Nœud pour	les blés, stade	blés		1-2 Nœuds pour les	226-241	type=N_PUN_N, form=les blés, stade
 7	20190417_CHA_BSV_Grandes_Cultures_cle8333d7	a dans la rotation (	colza, tournesol, pois	colza, tournesol, pois		) ;- les conditions	11849-11871	type=N_PUN_N, form=colza, tournesol, pois
-8	20190417_CHA_BSV_Grandes_Cultures_cle8333d7	maladie. En cas de	contamination du colza, l'application	colza	"contamination du colza,
-application"	d'un produit de bio	12477-12514	type=N_PUN_N, form=contamination du colza, l'application
+8	20190417_CHA_BSV_Grandes_Cultures_cle8333d7	maladie. En cas de	contamination du colza, l'application	colza	contamination du colza	d'un produit de bio	12477-12514	type=N_PUN_N, form=contamination du colza, l'application
 9	20190417_CHA_BSV_Grandes_Cultures_cle8333d7	de biocontrôle sur	les pailles et chaumes	pailles	chaumes	permet de faire dim	12547-12569	type=N_KON_N, form=les pailles et chaumes
 10	20190417_CHA_BSV_Grandes_Cultures_cle8333d7	a. Observations Sur	pois et féverole	pois, féverole		, des encoches sont	13692-13708	type=N_KON_N, form=pois et féverole
 11	20190507_LOR_BSV_Grandes_Cultures_cle893371	rnière feuille pour	les blés et apparition des barbes	blés	apparition des barbes	pour les orges d'hi	215-248	type=N_KON_N, form=les blés et apparition des barbes
-12	20190507_LOR_BSV_Grandes_Cultures_cle893371	iser les colzas. En	effet, les colzas	colzas	effet	présentent une fort	11195-11212	type=N_PUN_N, form=effet, les colzas
-13	20190507_LOR_BSV_Grandes_Cultures_cle893371	cette campagne. En	effet, le colza	colza	effet	a une forte capacit	11700-11715	type=N_PUN_N, form=effet, le colza
+12	20190507_LOR_BSV_Grandes_Cultures_cle893371	iser les colzas. En	effet, les colzas	colzas		présentent une fort	11195-11212	type=N_PUN_N, form=effet, les colzas
+13	20190507_LOR_BSV_Grandes_Cultures_cle893371	cette campagne. En	effet, le colza	colza		a une forte capacit	11700-11715	type=N_PUN_N, form=effet, le colza
 14	20190507_LOR_BSV_Grandes_Cultures_cle893371	a dans la rotation (	colza, tournesol, soja, pois	colza, tournesol, soja, pois		)- Les attaques rec	16410-16438	type=N_PUN_N, form=colza, tournesol, soja, pois
-15	20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	lture précédente au	sol, maïs	maïs	sol	ou sorgho, souvent	13599-13608	type=N_PUN_N, form=sol, maïs
-16	20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	de la culture Cette	semaine, les stades des blés	blés	"stades des blés,
-semaine"	s'étalent de 3 nœud	2869-2897	type=N_PUN_N, form=semaine, les stades des blés
+15	20190516_BSV_grandes_cultures_Rhone-Alpes_N_13_cle4cc4d2	lture précédente au	sol, maïs	maïs		ou sorgho, souvent	13599-13608	type=N_PUN_N, form=sol, maïs
+16	20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	de la culture Cette	semaine, les stades des blés	blés	stades des blés	s'étalent de 3 nœud	2869-2897	type=N_PUN_N, form=semaine, les stades des blés
 17	20190522_LOR_BSV_Grandes_Cultures_cle8b3b61	a dans la rotation (	colza, tournesol, soja, pois	colza, tournesol, soja, pois		)- Les attaques rec	9837-9865	type=N_PUN_N, form=colza, tournesol, soja, pois
-18	20190710_LOR_BSV_Grandes_Cultures_cle8d764a	de la culture Cette	semaine, les maïs	maïs	semaine	sont compris entre	517-534	type=N_PUN_N, form=semaine, les maïs
-19	20190730_bsv_grandes_cultures_cle879378	de surveillance du	mildiou du tournesol, la maladie	tournesol	"mildiou du tournesol,
-maladie"	a été observée en V	9859-9891	type=N_PUN_N, form=mildiou du tournesol, la maladie
+18	20190710_LOR_BSV_Grandes_Cultures_cle8d764a	de la culture Cette	semaine, les maïs	maïs		sont compris entre	517-534	type=N_PUN_N, form=semaine, les maïs
+19	20190730_bsv_grandes_cultures_cle879378	de surveillance du	mildiou du tournesol, la maladie	tournesol	mildiou du tournesol	a été observée en V	9859-9891	type=N_PUN_N, form=mildiou du tournesol, la maladie
 20	20190730_bsv_grandes_cultures_cle879378	tales/2016 brochure	colza et altises	colza	altises	hiver.pdf Des analy	15863-15879	type=N_KON_N, form=colza et altises
 21	20190919_BSV_grandes_cultures_Rhone-Alpes_N24_cle03fa8f	e faible vitesse de	développement des colzas, le seuil de nuisibilité	colzas	"développement des colzas,
 seuil de nuisibilité"	est abaissé à 3 pla	2281-2330	type=N_PUN_N, form=développement des colzas, le seuil de nuisibilité
 22	20191002_BSV_grandes_cultures_Auvergne_N27_cle0fb714	e faible vitesse de	développement des colzas, le seuil de nuisibilité	colzas	"développement des colzas,
 seuil de nuisibilité"	est abaissé à 3 pla	2442-2491	type=N_PUN_N, form=développement des colzas, le seuil de nuisibilité
-23	20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b	'entrée de l'hiver.	La couleur du colza, la qualité de l'enracinement et la disponibilité	colza	"couleur du colza,
-disponibilité,
-qualité de enracinement"	en azote permettent	6970-7039	type=N_PUN_N_KON_N, form=La couleur du colza, la qualité de l'enracinement et la disponibilité
+23	20191114_BSV_grandes_cultures_Rhone-Alpes_N32_cle05361b	'entrée de l'hiver.	La couleur du colza, la qualité de l'enracinement et la disponibilité	colza	"qualité de enracinement,
+couleur du colza,
+disponibilité"	en azote permettent	6970-7039	type=N_PUN_N_KON_N, form=La couleur du colza, la qualité de l'enracinement et la disponibilité
 24	BSV-GC-n__33-01102019_cle41f418	de lutte. Limaces:	Colzas, pucerons	Colzas	pucerons	verts (C.GAZET CA59	5049-5065	type=N_PUN_N, form=Colzas, pucerons
 25	BSV-GC-n__33-01102019_cle41f418	dans une parcelle.	Colza, larve de teigne	Colza	larve de teigne	des crucifères (C.	6259-6281	type=N_PUN_N, form=Colza, larve de teigne
 26	BSV-GC-n__33-01102019_cle41f418	res (C. GAZET CA59-	Colza, mouche du chou	Colza, chou	mouche du chou	as3cot (F. CARLIER	6313-6334	type=N_PUN_N, form=Colza, mouche du chou
-27	BSV-GC-n__36-22102019_cle43a7f1	: Cette semaine, 26	parcelles de blé et d'orge	blé	"parcelles de blé,
-d'orge"	d'hiver ont été obs	361-387	type=N_KON_N, form=parcelles de blé et d'orge
+27	BSV-GC-n__36-22102019_cle43a7f1	: Cette semaine, 26	parcelles de blé et d'orge	blé	"d'orge,
+parcelles de blé"	d'hiver ont été obs	361-387	type=N_KON_N, form=parcelles de blé et d'orge
 28	BSV-GC-n__36-22102019_cle43a7f1	ngluées relevées en	blé et escourgeon	blé, escourgeon		, nous observons 1,	1301-1318	type=N_KON_N, form=blé et escourgeon
 29	BSV-GC-n__36-22102019_cle43a7f1	engluées relevées (	blé et orge	blé, orge		) : 9 présentent des	2080-2091	type=N_KON_N, form=blé et orge
-30	BSV-GC-n__36-22102019_cle43a7f1	ioles des feuilles.	Colza, stade	Colza	stade	10 feuilles (M. ROU	4968-4980	type=N_PUN_N, form=Colza, stade
+30	BSV-GC-n__36-22102019_cle43a7f1	ioles des feuilles.	Colza, stade	Colza		10 feuilles (M. ROU	4968-4980	type=N_PUN_N, form=Colza, stade
 31	BSV-GC-n__36-22102019_cle43a7f1	e (C.GAZET CA59-62)	Colza, larves	Colza	larves	d'altise à différen	6637-6650	type=N_PUN_N, form=Colza, larves
-32	BSV-GC-n__36-22102019_cle43a7f1	dans une parcelle.	Colza, larve de tenthrède et dégâts	Colza	"dégâts,
-larve de tenthrède"	sur feuille(H. GOSS	7780-7815	type=N_PUN_N_KON_N, form=Colza, larve de tenthrède et dégâts
+32	BSV-GC-n__36-22102019_cle43a7f1	dans une parcelle.	Colza, larve de tenthrède et dégâts	Colza	larve de tenthrède	sur feuille(H. GOSS	7780-7815	type=N_PUN_N_KON_N, form=Colza, larve de tenthrède et dégâts
 33	BSV-GC-n__36-22102019_cle43a7f1	de GORRE CA59-62)	Colza, macules de Phoma	Colza	macules de phoma	(H. GOSSE de GORRE	7856-7879	type=N_PUN_N, form=Colza, macules de Phoma
-34	BSV_07-48_cereales_Normandie_2020_cle8d6d3f	o o La majorité des	parcelles de blé et d'orge	blé	"parcelles de blé,
-d'orge"	semées sont entre l	63-89	type=N_KON_N, form=parcelles de blé et d'orge
+34	BSV_07-48_cereales_Normandie_2020_cle8d6d3f	o o La majorité des	parcelles de blé et d'orge	blé	"d'orge,
+parcelles de blé"	semées sont entre l	63-89	type=N_KON_N, form=parcelles de blé et d'orge
 35	BSV_07-48_cereales_Normandie_2020_cle8d6d3f	entre la période de	sensibilité de la céréale et la période	céréale	"sensibilité de céréale,
 période"	d'activité des cica	2350-2389	type=N_KON_N, form=sensibilité de la céréale et la période
 36	BSV_19-19_cereales_Normandie_2019_cle8dba8a	arfois atteint. Sur	orge, la pression	orge	pression	rhynchosporiose est	889-906	type=N_PUN_N, form=orge, la pression
-37	BSV_27-29_cereales_Normandie_2019_cle8e5177	lle avec historique	dégâts, maïs	maïs	dégâts	/maïs, mauvaise gest	1899-1911	type=N_PUN_N, form=dégâts, maïs
+37	BSV_27-29_cereales_Normandie_2019_cle8e5177	lle avec historique	dégâts, maïs	maïs		/maïs, mauvaise gest	1899-1911	type=N_PUN_N, form=dégâts, maïs
 38	BSV_Betterave_n19_cle0c8c47	'ITB pour minimiser	les pertes de rendement et la dissémination des champignons	champignons	"dissémination des champignons,
 pertes de rendement"	. Maladies Oïdium Ro	4087-4146	type=N_KON_N, form=les pertes de rendement et la dissémination des champignons
-39	BSV_Colza_no01-20fev_cle091791	ement des premières	captures et la présence de colza	colza	"présence de colza,
-captures"	aux tiges principal	2635-2667	type=N_KON_N, form=captures et la présence de colza
-40	BSV_Colza_no01-20fev_cle091791	st conditionnée par	l'état du colza et la dynamique de croissance	colza	"état du colza,
-dynamique de croissance"	des tiges. Photo F.	3304-3349	type=N_KON_N, form=l'état du colza et la dynamique de croissance
-41	BSV_Colza_no17-02oct2019_cle8cb181	lon les situations (	état du colza et dynamique de pousse	colza	"état du colza,
-dynamique de pousse"	). Le risque limace	630-666	type=N_KON_N, form=état du colza et dynamique de pousse
+39	BSV_Colza_no01-20fev_cle091791	ement des premières	captures et la présence de colza	colza	"captures,
+présence de colza"	aux tiges principal	2635-2667	type=N_KON_N, form=captures et la présence de colza
+40	BSV_Colza_no01-20fev_cle091791	st conditionnée par	l'état du colza et la dynamique de croissance	colza	"dynamique de croissance,
+état du colza"	des tiges. Photo F.	3304-3349	type=N_KON_N, form=l'état du colza et la dynamique de croissance
+41	BSV_Colza_no17-02oct2019_cle8cb181	lon les situations (	état du colza et dynamique de pousse	colza	"dynamique de pousse,
+état du colza"	). Le risque limace	630-666	type=N_KON_N, form=état du colza et dynamique de pousse
 42	BSV_GC_NA_Limousin_02_20190305_cle077475	DON64 Piétin verse (	Blé et triticale	Blé, triticale		) L'estimation du ri	7525-7541	type=N_KON_N, form=Blé et triticale
 43	BSV_GC_NA_Limousin_13_20190521_cle0cb17e	Fusariose des épis (	Blé et triticale	Blé, triticale		) : vigilance à l'ap	2113-2129	type=N_KON_N, form=Blé et triticale
 44	BSV_GC_NA_Limousin_13_20190521_cle0cb17e	s (Fiche technique)	Les blés et triticale	blés, triticale		entrent dans la pér	13091-13112	type=N_KON_N, form=Les blés et triticale
-45	BSV_GC_NA_Limousin_13_20190521_cle0cb17e	pour le blé tendre	d'hiver et le triticale	triticale	d'hiver	: Bulletin de Santé	13678-13701	type=N_KON_N, form=d'hiver et le triticale
+45	BSV_GC_NA_Limousin_13_20190521_cle0cb17e	pour le blé tendre	d'hiver et le triticale	triticale		: Bulletin de Santé	13678-13701	type=N_KON_N, form=d'hiver et le triticale
 46	BSV_GC_NA_Limousin_17_20190730_cle0fa494	ue, semer tôt : sur	colza, les semis	colza	semis	tardifs sont généra	12527-12543	type=N_PUN_N, form=colza, les semis
-47	BSV_GC_NA_Limousin_17_20190730_cle0fa494	le. A partir de 3-4	feuilles, le colza	colza	feuilles	entre dans une dyna	15133-15151	type=N_PUN_N, form=feuilles, le colza
+47	BSV_GC_NA_Limousin_17_20190730_cle0fa494	le. A partir de 3-4	feuilles, le colza	colza		entre dans une dyna	15133-15151	type=N_PUN_N, form=feuilles, le colza
 48	BSV_GC_NA_Limousin_31_20191126_cle074695	t rares. Rotation à	base de colza, céréales et fourrages	colza, céréales, fourrages	base de colza	: offrant nourritur	13510-13546	type=N_PUN_N_KON_N, form=base de colza, céréales et fourrages
 49	BSV_GC_n_01_du_28_aout_2018_cle098cfb	p 02 Tournesol p 07	Tournesol et colza	Tournesol, colza		Soja p 08 Début de	438-456	type=N_KON_N, form=Tournesol et colza
 50	BSV_GC_n_01_du_28_aout_2018_cle098cfb	ne, semis du 16/08,	Colza, apparition	Colza	apparition	de la 2ème feuille,	2495-2512	type=N_PUN_N, form=Colza, apparition
-51	BSV_GC_n_19_du_26_03_19_cle8bda1e	er : Blé p. 6 Orges	d'hiver et escourgeons	escourgeons	d'hiver	p. 11 La pression d	361-383	type=N_KON_N, form=d'hiver et escourgeons
-52	BSV_GC_n_19_du_26_03_19_cle8bda1e	ions brun foncé sur	les feuilles et les gousses	gousses	feuilles	. Elle est favorisée	18177-18204	type=N_KON_N, form=les feuilles et les gousses
+51	BSV_GC_n_19_du_26_03_19_cle8bda1e	er : Blé p. 6 Orges	d'hiver et escourgeons	escourgeons		p. 11 La pression d	361-383	type=N_KON_N, form=d'hiver et escourgeons
+52	BSV_GC_n_19_du_26_03_19_cle8bda1e	ions brun foncé sur	les feuilles et les gousses	gousses		. Elle est favorisée	18177-18204	type=N_KON_N, form=les feuilles et les gousses
 53	BSV_GC_n_1_du_27_08_19_cle0c116a	te semaine : Colza	Semis et levées de colza	colza	"semis,
 levées de colza"	perturbés une fois	112-136	type=N_KON_N, form=Semis et levées de colza
-54	BSV_GC_n_1_du_27_08_19_cle0c116a	té, dans les autres	cultures(tournesol, sorgho	sorgho	"cultures,
-tournesol"	, ) sans préjudice,	8234-8260	type=N_PUN_N, form=cultures(tournesol, sorgho
-55	BSV_GC_n_27_du_21_05_19_cle8d148f	fin février : Orges	d'hiver et escourgeons	escourgeons	d'hiver	p. 9 Le risque mal	1377-1399	type=N_KON_N, form=d'hiver et escourgeons
-56	BSV_GC_n_27_du_21_05_19_cle8d148f	. Puceron vert dans	pois de printemps, E	pois de printemps	e	. Bizot (CA89) Analy	17134-17154	type=N_PUN_N, form=pois de printemps, E
-57	BSV_GC_n_27_du_21_05_19_cle8d148f	n. Altise sur jeune	tournesol, E	tournesol	e	. Joudelat (CA89) Am	19504-19516	type=N_PUN_N, form=tournesol, E
+54	BSV_GC_n_1_du_27_08_19_cle0c116a	té, dans les autres	cultures(tournesol, sorgho	sorgho	tournesol	, ) sans préjudice,	8234-8260	type=N_PUN_N, form=cultures(tournesol, sorgho
+55	BSV_GC_n_27_du_21_05_19_cle8d148f	fin février : Orges	d'hiver et escourgeons	escourgeons		p. 9 Le risque mal	1377-1399	type=N_KON_N, form=d'hiver et escourgeons
+56	BSV_GC_n_27_du_21_05_19_cle8d148f	. Puceron vert dans	pois de printemps, E	pois de printemps		. Bizot (CA89) Analy	17134-17154	type=N_PUN_N, form=pois de printemps, E
+57	BSV_GC_n_27_du_21_05_19_cle8d148f	n. Altise sur jeune	tournesol, E	tournesol		. Joudelat (CA89) Am	19504-19516	type=N_PUN_N, form=tournesol, E
 58	BSV_GC_n_27_du_21_05_19_cle8d148f	ures à risque comme	tournesol et soja	tournesol, soja		), déchaumage et fau	20593-20610	type=N_KON_N, form=tournesol et soja
-59	BSV_GC_n_27_du_21_05_19_cle8d148f	ritoire de Belfort.	Stade et état du maïs	maïs	"stade,
-état du maïs"	Le réchauffement pr	21309-21330	type=N_KON_N, form=Stade et état du maïs
+59	BSV_GC_n_27_du_21_05_19_cle8d148f	ritoire de Belfort.	Stade et état du maïs	maïs	état du maïs	Le réchauffement pr	21309-21330	type=N_KON_N, form=Stade et état du maïs
 60	BSV_GC_n_27_du_21_05_19_cle8d148f	ruites tardivement,	bordures de bois et haies	bois	"bordures de bois,
 haies"	, parcelles régulièr	23636-23661	type=N_KON_N, form=bordures de bois et haies
 61	BSV_GC_n_33_du_2_07_19_cle0b813e	ures à risque comme	tournesol et soja	tournesol, soja		), déchaumage et fau	3239-3256	type=N_KON_N, form=tournesol et soja
-62	BSV_GC_n_33_du_2_07_19_cle0b813e	ritoire de Belfort.	Stade et état du maïs	maïs	"stade,
-état du maïs"	La majorité des par	4012-4033	type=N_KON_N, form=Stade et état du maïs
-63	BSV_GRANDES_CULTURES_2019_No21_cle091311	rties des plantes :	tiges, pétioles, gousses	gousses	"tiges,
-pétioles"	. En cas d'attaques	20695-20719	type=N_PUN_N, form=tiges, pétioles, gousses
+62	BSV_GC_n_33_du_2_07_19_cle0b813e	ritoire de Belfort.	Stade et état du maïs	maïs	état du maïs	La majorité des par	4012-4033	type=N_KON_N, form=Stade et état du maïs
+63	BSV_GRANDES_CULTURES_2019_No21_cle091311	rties des plantes :	tiges, pétioles, gousses	gousses	"pétioles,
+tiges"	. En cas d'attaques	20695-20719	type=N_PUN_N, form=tiges, pétioles, gousses
 64	BSV_GRANDES_CULTURES_2019_No21_cle091311	, les galeries dans	les gousses, les grains de flageolet	gousses, flageolet	grains de flageolet	grignotés et la pré	20873-20909	type=N_PUN_N, form=les gousses, les grains de flageolet
 65	BSV_GRANDES_CULTURES_2019_No21_cle091311	lle. Les précédents	maïs et la proximité de cultures	maïs	proximité de cultures	de maïs sont des fa	21007-21039	type=N_KON_N, form=maïs et la proximité de cultures
 66	BSV_GRANDES_CULTURES_2019_No21_cle091311	NT Pomme de terre :	MILEOS et Oignon	Oignon	mileos	: MILONI : FREDON I	24251-24267	type=N_KON_N, form=MILEOS et Oignon
@@ -94,26 +85,23 @@ pétioles"	. En cas d'attaques	20695-20719	type=N_PUN_N, form=tiges, pétioles, 
 69	BSV_GRANDES_CULTURES_2019_No24_cle0c9cf1	égumes industriels,	arboriculture, maraîchage, pépinière	arboriculture, maraîchage, pépinière		horticulture. Pour	16376-16412	type=N_PUN_N, form=arboriculture, maraîchage, pépinière
 70	BSV_GRANDES_CULTURES_2019_No36_cle02e122	premiers dégâts en	parcelle de colza et interculture	colza	"parcelle de colza,
 interculture"	/ repousses . COLZA	1164-1197	type=N_KON_N, form=parcelle de colza et interculture
-71	BSV_GRANDES_CULTURES_2019_No36_cle02e122	ur 2 sites. D'autre	part, les arrachages de betteraves	betteraves	"part,
-arrachages de betteraves"	sont en cours et ce	14995-15029	type=N_PUN_N, form=part, les arrachages de betteraves
+71	BSV_GRANDES_CULTURES_2019_No36_cle02e122	ur 2 sites. D'autre	part, les arrachages de betteraves	betteraves	arrachages de betteraves	sont en cours et ce	14995-15029	type=N_PUN_N, form=part, les arrachages de betteraves
 72	BSV_GRANDES_CULTURES_2019_No7_cle8446d7	. Au printemps avec	le redémarrage de la végétation, le champignon	champignon	redémarrage de végétation	progresse dans les	12257-12303	type=N_PUN_N, form=le redémarrage de la végétation, le champignon
 73	BSV_GRANDES_CULTURES_2019_No7_cle8446d7	NT Pomme de terre :	MILEOS et Oignon	Oignon	mileos	: MILONI : FREDON I	15768-15784	type=N_KON_N, form=MILEOS et Oignon
 74	BSV_GRANDES_CULTURES_2019_No7_cle8446d7	égumes industriels,	arboriculture, maraîchage, pépinière	arboriculture, maraîchage, pépinière		horticulture, JEVI.	16210-16246	type=N_PUN_N, form=arboriculture, maraîchage, pépinière
 75	BSV_NA_GC_AQUITAINE_N25_20190801_cle0eefb1	res de Coniothyrium	minitans, champignon	champignon	minitans	parasite des scléro	11464-11484	type=N_PUN_N, form=minitans, champignon
 76	BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e	sont fréquentes sur	les touffes de dactyle, fétuque	dactyle, fétuque	touffes de dactyle	ou/et paspale. Sur	2571-2602	type=N_PUN_N, form=les touffes de dactyle, fétuque
-77	BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e	qui viennent. A ce	jour, les parcelles de colza	colza	"parcelles de colza,
-jour"	du Sud-Ouest sont t	4315-4343	type=N_PUN_N, form=jour, les parcelles de colza
+77	BSV_NA_GC_AQUITAINE_N35_20191024_cle0eeb7e	qui viennent. A ce	jour, les parcelles de colza	colza	parcelles de colza	du Sud-Ouest sont t	4315-4343	type=N_PUN_N, form=jour, les parcelles de colza
 78	BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad	délégués Céréales à	paille et Maïs	Maïs	paille	Sandrine REGALDO et	459-473	type=N_KON_N, form=paille et Maïs
-79	BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad	d de vallée humide,	présence de pailles, sol	pailles	"présence de pailles,
-sol"	motteux ) et plus p	29298-29322	type=N_PUN_N, form=présence de pailles, sol
+79	BSV_NA_GC_Poitou-Charentes_10_20190416_cle8376ad	d de vallée humide,	présence de pailles, sol	pailles	présence de pailles	motteux ) et plus p	29298-29322	type=N_PUN_N, form=présence de pailles, sol
 80	BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	délégués Céréales à	paille et Maïs	Maïs	paille	Sandrine REGALDO et	603-617	type=N_KON_N, form=paille et Maïs
-81	BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	. Limaces Au vu des	stades du maïs, les attaques	maïs	"stades du maïs,
-attaques"	de ce ravageur sont	2543-2571	type=N_PUN_N, form=stades du maïs, les attaques
-82	BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	essentiellement sur	l'implication des producteurs et techniciens du maïs	maïs	"implication des producteurs,
-techniciens du maïs"	qui assureront l'ob	9124-9176	type=N_KON_N, form=l'implication des producteurs et techniciens du maïs
+81	BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	. Limaces Au vu des	stades du maïs, les attaques	maïs	"attaques,
+stades du maïs"	de ce ravageur sont	2543-2571	type=N_PUN_N, form=stades du maïs, les attaques
+82	BSV_NA_GC_Poitou-Charentes_19_20190618_cle869d2b	essentiellement sur	l'implication des producteurs et techniciens du maïs	maïs	"techniciens du maïs,
+implication des producteurs"	qui assureront l'ob	9124-9176	type=N_KON_N, form=l'implication des producteurs et techniciens du maïs
 83	BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	délégués Céréales à	paille et Maïs	Maïs	paille	Sandrine REGALDO et	428-442	type=N_KON_N, form=paille et Maïs
 84	BSV_NA_GC_Poitou_Charentes_04_20190306_cle854b15	rphe, Terre rouge à	châtaigniers, Limon	châtaigniers	limon	argileux profond as	10285-10304	type=N_PUN_N, form=châtaigniers, Limon
-85	BSV_PDT_03_du_19_05_15_cle091415	innoculum primaire.	Les pommes de terre, lorsqu'elles	pommes de terre	lorsqu'elles	vont se développer	1242-1275	type=N_PUN_N, form=Les pommes de terre, lorsqu'elles
+85	BSV_PDT_03_du_19_05_15_cle091415	innoculum primaire.	Les pommes de terre, lorsqu'elles	pommes de terre		vont se développer	1242-1275	type=N_PUN_N, form=Les pommes de terre, lorsqu'elles
 86	BSV_cereales_paille_02_du_29-10-19_cle8cbcac	microclimat humide (	colza, trèfle, repousses de céréales	colza, trèfle, céréales	repousses de céréales	...) Le travail du s	10379-10415	type=N_PUN_N, form=colza, trèfle, repousses de céréales
 87	BSV_cereales_paille_02_du_29-10-19_cle8cbcac	ants. Symptômes Sur	escourgeon, orges	escourgeon	orges	d'hiver et de print	14696-14713	type=N_PUN_N, form=escourgeon, orges
 88	BSV_cereales_paille_02_du_29-10-19_cle8cbcac	s rotations avec du	colza, céréales	colza, céréales		et fourrages leurs	16577-16592	type=N_PUN_N, form=colza, céréales
@@ -128,44 +116,35 @@ techniciens du maïs"	qui assureront l'ob	9124-9176	type=N_KON_N, form=l'implica
 97	BSV_cereales_paille_15_du_16-04-19_cle81e145	e reproduisant dans	le blé, le stock de cocons	blé	stock de cocons	du sol s'enrichit a	49260-49286	type=N_PUN_N, form=le blé, le stock de cocons
 98	BSV_cereales_paille_15_du_16-04-19_cle81e145	a phase sensible du	blé et la phase de ponte	blé	phase de ponte	des femelles.	49780-49804	type=N_KON_N, form=blé et la phase de ponte
 99	BSV_no6_du_26-03-19_cle8da969	s dans la rotation (	pois, luzerne, colza	pois, luzerne, colza		, ). Une attention p	5856-5876	type=N_PUN_N, form=pois, luzerne, colza
-100	BSV_no6_du_26-03-19_cle8da969	es. A ces stades de	développement du blé, les symptômes	blé	"symptômes,
-développement du blé"	ne présentent pas d	11803-11838	type=N_PUN_N, form=développement du blé, les symptômes
-101	BSV_no6_du_26-03-19_cle8da969	um. A ces stades de	développement du blé, les symptômes	blé	"symptômes,
-développement du blé"	ne présentent pas d	12356-12391	type=N_PUN_N, form=développement du blé, les symptômes
+100	BSV_no6_du_26-03-19_cle8da969	es. A ces stades de	développement du blé, les symptômes	blé	développement du blé	ne présentent pas d	11803-11838	type=N_PUN_N, form=développement du blé, les symptômes
+101	BSV_no6_du_26-03-19_cle8da969	um. A ces stades de	développement du blé, les symptômes	blé	développement du blé	ne présentent pas d	12356-12391	type=N_PUN_N, form=développement du blé, les symptômes
 102	alsace_gdes_cultures_no10_du_30-04-19_cle015281	a dans la rotation (	colza, tournesol, soja, pois	colza, tournesol, soja, pois		)Les attaques recen	2224-2252	type=N_PUN_N, form=colza, tournesol, soja, pois
-103	alsace_gdes_cultures_no17_du_19-06-19_cle026e84	rie (hétérogène) de	la fin de semaine, les stades des maïs	maïs	"fin de semaine,
-stades des maïs"	ont progressé. 2) P	1029-1067	type=N_PUN_N, form=la fin de semaine, les stades des maïs
+103	alsace_gdes_cultures_no17_du_19-06-19_cle026e84	rie (hétérogène) de	la fin de semaine, les stades des maïs	maïs	"stades des maïs,
+fin de semaine"	ont progressé. 2) P	1029-1067	type=N_PUN_N, form=la fin de semaine, les stades des maïs
 104	bsv_02_gc_26_fev_2019_cle49dcfd	RÉSENT CÉRÉALES	Blé et orge	Blé	orge	d'hiver : Cette sem	263-274	type=N_KON_N, form=Blé et orge
 105	bsv_02_gc_26_fev_2019_cle49dcfd	Baris, charançon de	la tige du colza, charançon de la tige	colza	"tige du colza,
 charançon de tige"	du chou et méligèth	4009-4047	type=N_PUN_N, form=la tige du colza, charançon de la tige
-106	bsv_gc_arcmed_n09_13062019_cle4a8a8c	ues de pycnides sur	feuilles, tiges et gousses	gousses	"feuilles,
-tiges"	(voir photo ci-cont	3097-3123	type=N_PUN_N_KON_N, form=feuilles, tiges et gousses
-107	bsv_gc_arcmed_n09_3262159476651410763_cle013bb3	ues de pycnides sur	feuilles, tiges et gousses	gousses	"feuilles,
-tiges"	(voir photo ci-cont	3097-3123	type=N_PUN_N_KON_N, form=feuilles, tiges et gousses
-108	bsv_gc_arcmed_n12_04072019_cle43eb7b	ues de pycnides sur	feuilles, tiges et gousses	gousses	"feuilles,
-tiges"	(voir photo ci-cont	3391-3417	type=N_PUN_N_KON_N, form=feuilles, tiges et gousses
-109	bsv_gc_arcmed_n12_04072019_cle43eb7b	elles, en observant	feuilles, tiges et gousses	gousses	"feuilles,
-tiges"	. Symptômes d'ascoch	3644-3670	type=N_PUN_N_KON_N, form=feuilles, tiges et gousses
+106	bsv_gc_arcmed_n09_13062019_cle4a8a8c	ues de pycnides sur	feuilles, tiges et gousses	gousses	tiges	(voir photo ci-cont	3097-3123	type=N_PUN_N_KON_N, form=feuilles, tiges et gousses
+107	bsv_gc_arcmed_n09_3262159476651410763_cle013bb3	ues de pycnides sur	feuilles, tiges et gousses	gousses	tiges	(voir photo ci-cont	3097-3123	type=N_PUN_N_KON_N, form=feuilles, tiges et gousses
+108	bsv_gc_arcmed_n12_04072019_cle43eb7b	ues de pycnides sur	feuilles, tiges et gousses	gousses	tiges	(voir photo ci-cont	3391-3417	type=N_PUN_N_KON_N, form=feuilles, tiges et gousses
+109	bsv_gc_arcmed_n12_04072019_cle43eb7b	elles, en observant	feuilles, tiges et gousses	gousses	tiges	. Symptômes d'ascoch	3644-3670	type=N_PUN_N_KON_N, form=feuilles, tiges et gousses
 110	bsv_gc_mp_n11_12122019_cle0bba99	celles en précédent	paille et colza	paille, colza		. CEREALES A PAILLE	1093-1108	type=N_KON_N, form=paille et colza
-111	bsv_gc_mp_n19_21032019_cle0c7f7d	e pour la prochaine	semaine, le colza	colza	semaine	étant sensible tant	5927-5944	type=N_PUN_N, form=semaine, le colza
-112	bsv_gc_mp_n19_21032019_cle0c7f7d	ures sensibles dans	la rotation, colza	colza	rotation	en particulier (tou	10662-10680	type=N_PUN_N, form=la rotation, colza
-113	bsv_gc_mp_n19_21032019_cle0c7f7d	lza en particulier (	tournesol, soja, cultures	tournesol, soja	cultures	légumières ) - les	10697-10722	type=N_PUN_N, form=tournesol, soja, cultures
+111	bsv_gc_mp_n19_21032019_cle0c7f7d	e pour la prochaine	semaine, le colza	colza		étant sensible tant	5927-5944	type=N_PUN_N, form=semaine, le colza
+112	bsv_gc_mp_n19_21032019_cle0c7f7d	ures sensibles dans	la rotation, colza	colza		en particulier (tou	10662-10680	type=N_PUN_N, form=la rotation, colza
+113	bsv_gc_mp_n19_21032019_cle0c7f7d	lza en particulier (	tournesol, soja, cultures	tournesol, soja		légumières ) - les	10697-10722	type=N_PUN_N, form=tournesol, soja, cultures
 114	bsv_gc_mp_n19_21032019_cle0c7f7d	sque s'arrête à fin	tallage, les céréales	céréales	tallage	ayant dépassé ce st	22879-22900	type=N_PUN_N, form=tallage, les céréales
-115	bsv_gc_mp_n27_16052019_cle046a11	dates de semis. Sur	orge, les symptômes	orge	symptômes	sont en augmentatio	5694-5713	type=N_PUN_N, form=orge, les symptômes
-116	bsv_gc_mp_n27_16052019_cle046a11	erole d'hiver, pois	d'hiver et pois de printemps	pois de printemps	d'hiver	) est mis en œuvre p	27641-27669	type=N_KON_N, form=d'hiver et pois de printemps
-117	bsv_gc_mp_n33_27062019_cle051c4f	t sensibles lors de	la formation des gousses, stade	gousses	"formation des gousses,
-stade"	atteint par la majo	9808-9839	type=N_PUN_N, form=la formation des gousses, stade
-118	bsv_grandes_cultures_n02_27092018_cle87a58c	uer le risque selon	le stade du colza, les conditions	colza	"conditions,
-stade du colza"	climatiques (les pl	6530-6563	type=N_PUN_N, form=le stade du colza, les conditions
+115	bsv_gc_mp_n27_16052019_cle046a11	dates de semis. Sur	orge, les symptômes	orge		sont en augmentatio	5694-5713	type=N_PUN_N, form=orge, les symptômes
+116	bsv_gc_mp_n27_16052019_cle046a11	erole d'hiver, pois	d'hiver et pois de printemps	pois de printemps		) est mis en œuvre p	27641-27669	type=N_KON_N, form=d'hiver et pois de printemps
+117	bsv_gc_mp_n33_27062019_cle051c4f	t sensibles lors de	la formation des gousses, stade	gousses	formation des gousses	atteint par la majo	9808-9839	type=N_PUN_N, form=la formation des gousses, stade
+118	bsv_grandes_cultures_n02_27092018_cle87a58c	uer le risque selon	le stade du colza, les conditions	colza	stade du colza	climatiques (les pl	6530-6563	type=N_PUN_N, form=le stade du colza, les conditions
 119	bsv_grandes_cultures_n10_22112018_cle815c16	celles en précédent	paille et colza	paille, colza		sont à surveiller a	1084-1099	type=N_KON_N, form=paille et colza
 120	bsv_grandes_cultures_n10_22112018_cle815c16	lage) en précédents	paille et colza	paille, colza		. L'analyse de risqu	13574-13589	type=N_KON_N, form=paille et colza
-121	bsv_grandes_cultures_n35_09082018-2_cle06f22b	plante mais surtout	les gousses et les graines	gousses	graines	en formation (piqûr	6595-6621	type=N_KON_N, form=les gousses et les graines
+121	bsv_grandes_cultures_n35_09082018-2_cle06f22b	plante mais surtout	les gousses et les graines	gousses		en formation (piqûr	6595-6621	type=N_KON_N, form=les gousses et les graines
 122	char_gdes_Cultures_no11_du_30-04-19_cle096f9c	a dans la rotation (	colza, tournesol, pois	colza, tournesol, pois		) ;- Les conditions	14046-14068	type=N_PUN_N, form=colza, tournesol, pois
-123	char_gdes_Cultures_no11_du_30-04-19_cle096f9c	maladie. En cas de	contamination du colza, l'application	colza	"contamination du colza,
-application"	d'un produit de bio	14929-14966	type=N_PUN_N, form=contamination du colza, l'application
+123	char_gdes_Cultures_no11_du_30-04-19_cle096f9c	maladie. En cas de	contamination du colza, l'application	colza	contamination du colza	d'un produit de bio	14929-14966	type=N_PUN_N, form=contamination du colza, l'application
 124	char_gdes_Cultures_no11_du_30-04-19_cle096f9c	de biocontrôle sur	les pailles et chaumes	pailles	chaumes	permet de faire dim	14999-15021	type=N_KON_N, form=les pailles et chaumes
-125	char_gdes_Cultures_no11_du_30-04-19_cle096f9c	cipaux ravageurs du	sol du maïs et les corvidés	maïs	"corvidés,
-sol du maïs"	. Avec le retour de	20431-20458	type=N_KON_N, form=sol du maïs et les corvidés
+125	char_gdes_Cultures_no11_du_30-04-19_cle096f9c	cipaux ravageurs du	sol du maïs et les corvidés	maïs	"sol du maïs,
+corvidés"	. Avec le retour de	20431-20458	type=N_KON_N, form=sol du maïs et les corvidés
 126	char_gdes_Cultures_no14_du_22-05-19_cle0b1586	s : Ascochytose sur	pois et botrytis	pois	botrytis	sur féverole signal	1396-1412	type=N_KON_N, form=pois et botrytis
 127	char_gdes_Cultures_no14_du_22-05-19_cle0b1586	t-semis prélevée du	maïs, la herse	maïs	herse	étrille peut être e	25747-25761	type=N_PUN_N, form=maïs, la herse
 128	char_gdes_Cultures_no14_du_22-05-19_cle0b1586	entices. Au-delà de	la levée du maïs, la herse	maïs	"levée du maïs,
@@ -180,8 +159,8 @@ mouche des semis"	(Navet) Le vol de l	2490-2522	type=N_PUN_N, form=Mouche du cho
 135	20180920_bsvmaraichage_cle0649bf	ques dans plusieurs	parcelles de navet, choux, rutabaga	navet, choux, rutabaga	parcelles de navet	sur le 49. Les cond	3030-3065	type=N_PUN_N, form=parcelles de navet, choux, rutabaga
 136	20180920_bsvmaraichage_cle0649bf	bles à ce ravageur.	Teigne des crucifères et Piéride du chou	chou	"teigne des crucifères,
 piéride du chou"	(Choux) A Longué, 1	3159-3199	type=N_KON_N, form=Teigne des crucifères et Piéride du chou
-137	20180920_bsvmaraichage_cle0649bf	Lambert-des-Levées.	Aleurode du chou et Punaise	chou	"punaise,
-aleurode du chou"	rouge du chou (Chou	3443-3470	type=N_KON_N, form=Aleurode du chou et Punaise
+137	20180920_bsvmaraichage_cle0649bf	Lambert-des-Levées.	Aleurode du chou et Punaise	chou	"aleurode du chou,
+punaise"	rouge du chou (Chou	3443-3470	type=N_KON_N, form=Aleurode du chou et Punaise
 138	20180920_bsvmaraichage_cle0649bf	asse-Goulaine (44).	Courgette et Potiron	Courgette, Potiron		: parcelles flottan	5343-5363	type=N_KON_N, form=Courgette et Potiron
 139	20180920_bsvmaraichage_cle0649bf	asse-Goulaine (44).	Courgette et Potiron	Courgette, Potiron		: parcelles flottan	7117-7137	type=N_KON_N, form=Courgette et Potiron
 140	20180920_bsvmaraichage_cle0649bf	. Maladies Oïdium (	Concombre, Courgette, Potiron	Concombre, Courgette, Potiron		) Depuis plusieurs s	7185-7214	type=N_PUN_N, form=Concombre, Courgette, Potiron
@@ -196,159 +175,153 @@ mouche du céleri"	P.3 Fraisiers Framb	177-205	type=N_PUN_N, form=Mouche du cél
 mouches des semis"	(Navet) Les piégeag	5733-5768	type=N_KON_N, form=Mouche du chou et mouches des semis
 148	20181011_bsvmaraichage_27_cle09c363	pas de risque pour	les panais et céleri	panais, céleri		en production. Mouc	7157-7177	type=N_KON_N, form=les panais et céleri
 149	20181011_bsvmaraichage_27_cle09c363	ctonia et Botrytis (	Laitue, Mâche	Laitue, Mâche		) Sur Pont-St-Martin	9735-9748	type=N_PUN_N, form=Laitue, Mâche
-150	20190502_BSV_legumes_cle079711	4/19 27/04/19 Cette	semaine, la mouche de la carotte	carotte	"semaine,
-mouche de carotte"	était peu présente	8327-8359	type=N_PUN_N, form=semaine, la mouche de la carotte
+150	20190502_BSV_legumes_cle079711	4/19 27/04/19 Cette	semaine, la mouche de la carotte	carotte	mouche de carotte	était peu présente	8327-8359	type=N_PUN_N, form=semaine, la mouche de la carotte
 151	20190502_BSV_legumes_cle079711	ns, décolorations).	Les aubergines et poivrons	aubergines, poivrons		ont été plantées la	24438-24464	type=N_KON_N, form=Les aubergines et poivrons
 152	20190502_BSV_legumes_cle079711	estez vigilants sur	les aubergines et poivrons	aubergines, poivrons		qui sont les cultur	25116-25142	type=N_KON_N, form=les aubergines et poivrons
-153	20190731_BSV_legumes_cle01d6c6	. En pénétrant dans	les tissus, le champignon	champignon	tissus	forme une gaine de	17670-17695	type=N_PUN_N, form=les tissus, le champignon
+153	20190731_BSV_legumes_cle01d6c6	. En pénétrant dans	les tissus, le champignon	champignon		forme une gaine de	17670-17695	type=N_PUN_N, form=les tissus, le champignon
 154	20190731_BSV_legumes_cle01d6c6	cultivées (carotte,	luzerne, betterave	luzerne, betterave		) mais également sa	18840-18858	type=N_PUN_N, form=luzerne, betterave
 155	20190731_BSV_legumes_cle01d6c6	s (oseille sauvage,	liseron, pissenlit	pissenlit	liseron	, stellaire, chénopo	18903-18921	type=N_PUN_N, form=liseron, pissenlit
-156	20190828_BSV_legumes_cle0ede1d	. En pénétrant dans	les tissus, le champignon	champignon	tissus	forme une gaine de	16477-16502	type=N_PUN_N, form=les tissus, le champignon
+156	20190828_BSV_legumes_cle0ede1d	. En pénétrant dans	les tissus, le champignon	champignon		forme une gaine de	16477-16502	type=N_PUN_N, form=les tissus, le champignon
 157	20190828_BSV_legumes_cle0ede1d	cultivées (carotte,	luzerne, betterave	luzerne, betterave		) mais également sa	17647-17665	type=N_PUN_N, form=luzerne, betterave
 158	20190828_BSV_legumes_cle0ede1d	s (oseille sauvage,	liseron, pissenlit	pissenlit	liseron	, stellaire, chénopo	17710-17728	type=N_PUN_N, form=liseron, pissenlit
 159	20190828_BSV_legumes_cle0ede1d	arcelles de choux à	inflorescences et les choux	choux	inflorescences	légumes. 2 Altises	22977-23004	type=N_KON_N, form=inflorescences et les choux
 160	20190828_BSV_legumes_cle0ede1d	notamment en choux	légumes et choux	légumes	choux	à choucroute. Sur l	23115-23131	type=N_KON_N, form=légumes et choux
 161	20190828_BSV_legumes_cle0ede1d	du réseau notamment	chou de Milan et chou	chou de Milan, chou		à inflorescence. Se	27497-27518	type=N_KON_N, form=chou de Milan et chou
 162	20190828_BSV_legumes_cle0ede1d	isque augmente avec	le nombre de vols et les choux	choux	nombre de vols	en pleine pommaison	28392-28422	type=N_KON_N, form=le nombre de vols et les choux
-163	20190828_BSV_legumes_cle0ede1d	ne la production de	poivrons de concombres et d'aubergine	poivrons, concombres	"poivrons de concombres,
-d'aubergine"	est encore très cor	40662-40699	type=N_KON_N, form=poivrons de concombres et d'aubergine
+163	20190828_BSV_legumes_cle0ede1d	ne la production de	poivrons de concombres et d'aubergine	poivrons, concombres	"d'aubergine,
+poivrons de concombres"	est encore très cor	40662-40699	type=N_KON_N, form=poivrons de concombres et d'aubergine
 164	20190828_BSV_legumes_cle0ede1d	c le plus souvent).	Les navets et radis	navets, radis		noirs récemment sem	41795-41814	type=N_KON_N, form=Les navets et radis
 165	20199062_bsvmaraichage_no27_cle051121-1	gique P.1 Ravageurs	Mineuse du poireau, Mouche du chou, Mouche des semis, Mouche	poireau, chou	"mouche du chou,
+mouche,
 mouche des semis,
-mineuse du poireau,
-mouche"	de la carotte P.2 N	118-178	type=N_PUN_N, form=Mineuse du poireau, Mouche du chou, Mouche des semis, Mouche
+mineuse du poireau"	de la carotte P.2 N	118-178	type=N_PUN_N, form=Mineuse du poireau, Mouche du chou, Mouche des semis, Mouche
 166	20199062_bsvmaraichage_no27_cle051121-1	Crédit photo : CDDL	Fraisier et Framboisiers	Fraisier, Framboisiers		Drosophila suzukii	4933-4957	type=N_KON_N, form=Fraisier et Framboisiers
 167	20199062_bsvmaraichage_no27_cle051121-1	llez vos parcelles.	Carotte, Panais et Céleri	Carotte, Panais, Céleri		L'oïdium se dévelop	7361-7386	type=N_PUN_N_KON_N, form=Carotte, Panais et Céleri
-168	2019_BSV_Normandie_leg_22_sem35_cle43a9ca	sent sur les jeunes	plantations, les pépinières	pépinières	plantations	et tout le cycle de	8296-8323	type=N_PUN_N, form=plantations, les pépinières
+168	2019_BSV_Normandie_leg_22_sem35_cle43a9ca	sent sur les jeunes	plantations, les pépinières	pépinières		et tout le cycle de	8296-8323	type=N_PUN_N, form=plantations, les pépinières
 169	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	ens tétranyques sur	tiges et feuilles de concombres	concombres	"feuilles de concombres,
 tiges"	(A. Broggio) Thrips	9543-9574	type=N_KON_N, form=tiges et feuilles de concombres
 170	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	plus attaqués sont	l'avocat, la mangue et la papaye	mangue, papaye	avocat	mais l'espèce s'en	21849-21881	type=N_PUN_N_KON_N, form=l'avocat, la mangue et la papaye
-171	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"fruit de passion,
-nèfle du japon,
-cerise de cayenne"	. Les légumes concer	21916-22054	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
+171	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"cerise de cayenne,
+fruit de passion,
+nèfle du japon"	. Les légumes concer	21916-22054	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
 172	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	rnés sont notamment	les tomates, poivrons, melons et courges	tomates, poivrons, melons, courges		. Comme les autres m	22093-22133	type=N_PUN_N_KON_N, form=les tomates, poivrons, melons et courges
-173	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	ffecter de nombreux	végétaux, oliviers, Prunus	oliviers	"végétaux,
-prunus"	(pêchers, amandiers	22582-22608	type=N_PUN_N, form=végétaux, oliviers, Prunus
+173	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	ffecter de nombreux	végétaux, oliviers, Prunus	oliviers	"prunus,
+végétaux"	(pêchers, amandiers	22582-22608	type=N_PUN_N, form=végétaux, oliviers, Prunus
 174	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	, oliviers, Prunus (	pêchers, amandiers	pêchers, amandiers		), laurier rose, vig	22610-22628	type=N_PUN_N, form=pêchers, amandiers
 175	BSV_Corse_Maraichage_3_8juillet_2019_cle4de2c4	ers), laurier rose,	vigne, agrumes, caféiers, chênes, Les dépérissements	vigne, agrumes, caféiers, chênes	dépérissements	provoqués par la ma	22645-22697	type=N_PUN_N, form=vigne, agrumes, caféiers, chênes, Les dépérissements
 176	BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	plus attaqués sont	l'avocat, la mangue et la papaye	mangue, papaye	avocat	mais l'espèce s'en	17924-17956	type=N_PUN_N_KON_N, form=l'avocat, la mangue et la papaye
-177	BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"fruit de passion,
-nèfle du japon,
-cerise de cayenne"	. Les légumes concer	17991-18129	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
+177	BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"cerise de cayenne,
+fruit de passion,
+nèfle du japon"	. Les légumes concer	17991-18129	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
 178	BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	rnés sont notamment	les tomates, poivrons, melons et courges	tomates, poivrons, melons, courges		. Comme les autres m	18168-18208	type=N_PUN_N_KON_N, form=les tomates, poivrons, melons et courges
-179	BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	ffecter de nombreux	végétaux, oliviers, Prunus	oliviers	"végétaux,
-prunus"	(pêchers, amandiers	18755-18781	type=N_PUN_N, form=végétaux, oliviers, Prunus
+179	BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	ffecter de nombreux	végétaux, oliviers, Prunus	oliviers	"prunus,
+végétaux"	(pêchers, amandiers	18755-18781	type=N_PUN_N, form=végétaux, oliviers, Prunus
 180	BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	, oliviers, Prunus (	pêchers, amandiers	pêchers, amandiers		), laurier rose, vig	18783-18801	type=N_PUN_N, form=pêchers, amandiers
 181	BSV_Corse_Maraichage_4_7aout_2019_cle83ed26	ers), laurier rose,	vigne, agrumes, caféiers, chênes, Les dépérissements	vigne, agrumes, caféiers, chênes	dépérissements	provoqués par la ma	18818-18870	type=N_PUN_N, form=vigne, agrumes, caféiers, chênes, Les dépérissements
 182	BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	plus attaqués sont	l'avocat, la mangue et la papaye	mangue, papaye	avocat	mais l'espèce s'en	13638-13670	type=N_PUN_N_KON_N, form=l'avocat, la mangue et la papaye
-183	BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"fruit de passion,
-nèfle du japon,
-cerise de cayenne"	. Les légumes concer	13705-13843	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
+183	BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"cerise de cayenne,
+fruit de passion,
+nèfle du japon"	. Les légumes concer	13705-13843	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
 184	BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e	rnés sont notamment	les tomates, poivrons, melons et courges	tomates, poivrons, melons, courges		. Comme les autres m	13882-13922	type=N_PUN_N_KON_N, form=les tomates, poivrons, melons et courges
 185	BSV_Legumes_102019_cle8be56a	principalement des	coulures de fleurs, avortement de gousses	gousses	"avortement de gousses,
 coulures de fleurs"	et mauvais rempliss	2895-2936	type=N_PUN_N, form=coulures de fleurs, avortement de gousses
-186	BSV_Legumes_102019_cle8be56a	Lesboeufs (80), sur	épinard de printemps, la situation	épinard	"épinard de printemps,
-situation"	est saine. Rien à s	3324-3358	type=N_PUN_N, form=épinard de printemps, la situation
+186	BSV_Legumes_102019_cle8be56a	Lesboeufs (80), sur	épinard de printemps, la situation	épinard	épinard de printemps	est saine. Rien à s	3324-3358	type=N_PUN_N, form=épinard de printemps, la situation
 187	BSV_Legumes_102019_cle8be56a	ltures d'alliacées (	poireaux, ciboulette, ail	poireaux, ciboulette, ail		) pour détecter d'é	6956-6981	type=N_PUN_N, form=poireaux, ciboulette, ail
 188	BSV_Legumes_102019_cle8be56a	les plantes hôtes (	poireaux, oignons, pommes de terre, choux, betterave, luzerne	poireaux, oignons, pommes de terre, choux, betterave, luzerne		).- Travail du sol	11980-12041	type=N_PUN_N, form=poireaux, oignons, pommes de terre, choux, betterave, luzerne
-189	BSV_Legumes_102019_cle8be56a	ignons bulbilles et	échalotes de plantation, oignon de semis	échalotes, oignon	"oignon de semis,
-échalotes de plantation"	"dit "" précoces "",-"	13755-13795	type=N_PUN_N, form=échalotes de plantation, oignon de semis
-190	BSV_Legumes_102019_cle8be56a	lantes environ. Sur	oignon, le risque	oignon	risque	est très faible, il	16594-16611	type=N_PUN_N, form=oignon, le risque
+189	BSV_Legumes_102019_cle8be56a	ignons bulbilles et	échalotes de plantation, oignon de semis	échalotes, oignon	"échalotes de plantation,
+oignon de semis"	"dit "" précoces "",-"	13755-13795	type=N_PUN_N, form=échalotes de plantation, oignon de semis
+190	BSV_Legumes_102019_cle8be56a	lantes environ. Sur	oignon, le risque	oignon		est très faible, il	16594-16611	type=N_PUN_N, form=oignon, le risque
 191	BSV_Legumes_102019_cle8be56a	ansfrontaliers pour	le Maraîchage et la culture de fraises	Maraîchage, fraises	culture de fraises	, favorisant les Mét	23342-23380	type=N_KON_N, form=le Maraîchage et la culture de fraises
 192	BSV_Legumes_102019_cle8be56a	de plantes hôtes :	colza , betteraves, pommes de terre, endives, haricots, pois	colza, betteraves, pommes de terre, endives, haricots, pois		, carottes, choux, s	25359-25419	type=N_PUN_N, form=colza , betteraves, pommes de terre, endives, haricots, pois
 193	BSV_Legumes_102019_cle8be56a	ts, pois, carottes,	choux, salades, navets, scorsonères, céleri, phacélie, moutarde	choux, salades, navets, scorsonères, céleri, phacélie, moutarde		. Seules les graminé	25431-25494	type=N_PUN_N, form=choux, salades, navets, scorsonères, céleri, phacélie, moutarde
 194	BSV_Legumes_102019_cle8be56a	40 plantes hôtes) :	haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme de terre	haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme de terre		Les femelles appréc	32134-32216	type=N_PUN_N, form=haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme de terre
 195	BSV_Legumes_102019_cle8be56a	les stratégies sur	pois, haricot, flageolet	pois, haricot, flageolet		et carotte, n'hésit	35432-35456	type=N_PUN_N, form=pois, haricot, flageolet
-196	BSV_Legumes_102019_cle8be56a	DELASSUS-PLRN; Chou-	fleur, choux	choux	fleur	: F. SIMEON -PLRN;	36712-36724	type=N_PUN_N, form=fleur, choux
+196	BSV_Legumes_102019_cle8be56a	DELASSUS-PLRN; Chou-	fleur, choux	choux		: F. SIMEON -PLRN;	36712-36724	type=N_PUN_N, form=fleur, choux
 197	BSV_Legumes_102019_cle8be56a	; Carotte, Epinard,	Pois de conserve, Haricots	Pois	"pois de conserve,
 haricots"	verts et Scorsonère	36819-36845	type=N_PUN_N, form=Pois de conserve, Haricots
 198	BSV_Legumes_132019_cle871f9a	ujours signalés sur	les parcelles de haricots et flageolets	haricots, flageolets	parcelles de haricots	. Les dégâts sont pl	2628-2667	type=N_KON_N, form=les parcelles de haricots et flageolets
-199	BSV_Legumes_132019_cle871f9a	e pas de dégâts sur	poireau et les auxiliaires	poireau	auxiliaires	sont présents. Roui	5630-5656	type=N_KON_N, form=poireau et les auxiliaires
-200	BSV_Legumes_132019_cle871f9a	lantes environ. Sur	oignon, le risque	oignon	risque	est faible, il ne s	8313-8330	type=N_PUN_N, form=oignon, le risque
-201	BSV_Legumes_132019_cle871f9a	ignons bulbilles et	échalotes de plantation, oignon de semis	échalotes, oignon	"oignon de semis,
-échalotes de plantation"	"dit "" précoces "",-"	9121-9161	type=N_PUN_N, form=échalotes de plantation, oignon de semis
+199	BSV_Legumes_132019_cle871f9a	e pas de dégâts sur	poireau et les auxiliaires	poireau		sont présents. Roui	5630-5656	type=N_KON_N, form=poireau et les auxiliaires
+200	BSV_Legumes_132019_cle871f9a	lantes environ. Sur	oignon, le risque	oignon		est faible, il ne s	8313-8330	type=N_PUN_N, form=oignon, le risque
+201	BSV_Legumes_132019_cle871f9a	ignons bulbilles et	échalotes de plantation, oignon de semis	échalotes, oignon	"échalotes de plantation,
+oignon de semis"	"dit "" précoces "",-"	9121-9161	type=N_PUN_N, form=échalotes de plantation, oignon de semis
 202	BSV_Legumes_132019_cle871f9a	terrain sur oignons	bulbilles et oignons de semis	oignons	"bulbilles,
 oignons de semis"	. Le modèle ne reflè	9770-9799	type=N_KON_N, form=bulbilles et oignons de semis
-203	BSV_Legumes_132019_cle871f9a	signalés sur 4% des	endives, c'est	endives	c'est	en nette diminution	13142-13156	type=N_PUN_N, form=endives, c'est
+203	BSV_Legumes_132019_cle871f9a	signalés sur 4% des	endives, c'est	endives		en nette diminution	13142-13156	type=N_PUN_N, form=endives, c'est
 204	BSV_Legumes_132019_cle871f9a	40 plantes hôtes) :	haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme de terre	haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme de terre		Les femelles appréc	21300-21382	type=N_PUN_N, form=haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme de terre
-205	BSV_Legumes_132019_cle871f9a	DELASSUS-PLRN; Chou-	fleur, choux	choux	fleur	: F. SIMEON -PLRN;	23903-23915	type=N_PUN_N, form=fleur, choux
+205	BSV_Legumes_132019_cle871f9a	DELASSUS-PLRN; Chou-	fleur, choux	choux		: F. SIMEON -PLRN;	23903-23915	type=N_PUN_N, form=fleur, choux
 206	BSV_Legumes_132019_cle871f9a	; Carotte, Epinard,	Pois de conserve, Haricots	Pois	"pois de conserve,
 haricots"	verts et Scorsonère	24010-24036	type=N_PUN_N, form=Pois de conserve, Haricots
-207	BSV_Legumes_212019_cle835ca3	d'œufs, trous dans	les gousses et les feuilles	gousses	feuilles	). Papillon Heliothi	1080-1107	type=N_KON_N, form=les gousses et les feuilles
+207	BSV_Legumes_212019_cle835ca3	d'œufs, trous dans	les gousses et les feuilles	gousses		). Papillon Heliothi	1080-1107	type=N_KON_N, form=les gousses et les feuilles
 208	BSV_Legumes_212019_cle835ca3	et irrégulières sur	les tiges et les gousses	gousses	tiges	qui évoluent en myc	1908-1932	type=N_KON_N, form=les tiges et les gousses
-209	BSV_Legumes_212019_cle835ca3	s pour le suivi des	mouches de la carotte et niveaux de captures	carotte	"niveaux de captures,
-mouches de carotte"	(mouche/piège/semai	3833-3877	type=N_KON_N, form=mouches de la carotte et niveaux de captures
-210	BSV_Legumes_212019_cle835ca3	DELASSUS-PLRN; Chou-	fleur, choux	choux	fleur	: F. SIMEON -PLRN;	20156-20168	type=N_PUN_N, form=fleur, choux
+209	BSV_Legumes_212019_cle835ca3	s pour le suivi des	mouches de la carotte et niveaux de captures	carotte	"mouches de carotte,
+niveaux de captures"	(mouche/piège/semai	3833-3877	type=N_KON_N, form=mouches de la carotte et niveaux de captures
+210	BSV_Legumes_212019_cle835ca3	DELASSUS-PLRN; Chou-	fleur, choux	choux		: F. SIMEON -PLRN;	20156-20168	type=N_PUN_N, form=fleur, choux
 211	BSV_Legumes_212019_cle835ca3	; Carotte, Epinard,	Pois de conserve, Haricots	Pois	"pois de conserve,
 haricots"	verts et Scorsonère	20263-20289	type=N_PUN_N, form=Pois de conserve, Haricots
-212	BSV_Legumes_262019_cle8bd5e8	DELASSUS-PLRN; Chou-	fleur, choux	choux	fleur	: F. SIMEON -PLRN;	14507-14519	type=N_PUN_N, form=fleur, choux
+212	BSV_Legumes_262019_cle8bd5e8	DELASSUS-PLRN; Chou-	fleur, choux	choux		: F. SIMEON -PLRN;	14507-14519	type=N_PUN_N, form=fleur, choux
 213	BSV_Legumes_262019_cle8bd5e8	; Carotte, Epinard,	Pois de conserve, Haricots	Pois	"pois de conserve,
 haricots"	verts et Scorsonère	14614-14640	type=N_PUN_N, form=Pois de conserve, Haricots
 214	BSV_Legumes_322019_2__cle44e13b	nt été signalés sur	épinard de printemps et d'automne	épinard	"épinard de printemps,
 d'automne"	. Bulletin de Santé	9171-9204	type=N_KON_N, form=épinard de printemps et d'automne
 215	BSV_Legumes_322019_2__cle44e13b	la répartition des	parcelles de haricot et flageolet	haricot, flageolet	parcelles de haricot	: Ravageu	9540-9573	type=N_KON_N, form=parcelles de haricot et flageolet
-216	BSV_Legumes_322019_2__cle44e13b	DELASSUS-PLRN; Chou-	fleur, choux	choux	fleur	: F. SIMEON -PLRN;	13582-13594	type=N_PUN_N, form=fleur, choux
+216	BSV_Legumes_322019_2__cle44e13b	DELASSUS-PLRN; Chou-	fleur, choux	choux		: F. SIMEON -PLRN;	13582-13594	type=N_PUN_N, form=fleur, choux
 217	BSV_Legumes_322019_2__cle44e13b	; Carotte, Epinard,	Pois de conserve, Haricots	Pois	"pois de conserve,
 haricots"	verts et Scorsonère	13685-13711	type=N_PUN_N, form=Pois de conserve, Haricots
 218	BSV_Legumes_industries_2019_No20_cle06a888	nt sensible (jeunes	pommes, pollution des lots	pommes	pollution des lots	possible) que par l	6195-6221	type=N_PUN_N, form=pommes, pollution des lots
 219	BSV_Legumes_industries_2019_No20_cle06a888	ui se développe sur	choux et navets	choux, navets		. L'adulte est orang	6390-6405	type=N_KON_N, form=choux et navets
-220	BSV_Legumes_n_08_du_17_07_19_cle838d16	erons parasités sur	tomate, l'un	tomate	un	par Praon sp. (indi	7159-7171	type=N_PUN_N, form=tomate, l'un
+220	BSV_Legumes_n_08_du_17_07_19_cle838d16	erons parasités sur	tomate, l'un	tomate		par Praon sp. (indi	7159-7171	type=N_PUN_N, form=tomate, l'un
 221	BSV_MARAICHAGE_2019_02_cle0c5c84	égumes industriels,	arboriculture, maraîchage, pépinière	arboriculture, maraîchage, pépinière		horticulture, zones	4719-4755	type=N_PUN_N, form=arboriculture, maraîchage, pépinière
-222	BSV_MARAICHAGE_2019_02_cle0c5c84	raîchage, pépinière	horticulture, zones	horticulture	zones	non agricoles. Page	4756-4775	type=N_PUN_N, form=horticulture, zones
+222	BSV_MARAICHAGE_2019_02_cle0c5c84	raîchage, pépinière	horticulture, zones	horticulture		non agricoles. Page	4756-4775	type=N_PUN_N, form=horticulture, zones
 223	BSV_MARAICHAGE_2019_15_cle04166a	égumes industriels,	arboriculture, maraîchage, pépinière	arboriculture, maraîchage, pépinière		horticulture. Page	12173-12209	type=N_PUN_N, form=arboriculture, maraîchage, pépinière
 224	BSV_MARAICHAGE_2019_23_cle0745ab	égumes industriels,	arboriculture, maraîchage, pépinière	arboriculture, maraîchage, pépinière		horticulture. Page	6515-6551	type=N_PUN_N, form=arboriculture, maraîchage, pépinière
 225	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	e variété sensible.	Carotte et céleri	Carotte, céleri		-rave Mouche de la c	2030-2047	type=N_KON_N, form=Carotte et céleri
 226	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ion sont notées sur	ciboulettes, aillets	ciboulettes	aillets	. Autres légumes Au	2342-2362	type=N_PUN_N, form=ciboulettes, aillets
 227	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ts . Autres légumes	Aubergines, concombres, courgettes	Aubergines, concombres, courgettes		(informations tour	2380-2414	type=N_PUN_N, form=Aubergines, concombres, courgettes
-228	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	bords (ex : morelle	noire, datura, repousses de tomate	tomate	"noire,
-datura,
-repousses de tomate"	) ; protéger les ouv	6232-6266	type=N_PUN_N, form=noire, datura, repousses de tomate
+228	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	bords (ex : morelle	noire, datura, repousses de tomate	tomate	"datura,
+repousses de tomate,
+noire"	) ; protéger les ouv	6232-6266	type=N_PUN_N, form=noire, datura, repousses de tomate
 229	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	sont signalées sur	poivrons, aubergines et concombres	poivrons, aubergines, concombres		). On peut remarquer	8259-8293	type=N_PUN_N_KON_N, form=poivrons, aubergines et concombres
 230	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	e variété sensible.	Carotte et céleri	Carotte, céleri		-rave Mouche de la c	9365-9382	type=N_KON_N, form=Carotte et céleri
-231	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	gie particulière de	la mouche de la carotte, la réalisation de piégeages	carotte	"réalisation de piégeages,
-mouche de carotte"	à la parcelle perme	9464-9516	type=N_PUN_N, form=la mouche de la carotte, la réalisation de piégeages
+231	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	gie particulière de	la mouche de la carotte, la réalisation de piégeages	carotte	"mouche de carotte,
+réalisation de piégeages"	à la parcelle perme	9464-9516	type=N_PUN_N, form=la mouche de la carotte, la réalisation de piégeages
 232	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ièrement notées sur	ciboulette, aillets	ciboulette	aillets	et plus généralemen	10740-10759	type=N_PUN_N, form=ciboulette, aillets
-233	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	légumes Aubergine,	concombre, courgettes et d'autres	concombre, courgettes	d'autres	légumes sous abris	11139-11172	type=N_PUN_N_KON_N, form=concombre, courgettes et d'autres
+233	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	légumes Aubergine,	concombre, courgettes et d'autres	concombre, courgettes		légumes sous abris	11139-11172	type=N_PUN_N_KON_N, form=concombre, courgettes et d'autres
 234	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ezara viridula) sur	aubergine et concombre	aubergine, concombre		. Le descriptif des	12000-12022	type=N_KON_N, form=aubergine et concombre
-235	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	sont en place dans	les vergers et les cultures	vergers	cultures	légumières. Les tra	14681-14708	type=N_KON_N, form=les vergers et les cultures
-236	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ment de larves dans	les fruits et légumes	légumes	fruits	) de la mouche orien	15563-15584	type=N_KON_N, form=les fruits et légumes
-237	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ins variables selon	les fruits et légumes	légumes	fruits	attaqués. Les larve	16027-16048	type=N_KON_N, form=les fruits et légumes
+235	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	sont en place dans	les vergers et les cultures	vergers		légumières. Les tra	14681-14708	type=N_KON_N, form=les vergers et les cultures
+236	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ment de larves dans	les fruits et légumes	légumes		) de la mouche orien	15563-15584	type=N_KON_N, form=les fruits et légumes
+237	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	ins variables selon	les fruits et légumes	légumes		attaqués. Les larve	16027-16048	type=N_KON_N, form=les fruits et légumes
 238	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	fruitières (pêcher,	poirier, mangue, banane	poirier, mangue, banane		,...), agrumes (citr	16249-16272	type=N_PUN_N, form=poirier, mangue, banane
 239	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	...) et légumières (	tomate, poivron	tomate, poivron		, aubergine, melon,	16323-16338	type=N_PUN_N, form=tomate, poivron
 240	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	poivron, aubergine,	melon, courge	melon, courge		,...). Bactrocera do	16351-16364	type=N_PUN_N, form=melon, courge
-241	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	a communautaire des	fruits et légumes	légumes	fruits	. Toute suspicion do	16717-16734	type=N_KON_N, form=fruits et légumes
+241	BSV_MARAICHAGE_Nord_NA_02_20190507_cle85ab9d	a communautaire des	fruits et légumes	légumes		. Toute suspicion do	16717-16734	type=N_KON_N, form=fruits et légumes
 242	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	n site en Charente.	Carotte et céleri	Carotte, céleri		-rave Mouche de la c	1593-1610	type=N_KON_N, form=Carotte et céleri
 243	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	22 août 2019 4/11	Carotte et céleri	Carotte, céleri		-rave Mouche de la c	11705-11722	type=N_KON_N, form=Carotte et céleri
-244	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	gie particulière de	la mouche de la carotte, la réalisation de piégeages	carotte	"réalisation de piégeages,
-mouche de carotte"	à la parcelle perme	11804-11856	type=N_PUN_N, form=la mouche de la carotte, la réalisation de piégeages
-245	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	tion du risque : en	cultures de carottes, le vol	carottes	"vol,
-cultures de carottes"	semble avoir repris	12128-12156	type=N_PUN_N, form=cultures de carottes, le vol
-246	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	plantations du 1er	avril, les cycles du champignon	champignon	"avril,
-cycles du champignon"	au 21 août, sont :	15153-15184	type=N_PUN_N, form=avril, les cycles du champignon
+244	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	gie particulière de	la mouche de la carotte, la réalisation de piégeages	carotte	"mouche de carotte,
+réalisation de piégeages"	à la parcelle perme	11804-11856	type=N_PUN_N, form=la mouche de la carotte, la réalisation de piégeages
+245	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	tion du risque : en	cultures de carottes, le vol	carottes	cultures de carottes	semble avoir repris	12128-12156	type=N_PUN_N, form=cultures de carottes, le vol
+246	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	plantations du 1er	avril, les cycles du champignon	champignon	cycles du champignon	au 21 août, sont :	15153-15184	type=N_PUN_N, form=avril, les cycles du champignon
 247	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	soleil sur fruits (	poivron, tomate	poivron, tomate		) ; des nécroses api	20096-20111	type=N_PUN_N, form=poivron, tomate
 248	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	"u "" cul noir "") sur"	poivron et tomate	poivron, tomate		; des phénomènes de	20159-20176	type=N_KON_N, form=poivron et tomate
-249	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	ccidentellement sur	les cultures et multiplications de betteraves	betteraves	"cultures,
-multiplications de betteraves"	, Lixus brevistoris,	22329-22374	type=N_KON_N, form=les cultures et multiplications de betteraves
+249	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	ccidentellement sur	les cultures et multiplications de betteraves	betteraves	multiplications de betteraves	, Lixus brevistoris,	22329-22374	type=N_KON_N, form=les cultures et multiplications de betteraves
 250	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	sieurs espèces) Sur	aubergine et concombre	aubergine, concombre		, sur l'ensemble des	22716-22738	type=N_KON_N, form=aubergine et concombre
 251	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	âts de punaises sur	tomate et photo de Nezara	tomate	photo de nezara	viridula (Crédit Ph	23037-23062	type=N_KON_N, form=tomate et photo de Nezara
-252	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	ment de larves dans	les fruits et légumes	légumes	fruits	) de la mouche orien	26293-26314	type=N_KON_N, form=les fruits et légumes
-253	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	ins variables selon	les fruits et légumes	légumes	fruits	attaqués. Les larve	26758-26779	type=N_KON_N, form=les fruits et légumes
+252	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	ment de larves dans	les fruits et légumes	légumes		) de la mouche orien	26293-26314	type=N_KON_N, form=les fruits et légumes
+253	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	ins variables selon	les fruits et légumes	légumes		attaqués. Les larve	26758-26779	type=N_KON_N, form=les fruits et légumes
 254	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	fruitières (pêcher,	poirier, mangue, banane	poirier, mangue, banane		,...), agrumes (citr	26980-27003	type=N_PUN_N, form=poirier, mangue, banane
 255	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	...) et légumières (	tomate, poivron	tomate, poivron		, aubergine, melon,	27054-27069	type=N_PUN_N, form=tomate, poivron
 256	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	poivron, aubergine,	melon, courge	melon, courge		,...). Bactrocera do	27082-27095	type=N_PUN_N, form=melon, courge
-257	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	a communautaire des	fruits et légumes	légumes	fruits	. Toute suspicion do	27549-27566	type=N_KON_N, form=fruits et légumes
+257	BSV_MARAICHAGE_Nord_NA_16__20190822_cle04e172	a communautaire des	fruits et légumes	légumes		. Toute suspicion do	27549-27566	type=N_KON_N, form=fruits et légumes
 258	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	durement impactées.	Carotte et céleri	Carotte, céleri		-rave Mouche de la c	1556-1573	type=N_KON_N, form=Carotte et céleri
 259	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	entre de la Vienne.	Carotte et céleri	Carotte, céleri		-rave Mouche de la c	7045-7062	type=N_KON_N, form=Carotte et céleri
-260	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	gie particulière de	la mouche de la carotte, la réalisation de piégeages	carotte	"réalisation de piégeages,
-mouche de carotte"	à la parcelle perme	7144-7196	type=N_PUN_N, form=la mouche de la carotte, la réalisation de piégeages
-261	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	plantations du 1er	avril, les cycles du champignon	champignon	"avril,
-cycles du champignon"	au 19 septembre, so	10602-10633	type=N_PUN_N, form=avril, les cycles du champignon
-262	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	ment de larves dans	les fruits et légumes	légumes	fruits	) de la mouche orien	17483-17504	type=N_KON_N, form=les fruits et légumes
-263	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	ins variables selon	les fruits et légumes	légumes	fruits	attaqués. Les larve	17948-17969	type=N_KON_N, form=les fruits et légumes
+260	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	gie particulière de	la mouche de la carotte, la réalisation de piégeages	carotte	"mouche de carotte,
+réalisation de piégeages"	à la parcelle perme	7144-7196	type=N_PUN_N, form=la mouche de la carotte, la réalisation de piégeages
+261	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	plantations du 1er	avril, les cycles du champignon	champignon	cycles du champignon	au 19 septembre, so	10602-10633	type=N_PUN_N, form=avril, les cycles du champignon
+262	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	ment de larves dans	les fruits et légumes	légumes		) de la mouche orien	17483-17504	type=N_KON_N, form=les fruits et légumes
+263	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	ins variables selon	les fruits et légumes	légumes		attaqués. Les larve	17948-17969	type=N_KON_N, form=les fruits et légumes
 264	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	fruitières (pêcher,	poirier, mangue, banane	poirier, mangue, banane		,...), agrumes (citr	18170-18193	type=N_PUN_N, form=poirier, mangue, banane
 265	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	...) et légumières (	tomate, poivron	tomate, poivron		, aubergine, melon,	18244-18259	type=N_PUN_N, form=tomate, poivron
 266	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	poivron, aubergine,	melon, courge	melon, courge		,...). Bactrocera do	18272-18285	type=N_PUN_N, form=melon, courge
-267	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	a communautaire des	fruits et légumes	légumes	fruits	. Toute suspicion do	18739-18756	type=N_KON_N, form=fruits et légumes
+267	BSV_MARAICHAGE_Nord_NA_20__20190919_cle0d91fc	a communautaire des	fruits et légumes	légumes		. Toute suspicion do	18739-18756	type=N_KON_N, form=fruits et légumes
 268	BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	talie et en Sicile.	Les tomates et les poivrons	tomates, poivrons		sont les hôtes prin	1522-1549	type=N_KON_N, form=Les tomates et les poivrons
 269	BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	es solanacées comme	l'aubergine, la pomme de terre, le poivron	pomme de terre, poivron	aubergine	et aussi aux advent	4679-4721	type=N_PUN_N, form=l'aubergine, la pomme de terre, le poivron
 270	BSV_NA_MARAICHAGE_Sud_NA_02_20190325_cle46958b	tes hôtes (morelle,	datura, repousse de tomate	tomate	"datura,
@@ -362,7 +335,7 @@ repousse de tomate"	). Vérifier si les p	6961-6987	type=N_PUN_N, form=datura, r
 repousse de tomate"	). o Vérifier si les	7812-7838	type=N_PUN_N, form=datura, repousse de tomate
 277	BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	nnée. Chenille dans	tomate et trou de chenille	tomate	trou de chenille	dans piment(Crédit	13750-13776	type=N_KON_N, form=tomate et trou de chenille
 278	BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	e intensité faible.	Courgette et courge	Courgette, courge		: dans les Landes,	14602-14621	type=N_KON_N, form=Courgette et courge
-279	BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	sentes. Punaise sur	choux et dégât	choux	dégât	sur feuille (Crédit	21731-21745	type=N_KON_N, form=choux et dégât
+279	BSV_NA_MARAICHAGE_Sud_NA_08_21092019_cle45e738	sentes. Punaise sur	choux et dégât	choux		sur feuille (Crédit	21731-21745	type=N_KON_N, form=choux et dégât
 280	BSV_legumes_02_du_20-03-19_cle455343	rcelles des réseaux	oignon et poireau	oignon, poireau		Etat général Les ém	2138-2155	type=N_KON_N, form=oignon et poireau
 281	BSV_legumes_02_du_20-03-19_cle455343	es plants d'allium (	oignon, poireau, oignon	oignon, poireau, oignon		bulbille, échalote)	3413-3436	type=N_PUN_N, form=oignon, poireau, oignon
 282	BSV_legumes_02_du_20-03-19_cle455343	on, poireau, oignon	bulbille, échalote	échalote	bulbille	). L'activité de la	3437-3455	type=N_PUN_N, form=bulbille, échalote
@@ -386,10 +359,8 @@ CONCOMBRE , POIVRON"	TOMATE, CONCOMBRE, POIVRON		ET AUBERGINE ) Etat	14781-14809
 CONCOMBRE , POIVRON"
 291	BSV_legumes_16_du_24-07-19_cle4f7928	Coulure des fruits (	concombre, tomate et poivron	concombre, tomate, poivron		) Blossom and rot (p	14951-14979	type=N_PUN_N_KON_N, form=concombre, tomate et poivron
 292	BSV_legumes_16_du_24-07-19_cle4f7928	n) Blossom and rot (	poivron, tomate	poivron, tomate		) Brûlure solaire (t	14998-15013	type=N_PUN_N, form=poivron, tomate
-293	BSV_legumes_16_du_24-07-19_cle4f7928	uilles trifoliées à	formation des gousses, secteurs	gousses	"formation des gousses,
-secteurs"	Epieds en Beauce, O	15783-15814	type=N_PUN_N, form=formation des gousses, secteurs
-294	BSV_legumes_16_du_24-07-19_cle4f7928	icots stade levée à	formation des gousses, secteurs	gousses	"formation des gousses,
-secteurs"	Saint Denis de l'Ho	15937-15968	type=N_PUN_N, form=formation des gousses, secteurs
+293	BSV_legumes_16_du_24-07-19_cle4f7928	uilles trifoliées à	formation des gousses, secteurs	gousses	formation des gousses	Epieds en Beauce, O	15783-15814	type=N_PUN_N, form=formation des gousses, secteurs
+294	BSV_legumes_16_du_24-07-19_cle4f7928	icots stade levée à	formation des gousses, secteurs	gousses	formation des gousses	Saint Denis de l'Ho	15937-15968	type=N_PUN_N, form=formation des gousses, secteurs
 295	BSV_legumes_16_du_24-07-19_cle4f7928	Pour les bulbilles (	oignon et échalote	oignon, échalote		) et les oignons de	18229-18247	type=N_KON_N, form=oignon et échalote
 296	BSV_legumes_16_du_24-07-19_cle4f7928	juillet 2019 : Pour	les oignons et échalotes	oignons, échalotes		bulbilles ainsi que	18615-18639	type=N_KON_N, form=les oignons et échalotes
 297	BSV_legumes_22_du_11-09-19__cle028fcc	ppement de l'oïdium.	Chou et salade	Chou, salade		: chenilles défolia	2109-2123	type=N_KON_N, form=Chou et salade
@@ -400,33 +371,31 @@ secteurs"	Saint Denis de l'Ho	15937-15968	type=N_PUN_N, form=formation des gouss
 302	BSV_legumes_22_du_11-09-19__cle028fcc	est très polyphage (	céréales, colza	céréales, colza		, nombreux légumes )	4180-4195	type=N_PUN_N, form=céréales, colza
 303	BSV_legumes_22_du_11-09-19__cle028fcc	eau d'observation 6	parcelles de flageolets, grossissement des grains	flageolets	"grossissement des grains,
 parcelles de flageolets"	à récolte, secteurs	18166-18215	type=N_PUN_N, form=parcelles de flageolets, grossissement des grains
-304	BSV_legumes_22_du_11-09-19__cle028fcc	iabon Châteaudun. 8	parcelles de haricots, filets	haricots	"filets,
-parcelles de haricots"	à récolte, secteurs	18301-18330	type=N_PUN_N, form=parcelles de haricots, filets
+304	BSV_legumes_22_du_11-09-19__cle028fcc	iabon Châteaudun. 8	parcelles de haricots, filets	haricots	"parcelles de haricots,
+filets"	à récolte, secteurs	18301-18330	type=N_PUN_N, form=parcelles de haricots, filets
 305	BSV_legumes_27_du_06-11-19__cle059f89	rcelles des réseaux	oignon et poireau	oignon, poireau		Etat général Le nom	2064-2081	type=N_KON_N, form=oignon et poireau
 306	BSV_legumes_27_du_06-11-19__cle059f89	emis est polyphage (	céréales, colza	céréales, colza		, nombreux légumes )	3860-3875	type=N_PUN_N, form=céréales, colza
 307	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	ultures légumières,	allium et pomme de terre	pomme de terre	allium	Sommaire Crédit pho	149-173	type=N_KON_N, form=allium et pomme de terre
 308	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	sibilité variétale.	Les batavias et les laitues	batavias, laitues		sont plus sensibles	6851-6878	type=N_KON_N, form=Les batavias et les laitues
 309	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	ances variétales En	batavia, la résistance	batavia	résistance	intermédiaire la pl	8071-8093	type=N_PUN_N, form=batavia, la résistance
-310	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	telles que le chou-	fleur, le brocoli, l'épinard	brocoli	"épinard,
-fleur"	ou encore la mâche.	8361-8389	type=N_PUN_N, form=fleur, le brocoli, l'épinard
-311	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	riose de la carotte	Mouche de la carotte, modélisation	carotte	"modélisation,
-mouche de carotte"	Alternariose de la	9688-9722	type=N_PUN_N, form=Mouche de la carotte, modélisation
+310	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	telles que le chou-	fleur, le brocoli, l'épinard	brocoli	épinard	ou encore la mâche.	8361-8389	type=N_PUN_N, form=fleur, le brocoli, l'épinard
+311	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	riose de la carotte	Mouche de la carotte, modélisation	carotte	mouche de carotte	Alternariose de la	9688-9722	type=N_PUN_N, form=Mouche de la carotte, modélisation
 312	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	r à proximité d'une	culture de tomates, l'arrachage	tomates	"arrachage,
 culture de tomates"	de ces dernières à	33956-33987	type=N_PUN_N, form=culture de tomates, l'arrachage
 313	BSV_legumes_allium_pomme_de_terre_AURA_2019-12_cle449f16	cariose bronzée sur	fruits de tomates et d'aubergines	tomates	"d'aubergines,
 fruits de tomates"	Laurent GIARDINO Ma	54910-54943	type=N_KON_N, form=fruits de tomates et d'aubergines
 314	BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	ultures légumières,	allium et pomme de terre	pomme de terre	allium	Sommaire Crédit pho	154-178	type=N_KON_N, form=allium et pomme de terre
 315	BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	le tissé ou non) en	pépinière, fauchage des abords	pépinière	fauchage des abords	. Eviter l'excès d'a	6454-6484	type=N_PUN_N, form=pépinière, fauchage des abords
-316	BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	choux frisé, choux	fleur et brocolis	brocolis	fleur	BSV n° 14, 2019 Cul	12065-12082	type=N_KON_N, form=fleur et brocolis
+316	BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	choux frisé, choux	fleur et brocolis	brocolis		BSV n° 14, 2019 Cul	12065-12082	type=N_KON_N, form=fleur et brocolis
 317	BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	(chou-fleur d'été,	brocoli, romanesco	brocoli	romanesco	), par labour. Les v	17407-17425	type=N_PUN_N, form=brocoli, romanesco
 318	BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	r à proximité d'une	culture de tomates, l'arrachage	tomates	"arrachage,
 culture de tomates"	de ces dernières à	33354-33385	type=N_PUN_N, form=culture de tomates, l'arrachage
 319	BSV_legumes_allium_pomme_de_terre_AURA_2019-14_cle48f73b	Rhône-Alpes 27 27	Blette et épinard	Blette, épinard		Puceron : Risque fa	50650-50667	type=N_KON_N, form=Blette et épinard
 320	BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	ultures légumières,	allium et pomme de terre	pomme de terre	allium	Sommaire Crédit pho	150-174	type=N_KON_N, form=allium et pomme de terre
-321	BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	s caduques tels que	le frêne, le bouleau, le saule, le saule, le chêne, le hêtre, le noisetier, le sycomore	chêne, noisetier	"bouleau,
-saule,
-frêne,
+321	BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	s caduques tels que	le frêne, le bouleau, le saule, le saule, le chêne, le hêtre, le noisetier, le sycomore	chêne, noisetier	"saule,
 sycomore,
+frêne,
+bouleau,
 hêtre"	, l'érable et le mar	3594-3681	type=N_PUN_N, form=le frêne, le bouleau, le saule, le saule, le chêne, le hêtre, le noisetier, le sycomore
 322	BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	ussi couramment sur	chardons, ortie	ortie	chardons	.Sites d'hivernage:	3744-3759	type=N_PUN_N, form=chardons, ortie
 323	BSV_legumes_allium_pomme_de_terre_AURA_2019-8_cle03ef71	Principalement sur	Batavia et Feuille de Chêne	Batavia, Feuille de Chêne		blonde Présence	5293-5320	type=N_KON_N, form=Batavia et Feuille de Chêne
@@ -440,7 +409,7 @@ hêtre"	, l'érable et le mar	3594-3681	type=N_PUN_N, form=le frêne, le bouleau
 cultures de concombres"	, de tomates, de poi	52260-52296	type=N_PUN_N, form=cultures de concombres, d'aubergines
 331	BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	ultures légumières,	allium et pomme de terre	pomme de terre	allium	Sommaire Crédit pho	149-173	type=N_KON_N, form=allium et pomme de terre
 332	BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	Oignon en sec/	bulbe, Oignon	Oignon	bulbe	en vert/printemp	3865-3878	type=N_PUN_N, form=bulbe, Oignon
-333	BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	maladies Mouche de	la carotte, modélisation	carotte	modélisation	Adventices AbsenceD	5956-5980	type=N_PUN_N, form=la carotte, modélisation
+333	BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	maladies Mouche de	la carotte, modélisation	carotte		Adventices AbsenceD	5956-5980	type=N_PUN_N, form=la carotte, modélisation
 334	BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	résence Piqures sur	ciboulette, indice	ciboulette	indice	1, faible Courbe d'	12411-12429	type=N_PUN_N, form=ciboulette, indice
 335	BSV_legumes_allium_pomme_de_terre_AURA_2019_-2_cle45e5c6	, Capselle bourse à	pasteur, Laiteron, Pissenlit,Géranium, véronique, moutarde	Pissenlit, Géranium, véronique, moutarde	"pasteur,
 laiteron"	blanche ; - Bande e	17900-17958	type=N_PUN_N, form=pasteur, Laiteron, Pissenlit,Géranium, véronique, moutarde
@@ -457,24 +426,24 @@ laiteron"	blanche ; - Bande e	17900-17958	type=N_PUN_N, form=pasteur, Laiteron, 
 346	BSV_no19_legumes_9_aout_2019_cle82c98c	rsiste plus que sur	radis et navets	radis, navets		, ou les temps de tr	2258-2273	type=N_KON_N, form=radis et navets
 347	BSV_no19_legumes_9_aout_2019_cle82c98c	9 aout 2019, page 5	Carottes, panais et céleris	Carottes, panais, céleris		: Mouche de la caro	6799-6826	type=N_PUN_N_KON_N, form=Carottes, panais et céleris
 348	BSV_no19_legumes_9_aout_2019_cle82c98c	9 aout 2019, page 6	Carottes, panais et céleris	Carottes, panais, céleris		(suite) : Mouche du	7791-7818	type=N_PUN_N_KON_N, form=Carottes, panais et céleris
-349	B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	umes Brassicacées :	tenthrèdes, piérides, mouches du chou	chou	"piérides,
+349	B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	umes Brassicacées :	tenthrèdes, piérides, mouches du chou	chou	"mouches du chou,
 tenthrèdes,
-mouches du chou"	. Poireau : alternar	1502-1539	type=N_PUN_N, form=tenthrèdes, piérides, mouches du chou
+piérides"	. Poireau : alternar	1502-1539	type=N_PUN_N, form=tenthrèdes, piérides, mouches du chou
 350	B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	ugose Fruit Virus :	tomate et poivron	tomate, poivron		: propagation du vi	1745-1762	type=N_KON_N, form=tomate et poivron
-351	B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	gine : botrytis sur	fruit, tomate	tomate	fruit	: botrytis sur feui	11096-11109	type=N_PUN_N, form=fruit, tomate
+351	B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	gine : botrytis sur	fruit, tomate	tomate		: botrytis sur feui	11096-11109	type=N_PUN_N, form=fruit, tomate
 352	B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	tes hôtes (morelle,	datura, repousse de tomate	tomate	"datura,
 repousse de tomate"	). o Vérifier si les	15729-15755	type=N_PUN_N, form=datura, repousse de tomate
-353	B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	Mouche du chou sur	radis, piérides du chou, tenthrède	radis, chou	"piérides du chou,
-tenthrède"	sur chou(Crédit pho	20425-20459	type=N_PUN_N, form=radis, piérides du chou, tenthrède
-354	bsv_maraichage_lr_n08_17042019_cle0913a2	sont en place dans	les vergers et les cultures	vergers	cultures	légumières. Les tra	3568-3595	type=N_KON_N, form=les vergers et les cultures
-355	bsv_maraichage_lr_n13_26-06-2019_cle03aab1	sont en place dans	les vergers et les cultures	vergers	cultures	légumières. Les tra	4141-4168	type=N_KON_N, form=les vergers et les cultures
-356	bsv_maraichage_lr_n13_26-06-2019_cle03aab1	rès gros dégâts sur	les cultures de cucurbitacées(concombre, melon, courgette	melon, courgette	"concombre,
-cultures de cucurbitacées"	). Ces plantes relai	8721-8778	type=N_PUN_N, form=les cultures de cucurbitacées(concombre, melon, courgette
+353	B_V_NA_MARAICHAGE_Sud_NA_09_20191028_cle4d1138	Mouche du chou sur	radis, piérides du chou, tenthrède	radis, chou	"tenthrède,
+piérides du chou"	sur chou(Crédit pho	20425-20459	type=N_PUN_N, form=radis, piérides du chou, tenthrède
+354	bsv_maraichage_lr_n08_17042019_cle0913a2	sont en place dans	les vergers et les cultures	vergers		légumières. Les tra	3568-3595	type=N_KON_N, form=les vergers et les cultures
+355	bsv_maraichage_lr_n13_26-06-2019_cle03aab1	sont en place dans	les vergers et les cultures	vergers		légumières. Les tra	4141-4168	type=N_KON_N, form=les vergers et les cultures
+356	bsv_maraichage_lr_n13_26-06-2019_cle03aab1	rès gros dégâts sur	les cultures de cucurbitacées(concombre, melon, courgette	melon, courgette	"cultures de cucurbitacées,
+concombre"	). Ces plantes relai	8721-8778	type=N_PUN_N, form=les cultures de cucurbitacées(concombre, melon, courgette
 357	bsv_maraichage_lr_n13_26-06-2019_cle03aab1	s relais comme pour	les melons et courgettes	melons, courgettes		sous abris. AUBERGI	25232-25256	type=N_KON_N, form=les melons et courgettes
 358	bsv_maraichage_n14_19082019_cle01948b	illes phytophages :	Piéride du chou, Piéride de la rave	chou	"piéride du chou,
 piéride de rave"	(Pieris brassicae,	9426-9461	type=N_PUN_N, form=Piéride du chou, Piéride de la rave
-359	bsv_maraichage_n14_19082019_cle01948b	s tabaci) Comme sur	oignon, les orages et pluies	oignon	"orages,
-pluies"	ont nettement contr	10221-10249	type=N_PUN_N_KON_N, form=oignon, les orages et pluies
+359	bsv_maraichage_n14_19082019_cle01948b	s tabaci) Comme sur	oignon, les orages et pluies	oignon	"pluies,
+orages"	ont nettement contr	10221-10249	type=N_PUN_N_KON_N, form=oignon, les orages et pluies
 360	bsv_maraichage_n15_23082018_cle0775f5	vations : Comme sur	salades, les corvidés	salades	corvidés	sont à l'origine de	7212-7233	type=N_PUN_N, form=salades, les corvidés
 361	bsv_maraichage_n15_23082018_cle0775f5	illes phytophages :	Piéride du chou, Piéride de la rave	chou	"piéride du chou,
 piéride de rave"	(Pieris brassicae,	7946-7981	type=N_PUN_N, form=Piéride du chou, Piéride de la rave
@@ -482,244 +451,234 @@ piéride de rave"	(Pieris brassicae,	7946-7981	type=N_PUN_N, form=Piéride du ch
 piéride de rave"	(Pieris brassicae,	6760-6795	type=N_PUN_N, form=Piéride du chou, Piéride de la rave
 363	bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	ées (ex. aubergine,	pomme de terre, poivron	pomme de terre, poivron		) ou sauvages (ex. m	6043-6066	type=N_PUN_N, form=pomme de terre, poivron
 364	bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	touchées tout comme	le poivron, le concombre, le melon et la courge	poivron, concombre, melon, courge		. Les symptômes peuv	10837-10884	type=N_PUN_N_KON_N, form=le poivron, le concombre, le melon et la courge
-365	bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	sont en place dans	les vergers et les cultures	vergers	cultures	légumières. Les tra	22472-22499	type=N_KON_N, form=les vergers et les cultures
+365	bsv_maraichage_no13_du_18_juillet_2018-2_cle0745d8	sont en place dans	les vergers et les cultures	vergers		légumières. Les tra	22472-22499	type=N_KON_N, form=les vergers et les cultures
 366	bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	ou d'autres espèces	hôtes(aubergine, tabac	tabac	"hôtes,
 aubergine"	, morelle ) est indi	4489-4511	type=N_PUN_N, form=hôtes(aubergine, tabac
-367	bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	ur cette punaise en	tomate et les effectifs	tomate	effectifs	doivent être survei	6898-6921	type=N_KON_N, form=tomate et les effectifs
-368	bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	iminées pour éviter	la sporulation du champignon et l'installation de l'inoculum	champignon	"sporulation du champignon,
-installation de inoculum"	dans la serre La pr	14879-14939	type=N_KON_N, form=la sporulation du champignon et l'installation de l'inoculum
+367	bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	ur cette punaise en	tomate et les effectifs	tomate		doivent être survei	6898-6921	type=N_KON_N, form=tomate et les effectifs
+368	bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	iminées pour éviter	la sporulation du champignon et l'installation de l'inoculum	champignon	"installation de inoculum,
+sporulation du champignon"	dans la serre La pr	14879-14939	type=N_KON_N, form=la sporulation du champignon et l'installation de l'inoculum
 369	bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	uemment signalé sur	maïs, riz et sorgho	maïs, riz, sorgho		, plus rarement sur	29257-29276	type=N_PUN_N_KON_N, form=maïs, riz et sorgho
 370	bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	cées, brassicacées,	luzerne, oignon	luzerne, oignon		parmi d'autres (1)	29325-29340	type=N_PUN_N, form=luzerne, oignon
 371	bsv_maraichage_no17_du_09_Septembre_2019_cle0c1c44	les inférieures sur	les cultures de maïs, sorgho et riz	maïs, sorgho, riz	cultures de maïs	. Il sont groupés en	31144-31179	type=N_PUN_N_KON_N, form=les cultures de maïs, sorgho et riz
 372	bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	e risque Bremia sur	laitue et scarole	laitue, scarole		. Evaluation du risq	7104-7121	type=N_KON_N, form=laitue et scarole
-373	bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	sont en place dans	les vergers et les cultures	vergers	cultures	légumières. Les tra	14750-14777	type=N_KON_N, form=les vergers et les cultures
-374	bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	ur cette punaise en	tomate et les effectifs	tomate	effectifs	doivent être survei	6970-6993	type=N_KON_N, form=tomate et les effectifs
-375	bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	iminées pour éviter	la sporulation du champignon et l'installation de l'inoculum	champignon	"sporulation du champignon,
-installation de inoculum"	dans la serre La pr	13948-14008	type=N_KON_N, form=la sporulation du champignon et l'installation de l'inoculum
+373	bsv_maraichage_no17_du_24_octobre_2018_cle82d6cc	sont en place dans	les vergers et les cultures	vergers		légumières. Les tra	14750-14777	type=N_KON_N, form=les vergers et les cultures
+374	bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	ur cette punaise en	tomate et les effectifs	tomate		doivent être survei	6970-6993	type=N_KON_N, form=tomate et les effectifs
+375	bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	iminées pour éviter	la sporulation du champignon et l'installation de l'inoculum	champignon	"installation de inoculum,
+sporulation du champignon"	dans la serre La pr	13948-14008	type=N_KON_N, form=la sporulation du champignon et l'installation de l'inoculum
 376	bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	uemment signalé sur	maïs, riz et sorgho	maïs, riz, sorgho		, plus rarement sur	31721-31740	type=N_PUN_N_KON_N, form=maïs, riz et sorgho
 377	bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	cées, brassicacées,	luzerne, oignon	luzerne, oignon		parmi d'autres (1)	31789-31804	type=N_PUN_N, form=luzerne, oignon
 378	bsv_maraichage_no18_du_20_Septembre_2019_cle01c961	les inférieures sur	les cultures de maïs, sorgho et riz	maïs, sorgho, riz	cultures de maïs	. Il sont groupés en	33608-33643	type=N_PUN_N_KON_N, form=les cultures de maïs, sorgho et riz
-379	bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7	atement pour éviter	la sporulation du champignon et l'installation de l'inoculum	champignon	"sporulation du champignon,
-installation de inoculum"	dans la serre. Le t	7213-7273	type=N_KON_N, form=la sporulation du champignon et l'installation de l'inoculum
-380	bsv_maraichage_no9_du_03_Mai_2019_cle842127	ur cette punaise en	tomate et les effectifs	tomate	effectifs	doivent être survei	9559-9582	type=N_KON_N, form=tomate et les effectifs
+379	bsv_maraichage_no2_du_25_Janvier_2019_cle0d6ef7	atement pour éviter	la sporulation du champignon et l'installation de l'inoculum	champignon	"installation de inoculum,
+sporulation du champignon"	dans la serre. Le t	7213-7273	type=N_KON_N, form=la sporulation du champignon et l'installation de l'inoculum
+380	bsv_maraichage_no9_du_03_Mai_2019_cle842127	ur cette punaise en	tomate et les effectifs	tomate		doivent être survei	9559-9582	type=N_KON_N, form=tomate et les effectifs
 381	bsv_maraichage_no9_du_03_Mai_2019_cle842127	plutôt en hiver sur	cultures de blettes et salades	blettes, salades	cultures de blettes	dans les zones litt	13536-13566	type=N_KON_N, form=cultures de blettes et salades
-382	bsv_maraichage_no9_du_03_Mai_2019_cle842127	iminées pour éviter	la sporulation du champignon et l'installation de l'inoculum	champignon	"sporulation du champignon,
-installation de inoculum"	dans la serre La pr	16513-16573	type=N_KON_N, form=la sporulation du champignon et l'installation de l'inoculum
-383	bsv_maraichage_no9_du_03_Mai_2019_cle842127	ine hors du réseau.	La plupart du temps, le champignon	champignon	plupart du temps	se développe au niv	27989-28023	type=N_PUN_N, form=La plupart du temps, le champignon
+382	bsv_maraichage_no9_du_03_Mai_2019_cle842127	iminées pour éviter	la sporulation du champignon et l'installation de l'inoculum	champignon	"installation de inoculum,
+sporulation du champignon"	dans la serre La pr	16513-16573	type=N_KON_N, form=la sporulation du champignon et l'installation de l'inoculum
+383	bsv_maraichage_no9_du_03_Mai_2019_cle842127	ine hors du réseau.	La plupart du temps, le champignon	champignon		se développe au niv	27989-28023	type=N_PUN_N, form=La plupart du temps, le champignon
 384	bsv_maraichage_no9_du_03_Mai_2019_cle842127	s après la première	infestation et le champignon	champignon	infestation	se développe et se	38432-38460	type=N_KON_N, form=infestation et le champignon
 385	bsv_maraichage_no9_du_03_Mai_2019_cle842127	airement à d'autres	champignons, l'oïdium	champignons	oïdium	n'a pas besoin d'un	38767-38788	type=N_PUN_N, form=champignons, l'oïdium
-386	BSV-viti-RA-03_16-04-2019_cle0bbc57	2019. BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	2507-2526	type=N_PUN_N, form=Viticulture, région
-387	BSV-viti-RA-03_16-04-2019_cle0bbc57	CA69 BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	2787-2806	type=N_PUN_N, form=Viticulture, région
-388	BSV-viti-RA-03_16-04-2019_cle0bbc57	nent. BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	4081-4100	type=N_PUN_N, form=Viticulture, région
-389	BSV-viti-RA-03_16-04-2019_cle0bbc57	e nul BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	5404-5423	type=N_PUN_N, form=Viticulture, région
-390	BSV-viti-RA-03_16-04-2019_cle0bbc57	gâts. BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	6274-6293	type=N_PUN_N, form=Viticulture, région
-391	BSV-viti-RA-03_16-04-2019_cle0bbc57	maine BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	6456-6475	type=N_PUN_N, form=Viticulture, région
-392	BSV-viti-RA-03_16-04-2019_cle0bbc57	scat blanc. Dans ce	secteur, les vignes	vignes	secteur	sont parvenues à at	7383-7402	type=N_PUN_N, form=secteur, les vignes
-393	BSV-viti-RA-03_16-04-2019_cle0bbc57	ble ! BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	8448-8467	type=N_PUN_N, form=Viticulture, région
-394	BSV-viti-RA-03_16-04-2019_cle0bbc57	ours. BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	10642-10661	type=N_PUN_N, form=Viticulture, région
-395	BSV-viti-RA-03_16-04-2019_cle0bbc57	tard. BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	12297-12316	type=N_PUN_N, form=Viticulture, région
-396	BSV-viti-RA-03_16-04-2019_cle0bbc57	ours. BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	12960-12979	type=N_PUN_N, form=Viticulture, région
-397	BSV-viti-RA-03_16-04-2019_cle0bbc57	hyto. BSV n°3, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	14697-14716	type=N_PUN_N, form=Viticulture, région
-398	BSV-viti-RA-15_09-07-2019_cle01ba24	lement. À partir de	la fermeture des grappes, les stomates des baies	baies	"fermeture des grappes,
-stomates des baies"	se ferment empêchan	597-645	type=N_PUN_N, form=la fermeture des grappes, les stomates des baies
+386	BSV-viti-RA-03_16-04-2019_cle0bbc57	2019. BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	2507-2526	type=N_PUN_N, form=Viticulture, région
+387	BSV-viti-RA-03_16-04-2019_cle0bbc57	CA69 BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	2787-2806	type=N_PUN_N, form=Viticulture, région
+388	BSV-viti-RA-03_16-04-2019_cle0bbc57	nent. BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	4081-4100	type=N_PUN_N, form=Viticulture, région
+389	BSV-viti-RA-03_16-04-2019_cle0bbc57	e nul BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	5404-5423	type=N_PUN_N, form=Viticulture, région
+390	BSV-viti-RA-03_16-04-2019_cle0bbc57	gâts. BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	6274-6293	type=N_PUN_N, form=Viticulture, région
+391	BSV-viti-RA-03_16-04-2019_cle0bbc57	maine BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	6456-6475	type=N_PUN_N, form=Viticulture, région
+392	BSV-viti-RA-03_16-04-2019_cle0bbc57	scat blanc. Dans ce	secteur, les vignes	vignes		sont parvenues à at	7383-7402	type=N_PUN_N, form=secteur, les vignes
+393	BSV-viti-RA-03_16-04-2019_cle0bbc57	ble ! BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	8448-8467	type=N_PUN_N, form=Viticulture, région
+394	BSV-viti-RA-03_16-04-2019_cle0bbc57	ours. BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	10642-10661	type=N_PUN_N, form=Viticulture, région
+395	BSV-viti-RA-03_16-04-2019_cle0bbc57	tard. BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	12297-12316	type=N_PUN_N, form=Viticulture, région
+396	BSV-viti-RA-03_16-04-2019_cle0bbc57	ours. BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	12960-12979	type=N_PUN_N, form=Viticulture, région
+397	BSV-viti-RA-03_16-04-2019_cle0bbc57	hyto. BSV n°3, 2019	Viticulture, région	Viticulture		AURA, édition du te	14697-14716	type=N_PUN_N, form=Viticulture, région
+398	BSV-viti-RA-15_09-07-2019_cle01ba24	lement. À partir de	la fermeture des grappes, les stomates des baies	baies	"stomates des baies,
+fermeture des grappes"	se ferment empêchan	597-645	type=N_PUN_N, form=la fermeture des grappes, les stomates des baies
 399	BSV-viti-RA-15_09-07-2019_cle01ba24	is contrairement au	mildiou, les baies	baies	mildiou	peuvent être encore	1290-1308	type=N_PUN_N, form=mildiou, les baies
-400	BSV-viti-RA-15_09-07-2019_cle01ba24	let. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	2760-2779	type=N_PUN_N, form=Viticulture, région
-401	BSV-viti-RA-15_09-07-2019_cle01ba24	CA69 BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	3095-3114	type=N_PUN_N, form=Viticulture, région
-402	BSV-viti-RA-15_09-07-2019_cle01ba24	lpes BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	3403-3422	type=N_PUN_N, form=Viticulture, région
-403	BSV-viti-RA-15_09-07-2019_cle01ba24	roubles, oïdium sur	feuilles, grappes et bois	bois	"grappes,
-feuilles"	Crédit photo CA69 B	3760-3785	type=N_PUN_N_KON_N, form=feuilles, grappes et bois
-404	BSV-viti-RA-15_09-07-2019_cle01ba24	CA69 BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	3819-3838	type=N_PUN_N, form=Viticulture, région
-405	BSV-viti-RA-15_09-07-2019_cle01ba24	CA26 BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	4085-4104	type=N_PUN_N, form=Viticulture, région
-406	BSV-viti-RA-15_09-07-2019_cle01ba24	CA26 BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	4309-4328	type=N_PUN_N, form=Viticulture, région
+400	BSV-viti-RA-15_09-07-2019_cle01ba24	let. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	2760-2779	type=N_PUN_N, form=Viticulture, région
+401	BSV-viti-RA-15_09-07-2019_cle01ba24	CA69 BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	3095-3114	type=N_PUN_N, form=Viticulture, région
+402	BSV-viti-RA-15_09-07-2019_cle01ba24	lpes BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	3403-3422	type=N_PUN_N, form=Viticulture, région
+403	BSV-viti-RA-15_09-07-2019_cle01ba24	roubles, oïdium sur	feuilles, grappes et bois	bois		Crédit photo CA69 B	3760-3785	type=N_PUN_N_KON_N, form=feuilles, grappes et bois
+404	BSV-viti-RA-15_09-07-2019_cle01ba24	CA69 BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	3819-3838	type=N_PUN_N, form=Viticulture, région
+405	BSV-viti-RA-15_09-07-2019_cle01ba24	CA26 BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	4085-4104	type=N_PUN_N, form=Viticulture, région
+406	BSV-viti-RA-15_09-07-2019_cle01ba24	CA26 BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	4309-4328	type=N_PUN_N, form=Viticulture, région
 407	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois, les
-    grappes"	pois	grappes	pendent (31) le	4570-4591	"type=N_PUN_N, form=pois, les
+    grappes"	pois		pendent (31) le	4570-4591	"type=N_PUN_N, form=pois, les
     grappes"
-408	BSV-viti-RA-15_09-07-2019_cle01ba24	BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	5462-5481	type=N_PUN_N, form=Viticulture, région
-409	BSV-viti-RA-15_09-07-2019_cle01ba24	tôt. À partir de ce	stade, les stomates des baies	baies	"stade,
-stomates des baies"	se ferment empêchan	6528-6557	type=N_PUN_N, form=stade, les stomates des baies
+408	BSV-viti-RA-15_09-07-2019_cle01ba24	BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	5462-5481	type=N_PUN_N, form=Viticulture, région
+409	BSV-viti-RA-15_09-07-2019_cle01ba24	tôt. À partir de ce	stade, les stomates des baies	baies	stomates des baies	se ferment empêchan	6528-6557	type=N_PUN_N, form=stade, les stomates des baies
 410	BSV-viti-RA-15_09-07-2019_cle01ba24	ture. Néanmoins, au	contraire du mildiou, les baies	baies	contraire du mildiou	peuvent être contam	7592-7623	type=N_PUN_N, form=contraire du mildiou, les baies
-411	BSV-viti-RA-15_09-07-2019_cle01ba24	tc.) BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	9166-9185	type=N_PUN_N, form=Viticulture, région
-412	BSV-viti-RA-15_09-07-2019_cle01ba24	olte BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	9565-9584	type=N_PUN_N, form=Viticulture, région
-413	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31)	9832-9849	type=N_PUN_N, form=pois, les grappes
-414	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31)	9895-9912	type=N_PUN_N, form=pois, les grappes
-415	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31)	10191-10208	type=N_PUN_N, form=pois, les grappes
+411	BSV-viti-RA-15_09-07-2019_cle01ba24	tc.) BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	9166-9185	type=N_PUN_N, form=Viticulture, région
+412	BSV-viti-RA-15_09-07-2019_cle01ba24	olte BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	9565-9584	type=N_PUN_N, form=Viticulture, région
+413	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois		pendent (31)	9832-9849	type=N_PUN_N, form=pois, les grappes
+414	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois		pendent (31)	9895-9912	type=N_PUN_N, form=pois, les grappes
+415	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois		pendent (31)	10191-10208	type=N_PUN_N, form=pois, les grappes
 416	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois,
-    les grappes"	pois	grappes	pendent (31) le	10254-10275	"type=N_PUN_N, form=pois,
+    les grappes"	pois		pendent (31) le	10254-10275	"type=N_PUN_N, form=pois,
     les grappes"
-417	BSV-viti-RA-15_09-07-2019_cle01ba24	BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	11017-11036	type=N_PUN_N, form=Viticulture, région
-418	BSV-viti-RA-15_09-07-2019_cle01ba24	eph. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	12445-12464	type=N_PUN_N, form=Viticulture, région
-419	BSV-viti-RA-15_09-07-2019_cle01ba24	aine BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	12633-12652	type=N_PUN_N, form=Viticulture, région
+417	BSV-viti-RA-15_09-07-2019_cle01ba24	BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	11017-11036	type=N_PUN_N, form=Viticulture, région
+418	BSV-viti-RA-15_09-07-2019_cle01ba24	eph. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	12445-12464	type=N_PUN_N, form=Viticulture, région
+419	BSV-viti-RA-15_09-07-2019_cle01ba24	aine BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	12633-12652	type=N_PUN_N, form=Viticulture, région
 420	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois, les
-    grappes"	pois	grappes	pendent (31)	12887-12908	"type=N_PUN_N, form=pois, les
+    grappes"	pois		pendent (31)	12887-12908	"type=N_PUN_N, form=pois, les
     grappes"
-421	BSV-viti-RA-15_09-07-2019_cle01ba24	oin. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	13919-13938	type=N_PUN_N, form=Viticulture, région
+421	BSV-viti-RA-15_09-07-2019_cle01ba24	oin. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	13919-13938	type=N_PUN_N, form=Viticulture, région
 422	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois,
-    les grappes"	pois	grappes	pendent (31) ba	14156-14177	"type=N_PUN_N, form=pois,
+    les grappes"	pois		pendent (31) ba	14156-14177	"type=N_PUN_N, form=pois,
     les grappes"
-423	BSV-viti-RA-15_09-07-2019_cle01ba24	à eux, des grains à	la taille de pois(31) et les Clairettes	Clairettes	",
-taille de pois,
-31"	sont entre les stad	15161-15200	type=N_KON_N, form=la taille de pois(31) et les Clairettes
-424	BSV-viti-RA-15_09-07-2019_cle01ba24	ies. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	15768-15787	type=N_PUN_N, form=Viticulture, région
+423	BSV-viti-RA-15_09-07-2019_cle01ba24	à eux, des grains à	la taille de pois(31) et les Clairettes	Clairettes	"taille de pois,
+"	sont entre les stad	15161-15200	type=N_KON_N, form=la taille de pois(31) et les Clairettes
+424	BSV-viti-RA-15_09-07-2019_cle01ba24	ies. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	15768-15787	type=N_PUN_N, form=Viticulture, région
 425	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois,
-    les grappes"	pois	grappes	pendent (31) ba	16109-16130	"type=N_PUN_N, form=pois,
+    les grappes"	pois		pendent (31) ba	16109-16130	"type=N_PUN_N, form=pois,
     les grappes"
 426	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois,
-    les grappes"	pois	grappes	pendent (31) ba	16172-16193	"type=N_PUN_N, form=pois,
+    les grappes"	pois		pendent (31) ba	16172-16193	"type=N_PUN_N, form=pois,
     les grappes"
 427	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois,
-    les grappes"	pois	grappes	pendent (31) le	16331-16352	"type=N_PUN_N, form=pois,
+    les grappes"	pois		pendent (31) le	16331-16352	"type=N_PUN_N, form=pois,
     les grappes"
-428	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31)	16635-16652	type=N_PUN_N, form=pois, les grappes
-429	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31)	16698-16715	type=N_PUN_N, form=pois, les grappes
-430	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31)	16975-16992	type=N_PUN_N, form=pois, les grappes
-431	BSV-viti-RA-15_09-07-2019_cle01ba24	BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	17740-17759	type=N_PUN_N, form=Viticulture, région
-432	BSV-viti-RA-15_09-07-2019_cle01ba24	ire. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	19796-19815	type=N_PUN_N, form=Viticulture, région
+428	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois		pendent (31)	16635-16652	type=N_PUN_N, form=pois, les grappes
+429	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois		pendent (31)	16698-16715	type=N_PUN_N, form=pois, les grappes
+430	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	pois, les grappes	pois		pendent (31)	16975-16992	type=N_PUN_N, form=pois, les grappes
+431	BSV-viti-RA-15_09-07-2019_cle01ba24	BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	17740-17759	type=N_PUN_N, form=Viticulture, région
+432	BSV-viti-RA-15_09-07-2019_cle01ba24	ire. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	19796-19815	type=N_PUN_N, form=Viticulture, région
 433	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois, les
-    grappes"	pois	grappes	pendent (31) ba	20194-20215	"type=N_PUN_N, form=pois, les
+    grappes"	pois		pendent (31) ba	20194-20215	"type=N_PUN_N, form=pois, les
     grappes"
 434	BSV-viti-RA-15_09-07-2019_cle01ba24	s de la taille d'un	"pois, les
-    grappes"	pois	grappes	pendent (31)	20257-20278	"type=N_PUN_N, form=pois, les
+    grappes"	pois		pendent (31)	20257-20278	"type=N_PUN_N, form=pois, les
     grappes"
-435	BSV-viti-RA-15_09-07-2019_cle01ba24	BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	21435-21454	type=N_PUN_N, form=Viticulture, région
-436	BSV-viti-RA-15_09-07-2019_cle01ba24	ble. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	22515-22534	type=N_PUN_N, form=Viticulture, région
-437	BSV-viti-RA-15_09-07-2019_cle01ba24	yto. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	24746-24765	type=N_PUN_N, form=Viticulture, région
+435	BSV-viti-RA-15_09-07-2019_cle01ba24	BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	21435-21454	type=N_PUN_N, form=Viticulture, région
+436	BSV-viti-RA-15_09-07-2019_cle01ba24	ble. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	22515-22534	type=N_PUN_N, form=Viticulture, région
+437	BSV-viti-RA-15_09-07-2019_cle01ba24	yto. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	24746-24765	type=N_PUN_N, form=Viticulture, région
 438	BSV-viti-RA-16_16-07-2019_cle0bfb92	ture. Néanmoins, au	contraire du mildiou, les baies	baies	contraire du mildiou	peuvent être contam	782-813	type=N_PUN_N, form=contraire du mildiou, les baies
-439	BSV-viti-RA-16_16-07-2019_cle0bfb92	let. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	2507-2526	type=N_PUN_N, form=Viticulture, région
-440	BSV-viti-RA-16_16-07-2019_cle0bfb92	CA69 BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	2976-2995	type=N_PUN_N, form=Viticulture, région
-441	BSV-viti-RA-16_16-07-2019_cle0bfb92	ugey BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	3438-3457	type=N_PUN_N, form=Viticulture, région
-442	BSV-viti-RA-16_16-07-2019_cle0bfb92	BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	4543-4562	type=N_PUN_N, form=Viticulture, région
+439	BSV-viti-RA-16_16-07-2019_cle0bfb92	let. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	2507-2526	type=N_PUN_N, form=Viticulture, région
+440	BSV-viti-RA-16_16-07-2019_cle0bfb92	CA69 BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	2976-2995	type=N_PUN_N, form=Viticulture, région
+441	BSV-viti-RA-16_16-07-2019_cle0bfb92	ugey BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	3438-3457	type=N_PUN_N, form=Viticulture, région
+442	BSV-viti-RA-16_16-07-2019_cle0bfb92	BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	4543-4562	type=N_PUN_N, form=Viticulture, région
 443	BSV-viti-RA-16_16-07-2019_cle0bfb92	ture. Néanmoins, au	contraire du mildiou, les baies	baies	contraire du mildiou	peuvent être contam	5994-6025	type=N_PUN_N, form=contraire du mildiou, les baies
-444	BSV-viti-RA-16_16-07-2019_cle0bfb92	te : BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	7898-7917	type=N_PUN_N, form=Viticulture, région
-445	BSV-viti-RA-16_16-07-2019_cle0bfb92	olte BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	8470-8489	type=N_PUN_N, form=Viticulture, région
-446	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31)	8745-8762	type=N_PUN_N, form=pois, les grappes
-447	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31)	8876-8893	type=N_PUN_N, form=pois, les grappes
-448	BSV-viti-RA-16_16-07-2019_cle0bfb92	BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	9791-9810	type=N_PUN_N, form=Viticulture, région
-449	BSV-viti-RA-16_16-07-2019_cle0bfb92	ie ) BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	11311-11330	type=N_PUN_N, form=Viticulture, région
+444	BSV-viti-RA-16_16-07-2019_cle0bfb92	te : BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	7898-7917	type=N_PUN_N, form=Viticulture, région
+445	BSV-viti-RA-16_16-07-2019_cle0bfb92	olte BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	8470-8489	type=N_PUN_N, form=Viticulture, région
+446	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	pois, les grappes	pois		pendent (31)	8745-8762	type=N_PUN_N, form=pois, les grappes
+447	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	pois, les grappes	pois		pendent (31)	8876-8893	type=N_PUN_N, form=pois, les grappes
+448	BSV-viti-RA-16_16-07-2019_cle0bfb92	BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	9791-9810	type=N_PUN_N, form=Viticulture, région
+449	BSV-viti-RA-16_16-07-2019_cle0bfb92	ie ) BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	11311-11330	type=N_PUN_N, form=Viticulture, région
 450	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	"pois, les
-    grappes"	pois	grappes	pendent (31) le	11557-11578	"type=N_PUN_N, form=pois, les
+    grappes"	pois		pendent (31) le	11557-11578	"type=N_PUN_N, form=pois, les
     grappes"
-451	BSV-viti-RA-16_16-07-2019_cle0bfb92	olte BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	13284-13303	type=N_PUN_N, form=Viticulture, région
-452	BSV-viti-RA-16_16-07-2019_cle0bfb92	cée. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	14183-14202	type=N_PUN_N, form=Viticulture, région
+451	BSV-viti-RA-16_16-07-2019_cle0bfb92	olte BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	13284-13303	type=N_PUN_N, form=Viticulture, région
+452	BSV-viti-RA-16_16-07-2019_cle0bfb92	cée. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	14183-14202	type=N_PUN_N, form=Viticulture, région
 453	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	"pois,
-    les grappes"	pois	grappes	pendent (31)	14462-14483	"type=N_PUN_N, form=pois,
+    les grappes"	pois		pendent (31)	14462-14483	"type=N_PUN_N, form=pois,
     les grappes"
-454	BSV-viti-RA-16_16-07-2019_cle0bfb92	cette semaine. Dans	la vallée de la Gervanne, Muscats et Clairettes	Clairettes	"vallée de gervanne,
-muscats"	sont à fermeture de	15035-15082	type=N_PUN_N_KON_N, form=la vallée de la Gervanne, Muscats et Clairettes
-455	BSV-viti-RA-16_16-07-2019_cle0bfb92	scats du Bas-Diois.	Les Clairettes du Bas-Diois et Muscats	Clairettes	"clairettes du bas-diois,
-muscats"	du Haut-Diois sont	15151-15189	type=N_KON_N, form=Les Clairettes du Bas-Diois et Muscats
-456	BSV-viti-RA-16_16-07-2019_cle0bfb92	ppe. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	16063-16082	type=N_PUN_N, form=Viticulture, région
+454	BSV-viti-RA-16_16-07-2019_cle0bfb92	cette semaine. Dans	la vallée de la Gervanne, Muscats et Clairettes	Clairettes	"muscats,
+vallée de gervanne"	sont à fermeture de	15035-15082	type=N_PUN_N_KON_N, form=la vallée de la Gervanne, Muscats et Clairettes
+455	BSV-viti-RA-16_16-07-2019_cle0bfb92	scats du Bas-Diois.	Les Clairettes du Bas-Diois et Muscats	Clairettes	"muscats,
+clairettes du bas-diois"	du Haut-Diois sont	15151-15189	type=N_KON_N, form=Les Clairettes du Bas-Diois et Muscats
+456	BSV-viti-RA-16_16-07-2019_cle0bfb92	ppe. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	16063-16082	type=N_PUN_N, form=Viticulture, région
 457	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	"pois,
-    les grappes"	pois	grappes	pendent (31) le	16393-16414	"type=N_PUN_N, form=pois,
+    les grappes"	pois		pendent (31) le	16393-16414	"type=N_PUN_N, form=pois,
     les grappes"
-458	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	pois, les grappes	pois	grappes	pendent (31) Le plu	16673-16690	type=N_PUN_N, form=pois, les grappes
-459	BSV-viti-RA-16_16-07-2019_cle0bfb92	BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	17812-17831	type=N_PUN_N, form=Viticulture, région
-460	BSV-viti-RA-16_16-07-2019_cle0bfb92	let. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	20465-20484	type=N_PUN_N, form=Viticulture, région
-461	BSV-viti-RA-16_16-07-2019_cle0bfb92	nte. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	22294-22313	type=N_PUN_N, form=Viticulture, région
-462	BSV-viti-RA-16_16-07-2019_cle0bfb92	mes. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	22813-22832	type=N_PUN_N, form=Viticulture, région
-463	BSV-viti-RA-16_16-07-2019_cle0bfb92	yto. BSV n°15, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	25071-25090	type=N_PUN_N, form=Viticulture, région
+458	BSV-viti-RA-16_16-07-2019_cle0bfb92	s de la taille d'un	pois, les grappes	pois		pendent (31) Le plu	16673-16690	type=N_PUN_N, form=pois, les grappes
+459	BSV-viti-RA-16_16-07-2019_cle0bfb92	BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	17812-17831	type=N_PUN_N, form=Viticulture, région
+460	BSV-viti-RA-16_16-07-2019_cle0bfb92	let. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	20465-20484	type=N_PUN_N, form=Viticulture, région
+461	BSV-viti-RA-16_16-07-2019_cle0bfb92	nte. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	22294-22313	type=N_PUN_N, form=Viticulture, région
+462	BSV-viti-RA-16_16-07-2019_cle0bfb92	mes. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	22813-22832	type=N_PUN_N, form=Viticulture, région
+463	BSV-viti-RA-16_16-07-2019_cle0bfb92	yto. BSV n°15, 2019	Viticulture, région	Viticulture		AURA, édition du te	25071-25090	type=N_PUN_N, form=Viticulture, région
 464	BSVViti_20190730_N22_cle019b19	de nourriture dans	les bois, les criquets	bois	criquets	se rabattent sur le	860-882	type=N_PUN_N, form=les bois, les criquets
-465	BSV_12_-_2_juillet_2019_cle8252f7	ire (10 %). En tous	secteurs, la vigne	vigne	secteurs	reste dans sa pério	3719-3737	type=N_PUN_N, form=secteurs, la vigne
-466	BSV_12_-_2_juillet_2019_cle8252f7	Axvigne, Interval,	Coteaux de Champlitte, Société de Viticulture	Viticulture	"coteaux de champlitte,
-société de viticulture"	du Jura Ce bulletin	5513-5558	type=N_PUN_N, form=Coteaux de Champlitte, Société de Viticulture
+465	BSV_12_-_2_juillet_2019_cle8252f7	ire (10 %). En tous	secteurs, la vigne	vigne		reste dans sa pério	3719-3737	type=N_PUN_N, form=secteurs, la vigne
+466	BSV_12_-_2_juillet_2019_cle8252f7	Axvigne, Interval,	Coteaux de Champlitte, Société de Viticulture	Viticulture	"société de viticulture,
+coteaux de champlitte"	du Jura Ce bulletin	5513-5558	type=N_PUN_N, form=Coteaux de Champlitte, Société de Viticulture
 467	BSV_16_-_30_juillet_2019_cle8caa6e	nce). Jusqu'à début	véraison, la vigne	vigne	véraison	demeure très sensib	3312-3330	type=N_PUN_N, form=véraison, la vigne
-468	BSV_16_-_30_juillet_2019_cle8caa6e	Axvigne, Interval,	Coteaux de Champlitte, Société de Viticulture	Viticulture	"coteaux de champlitte,
-société de viticulture"	du Jura Ce bulletin	5474-5519	type=N_PUN_N, form=Coteaux de Champlitte, Société de Viticulture
-469	BSV_19-04-16_2_cle84b397	nelin BSV n°2, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	1598-1617	type=N_PUN_N, form=Viticulture, région
-470	BSV_19-04-16_2_cle84b397	lées. BSV n°2, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	3219-3238	type=N_PUN_N, form=Viticulture, région
-471	BSV_19-04-16_2_cle84b397	hyto. BSV n°2, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	5216-5235	type=N_PUN_N, form=Viticulture, région
-472	BSV_19-06-25_12_cle0b3618	ur et de l'eau dans	le sol, les vigne	vigne	sol	sont actuellement t	1246-1263	type=N_PUN_N, form=le sol, les vigne
-473	BSV_19-06-25_12_cle0b3618	tes. BSV n°12, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	1330-1349	type=N_PUN_N, form=Viticulture, région
-474	BSV_19-06-25_12_cle0b3618	ent. BSV n°12, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	2691-2710	type=N_PUN_N, form=Viticulture, région
-475	BSV_19-06-25_12_cle0b3618	lle. BSV n°12, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	4184-4203	type=N_PUN_N, form=Viticulture, région
-476	BSV_19-06-25_12_cle0b3618	yto. BSV n°12, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	6187-6206	type=N_PUN_N, form=Viticulture, région
-477	BSV_19-07-30_17_cle08d978	ser. BSV n°17, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	1612-1631	type=N_PUN_N, form=Viticulture, région
-478	BSV_19-07-30_17_cle08d978	ées. BSV n°17, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	3130-3149	type=N_PUN_N, form=Viticulture, région
-479	BSV_19-07-30_17_cle08d978	que. BSV n°17, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	4878-4897	type=N_PUN_N, form=Viticulture, région
-480	BSV_19-07-30_17_cle08d978	yto. BSV n°17, 2019	Viticulture, région	Viticulture	région	AURA, édition du te	7007-7026	type=N_PUN_N, form=Viticulture, région
-481	BSV_1_-_16_avril_2019_cle43d31d	SICAVAC, Société de	Viticulture du Jura, Coopérative	Viticulture	"coopérative,
-viticulture du jura"	Bourgogne du Sud. A	2051-2083	type=N_PUN_N, form=Viticulture du Jura, Coopérative
-482	BSV_1_-_16_avril_2019_cle43d31d	Axvigne, Interval,	Coteaux de Champlitte, Société de Viticulture	Viticulture	"coteaux de champlitte,
-société de viticulture"	du Jura Ce bulletin	5637-5682	type=N_PUN_N, form=Coteaux de Champlitte, Société de Viticulture
+468	BSV_16_-_30_juillet_2019_cle8caa6e	Axvigne, Interval,	Coteaux de Champlitte, Société de Viticulture	Viticulture	"société de viticulture,
+coteaux de champlitte"	du Jura Ce bulletin	5474-5519	type=N_PUN_N, form=Coteaux de Champlitte, Société de Viticulture
+469	BSV_19-04-16_2_cle84b397	nelin BSV n°2, 2019	Viticulture, région	Viticulture		AURA, édition du te	1598-1617	type=N_PUN_N, form=Viticulture, région
+470	BSV_19-04-16_2_cle84b397	lées. BSV n°2, 2019	Viticulture, région	Viticulture		AURA, édition du te	3219-3238	type=N_PUN_N, form=Viticulture, région
+471	BSV_19-04-16_2_cle84b397	hyto. BSV n°2, 2019	Viticulture, région	Viticulture		AURA, édition du te	5216-5235	type=N_PUN_N, form=Viticulture, région
+472	BSV_19-06-25_12_cle0b3618	ur et de l'eau dans	le sol, les vigne	vigne		sont actuellement t	1246-1263	type=N_PUN_N, form=le sol, les vigne
+473	BSV_19-06-25_12_cle0b3618	tes. BSV n°12, 2019	Viticulture, région	Viticulture		AURA, édition du te	1330-1349	type=N_PUN_N, form=Viticulture, région
+474	BSV_19-06-25_12_cle0b3618	ent. BSV n°12, 2019	Viticulture, région	Viticulture		AURA, édition du te	2691-2710	type=N_PUN_N, form=Viticulture, région
+475	BSV_19-06-25_12_cle0b3618	lle. BSV n°12, 2019	Viticulture, région	Viticulture		AURA, édition du te	4184-4203	type=N_PUN_N, form=Viticulture, région
+476	BSV_19-06-25_12_cle0b3618	yto. BSV n°12, 2019	Viticulture, région	Viticulture		AURA, édition du te	6187-6206	type=N_PUN_N, form=Viticulture, région
+477	BSV_19-07-30_17_cle08d978	ser. BSV n°17, 2019	Viticulture, région	Viticulture		AURA, édition du te	1612-1631	type=N_PUN_N, form=Viticulture, région
+478	BSV_19-07-30_17_cle08d978	ées. BSV n°17, 2019	Viticulture, région	Viticulture		AURA, édition du te	3130-3149	type=N_PUN_N, form=Viticulture, région
+479	BSV_19-07-30_17_cle08d978	que. BSV n°17, 2019	Viticulture, région	Viticulture		AURA, édition du te	4878-4897	type=N_PUN_N, form=Viticulture, région
+480	BSV_19-07-30_17_cle08d978	yto. BSV n°17, 2019	Viticulture, région	Viticulture		AURA, édition du te	7007-7026	type=N_PUN_N, form=Viticulture, région
+481	BSV_1_-_16_avril_2019_cle43d31d	SICAVAC, Société de	Viticulture du Jura, Coopérative	Viticulture	"viticulture du jura,
+coopérative"	Bourgogne du Sud. A	2051-2083	type=N_PUN_N, form=Viticulture du Jura, Coopérative
+482	BSV_1_-_16_avril_2019_cle43d31d	Axvigne, Interval,	Coteaux de Champlitte, Société de Viticulture	Viticulture	"société de viticulture,
+coteaux de champlitte"	du Jura Ce bulletin	5637-5682	type=N_PUN_N, form=Coteaux de Champlitte, Société de Viticulture
 483	BSV_4_-_7_mai_2019_cle8db5ca	au cours de cette 1	semaine de mai, la croissance de la vigne	vigne	"croissance de vigne,
 semaine de mai"	est toujours lente	781-822	type=N_PUN_N, form=semaine de mai, la croissance de la vigne
-484	BSV_4_-_7_mai_2019_cle8db5ca	Axvigne, Interval,	Coteaux de Champlitte, Société de Viticulture	Viticulture	"coteaux de champlitte,
-société de viticulture"	du Jura Ce bulletin	6579-6624	type=N_PUN_N, form=Coteaux de Champlitte, Société de Viticulture
-485	BSV_NA_VIGNE_CHARENTES_02_20190409_cle8ac81e	iver en moins de 24	heures, vigne	vigne	heures	réceptive (au moins	6522-6535	type=N_PUN_N, form=heures, vigne
-486	BSV_NA_VIGNE_CHARENTES_02_20190409_cle8ac81e	s de la Vigne et du	Vin, la Station	Vin	station	Viticole du BNIC et	15187-15202	type=N_PUN_N, form=Vin, la Station
+484	BSV_4_-_7_mai_2019_cle8db5ca	Axvigne, Interval,	Coteaux de Champlitte, Société de Viticulture	Viticulture	"société de viticulture,
+coteaux de champlitte"	du Jura Ce bulletin	6579-6624	type=N_PUN_N, form=Coteaux de Champlitte, Société de Viticulture
+485	BSV_NA_VIGNE_CHARENTES_02_20190409_cle8ac81e	iver en moins de 24	heures, vigne	vigne		réceptive (au moins	6522-6535	type=N_PUN_N, form=heures, vigne
+486	BSV_NA_VIGNE_CHARENTES_02_20190409_cle8ac81e	s de la Vigne et du	Vin, la Station	Vin		Viticole du BNIC et	15187-15202	type=N_PUN_N, form=Vin, la Station
 487	BSV_NA_VIGNE_CHARENTES_07_20190514_cle841735	rsistantes tels que	les conifères, les rosiers	conifères	rosiers	sauvages, les ronce	11642-11668	type=N_PUN_N, form=les conifères, les rosiers
-488	BSV_NA_VIGNE_CHARENTES_07_20190514_cle841735	s de la Vigne et du	Vin, la Station	Vin	station	Viticole du BNIC et	14027-14042	type=N_PUN_N, form=Vin, la Station
-489	BSV_NA_VIGNE_CHARENTES_18_20190730_cle8d5827	s de la Vigne et du	Vin, la Station	Vin	station	Viticole du BNIC et	13750-13765	type=N_PUN_N, form=Vin, la Station
-490	BSV_NA_VIGNE_CHARENTES_19_20190806_cle88b155	s de la Vigne et du	Vin, la Station	Vin	station	Viticole du BNIC et	10914-10929	type=N_PUN_N, form=Vin, la Station
-491	BSV_NA_VIGNE_CHARENTES_22_20190903_cle8f1178	s de la Vigne et du	Vin, la Station	Vin	station	Viticole du BNIC et	7238-7253	type=N_PUN_N, form=Vin, la Station
-492	BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	noculum présent sur	les bois, vrilles et restes de grappes	bois	"vrilles,
-restes de grappes"	de l'an passé. Modé	9326-9364	type=N_PUN_N_KON_N, form=les bois, vrilles et restes de grappes
+488	BSV_NA_VIGNE_CHARENTES_07_20190514_cle841735	s de la Vigne et du	Vin, la Station	Vin		Viticole du BNIC et	14027-14042	type=N_PUN_N, form=Vin, la Station
+489	BSV_NA_VIGNE_CHARENTES_18_20190730_cle8d5827	s de la Vigne et du	Vin, la Station	Vin		Viticole du BNIC et	13750-13765	type=N_PUN_N, form=Vin, la Station
+490	BSV_NA_VIGNE_CHARENTES_19_20190806_cle88b155	s de la Vigne et du	Vin, la Station	Vin		Viticole du BNIC et	10914-10929	type=N_PUN_N, form=Vin, la Station
+491	BSV_NA_VIGNE_CHARENTES_22_20190903_cle8f1178	s de la Vigne et du	Vin, la Station	Vin		Viticole du BNIC et	7238-7253	type=N_PUN_N, form=Vin, la Station
+492	BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	noculum présent sur	les bois, vrilles et restes de grappes	bois	"restes de grappes,
+vrilles"	de l'an passé. Modé	9326-9364	type=N_PUN_N_KON_N, form=les bois, vrilles et restes de grappes
 493	BSV_NA_VIGNE_Haut-Poitou_03_20190430_cle4165b7	rative Centre Ouest	Céréales, les Etablissements	Céréales	etablissements	Soufflet, l'Institu	13492-13520	type=N_PUN_N, form=Céréales, les Etablissements
-494	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	Stade entre baies à	taille de pois et début	pois	"taille de pois,
-début"	fermeture sur Chard	2540-2563	type=N_KON_N, form=taille de pois et début
-495	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	stade 31 : baies à	taille de pois et les grappes	pois	"grappes,
-taille de pois"	pendent. Les grappe	2692-2721	type=N_KON_N, form=taille de pois et les grappes
-496	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	a grosseur de petit-	pois, les grappes	pois	grappes	sont en position ve	2867-2884	type=N_PUN_N, form=pois, les grappes
-497	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	a grosseur de petit-	pois, les grappes	pois	grappes	sont en position ve	3205-3222	type=N_PUN_N, form=pois, les grappes
-498	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	iques favorables au	champignon, le risque	champignon	risque	potentiel est deven	8601-8622	type=N_PUN_N, form=champignon, le risque
+494	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	Stade entre baies à	taille de pois et début	pois	taille de pois	fermeture sur Chard	2540-2563	type=N_KON_N, form=taille de pois et début
+495	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	stade 31 : baies à	taille de pois et les grappes	pois	taille de pois	pendent. Les grappe	2692-2721	type=N_KON_N, form=taille de pois et les grappes
+496	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	a grosseur de petit-	pois, les grappes	pois		sont en position ve	2867-2884	type=N_PUN_N, form=pois, les grappes
+497	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	a grosseur de petit-	pois, les grappes	pois		sont en position ve	3205-3222	type=N_PUN_N, form=pois, les grappes
+498	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	iques favorables au	champignon, le risque	champignon		potentiel est deven	8601-8622	type=N_PUN_N, form=champignon, le risque
 499	BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93	rative Centre Ouest	Céréales, les Etablissements	Céréales	etablissements	Soufflet, l'Institu	14739-14767	type=N_PUN_N, form=Céréales, les Etablissements
 500	BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d	rative Centre Ouest	Céréales, les Etablissements	Céréales	etablissements	Soufflet, l'Institu	16164-16192	type=N_PUN_N, form=Céréales, les Etablissements
-501	BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	ose : Symptômes sur	bois, rameaux et feuilles	bois	"feuilles,
-rameaux"	à gauche : Chancres	3272-3297	type=N_PUN_N_KON_N, form=bois, rameaux et feuilles
+501	BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	ose : Symptômes sur	bois, rameaux et feuilles	bois	rameaux	à gauche : Chancres	3272-3297	type=N_PUN_N_KON_N, form=bois, rameaux et feuilles
 502	BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	non directement sur	le bois, les contaminations	bois	contaminations	primaires peuvent s	7512-7539	type=N_PUN_N, form=le bois, les contaminations
 503	BSV_NA_VIGNE_Limousin_02_20190409_cle81e534	prise d'activité du	champignon et la production de spores	champignon	production de spores	qui pourront être d	10318-10355	type=N_KON_N, form=champignon et la production de spores
-504	BSV_NA_VIGNE_Limousin_07_20190522_cle81f925	t été observées sur	la vigne, début et mi	vigne	"mi,
-début"	mai. La présence de	10031-10052	type=N_PUN_N_KON_N, form=la vigne, début et mi
-505	BSV_NA_VIGNE_Nord_Aquitaine_04_20190416_cle876cf5	Aquitaine, Soufflet	Vigne, SRA	Vigne	sra	Cadillac, Terres du	18041-18051	type=N_PUN_N, form=Vigne, SRA
-506	BSV_NA_VIGNE_Nord_Aquitaine_07_20190507_cle8b2385	vigne va diluer sa	présence et les auxiliaires de la vigne	vigne	"auxiliaires de vigne,
-présence"	vont maîtriser leur	15331-15370	type=N_KON_N, form=présence et les auxiliaires de la vigne
-507	BSV_NA_VIGNE_Nord_Aquitaine_07_20190507_cle8b2385	Aquitaine, Soufflet	Vigne, SRA	Vigne	sra	Cadillac, Terres du	21775-21785	type=N_PUN_N, form=Vigne, SRA
-508	BSV_NA_VIGNE_Nord_Aquitaine_17_20190716_cle8d5da5	Aquitaine, Soufflet	Vigne, SRA	Vigne	sra	Cadillac, Terres du	23453-23463	type=N_PUN_N, form=Vigne, SRA
+504	BSV_NA_VIGNE_Limousin_07_20190522_cle81f925	t été observées sur	la vigne, début et mi	vigne		mai. La présence de	10031-10052	type=N_PUN_N_KON_N, form=la vigne, début et mi
+505	BSV_NA_VIGNE_Nord_Aquitaine_04_20190416_cle876cf5	Aquitaine, Soufflet	Vigne, SRA	Vigne		Cadillac, Terres du	18041-18051	type=N_PUN_N, form=Vigne, SRA
+506	BSV_NA_VIGNE_Nord_Aquitaine_07_20190507_cle8b2385	vigne va diluer sa	présence et les auxiliaires de la vigne	vigne	"présence,
+auxiliaires de vigne"	vont maîtriser leur	15331-15370	type=N_KON_N, form=présence et les auxiliaires de la vigne
+507	BSV_NA_VIGNE_Nord_Aquitaine_07_20190507_cle8b2385	Aquitaine, Soufflet	Vigne, SRA	Vigne		Cadillac, Terres du	21775-21785	type=N_PUN_N, form=Vigne, SRA
+508	BSV_NA_VIGNE_Nord_Aquitaine_17_20190716_cle8d5da5	Aquitaine, Soufflet	Vigne, SRA	Vigne		Cadillac, Terres du	23453-23463	type=N_PUN_N, form=Vigne, SRA
 509	BSV_NA_VIGNE_Nord_Aquitaine_19_20190730_cle819684	très hétérogène au	sein des parcelles et les baies	baies	sein des parcelles	ont grossi suite au	4827-4858	type=N_KON_N, form=sein des parcelles et les baies
-510	BSV_NA_VIGNE_Nord_Aquitaine_19_20190730_cle819684	Aquitaine, Soufflet	Vigne, SRA	Vigne	sra	Cadillac, Terres du	23648-23658	type=N_PUN_N, form=Vigne, SRA
-511	BSV_NA_VIGNE_Nord_Aquitaine_20_20190806_cle891ea2	Aquitaine, Soufflet	Vigne, SRA	Vigne	sra	Cadillac, Terres du	22450-22460	type=N_PUN_N, form=Vigne, SRA
-512	BSV_NA_VIGNE_Sud_Aquitaine_02_20190401_01_cle4bdf4a	iver en moins de 24	heures, vigne	vigne	heures	réceptive (au moins	8478-8491	type=N_PUN_N, form=heures, vigne
+510	BSV_NA_VIGNE_Nord_Aquitaine_19_20190730_cle819684	Aquitaine, Soufflet	Vigne, SRA	Vigne		Cadillac, Terres du	23648-23658	type=N_PUN_N, form=Vigne, SRA
+511	BSV_NA_VIGNE_Nord_Aquitaine_20_20190806_cle891ea2	Aquitaine, Soufflet	Vigne, SRA	Vigne		Cadillac, Terres du	22450-22460	type=N_PUN_N, form=Vigne, SRA
+512	BSV_NA_VIGNE_Sud_Aquitaine_02_20190401_01_cle4bdf4a	iver en moins de 24	heures, vigne	vigne		réceptive (au moins	8478-8491	type=N_PUN_N, form=heures, vigne
 513	BSV_Viticulture_2_17_mai_2019_cle8f88af	plus attaqués sont	l'avocat, la mangue et la papaye	mangue, papaye	avocat	mais l'espèce s'en	10453-10485	type=N_PUN_N_KON_N, form=l'avocat, la mangue et la papaye
-514	BSV_Viticulture_2_17_mai_2019_cle8f88af	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"fruit de passion,
-nèfle du japon,
-cerise de cayenne"	. Les légumes concer	10520-10658	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
+514	BSV_Viticulture_2_17_mai_2019_cle8f88af	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"cerise de cayenne,
+fruit de passion,
+nèfle du japon"	. Les légumes concer	10520-10658	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
 515	BSV_Viticulture_2_17_mai_2019_cle8f88af	rnés sont notamment	les tomates, poivrons, melons et courges	tomates, poivrons, melons, courges		. Comme les autres m	10697-10737	type=N_PUN_N_KON_N, form=les tomates, poivrons, melons et courges
-516	BSV_Viticulture_2_17_mai_2019_cle8f88af	ffecter de nombreux	végétaux, oliviers, Prunus	oliviers	"végétaux,
-prunus"	(pêchers, amandiers	11285-11311	type=N_PUN_N, form=végétaux, oliviers, Prunus
+516	BSV_Viticulture_2_17_mai_2019_cle8f88af	ffecter de nombreux	végétaux, oliviers, Prunus	oliviers	"prunus,
+végétaux"	(pêchers, amandiers	11285-11311	type=N_PUN_N, form=végétaux, oliviers, Prunus
 517	BSV_Viticulture_2_17_mai_2019_cle8f88af	, oliviers, Prunus (	pêchers, amandiers	pêchers, amandiers		), laurier rose, vig	11313-11331	type=N_PUN_N, form=pêchers, amandiers
 518	BSV_Viticulture_2_17_mai_2019_cle8f88af	ers), laurier rose,	vigne, agrumes, caféiers, chênes, Les dépérissements	vigne, agrumes, caféiers, chênes	dépérissements	provoqués par la ma	11348-11400	type=N_PUN_N, form=vigne, agrumes, caféiers, chênes, Les dépérissements
 519	BSV_Viticulture_5_18_juillet_2019_cle8b576d	plus attaqués sont	l'avocat, la mangue et la papaye	mangue, papaye	avocat	mais l'espèce s'en	9389-9421	type=N_PUN_N_KON_N, form=l'avocat, la mangue et la papaye
-520	BSV_Viticulture_5_18_juillet_2019_cle8b576d	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"fruit de passion,
-nèfle du japon,
-cerise de cayenne"	. Les légumes concer	9456-9594	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
+520	BSV_Viticulture_5_18_juillet_2019_cle8b576d	s'en prend aussi au	citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café	citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café	"cerise de cayenne,
+fruit de passion,
+nèfle du japon"	. Les légumes concer	9456-9594	type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
 521	BSV_Viticulture_5_18_juillet_2019_cle8b576d	rnés sont notamment	les tomates, poivrons, melons et courges	tomates, poivrons, melons, courges		. Comme les autres m	9633-9673	type=N_PUN_N_KON_N, form=les tomates, poivrons, melons et courges
-522	BSV_Viticulture_5_18_juillet_2019_cle8b576d	ffecter de nombreux	végétaux, oliviers, Prunus	oliviers	"végétaux,
-prunus"	(pêchers, amandiers	10220-10246	type=N_PUN_N, form=végétaux, oliviers, Prunus
+522	BSV_Viticulture_5_18_juillet_2019_cle8b576d	ffecter de nombreux	végétaux, oliviers, Prunus	oliviers	"prunus,
+végétaux"	(pêchers, amandiers	10220-10246	type=N_PUN_N, form=végétaux, oliviers, Prunus
 523	BSV_Viticulture_5_18_juillet_2019_cle8b576d	, oliviers, Prunus (	pêchers, amandiers	pêchers, amandiers		), laurier rose, vig	10248-10266	type=N_PUN_N, form=pêchers, amandiers
 524	BSV_Viticulture_5_18_juillet_2019_cle8b576d	ers), laurier rose,	vigne, agrumes, caféiers, chênes, Les dépérissements	vigne, agrumes, caféiers, chênes	dépérissements	provoqués par la ma	10283-10335	type=N_PUN_N, form=vigne, agrumes, caféiers, chênes, Les dépérissements
 525	BSV_viti_01_du_16-04-19_cle878624	u pour germer. Dans	les parcelles de vignes, les oospores	vignes	"parcelles de vignes,
 oospores"	(œufs d'hiver) se c	10882-10919	type=N_PUN_N, form=les parcelles de vignes, les oospores
 526	alsace_vigne_no13_du_29-07-19_cle853dc6	rangs ouest et sud,	les rangs de bordure, les vignes	vignes	rangs de bordure	en alterné, sont le	808-840	type=N_PUN_N, form=les rangs de bordure, les vignes
-527	alsace_vigne_no14_du_20-08-19_cle8ee257	s de baies, vers de	la grappe, éclatements de baies	baies	"grappe,
-éclatements de baies"	(cas du Gewurztrami	2797-2828	type=N_PUN_N, form=la grappe, éclatements de baies
+527	alsace_vigne_no14_du_20-08-19_cle8ee257	s de baies, vers de	la grappe, éclatements de baies	baies	éclatements de baies	(cas du Gewurztrami	2797-2828	type=N_PUN_N, form=la grappe, éclatements de baies
 528	alsace_vigne_no14_du_20-08-19_cle8ee257	e, l'environnement (	forêt, haie	forêt	haie	) et de par l'éclat	4527-4538	type=N_PUN_N, form=forêt, haie
-529	bsv_raisin_n07_14052019_cle85bd4c	roissance active de	la vigne, les conditions	vigne	conditions	climatiques actuell	4686-4710	type=N_PUN_N, form=la vigne, les conditions
-530	bsv_raisin_n12_18062019_cle8578dc	sont en place dans	les vergers et les cultures	vergers	cultures	légumières. Les tra	3119-3146	type=N_KON_N, form=les vergers et les cultures
+529	bsv_raisin_n07_14052019_cle85bd4c	roissance active de	la vigne, les conditions	vigne		climatiques actuell	4686-4710	type=N_PUN_N, form=la vigne, les conditions
+530	bsv_raisin_n12_18062019_cle8578dc	sont en place dans	les vergers et les cultures	vergers		légumières. Les tra	3119-3146	type=N_KON_N, form=les vergers et les cultures
 531	bsv_viti_13_27_06_2019_cle07f426	ades BBCH-69 et 73 (	grains de plomb, baies	baies	grains de plomb	2-3 mm). Les parcel	1031-1053	type=N_PUN_N, form=grains de plomb, baies
-532	bsv_viti_13_27_06_2019_cle07f426	homologation (usage	vigne et usage	vigne	usage	contre tel ou tel b	4562-4576	type=N_KON_N, form=vigne et usage
+532	bsv_viti_13_27_06_2019_cle07f426	homologation (usage	vigne et usage	vigne		contre tel ou tel b	4562-4576	type=N_KON_N, form=vigne et usage
 533	bsv_viti_14_04_07_2019-1_cle888dd3	endredi 5 juillet :	Plantes de service et gestion des ravageurs	Plantes de service	gestion des ravageurs	. Le vendredi 12 jui	11345-11388	type=N_KON_N, form=Plantes de service et gestion des ravageurs
-534	bsv_viti_14_04_07_2019-1_cle888dd3	homologation (usage	vigne et usage	vigne	usage	contre tel ou tel b	12149-12163	type=N_KON_N, form=vigne et usage
+534	bsv_viti_14_04_07_2019-1_cle888dd3	homologation (usage	vigne et usage	vigne		contre tel ou tel b	12149-12163	type=N_KON_N, form=vigne et usage
 535	bsv_viti_17_25_07_2019_cle0a86e1	ur les baies). Si à	l'approche de la véraison, les baies	baies	approche de véraison	se ramollissent lég	947-983	type=N_PUN_N, form=l'approche de la véraison, les baies
-536	bsv_viti_lr_n03_16042019_cle82d51a	e et ses affluents (	Ognon et La Cesse	Ognon	cesse	), le fleuve Orb et	8027-8044	type=N_KON_N, form=Ognon et La Cesse
+536	bsv_viti_lr_n03_16042019_cle82d51a	e et ses affluents (	Ognon et La Cesse	Ognon		), le fleuve Orb et	8027-8044	type=N_KON_N, form=Ognon et La Cesse
 537	bsv_viti_lr_n03_16042019_cle82d51a	ose : Symptômes sur	bois et rameaux	bois	rameaux	à gauche : pycnides	9767-9782	type=N_KON_N, form=bois et rameaux
-538	bsv_viti_lr_n17_30072019_cle8cc4c8	sont en place dans	les vergers et les cultures	vergers	cultures	légumières. Les tra	2768-2795	type=N_KON_N, form=les vergers et les cultures
-539	bsv_viti_mp_aveyron_n02_19042019-2_cle8676eb	ose : Symptômes sur	bois, rameaux et feuilles	bois	"feuilles,
-rameaux"	à gauche : Chancres	4949-4974	type=N_PUN_N_KON_N, form=bois, rameaux et feuilles
+538	bsv_viti_lr_n17_30072019_cle8cc4c8	sont en place dans	les vergers et les cultures	vergers		légumières. Les tra	2768-2795	type=N_KON_N, form=les vergers et les cultures
+539	bsv_viti_mp_aveyron_n02_19042019-2_cle8676eb	ose : Symptômes sur	bois, rameaux et feuilles	bois	rameaux	à gauche : Chancres	4949-4974	type=N_PUN_N_KON_N, form=bois, rameaux et feuilles
 540	bsv_viti_mp_aveyron_n14_17072019_cle05cdbe	s très favorables à	l'activité du champignon et la vigne	champignon, vigne	activité du champignon	est toujours dans s	788-824	type=N_KON_N, form=l'activité du champignon et la vigne
 541	bsv_viti_mp_cahors_n05_07052019-1_cle882e62	e rameaux a aggravé	les effets du gel et les vignes	vignes	effets du gel	basses sont plus to	2151-2182	type=N_KON_N, form=les effets du gel et les vignes
 542	bsv_viti_mp_cahors_n19_20082019_cle4e16b4	n compte, notamment	la compacité des grappes et les éclatements de baies	baies	"éclatements de baies,
 compacité des grappes"	ou encore les dégât	5147-5199	type=N_KON_N, form=la compacité des grappes et les éclatements de baies
-543	bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	ose : Symptômes sur	bois, rameaux et feuilles	bois	"feuilles,
-rameaux"	à gauche : Chancres	6058-6083	type=N_PUN_N_KON_N, form=bois, rameaux et feuilles
+543	bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	ose : Symptômes sur	bois, rameaux et feuilles	bois	rameaux	à gauche : Chancres	6058-6083	type=N_PUN_N_KON_N, form=bois, rameaux et feuilles
 544	bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	prise d'activité du	champignon et la production de spores	champignon	production de spores	qui pourront être d	7650-7687	type=N_KON_N, form=champignon et la production de spores
 545	bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	non directement sur	le bois, les contaminations	bois	contaminations	primaires de l'anné	11491-11518	type=N_PUN_N, form=le bois, les contaminations
 546	bsv_viti_mp_gaillac_n02_09042019_cle0bbe75	sées par la Chambre	d'Agriculture du Tarn, la Cave de Labastide, la Maison des Vins	Vins	"maison des vins,
