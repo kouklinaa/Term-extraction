@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-
 <alvisnlp-plan id="patterns">
 
   <!-- parameters -->
@@ -19,20 +17,45 @@
   -->
 
 
+  <NOUN class="PatternMatcher">
+    <pattern>
+
+
+      <!-- [ @pos == "DET:ART" ]?
+      [ @pos == "NOM" ]
+      [ @pos == "ADJ"]?
+
+      (
+
+        [ @form ^= "des" or @form ^= "du" or @form ^= "de" ][ @form ^= "la"  ]?
+
+        [ @pos == "NOM" or @pos == "NAM"]
+        [ @pos == "ADJ"]?
+      )
+      ? -->
+
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" ]
+      ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
+      [ @pos ^= "DET:ART" ]?
+      [ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="GN"/>
+    </actions>
+    <constantAnnotationFeatures>type=GN</constantAnnotationFeatures>
+  </NOUN>
+
   <N_KON_N class="PatternMatcher">
     <pattern>
 
       <!-- nom  -->
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
-
+      [overlapping:GN]
       <!-- et -->
-      [ @pos ^= "KON" and @lemma ^= "et"]
-
+      [ @form == "et"]
       <!-- nom  -->
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM"]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[
-       @pos ^= "NOM" or @pos ^= "NAM" ])?
+      [overlapping:GN]
 
     </pattern>
     <actions>
@@ -48,14 +71,12 @@
 
       <!-- nom , nom, nom, -->
       (
-        [ @pos ^= "DET:ART" ]?
-        [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM" ])?
-        [ @pos ^= "PUN" and @lemma ^=","]
+        [overlapping:GN]
+        [ @pos == "PUN" and @form == ","]
       )+
 
       <!-- nom  -->
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]([ @pos ^= "PRP:det" or @lemma ^= "de" ][ @pos ^= "DET:ART" ]?[ @pos ^= "NOM" or @pos ^= "NAM"])?
+      [overlapping:GN]
 
     </pattern>
     <actions>
@@ -65,43 +86,70 @@
   </N_PUN_N>
 
 
-  <N_PUN_N_KON_N class="PatternMatcher">
+
+
+    <N_PUN_N_KON_N class="PatternMatcher">
+      <pattern>
+
+        (
+          [ @pos ^= "DET:ART" ]?
+          [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
+          [ @pos ^= "DET:ART" ]?
+          [ @pos ^= "NOM" or @pos ^= "NAM" ])?
+          [ @pos ^= "PUN" and @lemma ^=","]
+        )+
+
+
+        [ @pos ^= "DET:ART" ]?
+        [ @pos ^= "NOM" ]
+        ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
+        [ @pos ^= "DET:ART" ]?
+        [ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+
+        [ @pos ^= "KON" and @lemma ^= "et"]
+
+        [ @pos ^= "DET:ART" ]?
+        [ @pos ^= "NOM" ]
+        ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
+        [ @pos ^= "DET:ART" ]?
+        [ @pos ^= "NOM" or @pos ^= "NAM"])?
+
+
+      </pattern>
+      <actions>
+        <createAnnotation layer="conjunctions"/>
+      </actions>
+      <constantAnnotationFeatures>type=N_PUN_N_KON_N</constantAnnotationFeatures>
+    </N_PUN_N_KON_N>
+
+
+
+  <!-- <N_PUN_N_KON_N class="PatternMatcher">
     <pattern>
-      <!-- nom , nom, nom, -->
+
       (
-        [ @pos ^= "DET:ART" ]?
-        [ @pos ^= "NOM" ] ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
-        [ @pos ^= "DET:ART" ]?
-        [ @pos ^= "NOM" or @pos ^= "NAM" ])?
-        [ @pos ^= "PUN" and @lemma ^=","]
+        [overlapping:GN]
+        [ @form == ","]
       )+
 
-      <!-- nom  -->
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]
-      ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" or @pos ^= "NAM"])?
 
-      <!-- et nom  -->
-      [ @pos ^= "KON" and @lemma ^= "et"]
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]
-      ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" or @pos ^= "NAM"])?
+      [overlapping:GN]?
+      [ @form == "et"]
+      [overlapping:GN]
+
     </pattern>
     <actions>
       <createAnnotation layer="conjunctions"/>
     </actions>
     <constantAnnotationFeatures>type=N_PUN_N_KON_N</constantAnnotationFeatures>
-  </N_PUN_N_KON_N>
+  </N_PUN_N_KON_N> -->
 
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  //  Align
+  //  Overlaps
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
@@ -112,28 +160,6 @@
     <removeEqual>false</removeEqual>
   </overlaps_conj>
 
-
-  <!-- <insert-space class="Action">
-    <target>documents.sections.layer:conjunctions</target>
-    <action>set:feat:canonical-form(str:replace(@form, "BBCH", "BBCH "))</action>
-    <setFeatures/>
-  </insert-space> -->
-
-  <!-- save matching  elements from the layer conjunctions  -->
-  <!-- <match-conj class="Action">
-    <target>documents.sections.layer:conjunctions[inside:fcu-baseline]</target>
-    <action>set:feat:match("fcu")</action>
-    <setFeatures/>
-  </match-conj> -->
-
-
-
-  <!-- save matching  elements from the layer conjunctions  -->
-  <!-- <rem-conj class="Action">
-    <target>documents.sections.layer:fcu-baseline[outside:conjunctions]</target>
-    <action>set:feat:match("conj")</action>
-    <setFeatures/>
-  </rem-conj> -->
 
 
   <!--
@@ -150,7 +176,7 @@
      <!-- <outDir>output/vespa/conjunctions</outDir> -->
      <corpusFile>conjunctions.csv</corpusFile>
      <lines>documents.sections.layer:conjunctions[inside:fcu-baseline]</lines>
-     <headers>"bsv","context", "full_expression","match_with_fcu", "context", "location","features"</headers>
+     <headers>"bsv","context before", "conjunction", "match", "context after", "location","features"</headers>
      <columns separator=";">
        <!-- short document id  -->
        str:replace(str:basename(section.document.@id), ".html", "");
@@ -159,8 +185,7 @@
        <!-- extracted term  -->
        @form;
 
-       <!-- match fcu  -->
-       <!-- str:join:', '(inside:fcu-baseline, @form ^ " ( " ^ @skos-prefLabel ^ " ) =" ^ @uri); -->
+       <!-- match  -->
        str:join:', '(inside:fcu-baseline, @form );
 
        <!-- TODO : no match with fcu  -->
@@ -179,10 +204,6 @@
      <trueCSV/>
    </save-conj>
 
-  <!-- <save-conj href="modules/export.plan">
-    <corpusFile>conjunctions.csv</corpusFile>
-    <lines>documents.sections.layer:conjunctions</lines>
-  </save-conj> -->
 
 
 </alvisnlp-plan>
