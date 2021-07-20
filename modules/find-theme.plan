@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="theme">
+
+
+
+  <!-- parameters -->
+  <param name="outDir">
+    <alias module="save-theme" param="outDir"/>
+  </param>
+
+
+
+
+
+
+  <sommaire class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H"  and @tag =~ "[0-9]" and @form == "SOMMAIRE"]
+      [ true ]{0,5}
+      [@tag ^= "H"  and @tag =~ "[0-9]" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=SOMMAIRE</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </sommaire>
+
+
+  <edition class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H"  and @tag =~ "[0-9]" and @form ^= "N°"]
+      [ true ]{0,5}
+      [@tag ^= "H"  and @tag =~ "[0-9]" and @form =~ "[0-9]"]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=EDITION</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </edition>
+
+
+
+  <a_retenir class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]"  and @form =~ "retenir"]
+      [ true ]{0,5}
+      [@tag == "P" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=A_RETENIR</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </a_retenir>
+
+
+  <stades class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]"  and @form ^= "Stades"]
+      [ true ]{0,10}
+      [@tag  ^= "H" and @tag =~ "[0-9]"]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=STADES</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </stades>
+
+
+
+
+  <save-theme class="TabularExport">
+     <corpusFile>themes.csv</corpusFile>
+     <lines>documents.sections.layer:themes</lines>
+     <headers>"bsv","context before", "segment", "tags", "form", "context after", "location","features"</headers>
+     <columns separator=";">
+       <!-- short document id  -->
+       str:replace(str:basename(section.document.@id), ".html", "");
+       <!-- context before  -->
+       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+       <!-- extracted pattern -->
+       @type;
+       str:join:' '(inside:html, @tag );
+       @form;
+       <!-- context after  -->
+       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+       <!-- location  -->
+       start ^ "-" ^ end;
+       <!-- features  -->
+       str:join:', '(nav:features, @key ^ "=" ^ @value)
+     </columns>
+     <trueCSV/>
+   </save-theme>
+
+</alvisnlp-plan>
