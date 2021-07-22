@@ -12,6 +12,14 @@
 
 
 
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Sommaire
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
 
 
   <sommaire class="PatternMatcher">
@@ -29,6 +37,15 @@
   </sommaire>
 
 
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Edition
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
   <edition class="PatternMatcher">
     <layerName>html</layerName>
     <pattern>
@@ -43,12 +60,18 @@
     <overlappingBehaviour>ignore</overlappingBehaviour>
   </edition>
 
-
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  A retenir
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
 
   <a_retenir class="PatternMatcher">
     <layerName>html</layerName>
     <pattern>
-      [@tag ^= "H" and @tag =~ "[0-9]"  and @form =~ "retenir"]
+      [@tag ^= "H" and @tag =~ "[0-9]"  and @form =~ "\\bretenir\\b" ]
       [ true ]{0,5}
       [@tag == "P" ]
     </pattern>
@@ -60,7 +83,40 @@
   </a_retenir>
 
 
-  <stades class="PatternMatcher">
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Meteo
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <meteo class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]" and @form =~ "METEO" ]
+      [ true ]{0,35}
+      [@tag ^= "H" and @tag =~ "[0-9]" and @form =~ "PHENO" ]
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=METEO</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </meteo>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Stades phénologiques
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <!-- <stades class="PatternMatcher">
     <layerName>html</layerName>
     <pattern>
       [@tag ^= "H" and @tag =~ "[0-9]"  and @form ^= "Stades"]
@@ -72,24 +128,34 @@
     </actions>
     <constantAnnotationFeatures>type=STADES</constantAnnotationFeatures>
     <overlappingBehaviour>ignore</overlappingBehaviour>
-  </stades>
+  </stades> -->
 
 
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Export
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
 
 
   <save-theme class="TabularExport">
      <corpusFile>themes.csv</corpusFile>
      <lines>documents.sections.layer:themes</lines>
-     <headers>"bsv","context before", "segment", "tags", "form", "context after", "location","features"</headers>
+     <headers>"bsv","context before", "html tags", "segment (type)", "segment (form)", " concepts",  "nb concepts", "context after", "location","features"</headers>
      <columns separator=";">
        <!-- short document id  -->
        str:replace(str:basename(section.document.@id), ".html", "");
        <!-- context before  -->
        str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
        <!-- extracted pattern -->
-       @type;
        str:join:' '(inside:html, @tag );
+       @type;
        @form;
+       <!-- concepts inside  -->
+       str:join:',\n'(inside:fcu-baseline, @skos-prefLabel);
+       int(inside:fcu-baseline);
        <!-- context after  -->
        str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
        <!-- location  -->
