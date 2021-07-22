@@ -111,6 +111,48 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
+  //  Période de risque
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <risque class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "période de risque"  or
+      @tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "observations"]
+      ([@tag == "P"]+
+      [@tag == "BR"]*
+      [@tag == "P"]*
+      )?
+
+
+      ([@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "seuil" ]
+      [@tag == "P"]+
+      [@tag == "BR"]*
+      [@tag == "P"]*
+      )?
+
+      (
+      [@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "analyse" ]
+      [@tag == "P"]+
+      [@tag == "BR"]*
+      [@tag == "P"]*
+      )?
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=RISQUE</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </risque>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
   //  Stades phénologiques
   //
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -140,22 +182,28 @@
   -->
 
 
+  <overlaps_conj class="RemoveOverlaps">
+    <layerName>themes</layerName>
+    <removeEqual>false</removeEqual>
+  </overlaps_conj>
+
+
   <save-theme class="TabularExport">
      <corpusFile>themes.csv</corpusFile>
      <lines>documents.sections.layer:themes</lines>
-     <headers>"bsv","context before", "html tags", "segment (type)", "segment (form)", " concepts",  "nb concepts", "context after", "location","features"</headers>
+     <headers>"bsv", "html tags", "segment (type)", "segment (form)", " concepts",  "nb concepts", "context before","context after", "location","features"</headers>
      <columns separator=";">
        <!-- short document id  -->
        str:replace(str:basename(section.document.@id), ".html", "");
-       <!-- context before  -->
-       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
        <!-- extracted pattern -->
-       str:join:' '(inside:html, @tag );
+       str:join:'\n'(inside:html, @tag );
        @type;
        @form;
        <!-- concepts inside  -->
        str:join:',\n'(inside:fcu-baseline, @skos-prefLabel);
        int(inside:fcu-baseline);
+       <!-- context before  -->
+       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
        <!-- context after  -->
        str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
        <!-- location  -->
