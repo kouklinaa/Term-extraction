@@ -78,7 +78,7 @@
     <actions>
       <createAnnotation layer="themes"/>
     </actions>
-    <constantAnnotationFeatures>type=A_RETENIR</constantAnnotationFeatures>
+    <constantAnnotationFeatures>type=A RETENIR</constantAnnotationFeatures>
     <overlappingBehaviour>ignore</overlappingBehaviour>
   </a_retenir>
 
@@ -152,7 +152,7 @@
     <actions>
       <createAnnotation layer="themes"/>
     </actions>
-    <constantAnnotationFeatures>type=RESEAU_OBSERVATION</constantAnnotationFeatures>
+    <constantAnnotationFeatures>type=RESEAU D'OBSERVATION</constantAnnotationFeatures>
     <overlappingBehaviour>ignore</overlappingBehaviour>
   </reseau>
 
@@ -190,6 +190,7 @@
     <maladies class="PatternMatcher">
       <pattern>
         [
+          <!-- str:lower(@form) =~ "maladie" or -->
           str:lower(@form) =~ "helminthosporiose" or
           str:lower(@form) =~ "rhynchosporiose" or
           str:lower(@form) =~ "oïdium" or
@@ -218,7 +219,7 @@
       (
         [ @tag ^= "H" and @tag =~ "[0-9]" and overlapping:bioagresseurs or
           @tag ^= "H" and @tag =~ "[0-9]" and overlapping:maladies  ]
-        [ true ]{0,40}
+        [ true ]{0,45}
       )?
 
       <!-- période de risque avec au moins 1 paragraphe-->
@@ -297,7 +298,7 @@
   <save-theme class="TabularExport">
      <corpusFile>themes.csv</corpusFile>
      <lines>documents.sections.layer:themes</lines>
-     <headers>"bsv", "html tags", "segment (type)", "segment (form)", " concepts fcu",  "bioagresseurs", "maladies" ,"context before","context after", "location","features"</headers>
+     <headers>"bsv", "html tags", "segment (type)", "segment (form)", "fcu concepts",  "bioagressors", "deseases" , "stages" , "context before", "context after", "location","features"</headers>
      <columns separator=";">
        <!-- short document id  -->
        str:replace(str:basename(section.document.@id), ".html", "");
@@ -305,13 +306,12 @@
        str:join:'\n'(inside:html, @tag );
        @type;
        @form;
-       <!-- concepts inside  -->
+       <!-- concepts fcu  -->
        str:join:',\n'(inside:fcu-baseline, @skos-prefLabel);
-       <!-- int(inside:fcu-baseline); -->
-
-       <!-- bioagresseurs et maladies (propositions)  -->
+       <!-- bioagressors, deseases (propositions), stages  -->
        str:join:',\n'(inside:bioagresseurs, @form);
        str:join:',\n'(inside:maladies, @form);
+       str:join:',\n'(inside:stages, @skos-prefLabel);
        <!-- context before  -->
        str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
        <!-- context after  -->
