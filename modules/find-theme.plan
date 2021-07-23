@@ -98,7 +98,6 @@
       [@tag ^= "H" and @tag =~ "[0-9]" and @form =~ "METEO" ]
       [ true ]{0,35}
       [@tag ^= "H" and @tag =~ "[0-9]" and @form =~ "PHENO" ]
-
     </pattern>
     <actions>
       <createAnnotation layer="themes"/>
@@ -111,34 +110,141 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
+  //  Abonnement
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <abonnement class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag == "FIGCAPTION" and @form =~ "\\bABONNEMENT\\b" ]
+      [ true ]{0,2}
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=ABONNEMENT</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </abonnement>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Réseau d'observation
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <reseau class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "réseau d'observation" ]
+      [@tag == "P"]+
+      (
+        [@tag == "BR"]*
+        [@tag == "P"]*
+      )?
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=RESEAU_OBSERVATION</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </reseau>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
   //  Période de risque
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
 
+    <bioagresseurs class="PatternMatcher">
+      <pattern>
+        [
+        str:lower(@form) =~ "limace"  or
+        str:lower(@form) =~ "puceron"  or
+        str:lower(@form) =~ "altise" or
+        str:lower(@form) =~ "charançon" or
+        str:lower(@form) =~ "tenthrède" or
+        str:lower(@form) =~ "larve" or
+        str:lower(@form) =~ "méligèthe" or
+        str:lower(@form) =~ "sclerotinia" or
+        str:lower(@form) =~ "oiseau" or
+        str:lower(@form) =~ "parasite"
+        ]
+      </pattern>
+      <actions>
+        <createAnnotation layer="bioagresseurs"/>
+      </actions>
+      <constantAnnotationFeatures>type=BIOAGRESSEUR</constantAnnotationFeatures>
+    </bioagresseurs>
+
+    <maladies class="PatternMatcher">
+      <pattern>
+        [
+          str:lower(@form) =~ "helminthosporiose" or
+          str:lower(@form) =~ "rhynchosporiose" or
+          str:lower(@form) =~ "oïdium" or
+          str:lower(@form) =~ "froid" or
+          str:lower(@form) =~ "piétin" or
+          str:lower(@form) =~ "rhizoctone" or
+          str:lower(@form) =~ "fusariose" or
+          str:lower(@form) =~ "rouille" or
+          str:lower(@form) =~ "thrips" or
+          str:lower(@form) =~ "sitones" or
+          str:lower(@form) =~ "collemboles"
+        ]
+      </pattern>
+      <actions>
+        <createAnnotation layer="maladies"/>
+      </actions>
+      <constantAnnotationFeatures>type=MALADIE</constantAnnotationFeatures>
+    </maladies>
+
+
   <risque class="PatternMatcher">
     <layerName>html</layerName>
     <pattern>
+
+      <!-- peut commencer par la mention des bioagresseurs ou des maladies -->
+      (
+        [ @tag ^= "H" and @tag =~ "[0-9]" and overlapping:bioagresseurs or
+          @tag ^= "H" and @tag =~ "[0-9]" and overlapping:maladies  ]
+        [ true ]{0,40}
+      )?
+
+      <!-- période de risque avec au moins 1 paragraphe-->
       [@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "période de risque"  or
       @tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "observations"]
-      ([@tag == "P"]+
-      [@tag == "BR"]*
-      [@tag == "P"]*
-      )?
-
-
-      ([@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "seuil" ]
       [@tag == "P"]+
-      [@tag == "BR"]*
-      [@tag == "P"]*
+      (
+        [@tag == "BR"]*
+        [@tag == "P"]*
       )?
+
+      <!-- peut être suivi par un seuil de risque ou pas -->
 
       (
-      [@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "analyse" ]
-      [@tag == "P"]+
-      [@tag == "BR"]*
-      [@tag == "P"]*
+        [@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "seuil" ]
+        [@tag == "P"]+
+        [@tag == "BR"]*
+        [@tag == "P"]*
+      )?
+
+      <!-- peut être suivi par une analyse de risque ou pas-->
+      (
+        [@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "analyse" ]
+        [@tag == "P"]+
+        [@tag == "BR"]*
+        [@tag == "P"]*
       )?
 
     </pattern>
@@ -191,7 +297,7 @@
   <save-theme class="TabularExport">
      <corpusFile>themes.csv</corpusFile>
      <lines>documents.sections.layer:themes</lines>
-     <headers>"bsv", "html tags", "segment (type)", "segment (form)", " concepts",  "nb concepts", "context before","context after", "location","features"</headers>
+     <headers>"bsv", "html tags", "segment (type)", "segment (form)", " concepts fcu",  "bioagresseurs", "maladies" ,"context before","context after", "location","features"</headers>
      <columns separator=";">
        <!-- short document id  -->
        str:replace(str:basename(section.document.@id), ".html", "");
@@ -201,7 +307,11 @@
        @form;
        <!-- concepts inside  -->
        str:join:',\n'(inside:fcu-baseline, @skos-prefLabel);
-       int(inside:fcu-baseline);
+       <!-- int(inside:fcu-baseline); -->
+
+       <!-- bioagresseurs et maladies (propositions)  -->
+       str:join:',\n'(inside:bioagresseurs, @form);
+       str:join:',\n'(inside:maladies, @form);
        <!-- context before  -->
        str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
        <!-- context after  -->
