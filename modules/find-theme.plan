@@ -265,7 +265,7 @@
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
-  <!-- <stades class="PatternMatcher">
+  <stades class="PatternMatcher">
     <layerName>html</layerName>
     <pattern>
       [@tag ^= "H" and @tag =~ "[0-9]"  and @form ^= "Stades"]
@@ -277,7 +277,7 @@
     </actions>
     <constantAnnotationFeatures>type=STADES</constantAnnotationFeatures>
     <overlappingBehaviour>ignore</overlappingBehaviour>
-  </stades> -->
+  </stades>
 
 
   <!--
