@@ -70,7 +70,7 @@ The main script consists of three parts :
 
   * Then, the lemmatization step begins. Once TreeTagger has processed the corpus, it adds the predicted POS tag and lemma to the respective posFeature and lemmaFeature features of the corresponding annotations.
 
-    ```xml
+  ```xml
   <!-- NB: it is necessary to indicate the path
   to the TreeTagger executable and
   the French parameter file : -->
@@ -81,7 +81,7 @@ The main script consists of three parts :
     <inputCharset>UTF-8</inputCharset>
     <outputCharset>UTF-8</outputCharset>
   </tt>
-    ```
+  ```
 
 
 * **III. Annotation :**
@@ -89,7 +89,7 @@ The main script consists of three parts :
   * Plants
     * The first method implements *RDFProjector* module. It takes on the *French Crop Usage* thesaurus and associates its skos labels with named entities :
 
-      ```xml
+    ```xml
     <project-baseline class="RDFProjector">
       <source>resources/fcu/frenchCropUsage_20210525.rdf</source>
       <targetLayerName>fcu-baseline</targetLayerName>
@@ -100,10 +100,9 @@ The main script consists of three parts :
       <wordStartCaseInsensitive/>
       <constantAnnotationFeatures>type=RDFProjector</constantAnnotationFeatures>
     </project-baseline>
-      ```
-    *
-    The second method is called *ToMap*. It aims to classify named entities by comparing the syntactic structures of entities and of skos labels. During the classification, a jaccard similarity is calculated between the terms. This lets us choose associations to keep :
-      ```xml
+    ```
+    * The second method is called *ToMap*. It aims to classify named entities by comparing the syntactic structures of entities and of skos labels. During the classification, a jaccard similarity is calculated between the terms. This lets us choose associations to keep :
+    ```xml
       <classify class="TomapProjector">
         <subject layer="words" feature="lemma"/>
         <yateaFile output-feed="true">../yatea.xml</yateaFile>
@@ -130,7 +129,7 @@ The main script consists of three parts :
       <wordStartCaseInsensitive/>
       <constantAnnotationFeatures>type=RDFProjector</constantAnnotationFeatures>
     </project-stages>
-      ```
+    ```
 
     * *PatternMatcher*
 
