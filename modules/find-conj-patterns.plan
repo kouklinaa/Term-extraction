@@ -156,7 +156,7 @@
   <save-conj class="TabularExport">
      <corpusFile>conjunctions.csv</corpusFile>
      <lines>documents.sections.layer:conjunctions[inside:fcu-baseline]</lines>
-     <headers>"bsv","context before", "conjunction", "context after", "location","features"</headers>
+     <headers>"bsv","context before", "conjunction", "match","context after", "location","features"</headers>
      <columns separator=";">
        <!-- short document id  -->
        str:replace(str:basename(section.document.@id), ".html", "");
@@ -165,7 +165,7 @@
        <!-- entity  -->
        @form;
        <!-- match  -->
-       <!-- str:join:', '(inside:fcu-baseline, @form ); -->
+       str:join:', '(inside:fcu-baseline, @form );
        <!-- context after  -->
        str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
        <!-- location  -->

@@ -15,13 +15,13 @@
 <load-corpus href="modules/read-html.plan">
 
   <!-- d2kab -->
-  <sourcePath>resources/corpus/Corpus-v-12-04-21/train/</sourcePath>
+  <!-- <sourcePath>resources/corpus/Corpus-v-12-04-21/train/</sourcePath> -->
 
   <!-- vespa -->
   <!-- <sourcePath>resources/corpus/CorpusVespa.html/</sourcePath> -->
 
   <!-- alea -->
-  <!-- <sourcePath>resources/corpus/Corpus-v-12-04-21/test/</sourcePath> -->
+  <sourcePath>resources/corpus/Corpus-v-12-04-21/test/</sourcePath>
 
 </load-corpus>
 
@@ -51,8 +51,8 @@
 <project-fcu href="modules/project-fcu.plan">
 
   <!-- d2kab -->
-  <save-fcu-baseline>output/frenchCropUsage_20210525/d2kab</save-fcu-baseline>
-  <save-bm25-baseline>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</save-bm25-baseline>
+  <!-- <save-fcu-baseline>output/frenchCropUsage_20210525/d2kab</save-fcu-baseline>
+  <save-bm25-baseline>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</save-bm25-baseline> -->
   <!-- <save-fcu-tomap>output/frenchCropUsage_20210525/d2kab</save-fcu-tomap>
   <save-bm25-tomap>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</save-bm25-tomap>
   <save-fcu-all>output/frenchCropUsage_20210525/d2kab</save-fcu-all>
@@ -69,8 +69,8 @@
 
 
   <!-- alea -->
-  <!-- <save-fcu-baseline>output/frenchCropUsage_20210525/alea</save-fcu-baseline>
-  <save-bm25-baseline>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-baseline> -->
+  <save-fcu-baseline>output/frenchCropUsage_20210525/alea</save-fcu-baseline>
+  <save-bm25-baseline>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-baseline>
   <!-- <save-fcu-tomap>output/frenchCropUsage_20210525/alea</save-fcu-tomap>
   <save-bm25-tomap>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-tomap>
   <save-fcu-all>output/frenchCropUsage_20210525/alea</save-fcu-all>
@@ -85,17 +85,17 @@
 <project-stages href="modules/project-stages.plan">
 
   <!-- d2kab -->
-  <save-BBCH>output/frenchCropUsage_20210525/d2kab</save-BBCH>
+  <!-- <save-BBCH>output/frenchCropUsage_20210525/d2kab</save-BBCH>
   <save-all-stages>output/frenchCropUsage_20210525/d2kab</save-all-stages>
-
+ -->
 
   <!-- vespa -->
   <!-- <save-BBCH>output/frenchCropUsage_20210525/vespa</save-BBCH>
   <save-all-stages>output/frenchCropUsage_20210525/vespa</save-all-stages> -->
 
   <!-- alea -->
-  <!-- <save-BBCH>output/frenchCropUsage_20210525/alea</save-BBCH>
-  <save-all-stages>output/frenchCropUsage_20210525/alea</save-all-stages> -->
+  <save-BBCH>output/frenchCropUsage_20210525/alea</save-BBCH>
+  <save-all-stages>output/frenchCropUsage_20210525/alea</save-all-stages>
 
 </project-stages>
 
@@ -107,13 +107,13 @@
 <find-conj href="modules/find-conj-patterns.plan">
 
   <!-- d2kab -->
-  <save>output/frenchCropUsage_20210525/d2kab</save>
+  <!-- <save>output/frenchCropUsage_20210525/d2kab</save> -->
 
   <!-- vespa -->
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
+  <save>output/frenchCropUsage_20210525/alea</save>
 
 </find-conj>
 
@@ -125,13 +125,13 @@
 <find-bioagressors href="modules/project-bioagressors.plan">
 
   <!-- d2kab -->
-  <save>output/frenchCropUsage_20210525/d2kab</save>
+  <!-- <save>output/frenchCropUsage_20210525/d2kab</save> -->
 
   <!-- vespa -->
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
+  <save>output/frenchCropUsage_20210525/alea</save>
 
 </find-bioagressors>
 
@@ -143,13 +143,13 @@
 <find-deseases href="modules/find-deseases.plan">
 
    <!-- d2kab -->
-  <save>output/frenchCropUsage_20210525/d2kab</save>
+  <!-- <save>output/frenchCropUsage_20210525/d2kab</save> -->
 
   <!-- vespa -->
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
+  <save>output/frenchCropUsage_20210525/alea</save>
 
 </find-deseases>
 
@@ -161,13 +161,13 @@
 <find-themes href="modules/find-themes.plan">
 
   <!-- d2kab -->
-  <save>output/frenchCropUsage_20210525/d2kab</save>
+  <!-- <save>output/frenchCropUsage_20210525/d2kab</save> -->
 
   <!-- vespa -->
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
+  <save>output/frenchCropUsage_20210525/alea</save>
 
 </find-themes>
 

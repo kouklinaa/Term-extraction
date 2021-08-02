@@ -1,0 +1,413 @@
+;bsv;context before;conjunction;match;proposition;context after;location;features
+0;05_GC_Als_cle8c3f61;écocement. Comme en;maïs, les;maïs;;attaques d'oscinies;1006-1015;type=N_PUN_N, form=maïs, les
+1;05bsv_jevi_20190502_cle8f22b6;ine. Espaces verts,;parc et jardins;parc, jardins;;d'amateurs. Observa;2754-2769;type=N_KON_N, form=parc et jardins
+2;05bsv_jevi_20190502_cle8f22b6;t Gesvres et région;lavalloise, jardins;jardins;;d'amateurs. Observa;4092-4111;type=N_PUN_N, form=lavalloise, jardins
+3;05bsv_jevi_20190502_cle8f22b6;s et cœur du bocage;vendéen, jardins;jardins;;d'amateurs. Aphrop;5177-5193;type=N_PUN_N, form=vendéen, jardins
+4;05bsv_jevi_20190502_cle8f22b6;entices du potager (;betterave, chénopode, épinard, poirée;betterave, épinard, poirée;chénopode;ou bette à cardes..;12597-12634;type=N_PUN_N, form=betterave, chénopode, épinard, poirée
+5;05bsv_jevi_20190502_cle8f22b6;Loire (49), potager;d'amateurs et jardin;jardin;;associatif. Hépial;13788-13808;type=N_KON_N, form=d'amateurs et jardin
+6;05bsv_jevi_20190502_cle8f22b6;u et cœur du bocage;vendéen, vergers;vergers;;d'amateurs. Carpoc;14587-14603;type=N_PUN_N, form=vendéen, vergers
+7;05bsv_jevi_20190502_cle8f22b6;en France : Arbres;fruitiers et vignes;vignes;;: Malus domestica (;21217-21236;type=N_KON_N, form=fruitiers et vignes
+8;05bsv_jevi_20190502_cle8f22b6;rier), Prunus spp. (;prunier, cerisier, abricotier;prunier, cerisier, abricotier;;, pêcher ), Citrus s;21305-21334;type=N_PUN_N, form=prunier, cerisier, abricotier
+9;13_HORTI_Als_cle02386b;ERANIUMS Contre les;champignons et les;champignons;;bactéries, le lavag;575-593;type=N_KON_N, form=champignons et les
+10;13_HORTI_Als_cle02386b;en contact avec des;bactéries, champignons et virus;champignons;;, il convient de les;800-831;type=N_PUN_N_KON_N, form=bactéries, champignons et virus
+11;13_HORTI_Als_cle02386b;voir telles que les;poinsettias et les;poinsettias;;pensées. Thrips, pu;4163-4181;type=N_KON_N, form=poinsettias et les
+12;13_HORTI_Als_cle02386b;diverses telles que;géranium, impatiens, chrysanthème;géranium, chrysanthème;;, etc., et ce, malgr;4543-4576;type=N_PUN_N, form=géranium, impatiens, chrysanthème
+13;19bsv_jevi_20181108_cle871314;en région. Espaces;verts et jardins;jardins;;d'amateurs. Régions;775-791;type=N_KON_N, form=verts et jardins
+14;19bsv_jevi_20181108_cle871314;bservations Espaces;verts et jardins;jardins;;privés en région. O;2590-2606;type=N_KON_N, form=verts et jardins
+15;19bsv_jevi_20181108_cle871314;surtout lorsque les;pins et cèdres;pins;cèdres;colonisés par les p;3015-3029;type=N_KON_N, form=pins et cèdres
+16;19bsv_jevi_20181108_cle871314;des jardins privés,;parcs, espaces;parcs;;publics, Il faut êt;3116-3130;type=N_PUN_N, form=parcs, espaces
+17;2015-05-28_BSV_Grandes_Cultures_01_cle8ba414;UX page 17 Stades :;Pois, Féverole;Pois, Féverole;;: Début Floraison T;949-963;type=N_PUN_N, form=Pois, Féverole
+18;2017_BSV_manche_10_sem21_cle8d2aee;ns le nord Cotentin.;Carotte, céleri, persil;Carotte, céleri, persil;;: toujours des capt;847-870;type=N_PUN_N, form=Carotte, céleri, persil
+19;2017_BSV_manche_10_sem21_cle8d2aee;. Nuisibilité : Sur;oignon, les;oignon;;thrips sont souvent;6114-6125;type=N_PUN_N, form=oignon, les
+20;2017_BSV_manche_10_sem21_cle8d2aee;es racines comme le;navet et le;navet;;radis sont sensible;12527-12538;type=N_KON_N, form=navet et le
+21;2017_BSV_manche_10_sem21_cle8d2aee;a plantation.Céleri;branche et persil;persil;;: 10% de plants ave;16635-16652;type=N_KON_N, form=branche et persil
+22;2017_BSV_manche_33_sem44_cle8f1de5;es dernières séries.;Carotte, céleri, persil;Carotte, céleri, persil;;: le troisième vol;517-540;type=N_PUN_N, form=Carotte, céleri, persil
+23;2017_BSV_manche_33_sem44_cle8f1de5;sensibles comme la;laitue, le;laitue;;céleri-rave, la pha;4258-4268;type=N_PUN_N, form=laitue, le
+24;55_02_note_commune_resistance_fongicides_maladies_cereales_2006_cle86a116;famille donnée. Sur;blé, la;blé;;généralisation de l;5285-5292;type=N_PUN_N, form=blé, la
+25;55_02_note_commune_resistance_fongicides_maladies_cereales_2006_cle86a116;zèbe ou folpel) Sur;blé, l'oïdium;blé;;est majoritairement;5630-5643;type=N_PUN_N, form=blé, l'oïdium
+26;55_02_note_commune_resistance_fongicides_maladies_cereales_2006_cle86a116;de strobilurine sur;orge et escourgeon;orge, escourgeon;;sauf en situation d;6034-6052;type=N_KON_N, form=orge et escourgeon
+27;BSV05_GC_LOR_S13_2020_cle4419d7;ancée des stades du;colza, l'observation;colza;;de l'accumulation d;10846-10866;type=N_PUN_N, form=colza, l'observation
+28;BSV971_BanCas_N04_cle08e5ae;Numéro 04 Filières;Banane et Canne;Banane;;-à-Sucre Données : J;92-107;type=N_KON_N, form=Banane et Canne
+29;BSV971_BanCas_N04_cle08e5ae;s filières majeures;banane et canne;banane;;-à-sucre. Nous vous;572-587;type=N_KON_N, form=banane et canne
+30;BSV971_BanCas_N04_cle08e5ae;uadeloupe, Filières;Banane et Canne;Banane;;-à-Sucre, Numéro 04;3536-3551;type=N_KON_N, form=Banane et Canne
+31;BSV971_BanCas_N04_cle08e5ae;dans les parcelles;commerciales, jardins;jardins;;créoles et privés,;5506-5527;type=N_PUN_N, form=commerciales, jardins
+32;BSV971_BanCas_N04_cle08e5ae;uadeloupe, Filières;Banane et Canne;Banane;;-à-Sucre, Numéro 04;7004-7019;type=N_KON_N, form=Banane et Canne
+33;BSV971_BanCas_N04_cle08e5ae;uadeloupe, Filières;Banane et Canne;Banane;;-à-Sucre, Numéro 04;9517-9532;type=N_KON_N, form=Banane et Canne
+34;BSV971_BanCas_N04_cle08e5ae;te-Claire, Moulin à;eau, Bois;Bois;;Debout, La Regretté;10235-10244;type=N_PUN_N, form=eau, Bois
+35;BSV971_BanCas_N04_cle08e5ae;ation des spores du;champignon et la;champignon;;dissémination de la;11543-11559;type=N_KON_N, form=champignon et la
+36;BSV971_BanCas_N04_cle08e5ae;uadeloupe, Filières;Banane et Canne;Banane;;-à-Sucre, Numéro 04;11614-11629;type=N_KON_N, form=Banane et Canne
+37;BSV971_BanCas_N04_cle08e5ae;uadeloupe, Filières;Banane et Canne;Banane;;-à-Sucre, Numéro 04;14659-14674;type=N_KON_N, form=Banane et Canne
+38;BSV971_BanCas_N04_cle08e5ae;uadeloupe, Filières;Banane et Canne;Banane;;-à-Sucre, Numéro 04;17704-17719;type=N_KON_N, form=Banane et Canne
+39;BSV971_CulturesVivrieres-Bilan2018_cle81e161;mois et 4 mois. Les;ignames et patates;patates;;douces sont plantée;3817-3835;type=N_KON_N, form=ignames et patates
+40;BSV_5_VF_cle84611d;en mirabelle, F en;poire et E2;poire;;en pomme. Photos M.;2052-2063;type=N_KON_N, form=poire et E2
+41;BSV_5_VF_cle84611d;erger. BSV n°5 P.6;Prunes et Cerises;Prunes, Cerises;;1. Monilia fleur Le;11262-11279;type=N_KON_N, form=Prunes et Cerises
+42;BSV_AF_5_15_mars_2019_cle452e6e;cardie des filières;pommes et poires;pommes, poires;;: François Hanquart;11127-11143;type=N_KON_N, form=pommes et poires
+43;BSV_AF_n19_du_11052017-1_cle84e61b;cardie des filières;pommes et poires;pommes, poires;;: François Hanquart;15763-15779;type=N_KON_N, form=pommes et poires
+44;BSV_AF_n30_du_25052018_cle0ca846;cardie des filières;pommes et poires;pommes, poires;;: François Hanquart;3008-3024;type=N_KON_N, form=pommes et poires
+45;BSV_AF_n34_du_16072019_cle0a1d81;cardie des filières;pommes et poires;pommes, poires;;: François Hanquart;32858-32874;type=N_KON_N, form=pommes et poires
+46;BSV_ARBO_2017_35_cle4d79ba;me de terre légumes;industriels, arboriculture, maraîchage, pépinière;arboriculture, maraîchage, pépinière;;horticulture, JEVI;10002-10051;type=N_PUN_N, form=industriels, arboriculture, maraîchage, pépinière
+47;BSV_ARBO_2018_11_cle44752f;me de terre légumes;industriels, arboriculture, maraîchage, pépinière;arboriculture, maraîchage, pépinière;;horticulture, zones;2919-2968;type=N_PUN_N, form=industriels, arboriculture, maraîchage, pépinière
+48;BSV_ARBO_2018_11_cle44752f;raîchage, pépinière;horticulture, zones;horticulture;;non agricoles. Le B;2969-2988;type=N_PUN_N, form=horticulture, zones
+49;BSV_Arboriculture-Fruits_transformes__Bretagne-Normandie-Pays_de_la_Loire_no15_du_17-06-2020_cle0d4baf;u développement des;champignons, ceux-ci;champignons;;entrent dans le vég;2016-2036;type=N_PUN_N, form=champignons, ceux-ci
+50;BSV_Arboriculture-Fruits_transformes__Bretagne-Normandie-Pays_de_la_Loire_no15_du_17-06-2020_cle0d4baf;judiciable pour les;pommes et les;pommes;;poires de table. Ca;7536-7549;type=N_KON_N, form=pommes et les
+51;BSV_Arboriculture-Fruits_transformes__Bretagne-Normandie-Pays_de_la_Loire_no_17_du_26-06-2018_cle861251;u développement des;champignons, ceux-ci;champignons;;entrent dans le vég;1621-1641;type=N_PUN_N, form=champignons, ceux-ci
+52;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;but juillet sur des;abricots et pêches;abricots, pêches;;restant sur les arb;15294-15312;type=N_KON_N, form=abricots et pêches
+53;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;problématiques sur;pêches, abricots;pêches, abricots;;et prunes cette ann;15717-15733;type=N_PUN_N, form=pêches, abricots
+54;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;Vallée du Rhône sur;abricots et pêches;abricots, pêches;;(chenilles visibles;17021-17039;type=N_KON_N, form=abricots et pêches
+55;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;ois de juin sur des;pêchers et abricotiers;pêchers, abricotiers;;conduits en Agricul;17339-17361;type=N_KON_N, form=pêchers et abricotiers
+56;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;en environnement de;pépinière et vergers;pépinière, vergers;;donneurs de greffon;19266-19286;type=N_KON_N, form=pépinière et vergers
+57;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;(principalement sur;prunier et abricotier;prunier, abricotier;;) peut dans certaine;24688-24709;type=N_KON_N, form=prunier et abricotier
+58;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;ectre de végétaux :;vignes, oliviers, arbres;vignes, oliviers;;fruitiers (Prunus),;46463-46487;type=N_PUN_N, form=vignes, oliviers, arbres
+59;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;fruitiers (Prunus),;agrumes, caféiers, chênes, luzerne;agrumes, caféiers, chênes, luzerne;;, etc.A ce jour, six;46508-46542;type=N_PUN_N, form=agrumes, caféiers, chênes, luzerne
+60;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;es suspectes sur un;olivier, un;olivier;;laurier, un chêne l;47384-47395;type=N_PUN_N, form=olivier, un
+61;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;sur un olivier, un;laurier, un;laurier;;chêne le 24 avril à;47396-47407;type=N_PUN_N, form=laurier, un
+62;BSV_Bilan_Fruits_a_noyau_2018_cle888e1e;e-Alpes sur pêcher,;abricotier, prunier et cerisier;abricotier, prunier, cerisier;;. Elles se sont déro;47732-47763;type=N_PUN_N_KON_N, form=abricotier, prunier et cerisier
+63;BSV_Cassis_n_05_du_10_mai_2012_cle09e263;t en place dans les;vergers et les;vergers;;cultures légumières;1743-1757;type=N_KON_N, form=vergers et les
+64;BSV_Cereales_paille_14_cle09e79d;(retour fréquent de;blé, variété;blé;;sensible, milieu fa;3912-3924;type=N_PUN_N, form=blé, variété
+65;BSV_Cereales_paille_14_cle09e79d;(retour fréquent de;blé, variété;blé;;sensible, milieu fa;17050-17062;type=N_PUN_N, form=blé, variété
+66;BSV_Colza_no08-05avril18_cle866147;nçons de la tige du;colza, la;colza;;moyenne est de 2,7(;1871-1880;type=N_PUN_N, form=colza, la
+67;BSV_Colza_no08-05avril18_cle866147;st conditionnée par;l'état du colza, le nombre de piqûres et la dynamique de croissance;colza;;des tiges. Toute pi;3867-3934;type=N_PUN_N_KON_N, form=l'état du colza, le nombre de piqûres et la dynamique de croissance
+68;BSV_Colza_no24-20nov2019_cle8157b8;es par la mouche du;chou, points;chou;;verts sur la carte;7858-7870;type=N_PUN_N, form=chou, points
+69;BSV_GC_NA_Limousin_18_20200901_cle088995;aniques, précédents;protéagineux, reliquats;protéagineux;;post-récolte élevés;11063-11086;type=N_PUN_N, form=protéagineux, reliquats
+70;BSV_GC_NA_Limousin_18_20200901_cle088995;ue, semer tôt : sur;colza, les;colza;;semis tardifs sont;13895-13905;type=N_PUN_N, form=colza, les
+71;BSV_GC_n_15_du_10_mars_2015_cle0bc9b5;ançon de la tige du;colza, le;colza;;charançon de la tig;4326-4335;type=N_PUN_N, form=colza, le
+72;BSV_GC_n_22_du_30_avril_2013_cle82bfbf;a dans la rotation (;colza, tournesol, soja, pois;colza, tournesol, soja, pois;;), les attaques rec;4826-4854;type=N_PUN_N, form=colza, tournesol, soja, pois
+73;BSV_GC_n_22_du_30_avril_2013_cle82bfbf;ultures mellifères (;colza, tournesol, féverole, luzerne, maïs;colza, tournesol, féverole, luzerne, maïs;;, CIPAN ) en début d;18956-18997;type=N_PUN_N, form=colza, tournesol, féverole, luzerne, maïs
+74;BSV_GRANDES_CULTURES_2017_No5_cle8b8eff;me de terre légumes;industriels, arboriculture, maraîchage, pépinière;arboriculture, maraîchage, pépinière;;horticulture, zones;15376-15425;type=N_PUN_N, form=industriels, arboriculture, maraîchage, pépinière
+75;BSV_GRANDES_CULTURES_2017_No5_cle8b8eff;raîchage, pépinière;horticulture, zones;horticulture;;non agricoles. Pour;15426-15445;type=N_PUN_N, form=horticulture, zones
+76;BSV_GRANDES_CULTURES_2018_No38_cle0b961f;NT Pomme de terre :;MILEOS et Oignon;Oignon;;: MILONI : FREDON I;16587-16603;type=N_KON_N, form=MILEOS et Oignon
+77;BSV_GRANDES_CULTURES_2018_No38_cle0b961f;me de terre légumes;industriels, arboriculture, maraîchage, pépinière;arboriculture, maraîchage, pépinière;;horticulture, JEVI.;17016-17065;type=N_PUN_N, form=industriels, arboriculture, maraîchage, pépinière
+78;BSV_JEVI_4_24_juillet_2019_cle4fa1b8;airement à d'autres;champignons, les;champignons;;spores d'oïdium n'o;3417-3433;type=N_PUN_N, form=champignons, les
+79;BSV_JEVI_4_24_juillet_2019_cle4fa1b8;oins importante des;chênes, le;chênes;;Bulletin de Santé d;7197-7207;type=N_PUN_N, form=chênes, le
+80;BSV_JEVI_4_24_juillet_2019_cle4fa1b8;ffecter de nombreux;végétaux, oliviers, Prunus;oliviers;;(pêchers, amandiers;22971-22997;type=N_PUN_N, form=végétaux, oliviers, Prunus
+81;BSV_JEVI_4_24_juillet_2019_cle4fa1b8;, oliviers, Prunus (;pêchers, amandiers;pêchers, amandiers;;), laurier rose, vig;22999-23017;type=N_PUN_N, form=pêchers, amandiers
+82;BSV_JEVI_4_24_juillet_2019_cle4fa1b8;amandiers), laurier;rose, vigne, agrumes, caféiers, chênes;rose, vigne, agrumes, caféiers, chênes;;Les dépérissements;23028-23066;type=N_PUN_N, form=rose, vigne, agrumes, caféiers, chênes
+83;BSV_JEVI_4_24_juillet_2019_cle4fa1b8;plus attaqués sont;l'avocat, la mangue et la papaye;mangue, papaye;;mais l'espèce s'en;25795-25827;type=N_PUN_N_KON_N, form=l'avocat, la mangue et la papaye
+84;BSV_JEVI_4_24_juillet_2019_cle4fa1b8;s'en prend aussi au;citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café;citron, goyave, banane, tomate, cerise, kaki, ananas, pêche, poire, abricot, figue, café;"fruit de passion,
+nèfle du japon,
+cerise de cayenne";. Les légumes concer;25862-26000;type=N_PUN_N_KON_N, form=citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café
+85;BSV_JEVI_4_24_juillet_2019_cle4fa1b8;rnés sont notamment;les tomates, poivrons, melons et courges;tomates, poivrons, melons, courges;;. Bulletin de Santé;26039-26079;type=N_PUN_N_KON_N, form=les tomates, poivrons, melons et courges
+86;BSV_Legumes_082019_cle841c8f-1;bservée sur oignons;bulbilles et ciboule;ciboule;;à Loos-en-Gohelle (;7357-7377;type=N_KON_N, form=bulbilles et ciboule
+87;BSV_Legumes_082019_cle841c8f-1;ltures d'alliacées (;poireaux, ciboulette, ail;poireaux, ciboulette, ail;;) pour détecter d'é;7556-7581;type=N_PUN_N, form=poireaux, ciboulette, ail
+88;BSV_Legumes_082019_cle841c8f-1;ue pour les oignons;bulbilles et échalotes;échalotes;;de plantation, oign;8557-8579;type=N_KON_N, form=bulbilles et échalotes
+89;BSV_Legumes_082019_cle841c8f-1;les et échalotes de;plantation, oignon;oignon;;"de semis dit "" préc";8583-8601;type=N_PUN_N, form=plantation, oignon
+90;BSV_Legumes_082019_cle841c8f-1;ntes observées. Sur;oignon, le;oignon;;risque est très fai;11642-11652;type=N_PUN_N, form=oignon, le
+91;BSV_Legumes_082019_cle841c8f-1;40 plantes hôtes) :;haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme;haricot, concombre, épinard, tomate, radis, navet, oignon, poireau;;de terre Les femell;19753-19826;type=N_PUN_N, form=haricot, concombre, épinard, tomate, radis, navet, oignon, poireau, pomme
+92;BSV_Legumes_082019_cle841c8f-1;"DELASSUS-PLRN; Chou-";fleur, choux;choux;;": F. SIMEON -PLRN;";22408-22420;type=N_PUN_N, form=fleur, choux
+93;BSV_Legumes_082019_cle841c8f-1;conserve, Haricots;verts et Scorsonères;Scorsonères;;: L. NIVET-UNILET -;22542-22562;type=N_KON_N, form=verts et Scorsonères
+94;BSV_Legumes_322019_2__cle44e13b;on des parcelles de;haricot et flageolet;haricot, flageolet;;: Ravageu;9553-9573;type=N_KON_N, form=haricot et flageolet
+95;BSV_Legumes_322019_2__cle44e13b;"DELASSUS-PLRN; Chou-";fleur, choux;choux;;": F. SIMEON -PLRN;";13582-13594;type=N_PUN_N, form=fleur, choux
+96;BSV_Legumes_322019_2__cle44e13b;conserve, Haricots;verts et Scorsonères;Scorsonères;;: L. NIVET-UNILET -;13712-13732;type=N_KON_N, form=verts et Scorsonères
+97;BSV_MARAICHAGE_2018-17_cle04f12d;me de terre légumes;industriels, arboriculture, maraîchage, pépinière;arboriculture, maraîchage, pépinière;;horticulture, zones;12403-12452;type=N_PUN_N, form=industriels, arboriculture, maraîchage, pépinière
+98;BSV_MARAICHAGE_2018-17_cle04f12d;raîchage, pépinière;horticulture, zones;horticulture;;non agricoles. Page;12453-12472;type=N_PUN_N, form=horticulture, zones
+99;BSV_MARAICHAGE_2019_07_cle0cc493;même famille comme;la tomate, l'aubergine et le poivron;tomate, poivron;;. Cette bactérie peu;874-910;type=N_PUN_N_KON_N, form=la tomate, l'aubergine et le poivron
+100;BSV_MARAICHAGE_2019_07_cle0cc493;ce-amère, la grande;ortie, les moutardes et le chénopode;ortie, moutardes;chénopode;blanc. Photos de mo;1043-1079;type=N_PUN_N_KON_N, form=ortie, les moutardes et le chénopode
+101;BSV_MARAICHAGE_2019_07_cle0cc493;llifères (carottes,;panais, céleris, persil, fenouil, cerfeuil;panais, céleris, persil, fenouil, cerfeuil;;). Eloigner les par;11456-11498;type=N_PUN_N, form=panais, céleris, persil, fenouil, cerfeuil
+102;BSV_MARAICHAGE_2019_07_cle0cc493;ges pour la mouche (;haies, bosquets, forêts;forêts;"
+bosquets";). Compte tenu du s;11611-11634;type=N_PUN_N, form=haies, bosquets, forêts
+103;BSV_MARAICHAGE_2019_07_cle0cc493;elle se trouve sur;salades, chou, pomme;salades, chou;;de terre, épinard,;12244-12264;type=N_PUN_N, form=salades, chou, pomme
+104;BSV_MARAICHAGE_2019_07_cle0cc493;des, chou, pomme de;terre, épinard, haricot;épinard, haricot;;. Le papillon mesur;12268-12291;type=N_PUN_N, form=terre, épinard, haricot
+105;BSV_MARAICHAGE_2019_07_cle0cc493;le chou-fleur, les;choux, le;choux;;colza, la moutarde;14815-14824;type=N_PUN_N, form=choux, le
+106;BSV_MARAICHAGE_2019_07_cle0cc493;leur, les choux, le;colza, la;colza;;moutarde des champs;14825-14834;type=N_PUN_N, form=colza, la
+107;BSV_MARAICHAGE_2019_07_cle0cc493;ultures fruitières (;pêchers, poiriers, mangue, banane;pêchers, poiriers, mangue, banane;;...), agrumes (citro;18110-18143;type=N_PUN_N, form=pêchers, poiriers, mangue, banane
+108;BSV_MARAICHAGE_2019_07_cle0cc493;...) et légumières (;tomate, poivron, melon, courge;tomate, poivron, melon, courge;;...). La présence de;18192-18222;type=N_PUN_N, form=tomate, poivron, melon, courge
+109;BSV_MARAICHAGE_2019_07_cle0cc493;a communautaire des;fruits et légumes;légumes;;. La surveillance de;18413-18430;type=N_KON_N, form=fruits et légumes
+110;BSV_MARAICHAGE_2019_07_cle0cc493;me de terre légumes;industriels, arboriculture, maraîchage, pépinière;arboriculture, maraîchage, pépinière;;horticulture. Page;21652-21701;type=N_PUN_N, form=industriels, arboriculture, maraîchage, pépinière
+111;BSV_MARAICHAGE_Nord_NA_24_20201021_cle8b8312;ive de cet insecte.;Carotte et céleri;Carotte, céleri;;-rave Mouche de la;1755-1772;type=N_KON_N, form=Carotte et céleri
+112;BSV_MARAICHAGE_Nord_NA_24_20201021_cle8b8312;1 octobre 2020 4/8;Carotte et céleri;Carotte, céleri;;-rave Mouche de la c;8203-8220;type=N_KON_N, form=Carotte et céleri
+113;BSV_MARAICHAGE_Nord_NA_24_20201021_cle8b8312;de la mouche de la;carotte, la;carotte;;réalisation de piég;8318-8329;type=N_PUN_N, form=carotte, la
+114;BSV_MARAICHAGE_Nord_NA_24_20201021_cle8b8312;pour une culture de;carotte, le;carotte;;double pour le céle;10654-10665;type=N_PUN_N, form=carotte, le
+115;BSV_MARAICHAGE_Nord_NA_24_20201021_cle8b8312;s de plantations de;salades, semis;salades;;de radis ). Les lim;13830-13844;type=N_PUN_N, form=salades, semis
+116;BSV_MARAICHAGE_Nord_NA_24_20201021_cle8b8312;xemple). Dégâts sur;choux et chenille;choux;;de Mamestra brassic;14999-15016;type=N_KON_N, form=choux et chenille
+117;BSV_NA_CHATAIGNIER_GSO_09_20190919_cle868eba;e l'enveloppe de la;châtaigne et s'enfonce;châtaigne;;dans le sol. Elle t;1818-1840;type=N_KON_N, form=châtaigne et s'enfonce
+118;BSV_NA_CULTURES_LEGUMIERES-Nord_NA__20_20170830_cle02661b;es plus concernées.;Carotte et céleri;Carotte, céleri;;-rave Mouche de la c;1618-1635;type=N_KON_N, form=Carotte et céleri
+119;BSV_NA_CULTURES_LEGUMIERES-Nord_NA__20_20170830_cle02661b;es à ce champignon.;Carotte et céleri;Carotte, céleri;;-rave Taches typique;7357-7374;type=N_KON_N, form=Carotte et céleri
+120;BSV_NA_CULTURES_LEGUMIERES-Nord_NA__20_20170830_cle02661b;de la mouche de la;carotte, la;carotte;;réalisation de piég;7528-7539;type=N_PUN_N, form=carotte, la
+121;BSV_NA_CULTURES_LEGUMIERES-Nord_NA__20_20170830_cle02661b;st mis en place sur;céleri et carotte;céleri, carotte;;. Site Nombre de mou;7653-7670;type=N_KON_N, form=céleri et carotte
+122;BSV_NA_CULTURES_LEGUMIERES-Nord_NA__20_20170830_cle02661b;niques) Altises sur;radis et rutabagas;radis, rutabagas;;En Charente, on obs;19820-19838;type=N_KON_N, form=radis et rutabagas
+123;BSV_NA_CULTURES__LEGUMIERES-Nord_Nouvelle_Aquitaine_n_28_cle424df5;portement variétal.;Carotte et céleri;Carotte, céleri;;-rave Mouche de la c;1702-1719;type=N_KON_N, form=Carotte et céleri
+124;BSV_NA_CULTURES__LEGUMIERES-Nord_Nouvelle_Aquitaine_n_28_cle424df5;tion de ce ravageur;Carotte et céleri;Carotte, céleri;;-rave Mouche de la c;4673-4690;type=N_KON_N, form=Carotte et céleri
+125;BSV_NA_CULTURES__LEGUMIERES-Nord_Nouvelle_Aquitaine_n_28_cle424df5;de la mouche de la;carotte, la;carotte;;réalisation de piég;4788-4799;type=N_PUN_N, form=carotte, la
+126;BSV_NA_CULTURES__LEGUMIERES-Nord_Nouvelle_Aquitaine_n_28_cle424df5;st mis en place sur;céleri et carotte;céleri, carotte;;. Site 17 18 19 20 N;4913-4930;type=N_KON_N, form=céleri et carotte
+127;BSV_NA_GC_AQUITAINE_N09_20190404_cle0279a3;ne (blé tendre, blé;dur, triticale, orge;triticale, orge;;) Cette semaine, un;4781-4801;type=N_PUN_N, form=dur, triticale, orge
+128;BSV_NA_GC_AQUITAINE_N09_20190404_cle0279a3;ille jaune. Oïdium (;orge, triticale, blé;orge, triticale, blé;;) Des symptômes d'oï;5756-5776;type=N_PUN_N, form=orge, triticale, blé
+129;BSV_NA_GC_AQUITAINE_N09_20190404_cle0279a3;variétés sensibles (;orge et triticale;orge, triticale;;). A consulter : Gui;6793-6810;type=N_KON_N, form=orge et triticale
+130;BSV_NA_GC_AQUITAINE_N09_20190404_cle0279a3;3) Rhynchosporiose (;orge, triticale;orge, triticale;;) Pas de nouveau sig;6986-7001;type=N_PUN_N, form=orge, triticale
+131;BSV_NA_GC_AQUITAINE_N09_20190404_cle0279a3;s sensibles dans la;rotation, colza;colza;;en particulier (tou;19046-19061;type=N_PUN_N, form=rotation, colza
+132;BSV_NA_GC_AQUITAINE_N09_20190404_cle0279a3;lza en particulier (;tournesol, soja, cultures;tournesol, soja;;"légumières ) ;- les";19078-19103;type=N_PUN_N, form=tournesol, soja, cultures
+133;BSV_NA_GC_Aquitaine_N5_20180322_cle4a4445;2018 2/10 Oïdium (;blé, triticale, orge;blé, triticale, orge;;) Pas d'autre symptô;5187-5207;type=N_PUN_N, form=blé, triticale, orge
+134;BSV_NA_GC_Aquitaine_N5_20180322_cle4a4445;ity. Rouille jaune (;blé, orge, triticale;blé, orge, triticale;;) Aucun symptôme n'e;5726-5746;type=N_PUN_N, form=blé, orge, triticale
+135;BSV_NA_GC_Aquitaine_N5_20180322_cle4a4445;le stade, l'état du;colza, le;colza;;nombre de méligèthe;12857-12866;type=N_PUN_N, form=colza, le
+136;BSV_NA_KIWI_15_20190613_cle86b7d5;es cours d'eau avec;ronces et orties;ronces, orties;;) et le broyage des;3143-3159;type=N_KON_N, form=ronces et orties
+137;BSV_NA_POMMIER_NORD_18_20170719_cle4a8443;ites frugivores sur;pommes, cicadelles;pommes;;blanches et vertes,;2066-2084;type=N_PUN_N, form=pommes, cicadelles
+138;BSV_NA_POMMIER_NORD_18_20170719_cle4a8443;dans les pousses du;pommier, cochenilles;pommier;;à bouclier présente;2245-2265;type=N_PUN_N, form=pommier, cochenilles
+139;BSV_NA_POMMIER_NORD_18_20170719_cle4a8443;précédentes, jeune;verger, variétés;verger;;telles que Reinette;11605-11621;type=N_PUN_N, form=verger, variétés
+140;BSV_NA_POMMIER_NORD_18_20170719_cle4a8443;présence de bois à;proximité, vergers;vergers;;vigoureux), il est;12148-12166;type=N_PUN_N, form=proximité, vergers
+141;BSV_NA_POMMIER_NORD_18_20170719_cle4a8443;les chancres sur le;bois et les;bois;;fruits momifiés, év;16795-16806;type=N_KON_N, form=bois et les
+142;BSV_NA_POMMIER_POIRIER_Sud_18_20180726_cle8d7184;es cours d'eau avec;ronces et orties;ronces, orties;;) et le broyage des;18883-18899;type=N_KON_N, form=ronces et orties
+143;BSV_NA_POMMIER_POIRIER_Sud_8_20190404_cle0177e8;"r ; stade E2-F pour";Gala, stade;Gala;;F pour Granny. Stad;2011-2022;type=N_PUN_N, form=Gala, stade
+144;BSV_NA_POMMIER_POIRIER_Sud_8_20190404_cle0177e8;sion carpocapse des;pommes, la;pommes;;mise en place des d;12943-12953;type=N_PUN_N, form=pommes, la
+145;BSV_NA_POMMIER_POIRIER_Sud_8_20190404_cle0177e8;user des dégâts sur;pommiers et poiriers;pommiers, poiriers;;. Les piqûres réalis;14402-14422;type=N_KON_N, form=pommiers et poiriers
+146;BSV_NA_POMMIER_POIRIER_Sud_8_20190404_cle0177e8;t en place dans les;"vergers
+    et les";vergers;;cultures légumières;19681-19699;"type=N_KON_N, form=vergers
+    et les"
+147;BSV_NA_VIGNE_CHARENTE_03_20170419_cle86a6e5;s de la Vigne et du;Vin, la;Vin;;Station Viticole du;10362-10369;type=N_PUN_N, form=Vin, la
+148;BSV_NA_VIGNE_Limousin_06_20180515_cle841333;directement sur le;bois, les;bois;;contaminations prim;6944-6953;type=N_PUN_N, form=bois, les
+149;BSV_Olivier_20200902_N13_cle8395b6;éditPhoto : SIOVB À;droite, Olives;Olives;;fripées, Crédit pho;2384-2398;type=N_PUN_N, form=droite, Olives
+150;BSV_Ornement_Normandie_n-09-2017_cle03389c;ment s'observer sur;charme, noisetier, hêtre et tilleul;noisetier, tilleul;"hêtre,
+charme";. Page 1/5 Cultures;1635-1670;type=N_PUN_N_KON_N, form=charme, noisetier, hêtre et tilleul
+151;BSV_Ornement_Normandie_n-09-2017_cle03389c;aques de la Lyda du;poirier, Neurotoma;poirier;;saltuum, ont été ob;4624-4642;type=N_PUN_N, form=poirier, Neurotoma
+152;BSV_Ornement_Normandie_n-09-2017_cle03389c;t été signalées sur;chêne et amélanchier;chêne;amélanchier;cultivés en pleine;8093-8113;type=N_KON_N, form=chêne et amélanchier
+153;BSV_Presentation_du_reseau_2018_cle4a84c9;éseau 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;2407-2425;type=N_PUN_N, form=fruitières, région
+154;BSV_Presentation_du_reseau_2018_cle4a84c9;éseau 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;3536-3554;type=N_PUN_N, form=fruitières, région
+155;BSV_Presentation_du_reseau_2018_cle4a84c9;éseau 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;4555-4573;type=N_PUN_N, form=fruitières, région
+156;BSV_Presentation_du_reseau_2018_cle4a84c9;éseau 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;8298-8316;type=N_PUN_N, form=fruitières, région
+157;BSV_Presentation_du_reseau_2018_cle4a84c9;éseau 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;10836-10854;type=N_PUN_N, form=fruitières, région
+158;BSV_Presentation_du_reseau_2018_cle4a84c9;éseau 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;12493-12511;type=N_PUN_N, form=fruitières, région
+159;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;veaux symptômes sur;pommier et poirier;pommier, poirier;;, pression forte- To;2129-2147;type=N_KON_N, form=pommier et poirier
+160;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;3274-3292;type=N_PUN_N, form=fruitières, région
+161;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;s d'entrée pour les;champignons et bactéries;champignons;;. Soyez particulière;3687-3711;type=N_KON_N, form=champignons et bactéries
+162;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;6505-6523;type=N_PUN_N, form=fruitières, région
+163;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;9431-9449;type=N_PUN_N, form=fruitières, région
+164;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;11870-11888;type=N_PUN_N, form=fruitières, région
+165;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;15098-15116;type=N_PUN_N, form=fruitières, région
+166;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;t pas favorables au;champignon, le;champignon;;risque sera nul. R;16519-16533;type=N_PUN_N, form=champignon, le
+167;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;t pas favorables au;champignon, le;champignon;;risque sera nul. Il;16732-16746;type=N_PUN_N, form=champignon, le
+168;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;17989-18007;type=N_PUN_N, form=fruitières, région
+169;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;19747-19765;type=N_PUN_N, form=fruitières, région
+170;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;22380-22398;type=N_PUN_N, form=fruitières, région
+171;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;24932-24950;type=N_PUN_N, form=fruitières, région
+172;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;26469-26487;type=N_PUN_N, form=fruitières, région
+173;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;29767-29785;type=N_PUN_N, form=fruitières, région
+174;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;32930-32948;type=N_PUN_N, form=fruitières, région
+175;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;35092-35110;type=N_PUN_N, form=fruitières, région
+176;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;PUA du 18/06/18 sur;pommier et poirier;pommier, poirier;;secteur;37956-37974;type=N_KON_N, form=pommier et poirier
+177;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;38606-38624;type=N_PUN_N, form=fruitières, région
+178;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;MIS du 18/06/18 sur;pommier et poirier;pommier, poirier;;secteur;38733-38751;type=N_KON_N, form=pommier et poirier
+179;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;40276-40294;type=N_PUN_N, form=fruitières, région
+180;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;PSE du 18/06/18 sur;pommier et poirier;pommier, poirier;;secteur;40527-40545;type=N_KON_N, form=pommier et poirier
+181;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;l de Carpocapse sur;pommier et poirier;pommier, poirier;;Toutes zones (Cumul;41186-41204;type=N_KON_N, form=pommier et poirier
+182;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;42582-42600;type=N_PUN_N, form=fruitières, région
+183;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;46038-46056;type=N_PUN_N, form=fruitières, région
+184;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;rés hors réseau sur;pommier et poirier;pommier, poirier;;dans le Rhône la se;46400-46418;type=N_KON_N, form=pommier et poirier
+185;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;49482-49500;type=N_PUN_N, form=fruitières, région
+186;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;50861-50879;type=N_PUN_N, form=fruitières, région
+187;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;51690-51708;type=N_PUN_N, form=fruitières, région
+188;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;54140-54158;type=N_PUN_N, form=fruitières, région
+189;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;ntroduction sont le;bois et les;bois;;produits faits de b;54611-54622;type=N_KON_N, form=bois et les
+190;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;s produits faits de;bois, les;bois;;matériaux d'emballa;54641-54650;type=N_PUN_N, form=bois, les
+191;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;iaux d'emballage en;bois et les;bois;;plants de pépinière;54676-54687;type=N_KON_N, form=bois et les
+192;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;n°19, 2018 Cultures;fruitières, région;fruitières;;AURA, édition du te;56584-56602;type=N_PUN_N, form=fruitières, région
+193;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;rnées Arboriculture;fruitière, pépinières;fruitière, pépinières;;d'ornement, jardins;69586-69607;type=N_PUN_N, form=fruitière, pépinières
+194;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;uitière, pépinières;d'ornement, jardins et espaces;jardins;;verts, forêts. Dist;69608-69638;type=N_PUN_N_KON_N, form=d'ornement, jardins et espaces
+195;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;jardins et espaces;verts, forêts;forêts;;. Distribution géogr;69639-69652;type=N_PUN_N, form=verts, forêts
+196;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;ntroduction sont le;bois et les;bois;;produits faits de b;70666-70677;type=N_KON_N, form=bois et les
+197;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;s produits faits de;bois, les;bois;;matériaux d'emballa;70696-70705;type=N_PUN_N, form=bois, les
+198;BSV_RA_ARBO_no19du19062018_cle4af8d5-1;iaux d'emballage en;bois et les;bois;;plants de pépinière;70731-70742;type=N_KON_N, form=bois et les
+199;BSV_ZNA-PO_20190527_N2_cle048919;;Jardins, espaces;Jardins;;verts et infrastruc;2-18;type=N_PUN_N, form=Jardins, espaces
+200;BSV_ZNA-PO_20190527_N2_cle048919;Charançon rouge du;palmier, Rhynchophorus;palmier;;ferrugineus .......;1073-1095;type=N_PUN_N, form=palmier, Rhynchophorus
+201;BSV_ZNA-PO_20190527_N2_cle048919;ont enregistrés sur;agrumes, hibiscus et rosiers;agrumes, hibiscus, rosiers;;dans les Alpes-Mari;2876-2904;type=N_PUN_N_KON_N, form=agrumes, hibiscus et rosiers
+202;BSV_ZNA-PO_20190527_N2_cle048919;nt été observés sur;agrumes et rosiers;agrumes, rosiers;;en pépinière orneme;11662-11680;type=N_KON_N, form=agrumes et rosiers
+203;BSV_ZNA-PO_20190527_N2_cle048919;de Bouc, Bagnols en;forêt, Cimetière;forêt;;américain de Dragui;17986-18002;type=N_PUN_N, form=forêt, Cimetière
+204;BSV_ZNA-PO_20190527_N2_cle048919;Unité expérimentale;Entomologie et Forêt;Forêt;;Méditerranéenne, Co;18164-18184;type=N_KON_N, form=Entomologie et Forêt
+205;BSV_ZNA_2018_N09_cle4f1dfc;a surface verte des;aiguilles et le;aiguilles;;feuillage prend alo;3153-3168;type=N_KON_N, form=aiguilles et le
+206;BSV_ZNA_2018_N09_cle4f1dfc;, Naturalis, Natura;Pro, Sou et Vigne;Vigne;;, Tournon sur Rhône,;7132-7149;type=N_PUN_N_KON_N, form=Pro, Sou et Vigne
+207;BSV_ZNA_n_04_du_29_avril_2011_cle8fd486;;Parcs, jardins;Parcs, jardins;;et autres zones non;2-16;type=N_PUN_N, form=Parcs, jardins
+208;BSV_ZNA_n_04_du_29_avril_2011_cle8fd486;ochaines semaines.;Parcs, jardins;Parcs, jardins;;et autres zones non;1986-2000;type=N_PUN_N, form=Parcs, jardins
+209;BSV_ZNA_n_04_du_29_avril_2011_cle8fd486;entaires : Cnips du;Châtaignier et Charançon;Châtaignier;;Rouge du Palmier. L;2609-2633;type=N_KON_N, form=Châtaignier et Charançon
+210;BSV_ZNA_n_04_du_29_avril_2011_cle8fd486;de Santé du Végétal;Parcs, jardins;Parcs, jardins;;et autres zones non;2776-2790;type=N_PUN_N, form=Parcs, jardins
+211;BSV_ZNA_n_04_du_29_avril_2011_cle8fd486;on financière de :;Parcs, jardins;Parcs, jardins;;et autres zones non;3706-3720;type=N_PUN_N, form=Parcs, jardins
+212;BSV_ZNA_n_04_du_29_avril_2011_cle8fd486;ons (non visibles);Parcs, jardins;Parcs, jardins;;et autres zones non;5001-5015;type=N_PUN_N, form=Parcs, jardins
+213;BSV_ZNA_n_04_du_29_avril_2011_cle8fd486;Palmiers attaqués;Parcs, jardins;Parcs, jardins;;et autres zones non;7947-7961;type=N_PUN_N, form=Parcs, jardins
+214;BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b;oles n° mai du 2013;Parcs, jardins et jardins;Parcs, jardins, jardins;;autres zones non zo;48-73;type=N_PUN_N_KON_N, form=Parcs, jardins et jardins
+215;BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b;oles n° mai du 2013;Parcs, jardins et jardins;Parcs, jardins, jardins;;autres zones non zo;1814-1839;type=N_PUN_N_KON_N, form=Parcs, jardins et jardins
+216;BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b;n(source internet);Parcs, jardins;Parcs, jardins;;et autres zones non;3362-3376;type=N_PUN_N, form=Parcs, jardins
+217;BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b;semble des arbres.;Parcs, jardins;Parcs, jardins;;et autres zones non;4618-4632;type=N_PUN_N, form=Parcs, jardins
+218;BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b;nitaire importants;Parcs, jardins;Parcs, jardins;;et autres zones non;5431-5445;type=N_PUN_N, form=Parcs, jardins
+219;BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b;t en place dans les;vergers et les;vergers;;cultures légumières;8308-8322;type=N_KON_N, form=vergers et les
+220;BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b;www.itsap.asso.fr;Parcs, jardins;Parcs, jardins;;et autres zones non;8835-8849;type=N_PUN_N, form=Parcs, jardins
+221;BSV_ZNA_n_05_du_31_mai_2013_cle0dcf4b;de santé du végétal;Parcs, jardins;Parcs, jardins;;et autres zones non;9025-9039;type=N_PUN_N, form=Parcs, jardins
+222;BSV_ZNA_n_13_du_21_septembre_2012_cle82a3a6;;Parcs, jardins;Parcs, jardins;;et autres zones non;2-16;type=N_PUN_N, form=Parcs, jardins
+223;BSV_ZNA_n_13_du_21_septembre_2012_cle82a3a6;l'automne. Dans les;parcs et jardins;parcs, jardins;;, elle peut nuire à;1211-1227;type=N_KON_N, form=parcs et jardins
+224;BSV_ZNA_n_13_du_21_septembre_2012_cle82a3a6;es source internet;Parcs, jardins;Parcs, jardins;;et autres zones non;1787-1801;type=N_PUN_N, form=Parcs, jardins
+225;BSV_ZNA_n_13_du_21_septembre_2012_cle82a3a6;ent du champignon.;Parcs, jardins;Parcs, jardins;;et autres zones non;3533-3547;type=N_PUN_N, form=Parcs, jardins
+226;BSV_ZNA_n_13_du_21_septembre_2012_cle82a3a6;Gazon A surveiller;Parcs, jardins;Parcs, jardins;;et autres zones non;4746-4760;type=N_PUN_N, form=Parcs, jardins
+227;BSV_ZNA_n_13_du_21_septembre_2012_cle82a3a6;t en place dans les;"vergers et
+les";vergers;;cultures légumières;6508-6522;"type=N_KON_N, form=vergers et
+les"
+228;BSV_ZNA_n_13_du_21_septembre_2012_cle82a3a6;de santé du végétal;Parcs, jardins;Parcs, jardins;;et autres zones non;7157-7171;type=N_PUN_N, form=Parcs, jardins
+229;BSV_arboriculture_25_du_23_05_19_cle077bda;ns 7 Carpocapse des;pommiers et poiriers;pommiers, poiriers;;(Cydia pomonella);1677-1697;type=N_KON_N, form=pommiers et poiriers
+230;BSV_arboriculture_25_du_23_05_19_cle077bda;puceron lanigère du;pommier, puceron;pommier;;mauve du poirier: A;2579-2595;type=N_PUN_N, form=pommier, puceron
+231;BSV_arboriculture_25_du_23_05_19_cle077bda;t, sur les variétés;Golden et Pink;Golden;pink lady;Lady, mais la situa;10264-10278;type=N_KON_N, form=Golden et Pink
+232;BSV_arboriculture_25_du_23_05_19_cle077bda;e du carpocapse des;pommes et poires;pommes, poires;;en cliquant sur ce;19359-19375;type=N_KON_N, form=pommes et poires
+233;BSV_arboriculture_25_du_23_05_19_cle077bda;variétés Belchard,;Gala et Jazz;Gala;;mais aussi en verge;27312-27324;type=N_KON_N, form=Gala et Jazz
+234;BSV_arboriculture_25_du_23_05_19_cle077bda;nectria : Delicious;rouges, Reinettes, Gala;Gala;"
+reinettes";, Breaburn, Conféren;28046-28069;type=N_PUN_N, form=rouges, Reinettes, Gala
+235;BSV_arboriculture_25_du_23_05_19_cle077bda;catif de risque Sur;pommier, le;pommier;;seuil indicatif de;30572-30583;type=N_PUN_N, form=pommier, le
+236;BSV_arboriculture_25_du_23_05_19_cle077bda;catif de risque Sur;pommier, le;pommier;;seuil indicatif de;31688-31699;type=N_PUN_N, form=pommier, le
+237;BSV_arboriculture_25_du_23_05_19_cle077bda;ûre de ponte sur la;cerise et un;cerise;;asticot sera bien v;36334-36346;type=N_KON_N, form=cerise et un
+238;BSV_arboriculture_25_du_23_05_19_cle077bda;sont à évacuer des;potagers et vergers;potagers, vergers;;: il faut les détru;38375-38394;type=N_KON_N, form=potagers et vergers
+239;BSV_arboriculture_25_du_23_05_19_cle077bda;us rouge, Belchard,;Gala, Reinettes;Gala;reinettes;, Breaburn, Conféren;45350-45365;type=N_PUN_N, form=Gala, Reinettes
+240;BSV_arboriculture_25_du_23_05_19_cle077bda;e du carpocapse des;pommes et poires;pommes, poires;;Tableau récapitulat;47865-47881;type=N_KON_N, form=pommes et poires
+241;BSV_arboriculture_31_du_20_06_19_cle016821;ns 4 Carpocapse des;pommiers et poiriers;pommiers, poiriers;;(Cydia pomonella);1486-1506;type=N_KON_N, form=pommiers et poiriers
+242;BSV_arboriculture_31_du_20_06_19_cle016821;rsistent. Sésie des;pommes, zeuzère;pommes;zeuzère;et cossus : le vol;2402-2417;type=N_PUN_N, form=pommes, zeuzère
+243;BSV_arboriculture_31_du_20_06_19_cle016821;celle de référence (;pommier et poirier;pommier, poirier;;) font remonter la p;9175-9193;type=N_KON_N, form=pommier et poirier
+244;BSV_arboriculture_31_du_20_06_19_cle016821;on des fruits : les;pommes et poires;pommes, poires;;piquées prennent un;9432-9448;type=N_KON_N, form=pommes et poires
+245;BSV_arboriculture_31_du_20_06_19_cle016821;e du carpocapse des;pommes et poires;pommes, poires;;en cliquant sur ce;10305-10321;type=N_KON_N, form=pommes et poires
+246;BSV_arboriculture_31_du_20_06_19_cle016821;s). Dans les jeunes;vergers, le;vergers;;seuil indicatif est;19990-20001;type=N_PUN_N, form=vergers, le
+247;BSV_arboriculture_31_du_20_06_19_cle016821;catif de risque Sur;pommier, le;pommier;;seuil indicatif de;22856-22867;type=N_PUN_N, form=pommier, le
+248;BSV_arboriculture_31_du_20_06_19_cle016821;catif de risque Sur;pommier, le;pommier;;seuil indicatif de;24888-24899;type=N_PUN_N, form=pommier, le
+249;BSV_arboriculture_31_du_20_06_19_cle016821;sont à évacuer des;potagers et vergers;potagers, vergers;;: il faut les détru;30084-30103;type=N_KON_N, form=potagers et vergers
+250;BSV_arboriculture_31_du_20_06_19_cle016821;e du carpocapse des;pommes et poires;pommes, poires;;Tableau r;37506-37522;type=N_KON_N, form=pommes et poires
+251;BSV_ge_legumes_no11_du_01-07-20_cle497eed;à risque : chou de;Milan, chou;chou;;à inflorescence, ch;16742-16753;type=N_PUN_N, form=Milan, chou
+252;BSV_ge_legumes_no11_du_01-07-20_cle497eed;ou de Milan, chou à;inflorescence, chou de Bruxelles et chou;chou de Bruxelles;;kale. Sur chou pomm;16756-16796;type=N_PUN_N_KON_N, form=inflorescence, chou de Bruxelles et chou
+253;BSV_ge_legumes_no11_du_01-07-20_cle497eed;es autres cultures (;poivron, tomate, concombre, courgette;poivron, tomate, concombre, courgette;;), aucun puceron n'a;41207-41244;type=N_PUN_N, form=poivron, tomate, concombre, courgette
+254;BSV_ge_legumes_no11_du_01-07-20_cle497eed;z vigilants sur les;aubergines et poivrons;aubergines, poivrons;;qui sont les cultur;41953-41975;type=N_KON_N, form=aubergines et poivrons
+255;BSV_legumes_03_cle872d86;Cultures sous abris;froids et maraîchage;maraîchage;;traditionnel ......;234-254;type=N_KON_N, form=froids et maraîchage
+256;BSV_legumes_03_cle872d86;.... ........... 12;Carotte, céleri, persil;Carotte, céleri, persil;;...................;1236-1259;type=N_PUN_N, form=Carotte, céleri, persil
+257;BSV_legumes_03_cle872d86;ineuse des alliums (;Poireau et oignon;Poireau, oignon;;) : poursuite de l'a;1414-1431;type=N_KON_N, form=Poireau et oignon
+258;BSV_legumes_03_cle872d86;s de capture.Mouche;oignon et Mouche;oignon;;des semis : l'activ;1505-1521;type=N_KON_N, form=oignon et Mouche
+259;BSV_legumes_03_cle872d86;Cultures sous abris;froids et maraîchage;maraîchage;;traditionnelMouche;1586-1606;type=N_KON_N, form=froids et maraîchage
+260;BSV_legumes_03_cle872d86;abri Septoriose sur;céleri et persil;céleri, persil;;Bulletin rédigé par;2054-2070;type=N_KON_N, form=céleri et persil
+261;BSV_legumes_03_cle872d86;Cultures sous abris;froids et maraîchage;maraîchage;;traditionnel Compos;9048-9068;type=N_KON_N, form=froids et maraîchage
+262;BSV_legumes_03_cle872d86;erons. Ombellifères;Carotte, céleri, persil;Carotte, céleri, persil;;Composition du rése;29167-29190;type=N_PUN_N, form=Carotte, céleri, persil
+263;BSV_legumes_03_cle872d86;erciale surtout sur;persil et céleri;persil, céleri;;et à un moindre deg;31224-31240;type=N_KON_N, form=persil et céleri
+264;BSV_legumes_03_du_03-04-19_cle4b43ee;Cultures sous abris;froid et maraîchage;maraîchage;;traditionnel;1377-1396;type=N_KON_N, form=froid et maraîchage
+265;BSV_legumes_03_du_03-04-19_cle4b43ee;rcelles des réseaux;oignon et poireau;oignon, poireau;;Etat général Depuis;2215-2232;type=N_KON_N, form=oignon et poireau
+266;BSV_legumes_03_du_03-04-19_cle4b43ee;es plants d'allium (;oignon, poireau, oignon;oignon, poireau, oignon;;bulbille, échalote,;3428-3451;type=N_PUN_N, form=oignon, poireau, oignon
+267;BSV_legumes_03_du_03-04-19_cle4b43ee;on, poireau, oignon;bulbille, échalote;échalote;;, ). L'activité de l;3452-3470;type=N_PUN_N, form=bulbille, échalote
+268;BSV_legumes_03_du_03-04-19_cle4b43ee;Cultures sous abris;froid et maraîchage;maraîchage;;traditionnel SALADE;5485-5504;type=N_KON_N, form=froid et maraîchage
+269;BSV_legumes_03_du_03-04-19_cle4b43ee;ertains précédents (;céréales, lin;céréales, lin;;, crucifères, légumi;12151-12164;type=N_PUN_N, form=céréales, lin
+270;BSV_legumes_03_du_03-04-19_cle4b43ee;démarré.- Pour les;oignons et échalotes;oignons, échalotes;;bulbilles, le risqu;16532-16552;type=N_KON_N, form=oignons et échalotes
+271;BSV_legumes_03_du_03-04-19_cle4b43ee;que non démarré sur;oignons et bulbilles;oignons;;d'alliums implantés;17287-17307;type=N_KON_N, form=oignons et bulbilles
+272;BSV_legumes_05_cle827cb7-1;Cultures sous abris;froids et maraîchage;maraîchage;;traditionnel ......;1208-1228;type=N_KON_N, form=froids et maraîchage
+273;BSV_legumes_05_cle827cb7-1;......... 15 Oignon-;échalote et pomme;échalote;;de terre primeur ..;2593-2610;type=N_KON_N, form=échalote et pomme
+274;BSV_legumes_05_cle827cb7-1;ques dégâts de gel (;tomate, concombre;tomate, concombre;;abri, radis plein c;3481-3498;type=N_PUN_N, form=tomate, concombre
+275;BSV_legumes_05_cle827cb7-1;(tomate, concombre;abri, radis;radis;;plein champ). Ombel;3499-3510;type=N_PUN_N, form=abri, radis
+276;BSV_legumes_05_cle827cb7-1;Arches, Ferme de la;Motte, Oignon;Oignon;;de Beauce, SCEE Jan;4198-4211;type=N_PUN_N, form=Motte, Oignon
+277;BSV_legumes_05_cle827cb7-1;cultures d'alliums (;oignons, échalote, poireau;oignons, échalote, poireau;;). Toutefois, l'arr;6427-6453;type=N_PUN_N, form=oignons, échalote, poireau
+278;BSV_legumes_05_cle827cb7-1;es plants d'allium (;oignon, poireau, oignon;oignon, poireau, oignon;;bulbille, échalote);7922-7945;type=N_PUN_N, form=oignon, poireau, oignon
+279;BSV_legumes_05_cle827cb7-1;on, poireau, oignon;bulbille, échalote;échalote;;). L'activité de la;7946-7964;type=N_PUN_N, form=bulbille, échalote
+280;BSV_legumes_05_cle827cb7-1;Cultures sous abris;froids et maraîchage;maraîchage;;traditionnel;22035-22055;type=N_KON_N, form=froids et maraîchage
+281;BSV_legumes_05_cle827cb7-1;ertains précédents (;céréales, lin;céréales, lin;;, crucifères, légumi;30852-30865;type=N_PUN_N, form=céréales, lin
+282;BSV_legumes_05_cle827cb7-1;u 26/04/2017 Oignon-;échalote et pomme;échalote;;de terre primeur;39912-39929;type=N_KON_N, form=échalote et pomme
+283;BSV_legumes_05_cle827cb7-1;me Démarrage risque;bulbille et Oignon;Oignon;;semis précoce sorti;44763-44781;type=N_KON_N, form=bulbille et Oignon
+284;BSV_legumes_05_cle827cb7-1;Pour les bulbilles (;oignon et échalote;oignon, échalote;;) et les oignons de;45733-45751;type=N_KON_N, form=oignon et échalote
+285;BSV_legumes_05_cle827cb7-1;catif de risque Sur;oignon, les;oignon;;thrips sont souvent;47955-47966;type=N_PUN_N, form=oignon, les
+286;BSV_legumes_12_du_22-07-20__cle0bb819;Cultures sous abris;froid et maraîchage;maraîchage;;traditionnel 9 Sala;1222-1241;type=N_KON_N, form=froid et maraîchage
+287;BSV_legumes_12_du_22-07-20__cle0bb819;l 9 Salade 9 Chou 9;Solanacees et concombre;concombre;solanacees;10 Fraisiers 13 Fra;1273-1296;type=N_KON_N, form=Solanacees et concombre
+288;BSV_legumes_12_du_22-07-20__cle0bb819;e du chou en cours.;Solanacées et concombre;concombre;solanacées;: attention aux puc;1881-1904;type=N_KON_N, form=Solanacées et concombre
+289;BSV_legumes_12_du_22-07-20__cle0bb819;faible sur tous les;oignons et échalote;oignons, échalote;;sur la région. Poir;2282-2301;type=N_KON_N, form=oignons et échalote
+290;BSV_legumes_12_du_22-07-20__cle0bb819;rotations pomme de;terre, maïs, légumes;maïs, légumes;;. Prévision globale;10020-10040;type=N_PUN_N, form=terre, maïs, légumes
+291;BSV_legumes_12_du_22-07-20__cle0bb819;Cultures sous abris;froid et maraîchage;maraîchage;;traditionnel SALADE;14746-14765;type=N_KON_N, form=froid et maraîchage
+292;BSV_legumes_12_du_22-07-20__cle0bb819;2020 THRIPS SP . (;"AUBERGINE ,
+POIVRON ET CONCOMBRE";AUBERGINE, POIVRON, CONCOMBRE;;) Etat général Les;18584-18616;"type=N_PUN_N_KON_N, form=AUBERGINE ,
+POIVRON ET CONCOMBRE"
+293;BSV_legumes_12_du_22-07-20__cle0bb819;ignalés sur oignons;bulbilles et oignons;oignons;;semis précoces dans;29346-29366;type=N_KON_N, form=bulbilles et oignons
+294;BSV_legumes_12_du_22-07-20__cle0bb819;"temps "" et bulbille";oignon et échalote;oignon, échalote;;""" printemps "" à pro";34490-34508;type=N_KON_N, form=oignon et échalote
+295;BSV_legumes_12_du_26-06-19__cle047171;Cultures sous abris;froid et maraîchage;maraîchage;;traditionnel 4 Obse;243-262;type=N_KON_N, form=froid et maraîchage
+296;BSV_legumes_12_du_26-06-19__cle047171;4;solanacées et concombre;concombre;solanacées;5;1490-1513;type=N_KON_N, form=solanacées et concombre
+297;BSV_legumes_12_du_26-06-19__cle047171;'humidité de l'air.;Solanacées et concombre;concombre;solanacées;: attention aux puc;2030-2053;type=N_KON_N, form=Solanacées et concombre
+298;BSV_legumes_12_du_26-06-19__cle047171;es plants d'allium (;oignon, poireau, oignon;oignon, poireau, oignon;;bulbille, échalote,;2986-3009;type=N_PUN_N, form=oignon, poireau, oignon
+299;BSV_legumes_12_du_26-06-19__cle047171;on, poireau, oignon;bulbille, échalote;échalote;;, ). L'activité de l;3010-3028;type=N_PUN_N, form=bulbille, échalote
+300;BSV_legumes_12_du_26-06-19__cle047171;Cultures sous abris;froid et maraîchage;maraîchage;;traditionnel SALADE;8002-8021;type=N_KON_N, form=froid et maraîchage
+301;BSV_legumes_12_du_26-06-19__cle047171;AUBERGINE ,;POIVRON , CONCOMBRE;POIVRON, CONCOMBRE;;) Etat général;8696-8715;type=N_PUN_N, form=POIVRON , CONCOMBRE
+302;BSV_legumes_12_du_26-06-19__cle047171;AUBERGINE ,;POIVRON , CONCOMBRE;POIVRON, CONCOMBRE;;) Etat général;13051-13070;type=N_PUN_N, form=POIVRON , CONCOMBRE
+303;BSV_legumes_12_du_26-06-19__cle047171;Pour les bulbilles (;oignon et échalote;oignon, échalote;;) et les oignons de;20857-20875;type=N_KON_N, form=oignon et échalote
+304;BSV_legumes_12_du_26-06-19__cle047171;uin 2019 : Pour les;oignons et échalotes;oignons, échalotes;;bulbilles ainsi que;21210-21230;type=N_KON_N, form=oignons et échalotes
+305;BSV_legumes_12_du_26-06-19__cle047171;arcelles du réseau (;oignons et échalotes;oignons, échalotes;;). On observe jusqu';23819-23839;type=N_KON_N, form=oignons et échalotes
+306;BSV_legumes_15_cle8b2b14-1;Cultures sous abris;froids et maraîchage;maraîchage;;traditionnel ......;668-688;type=N_KON_N, form=froids et maraîchage
+307;BSV_legumes_15_cle8b2b14-1;....... 9;Solanacées et concombres;concombres;solanacées;...................;993-1017;type=N_KON_N, form=Solanacées et concombres
+308;BSV_legumes_15_cle8b2b14-1;..... 19 Oignon-;échalote et pomme;échalote;;de terre primeur ..;1847-1864;type=N_KON_N, form=échalote et pomme
+309;BSV_legumes_15_cle8b2b14-1;le Loiret.;Solanacées et concombres;concombres;solanacées;: attention aux aca;2570-2594;type=N_KON_N, form=Solanacées et concombres
+310;BSV_legumes_15_cle8b2b14-1;e et septoriose sur;carotte et persil;carotte, persil;;. Oignon : modél;2986-3003;type=N_KON_N, form=carotte et persil
+311;BSV_legumes_15_cle8b2b14-1;Arches, Ferme de la;Motte, Oignon;Oignon;;de Beauce, SCEE Jan;3401-3414;type=N_PUN_N, form=Motte, Oignon
+312;BSV_legumes_15_cle8b2b14-1;es plants d'allium (;oignon, poireau, bulbille, échalote;oignon, poireau, échalote;;). L'activité de la;5590-5625;type=N_PUN_N, form=oignon, poireau, bulbille, échalote
+313;BSV_legumes_15_cle8b2b14-1;la noctuelle de la;tomate, espèce;tomate;;polyphage s'attaqua;7820-7834;type=N_PUN_N, form=tomate, espèce
+314;BSV_legumes_15_cle8b2b14-1;Cultures sous abris;froids et maraîchage;maraîchage;;traditionnel;20658-20678;type=N_KON_N, form=froids et maraîchage
+315;BSV_legumes_15_cle8b2b14-1;es secteurs;Solanacées et concombres;concombres;solanacées;Compositi;27343-27367;type=N_KON_N, form=Solanacées et concombres
+316;BSV_legumes_15_cle8b2b14-1;OMATE , AUBERGINE ,;POIVRON , CONCOMBRE;POIVRON, CONCOMBRE;;) Etat général;29745-29764;type=N_PUN_N, form=POIVRON , CONCOMBRE
+317;BSV_legumes_15_cle8b2b14-1;OMATE , AUBERGINE ,;POIVRON , CONCOMBRE;POIVRON, CONCOMBRE;;) Etat général;30355-30374;type=N_PUN_N, form=POIVRON , CONCOMBRE
+318;BSV_legumes_15_cle8b2b14-1;situations. Oignon-;échalote et pomme;échalote;;de terre primeur;48097-48114;type=N_KON_N, form=échalote et pomme
+319;BSV_legumes_15_cle8b2b14-1;Pour les bulbilles (;oignon et échalote;oignon, échalote;;) et les oignons de;52537-52555;type=N_KON_N, form=oignon et échalote
+320;BSV_legumes_15_cle8b2b14-1;catif de risque Sur;oignon, les;oignon;;thrips sont souvent;54628-54639;type=N_PUN_N, form=oignon, les
+321;BSV_legumes_15_cle8b2b14-1;commandée (carotte,;épinard, laitue;épinard, laitue;;, ). DIVERS Bactério;55873-55888;type=N_PUN_N, form=épinard, laitue
+322;BSV_legumes_15_cle8b2b14-1;du Loiret (oignons;bulbilles et oignons;oignons;;semis). Après la ré;55990-56010;type=N_KON_N, form=bulbilles et oignons
+323;BSV_legumes_allium_pomme_de_terre_AURA_2020-9_cle0d26da;urode Oignon en sec/;bulbe, Oignon;Oignon;;en vert/printemps M;1071-1084;type=N_PUN_N, form=bulbe, Oignon
+324;BSV_legumes_allium_pomme_de_terre_AURA_2020-9_cle0d26da;le tissé ou non) en;pépinière, fauchage;pépinière;;des abords. Eviter;4707-4726;type=N_PUN_N, form=pépinière, fauchage
+325;BSV_legumes_allium_pomme_de_terre_AURA_2020-9_cle0d26da;attaque surtout aux;salades, chicorées et asperges(attention;salades, chicorées;asperges;aussi aux adventice;6595-6635;type=N_PUN_N_KON_N, form=salades, chicorées et asperges(attention
+326;BSV_legumes_allium_pomme_de_terre_AURA_2020-9_cle0d26da;lité variétale. Les;batavias et les;batavias;;laitues sont plus s;8163-8178;type=N_KON_N, form=batavias et les
+327;BSV_legumes_allium_pomme_de_terre_AURA_2020-9_cle0d26da;en particulier les;tomates et les;tomates;;poivrons. Il a;27413-27427;type=N_KON_N, form=tomates et les
+328;BSV_maraichage_no20_du_23_Octobre_2020_cle81e1d1;tat sur cultures de;tomate et poivron;tomate, poivron;;/piment : Un arrêté;8460-8477;type=N_KON_N, form=tomate et poivron
+329;BSV_no13_du_15-05-18_cle01162f;elles en bordure de;bois, un;bois;;précédent cultural;19645-19653;type=N_PUN_N, form=bois, un
+330;BSV_no31_du_05-11-19_cle05121a;s à risque étant le;"colza,
+La";colza;;présence de résidus;7006-7015;"type=N_PUN_N, form=colza,
+La"
+331;BSV_no7_du_31-03-20_cle835128;s dans la rotation (;pois, luzerne, colza;pois, luzerne, colza;;, ). Une attention p;8443-8463;type=N_PUN_N, form=pois, luzerne, colza
+332;BSV_no7_du_31-03-20_cle835128;(retour fréquent de;blé, variété;blé;;sensible, piétin-ve;10051-10063;type=N_PUN_N, form=blé, variété
+333;BSV_no7_du_31-03-20_cle835128;quence de retour du;blé, travail;blé;;du sol), le climat;13562-13574;type=N_PUN_N, form=blé, travail
+334;BSV_oleagineux_16_cle0c1a18-1;ançon de la tige du;colza, les;colza;;conditions climatiq;3640-3650;type=N_PUN_N, form=colza, les
+335;BSV_petits-fruits-2019_N05_cle41f1d8;au développement du;champignon et l'enlèvement;champignon;;des premiers fruits;3090-3116;type=N_KON_N, form=champignon et l'enlèvement
+336;BSV_petits-fruits-2019_N05_cle41f1d8;ièges installés sur;fraise et framboise;fraise, framboise;;sur tous les secteu;8400-8419;type=N_KON_N, form=fraise et framboise
+337;BSV_petits-fruits-2019_N05_cle41f1d8;sur fruits dans les;fraises et les;fraises;;"framboises ; ces la";8860-8874;type=N_KON_N, form=fraises et les
+338;BSV_petits-fruits-2019_N05_cle41f1d8;e terminée), fraise;remontante, framboise;framboise;;de saison, frambois;9044-9065;type=N_PUN_N, form=remontante, framboise
+339;BSV_petits-fruits-2019_N05_cle41f1d8;tante, framboise de;saison, framboise;framboise;;remontante et myrti;9069-9086;type=N_PUN_N, form=saison, framboise
+340;BSV_petits-fruits-2019_N05_cle41f1d8;e saison, framboise;remontante et myrtille;myrtille;;mais ils ne sont pa;9087-9109;type=N_KON_N, form=remontante et myrtille
+341;BSV_pomme_de_terre_8_du_10_mai_2016_cle0127ee;nnement (sur tas de;déchets, repousses, jardins;jardins;;). Pour que le seuil;5374-5401;type=N_PUN_N, form=déchets, repousses, jardins
+342;BSVcampagnols10_cle06d1a1;éalisées en grandes;cultures, arboriculture et zones;arboriculture;;non agricoles. Les;234-266;type=N_PUN_N_KON_N, form=cultures, arboriculture et zones
+343;BSVcampagnols10_cle06d1a1;tion du rongeur. En;arboriculture, les;arboriculture;;campagnols sont pré;7367-7385;type=N_PUN_N, form=arboriculture, les
+344;BSVcampagnols10_cle06d1a1;e, haie, lisière de;forêt, fossé, berge;forêt;;des cours d'eau, et;8498-8517;type=N_PUN_N, form=forêt, fossé, berge
+345;BSVcampagnols10_cle06d1a1;urveillance grandes;cultures, arboriculture, viticulture, maraichage et zones;arboriculture, viticulture;;non agricoles lorra;11492-11549;type=N_PUN_N_KON_N, form=cultures, arboriculture, viticulture, maraichage et zones
+346;BSVcampagnols3_cle8d3542;haies, bordures de;forêts, perchoirs;forêts;;) ont un impact sur;3181-3198;type=N_PUN_N, form=forêts, perchoirs
+347;BSVcampagnols3_cle8d3542;ones Non Agricoles (;terrains de golf, parcs et jardins;parcs, jardins;;publics, cimetières;9399-9433;type=N_PUN_N_KON_N, form=terrains de golf, parcs et jardins
+348;BSVcampagnols3_cle8d3542;ones en lisières de;forêts et les;forêts;;pelouses irriguées.;9675-9688;type=N_KON_N, form=forêts et les
+349;BSVcampagnols3_cle8d3542;urveillance grandes;cultures, arboriculture, viticulture, maraichage et zones;arboriculture, viticulture;;non agricoles lorra;16613-16670;type=N_PUN_N_KON_N, form=cultures, arboriculture, viticulture, maraichage et zones
+350;BSVleg_n10_2017_cle03fb85;moyen mais variable;Solanacées et concombre;concombre;solanacées;d'abri Forte présen;1235-1258;type=N_KON_N, form=Solanacées et concombre
+351;BSVleg_n10_2017_cle03fb85;e saisons (carotte,;choux, pomme;choux;;de terre) ces pluie;1806-1818;type=N_PUN_N, form=choux, pomme
+352;BSVleg_n10_2017_cle03fb85;chaudes et sèches.;Solanacées et concombre;concombre;solanacées;d'abri Les observat;2191-2214;type=N_KON_N, form=Solanacées et concombre
+353;BSVleg_n10_2017_cle03fb85;ions variables. Sur;poivron et aubergine;poivron, aubergine;;d'importantes attaq;2869-2889;type=N_KON_N, form=poivron et aubergine
+354;BSVleg_n10_2017_cle03fb85;ETE Légumes. Contre;l'altise, les chenilles et la mouche du chou;chou;;, les filets de prot;7209-7253;type=N_PUN_N_KON_N, form=l'altise, les chenilles et la mouche du chou
+355;BULLETIN_DE_SANTE_DU_VEGETAL_GC_2013-_No10_-_30_avril_2013_cle858e15;nce. Graminées dans;colza, suspicion;colza;;de résistance photo;11581-11597;type=N_PUN_N, form=colza, suspicion
+356;BULLETIN_DE_SANTE_DU_VEGETAL_GC_2013-_No14_-_28_MAI_2013_cle4c4dec;par les graines de;ray-grass, bromes;ray-grass, bromes;;, vulpins, ou d'ergo;496-513;type=N_PUN_N, form=ray-grass, bromes
+357;BULLETIN_DE_SANTE_DU_VEGETAL_GC_2013-_No20_-_9_JUILLET_2013_cle8e731d;tenant visibles sur;blé et triticale;blé, triticale;;. Ergot sur blé sur;2287-2303;type=N_KON_N, form=blé et triticale
+358;BULLETIN_DE_SANTE_DU_VEGETAL_GC_2013-_No20_-_9_JUILLET_2013_cle8e731d;celles de céréales (;blé, orge, triticale, seigle;blé, orge, triticale, seigle;;) et notamment celle;4953-4981;type=N_PUN_N, form=blé, orge, triticale, seigle
+359;Note_nat-_BSV_Aromia_bungii_juin_2018_v2_cle09d4e1;rnées Arboriculture;fruitière, pépinières;fruitière, pépinières;;d'ornement, jardins;121-142;type=N_PUN_N, form=fruitière, pépinières
+360;Note_nat-_BSV_Aromia_bungii_juin_2018_v2_cle09d4e1;uitière, pépinières;d'ornement, jardins et espaces;jardins;;verts, forêts. Dist;143-173;type=N_PUN_N_KON_N, form=d'ornement, jardins et espaces
+361;Note_nat-_BSV_Aromia_bungii_juin_2018_v2_cle09d4e1;jardins et espaces;verts, forêts;forêts;;. Distribution géogr;174-187;type=N_PUN_N, form=verts, forêts
+362;Note_nat-_BSV_Aromia_bungii_juin_2018_v2_cle09d4e1;ntroduction sont le;bois et les;bois;;produits faits de b;1201-1212;type=N_KON_N, form=bois et les
+363;Note_nat-_BSV_Aromia_bungii_juin_2018_v2_cle09d4e1;s produits faits de;bois, les;bois;;matériaux d'emballa;1231-1240;type=N_PUN_N, form=bois, les
+364;Note_nat-_BSV_Aromia_bungii_juin_2018_v2_cle09d4e1;iaux d'emballage en;bois et les;bois;;plants de pépinière;1266-1277;type=N_KON_N, form=bois et les
+365;Note_nationale_meth_alternative_adventices_GC_validee-2_cle06dc5b;ent fréquemment les;céréales et le;céréales;;"colza d'hiver ; les";1016-1030;type=N_KON_N, form=céréales et le
+366;Note_nationale_meth_alternative_adventices_GC_validee-2_cle06dc5b;tes (ex : colza-blé-;orge, monoculture;orge;;de maïs ou de blé,;2110-2127;type=N_PUN_N, form=orge, monoculture
+367;Note_nationale_meth_alternative_adventices_GC_validee-2_cle06dc5b;lture de maïs ou de;blé, maïs;blé, maïs;;-soja). Elle sera d';2142-2151;type=N_PUN_N, form=blé, maïs
+368;Note_nationale_meth_alternative_adventices_GC_validee-2_cle06dc5b;têtes de rotation (;luzerne, prairies;luzerne, prairies;;) et s'appuient sur;2430-2447;type=N_PUN_N, form=luzerne, prairies
+369;Note_nationale_meth_alternative_adventices_GC_validee-2_cle06dc5b;ventices d'automne (;bromes et ray-grass;bromes, ray-grass;;notamment) et certa;5641-5660;type=N_KON_N, form=bromes et ray-grass
+370;Note_nationale_meth_alternative_adventices_GC_validee-2_cle06dc5b;s céréales d'hiver (;blé et orge;blé, orge;;), cette technique c;8523-8534;type=N_KON_N, form=blé et orge
+371;Note_nationale_meth_alternative_adventices_GC_validee-2_cle06dc5b;hé : déchaussage du;tournesol, sarclage, buttage;tournesol;;. Pour une efficacit;22733-22761;type=N_PUN_N, form=tournesol, sarclage, buttage
+372;als_Grandes_Cultures_no10_2016-04-26_cle4d3231;a dans la rotation (;colza, tournesol, soja, pois;colza, tournesol, soja, pois;;),- Les attaques re;2353-2381;type=N_PUN_N, form=colza, tournesol, soja, pois
+373;bsv_13_pdt_21_juin_cle8d177f-1;os Syral, Ferme des;Tilleuls, FREDON;Tilleuls;;Picardie, GC la Pom;6044-6060;type=N_PUN_N, form=Tilleuls, FREDON
+374;bsv_13_pdt_21_juin_cle8d177f-1;PM France, Mc Cain,;Roquette, Sana;Roquette;;Terra, Terre de Fra;6133-6147;type=N_PUN_N, form=Roquette, Sana
+375;bsv_ail_mp_n11_06062019_cle816b36;r ail rose. Sur ail;rose, les;rose;;interventions d'abl;1442-1451;type=N_PUN_N, form=rose, les
+376;bsv_arbo_75_2015_cle429b97;installeront sur le;pommier et les;pommier;;femelles y déposero;8453-8467;type=N_KON_N, form=pommier et les
+377;bsv_arbo_75_2015_cle429b97;présence de bois à;proximité, vergers;vergers;;vigoureux), il est;13624-13642;type=N_PUN_N, form=proximité, vergers
+378;bsv_grandes_cultures_n27_18052017_cle88cbb1-1;s parcelles de maïs;grain et fourrage;fourrage;;est terminé, hormis;10745-10762;type=N_KON_N, form=grain et fourrage
+379;bsv_maraichage_no11_du_05_Juin_2020_cle012212;cultures suivantes (;salades, aubergines;salades, aubergines;;) BSV n° 11 du 05/0;14333-14352;type=N_PUN_N, form=salades, aubergines
+380;bsv_maraichage_no11_du_05_Juin_2020_cle012212;tat sur cultures de;tomate et poivron;tomate, poivron;;/piment Un arrêté m;18849-18866;type=N_KON_N, form=tomate et poivron
+381;bsv_maraichage_no11_du_05_Juin_2020_cle012212;ès la nouaison. Sur;melon, les;melon;;plantes affectées m;47780-47790;type=N_PUN_N, form=melon, les
+382;bsv_maraichage_no11_du_05_Juin_2020_cle012212;seron en culture de;melon, source;melon;;CA84 BSV n°11 du 05;49199-49212;type=N_PUN_N, form=melon, source
+383;bsv_maraichage_no11_du_05_Juin_2020_cle012212;airement à d'autres;champignons, l'oïdium;champignons;;n'a pas besoin d'un;57006-57027;type=N_PUN_N, form=champignons, l'oïdium
+384;bsv_maraichage_no11_du_05_Juin_2020_cle012212;uemment signalé sur;maïs, riz et sorgho;maïs, riz, sorgho;;, plus rarement sur;62759-62778;type=N_PUN_N_KON_N, form=maïs, riz et sorgho
+385;bsv_maraichage_no11_du_05_Juin_2020_cle012212;cées, brassicacées,;luzerne, oignon;luzerne, oignon;;parmi d'autres (1);62827-62842;type=N_PUN_N, form=luzerne, oignon
+386;bsv_maraichage_no11_du_05_Juin_2020_cle012212;les inférieures sur;les cultures de maïs, sorgho et riz;maïs, sorgho, riz;;. Il sont groupés en;64608-64643;type=N_PUN_N_KON_N, form=les cultures de maïs, sorgho et riz
+387;bsv_maraichage_no11_du_05_Juin_2020_cle012212;tomate, aubergine,;concombre, poivron, potiron, courge;concombre, poivron, potiron, courge;;. Biologie La durée;66012-66047;type=N_PUN_N, form=concombre, poivron, potiron, courge
+388;bsv_vigne_n10_fronton_07062017-3_cle0a711e;imat défavorable au;champignon, la;champignon;;limitation des port;8298-8312;type=N_PUN_N, form=champignon, la
+389;bsv_vigne_n1_fronton_23032017_cle825f73;ose : Symptômes sur;bois et rameaux;bois;;Chancres d'excorios;6957-6972;type=N_KON_N, form=bois et rameaux
+390;bsv_vigne_n1_fronton_23032017_cle825f73;prise d'activité du;champignon et la;champignon;;production de spore;9430-9446;type=N_KON_N, form=champignon et la
+391;bsv_viticulture_no10_du_23_mai_2018_cle0c892f;t en place dans les;vergers et les;vergers;;cultures légumières;20966-20980;type=N_KON_N, form=vergers et les
+392;bulletindesanteduvegetalgc2014-n9-15avril2014_cle066b5e;le stade avancé des;blés, le;blés;;risque pourra être;8834-8842;type=N_PUN_N, form=blés, le
+393;char_Grandes_Cultures_no22_2016-07-07_cle02be6e;(page 12) : Stades;pois, féverole;pois, féverole;;: Fin floraison à m;899-913;type=N_PUN_N, form=pois, féverole
+394;lorraine_arboriculture_no11_du_13-05-20_cle8ee895;uits.Carpocapse des;pommes et poires;pommes, poires;;: le vol s'intensif;1013-1029;type=N_KON_N, form=pommes et poires
+395;lorraine_arboriculture_no11_du_13-05-20_cle8ee895;capture BSV 11 P.6;Pommes et poires;Pommes, poires;;1 Tavelure Suivi bi;10575-10591;type=N_KON_N, form=Pommes et poires
+396;lorraine_arboriculture_no11_du_13-05-20_cle8ee895;. 2 Carpocapses des;pommes et poires;pommes, poires;;(Cydia pomonella) G;12099-12115;type=N_KON_N, form=pommes et poires
+397;lorraine_vigne_no14_du_29-07-20_cle4bcf91;ation des pièges en;vigne et actualités;vigne;;en arboriculture p;448-467;type=N_KON_N, form=vigne et actualités
+398;lorraine_vigne_no14_du_29-07-20_cle4bcf91;elles du réseau. En;arboriculture, le;arboriculture;;suivi sur cerises e;5385-5402;type=N_PUN_N, form=arboriculture, le
