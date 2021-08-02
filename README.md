@@ -21,22 +21,22 @@
 
 ## About
 
-The global purpose of this project is to :
+The global purpose of the project is to :
 * Create semantic annotations of Plant Health Bulletins
-* Enhance terminology coverage of agricultural resources
-* Modelize the results with Web Annotation Data Model (W3C)
+* Enhance terminology coverage of semantic resources
+* Modelize the results with a Web Annotation Data Model (W3C)
 
 
-The bulletins are transformed from their initial format (pdf) into a textual format (html) in order to facilitate their textual preprocessing. They are also divided into different corpora by : types of mentioned crops (vines, legumes, etc.), method of their selection (manual or random).
+The bulletins have been transformed from their initial format (pdf) into a textual format (html) in order to facilitate their textual preprocessing. They have also been divided into different corpora by : types of mentioned crops (vines, legumes, etc.), method of their selection (manual or random).
 
 
 ## Getting Started
 
-The semantic annotation is made by the AlvisNLP engine (*Bibliome*). It consists in projecting the terminological part of semantic resources onto the textual version of the bulletins.
+The semantic annotation is made by AlvisNLP engine (*Bibliome*). It consists in projecting the terminological part of semantic resources onto the textual version of the bulletins.
 
 ### Prerequisites
 
-In order to use the annotation plans, you will need to install the following tools :
+In order to use the semantic annotation plans, you will need to install the following tools :
 * AlvisNLP engine
 * TreeTagger (+ French.par)
 * YaTeA
@@ -54,21 +54,19 @@ In order to use the annotation plans, you will need to install the following too
 
 ## Algorithm
 
-The main script consists of three parts :
-
 * **I. Loading corpora**
 
   The html versions of bulletins are passed to *XMLReader* module. It transforms them into AlvisNLP documents which store not only the textual output of the bulletin but also the corresponding html tags.
 
 
 * **II. Preprocessing**
-  * The documents are later segmented into sentences and tokenized with the standard segmentation plan of AlvisNLP :
+  * The documents are later segmented into sentences and tokenized with the segmentation plan of AlvisNLP :
 
   ```xml
   <import>res://segmentation.plan</import>
   ```
 
-  * Then, the lemmatization step begins. Once TreeTagger has processed the corpus, it adds the predicted POS tag and lemma to the respective posFeature and lemmaFeature features of the corresponding annotations.
+  * Then, the lemmatization part begins. Once TreeTagger has processed the corpus, it adds the predicted POS tag and lemma to the respective posFeature and lemmaFeature features of the corresponding annotations.
   ```xml
   <!-- NB: it is necessary to indicate the path
   to the TreeTagger executable and
@@ -86,7 +84,7 @@ The main script consists of three parts :
 * **III. Annotation :**
 
   * Plants
-    * The first method implements *RDFProjector* module. It takes on the *French Crop Usage* thesaurus and associates its skos labels with named entities :
+    * The first method to map plant concepts is by using the *RDFProjector* module. It takes on the *French Crop Usage* thesaurus and associates skos labels of concepts with named entities in bulletins:
 
     ```xml
     <project-baseline class="RDFProjector">
@@ -100,7 +98,7 @@ The main script consists of three parts :
       <constantAnnotationFeatures>type=RDFProjector</constantAnnotationFeatures>
     </project-baseline>
     ```
-    * The second method is called *ToMap*. It aims to classify named entities by comparing the syntactic structures of entities and of skos labels. During the classification, a jaccard similarity is calculated between the terms. This lets us choose associations to keep :
+    * The second method is called *ToMap*. It aims to classify named entities by comparing the syntactic structure between the entities and skos labels. During the classification, a jaccard similarity is calculated. This score helps to choose the mappings we want to keep :
     ```xml
       <classify class="TomapProjector">
         <subject layer="words" feature="lemma"/>
@@ -115,9 +113,9 @@ The main script consists of three parts :
       ```
 
   * Phenological stages
-    * *RDFProjector* module is used again. The only difference is the semantic resource. Here it's the *PPDO* knowledge base :
+    * *RDFProjector* module can be used as well for mapping phenological stages. The only difference is the semantic resource that serves as an entry. Here it's the *BBCH based Plant Phenological Description Ontology* :
 
-      ```xml
+    ```xml
     <project-stages class="RDFProjector">
       <source>resources/ppdo/ppdo_20210726.rdf</source>
       <targetLayerName>stages</targetLayerName>
@@ -130,16 +128,41 @@ The main script consists of three parts :
     </project-stages>
     ```
 
-    * *PatternMatcher*
+    * In addition to that, syntactic patterns can be created. As many phenological stages are written in codes and have typographical variations in bulletins, regular grammars are very useful. So, with help of the *PatternMatcher* module, targeting tokens, various forms of BBCH codes have been extracted. Later, they are normalised to their canonical form and mapped with the corresponding skos label:
 
-  * Bioagressors
-    * *TabularProjector*
+    ```xml
+    <!-- BBCH-00 -->
+    <BBCH_DD class="PatternMatcher">
+      <pattern>
+        [ @form =^ "BBCH" ]
+        [ @form == "-"]?
+        (number:[ @form =~ "[0-9]{2}$" ])
+      </pattern>
+      <actions>
+        <createAnnotation layer="bbch" features='canonical-form=("BBCH " ^ group:number)'/>
+      </actions>
+      <constantAnnotationFeatures>type=BBCH-DD</constantAnnotationFeatures>
+    </BBCH_DD>
+    ```
 
-  * Conjunctions
-    * *PatternMatcher*
-
-  * Deseases
-    * *PatternMatcher*
 
   * Themes
-    * *PatternMatcher*
+    * One of the last types of annotations focuses on thematical segmentation. It is relevant as it helps to differentiate some ambigous concepts (such as "champignons", "pois", etc.) and pass them if they are found in parts which do not satisfy the criterea. For that matter, the whole bulletin should get annotated thematically. Here's a small example of a pattern :
+
+    ```xml
+    <edition class="PatternMatcher">
+      <layerName>html</layerName>
+      <pattern>
+        [@tag ^= "H"  and @tag =~ "[0-9]" and @form ^= "N°"]
+        [ true ]{0,5}
+        [@tag ^= "H"  and @tag =~ "[0-9]" and @form =~ "[0-9]"]
+      </pattern>
+      <actions>
+        <createAnnotation layer="themes"/>
+      </actions>
+      <constantAnnotationFeatures>type=EDITION</constantAnnotationFeatures>
+      <overlappingBehaviour>ignore</overlappingBehaviour>
+    </edition>
+    ```
+    First, we target the html tags being stored in *html* layer. Then, we select the tags with the *PatternMatcher* module. The first entity should contain  "N°" in its initial form and has to be stored in a title. This entity can be followed by maximum 5 html tags. The last one has to be also stored in a title but it should contain information about the date of the publication (in digits). The annotation is later stored in a layer named *themes* and is typed as *EDITION*.
+    Similar patterns were created to extract table of contents, subscription, weather and financial segments. Others like risk and phenological stages have demanded prior mappings with lists of bioagressors and deseases.
