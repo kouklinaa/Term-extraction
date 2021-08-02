@@ -64,12 +64,11 @@ The main script consists of three parts :
 * **II. Preprocessing**
   * The documents are later segmented into sentences and tokenized with the standard segmentation plan of AlvisNLP :
 
-    ```xml
+  ```xml
   <import>res://segmentation.plan</import>
-    ```
+  ```
 
   * Then, the lemmatization step begins. Once TreeTagger has processed the corpus, it adds the predicted POS tag and lemma to the respective posFeature and lemmaFeature features of the corresponding annotations.
-
   ```xml
   <!-- NB: it is necessary to indicate the path
   to the TreeTagger executable and
