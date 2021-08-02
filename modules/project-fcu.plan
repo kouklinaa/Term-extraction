@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="fcu">
+
+<param name="save-fcu-baseline">
+  <alias module="save-baseline" param="outDir"/>
+</param>
+
+<param name="save-bm25-baseline">
+  <alias module="calculate-bm25-baseline" param="outFile"/>
+</param>
+
+
+<!-- <param name="save-fcu-tomap">
+  <alias module="save-tomap" param="outDir"/>
+</param>
+
+<param name="save-bm25-tomap">
+  <alias module="calculate-bm25-tomap" param="outFile"/>
+</param>
+
+
+<param name="save-fcu-all">
+  <alias module="save-all" param="outDir"/>
+</param>
+
+<param name="save-bm25-all">
+  <alias module="calculate-bm25-all" param="outFile"/>
+</param> -->
+
+<!-- <param name="f-score">
+  <alias module="compare-layers" param="outFile"/>
+</param> -->
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // I. Baseline approach
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <project-baseline class="RDFProjector">
+    <source>resources/fcu/frenchCropUsage_20210525.rdf</source>
+    <targetLayerName>fcu-baseline</targetLayerName>
+    <subject layer="words" feature="lemma"/>
+    <language>fr</language>
+    <uriFeatureName>uri</uriFeatureName>
+    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+    <wordStartCaseInsensitive/>
+    <constantAnnotationFeatures>type=RDFProjector</constantAnnotationFeatures>
+  </project-baseline>
+
+
+  <add-lemma-baseline class="Action">
+    <target>documents.sections.layer:fcu-baseline</target>
+    <action>set:feat:lemma(str:join:' '(inside:words, @lemma))</action>
+    <setFeatures/>
+  </add-lemma-baseline>
+
+
+  <!-- Remove overlaps -->
+  <overlaps-baseline class="RemoveOverlaps">
+    <layerName>fcu-baseline</layerName>
+    <removeEqual/>
+    <removeIncluded/>
+    <removeOverlapping/>
+  </overlaps-baseline>
+
+
+  <!-- Filter ambiguous concepts -->
+  <filtre-baseline class="Action">
+    <target>documents.sections.layer:fcu-baseline[
+      @lemma == "orange"
+      or @lemma== "marron"
+      or @lemma == "fruit"
+      or @lemma == "semence"
+      or @lemma == "côte"
+      or @lemma == "soleil"
+      or @lemma == "gel"
+      or @lemma == "fleur"]</target>
+    <action>remove:fcu-baseline</action>
+    <removeFromLayer/>
+  </filtre-baseline>
+
+
+  <!-- Save results-->
+  <save-baseline class="TabularExport">
+    <corpusFile>fcu-baseline.csv</corpusFile>
+    <lines>documents.sections.(layer:fcu-baseline)</lines>
+    <headers>"bsv", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
+    <columns separator=";">
+      <!-- short document id  -->
+      section.document.@id; <!-- str:replace(str:basename(section.document.@id), ".html", ""); -->
+      <!-- length of document  -->
+      int(section.layer:words);
+      <!-- html tag -->
+      section.@name;
+      <!-- context before  -->
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+      <!-- extracted term  -->
+      @form;
+      str:join:' '(inside:words, @lemma);
+      @skos-prefLabel;
+      <!-- context after  -->
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+      <!-- location  -->
+      start ^ "-" ^ end;
+      <!-- features  -->
+      str:join:', '(nav:features, @key ^ "=" ^ @value)
+
+    </columns>
+    <trueCSV/>
+  </save-baseline>
+
+
+  <!-- Bm25-->
+  <calculate-bm25-baseline href="modules/scores.plan">
+    <keywords>sections.layer:fcu-baseline</keywords>
+    <scoreFunction type="bm25" k1="1.2" b="0.75"/>
+  </calculate-bm25-baseline>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // II. ToMap approach
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <!-- Project terms with ToMap-->
+  <!-- <project-tomap href="modules/tomap-classify.plan"/>
+
+
+  <add-lemma-tomap class="Action">
+    <target>documents.sections.layer:fcu-tomap</target>
+    <action>set:feat:lemma(str:join:' '(inside:words, @lemma))</action>
+  <setFeatures/>
+  </add-lemma-tomap> -->
+
+
+  <!-- Remove overlaps -->
+  <!-- <overlaps-tomap class="RemoveOverlaps">
+    <layerName>fcu-tomap</layerName>
+    <removeEqual/>
+    <removeIncluded>true</removeIncluded>
+    <removeOverlapping>true</removeOverlapping>
+  </overlaps-tomap> -->
+
+
+  <!-- Filter results -->
+  <!-- <filter-tomap>
+    <ambiguous-words class="Action">
+      <target>documents.sections.layer:fcu-tomap[
+        @lemma == "orange" or
+        @lemma== "marron"  or
+        @lemma == "fruit" or
+        @lemma == "semence" or
+        @lemma == "côte" or
+        @lemma == "soleil" or
+        @lemma == "gel" or
+        @lemma == "fleur"]</target>
+      <action>remove:fcu-tomap</action>
+      <removeFromLayer/>
+    </ambiguous-words>
+
+    <remove-negatives class="Action">
+      <target>documents.sections.layer:fcu-tomap[0.5 > @similarity ]</target>
+      <action>delete</action>
+      <deleteElements>true</deleteElements>
+    </remove-negatives>
+
+  </filter-tomap> -->
+
+
+  <!-- Save results-->
+  <!-- <save-tomap class="TabularExport">
+    <corpusFile>fcu-tomap.csv</corpusFile>
+    <lines>documents.sections.(layer:fcu-tomap)</lines>
+    <headers>"bsv", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
+    <columns separator=";">
+      section.document.@id;
+      int(section.layer:words);
+      section.@name;
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+      @form;
+      str:join:' '(inside:words, @lemma);
+      @skos-prefLabel;
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+      start ^ "-" ^ end;
+      str:join:', '(nav:features, @key ^ "=" ^ @value)
+    </columns>
+    <trueCSV/>
+  </save-tomap> -->
+
+  <!-- Bm25-->
+  <!-- <calculate-bm25-tomap href="modules/scores.plan">
+    <keywords>sections.layer:fcu-tomap</keywords>
+    <scoreFunction type="bm25" k1="1.2" b="0.75"/>
+  </calculate-bm25-tomap> -->
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // III. Compare outputs
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+<!-- <compare-layers class="CompareElements">
+  <sections>documents.sections</sections>
+  <reference>layer:fcu-baseline</reference>
+  <predicted>layer:fcu-tomap</predicted>
+  <face>@skos-prefLabel</face>
+  <similarity>strict</similarity>
+</compare-layers> -->
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  // IV. Join outputs
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <!-- Merge -->
+  <!-- <merge-layers class="MergeLayers">
+    <sourceLayerNames>fcu-tomap, fcu-baseline</sourceLayerNames>
+    <targetLayerName>fcu</targetLayerName>
+  </merge-layers> -->
+
+  <!-- Remove duplicates -->
+  <!-- <overlaps-all class="RemoveOverlaps">
+    <layerName>fcu</layerName>
+    <removeIncluded>true</removeIncluded>
+    <removeOverlapping>true</removeOverlapping>
+  </overlaps-all> -->
+
+
+  <!-- Save results-->
+  <!-- <save-all class="TabularExport">
+    <corpusFile>fcu.csv</corpusFile>
+    <lines>documents.sections.(layer:fcu)</lines>
+    <headers>"bsv", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
+    <columns separator=";">
+      section.document.@id;
+      int(section.layer:words);
+      section.@name;
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+      @form;
+      str:join:' '(inside:words, @lemma);
+      @skos-prefLabel;
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+      start ^ "-" ^ end;
+      str:join:', '(nav:features, @key ^ "=" ^ @value)
+    </columns>
+    <trueCSV/>
+  </save-all> -->
+
+
+  <!-- BM25-->
+  <!-- <calculate-bm25-all href="modules/scores.plan">
+    <keywords>sections.layer:fcu</keywords>
+    <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
+  </calculate-bm25-all> -->
+
+
+
+</alvisnlp-plan>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="deseases">
+
+
+<param name="save">
+  <alias module="save-deseases" param="outDir"/>
+</param>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+//  Annotate
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<desease class="PatternMatcher">
+  <pattern>
+    [
+    <!-- str:lower(@form) =~ "maladie" or -->
+    str:lower(@form) =~ "helminthosporiose" or str:lower(@form) =~ "rhynchosporiose" or str:lower(@form) =~ "oïdium" or str:lower(@form) =~ "froid" or str:lower(@form) =~ "piétin" or str:lower(@form) =~ "rhizoctone" or str:lower(@form) =~ "fusariose" or
+    str:lower(@form) =~ "rouille" or str:lower(@form) =~ "thrips" or str:lower(@form) =~ "sitones" or str:lower(@form) =~ "collemboles" ]
+  </pattern>
+  <actions>
+    <createAnnotation layer="deseases"/>
+  </actions>
+  <constantAnnotationFeatures>type=DESEASE</constantAnnotationFeatures>
+</desease>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+//  Export
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<overlaps class="RemoveOverlaps">
+  <layerName>deseases</layerName>
+  <removeEqual>false</removeEqual>
+</overlaps>
+
+<save-deseases class="TabularExport">
+  <corpusFile>deseases.csv</corpusFile>
+  <lines>documents.sections.layer:deseases</lines>
+  <headers>"bsv", "context before", "deseases","context after", "location","features"</headers>
+  <columns separator=";">
+    <!-- short document id -->
+    str:replace(str:basename(section.document.@id), ".html", "");
+    <!-- context before -->
+    str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+    <!-- entity -->
+    @form;
+    <!-- context after -->
+    str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+    <!-- location -->
+    start ^ "-" ^ end;
+    <!-- features -->
+    str:join:', '(nav:features, @key ^ "=" ^ @value)
+  </columns>
+  <trueCSV/>
+</save-deseases>
+
+</alvisnlp-plan>

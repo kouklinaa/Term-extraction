@@ -2,7 +2,7 @@
 
 <alvisnlp-plan id="tomap-classify">
 
-  <!-- parameters -->
+
   <param name="xmlTermsFile">
     <alias module="yatea" param="xmlTermsFile"/>
   </param>
@@ -21,7 +21,7 @@
 
 
   <yatea class="YateaExtractor">
-    <xmlTermsFile>output/yatea.xml</xmlTermsFile>
+    <xmlTermsFile>../yatea.xml</xmlTermsFile>
     <language>FR</language>
     <yateaExecutable>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/local/bin/yatea</yateaExecutable>
     <perlLib>/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/lib/perl5/site_perl</perlLib>
@@ -40,8 +40,8 @@
 
   <classify class="TomapProjector">
     <subject layer="words" feature="lemma"/>
-    <yateaFile output-feed="true">output/yatea.xml</yateaFile>
-    <tomapClassifier graylist="resources/tomap/tomap-graylist.txt" >resources/tomap/frenchCropUsage_20210525.tomap</tomapClassifier>
+    <yateaFile output-feed="true">../yatea.xml</yateaFile>
+    <tomapClassifier graylist="resources/alvisnlp/tomap/tomap-graylist.txt" >resources/alvis/tomap/frenchCropUsage_20210525.tomap</tomapClassifier>
     <targetLayerName>fcu-tomap</targetLayerName>
     <conceptFeature>IRI</conceptFeature>
     <explanationFeaturePrefix>tomap-</explanationFeaturePrefix>
@@ -59,7 +59,7 @@
   -->
 
   <label class="FileMapper">
-    <mappingFile>resources/tomap/frenchCropUsage_20210525.txt</mappingFile>
+    <mappingFile>resources/alvis/tomap/frenchCropUsage_20210525.txt</mappingFile>
     <target>documents.sections.layer:fcu-tomap</target>
     <form>@IRI</form>
     <targetFeatures>,,skos-prefLabel</targetFeatures>

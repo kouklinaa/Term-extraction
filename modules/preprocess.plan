@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="preprocessing">
+
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// I. Tokenize
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- load segmentation plan -->
+<import>res://segmentation.plan</import>
+
+
+<!-- remove initial pos tags as foreign words are labeled as <FW> and are not recognised by french tree-tagger-->
+<remove-initial-pos-tags class="Action">
+  <target>documents.sections.layer:words[@pos]</target>
+  <action>set:remove-feature:pos</action>
+  <setFeatures/>
+</remove-initial-pos-tags>
+
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// II. Lemmatize
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<!-- load treetagger -->
+<tt class="TreeTagger">
+  <parFile>/Users/belka/Documents/work/inrae/outils/tree-tagger/lib/french.par</parFile>
+  <treeTaggerExecutable>/Users/belka/Documents/work/inrae/outils/tree-tagger/bin/tree-tagger</treeTaggerExecutable>
+  <noUnknownLemma/>
+  <inputCharset>UTF-8</inputCharset>
+  <outputCharset>UTF-8</outputCharset>
+</tt>
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// III. Correct some tags
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<!-- correct treetagger pos tag -->
+<correct-kaki class="Action">
+  <target>documents.sections.layer:words[@form == "kaki"]</target>
+  <action>set:feat:pos("NOM")</action>
+  <setFeatures/>
+</correct-kaki>
+
+
+
+</alvisnlp-plan>

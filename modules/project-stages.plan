@@ -2,112 +2,142 @@
 
 <alvisnlp-plan id="project-stages">
 
-  <!-- parameters -->
-  <param name="outDir">
-    <alias module="save-stages" param="outDir"/>
-  </param>
 
-  <!-- parameters -->
-  <param name="outDirBBCH">
-    <alias module="save-bbch" param="outDir"/>
-  </param>
+<param name="save-all-stages">
+  <alias module="save-stages" param="outDir"/>
+</param>
 
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  // I. Load terms from ontology
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
+<param name="save-BBCH">
+  <alias module="save-bbch" param="outDir"/>
+</param>
 
 
-  <!-- load vocabulary and project it to a layer named stages -->
-  <project-stage href="modules/project-lemma.plan">
-    <!-- <source>resources/stades.rdf</source> -->
-    <source>resources/ppdo_20210709.rdf</source>
-    <targetLayerName>stages</targetLayerName>
-  </project-stage>
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// I. Project PPDO
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<project-stages class="RDFProjector">
+  <source>resources/ppdo/ppdo_20210726.rdf</source>
+  <targetLayerName>stages</targetLayerName>
+  <subject layer="words" feature="lemma"/>
+  <language>fr</language>
+  <uriFeatureName>uri</uriFeatureName>
+  <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+  <wordStartCaseInsensitive/>
+  <constantAnnotationFeatures>type=RDFProjector</constantAnnotationFeatures>
+</project-stages>
+
+<!-- delete repeating elements from the layer stages -->
+<remove-fcu-concepts class="Action">
+  <target>documents.sections.layer:stages[outside:fcu]</target>
+  <action>delete</action>
+  <deleteElements/>
+</remove-fcu-concepts>
 
 
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// II. Find BBCH
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- extract patterns -->
+<bbch-patterns href="modules/find-bbch-patterns.plan"/>
+
+<!-- align extracted entities with their prefLabel from PPDO -->
+<project-bbch-patterns class="RDFProjector">
+  <source>resources/ppdo/ppdo_20210726.rdf</source>
+  <subject layer="bbch" feature="canonical-form"/>
+  <targetLayerName>stages</targetLayerName>
+  <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+  <language>fr</language>
+  <uriFeatureName>uri</uriFeatureName>
+  <wordStartCaseInsensitive/>
+  <allowJoined/>
+  <constantAnnotationFeatures>type=PATTERN_BBCH</constantAnnotationFeatures>
+</project-bbch-patterns>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// II. Export
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
 
 
-  <!-- delete repeating elements from the layer stages -->
-  <remove-equal class="Action">
-    <target>documents.sections.layer:stages[outside:fcu]</target>
-    <action>delete</action>
-    <deleteElements/>
-  </remove-equal>
-
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  // II. Match BBCH
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
-
-  <!-- find patterns bbch -->
-  <bbch-patterns href="modules/find-bbch-patterns.plan"/>
-
-  <!-- align extracted stages with their prefLabel -->
-  <project-bbch-patterns class="RDFProjector">
-    <source>resources/ppdo_20210709.rdf</source>
-    <subject layer="bbch" feature="canonical-form"/>
-    <targetLayerName>stages</targetLayerName>
-    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
-    <language>fr</language>
-    <uriFeatureName>uri</uriFeatureName>
-    <wordStartCaseInsensitive/>
-    <allowJoined/>
-    <constantAnnotationFeatures>type=PATTERN_BBCH</constantAnnotationFeatures>
-  </project-bbch-patterns>
-
-  <overlaps-stages class="RemoveOverlaps">
-    <layerName>stages</layerName>
-    <removeEqual/>
-    <removeIncluded>true</removeIncluded>
-    <removeOverlapping>true</removeOverlapping>
-  </overlaps-stages>
-
-
-  <!-- Save results-->
-  <save-stages href="modules/export.plan">
-    <corpusFile>stages.csv</corpusFile>
-    <lines>documents.sections.(layer:stages)</lines>
-  </save-stages>
-
-
-
+<overlaps class="RemoveOverlaps">
+  <layerName>stages</layerName>
+  <removeEqual/>
+  <removeIncluded>true</removeIncluded>
+  <removeOverlapping>true</removeOverlapping>
+</overlaps>
 
 
 
-  <!-- align extracted stages with their prefLabel -->
-  <project-patterns class="RDFProjector">
-    <source>resources/ppdo_20210709.rdf</source>
-    <subject layer="bbch" feature="canonical-form"/>
-    <targetLayerName>bbch</targetLayerName>
-    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
-    <language>fr</language>
-    <uriFeatureName>uri</uriFeatureName>
-    <wordStartCaseInsensitive/>
-    <allowJoined/>
-    <constantAnnotationFeatures>type=PATTERN_BBCH</constantAnnotationFeatures>
-  </project-patterns>
+<save-bbch class="TabularExport">
+  <corpusFile>bbch.csv</corpusFile>
+  <lines>documents.sections.(layer:bbch)</lines>
+  <headers>"bsv", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
+  <columns separator=";">
+    <!-- short document id  -->
+    section.document.@id; <!-- str:replace(str:basename(section.document.@id), ".html", ""); -->
+    <!-- length of document  -->
+    int(section.layer:words);
+    <!-- html tag -->
+    section.@name;
+    <!-- context before  -->
+    str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+    <!-- extracted term  -->
+    @form;
+    str:join:' '(inside:words, @lemma);
+    @skos-prefLabel;
+    <!-- context after  -->
+    str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+    <!-- location  -->
+    start ^ "-" ^ end;
+    <!-- features  -->
+    str:join:', '(nav:features, @key ^ "=" ^ @value)
 
-  <!-- <overlaps-bbch class="RemoveOverlaps">
-    <layerName>bbch</layerName>
-    <removeEqual>false</removeEqual>
-    <removeIncluded>true</removeIncluded>
-    <removeOverlapping>true</removeOverlapping>
-  </overlaps-bbch> -->
+  </columns>
+  <trueCSV/>
+</save-bbch>
 
-  <save-bbch href="modules/export.plan">
-    <corpusFile>bbch.csv</corpusFile>
-    <lines>documents.sections.(layer:bbch)</lines>
-  </save-bbch>
 
+
+<save-stages class="TabularExport">
+  <corpusFile>stages.csv</corpusFile>
+  <lines>documents.sections.(layer:stages)</lines>
+  <headers>"bsv", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
+  <columns separator=";">
+    <!-- short document id  -->
+    section.document.@id; <!-- str:replace(str:basename(section.document.@id), ".html", ""); -->
+    <!-- length of document  -->
+    int(section.layer:words);
+    <!-- html tag -->
+    section.@name;
+    <!-- context before  -->
+    str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+    <!-- extracted term  -->
+    @form;
+    str:join:' '(inside:words, @lemma);
+    @skos-prefLabel;
+    <!-- context after  -->
+    str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+    <!-- location  -->
+    start ^ "-" ^ end;
+    <!-- features  -->
+    str:join:', '(nav:features, @key ^ "=" ^ @value)
+
+  </columns>
+  <trueCSV/>
+</save-stages>
 
 
 

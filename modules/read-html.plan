@@ -2,18 +2,12 @@
 
 <alvisnlp-plan id="read-html">
 
-  <!-- Function reads html files
-  IN : source directory
-  OUT : xml trees
-  -->
-
   <param name="sourcePath">
     <alias module="read" param="sourcePath"/>
   </param>
 
   <read class="XMLReader">
-    <!-- <xslTransform>resources/html2alvisnlp-divided.xslt</xslTransform> -->
-    <xslTransform>resources/html2alvisnlp.xslt</xslTransform>
+    <xslTransform>resources/alvis/segmentation/html2alvisnlp.xslt</xslTransform>
     <html/>
   </read>
 

@@ -2,8 +2,8 @@
 
 <alvisnlp-plan id="patterns">
 
-  <!-- parameters -->
-  <param name="outDir">
+
+  <param name="save">
     <alias module="save-conj" param="outDir"/>
   </param>
 
@@ -11,41 +11,33 @@
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  //  Patterns
+  //  Annotate
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
 
-  <NOUN class="PatternMatcher">
+  <GN class="PatternMatcher">
     <pattern>
 
-
-      <!-- [ @pos == "DET:ART" ]?
+      [ @pos == "DET:ART" ]?
       [ @pos == "NOM" ]
       [ @pos == "ADJ"]?
 
       (
-
         [ @form ^= "des" or @form ^= "du" or @form ^= "de" ][ @form ^= "la"  ]?
-
         [ @pos == "NOM" or @pos == "NAM"]
         [ @pos == "ADJ"]?
-      )
-      ? -->
-
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" ]
-      ([ @pos ^= "PRP:det" or @lemma ^= "de" ]
-      [ @pos ^= "DET:ART" ]?
-      [ @pos ^= "NOM" or @pos ^= "NAM"])?
+      )?
 
     </pattern>
     <actions>
       <createAnnotation layer="GN"/>
     </actions>
     <constantAnnotationFeatures>type=GN</constantAnnotationFeatures>
-  </NOUN>
+  </GN>
+
+
 
   <N_KON_N class="PatternMatcher">
     <pattern>
@@ -146,54 +138,34 @@
   </N_PUN_N_KON_N> -->
 
 
+
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
   //
-  //  Overlaps
+  //  Export
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
 
-
-  <overlaps_conj class="RemoveOverlaps">
+  <overlaps class="RemoveOverlaps">
     <layerName>conjunctions</layerName>
     <removeEqual>false</removeEqual>
-  </overlaps_conj>
+  </overlaps>
 
-
-
-  <!--
-  ///////////////////////////////////////////////////////////////////////////////////////
-  //
-  //  Save results
-  //
-  ///////////////////////////////////////////////////////////////////////////////////////
-  -->
-
-  <!-- Save results-->
 
   <save-conj class="TabularExport">
-     <!-- <outDir>output/vespa/conjunctions</outDir> -->
      <corpusFile>conjunctions.csv</corpusFile>
      <lines>documents.sections.layer:conjunctions[inside:fcu-baseline]</lines>
-     <headers>"bsv","context before", "conjunction", "match", "context after", "location","features"</headers>
+     <headers>"bsv","context before", "conjunction", "context after", "location","features"</headers>
      <columns separator=";">
        <!-- short document id  -->
        str:replace(str:basename(section.document.@id), ".html", "");
        <!-- context before  -->
        str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
-       <!-- extracted term  -->
+       <!-- entity  -->
        @form;
-
        <!-- match  -->
-       str:join:', '(inside:fcu-baseline, @form );
-
-       <!-- TODO : no match with fcu  -->
-       <!-- str:replace(@form, inside:words[@form == ","], ""); -->
-       <!-- str:replace(@form, overlapping:fcu-baseline, ""); -->
-       <!-- str:replace(@form, conjunctions[match("fcu")], ""); -->
-
-
+       <!-- str:join:', '(inside:fcu-baseline, @form ); -->
        <!-- context after  -->
        str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
        <!-- location  -->

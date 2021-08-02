@@ -3,6 +3,7 @@
 <alvisnlp-plan id="main">
 
 
+
 <!--
 ///////////////////////////////////////////////////////////////////////////////////////
 //
@@ -11,134 +12,164 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-
-<read-html href="modules/read-html.plan">
+<load-corpus href="modules/read-html.plan">
 
   <!-- d2kab -->
-  <sourcePath>resources/Corpus-v-12-04-21/train/</sourcePath>
+  <sourcePath>resources/corpus/Corpus-v-12-04-21/train/</sourcePath>
 
   <!-- vespa -->
-  <!-- <sourcePath>resources/CorpusVespa.html</sourcePath> -->
+  <!-- <sourcePath>resources/corpus/CorpusVespa.html/</sourcePath> -->
 
   <!-- alea -->
-  <!-- <sourcePath>resources/Corpus-v-12-04-21/test/</sourcePath> -->
+  <!-- <sourcePath>resources/corpus/Corpus-v-12-04-21/test/</sourcePath> -->
 
-</read-html>
+</load-corpus>
+
 
 
 <!--
 ///////////////////////////////////////////////////////////////////////////////////////
 //
-// II. Preprocess text
+// II. Preprocess corpus
 //
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<preprocess-text href="modules/preprocessing.plan"/>
+<preprocess-corpus href="modules/preprocess.plan"/>
 
 
 <!--
 ///////////////////////////////////////////////////////////////////////////////////////
 //
-// III. Match fcu
+// III. Create annotations
 //
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<project-fcu href="modules/projecting-fcu.plan">
+
+
+<project-fcu href="modules/project-fcu.plan">
 
   <!-- d2kab -->
-  <outDirBaseline>output/frenchCropUsage_20210525/d2kab</outDirBaseline>
-  <outScoreBaseline>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</outScoreBaseline>
-  <outTFIDFBaseline>output/frenchCropUsage_20210525/d2kab/tfidf-tomap.csv</outTFIDFBaseline>
-
-  <!-- <outDirToMap>output/frenchCropUsage_20210525/d2kab</outDirToMap>
-  <outScoreToMap>output/frenchCropUsage_20210525/d2kab/bm25-tomap.csv</outScoreToMap>
-  <outTFIDFToMap>output/frenchCropUsage_20210525/d2kab/tfidf-tomap.csv</outTFIDFToMap>
-
-  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
-  <outScore>output/frenchCropUsage_20210525/d2kab/bm25.csv</outScore>
-  <outTFIDF>output/frenchCropUsage_20210525/d2kab/tfidf.csv</outTFIDF>
-  <outFileCompare>output/frenchCropUsage_20210525/d2kab/compare.txt</outFileCompare> -->
+  <save-fcu-baseline>output/frenchCropUsage_20210525/d2kab</save-fcu-baseline>
+  <save-bm25-baseline>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</save-bm25-baseline>
+  <!-- <save-fcu-tomap>output/frenchCropUsage_20210525/d2kab</save-fcu-tomap>
+  <save-bm25-tomap>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</save-bm25-tomap>
+  <save-fcu-all>output/frenchCropUsage_20210525/d2kab</save-fcu-all>
+  <save-bm25-all>output/frenchCropUsage_20210525/d2kab/bm25-baseline.csv</save-bm25-all> -->
 
 
   <!-- vespa -->
-  <!-- <outDirBaseline>output/frenchCropUsage_20210525/vespa</outDirBaseline>
-  <outDirToMap>output/frenchCropUsage_20210525/vespa</outDirToMap>
-  <outDir>output/frenchCropUsage_20210525/vespa</outDir>
-  <outFileCompare>output/frenchCropUsage_20210525/vespa/compare.txt</outFileCompare>
-  <outScoreBaseline>output/frenchCropUsage_20210525/vespa/bm25-baseline.csv</outScoreBaseline>
-  <outScoreToMap>output/frenchCropUsage_20210525/vespa/bm25-tomap.csv</outScoreToMap>
-  <outScore>output/frenchCropUsage_20210525/vespa/bm25.csv</outScore>
-  <outTFIDFBaseline>output/frenchCropUsage_20210525/vespa/tfidf-tomap.csv</outTFIDFBaseline>
-  <outTFIDFToMap>output/frenchCropUsage_20210525/vespa/tfidf-tomap.csv</outTFIDFToMap>
-  <outTFIDF>output/frenchCropUsage_20210525/vespa/tfidf.csv</outTFIDF>
- -->
+  <!-- <save-fcu-baseline>output/frenchCropUsage_20210525/vespa</save-fcu-baseline>
+  <save-bm25-baseline>output/frenchCropUsage_20210525/vespa/bm25-baseline.csv</save-bm25-baseline> -->
+  <!-- <save-fcu-tomap>output/frenchCropUsage_20210525/vespa</save-fcu-tomap>
+  <save-bm25-tomap>output/frenchCropUsage_20210525/vespa/bm25-baseline.csv</save-bm25-tomap>
+  <save-fcu-all>output/frenchCropUsage_20210525/vespa</save-fcu-all>
+  <save-bm25-all>output/frenchCropUsage_20210525/vespa/bm25-baseline.csv</save-bm25-all> -->
 
 
   <!-- alea -->
-  <!-- <outDirBaseline>output/frenchCropUsage_20210525/alea</outDirBaseline>
-  <outDirToMap>output/frenchCropUsage_20210525/alea</outDirToMap>
-  <outDir>output/frenchCropUsage_20210525/alea</outDir>
-  <outFileCompare>output/frenchCropUsage_20210525/alea/compare.txt</outFileCompare>
-
-  <outScoreBaseline>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</outScoreBaseline>
-  <outScoreToMap>output/frenchCropUsage_20210525/alea/bm25-tomap.csv</outScoreToMap>
-  <outScore>output/frenchCropUsage_20210525/alea/bm25.csv</outScore>
-
-  <outTFIDFBaseline>output/frenchCropUsage_20210525/alea/tfidf-tomap.csv</outTFIDFBaseline>
-  <outTFIDFToMap>output/frenchCropUsage_20210525/alea/tfidf-tomap.csv</outTFIDFToMap>
-  <outTFIDF>output/frenchCropUsage_20210525/alea/tfidf.csv</outTFIDF> -->
+  <!-- <save-fcu-baseline>output/frenchCropUsage_20210525/alea</save-fcu-baseline>
+  <save-bm25-baseline>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-baseline> -->
+  <!-- <save-fcu-tomap>output/frenchCropUsage_20210525/alea</save-fcu-tomap>
+  <save-bm25-tomap>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-tomap>
+  <save-fcu-all>output/frenchCropUsage_20210525/alea</save-fcu-all>
+  <save-bm25-all>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-all> -->
 
 </project-fcu>
 
 
-<!--
-///////////////////////////////////////////////////////////////////////////////////////
-//
-// IV. Match phenological stages
-//
-///////////////////////////////////////////////////////////////////////////////////////
--->
+
+
 
 <project-stages href="modules/project-stages.plan">
 
   <!-- d2kab -->
-  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
-  <outDirBBCH>output/frenchCropUsage_20210525/d2kab</outDirBBCH>
+  <save-BBCH>output/frenchCropUsage_20210525/d2kab</save-BBCH>
+  <save-all-stages>output/frenchCropUsage_20210525/d2kab</save-all-stages>
+
 
   <!-- vespa -->
-  <!-- <outDir>output/frenchCropUsage_20210525/vespa</outDir> -->
+  <!-- <save-BBCH>output/frenchCropUsage_20210525/vespa</save-BBCH>
+  <save-all-stages>output/frenchCropUsage_20210525/vespa</save-all-stages> -->
 
   <!-- alea -->
-  <!-- <outDir>output/frenchCropUsage_20210525/alea</outDir> -->
+  <!-- <save-BBCH>output/frenchCropUsage_20210525/alea</save-BBCH>
+  <save-all-stages>output/frenchCropUsage_20210525/alea</save-all-stages> -->
 
 </project-stages>
 
 
-<!--
-///////////////////////////////////////////////////////////////////////////////////////
-//
-// V. Find conjunctions
-//
-///////////////////////////////////////////////////////////////////////////////////////
--->
+
+
 
 
 <find-conj href="modules/find-conj-patterns.plan">
 
   <!-- d2kab -->
-  <!-- <outDir>output/frenchCropUsage_20210525/d2kab</outDir> -->
-  <outDir>output/frenchCropUsage_20210525/d2kab</outDir>
+  <save>output/frenchCropUsage_20210525/d2kab</save>
 
   <!-- vespa -->
-  <!-- <outDir>output/frenchCropUsage_20210525/vespa</outDir> -->
+  <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <!-- <outDir>output/frenchCropUsage_20210525/alea</outDir> -->
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
 
 </find-conj>
 
+
+
+
+
+
+<find-bioagressors href="modules/project-bioagressors.plan">
+
+  <!-- d2kab -->
+  <save>output/frenchCropUsage_20210525/d2kab</save>
+
+  <!-- vespa -->
+  <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
+
+  <!-- alea -->
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
+
+</find-bioagressors>
+
+
+
+
+
+
+<find-deseases href="modules/find-deseases.plan">
+
+   <!-- d2kab -->
+  <save>output/frenchCropUsage_20210525/d2kab</save>
+
+  <!-- vespa -->
+  <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
+
+  <!-- alea -->
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
+
+</find-deseases>
+
+
+
+
+
+
+<find-themes href="modules/find-themes.plan">
+
+  <!-- d2kab -->
+  <save>output/frenchCropUsage_20210525/d2kab</save>
+
+  <!-- vespa -->
+  <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
+
+  <!-- alea -->
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
+
+</find-themes>
 
 
 

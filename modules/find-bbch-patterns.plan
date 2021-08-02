@@ -5,7 +5,21 @@
 
 
 
+
+
   <!-- ?? BBCH ?? -->
+  <_bbch_ class="PatternMatcher">
+    <pattern>
+    [ @form =~ "BBCH" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer = "bbch"/>
+    </actions>
+    <constantAnnotationFeatures>type=?BBCH?</constantAnnotationFeatures>
+  </_bbch_>
+
+
+<!-- BBCH00 -->
   <bbch class="PatternMatcher">
     <pattern>
     [ @form ^= "BBCH" ]
@@ -21,8 +35,6 @@
     <action>set:feat:canonical-form(str:replace(@form, "BBCH", "BBCH "))</action>
     <setFeatures/>
   </insert-space>
-
-
 
 
   <!-- BBCH-00 -->
@@ -194,19 +206,20 @@
 
 
   <!-- remove empty extractions -->
-  <delete-empty-bbch class="Action">
+  <!-- <delete-empty-bbch class="Action">
     <target>documents.sections.layer:bbch[@canonical-form == "BBCH "]</target>
     <action>delete</action>
     <deleteElements/>
-  </delete-empty-bbch>
+  </delete-empty-bbch> -->
 
   <!-- remove repeated terms -->
-  <overlaps_bbch class="RemoveOverlaps">
+
+  <overlaps class="RemoveOverlaps">
     <layerName>bbch</layerName>
-    <removeEqual>false</removeEqual>
-  </overlaps_bbch>
-
-
+    <removeEqual/>
+    <removeIncluded/>
+    <removeOverlapping/>
+  </overlaps>
 
   <!--
   ///////////////////////////////////////////////////////////////////////////////////////
@@ -426,6 +439,7 @@
     </actions>
     <constantAnnotationFeatures>type=BBCH_in_context500</constantAnnotationFeatures>
   </bbch_in_context500>
+
 
 
 

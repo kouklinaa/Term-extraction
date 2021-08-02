@@ -1,0 +1,318 @@
+
+acarien jaune des charmilles
+acarien rouge
+acariens phytophages
+acariose
+acleris
+acrobasis pirivorella
+agrilus anxius
+agrilus planipennis
+aleurocanthus citriperdus
+aleurocanthus spiniferus
+aleurocanthus woglumi
+altise
+american plum line pattern virus
+anastrepha ludens
+andean potato latent virus
+andean potato mottle virus
+anisogramma anomala
+anoplophora chinensis
+anoplophora glabripennis
+anthonomus bisignifer
+anthonomus eugenii
+anthonomus grandis grandis
+anthonomus quadrigibbus
+anthonomus signatus
+anthracnose
+apiosporina morbosa
+arabis mosaic virus
+araignées
+araneae
+arceuthobium
+argyrotaenia ljungiana
+armillaria mellea
+armv
+aromia bungii
+arracacha virus b oca strain
+arrhenodes minutus
+aschistonyx eppoi
+atropellis
+bactericera cockerelli
+bactrocera dorsalis
+bactrocera tryoni
+bactrocera tsuneonis
+bactrocera zonata
+beet curly top virus
+beet necrotic yellow vein virus
+bemisia tabaci
+black rot
+blitopertha orientalis
+blueberry leaf mottle virus
+bois noir
+botryosphaeria kuwatsukai
+botryosphaeria laricina
+botryosphaeria spp.
+botrytis cinerea
+bretziella fagacearum
+bursaphelenchus xylophilus
+byctiscus betulae
+calepitrimerus vitis
+candidatus phytoplasma sp.
+candidatus phytoplasma spp.
+carposina sasakii
+ceratitis quinaria
+ceratitis rosa
+ceratocystis platani
+champignon
+champignons associés à l'esca
+champignons du bois
+champignons telluriques
+charançon
+chauve-souris
+chenilles arpenteuses
+cherry rasp leaf virus
+chiroptères
+choristoneura
+chrysanthemum stem necrosis orthotospovirus
+chrysomyxa arctostaphyli
+chrysopes
+cicadelle
+cicadelle bubale
+cicadelle des grillures
+cicadelle verte
+cicadellidae
+cigarier
+citrus leprosis viruses
+citrus tristeza virus
+clavibacter michiganensis subsp. sepedonicus
+coccidae
+cochenilles
+cochenilles farineuses
+cochenilles floconneuses
+cochylis
+coconut cadang-cadang viroid
+coconut lethal yellowing phytoplasma
+colomerus vitis
+coniferiporia sulphurascens
+coniferiporia weirii
+conoptérigidés
+conotrachelus nenuphar
+cornu aspersum
+cowpea mild mottle virus
+cronartium
+curtobacterium flaccumfaciens pv. flaccumfaciens
+dacus ciliatus
+daktulosphaira vitifoliae
+davidsoniella virescens
+dendrolimus sibiricus
+diabrotica barberi
+diabrotica undecimpunctata howardi
+diabrotica undecimpunctata undecimpunctata
+diabrotica virgifera zeae
+diaphorina citri
+drosophila spp.
+drosophila suzukii
+drosophile à ailes tachetées
+drosophile japonaise
+drosophiles
+elsinoë ampelina
+elsinoë australis
+elsinoë citricola
+elsinoë fawcettii
+empoasca vitis
+eotetranychus carpini
+eotetranychus lewisi
+epitrix cucumeris
+epitrix papa
+epitrix similaris
+epitrix subcrinita
+epitrix tuberis
+érinose
+erwinia amylovora
+erysiphe necator
+escargot petit-gris
+eudémis
+eulia
+euphranta canadensis
+euphranta japonica
+eupoecilia ambiguella
+eutypa lata
+eutypiose
+excoriose
+flatide pruineux
+flavescence dorée
+fusarium circinatum
+fusarium oxysporum f. sp. albedinis
+geometridae
+geosmithia morbida
+gflv
+globodera pallida
+globodera rostochiensis
+glrav
+grapevine fan leaf virus
+grapevine flavescence dorée phytoplasma
+grapevine leafroll-associated virus
+grapholita inopinata
+grapholita packardi
+grapholita prunivora
+guignardia bidwellii
+gymnosporangium
+haplaxius crudus
+helicoverpa zea
+hémérobes
+hibiscus green spot virus 2
+hirschmanniella
+hishimonus phycitis
+homalodisca vitripennis
+ilyonectria liriodendri
+insectes phytophages
+keiferia lycopersicella
+larve
+lettuce infectious yellows virus
+liberibacter africanus
+liberibacter americanus
+liberibacter asiaticus
+liberibacter spp.
+limace
+limaçon de pise
+liriomyza sativae
+listronotus bonariensis
+lobesia botrana
+longidorus diadecturus
+lopholeucaspis japonica
+maladie de pierce
+mange-bourgeons
+margarodes
+melampsora farlowii
+melampsora medusae f. sp. tremuloidis
+méligèthe
+meloidogyne chitwoodi
+meloidogyne fallax
+meloidogyne graminicola
+melon yellowing-associated virus
+metcalfa pruinosa
+mildiou
+monochamus
+mycodiella laricis-leptolepidis
+nacobbus aberrans
+naupactus leucoloma
+nécroses bactériennes
+nemorimyza maculosa
+neoceratitis cyanescens
+neoleucinodes elegantalis
+névroptères
+oemona hirta
+oïdium
+oiseau
+oligonychus perditus
+panonychus ulmi
+pantoea stewartii
+parasite
+parasitoïdes
+parasitoïdes de cochenilles
+parasitoïdes de tordeuses
+peach mosaic virus
+peach rosette mosaic virus
+pepino mosaic virus
+phomopsis viticola
+phyllosticta citricarpa
+phyllosticta solitaria
+phylloxéra
+phymatotrichopsis omnivora
+phytophthora ramorum
+phytoplasma aurantifolia
+pied noir
+pilidiella diplodiella
+pissodes nemorensis
+pissodes nitidus
+pissodes spp.
+pissodes strobi
+pissodes terminalis
+pissodes yunnanensis
+pityophthorus juglandis
+plasmopara viticola
+plum pox virus
+polygraphus proximus
+pomacea
+popillia japonica
+potato black ringspot virus
+potato leafroll virus
+potato virus a
+potato virus m
+potato virus s
+potato virus t
+potato virus v
+potato virus x
+potato virus y
+pourridié
+premnotrypes
+pseudocercospora angolensis
+pseudocercospora pini-densiflorae
+pseudococcidae
+pseudopityophthorus minutissimus
+pseudopityophthorus pruinosus
+puccinia pittieriana
+puceron
+punaises
+punaises phytophages
+pyrale
+ralstonia solanacearum
+ralstonia syzygii subsp. celebesensis
+raspberry leaf curl virus
+rhagoletis fausta
+rhagoletis indifferens
+rhagoletis mendax
+rhagoletis pomonella
+rhagoletis ribicola
+rhynchophorus palmarum
+ripersiella hibisci
+rose rosette virus
+rot blanc
+saperda candida
+satsuma dwarf virus
+scaphoideus titanus
+scirtothrips aurantii
+scirtothrips citri
+scirtothrips dorsalis
+sclerotinia
+scolytidae
+septoria malagutii
+sparganothis pilleriana
+sphaerulina musiva
+spodoptera eridania
+spodoptera frugiperda
+spodoptera litura
+squash vein yellowing virus
+stagonosporopsis andigena
+stegophora ulmea
+stictocephala bisonia
+strawberry witches' broom phytoplasma
+sweet potato chlorotic stunt virus
+sweet potato mild mottle virus
+synchytrium endobioticum
+tecia solanivora
+tenthrède
+thaumatotibia leucotreta
+theba pisana
+thecaphora solani
+thrips palmi
+tilletia indica
+tobacco ringspot virus
+tobacco streak virus black raspberry latent strain
+tomato brown rugose fruit virus
+tomato chocolàte virus
+tomato leaf curl new delhi virus
+tomato marchitez virus
+tomato mild mottle virus
+tomato ringspot virus
+toxoptera citricidus
+trioza erytreae
+unaspis citri
+venturia nashicola
+xanthomonas citri pv. aurantifolii
+xanthomonas citri pv. citri
+xanthomonas oryzae pv. oryzae
+xanthomonas oryzae pv. oryzicola
+xylella fastidiosa
+xylophilus ampelinus
+zeugodacus cucurbitae

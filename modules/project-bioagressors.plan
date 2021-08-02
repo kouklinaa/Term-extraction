@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="bioagressors">
+
+
+
+<param name="save">
+  <alias module="save-bioagressors" param="outDir"/>
+</param>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+//  Annotate
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<project-bioagressors class="TabularProjector">
+  <subject layer="words" feature="lemma"/>
+  <dictFile>resources/other/bioagressors_sorted.txt</dictFile>
+  <targetLayerName>bioagressors</targetLayerName>
+  <valueFeatures>$</valueFeatures>
+  <constantAnnotationFeatures>type=BIOAGRESSOR</constantAnnotationFeatures>
+  <allowJoined/>
+  <caseInsensitive/>
+  <ignoreDiacritics/>
+  <wordStartCaseInsensitive/>
+  <skipWhitespace/>
+</project-bioagressors>
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+//  Export
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<overlaps class="RemoveOverlaps">
+  <layerName>bioagressors</layerName>
+  <removeEqual>false</removeEqual>
+</overlaps>
+
+
+
+<save-bioagressors class="TabularExport">
+  <corpusFile>bioagressors.csv</corpusFile>
+  <lines>documents.sections.layer:bioagressors</lines>
+  <headers>"bsv", "context before", "bioagressors","context after", "location","features"</headers>
+  <columns separator=";">
+    <!-- short document id -->
+    str:replace(str:basename(section.document.@id), ".html", "");
+    <!-- context before -->
+    str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+    <!-- entity -->
+    @form;
+    <!-- context after -->
+    str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+    <!-- location -->
+    start ^ "-" ^ end;
+    <!-- features -->
+    str:join:', '(nav:features, @key ^ "=" ^ @value)
+  </columns>
+  <trueCSV/>
+</save-bioagressors>
+
+
+
+
+
+ </alvisnlp-plan>
