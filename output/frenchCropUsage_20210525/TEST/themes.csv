@@ -1,5 +1,171 @@
-"bsv"	"html tags"	"segment (type)"	"segment (form)"	"fcu concepts"	"bioagressors"	"deseases"	"stages"	"context before"	"context after"	"location"	"features"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"TITLE"	"TITLE"	"BULLETIN DE SANTE DU VEGETAL"	""	""	""	""	""	"Directeur de publi"	"1-29"	"type=TITLE, form=BULLETIN DE SANTE DU VEGETAL"
+"bsv"	"html tags"	"segment (type)"	"segment (form)"	"fcu concepts"	"bioagressors"	"stages"	"region"	"department"	"context before"	"context after"	"location"	"features"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"TITLE"	"TITLE"	"BULLETIN DE SANTE DU VEGETAL CORSE"	""	""	""	"CORSE"	""	""	"BULLETIN DE SANTE"	"1-35"	"type=TITLE, form=BULLETIN DE SANTE DU VEGETAL CORSE"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"MARAÎCHAGE n°5 - 3 septembre 2019"	"maraîchage"	""	""	""	""	"TE DU VEGETAL CORSE"	"A retenir : Pressio"	"72-105"	"type=CULTURE, form=MARAÎCHAGE n°5 - 3 septembre 2019"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
+P
+H2
+P
+SMALL
+P
+BR"	"A RETENIR"	"A retenir :
+Pression mildiou maintenue sur cucurbitacées. Présence toujours importante d'oidium et d'acariens tétranyques.
+SOMMAIRE
+Tomate Concombre Aubergine Courgette Melon Autres Prévision météo Liens utiles
+ANIMATEUR FILIERE : Océane CABAU, FREDON CORSERédacteur : Océane CABAU"	"tomate,
+concombre,
+aubergine,
+courgette,
+melon"	"mildiou"	""	""	""	"- 3 septembre 2019"	"Structures partenai"	"106-387"	"type=A RETENIR, form=A retenir :
+Pression mildiou maintenue sur cucurbitacées. Présence toujours importante d'oidium et d'acariens tétranyques.
+SOMMAIRE
+Tomate Concombre Aubergine Courgette Melon Autres Prévision météo Liens utiles
+ANIMATEUR FILIERE : Océane CABAU, FREDON CORSERédacteur : Océane CABAU"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"SMALL
+P"	"FINANCEMENT"	"Action pilotée par le Ministère chargé de l'agriculture, avec l'appui financier de L'Agence Française pour la Biodiversité, par les crédits issus de la redevance pour pollutions diffuses attribués au financement du plan ECOPHYTO."	""	""	""	""	""	"re.frCrédit photo :"	"TOMATE SOUS ABRI /"	"666-895"	"type=FINANCEMENT, form=Action pilotée par le Ministère chargé de l'agriculture, avec l'appui financier de L'Agence Française pour la Biodiversité, par les crédits issus de la redevance pour pollutions diffuses attribués au financement du plan ECOPHYTO."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"TOMATE SOUS ABRI / HORS SOL"	"tomate"	""	""	""	""	"t du plan ECOPHYTO."	"Stade phénologique"	"896-923"	"type=CULTURE, form=TOMATE SOUS ABRI / HORS SOL"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"STADES"	" Stade phénologique"	""	""	""	""	""	"OUS ABRI / HORS SOL"	"Le stade de nos par"	"924-943"	"type=STADES, form= Stade phénologique"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
+P
+BR
+BR"	"RISQUE"	" Acariose bronzée - Aculops lycopersici
+Observation : 5 à 20% des plants observés sont touchés sur tige, feuille et fruit sur l'ensemble de la plaine.Évaluation du risque : Elevé.Gestion du risque : Réalisation de bassinage pour augmenter l'hygrométrie et nettoyer les plants."	""	"Acariose"	""	""	""	"s au stade récolte."	"Oïdium Observation"	"1099-1375"	"type=RISQUE, form= Acariose bronzée - Aculops lycopersici
+Observation : 5 à 20% des plants observés sont touchés sur tige, feuille et fruit sur l'ensemble de la plaine.Évaluation du risque : Elevé.Gestion du risque : Réalisation de bassinage pour augmenter l'hygrométrie et nettoyer les plants."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
+P
+BR
+BR"	"RISQUE"	" Oïdium
+Observation : Pression stagnante sur Biguglia et Borgo avec 5 à 30% des plants touchés.Évaluation du risque : Elevé.Gestion du risque : Il existe quelques méthodes préventives à savoir : réduire la densité, sous abri aérer intensivement et réduire l'humidité en gardant un feuillage sec, éliminer les débris végétaux (feuilles et fruits contaminés)."	""	"Oïdium"	""	""	""	"ettoyer les plants."	"TOMATE PLEIN CHAMP"	"1376-1733"	"type=RISQUE, form= Oïdium
+Observation : Pression stagnante sur Biguglia et Borgo avec 5 à 30% des plants touchés.Évaluation du risque : Elevé.Gestion du risque : Il existe quelques méthodes préventives à savoir : réduire la densité, sous abri aérer intensivement et réduire l'humidité en gardant un feuillage sec, éliminer les débris végétaux (feuilles et fruits contaminés)."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"TOMATE PLEIN CHAMP"	"tomate"	""	""	""	""	"fruits contaminés)."	"Stade phénologique"	"1734-1752"	"type=CULTURE, form=TOMATE PLEIN CHAMP"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"STADES"	" Stade phénologique"	""	""	""	""	""	"TOMATE PLEIN CHAMP"	"Le stade de nos par"	"1753-1772"	"type=STADES, form= Stade phénologique"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
+P
+BR
+BR
+BR"	"RISQUE"	"Mildiou - Phytophtora infestans
+Symptômes : Taches gris brun d'aspect huileux sur les tiges. Taches marron sur les feuilles et duvet blanc sur la tige inférieure. Plages marbrées de brun bosselées sur les fruits, qui deviennent durs.Observation : Pression en augmentation ces derniers jours sur la plaine orientale et le secteur de Balagne.Évaluation du risque : Elevé.Gestion du risque : Il existe quelques méthodes préventives à savoir : réduire la densité, éliminer les débris végétaux (feuilles et fruits contaminés), choisir des variétés résistantes."	""	"Mildiou"	""	""	""	"septembre 2019 1/6"	"Punaises Observatio"	"2254-2809"	"type=RISQUE, form=Mildiou - Phytophtora infestans
+Symptômes : Taches gris brun d'aspect huileux sur les tiges. Taches marron sur les feuilles et duvet blanc sur la tige inférieure. Plages marbrées de brun bosselées sur les fruits, qui deviennent durs.Observation : Pression en augmentation ces derniers jours sur la plaine orientale et le secteur de Balagne.Évaluation du risque : Elevé.Gestion du risque : Il existe quelques méthodes préventives à savoir : réduire la densité, éliminer les débris végétaux (feuilles et fruits contaminés), choisir des variétés résistantes."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P
+BR
+BR"	"RISQUE"	"Observation : Environ 10 à 20% des plants touchés sur feuilles et tiges.Évaluation du risque : Faible.Gestion du risque : Suppression manuelle des adultes, jeunes larves et œufs."	""	"larves"	""	""	""	"sistantes. Punaises"	"CONCOMBRE - SOUS AB"	"2819-2997"	"type=RISQUE, form=Observation : Environ 10 à 20% des plants touchés sur feuilles et tiges.Évaluation du risque : Faible.Gestion du risque : Suppression manuelle des adultes, jeunes larves et œufs."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"CONCOMBRE - SOUS ABRI"	"concombre"	""	""	""	""	"nes larves et œufs."	"Stade phénologique"	"2998-3019"	"type=CULTURE, form=CONCOMBRE - SOUS ABRI"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"STADES"	"Stade phénologique"	""	""	""	""	""	"NCOMBRE - SOUS ABRI"	"Le stade de nos par"	"3020-3038"	"type=STADES, form=Stade phénologique"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
+P
+BR
+BR
+BR"	"RISQUE"	"Acariens tétranyques
+Observation : Pression maintenue de Biguglia à Ghisonaccia avec entre 10 à 50% du feuillage touché.Évaluation du risque : Elevé.Gestion du risque : Des mesures de prophylaxie peuvent être mises en place : possibilité de lâchers d'acariens prédateurs (Phytoseiulus persimilis et/ou Nesoseiulus californicus), Cécidomyie prédatrice(Feltiella acarisuga) ou encore Macrolophus caliginosus. Possibilité de réaliser des bassinages sur les faces inférieures des feuilles, mais attention car favorise l'apparition de maladies (mildiou)."	"maïs"	"Acariens,
+mildiou"	""	""	""	"s au stade récolte."	"Mildiou Pseudoperon"	"3195-3744"	"type=RISQUE, form=Acariens tétranyques
+Observation : Pression maintenue de Biguglia à Ghisonaccia avec entre 10 à 50% du feuillage touché.Évaluation du risque : Elevé.Gestion du risque : Des mesures de prophylaxie peuvent être mises en place : possibilité de lâchers d'acariens prédateurs (Phytoseiulus persimilis et/ou Nesoseiulus californicus), Cécidomyie prédatrice(Feltiella acarisuga) ou encore Macrolophus caliginosus. Possibilité de réaliser des bassinages sur les faces inférieures des feuilles, mais attention car favorise l'apparition de maladies (mildiou)."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
+P
+BR
+BR"	"RISQUE"	"Mildiou Pseudoperonospora cubensis
+Observation : Symptômes toujours présents sur la plaine orientale, peut-être liés à un bassinage trop important.Évaluation du risque : Modéré.Gestion du risque : Les bassinages doivent faire l'objet d'une attention particulière, et être supprimés dès l'apparition des premières taches de mildiou. S'orienter vers des variétés tolérantes."	""	"Mildiou,
+mildiou"	""	""	""	"maladies (mildiou)."	"AUBERGINE SOUS ABRI"	"3745-4117"	"type=RISQUE, form=Mildiou Pseudoperonospora cubensis
+Observation : Symptômes toujours présents sur la plaine orientale, peut-être liés à un bassinage trop important.Évaluation du risque : Modéré.Gestion du risque : Les bassinages doivent faire l'objet d'une attention particulière, et être supprimés dès l'apparition des premières taches de mildiou. S'orienter vers des variétés tolérantes."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"AUBERGINE SOUS ABRI ET PLEIN CHAMP"	"aubergine"	""	""	""	""	"ariétés tolérantes."	"Stade phénologique"	"4118-4152"	"type=CULTURE, form=AUBERGINE SOUS ABRI ET PLEIN CHAMP"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"STADES"	"Stade phénologique"	""	""	""	""	""	"ABRI ET PLEIN CHAMP"	"Le stade de nos par"	"4153-4171"	"type=STADES, form=Stade phénologique"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
+P
+BR
+BR"	"RISQUE"	"Acariens tétranyques
+Observation : Entre 10 à 30% d'attaques observées sur feuilles entre les secteurs de Balagne et de la plaine orientale.Évaluation du risque : Elevé.Gestion du risque : Augmenter l'humidité en réalisant des bassinages, en faisant toutefois attention aux maladies cryptogamiques."	""	"Acariens"	""	""	""	"s au stade récolte."	"Bulletin de Santé d"	"4328-4626"	"type=RISQUE, form=Acariens tétranyques
+Observation : Entre 10 à 30% d'attaques observées sur feuilles entre les secteurs de Balagne et de la plaine orientale.Évaluation du risque : Elevé.Gestion du risque : Augmenter l'humidité en réalisant des bassinages, en faisant toutefois attention aux maladies cryptogamiques."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
+P
+BR
+BR"	"RISQUE"	"Altises
+Observation : Forte attaque sur une parcelle plein champ à Biguglia et Vescovato sur la quasi-totalité des plants avec environ 5% du feuillage atteint.Évaluation du risque : Elevé.Gestion du risque : Oter les adventices de la culture et de ses abords (la moutarde sauvage est un hôte appétant). Installer des toiles anti-insectes (P10-P17) sur les rangs en plein champ à la plantation, et aux ouvertures des abris quand les conditions climatiques le permettent. Pailler la culture afin de limiter l'émergence des adultes."	"moutarde"	"Altises"	""	""	""	"ment de la maladie."	"COURGETTE SOUS ABRI"	"5035-5564"	"type=RISQUE, form=Altises
+Observation : Forte attaque sur une parcelle plein champ à Biguglia et Vescovato sur la quasi-totalité des plants avec environ 5% du feuillage atteint.Évaluation du risque : Elevé.Gestion du risque : Oter les adventices de la culture et de ses abords (la moutarde sauvage est un hôte appétant). Installer des toiles anti-insectes (P10-P17) sur les rangs en plein champ à la plantation, et aux ouvertures des abris quand les conditions climatiques le permettent. Pailler la culture afin de limiter l'émergence des adultes."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"COURGETTE SOUS ABRI ET PLEIN CHAMP"	"courgette"	""	""	""	""	"rgence des adultes."	"Stade phénologique"	"5565-5599"	"type=CULTURE, form=COURGETTE SOUS ABRI ET PLEIN CHAMP"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"STADES"	"Stade phénologique"	""	""	""	""	""	"ABRI ET PLEIN CHAMP"	"Le stade de nos par"	"5600-5618"	"type=STADES, form=Stade phénologique"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
+P
+BR
+BR"	"RISQUE"	"Oïdium Oidium lycopersicum
+Observation : Présence sur 20% du feuillage touché sur Borgo, Biguglia, Vescovato et Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Aérer suffisamment et ne pas planter trop serré. Comme fumure, apporter du compost plutôt que du fumier. Dès l'apparition du feutrage blanc, enlever et brûler les parties atteintes. Il existe des variétés résistantes à l'oïdium en cas d'attaque récurrentes."	""	"Oïdium,
+Oidium"	""	""	""	"s au stade récolte."	"Mildiou Pseudomonas"	"5775-6205"	"type=RISQUE, form=Oïdium Oidium lycopersicum
+Observation : Présence sur 20% du feuillage touché sur Borgo, Biguglia, Vescovato et Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Aérer suffisamment et ne pas planter trop serré. Comme fumure, apporter du compost plutôt que du fumier. Dès l'apparition du feutrage blanc, enlever et brûler les parties atteintes. Il existe des variétés résistantes à l'oïdium en cas d'attaque récurrentes."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
+P
+BR
+BR"	"RISQUE"	"Mildiou Pseudomonas cubensis
+Observation : Pression toujours présente sur l'ensemble du bassin de production.Évaluation du risque : Modéré.Gestion du risque : Eviter la présence d'eau stagnante au pied des plants, bien aérer les tunnels, éliminer les débris végétaux."	""	"Mildiou"	""	""	""	"ttaque récurrentes."	"Cicadelle verte Emp"	"6206-6473"	"type=RISQUE, form=Mildiou Pseudomonas cubensis
+Observation : Pression toujours présente sur l'ensemble du bassin de production.Évaluation du risque : Modéré.Gestion du risque : Eviter la présence d'eau stagnante au pied des plants, bien aérer les tunnels, éliminer les débris végétaux."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
+P
+BR
+BR"	"RISQUE"	"Cicadelle verte Empoasca vitis
+Observation : Pression toujours présente sur l'ensemble du bassin de production.Évaluation du risque : Modéré. La cicadelle apprécie les températures élevées et l'humidité.Gestion du risque : Eviter les fumures azotées excessives et favoriser la faune auxiliaire : comme la guêpe parasitoïde Anagrus atomus. Parmi les prédateurs, on trouve des punaises (Anthocoris sp., Orius sp., Malacocoris chlorizans), araignées, fourmis et chrysope."	""	"Cicadelle,
+Empoasca vitis,
+Empoasca vitis,
+cicadelle"	""	""	""	"es débris végétaux."	"Pucerons Observatio"	"6474-6942"	"type=RISQUE, form=Cicadelle verte Empoasca vitis
+Observation : Pression toujours présente sur l'ensemble du bassin de production.Évaluation du risque : Modéré. La cicadelle apprécie les températures élevées et l'humidité.Gestion du risque : Eviter les fumures azotées excessives et favoriser la faune auxiliaire : comme la guêpe parasitoïde Anagrus atomus. Parmi les prédateurs, on trouve des punaises (Anthocoris sp., Orius sp., Malacocoris chlorizans), araignées, fourmis et chrysope."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
+P
+BR
+BR"	"RISQUE"	"Pucerons
+Observation : Forte attaque observée sur la plaine avec plus de 20% des plants touchés.Évaluation du risque : Modéré, les pucerons sont vecteurs de virus.Gestion du risque : Limiter les fumures azotées, éliminer mécaniquement les plants infestés. Sous abri, possibilité d'introduire plusieurs parasitoïdes, en début de culture."	""	"Pucerons,
+pucerons,
+parasitoïdes"	""	""	""	"ourmis et chrysope."	"Virus ZYVM (Virus d"	"6943-7279"	"type=RISQUE, form=Pucerons
+Observation : Forte attaque observée sur la plaine avec plus de 20% des plants touchés.Évaluation du risque : Modéré, les pucerons sont vecteurs de virus.Gestion du risque : Limiter les fumures azotées, éliminer mécaniquement les plants infestés. Sous abri, possibilité d'introduire plusieurs parasitoïdes, en début de culture."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"CULTURE"	"Virus ZYVM (Virus de la Mosaïque Jaune de la Courgette)"	"courgette"	""	""	""	""	"n début de culture."	"Observation : 10 à"	"7280-7335"	"type=CULTURE, form=Virus ZYVM (Virus de la Mosaïque Jaune de la Courgette)"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P"	"RISQUE"	"Observation : 10 à 20% des plants touchés sur le la plaine orientale et la Balagne. Véhiculés par les pucerons, ces virus provoquent des déformations des feuilles et des fruits."	""	"pucerons"	""	""	""	"ne de la Courgette)"	"Bulletin de Santé d"	"7336-7513"	"type=RISQUE, form=Observation : 10 à 20% des plants touchés sur le la plaine orientale et la Balagne. Véhiculés par les pucerons, ces virus provoquent des déformations des feuilles et des fruits."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"MELON PLEIN CHAMP"	"melon"	""	""	""	""	"riétés résistantes."	"Stade phénologique"	"7673-7690"	"type=CULTURE, form=MELON PLEIN CHAMP"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"STADES"	"Stade phénologique"	""	""	""	""	""	". MELON PLEIN CHAMP"	"Le stade de nos par"	"7691-7709"	"type=STADES, form=Stade phénologique"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
+P
+BR
+BR"	"RISQUE"	"Oïdium des cucurbitacées
+Observation : Attaque sur 5 à 20% du feuillage sur des parcelles de Biguglia à Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Eviter les excès d'engrais azotés, éliminer les feuilles atteintes, bien désherber les abords des parcelles (le séneçon est une plante hôte à l'oïdium et constitue un réservoir de contamination pour les cultures)."	""	"Oïdium"	""	""	""	"/ et stade récolte."	"Mildiou Observation"	"7906-8284"	"type=RISQUE, form=Oïdium des cucurbitacées
+Observation : Attaque sur 5 à 20% du feuillage sur des parcelles de Biguglia à Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Eviter les excès d'engrais azotés, éliminer les feuilles atteintes, bien désherber les abords des parcelles (le séneçon est une plante hôte à l'oïdium et constitue un réservoir de contamination pour les cultures)."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
+P
+BR
+BR"	"RISQUE"	"Mildiou
+Observation : présence généralisée sur l'ensemble de la plaine orientale sur 5 à 60% des plants touchés selon les parcelles.Évaluation du risque : Elevé.Gestion du risque : Il n'existe pas de méthodes de lutte alternative efficace à ce jour."	""	"Mildiou"	""	""	""	"pour les cultures)."	"Virus WMV (Virus de"	"8285-8534"	"type=RISQUE, form=Mildiou
+Observation : présence généralisée sur l'ensemble de la plaine orientale sur 5 à 60% des plants touchés selon les parcelles.Évaluation du risque : Elevé.Gestion du risque : Il n'existe pas de méthodes de lutte alternative efficace à ce jour."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"CULTURE"	"Virus WMV (Virus de la mosaïque de la pastèque)"	"pastèque"	""	""	""	""	"efficace à ce jour."	"Observation : sympt"	"8535-8582"	"type=CULTURE, form=Virus WMV (Virus de la mosaïque de la pastèque)"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P
+BR
+BR"	"RISQUE"	"Observation : symptôme sur feuilles et fruits avec 5 à 10% des plants touchés.Évaluation du risque : Modéré.Gestion du risque : Il existe quelques méthodes de lutte préventive : surveillance, désherbage, paillage, couverture P17, lutte contre les pucerons."	""	"pucerons"	""	""	""	"que de la pastèque)"	"AUTRES Courges Fort"	"8583-8839"	"type=RISQUE, form=Observation : symptôme sur feuilles et fruits avec 5 à 10% des plants touchés.Évaluation du risque : Modéré.Gestion du risque : Il existe quelques méthodes de lutte préventive : surveillance, désherbage, paillage, couverture P17, lutte contre les pucerons."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"CULTURE"	"Courges"	"courge"	""	""	""	""	"es pucerons. AUTRES"	"Forte attaque de mi"	"8847-8854"	"type=CULTURE, form=Courges"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P"	"RISQUE"	"Forte attaque de mildiou sur 10 à 30% des parcelles en fin de récolte à Vescovato et Biguglia sur 30 à 50% du feuillage. Risque modéré."	""	"mildiou"	""	""	""	"ons. AUTRES Courges"	"PREVISION METEO (So"	"8855-8990"	"type=RISQUE, form=Forte attaque de mildiou sur 10 à 30% des parcelles en fin de récolte à Vescovato et Biguglia sur 30 à 50% du feuillage. Risque modéré."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P"	"RISQUE"	"Bactrocera dorsalis est une mouche des fruits tropicale, appelée communément ""mouche orientale des fruits"" qui affectionne les climats chauds et humides. Détectée pour la première fois en 2003 dans l'Est de l'Afrique, B. dorsalis a colonisé neuf pays en un an et au total 22 pays en sept ans. Elle est présente à la Réunion où elle cause d'importants dégâts sur les cultures locales. Elle a été signalée pour la première fois en verger en Europe en 2018, dans la région de Campanie dans le Sud de l'Italie. Cette situation doit nous conduire à être très vigilant et pouvoir détecter très précocement son apparition si besoin. Les dégâts sont occasionnés par les larves qui se nourrissent de la pulpe du fruit provoquant alors un affaissement des tissus, des coulures et des lésions sur le fruit. Celui-ci a tendance à mûrir plus vite et à chuter précocement. Ces dégâts sont également une porte d'entrée aux bioagresseurs secondaires comme les pourritures et les drosophiles. Les fruits sont alors non commercialisables. Extrêmement polyphage elle s'attaque à plus de 300 plantes hôtes, plantes cultivées et sauvages, légumières ou fruitières. Les fruits les plus attaqués sont l'avocat, la mangue et la papaye mais l'espèce s'en prend aussi au citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café. Les légumes concernés sont notamment les tomates, poivrons, melons et courges."	"arboriculture fruitière tropicale,
+arboriculture fruitière,
+arboriculture fruitière,
+manguier,
+papayer,
+maïs,
+citronnier,
+goyavier,
+bananier,
+tomate,
+cerisier,
+plaqueminier,
+ananas,
+pêcher,
+poirier,
+abricotier,
+figuier,
+caféier,
+culture légumière,
+tomate,
+poivron,
+melon,
+courge"	"Bactrocera dorsalis,
+Bactrocera dorsalis,
+mouche,
+mouche,
+larves"	""	"la Réunion,
+la Réunion"	"la Réunion,
+la Réunion"	"Bractocera dorsalis"	"Comme les autres mo"	"12460-13923"	"type=RISQUE, form=Bactrocera dorsalis est une mouche des fruits tropicale, appelée communément ""mouche orientale des fruits"" qui affectionne les climats chauds et humides. Détectée pour la première fois en 2003 dans l'Est de l'Afrique, B. dorsalis a colonisé neuf pays en un an et au total 22 pays en sept ans. Elle est présente à la Réunion où elle cause d'importants dégâts sur les cultures locales. Elle a été signalée pour la première fois en verger en Europe en 2018, dans la région de Campanie dans le Sud de l'Italie. Cette situation doit nous conduire à être très vigilant et pouvoir détecter très précocement son apparition si besoin. Les dégâts sont occasionnés par les larves qui se nourrissent de la pulpe du fruit provoquant alors un affaissement des tissus, des coulures et des lésions sur le fruit. Celui-ci a tendance à mûrir plus vite et à chuter précocement. Ces dégâts sont également une porte d'entrée aux bioagresseurs secondaires comme les pourritures et les drosophiles. Les fruits sont alors non commercialisables. Extrêmement polyphage elle s'attaque à plus de 300 plantes hôtes, plantes cultivées et sauvages, légumières ou fruitières. Les fruits les plus attaqués sont l'avocat, la mangue et la papaye mais l'espèce s'en prend aussi au citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café. Les légumes concernés sont notamment les tomates, poivrons, melons et courges."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P"	"RISQUE"	"Comme les autres mouches de cette famille, elle a un cycle de vie très court et une fécondité élevée. La femelle peut pondre entre 800 à 1 500 œufs durant sa vie à raison d'une vingtaine par jour. Cf fiche de reconnaissance ANSES en cliquant sur le lien ci-dessous."	""	"mouches"	""	""	""	"melons et courges."	"En cas de symptôme"	"13924-14189"	"type=RISQUE, form=Comme les autres mouches de cette famille, elle a un cycle de vie très court et une fécondité élevée. La femelle peut pondre entre 800 à 1 500 œufs durant sa vie à raison d'une vingtaine par jour. Cf fiche de reconnaissance ANSES en cliquant sur le lien ci-dessous."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"FIGCAPTION
+FIGURE"	"META"	"Ce bulletin est produit à partir d'observations ponctuelles. S'il donne une tendance de la situation sanitaire régionale, celle-ci ne peut être transposée telle quelle à la parcelle. La chambre d'Agriculture de Corse dégage toute responsabilité quant aux décisions prises par l'exploitant et les invite à prendre toutes les décisions pour la protection de leurs cultures sur la base d'observations qu'ils auront réalisés sur leurs parcelles et/ou en s'appuyant sur les préconisations issues de bulletins techniques ou de conseils obtenus auprès des techniciens."	""	""	""	"Corse"	""	"-du-vegetal-corses/"	"Bulletin de Santé d"	"14405-14966"	"type=META, form=Ce bulletin est produit à partir d'observations ponctuelles. S'il donne une tendance de la situation sanitaire régionale, celle-ci ne peut être transposée telle quelle à la parcelle. La chambre d'Agriculture de Corse dégage toute responsabilité quant aux décisions prises par l'exploitant et les invite à prendre toutes les décisions pour la protection de leurs cultures sur la base d'observations qu'ils auront réalisés sur leurs parcelles et/ou en s'appuyant sur les préconisations issues de bulletins techniques ou de conseils obtenus auprès des techniciens."
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"TITLE"	"TITLE"	"BULLETIN DE SANTE DU VEGETAL"	""	""	""	""	""	""	"Directeur de publi"	"1-29"	"type=TITLE, form=BULLETIN DE SANTE DU VEGETAL"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"SMALL
 P
 FIGCAPTION
@@ -8,15 +174,15 @@ FIGCAPTION
 FIGURE
 BR"	"AUTHORS"	"Directeur de publication :
 Denis CARRETIER Président de la Chambre Régionale d'Agriculture d'Occitanie BP 22107 31321 CASTANET TOLOSAN Cx Tel 05.61.75.26.00
-Dépôt légal : à parution ISSN en coursComité de validation : CENTREX, Chambre d'agriculture du Gard, DRAAF Occitanie, SUDEXPE"	""	""	""	""	"E SANTE DU VEGETAL"	"Action pilotée par"	"31-313"	"type=AUTHORS, form=Directeur de publication :
+Dépôt légal : à parution ISSN en coursComité de validation : CENTREX, Chambre d'agriculture du Gard, DRAAF Occitanie, SUDEXPE"	""	""	""	"Occitanie"	"Gard"	"E SANTE DU VEGETAL"	"Action pilotée par"	"31-313"	"type=AUTHORS, form=Directeur de publication :
 Denis CARRETIER Président de la Chambre Régionale d'Agriculture d'Occitanie BP 22107 31321 CASTANET TOLOSAN Cx Tel 05.61.75.26.00
 Dépôt légal : à parution ISSN en coursComité de validation : CENTREX, Chambre d'agriculture du Gard, DRAAF Occitanie, SUDEXPE"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"SMALL
-P"	"FINANCEMENT"	"Action pilotée par le Ministère chargé de l'agriculture et le ministère chargé de l'écologie, avec l'appui financier de l'Agence Française pour la Biodiversité, par les crédits issus de la redevance pour pollutions diffuses attribués au financement du plan Ecophyto."	""	""	""	""	"Occitanie, SUDEXPE"	"BULLETIN DE SANTE D"	"314-580"	"type=FINANCEMENT, form=Action pilotée par le Ministère chargé de l'agriculture et le ministère chargé de l'écologie, avec l'appui financier de l'Agence Française pour la Biodiversité, par les crédits issus de la redevance pour pollutions diffuses attribués au financement du plan Ecophyto."
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"Maraîchage"	"maraîchage"	""	""	""	"DE SANTE DU VEGETAL"	"EDITION LANGUEDOC-R"	"610-620"	"type=CULTURE, form=Maraîchage"
+P"	"FINANCEMENT"	"Action pilotée par le Ministère chargé de l'agriculture et le ministère chargé de l'écologie, avec l'appui financier de l'Agence Française pour la Biodiversité, par les crédits issus de la redevance pour pollutions diffuses attribués au financement du plan Ecophyto."	""	""	""	""	""	"Occitanie, SUDEXPE"	"BULLETIN DE SANTE D"	"314-580"	"type=FINANCEMENT, form=Action pilotée par le Ministère chargé de l'agriculture et le ministère chargé de l'écologie, avec l'appui financier de l'Agence Française pour la Biodiversité, par les crédits issus de la redevance pour pollutions diffuses attribués au financement du plan Ecophyto."
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"Maraîchage"	"maraîchage"	""	""	""	""	"DE SANTE DU VEGETAL"	"EDITION LANGUEDOC-R"	"610-620"	"type=CULTURE, form=Maraîchage"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2
 H3"	"EDITION"	"EDITION LANGUEDOC-ROUSSILLON
-N°2 23 janvier 2019"	""	""	""	""	"VEGETAL Maraîchage"	"ARTICHAUT Toutes ma"	"621-669"	"type=EDITION, form=EDITION LANGUEDOC-ROUSSILLON
+N°2 23 janvier 2019"	""	""	""	""	""	"VEGETAL Maraîchage"	"ARTICHAUT Toutes ma"	"621-669"	"type=EDITION, form=EDITION LANGUEDOC-ROUSSILLON
 N°2 23 janvier 2019"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1
 P
@@ -43,12 +209,14 @@ FRAISE
 Acariens : en augmentationEscargot : faibleTâches pourpres : en augmentation si pas aération des tunnels et si temps humideBotrytis : en augmentation si pas aération des tunnels et si temps humide
 BLETTE
 Cercosporiose : stable"	"artichaut,
-salade"	"Mildiou,
+salade,
+céleri,
+fraisier,
+poirée"	"Mildiou,
 Sclérotinia,
 Puceron,
-Acariens"	"secteursOïdium,
-faibleTâches,
-Cercosporiose"	""	"N°2 23 janvier 2019"	"Mouche : en progress"	"670-1215"	"type=SOMMAIRE, form=ARTICHAUT
+Acariens,
+Cercosporiose"	""	""	""	"N°2 23 janvier 2019"	"Mouche : en progress"	"670-1215"	"type=SOMMAIRE, form=ARTICHAUT
 Toutes maladies et ravageurs : risques faibles à très faibles
 SALADES DE PLEIN CHAMP ET D'ABRIS
 Mildiou : fort risque sous abrisBotrytis et Sclérotinia : stable à augmentation selon les secteursOïdium : en augmentationNoctuelle : risque faible
@@ -58,16 +226,16 @@ FRAISE
 Acariens : en augmentationEscargot : faibleTâches pourpres : en augmentation si pas aération des tunnels et si temps humideBotrytis : en augmentation si pas aération des tunnels et si temps humide
 BLETTE
 Cercosporiose : stable"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H3"	"CULTURE"	"ARTICHAUT"	"artichaut"	""	""	""	"he : en progression"	"Stade culture : 14"	"1239-1248"	"type=CULTURE, form=ARTICHAUT"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"STADES"	" Stade culture : 14 feuilles"	""	""	""	""	"ogression ARTICHAUT"	"Les cultures visité"	"1249-1277"	"type=STADES, form= Stade culture : 14 feuilles"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H3"	"CULTURE"	"ARTICHAUT"	"artichaut"	""	""	""	""	"he : en progression"	"Stade culture : 14"	"1239-1248"	"type=CULTURE, form=ARTICHAUT"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"STADES"	" Stade culture : 14 feuilles"	""	""	""	""	""	"ogression ARTICHAUT"	"Les cultures visité"	"1249-1277"	"type=STADES, form= Stade culture : 14 feuilles"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
 P"	"RISQUE"	"Les cultures visitées la semaine dernière sont saines, les risques ravageurs et maladies sont faibles à très faibles. Les quelques pucerons verts observés servent de base pour le maintien des auxiliaires. Les conditions climatiques ne sont pas favorables au développement des maladies et ravageurs (températures froides, jours courts, tramontane).
-Les plantes sont au repos : ne pas arroser, ni fertiliser tant que les capitules ne sont pas bien visibles au fond des plantes. Avant la reprise de l'irrigation et de la fertilisation faire un test nitrate."	""	"pucerons"	"froides"	""	"lture : 14 feuilles"	"BULLETIN DE SANTÉ D"	"1278-1832"	"type=RISQUE, form=Les cultures visitées la semaine dernière sont saines, les risques ravageurs et maladies sont faibles à très faibles. Les quelques pucerons verts observés servent de base pour le maintien des auxiliaires. Les conditions climatiques ne sont pas favorables au développement des maladies et ravageurs (températures froides, jours courts, tramontane).
+Les plantes sont au repos : ne pas arroser, ni fertiliser tant que les capitules ne sont pas bien visibles au fond des plantes. Avant la reprise de l'irrigation et de la fertilisation faire un test nitrate."	""	"pucerons"	""	""	""	"lture : 14 feuilles"	"BULLETIN DE SANTÉ D"	"1278-1832"	"type=RISQUE, form=Les cultures visitées la semaine dernière sont saines, les risques ravageurs et maladies sont faibles à très faibles. Les quelques pucerons verts observés servent de base pour le maintien des auxiliaires. Les conditions climatiques ne sont pas favorables au développement des maladies et ravageurs (températures froides, jours courts, tramontane).
 Les plantes sont au repos : ne pas arroser, ni fertiliser tant que les capitules ne sont pas bien visibles au fond des plantes. Avant la reprise de l'irrigation et de la fertilisation faire un test nitrate."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FIGCAPTION
-FIGURE"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 JANVIER 2019 Page 1 sur 6"	"maraîchage"	""	""	""	"re un test nitrate."	"SALADE PLEIN CHAMP"	"1833-1937"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 JANVIER 2019 Page 1 sur 6"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"SALADE"	"salade"	""	""	""	"2019 Page 1 sur 6"	"PLEIN CHAMP ET SOUS"	"1939-1945"	"type=CULTURE, form=SALADE"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P"	"STADES"	" Stade de la culture : tous les stades jusqu'au stade récolte"	""	""	""	""	"CHAMP ET SOUS ABRIS"	"Mildiou La présenc"	"1972-2033"	"type=STADES, form= Stade de la culture : tous les stades jusqu'au stade récolte"
+FIGURE"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 JANVIER 2019 Page 1 sur 6"	"maraîchage"	""	""	""	""	"re un test nitrate."	"SALADE PLEIN CHAMP"	"1833-1937"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 JANVIER 2019 Page 1 sur 6"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"SALADE"	"salade"	""	""	""	""	"2019 Page 1 sur 6"	"PLEIN CHAMP ET SOUS"	"1939-1945"	"type=CULTURE, form=SALADE"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P"	"STADES"	" Stade de la culture : tous les stades jusqu'au stade récolte"	""	""	""	""	""	"CHAMP ET SOUS ABRIS"	"Mildiou La présenc"	"1972-2033"	"type=STADES, form= Stade de la culture : tous les stades jusqu'au stade récolte"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2
 P
 P
@@ -75,7 +243,7 @@ H3"	"RISQUE"	" Mildiou
 La présence de mildiou est confirmée sur plusieurs variétés sous abris en Languedoc-Roussillon. Surveiller les parcelles.
 Evolution du risque : risque important, notamment à l'approche de la récolte
 Lutte alternative : Il est possible d'appliquer préventivement un stimulateur de défenses naturelles à base de phosphanate de potassium."	""	"Mildiou,
-mildiou"	""	""	"qu'au stade récolte"	"Il est également po"	"2034-2378"	"type=RISQUE, form= Mildiou
+mildiou"	""	""	""	"qu'au stade récolte"	"Il est également po"	"2034-2378"	"type=RISQUE, form= Mildiou
 La présence de mildiou est confirmée sur plusieurs variétés sous abris en Languedoc-Roussillon. Surveiller les parcelles.
 Evolution du risque : risque important, notamment à l'approche de la récolte
 Lutte alternative : Il est possible d'appliquer préventivement un stimulateur de défenses naturelles à base de phosphanate de potassium."
@@ -88,7 +256,7 @@ Observés sur cultures de plein champ et sous abris à des stades avancés proch
 Lutte alternative : Pour le Botrytis et le Sclérotinia, il est possible d'utiliser, notamment en agriculture biologique, un produit à base de Bacillus amyloliquefaciens."	"culture légumière de plein champ"	"Sclérotinia,
 Botrytis,
 Botrytis,
-Sclérotinia"	""	""	"résistances Bremia."	"Pour le Sclérotinia"	"2824-3239"	"type=RISQUE, form= Sclérotinia et Botrytis
+Sclérotinia"	""	""	""	"résistances Bremia."	"Pour le Sclérotinia"	"2824-3239"	"type=RISQUE, form= Sclérotinia et Botrytis
 Observés sur cultures de plein champ et sous abris à des stades avancés proche de la récolte sur moins de 5 % des parcelles sur les 2 bassins de production.
 Évaluation du risque : stable à augmentation selon les secteurs
 Lutte alternative : Pour le Botrytis et le Sclérotinia, il est possible d'utiliser, notamment en agriculture biologique, un produit à base de Bacillus amyloliquefaciens."
@@ -98,14 +266,14 @@ champignon"	"Sclérotinia,
 champignon,
 champignon,
 Sclérotinia,
-champignon"	""	""	"amyloliquefaciens."	"Sur champignons aut"	"3240-3627"	"type=RISQUE, form=Pour le Sclérotinia, il est possible d'utiliser, à différents moments de la culture, un produit à base de champignon antagoniste, le Coniothyrium minitans. Ce champignon parasite les sclérotes de Sclérotinia et est utilisable en agriculture biologique. Attention il faut vérifier les compatibilités des produits à base de champignon avec d'autres solutions de biocontrôle. Se renseigner."
+champignon"	""	""	""	"amyloliquefaciens."	"Sur champignons aut"	"3240-3627"	"type=RISQUE, form=Pour le Sclérotinia, il est possible d'utiliser, à différents moments de la culture, un produit à base de champignon antagoniste, le Coniothyrium minitans. Ce champignon parasite les sclérotes de Sclérotinia et est utilisable en agriculture biologique. Attention il faut vérifier les compatibilités des produits à base de champignon avec d'autres solutions de biocontrôle. Se renseigner."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
 BR"	"RISQUE"	"Sur champignons autres que Pythiacées (comme le Sclérotinia, Botrytis .) et à appliquer AVANT plantation au sol, il est possible d'utiliser un produit de biocontrôle à base deTrichoderma atroviride strain I-1237. ATTENTION : Non compatible avec les produits à base de Coniothyrium minitans."	"champignon"	"champignons,
 Sclérotinia,
-Botrytis"	""	""	"ôle. Se renseigner."	"BULLETIN DE SANTÉ D"	"3628-3918"	"type=RISQUE, form=Sur champignons autres que Pythiacées (comme le Sclérotinia, Botrytis .) et à appliquer AVANT plantation au sol, il est possible d'utiliser un produit de biocontrôle à base deTrichoderma atroviride strain I-1237. ATTENTION : Non compatible avec les produits à base de Coniothyrium minitans."
+Botrytis"	""	""	""	"ôle. Se renseigner."	"BULLETIN DE SANTÉ D"	"3628-3918"	"type=RISQUE, form=Sur champignons autres que Pythiacées (comme le Sclérotinia, Botrytis .) et à appliquer AVANT plantation au sol, il est possible d'utiliser un produit de biocontrôle à base deTrichoderma atroviride strain I-1237. ATTENTION : Non compatible avec les produits à base de Coniothyrium minitans."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FOOTER
 BR
-BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 2 sur 6"	"maraîchage"	""	""	""	"iothyrium minitans."	"Mesures prophylact"	"3919-4023"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 2 sur 6"
+BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 2 sur 6"	"maraîchage"	""	""	""	""	"iothyrium minitans."	"Mesures prophylact"	"3919-4023"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 2 sur 6"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2
 P
 H3
@@ -113,34 +281,31 @@ P"	"RISQUE"	"Oïdium
 En Roussillon, le risque oïdium sur chicorée scarole de plein champ est en augmentation. Dans le Languedoc, le risque est également bien présent sous abris et particulièrement en agriculture biologique. Bien surveiller les parcelles.
 Évaluation du risque : en augmentation
 Lutte alternative : Il est possible d'utiliser en agriculture biologique, un produit à base d'huile essentielle d'orange douce."	"chicorée scarole"	"Oïdium,
-oïdium"	"Oïdium,
-oïdium"	""	"les plus atteintes."	"Il est également po"	"4439-4846"	"type=RISQUE, form=Oïdium
+oïdium"	""	""	""	"les plus atteintes."	"Il est également po"	"4439-4846"	"type=RISQUE, form=Oïdium
 En Roussillon, le risque oïdium sur chicorée scarole de plein champ est en augmentation. Dans le Languedoc, le risque est également bien présent sous abris et particulièrement en agriculture biologique. Bien surveiller les parcelles.
 Évaluation du risque : en augmentation
 Lutte alternative : Il est possible d'utiliser en agriculture biologique, un produit à base d'huile essentielle d'orange douce."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2
 P"	"RISQUE"	" Pucerons, noctuelles
-Évaluation du risque : risque faible, surveiller les parcelles"	""	"Pucerons"	""	""	"les plus atteintes."	"CELERI BRANCHE PLEI"	"4963-5047"	"type=RISQUE, form= Pucerons, noctuelles
+Évaluation du risque : risque faible, surveiller les parcelles"	""	"Pucerons"	""	""	""	"les plus atteintes."	"CELERI BRANCHE PLEI"	"4963-5047"	"type=RISQUE, form= Pucerons, noctuelles
 Évaluation du risque : risque faible, surveiller les parcelles"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"CELERI BRANCHE PLEIN CHAMP"	""	""	""	""	"iller les parcelles"	"Stade des cultures"	"5048-5074"	"type=CULTURE, form=CELERI BRANCHE PLEIN CHAMP"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P"	"STADES"	" Stade des cultures : récolte en cours pour certaines parcelles"	""	""	""	""	"BRANCHE PLEIN CHAMP"	"Pucerons Les popul"	"5075-5138"	"type=STADES, form= Stade des cultures : récolte en cours pour certaines parcelles"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"CELERI BRANCHE PLEIN CHAMP"	"céleri"	""	""	""	""	"iller les parcelles"	"Stade des cultures"	"5048-5074"	"type=CULTURE, form=CELERI BRANCHE PLEIN CHAMP"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P"	"STADES"	" Stade des cultures : récolte en cours pour certaines parcelles"	""	""	""	""	""	"BRANCHE PLEIN CHAMP"	"Pucerons Les popul"	"5075-5138"	"type=STADES, form= Stade des cultures : récolte en cours pour certaines parcelles"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2
 P
 P
 H3"	"RISQUE"	" Pucerons
 Les populations sont en augmentation sur 2% des parcelles.
 Évaluation du risque : Stable voire en diminution
-Lutte alternative : Ne rien faire pour le moment"	""	"Pucerons"	""	""	"certaines parcelles"	"BULLETIN DE SANTÉ D"	"5139-5306"	"type=RISQUE, form= Pucerons
+Lutte alternative : Ne rien faire pour le moment"	""	"Pucerons"	""	""	""	"certaines parcelles"	"BULLETIN DE SANTÉ D"	"5139-5306"	"type=RISQUE, form= Pucerons
 Les populations sont en augmentation sur 2% des parcelles.
 Évaluation du risque : Stable voire en diminution
 Lutte alternative : Ne rien faire pour le moment"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FOOTER
 BR
-BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 3 sur 6"	"maraîchage"	""	""	""	"aire pour le moment"	"FRAISES SOUS ABRI"	"5307-5411"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 3 sur 6"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"FRAISES"	"fraisier"	""	""	""	"2019 Page 3 sur 6"	"SOUS ABRI ET PLEIN"	"5413-5420"	"type=CULTURE, form=FRAISES"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P"	"STADES"	"Stade des cultures : plants frigo et plants mottes plants en dormance"	""	""	""	""	"ABRI ET PLEIN CHAMP"	"tray plant : repris"	"5446-5515"	"type=STADES, form=Stade des cultures : plants frigo et plants mottes plants en dormance"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P"	"RISQUE"	"Les plants prennent des heures de froid (les feuilles sont bien rouges (725 h de froid au 22 Janvier 2019 sur les Costières au sud de Nîmes))."	""	""	"froid,
-froid"	""	": reprise en cours"	"Feuilles rougies pa"	"5546-5688"	"type=RISQUE, form=Les plants prennent des heures de froid (les feuilles sont bien rouges (725 h de froid au 22 Janvier 2019 sur les Costières au sud de Nîmes))."
+BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 3 sur 6"	"maraîchage"	""	""	""	""	"aire pour le moment"	"FRAISES SOUS ABRI"	"5307-5411"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 3 sur 6"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"FRAISES"	"fraisier"	""	""	""	""	"2019 Page 3 sur 6"	"SOUS ABRI ET PLEIN"	"5413-5420"	"type=CULTURE, form=FRAISES"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P"	"STADES"	"Stade des cultures : plants frigo et plants mottes plants en dormance"	""	""	""	""	""	"ABRI ET PLEIN CHAMP"	"tray plant : repris"	"5446-5515"	"type=STADES, form=Stade des cultures : plants frigo et plants mottes plants en dormance"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2
 P
 H3
@@ -149,13 +314,13 @@ Notamment sur les Trays plants, nous observons toujours des acariens Tétranyque
 Évaluation du risque : en augmentation
 Lutte alternative : Il est possible d'intervenir avec des produits de biocontrôle, homologué également en agriculture biologique, à base de champignon entomopathogène Beauveria bassiana."	"champignon"	"Acariens,
 acariens,
-champignon"	""	""	"ougies par le froid"	"Formes mobiles œufs"	"5719-6180"	"type=RISQUE, form= Acariens
+champignon"	""	""	""	"ougies par le froid"	"Formes mobiles œufs"	"5719-6180"	"type=RISQUE, form= Acariens
 Notamment sur les Trays plants, nous observons toujours des acariens Tétranyque sur environ 10% des plantes. Bien surveiller l'évolution des populations car elles pourraient vite se développer sous abris, là où il fait chaud.
 Évaluation du risque : en augmentation
 Lutte alternative : Il est possible d'intervenir avec des produits de biocontrôle, homologué également en agriculture biologique, à base de champignon entomopathogène Beauveria bassiana."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FOOTER
 BR
-BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 4 sur 6"	"maraîchage"	""	""	""	"Formes mobiles œufs"	"Escargot, limaces"	"6201-6305"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 4 sur 6"
+BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 4 sur 6"	"maraîchage"	""	""	""	""	"Formes mobiles œufs"	"Escargot, limaces"	"6201-6305"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 4 sur 6"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2
 P
 H3
@@ -165,31 +330,23 @@ Notamment sur les Trays plants, nous observons toujours quelques petits escargot
 Lutte alternative : Il est possible de mettre un appât à base de phosphate ferrique."	""	"Escargot,
 limaces,
 escargots,
-limaces"	""	""	"2019 Page 4 sur 6"	"Tâches pourpres No"	"6307-6594"	"type=RISQUE, form= Escargot, limaces
+limaces"	""	""	""	"2019 Page 4 sur 6"	"Tâches pourpres No"	"6307-6594"	"type=RISQUE, form= Escargot, limaces
 Notamment sur les Trays plants, nous observons toujours quelques petits escargots/limaces sur moins de 1% des plantes avec quelques dégâts. A surveiller.
 Évaluation du risque : faible
 Lutte alternative : Il est possible de mettre un appât à base de phosphate ferrique."
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"RISQUE"	" Tâches pourpres"	""	""	"Tâches"	""	"phosphate ferrique."	"Notamment dans le L"	"6595-6611"	"type=RISQUE, form= Tâches pourpres"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
-P
-H3"	"RISQUE"	"Notamment dans le Languedoc, coté Vallée du Rhône, nous observons une forte pression de tâches pourpres sur feuilles. Cette forte pression peut, entre autre, être expliquée par un manque d'aération des tunnels.
-Évaluation du risque : en augmentation si pas aération des tunnels et si temps humide
-Lutte alternative : aucune"	""	""	"tâches"	""	"e. Tâches pourpres"	"Botrytis Compte te"	"6612-6935"	"type=RISQUE, form=Notamment dans le Languedoc, coté Vallée du Rhône, nous observons une forte pression de tâches pourpres sur feuilles. Cette forte pression peut, entre autre, être expliquée par un manque d'aération des tunnels.
-Évaluation du risque : en augmentation si pas aération des tunnels et si temps humide
-Lutte alternative : aucune"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"RISQUE"	" Botrytis"	""	"Botrytis"	""	""	"lternative : aucune"	"Compte tenu des con"	"6936-6945"	"type=RISQUE, form= Botrytis"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"RISQUE"	" Botrytis"	""	"Botrytis"	""	""	""	"lternative : aucune"	"Compte tenu des con"	"6936-6945"	"type=RISQUE, form= Botrytis"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
 P
 P"	"RISQUE"	"Compte tenu des conditions fraîches, humides lorsque les tunnels ne sont pas assez aérés et des journées chaudes sous abris, on observe la présence de Botrytis, pour le moment uniquement sur les pédoncules.
 Évaluation du risque : en augmentation si pas aération des tunnels et si temps humide
 Lutte alternative : il est possible d'utiliser des produits à base de champignon Gliocladium catenulatum."	"champignon"	"Botrytis,
-champignon"	""	""	": aucune Botrytis"	"BULLETIN DE SANTÉ D"	"6946-7344"	"type=RISQUE, form=Compte tenu des conditions fraîches, humides lorsque les tunnels ne sont pas assez aérés et des journées chaudes sous abris, on observe la présence de Botrytis, pour le moment uniquement sur les pédoncules.
+champignon"	""	""	""	": aucune Botrytis"	"BULLETIN DE SANTÉ D"	"6946-7344"	"type=RISQUE, form=Compte tenu des conditions fraîches, humides lorsque les tunnels ne sont pas assez aérés et des journées chaudes sous abris, on observe la présence de Botrytis, pour le moment uniquement sur les pédoncules.
 Évaluation du risque : en augmentation si pas aération des tunnels et si temps humide
 Lutte alternative : il est possible d'utiliser des produits à base de champignon Gliocladium catenulatum."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FOOTER
 BR
-BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 5 sur 6"	"maraîchage"	""	""	""	"ladium catenulatum."	"AUTRES C ULTURES E"	"7345-7449"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 5 sur 6"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"CULTURE"	" Blette"	""	""	""	""	"CULTURE B IOLOGIQUE"	"Nous observons touj"	"7496-7503"	"type=CULTURE, form= Blette"
+BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 5 sur 6"	"maraîchage"	""	""	""	""	"ladium catenulatum."	"AUTRES C ULTURES E"	"7345-7449"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 5 sur 6"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"CULTURE"	" Blette"	"poirée"	""	""	""	""	"CULTURE B IOLOGIQUE"	"Nous observons touj"	"7496-7503"	"type=CULTURE, form= Blette"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
 H3
 H3
@@ -197,17 +354,19 @@ H3"	"RISQUE"	"Nous observons toujours des attaques de Cercosporiose (maladie cry
 Évaluation du risque : stable
 Nous observons une augmentation des attaques de la mouche de la blette. A surveiller.
 Évaluation du risque : en progression"	"champignon,
-poirée"	"champignon,
-mouche"	"Cercosporiose"	""	"B IOLOGIQUE Blette"	"REPRODUCTION DU BUL"	"7504-7951"	"type=RISQUE, form=Nous observons toujours des attaques de Cercosporiose (maladie cryptogamique due au champignon Cercospora Beticola / apparition de nombreuses petites taches arrondies, sur la face supérieure des feuilles, et de couleur grisâtres, entourées d'une bordure rougeâtre et déprimées en leur centre).
+poirée"	"Cercosporiose,
+champignon,
+mouche"	""	""	""	"B IOLOGIQUE Blette"	"REPRODUCTION DU BUL"	"7504-7951"	"type=RISQUE, form=Nous observons toujours des attaques de Cercosporiose (maladie cryptogamique due au champignon Cercospora Beticola / apparition de nombreuses petites taches arrondies, sur la face supérieure des feuilles, et de couleur grisâtres, entourées d'une bordure rougeâtre et déprimées en leur centre).
 Évaluation du risque : stable
 Nous observons une augmentation des attaques de la mouche de la blette. A surveiller.
 Évaluation du risque : en progression"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"SMALL
-P"	"META"	"REPRODUCTION DU BULLETIN AUTORISEE SEULEMENT DANS SON INTEGRALITE ( REPRODUCTION PARTIELLE INTERDITE )"	""	""	""	""	"ue : en progression"	"Ce bulletin de sant"	"7952-8054"	"type=META, form=REPRODUCTION DU BULLETIN AUTORISEE SEULEMENT DANS SON INTEGRALITE ( REPRODUCTION PARTIELLE INTERDITE )"
+P"	"META"	"REPRODUCTION DU BULLETIN AUTORISEE SEULEMENT DANS SON INTEGRALITE ( REPRODUCTION PARTIELLE INTERDITE )"	""	""	""	""	""	"ue : en progression"	"Ce bulletin de sant"	"7952-8054"	"type=META, form=REPRODUCTION DU BULLETIN AUTORISEE SEULEMENT DANS SON INTEGRALITE ( REPRODUCTION PARTIELLE INTERDITE )"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FIGCAPTION
-FIGURE"	"AUTHORS"	"Ce bulletin de santé du végétal a été préparé par les animateurs filière maraîchage de la Chambre d'agriculture du Gard, CENTREX et SUDEXPE et a été élaboré sur la base des observations réalisées, tout au long de la campagne, par les Chambres d'agriculture de l'Hérault, du Gard et du Roussillon, Cathy Conseil, X. Dubreucq, la CAPL, JEEM, le CIVAM Bio 66."	"maraîchage"	""	""	""	"RTIELLE INTERDITE )"	"Ce bulletin est pro"	"8055-8411"	"type=AUTHORS, form=Ce bulletin de santé du végétal a été préparé par les animateurs filière maraîchage de la Chambre d'agriculture du Gard, CENTREX et SUDEXPE et a été élaboré sur la base des observations réalisées, tout au long de la campagne, par les Chambres d'agriculture de l'Hérault, du Gard et du Roussillon, Cathy Conseil, X. Dubreucq, la CAPL, JEEM, le CIVAM Bio 66."
+FIGURE"	"AUTHORS"	"Ce bulletin de santé du végétal a été préparé par les animateurs filière maraîchage de la Chambre d'agriculture du Gard, CENTREX et SUDEXPE et a été élaboré sur la base des observations réalisées, tout au long de la campagne, par les Chambres d'agriculture de l'Hérault, du Gard et du Roussillon, Cathy Conseil, X. Dubreucq, la CAPL, JEEM, le CIVAM Bio 66."	"maraîchage"	""	""	""	"Gard,
+Gard"	"RTIELLE INTERDITE )"	"Ce bulletin est pro"	"8055-8411"	"type=AUTHORS, form=Ce bulletin de santé du végétal a été préparé par les animateurs filière maraîchage de la Chambre d'agriculture du Gard, CENTREX et SUDEXPE et a été élaboré sur la base des observations réalisées, tout au long de la campagne, par les Chambres d'agriculture de l'Hérault, du Gard et du Roussillon, Cathy Conseil, X. Dubreucq, la CAPL, JEEM, le CIVAM Bio 66."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FIGCAPTION
-FIGURE"	"META"	"Ce bulletin est produit à partir d'observations ponctuelles. S'il donne une tendance de la situation sanitaire régionale, celle-ci ne peut pas être transposée telle quelle à la parcelle. La CRA d'Occitanie dégage donc toute responsabilité quant aux décisions prises par les agriculteurs pour la protection de leurs cultures et les invite à prendre ces décisions sur la base des observations qu'ils auront réalisées et en s'appuyant sur les préconisations issues de bulletins techniques."	""	""	""	""	"M, le CIVAM Bio 66."	"BULLETIN DE SANTÉ D"	"8412-8898"	"type=META, form=Ce bulletin est produit à partir d'observations ponctuelles. S'il donne une tendance de la situation sanitaire régionale, celle-ci ne peut pas être transposée telle quelle à la parcelle. La CRA d'Occitanie dégage donc toute responsabilité quant aux décisions prises par les agriculteurs pour la protection de leurs cultures et les invite à prendre ces décisions sur la base des observations qu'ils auront réalisées et en s'appuyant sur les préconisations issues de bulletins techniques."
+FIGURE"	"META"	"Ce bulletin est produit à partir d'observations ponctuelles. S'il donne une tendance de la situation sanitaire régionale, celle-ci ne peut pas être transposée telle quelle à la parcelle. La CRA d'Occitanie dégage donc toute responsabilité quant aux décisions prises par les agriculteurs pour la protection de leurs cultures et les invite à prendre ces décisions sur la base des observations qu'ils auront réalisées et en s'appuyant sur les préconisations issues de bulletins techniques."	""	""	""	""	""	"M, le CIVAM Bio 66."	"BULLETIN DE SANTÉ D"	"8412-8898"	"type=META, form=Ce bulletin est produit à partir d'observations ponctuelles. S'il donne une tendance de la situation sanitaire régionale, celle-ci ne peut pas être transposée telle quelle à la parcelle. La CRA d'Occitanie dégage donc toute responsabilité quant aux décisions prises par les agriculteurs pour la protection de leurs cultures et les invite à prendre ces décisions sur la base des observations qu'ils auront réalisées et en s'appuyant sur les préconisations issues de bulletins techniques."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FOOTER
 BR
-BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 6 sur 6"	"maraîchage"	""	""	""	"lletins techniques."	""	"8899-9003"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 6 sur 6"
+BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 6 sur 6"	"maraîchage"	""	""	""	""	"lletins techniques."	""	"8899-9003"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 6 sur 6"

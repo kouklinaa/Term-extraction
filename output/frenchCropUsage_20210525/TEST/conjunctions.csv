@@ -1,0 +1,6 @@
+"bsv"	"context before"	"conjunction"	"match"	"context after"	"location"	"features"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"s sont l'avocat, la"	"mangue et la"	"mangue"	"papaye mais l'espèc"	"13651-13663"	"type=N_KON_N, form=mangue et la"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"s'en prend aussi au"	"citron, goyave, banane, nèfle"	"citron, goyave, banane"	"du Japon, tomate, c"	"13705-13734"	"type=N_PUN_N, form=citron, goyave, banane, nèfle"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"e, banane, nèfle du"	"Japon, tomate, cerise"	"tomate, cerise"	"de Cayenne, fruit d"	"13738-13759"	"type=N_PUN_N, form=Japon, tomate, cerise"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"ayenne, fruit de la"	"passion, kaki, ananas, pêche, poire, abricot, figue et café"	"kaki, ananas, pêche, poire, abricot, figue, café"	". Les légumes concer"	"13784-13843"	"type=N_PUN_N_KON_N, form=passion, kaki, ananas, pêche, poire, abricot, figue et café"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"sont notamment les"	"tomates, poivrons, melons et courges"	"tomates, poivrons, melons, courges"	". Comme les autres m"	"13886-13922"	"type=N_PUN_N_KON_N, form=tomates, poivrons, melons et courges"

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="theme">
+
+  <param name="save">
+    <alias module="save-theme" param="outDir"/>
+  </param>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  TITLE
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+
+  <title class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag == "TITLE"]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=TITLE</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </title>
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Sommaire
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+
+  <sommaire_simple class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H"  and @tag =~ "[0-9]" and @form == "SOMMAIRE"]
+      [ true ]{0,5}
+      [@tag ^= "H"  and @tag =~ "[0-9]" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=SOMMAIRE</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </sommaire_simple>
+
+
+
+  <sommaire_plants_bioagressors class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      (
+        [@tag ^= "H" and @tag =~ "[0-9]"  and overlapping:fcu-baseline]
+        [@tag == "P"]
+        [@tag == "BR"] *
+      ){2,5}
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=SOMMAIRE</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </sommaire_plants_bioagressors>
+
+
+  <a_retenir class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]"  and @form =~ "\\bretenir\\b" ]
+      [ true ]{0,5}
+      [@tag == "P" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=A RETENIR</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </a_retenir>
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Edition
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <edition class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H"  and @tag =~ "[0-9]" and str:lower(@form) =~ "edition"]?
+      [@tag ^= "H"  and @tag =~ "[0-9]" and @form ^= "N°" and @form =~ "[0-9]"]
+
+      <!-- (
+        [ true ]{0,5}
+        (number:[@tag ^= "H"  and @tag =~ "[0-9]" and @form =~ "[0-9]"])
+      )? -->
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=EDITION</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </edition>
+
+
+
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+//  FOOTER
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+
+<footer class="PatternMatcher">
+  <layerName>html</layerName>
+  <pattern>
+    <!-- Page 1 sur 6 -->
+    [@tag == "FOOTER" and str:lower(@form) =~ "page" or
+    @tag == "FIGCAPTION" and str:lower(@form) =~ "page" ]
+  </pattern>
+  <actions>
+    <createAnnotation layer="themes"/>
+  </actions>
+  <constantAnnotationFeatures>type=FOOTER</constantAnnotationFeatures>
+  <overlappingBehaviour>ignore</overlappingBehaviour>
+</footer>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  FINANCEMENT
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <financement class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+
+      [@tag == "P" and str:lower(@form) =~ "action" and str:lower(@form) =~ "pilotée"]
+      [str:lower(@form) =~ "avec" and str:lower(@form) =~ "participation" and str:lower(@form) =~ "financière"]?
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=FINANCEMENT</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </financement>
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  META
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <meta_reproduction class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag == "P" and str:lower(@form) =~ "reproduction" and str:lower(@form) =~ "bulletin"
+      ]
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=META</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </meta_reproduction>
+
+  <meta_production class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag == "FIGCAPTION" and str:lower(@form) =~ "d'observations" and str:lower(@form) =~ "ponctuelles"]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=META</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </meta_production>
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Authors
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <authors class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag == "FIGCAPTION" and str:lower(@form) =~ "préparé par" and str:lower(@form) =~ "animateurs"]
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=AUTHORS</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </authors>
+
+  <director class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [str:lower(@form) =~ "directeur"]
+      [true]{0,2}
+      [str:lower(@form) =~ "dépôt" and str:lower(@form) =~ "légal"]
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=AUTHORS</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </director>
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Abonnement
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <abonnement class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag == "FIGCAPTION" and @form =~ "\\bABONNEMENT\\b" ]
+      [ true ]{0,2}
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=ABONNEMENT</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </abonnement>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Meteo
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <meteo class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]" and @form =~ "METEO" ]
+      [ true ]{0,35}
+      [@tag ^= "H" and @tag =~ "[0-9]" and @form =~ "PHENO" ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=METEO</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </meteo>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Réseau d'observation
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <reseau class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]" and str:lower(@form) =~ "réseau d'observation" ]
+      [@tag == "P"]+
+      (
+        [@tag == "BR"]*
+        [@tag == "P"]*
+      )?
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=RESEAU D'OBSERVATION</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </reseau>
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Culture
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <culture class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+      [@tag ^= "H" and @tag =~ "[0-9]"  and overlapping:fcu-baseline]
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=CULTURE</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </culture>
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Période de risque
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+
+  <risque class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+
+      <!-- commence par la mention des bioagresseurs ou des maladies -->
+      [ @tag ^= "H" and @tag =~ "[0-9]" and overlapping:bioagressors or
+      @tag == "P" and overlapping:bioagressors]
+
+      [
+      str:lower(@form) =~ "attaque"  or
+      str:lower(@form) =~ "risque"  or
+      str:lower(@form) =~ "période de risque"  or
+      str:lower(@form) =~ "au repos" or
+      str:lower(@form) =~ "parcelles"
+      ]?
+
+      [str:lower(@form) =~ "surveiller"]?
+      [str:lower(@form) =~ "evolution du risque"]?
+      [str:lower(@form) =~ "évaluation du risque"]?
+      [str:lower(@form) =~ "lutte"] ?
+      [str:lower(@form) =~ "mesure"]?
+
+      <!-- [@tag == "P"]+
+      (
+        [@tag == "BR"]*
+        [@tag == "P"]*
+      )? -->
+
+      <!-- peut être suivi par un seuil de risque ou pas -->
+<!--
+      (
+        [str:lower(@form) =~ "seuil" ]
+        [@tag == "P"]+
+        [@tag == "BR"]*
+        [@tag == "P"]*
+      )? -->
+
+
+
+      <!-- peut être suivi par une analyse de risque ou pas-->
+      <!-- (
+        [str:lower(@form) =~ "analyse" ]
+        [@tag == "P"]+
+        [@tag == "BR"]*
+        [@tag == "P"]*
+      )? -->
+
+      <!-- peut être suivi par lutte ou pas -->
+
+      <!-- (
+        [str:lower(@form) =~ "lutte" ]
+        [@tag == "P"]+
+        [@tag == "BR"]*
+        [@tag == "P"]*
+      )? -->
+
+      <!-- peut être suivi par lutte ou pas -->
+
+      <!-- (
+        [str:lower(@form) =~ "mesure" ]
+        [@tag == "P"]+
+        [@tag == "BR"]*
+        [@tag == "P"]*
+      )? -->
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=RISQUE</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </risque>
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Stades phénologiques
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+  <stades class="PatternMatcher">
+    <layerName>html</layerName>
+    <pattern>
+
+      [@tag ^= "H" and @tag =~ "[0-9]"  and str:lower(@form) =~ "stade" or
+      @tag == "P" and str:lower(@form) =~ "stade" and str:lower(@form) =~ "culture"]
+
+      <!-- (
+        [ true ]{0,5}
+        [@tag  == "P"]
+      )?
+
+        [@tag  ^= "H" and @tag =~ "[0-9]"]? -->
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="themes"/>
+    </actions>
+    <constantAnnotationFeatures>type=STADES</constantAnnotationFeatures>
+    <overlappingBehaviour>ignore</overlappingBehaviour>
+  </stades>
+
+
+
+
+
+  <!--
+  ///////////////////////////////////////////////////////////////////////////////////////
+  //
+  //  Export
+  //
+  ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+
+  <overlaps class="RemoveOverlaps">
+    <layerName>themes</layerName>
+    <removeEqual>false</removeEqual>
+    <!-- <removeOverlapping>false</removeOverlapping> -->
+  </overlaps>
+
+
+  <save-theme class="TabularExport">
+     <corpusFile>themes.csv</corpusFile>
+     <lines>documents.sections.layer:themes</lines>
+     <headers>"bsv", "html tags", "segment (type)", "segment (form)", "fcu concepts",  "bioagressors", "stages" , "region",  "department", "context before", "context after", "location","features"</headers>
+     <columns separator=";">
+       <!-- short document id  -->
+       str:replace(str:basename(section.document.@id), ".html", "");
+       <!-- tags -->
+       str:join:'\n'(inside:html, @tag );
+       <!-- theme -->
+       @type;
+       @form;
+       <!-- concepts fcu, bioagressors, stages, locality  -->
+       str:join:',\n'(inside:fcu-baseline, @skos-prefLabel);
+       str:join:',\n'(inside:bioagressors, @form);
+       str:join:',\n'(inside:stages, @skos-prefLabel);
+       str:join:',\n'(inside:locality[@type == "REGION"], @form);
+       str:join:',\n'(inside:locality[@type == "DEPARTEMENT"], @form);
+       <!-- context before  -->
+       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+       <!-- context after  -->
+       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+       <!-- location  -->
+       start ^ "-" ^ end;
+       <!-- features  -->
+       str:join:', '(nav:features, @key ^ "=" ^ @value)
+     </columns>
+     <trueCSV/>
+   </save-theme>
+
+
+
+</alvisnlp-plan>

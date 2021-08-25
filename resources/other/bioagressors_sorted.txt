@@ -1,6 +1,8 @@
 
+acarien
 acarien jaune des charmilles
 acarien rouge
+acariens
 acariens phytophages
 acariose
 acleris
@@ -52,6 +54,7 @@ bois noir
 botryosphaeria kuwatsukai
 botryosphaeria laricina
 botryosphaeria spp.
+botrytis
 botrytis cinerea
 bretziella fagacearum
 bursaphelenchus xylophilus
@@ -63,6 +66,7 @@ carposina sasakii
 ceratitis quinaria
 ceratitis rosa
 ceratocystis platani
+cercosporiose
 champignon
 champignons associés à l'esca
 champignons du bois
@@ -92,6 +96,7 @@ cochenilles floconneuses
 cochylis
 coconut cadang-cadang viroid
 coconut lethal yellowing phytoplasma
+collemboles
 colomerus vitis
 coniferiporia sulphurascens
 coniferiporia weirii
@@ -130,6 +135,7 @@ epitrix tuberis
 érinose
 erwinia amylovora
 erysiphe necator
+escargot
 escargot petit-gris
 eudémis
 eulia
@@ -141,6 +147,7 @@ eutypiose
 excoriose
 flatide pruineux
 flavescence dorée
+fusariose
 fusarium circinatum
 fusarium oxysporum f. sp. albedinis
 geometridae
@@ -159,6 +166,7 @@ guignardia bidwellii
 gymnosporangium
 haplaxius crudus
 helicoverpa zea
+helminthosporiose
 hémérobes
 hibiscus green spot virus 2
 hirschmanniella
@@ -193,6 +201,8 @@ melon yellowing-associated virus
 metcalfa pruinosa
 mildiou
 monochamus
+mouche
+mouches
 mycodiella laricis-leptolepidis
 nacobbus aberrans
 naupactus leucoloma
@@ -222,6 +232,7 @@ phymatotrichopsis omnivora
 phytophthora ramorum
 phytoplasma aurantifolia
 pied noir
+piétin
 pilidiella diplodiella
 pissodes nemorensis
 pissodes nitidus
@@ -264,10 +275,13 @@ rhagoletis indifferens
 rhagoletis mendax
 rhagoletis pomonella
 rhagoletis ribicola
+rhizoctone
+rhynchosporiose
 rhynchophorus palmarum
 ripersiella hibisci
 rose rosette virus
 rot blanc
+rouille
 saperda candida
 satsuma dwarf virus
 scaphoideus titanus
@@ -277,6 +291,7 @@ scirtothrips dorsalis
 sclerotinia
 scolytidae
 septoria malagutii
+sitones
 sparganothis pilleriana
 sphaerulina musiva
 spodoptera eridania
@@ -295,6 +310,7 @@ tenthrède
 thaumatotibia leucotreta
 theba pisana
 thecaphora solani
+thrips
 thrips palmi
 tilletia indica
 tobacco ringspot virus

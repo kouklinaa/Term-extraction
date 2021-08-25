@@ -80,7 +80,7 @@
 
 
 
-    <N_PUN_N_KON_N class="PatternMatcher">
+    <!-- <N_PUN_N_KON_N class="PatternMatcher">
       <pattern>
 
         (
@@ -113,11 +113,11 @@
         <createAnnotation layer="conjunctions"/>
       </actions>
       <constantAnnotationFeatures>type=N_PUN_N_KON_N</constantAnnotationFeatures>
-    </N_PUN_N_KON_N>
+    </N_PUN_N_KON_N> -->
 
 
 
-  <!-- <N_PUN_N_KON_N class="PatternMatcher">
+  <N_PUN_N_KON_N class="PatternMatcher">
     <pattern>
 
       (
@@ -126,7 +126,7 @@
       )+
 
 
-      [overlapping:GN]?
+      [overlapping:GN]
       [ @form == "et"]
       [overlapping:GN]
 
@@ -135,7 +135,7 @@
       <createAnnotation layer="conjunctions"/>
     </actions>
     <constantAnnotationFeatures>type=N_PUN_N_KON_N</constantAnnotationFeatures>
-  </N_PUN_N_KON_N> -->
+  </N_PUN_N_KON_N>
 
 
 

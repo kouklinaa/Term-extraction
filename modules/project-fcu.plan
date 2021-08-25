@@ -11,7 +11,7 @@
 </param>
 
 
-<!-- <param name="save-fcu-tomap">
+<param name="save-fcu-tomap">
   <alias module="save-tomap" param="outDir"/>
 </param>
 
@@ -26,7 +26,7 @@
 
 <param name="save-bm25-all">
   <alias module="calculate-bm25-all" param="outFile"/>
-</param> -->
+</param>
 
 <!-- <param name="f-score">
   <alias module="compare-layers" param="outFile"/>
@@ -48,7 +48,15 @@
     <language>fr</language>
     <uriFeatureName>uri</uriFeatureName>
     <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
-    <wordStartCaseInsensitive/>
+
+    <wordStartCaseInsensitive>true</wordStartCaseInsensitive>
+    <allowJoined>true</allowJoined>
+    <joinDash>true</joinDash>
+    <caseInsensitive>true</caseInsensitive>
+    <ignoreDiacritics>true</ignoreDiacritics>
+    <wordStartCaseInsensitive>true</wordStartCaseInsensitive>
+    <skipWhitespace>true</skipWhitespace>
+
     <constantAnnotationFeatures>type=RDFProjector</constantAnnotationFeatures>
   </project-baseline>
 
@@ -133,27 +141,27 @@
 
 
   <!-- Project terms with ToMap-->
-  <!-- <project-tomap href="modules/tomap-classify.plan"/>
+  <project-tomap href="modules/tomap-classify.plan"/>
 
 
   <add-lemma-tomap class="Action">
     <target>documents.sections.layer:fcu-tomap</target>
     <action>set:feat:lemma(str:join:' '(inside:words, @lemma))</action>
   <setFeatures/>
-  </add-lemma-tomap> -->
+  </add-lemma-tomap>
 
 
   <!-- Remove overlaps -->
-  <!-- <overlaps-tomap class="RemoveOverlaps">
+  <overlaps-tomap class="RemoveOverlaps">
     <layerName>fcu-tomap</layerName>
     <removeEqual/>
     <removeIncluded>true</removeIncluded>
     <removeOverlapping>true</removeOverlapping>
-  </overlaps-tomap> -->
+  </overlaps-tomap>
 
 
   <!-- Filter results -->
-  <!-- <filter-tomap>
+  <filter-tomap>
     <ambiguous-words class="Action">
       <target>documents.sections.layer:fcu-tomap[
         @lemma == "orange" or
@@ -174,11 +182,11 @@
       <deleteElements>true</deleteElements>
     </remove-negatives>
 
-  </filter-tomap> -->
+  </filter-tomap>
 
 
   <!-- Save results-->
-  <!-- <save-tomap class="TabularExport">
+  <save-tomap class="TabularExport">
     <corpusFile>fcu-tomap.csv</corpusFile>
     <lines>documents.sections.(layer:fcu-tomap)</lines>
     <headers>"bsv", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
@@ -195,13 +203,13 @@
       str:join:', '(nav:features, @key ^ "=" ^ @value)
     </columns>
     <trueCSV/>
-  </save-tomap> -->
+  </save-tomap>
 
   <!-- Bm25-->
-  <!-- <calculate-bm25-tomap href="modules/scores.plan">
+  <calculate-bm25-tomap href="modules/scores.plan">
     <keywords>sections.layer:fcu-tomap</keywords>
     <scoreFunction type="bm25" k1="1.2" b="0.75"/>
-  </calculate-bm25-tomap> -->
+  </calculate-bm25-tomap>
 
 
 
@@ -231,21 +239,21 @@
   -->
 
   <!-- Merge -->
-  <!-- <merge-layers class="MergeLayers">
+  <merge-layers class="MergeLayers">
     <sourceLayerNames>fcu-tomap, fcu-baseline</sourceLayerNames>
     <targetLayerName>fcu</targetLayerName>
-  </merge-layers> -->
+  </merge-layers>
 
   <!-- Remove duplicates -->
-  <!-- <overlaps-all class="RemoveOverlaps">
+  <overlaps-all class="RemoveOverlaps">
     <layerName>fcu</layerName>
     <removeIncluded>true</removeIncluded>
     <removeOverlapping>true</removeOverlapping>
-  </overlaps-all> -->
+  </overlaps-all>
 
 
   <!-- Save results-->
-  <!-- <save-all class="TabularExport">
+  <save-all class="TabularExport">
     <corpusFile>fcu.csv</corpusFile>
     <lines>documents.sections.(layer:fcu)</lines>
     <headers>"bsv", "number of words", "html tag", "context before","form", "lemma", "prefLabel","context after","location","features"</headers>
@@ -262,14 +270,14 @@
       str:join:', '(nav:features, @key ^ "=" ^ @value)
     </columns>
     <trueCSV/>
-  </save-all> -->
+  </save-all>
 
 
   <!-- BM25-->
-  <!-- <calculate-bm25-all href="modules/scores.plan">
+  <calculate-bm25-all href="modules/scores.plan">
     <keywords>sections.layer:fcu</keywords>
     <scoreFunction type ="bm25" k1="1.2" b="0.75"/>
-  </calculate-bm25-all> -->
+  </calculate-bm25-all>
 
 
 

@@ -60,6 +60,24 @@
   <setFeatures/>
 </correct-kaki>
 
+<correct-fraise class="Action">
+  <target>documents.sections.layer:words[@form == "FRAISE"]</target>
+  <action>set:feat:lemma("fraise")</action>
+  <setFeatures/>
+</correct-fraise>
+
+<correct-celeris class="Action">
+  <target>documents.sections.layer:words[@form == "CELERI"]</target>
+  <action>set:feat:lemma("cèleri")</action>
+  <setFeatures/>
+</correct-celeris>
+
+<correct-blette class="Action">
+  <target>documents.sections.layer:words[@form == "BLETTE" or @form == "Blette"]</target>
+  <action>set:feat:lemma("blette")</action>
+  <setFeatures/>
+</correct-blette>
+
 
 
 </alvisnlp-plan>

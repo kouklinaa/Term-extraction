@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="locality">
+
+<param name="save">
+  <alias module="save-locality" param="outDir"/>
+</param>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+//  Annotate
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<project-locality>
+
+<regions class="TabularProjector">
+  <subject layer="words"/>
+  <dictFile>resources/other/regions.csv</dictFile>
+  <targetLayerName>locality</targetLayerName>
+  <valueFeatures>$</valueFeatures>
+  <constantAnnotationFeatures>type=REGION</constantAnnotationFeatures>
+  <allowJoined/>
+  <joinDash/>
+  <caseInsensitive/>
+  <ignoreDiacritics/>
+  <wordStartCaseInsensitive/>
+  <skipWhitespace/>
+</regions>
+
+
+<departements class="TabularProjector">
+  <subject layer="words"/>
+  <dictFile>resources/other/departements.csv</dictFile>
+  <targetLayerName>locality</targetLayerName>
+  <valueFeatures>$</valueFeatures>
+  <constantAnnotationFeatures>type=DEPARTEMENT</constantAnnotationFeatures>
+  <allowJoined/>
+  <joinDash/>
+  <caseInsensitive/>
+  <ignoreDiacritics/>
+  <wordStartCaseInsensitive/>
+  <skipWhitespace/>
+</departements>
+
+<arrondissements class="TabularProjector">
+  <subject layer="words"/>
+  <dictFile>resources/other/arrondissements.csv</dictFile>
+  <targetLayerName>locality</targetLayerName>
+  <valueFeatures>$</valueFeatures>
+  <constantAnnotationFeatures>type=ARRONDISSEMENT</constantAnnotationFeatures>
+  <allowJoined/>
+  <joinDash/>
+  <caseInsensitive/>
+  <ignoreDiacritics/>
+  <wordStartCaseInsensitive/>
+  <skipWhitespace/>
+</arrondissements>
+
+</project-locality>
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+//  Export
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<overlaps class="RemoveOverlaps">
+  <layerName>locality</layerName>
+  <removeEqual>false</removeEqual>
+</overlaps>
+
+<save-locality class="TabularExport">
+  <corpusFile>locality.csv</corpusFile>
+  <lines>documents.sections.layer:locality</lines>
+  <headers>"bsv", "context before", "locality","context after", "location","features"</headers>
+  <columns separator=";">
+    <!-- short document id -->
+    str:replace(str:basename(section.document.@id), ".html", "");
+    <!-- context before -->
+    str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+    <!-- entity -->
+    @form;
+    <!-- context after -->
+    str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+    <!-- location -->
+    start ^ "-" ^ end;
+    <!-- features -->
+    str:join:', '(nav:features, @key ^ "=" ^ @value)
+  </columns>
+  <trueCSV/>
+</save-locality>
+
+
+
+ </alvisnlp-plan>
