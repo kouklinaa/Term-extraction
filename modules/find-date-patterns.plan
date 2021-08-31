@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="date_patterns">
+
+
+    <param name="save">
+      <alias module="save-dates" param="outDir"/>
+    </param>
+
+
+      <!--
+      ///////////////////////////////////////////////////////////////////////////////////////
+      //
+      //  Annotate
+      //
+      ///////////////////////////////////////////////////////////////////////////////////////
+      -->
+
+    <MM class="PatternMatcher">
+      <pattern>
+
+        [
+        str:lower(@form) =~ "\\bjanvier\\b"  or str:lower(@form) =~ "\\bjanv.\\b" or
+        str:lower(@form) =~ "\\bfévrier\\b"  or str:lower(@form) =~ "\\bfévr.\\b" or
+        str:lower(@form) =~ "\\bmars\\b" or
+        str:lower(@form) =~ "\\bavril\\b" or str:lower(@form) =~ "\\bavr.\\b" or
+        str:lower(@form) =~ "\\bmai\\b"  or
+        str:lower(@form) =~ "\\bjuin\\b" or
+        str:lower(@form) =~ "\\bjuillet\\b" or str:lower(@form) =~ "\\bjuill.\\b" or
+        str:lower(@form) =~ "\\baoût\\b" or
+        str:lower(@form) =~ "\\bseptembre\\b" or str:lower(@form) =~ "\\bsept.\\b" or
+        str:lower(@form) =~ "\\boctobre\\b" or str:lower(@form) =~ "\\boct.\\b" or
+        str:lower(@form) =~ "\\bnovembre\\b"  or str:lower(@form) =~ "\\bnov.\\b" or
+        str:lower(@form) =~ "\\bdécembre\\b" or str:lower(@form) =~ "\\bdéc.\\b"
+        ]
+
+      </pattern>
+      <actions>
+        <createAnnotation layer="dates"/>
+      </actions>
+      <constantAnnotationFeatures>type=MM</constantAnnotationFeatures>
+    </MM>
+
+  <YYYY class="PatternMatcher">
+    <pattern>
+      <!-- [ @form =~ "\\b[0-9]{4}\\b" ] -->
+      [ @form ^= "1" and  @form =~ "\\b[0-9]{4}\\b" or
+      @form ^= "2" and  @form =~ "\\b[0-9]{4}\\b"]
+    </pattern>
+    <actions>
+      <createAnnotation layer="dates"/>
+    </actions>
+    <constantAnnotationFeatures>type=YYYY</constantAnnotationFeatures>
+  </YYYY>
+
+
+
+
+
+
+  <DD-MM class="PatternMatcher">
+    <pattern>
+      [ @form =~ "\\b[0-9]{1}\\b" or @form =~ "\\b[0-9]{2}\\b" ]
+      [
+      overlapping:dates[@type == "MM"] or
+      str:lower(@form) =~ "01" or
+      str:lower(@form) =~ "02" or
+      str:lower(@form) =~ "03" or
+      str:lower(@form) =~ "04" or
+      str:lower(@form) =~ "05" or
+      str:lower(@form) =~ "06" or
+      str:lower(@form) =~ "07" or
+      str:lower(@form) =~ "08" or
+      str:lower(@form) =~ "09" or
+      str:lower(@form) =~ "10" or
+      str:lower(@form) =~ "11" or
+      str:lower(@form) =~ "12"
+      ]
+    </pattern>
+    <actions>
+      <createAnnotation layer="dates"/>
+    </actions>
+    <constantAnnotationFeatures>type=DD-MM</constantAnnotationFeatures>
+  </DD-MM>
+
+  <DD-MM-YYYY class="PatternMatcher">
+    <pattern>
+      [ @form =~ "\\b[0-9]{1}\\b" or @form =~ "\\b[0-9]{2}\\b" ]
+      [ @form == "-" or @form == "/" or  @form == "_"]?
+      [
+      overlapping:dates[@type == "MM"] or
+      str:lower(@form) =~ "01" or
+      str:lower(@form) =~ "02" or
+      str:lower(@form) =~ "03" or
+      str:lower(@form) =~ "04" or
+      str:lower(@form) =~ "05" or
+      str:lower(@form) =~ "06" or
+      str:lower(@form) =~ "07" or
+      str:lower(@form) =~ "08" or
+      str:lower(@form) =~ "09" or
+      str:lower(@form) =~ "10" or
+      str:lower(@form) =~ "11" or
+      str:lower(@form) =~ "12"
+      ]
+      [ @form == "-" or @form == "/" or  @form == "_"]?
+      [overlapping:dates[@type == "YYYY"]]
+    </pattern>
+    <actions>
+      <createAnnotation layer="dates"/>
+    </actions>
+    <constantAnnotationFeatures>type=DD-MM-YYYY</constantAnnotationFeatures>
+  </DD-MM-YYYY>
+
+
+  <MM-YYYY class="PatternMatcher">
+    <pattern>
+    [
+    overlapping:dates[@type == "MM"] or
+    str:lower(@form) =~ "01" or
+    str:lower(@form) =~ "02" or
+    str:lower(@form) =~ "03" or
+    str:lower(@form) =~ "04" or
+    str:lower(@form) =~ "05" or
+    str:lower(@form) =~ "06" or
+    str:lower(@form) =~ "07" or
+    str:lower(@form) =~ "08" or
+    str:lower(@form) =~ "09" or
+    str:lower(@form) =~ "10" or
+    str:lower(@form) =~ "11" or
+    str:lower(@form) =~ "12"
+    ]
+    [overlapping:dates[@type == "YYYY"]]
+  </pattern>
+    <actions>
+      <createAnnotation layer="dates"/>
+    </actions>
+    <constantAnnotationFeatures>type=MM-YYYY</constantAnnotationFeatures>
+
+  </MM-YYYY>
+
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    //  Export
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+  <overlaps class="RemoveOverlaps">
+    <layerName>dates</layerName>
+    <removeEqual>false</removeEqual>
+  </overlaps>
+
+
+
+
+  <save-dates class="TabularExport">
+     <corpusFile>dates.csv</corpusFile>
+     <lines>documents.sections.layer:dates</lines>
+     <headers>"bsv","context before", "date", "match","context after", "location","features"</headers>
+     <columns separator=";">
+       <!-- short document id  -->
+       str:replace(str:basename(section.document.@id), ".html", "");
+       <!-- context before  -->
+       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+       <!-- entity  -->
+       @form;
+       <!-- match  -->
+       str:join:', '(inside:fcu-baseline, @form );
+       <!-- context after  -->
+       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+       <!-- location  -->
+       start ^ "-" ^ end;
+       <!-- features  -->
+       str:join:', '(nav:features, @key ^ "=" ^ @value)
+     </columns>
+     <trueCSV/>
+   </save-dates>
+
+
+</alvisnlp-plan>

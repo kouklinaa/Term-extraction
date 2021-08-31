@@ -473,7 +473,7 @@
   <save-theme class="TabularExport">
      <corpusFile>themes.csv</corpusFile>
      <lines>documents.sections.layer:themes</lines>
-     <headers>"bsv", "html tags", "segment (type)", "segment (form)", "fcu concepts",  "bioagressors", "stages" , "locality", "context before", "context after", "location","features"</headers>
+     <headers>"bsv", "html tags", "segment (type)", "segment (form)", "fcu concepts",  "bioagressors", "stages" , "locality", "dates", "context before", "context after", "location","features"</headers>
      <columns separator=";">
        <!-- short document id  -->
        str:replace(str:basename(section.document.@id), ".html", "");
@@ -482,11 +482,12 @@
        <!-- theme -->
        @type;
        @form;
-       <!-- concepts fcu, bioagressors, stages, locality  -->
+       <!-- concepts fcu, bioagressors, stages, locality, dates  -->
        str:join:',\n'(inside:fcu-baseline, @skos-prefLabel);
        str:join:',\n'(inside:bioagressors, @form);
        str:join:',\n'(inside:stages, @skos-prefLabel);
        str:join:',\n'(inside:locality, @form);
+       str:join:',\n'(inside:dates, @form);
        <!-- context before  -->
        str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
        <!-- context after  -->

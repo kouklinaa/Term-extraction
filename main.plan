@@ -137,6 +137,21 @@
 </find-conj>
 
 
+<find-dates href="modules/find-date-patterns.plan">
+
+  <!-- d2kab -->
+  <!-- <save>output/frenchCropUsage_20210525/d2kab</save> -->
+
+  <!-- vespa -->
+  <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
+
+  <!-- alea -->
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
+
+  <!-- TEST -->
+  <save>output/frenchCropUsage_20210525/TEST</save>
+
+</find-dates>
 
 
 <find-bioagressors href="modules/project-bioagressors.plan">
