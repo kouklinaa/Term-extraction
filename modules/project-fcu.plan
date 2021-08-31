@@ -49,13 +49,13 @@
     <uriFeatureName>uri</uriFeatureName>
     <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
 
-    <wordStartCaseInsensitive>true</wordStartCaseInsensitive>
+
     <allowJoined>true</allowJoined>
     <joinDash>true</joinDash>
     <caseInsensitive>true</caseInsensitive>
     <ignoreDiacritics>true</ignoreDiacritics>
-    <wordStartCaseInsensitive>true</wordStartCaseInsensitive>
-    <skipWhitespace>true</skipWhitespace>
+    <skipWhitespace>true</skipWhitespace> 
+    <!-- associe pomme au po me  -->
 
     <constantAnnotationFeatures>type=RDFProjector</constantAnnotationFeatures>
   </project-baseline>

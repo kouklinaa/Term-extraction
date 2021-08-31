@@ -15,7 +15,14 @@
   //
   ///////////////////////////////////////////////////////////////////////////////////////
   -->
-
+<yatea_terms class = "YateaTermsProjector">
+  <yateaFile output-feed="true">../yatea.xml</yateaFile>
+  <targetLayerName>yatea</targetLayerName>
+  <projectLemmas/>
+  <head/>
+  <termLemma>lemma</termLemma>
+  <termPOS>pos</termPOS>
+</yatea_terms>
 
   <GN class="PatternMatcher">
     <pattern>

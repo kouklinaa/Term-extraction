@@ -16,20 +16,47 @@
 
 <project-locality>
 
+
+
+<!-- <regions class="TabularProjector">
+  <subject layer="words"/>
+  <dictFile>resources/other/fr-esr-referentiel-geographique.csv</dictFile>
+  <targetLayerName>locality</targetLayerName>
+  <separator>;</separator>
+  <keyIndex>1</keyIndex>
+  <valueFeatures>REG_NOM,REG_NOM_OLD,ACA_NOM,DEP_NOM,COM_NOM,AUC_NOM</valueFeatures>
+  <multipleEntryBehaviour>all</multipleEntryBehaviour>
+  <joinDash/>
+  <caseInsensitive/>
+  <ignoreDiacritics/>
+</regions> -->
+
 <regions class="TabularProjector">
   <subject layer="words"/>
   <dictFile>resources/other/regions.csv</dictFile>
   <targetLayerName>locality</targetLayerName>
   <valueFeatures>$</valueFeatures>
-  <constantAnnotationFeatures>type=REGION</constantAnnotationFeatures>
+  <constantAnnotationFeatures>type=REG_NOM</constantAnnotationFeatures>
   <allowJoined/>
   <joinDash/>
   <caseInsensitive/>
   <ignoreDiacritics/>
-  <wordStartCaseInsensitive/>
-  <skipWhitespace/>
 </regions>
 
+
+<regions_old class="TabularProjector">
+  <subject layer="words"/>
+  <dictFile>resources/other/regions_old.csv</dictFile>
+  <targetLayerName>locality</targetLayerName>
+  <valueFeatures>$</valueFeatures>
+  <constantAnnotationFeatures>type=REG_NOM_OLD</constantAnnotationFeatures>
+  <allowJoined/>
+  <joinDash/>
+  <caseInsensitive/>
+  <ignoreDiacritics/>
+  <skipWhitespace>true</skipWhitespace>
+
+</regions_old>
 
 <departements class="TabularProjector">
   <subject layer="words"/>
@@ -41,25 +68,22 @@
   <joinDash/>
   <caseInsensitive/>
   <ignoreDiacritics/>
-  <wordStartCaseInsensitive/>
-  <skipWhitespace/>
 </departements>
 
-<arrondissements class="TabularProjector">
+<!-- <communes class="TabularProjector">
   <subject layer="words"/>
-  <dictFile>resources/other/arrondissements.csv</dictFile>
+  <dictFile>resources/other/communes.csv</dictFile>
   <targetLayerName>locality</targetLayerName>
   <valueFeatures>$</valueFeatures>
-  <constantAnnotationFeatures>type=ARRONDISSEMENT</constantAnnotationFeatures>
+  <constantAnnotationFeatures>type=COMMUNE</constantAnnotationFeatures>
   <allowJoined/>
   <joinDash/>
   <caseInsensitive/>
   <ignoreDiacritics/>
-  <wordStartCaseInsensitive/>
-  <skipWhitespace/>
-</arrondissements>
+</communes> -->
 
 </project-locality>
+
 <!--
 ///////////////////////////////////////////////////////////////////////////////////////
 //
@@ -70,7 +94,7 @@
 
 <overlaps class="RemoveOverlaps">
   <layerName>locality</layerName>
-  <removeEqual>false</removeEqual>
+  <removeEqual>true</removeEqual>
 </overlaps>
 
 <save-locality class="TabularExport">
