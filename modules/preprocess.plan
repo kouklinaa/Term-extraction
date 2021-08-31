@@ -18,11 +18,22 @@
 
 <!-- remove initial pos tags as foreign words are labeled as <FW> and are not recognised by french tree-tagger-->
 <remove-initial-pos-tags class="Action">
-  <target>documents.sections.layer:words[@pos]</target>
+  <target>documents.sections.layer:words[@pos == "FW"]</target>
   <action>set:remove-feature:pos</action>
   <setFeatures/>
 </remove-initial-pos-tags>
 
+
+
+
+<correct-plants class="Action">
+  <target>documents.sections.layer:words[str:lower(@form) == "fraise" or
+    str:lower(@form) == "celeri" or
+    str:lower(@form) == "blette" or
+    str:lower(@form) == "kaki" ]</target>
+  <action>set:feat:pos("NOM")</action>
+  <setFeatures/>
+</correct-plants>
 
 
 <!--
@@ -44,39 +55,6 @@
 </tt>
 
 
-<!--
-///////////////////////////////////////////////////////////////////////////////////////
-//
-// III. Correct some tags
-//
-///////////////////////////////////////////////////////////////////////////////////////
--->
-
-
-<!-- correct treetagger pos tag -->
-<correct-kaki class="Action">
-  <target>documents.sections.layer:words[@form == "kaki"]</target>
-  <action>set:feat:pos("NOM")</action>
-  <setFeatures/>
-</correct-kaki>
-
-<correct-fraise class="Action">
-  <target>documents.sections.layer:words[@form == "FRAISE"]</target>
-  <action>set:feat:lemma("fraise")</action>
-  <setFeatures/>
-</correct-fraise>
-
-<correct-celeris class="Action">
-  <target>documents.sections.layer:words[@form == "CELERI"]</target>
-  <action>set:feat:lemma("cèleri")</action>
-  <setFeatures/>
-</correct-celeris>
-
-<correct-blette class="Action">
-  <target>documents.sections.layer:words[@form == "BLETTE" or @form == "Blette"]</target>
-  <action>set:feat:lemma("blette")</action>
-  <setFeatures/>
-</correct-blette>
 
 
 

@@ -192,40 +192,27 @@ BR
 BR
 BR
 H3
-P
-H3
-P
-BR
-BR
-BR
-H3
-BR"	"SOMMAIRE"	"ARTICHAUT
+P"	"SOMMAIRE"	"ARTICHAUT
 Toutes maladies et ravageurs : risques faibles à très faibles
 SALADES DE PLEIN CHAMP ET D'ABRIS
 Mildiou : fort risque sous abrisBotrytis et Sclérotinia : stable à augmentation selon les secteursOïdium : en augmentationNoctuelle : risque faible
 CELERI
-Puceron vert : risque stable voire en augmentation
-FRAISE
-Acariens : en augmentationEscargot : faibleTâches pourpres : en augmentation si pas aération des tunnels et si temps humideBotrytis : en augmentation si pas aération des tunnels et si temps humide
-BLETTE
-Cercosporiose : stable"	"artichaut,
+Puceron vert : risque stable voire en augmentation"	"artichaut,
 salade,
-céleri,
-fraisier,
-poirée"	"Mildiou,
+céleri"	"Mildiou,
 Sclérotinia,
-Puceron,
-Acariens,
-Cercosporiose"	""	""	""	"N°2 23 janvier 2019"	"Mouche : en progress"	"670-1215"	"type=SOMMAIRE, form=ARTICHAUT
+Puceron"	""	""	""	"N°2 23 janvier 2019"	"FRAISE Acariens : e"	"670-981"	"type=SOMMAIRE, form=ARTICHAUT
 Toutes maladies et ravageurs : risques faibles à très faibles
 SALADES DE PLEIN CHAMP ET D'ABRIS
 Mildiou : fort risque sous abrisBotrytis et Sclérotinia : stable à augmentation selon les secteursOïdium : en augmentationNoctuelle : risque faible
 CELERI
-Puceron vert : risque stable voire en augmentation
-FRAISE
-Acariens : en augmentationEscargot : faibleTâches pourpres : en augmentation si pas aération des tunnels et si temps humideBotrytis : en augmentation si pas aération des tunnels et si temps humide
-BLETTE
-Cercosporiose : stable"
+Puceron vert : risque stable voire en augmentation"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
+BR
+BR
+BR"	"RISQUE"	"Acariens : en augmentationEscargot : faibleTâches pourpres : en augmentation si pas aération des tunnels et si temps humideBotrytis : en augmentation si pas aération des tunnels et si temps humide"	""	"Acariens"	""	""	""	"augmentation FRAISE"	"BLETTE Cercosporios"	"989-1185"	"type=RISQUE, form=Acariens : en augmentationEscargot : faibleTâches pourpres : en augmentation si pas aération des tunnels et si temps humideBotrytis : en augmentation si pas aération des tunnels et si temps humide"
+"bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
+BR"	"RISQUE"	"Cercosporiose : stableMouche : en progression"	""	"Cercosporiose"	""	""	""	"temps humide BLETTE"	"ARTICHAUT Stade cu"	"1193-1238"	"type=RISQUE, form=Cercosporiose : stableMouche : en progression"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H3"	"CULTURE"	"ARTICHAUT"	"artichaut"	""	""	""	""	"he : en progression"	"Stade culture : 14"	"1239-1248"	"type=CULTURE, form=ARTICHAUT"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"STADES"	" Stade culture : 14 feuilles"	""	""	""	""	""	"ogression ARTICHAUT"	"Les cultures visité"	"1249-1277"	"type=STADES, form= Stade culture : 14 feuilles"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
@@ -346,7 +333,6 @@ Lutte alternative : il est possible d'utiliser des produits à base de champigno
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FOOTER
 BR
 BR"	"FOOTER"	"BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 5 sur 6"	"maraîchage"	""	""	"Languedoc-Roussillon"	"23 janvier 2019"	"ladium catenulatum."	"AUTRES C ULTURES E"	"7345-7449"	"type=FOOTER, form=BULLETIN DE SANTÉ DU VÉGÉTAL Maraîchage Édition Languedoc-Roussillon N°2 DU 23 janvier 2019 Page 5 sur 6"
-"bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2"	"CULTURE"	" Blette"	"poirée"	""	""	""	""	"CULTURE B IOLOGIQUE"	"Nous observons touj"	"7496-7503"	"type=CULTURE, form= Blette"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"P
 H3
 H3

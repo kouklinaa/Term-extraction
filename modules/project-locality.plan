@@ -55,7 +55,6 @@
   <caseInsensitive/>
   <ignoreDiacritics/>
   <skipWhitespace>true</skipWhitespace>
-
 </regions_old>
 
 <departements class="TabularProjector">
@@ -63,7 +62,7 @@
   <dictFile>resources/other/departements.csv</dictFile>
   <targetLayerName>locality</targetLayerName>
   <valueFeatures>$</valueFeatures>
-  <constantAnnotationFeatures>type=DEPARTEMENT</constantAnnotationFeatures>
+  <constantAnnotationFeatures>type=DEP_NOM</constantAnnotationFeatures>
   <allowJoined/>
   <joinDash/>
   <caseInsensitive/>
