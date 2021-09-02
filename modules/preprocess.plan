@@ -23,12 +23,21 @@
   <setFeatures/>
 </remove-initial-pos-tags>
 
-
+<!-- <read-terms class="TabularReader">
+  <source>resources/alvis/tomap/usageCulture20210112.txt</source>
+  <sourceElement>$</sourceElement>
+  <lineActions>
+    set:feat:skos-prefLabel(tab:column(2)) | set:feat:pos("NOM")
+  </lineActions>
+  <commitLines/>
+  <setFeatures/>
+</read-terms> -->
 
 
 <correct-plants class="Action">
   <target>documents.sections.layer:words[str:lower(@form) == "fraise" or
     str:lower(@form) == "celeri" or
+    str:lower(@form) == "mineuse" or
     str:lower(@form) == "blette" or
     str:lower(@form) == "kaki" ]</target>
   <action>set:feat:pos("NOM")</action>

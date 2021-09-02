@@ -12,6 +12,7 @@ agrilus planipennis
 aleurocanthus citriperdus
 aleurocanthus spiniferus
 aleurocanthus woglumi
+aleurode
 altise
 american plum line pattern virus
 anastrepha ludens
@@ -38,6 +39,7 @@ aromia bungii
 arracacha virus b oca strain
 arrhenodes minutus
 aschistonyx eppoi
+ascochytose
 atropellis
 bactericera cockerelli
 bactrocera dorsalis
@@ -63,6 +65,8 @@ calepitrimerus vitis
 candidatus phytoplasma sp.
 candidatus phytoplasma spp.
 carposina sasakii
+cécidomyie
+cécidomyies
 ceratitis quinaria
 ceratitis rosa
 ceratocystis platani
@@ -85,6 +89,7 @@ cicadelle bubale
 cicadelle des grillures
 cicadelle verte
 cicadellidae
+cicadelles
 cigarier
 citrus leprosis viruses
 citrus tristeza virus
@@ -150,6 +155,7 @@ flavescence dorée
 fusariose
 fusarium circinatum
 fusarium oxysporum f. sp. albedinis
+gel hivernal
 geometridae
 geosmithia morbida
 gflv
@@ -168,6 +174,7 @@ haplaxius crudus
 helicoverpa zea
 helminthosporiose
 hémérobes
+héliothis
 hibiscus green spot virus 2
 hirschmanniella
 hishimonus phycitis
@@ -199,7 +206,10 @@ meloidogyne fallax
 meloidogyne graminicola
 melon yellowing-associated virus
 metcalfa pruinosa
+metopolophium dirhodum
 mildiou
+mineuse
+mineuses
 monochamus
 mouche
 mouches
@@ -215,6 +225,8 @@ oemona hirta
 oïdium
 oiseau
 oligonychus perditus
+oscinie
+oscinies
 panonychus ulmi
 pantoea stewartii
 parasite
@@ -233,6 +245,7 @@ phytophthora ramorum
 phytoplasma aurantifolia
 pied noir
 piétin
+piéride
 pilidiella diplodiella
 pissodes nemorensis
 pissodes nitidus
@@ -264,6 +277,7 @@ pseudopityophthorus minutissimus
 pseudopityophthorus pruinosus
 puccinia pittieriana
 puceron
+punaise
 punaises
 punaises phytophages
 pyrale
@@ -276,12 +290,14 @@ rhagoletis mendax
 rhagoletis pomonella
 rhagoletis ribicola
 rhizoctone
+rhopalosiphum
 rhynchosporiose
 rhynchophorus palmarum
 ripersiella hibisci
 rose rosette virus
 rot blanc
 rouille
+rouille jaune
 saperda candida
 satsuma dwarf virus
 scaphoideus titanus
@@ -291,7 +307,9 @@ scirtothrips dorsalis
 sclerotinia
 scolytidae
 septoria malagutii
+septoriose
 sitones
+sitobion
 sparganothis pilleriana
 sphaerulina musiva
 spodoptera eridania
@@ -305,7 +323,10 @@ strawberry witches' broom phytoplasma
 sweet potato chlorotic stunt virus
 sweet potato mild mottle virus
 synchytrium endobioticum
+taupin
+tavelure
 tecia solanivora
+teigne
 tenthrède
 thaumatotibia leucotreta
 theba pisana
@@ -321,10 +342,16 @@ tomato leaf curl new delhi virus
 tomato marchitez virus
 tomato mild mottle virus
 tomato ringspot virus
+tordeuse
+tordeuses
 toxoptera citricidus
 trioza erytreae
+tuta absoluta
 unaspis citri
 venturia nashicola
+verticiliose
+virus ZYVM
+virus WMV
 xanthomonas citri pv. aurantifolii
 xanthomonas citri pv. citri
 xanthomonas oryzae pv. oryzae
