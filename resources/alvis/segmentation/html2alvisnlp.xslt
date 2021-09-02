@@ -33,10 +33,20 @@ limitations under the License.
       <a:section name="html" xpath-contents=".">
 	<xsl:for-each select="a:inline()">
 	  <a:annotation start="@inline:start" end="@inline:end" layers="html">
-	    <a:feature name="tag" xpath-value="name()"/>
-	    <xsl:for-each select="@*[namespace-uri() != 'http://bibliome.jouy.inra.fr/alvisnlp/bibliome-module-factory/inline']">
-	      <a:feature xpath-name="name()" xpath-value="."/>
-	    </xsl:for-each>
+	    <xsl:choose>
+	      <xsl:when test="name() = 'wrapper'">
+		<xsl:if test="./comment()">
+		  <a:feature name="tag" value="_comment"/>
+		  <a:feature name="comment" xpath-value="./comment()"/>
+		</xsl:if>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<a:feature name="tag" xpath-value="name()"/>
+		<xsl:for-each select="@*[namespace-uri() != 'http://bibliome.jouy.inra.fr/alvisnlp/bibliome-module-factory/inline']">
+		  <a:feature xpath-name="name()" xpath-value="."/>
+		</xsl:for-each>
+	      </xsl:otherwise>
+	    </xsl:choose>
 	  </a:annotation>
 	</xsl:for-each>
       </a:section>
