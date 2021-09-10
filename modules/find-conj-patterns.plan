@@ -24,6 +24,21 @@
   <termPOS>pos</termPOS>
 </yatea_terms>
 
+<yatea_conj class = "PatternMatcher">
+  <layerName>yatea</layerName>
+  <pattern>
+    [overlapping:fcu-baseline and @form =~ "\\s" ]
+  </pattern>
+  <actions>
+    <createAnnotation layer="yatea_conj"/>
+  </actions>
+  <constantAnnotationFeatures>type=FCU concepts</constantAnnotationFeatures>
+  <overlappingBehaviour>ignore</overlappingBehaviour>
+</yatea_conj>
+
+
+
+
   <GN class="PatternMatcher">
     <pattern>
 
@@ -126,22 +141,20 @@
 
   <N_PUN_N_KON_N class="PatternMatcher">
     <pattern>
-
       (
         [overlapping:GN]
         [ @form == ","]
       )+
-
-
       [overlapping:GN]
       [ @form == "et"]
       [overlapping:GN]
-
     </pattern>
     <actions>
       <createAnnotation layer="conjunctions"/>
     </actions>
-    <constantAnnotationFeatures>type=N_PUN_N_KON_N</constantAnnotationFeatures>
+    <constantAnnotationFeatures>
+      type=N_PUN_N_KON_N
+    </constantAnnotationFeatures>
   </N_PUN_N_KON_N>
 
 

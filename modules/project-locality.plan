@@ -39,7 +39,7 @@
   <constantAnnotationFeatures>type=REG_NOM</constantAnnotationFeatures>
   <allowJoined/>
   <joinDash/>
-  <caseInsensitive/>
+  <!-- <caseInsensitive/> -->
   <ignoreDiacritics/>
 </regions>
 
@@ -52,7 +52,7 @@
   <constantAnnotationFeatures>type=REG_NOM_OLD</constantAnnotationFeatures>
   <allowJoined/>
   <joinDash/>
-  <caseInsensitive/>
+  <!-- <caseInsensitive/> -->
   <ignoreDiacritics/>
   <skipWhitespace>true</skipWhitespace>
 </regions_old>
@@ -65,21 +65,21 @@
   <constantAnnotationFeatures>type=DEP_NOM</constantAnnotationFeatures>
   <allowJoined/>
   <joinDash/>
-  <caseInsensitive/>
+  <!-- <caseInsensitive/> -->
   <ignoreDiacritics/>
 </departements>
 
-<!-- <communes class="TabularProjector">
+<communes class="TabularProjector">
   <subject layer="words"/>
   <dictFile>resources/other/communes.csv</dictFile>
   <targetLayerName>locality</targetLayerName>
   <valueFeatures>$</valueFeatures>
   <constantAnnotationFeatures>type=COMMUNE</constantAnnotationFeatures>
-  <allowJoined/>
-  <joinDash/>
-  <caseInsensitive/>
-  <ignoreDiacritics/>
-</communes> -->
+  <!-- <allowJoined/> -->
+  <!-- <joinDash/> -->
+  <!-- <caseInsensitive/> -->
+  <!-- <ignoreDiacritics/> -->
+</communes>
 
 </project-locality>
 
@@ -90,6 +90,21 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////
 -->
+
+<!-- Filter ambiguous names -->
+<filtre-locality class="Action">
+  <target>documents.sections.layer:locality[
+    @form == "Cultures"
+    or @form == "Bio"
+    or @form == "Seuil"
+    or @form == "Premières"
+    or @form == "Jardin"
+    or @form == "Plan"
+]</target>
+  <action>remove:locality</action>
+  <removeFromLayer/>
+</filtre-locality>
+
 
 <overlaps class="RemoveOverlaps">
   <layerName>locality</layerName>

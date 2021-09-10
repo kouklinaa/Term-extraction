@@ -23,10 +23,10 @@
   <!-- <sourcePath>resources/corpus/CorpusVespa.html/</sourcePath> -->
 
   <!-- alea -->
-  <sourcePath>resources/corpus/Corpus-v-12-04-21/test/</sourcePath>
+  <!-- <sourcePath>resources/corpus/Corpus-v-12-04-21/test/</sourcePath> -->
 
   <!-- TEST -->
-  <!-- <sourcePath>resources/corpus/TEST/</sourcePath> -->
+  <sourcePath>resources/corpus/TEST/</sourcePath>
   <html/>
 </load-corpus>
 
@@ -76,20 +76,20 @@
 
 
   <!-- alea -->
-  <save-fcu-baseline>output/frenchCropUsage_20210525/alea</save-fcu-baseline>
+  <!-- <save-fcu-baseline>output/frenchCropUsage_20210525/alea</save-fcu-baseline>
   <save-bm25-baseline>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-baseline>
   <save-fcu-tomap>output/frenchCropUsage_20210525/alea</save-fcu-tomap>
   <save-bm25-tomap>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-tomap>
   <save-fcu-all>output/frenchCropUsage_20210525/alea</save-fcu-all>
-  <save-bm25-all>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-all>
+  <save-bm25-all>output/frenchCropUsage_20210525/alea/bm25-baseline.csv</save-bm25-all> -->
 
   <!-- TEST -->
-  <!-- <save-fcu-baseline>output/frenchCropUsage_20210525/TEST</save-fcu-baseline>
+  <save-fcu-baseline>output/frenchCropUsage_20210525/TEST</save-fcu-baseline>
   <save-bm25-baseline>output/frenchCropUsage_20210525/TEST/bm25-baseline.csv</save-bm25-baseline>
   <save-fcu-tomap>output/frenchCropUsage_20210525/TEST</save-fcu-tomap>
   <save-bm25-tomap>output/frenchCropUsage_20210525/TEST/bm25-tomap.csv</save-bm25-tomap>
   <save-fcu-all>output/frenchCropUsage_20210525/TEST</save-fcu-all>
-  <save-bm25-all>output/frenchCropUsage_20210525/TEST/bm25.csv</save-bm25-all> -->
+  <save-bm25-all>output/frenchCropUsage_20210525/TEST/bm25.csv</save-bm25-all>
 
 
 </project-fcu>
@@ -108,12 +108,12 @@
   <save-all-stages>output/frenchCropUsage_20210525/vespa</save-all-stages> -->
 
   <!-- alea -->
-  <save-BBCH>output/frenchCropUsage_20210525/alea</save-BBCH>
-  <save-all-stages>output/frenchCropUsage_20210525/alea</save-all-stages>
+  <!-- <save-BBCH>output/frenchCropUsage_20210525/alea</save-BBCH>
+  <save-all-stages>output/frenchCropUsage_20210525/alea</save-all-stages> -->
 
   <!-- TEST -->
-  <!-- <save-BBCH>output/frenchCropUsage_20210525/TEST</save-BBCH>
-  <save-all-stages>output/frenchCropUsage_20210525/TEST</save-all-stages> -->
+  <save-BBCH>output/frenchCropUsage_20210525/TEST</save-BBCH>
+  <save-all-stages>output/frenchCropUsage_20210525/TEST</save-all-stages>
 
 </project-stages>
 
@@ -129,10 +129,10 @@
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <save>output/frenchCropUsage_20210525/alea</save>
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
 
   <!-- TEST -->
-  <!-- <save>output/frenchCropUsage_20210525/TEST</save> -->
+  <save>output/frenchCropUsage_20210525/TEST</save>
 
 </find-conj>
 
@@ -146,10 +146,10 @@
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <save>output/frenchCropUsage_20210525/alea</save>
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
 
   <!-- TEST -->
-  <!-- <save>output/frenchCropUsage_20210525/TEST</save> -->
+  <save>output/frenchCropUsage_20210525/TEST</save>
 
 </find-dates>
 
@@ -163,10 +163,10 @@
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <save>output/frenchCropUsage_20210525/alea</save>
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
 
   <!-- TEST -->
-  <!-- <save>output/frenchCropUsage_20210525/TEST</save> -->
+  <save>output/frenchCropUsage_20210525/TEST</save>
 
 </find-bioagressors>
 
@@ -185,10 +185,10 @@
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <save>output/frenchCropUsage_20210525/alea</save>
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
 
   <!-- TEST -->
-  <!-- <save>output/frenchCropUsage_20210525/TEST</save> -->
+  <save>output/frenchCropUsage_20210525/TEST</save>
 
 
 </project-locality>
@@ -202,10 +202,10 @@
   <!-- <save>output/frenchCropUsage_20210525/vespa</save> -->
 
   <!-- alea -->
-  <save>output/frenchCropUsage_20210525/alea</save>
+  <!-- <save>output/frenchCropUsage_20210525/alea</save> -->
 
   <!-- TEST -->
-  <!-- <save>output/frenchCropUsage_20210525/TEST</save> -->
+  <save>output/frenchCropUsage_20210525/TEST</save>
 
 
 </find-themes>

@@ -2,7 +2,7 @@
 "19bsv_jevi_20181108_cle871314"	"TITLE"	"TITLE"	"JARDINS ORNEMENTAUX"	"jardin"	""	""	""	""	""	"RESEAU DE SURVEILL"	"1-20"	"type=TITLE, form=JARDINS ORNEMENTAUX"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR
-BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	"PAYS DE LA LOIRE"	"2018"	"ARDINS ORNEMENTAUX"	"ACTUALITÉS JARDINS"	"22-91"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
+BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	""	"2018"	"ARDINS ORNEMENTAUX"	"ACTUALITÉS JARDINS"	"22-91"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
 "19bsv_jevi_20181108_cle871314"	"P
 P
 BR
@@ -32,7 +32,10 @@ Portail Ecophyto JEVI PRO Site Jardiner Autrement"
 "19bsv_jevi_20181108_cle871314"	"H4
 P"	"RESEAU D'OBSERVATION"	"Réseau d'observations
 26 pièges en région. Espaces verts et jardins d'amateurs. Régions nantaise, yon-naise, de Derval, d'Angers, de Mayenne, territoire d'Erdre et Gesvres, secteur des Mauges, plateau segréen, Haut-Anjou, secteur du Lude, Mayenne angevine."	"zone non agricole,
-jardin"	""	""	"Mayenne,
+jardin"	""	""	"Derval,
+Mayenne,
+Gesvres,
+Anjou,
 Mayenne"	""	"hivernale larvaire"	"Observations Comme"	"724-980"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
 26 pièges en région. Espaces verts et jardins d'amateurs. Régions nantaise, yon-naise, de Derval, d'Angers, de Mayenne, territoire d'Erdre et Gesvres, secteur des Mauges, plateau segréen, Haut-Anjou, secteur du Lude, Mayenne angevine."
 "19bsv_jevi_20181108_cle871314"	"H4
@@ -62,15 +65,13 @@ FIGCAPTION
 FIGURE"	"META"	"ABONNEMENT BSV
 Retrouvez le bulletin de santé du végétal sur le web... www.draaf.pays-de-la-loire.agriculture.gouv.fr www.pays-de-la-loire.chambres-agriculture.fr www.polleniz.fr
  ou inscrivez-vous en ligne pour être informé directement par mail de chaque nouvelle parution :
-www.pays-de-la-loire.chambres-agriculture.fr/ innovation-rd/agronomie-vegetal/surveillance-biologique-du-territoire/abonnez-vous-gratuitement-aux-bsv"	""	""	""	"loire,
-loire,
-loire"	""	"feuilles encollées"	"RESEAU DE SURVEILL"	"1942-2367"	"type=META, form=ABONNEMENT BSV
+www.pays-de-la-loire.chambres-agriculture.fr/ innovation-rd/agronomie-vegetal/surveillance-biologique-du-territoire/abonnez-vous-gratuitement-aux-bsv"	""	""	""	""	""	"feuilles encollées"	"RESEAU DE SURVEILL"	"1942-2367"	"type=META, form=ABONNEMENT BSV
 Retrouvez le bulletin de santé du végétal sur le web... www.draaf.pays-de-la-loire.agriculture.gouv.fr www.pays-de-la-loire.chambres-agriculture.fr www.polleniz.fr
  ou inscrivez-vous en ligne pour être informé directement par mail de chaque nouvelle parution :
 www.pays-de-la-loire.chambres-agriculture.fr/ innovation-rd/agronomie-vegetal/surveillance-biologique-du-territoire/abonnez-vous-gratuitement-aux-bsv"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR
-BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	"PAYS DE LA LOIRE"	"2018"	"atuitement-aux-bsv"	"Page 2 BSV JEVI - N"	"2369-2438"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
+BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	""	"2018"	"atuitement-aux-bsv"	"Page 2 BSV JEVI - N"	"2369-2438"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR"	"FOOTER"	"Page 2"	""	""	""	""	""	"18 PAYS DE LA LOIRE"	"BSV JEVI - N°19 DU"	"2439-2445"	"type=FOOTER, form=Page 2"
 "19bsv_jevi_20181108_cle871314"	"HEADER
@@ -106,7 +107,7 @@ Au-delà du stade L3, les chenilles possèdent des poils urticants. A l'inverse 
 Écopiège fixé au tronc
 Sur les sites où les processions n'ont pas encore débuté, des écopièges (pièges ceinturant le tronc et permettant de récupérer les chenilles) peuvent être posés dès à présent. Il faut veiller à ajuster et remonter la hauteur de pose dans les lieux fréquentés.
 L'échenillage des nids peut également être effectué, en veillant à porter une protection individuelle complète (combinaison, lunettes, masque, gants et bottes).
-Les chenilles sont sensibles aux méthodes de biocontrôle. Des produits à base de Bacillus thuringiensis var. kurstaki sont autorisés pour cet usage."	"maïs"	""	""	"var"	""	"es zones à risque !"	"RESEAU DE SURVEILL"	"3362-4466"	"type=STADES, form=Informations
+Les chenilles sont sensibles aux méthodes de biocontrôle. Des produits à base de Bacillus thuringiensis var. kurstaki sont autorisés pour cet usage."	"maïs"	""	""	""	""	"es zones à risque !"	"RESEAU DE SURVEILL"	"3362-4466"	"type=STADES, form=Informations
 Au-delà du stade L3, les chenilles possèdent des poils urticants. A l'inverse de ce que l'on pourrait penser, ce ne sont pas les poils visibles à l'œil nu qui le sont, mais des poils microscopiques projetés dans l'environnement par le biais d'ouvertures sur leur dos, appelées ""miroir"", que les chenilles ouvrent et ferment à leur guise. Plus elles sont stressées, ce qui est le cas lors des processions, et plus elles libèrent ces poils urticants, comme moyen de protection.
  F GASTINEL - POLLENIZ
 Écopiège fixé au tronc
@@ -115,7 +116,7 @@ L'échenillage des nids peut également être effectué, en veillant à porter u
 Les chenilles sont sensibles aux méthodes de biocontrôle. Des produits à base de Bacillus thuringiensis var. kurstaki sont autorisés pour cet usage."
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR
-BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	"PAYS DE LA LOIRE"	"2018"	"és pour cet usage."	"Page 3 BSV JEVI - N"	"4468-4537"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
+BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	""	"2018"	"és pour cet usage."	"Page 3 BSV JEVI - N"	"4468-4537"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR"	"FOOTER"	"Page 3"	""	""	""	""	""	"18 PAYS DE LA LOIRE"	"BSV JEVI - N°19 DU"	"4538-4544"	"type=FOOTER, form=Page 3"
 "19bsv_jevi_20181108_cle871314"	"HEADER
@@ -124,7 +125,7 @@ BR"	"EDITION"	"BSV JEVI - N°19 DU 8 NOVEMBRE 2018"	""	""	""	""	"8 NOVEMBRE 2018
 "19bsv_jevi_20181108_cle871314"	"P"	"RISQUE"	"Il n'est pas nécessaire d'effectuer des apports (ex : fumier) car cela favoriserait les pourritures. Une rotation de cinq ans permet de prévenir le risque de réapparition de certaines maladies (rouille, pourriture blanche). L'échalote et l'oignon sont également des cultures sensibles. Il faut également porter son attention sur les variétés et choisir celles qui sont tolérantes."	""	"rouille"	""	""	""	"de la plantation. C"	"hou Piérides : pas"	"4859-5239"	"type=RISQUE, form=Il n'est pas nécessaire d'effectuer des apports (ex : fumier) car cela favoriserait les pourritures. Une rotation de cinq ans permet de prévenir le risque de réapparition de certaines maladies (rouille, pourriture blanche). L'échalote et l'oignon sont également des cultures sensibles. Il faut également porter son attention sur les variétés et choisir celles qui sont tolérantes."
 "19bsv_jevi_20181108_cle871314"	"H4
 P"	"RESEAU D'OBSERVATION"	"Réseau d'observations
-Potagers d'amateurs. Territoire d'Erdre et Gesvres."	"jardins familiaux"	""	""	""	""	"onte ni de chenille"	"Observations Les ja"	"5284-5357"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
+Potagers d'amateurs. Territoire d'Erdre et Gesvres."	"jardins familiaux"	""	""	"Gesvres"	""	"onte ni de chenille"	"Observations Les ja"	"5284-5357"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
 Potagers d'amateurs. Territoire d'Erdre et Gesvres."
 "19bsv_jevi_20181108_cle871314"	"P
 H4
@@ -135,7 +136,7 @@ Analyse et gestion du risque
 Actuellement, le risque est faible et aucune intervention ne semble nécessaire. En cas de présence à petite échelle, une destruction manuelle régulière peut suffire et est à privilégier."
 "19bsv_jevi_20181108_cle871314"	"H4
 P"	"RESEAU D'OBSERVATION"	"Réseau d'observations
-Potagers d'amateurs. Pays de Craon."	"jardins familiaux"	""	""	""	""	"présence ponctuelle"	"Observations La pré"	"5796-5853"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
+Potagers d'amateurs. Pays de Craon."	"jardins familiaux"	""	""	"Craon"	""	"présence ponctuelle"	"Observations La pré"	"5796-5853"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
 Potagers d'amateurs. Pays de Craon."
 "19bsv_jevi_20181108_cle871314"	"H4
 P"	"RESEAU D'OBSERVATION"	"Observations
@@ -147,14 +148,14 @@ Les fortes amplitudes thermiques entre le jour et la nuit favorisent la présenc
 Les fortes amplitudes thermiques entre le jour et la nuit favorisent la présence de cette maladie. Il est conseillé d'éclaircir la culture au fil de la croissance et des récoltes (un pied sur deux). Des gelées ont déjà été constatées en région. Si cela n'a pas encore été fait, protéger la culture avec un voile d'hivernage."
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR
-BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	"PAYS DE LA LOIRE"	"2018"	"voile d'hivernage."	"Page 4 BSV JEVI - N"	"6297-6366"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
+BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	""	"2018"	"voile d'hivernage."	"Page 4 BSV JEVI - N"	"6297-6366"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR"	"FOOTER"	"Page 4"	""	""	""	""	""	"18 PAYS DE LA LOIRE"	"BSV JEVI - N°19 DU"	"6367-6373"	"type=FOOTER, form=Page 4"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR"	"EDITION"	"BSV JEVI - N°19 DU 8 NOVEMBRE 2018"	""	""	""	""	"8 NOVEMBRE 2018"	"DE LA LOIRE Page 4"	"P oireau Réseau d'o"	"6374-6408"	"type=EDITION, form=BSV JEVI - N°19 DU 8 NOVEMBRE 2018"
 "19bsv_jevi_20181108_cle871314"	"H4
 P"	"RESEAU D'OBSERVATION"	"Réseau d'observations
-Potagers d'amateurs. Territoire d'Erdre et Gesvres et région du Lude."	"jardins familiaux"	""	""	""	""	"EMBRE 2018 P oireau"	"Mineuse : présence"	"6418-6509"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
+Potagers d'amateurs. Territoire d'Erdre et Gesvres et région du Lude."	"jardins familiaux"	""	""	"Gesvres"	""	"EMBRE 2018 P oireau"	"Mineuse : présence"	"6418-6509"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
 Potagers d'amateurs. Territoire d'Erdre et Gesvres et région du Lude."
 "19bsv_jevi_20181108_cle871314"	"H4
 P"	"RESEAU D'OBSERVATION"	"Observations
@@ -179,14 +180,14 @@ Le risque est présent lorsque sont observées les premières chenilles."	""	""	
 Le risque est présent lorsque sont observées les premières chenilles."
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR
-BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	"PAYS DE LA LOIRE"	"2018"	"emières chenilles."	"Page 5 BSV JEVI - N"	"7583-7652"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
+BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	""	"2018"	"emières chenilles."	"Page 5 BSV JEVI - N"	"7583-7652"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR"	"FOOTER"	"Page 5"	""	""	""	""	""	"18 PAYS DE LA LOIRE"	"BSV JEVI - N°19 DU"	"7653-7659"	"type=FOOTER, form=Page 5"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR"	"EDITION"	"BSV JEVI - N°19 DU 8 NOVEMBRE 2018"	""	""	""	""	"8 NOVEMBRE 2018"	"DE LA LOIRE Page 5"	"T omate Tuta absol"	"7660-7694"	"type=EDITION, form=BSV JEVI - N°19 DU 8 NOVEMBRE 2018"
 "19bsv_jevi_20181108_cle871314"	"H4
 P"	"RESEAU D'OBSERVATION"	"Réseau d'observations
-Potagers d'amateurs. Territoire d'Erdre et Gesvres."	"jardins familiaux"	""	""	""	""	"absoluta : absence"	"Observations L'abse"	"7728-7801"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
+Potagers d'amateurs. Territoire d'Erdre et Gesvres."	"jardins familiaux"	""	""	"Gesvres"	""	"absoluta : absence"	"Observations L'abse"	"7728-7801"	"type=RESEAU D'OBSERVATION, form=Réseau d'observations
 Potagers d'amateurs. Territoire d'Erdre et Gesvres."
 "19bsv_jevi_20181108_cle871314"	"H4
 P"	"RESEAU D'OBSERVATION"	"Observations
@@ -229,7 +230,7 @@ Cliquer sur la fiche ci-contre."	""	""	""	""	""	": Jérôme JULLIEN)."	"RESEAU D
 Cliquer sur la fiche ci-contre."
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR
-BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	"PAYS DE LA LOIRE"	"2018"	"a fiche ci-contre."	"Page 6 BSV JEVI - N"	"9576-9645"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
+BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	""	"2018"	"a fiche ci-contre."	"Page 6 BSV JEVI - N"	"9576-9645"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR"	"FOOTER"	"Page 6"	""	""	""	""	""	"18 PAYS DE LA LOIRE"	"BSV JEVI - N°19 DU"	"9646-9652"	"type=FOOTER, form=Page 6"
 "19bsv_jevi_20181108_cle871314"	"HEADER
@@ -278,7 +279,7 @@ Profession :
 Bioagresseurs et végétaux pouvant être suivis :"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR
-BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	"PAYS DE LA LOIRE"	"2018"	"v.jevi@polleniz.fr"	"Page 7 BSV JEVI N°1"	"10325-10394"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
+BR"	"RESEAU DE SURVEILLANCE"	"RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"	""	""	""	""	"2018"	"v.jevi@polleniz.fr"	"Page 7 BSV JEVI N°1"	"10325-10394"	"type=RESEAU DE SURVEILLANCE, form=RESEAU DE SURVEILLANCE BIOLOGIQUE DU TERRITOIRE 2018 PAYS DE LA LOIRE"
 "19bsv_jevi_20181108_cle871314"	"HEADER
 BR"	"FOOTER"	"Page 7"	""	""	""	""	""	"18 PAYS DE LA LOIRE"	"BSV JEVI N°19 DU 8"	"10395-10401"	"type=FOOTER, form=Page 7"
 "19bsv_jevi_20181108_cle871314"	"HEADER
@@ -823,7 +824,8 @@ FIGURE"	"RISQUE"	"Dans le cas de la Septoriose, vous observerez alors les cirrhe
 BR"	"EDITION"	"BSV n°09 P.3"	""	""	""	""	""	"es pycnides noires."	"5 | Rouille jaune"	"5856-5868"	"type=EDITION, form=BSV n°09 P.3"
 "20190417_CHA_BSV_Grandes_Cultures_cle8333d7"	"P
 BR"	"RISQUE"	"Aucun signalement de rouille jaune au sein du réseau. Compte tenu du retour de conditions clémentes, maintenir la surveillance, notamment sur les variétés sensibles(Némo, Trapez, Goncourt). A partir du stade 1 Nœud, le seuil indicatif de risque correspond à l'arrivée des premières pustules dans les parcelles."	""	"rouille jaune,
-rouille jaune"	""	""	""	"5 | Rouille jaune"	"ORGE D'HIVER 1 | St"	"5888-6198"	"type=RISQUE, form=Aucun signalement de rouille jaune au sein du réseau. Compte tenu du retour de conditions clémentes, maintenir la surveillance, notamment sur les variétés sensibles(Némo, Trapez, Goncourt). A partir du stade 1 Nœud, le seuil indicatif de risque correspond à l'arrivée des premières pustules dans les parcelles."
+rouille jaune"	""	"Aucun,
+Goncourt"	""	"5 | Rouille jaune"	"ORGE D'HIVER 1 | St"	"5888-6198"	"type=RISQUE, form=Aucun signalement de rouille jaune au sein du réseau. Compte tenu du retour de conditions clémentes, maintenir la surveillance, notamment sur les variétés sensibles(Némo, Trapez, Goncourt). A partir du stade 1 Nœud, le seuil indicatif de risque correspond à l'arrivée des premières pustules dans les parcelles."
 "20190417_CHA_BSV_Grandes_Cultures_cle8333d7"	"H1"	"CULTURE"	"ORGE D'HIVER"	"orge d'hiver"	""	""	""	""	"dans les parcelles."	"1 | Stade de la cul"	"6199-6211"	"type=CULTURE, form=ORGE D'HIVER"
 "20190417_CHA_BSV_Grandes_Cultures_cle8333d7"	"H2
 P"	"STADES"	"| Stade de la culture
@@ -1256,7 +1258,10 @@ Cumul au 01/01
 410,2
 311,8
 347
-PHENOLOGIE"	""	""	""	""	"8
+PHENOLOGIE"	""	""	""	"Lucey,
+Corny,
+Ochey,
+Hattonville"	"8
 27/07,
 2
 28/07,
@@ -1419,11 +1424,11 @@ Tordeuses : Vol terminé. Pression G2 très faible. Fin du risque p 3"
 P
 P"	"STADES"	"Le stade 33 "" fermeture de la grappe "" est observé depuis mi-juillet. Le stade 35 (une grappe sur deux avec au moins une baie vérée) pourrait donc être atteint la semaine prochaine.
 Chardonnay, Pinot noir, Meunier : stade 33 "" fermeture de la grappe "". La phénologie de la vigne reste proche de la moyenne décennale.
-Les premiers prélèvements du réseau matu auront lieu le 19 aout."	"vigne"	""	""	""	"mi-juillet"	"cours d'évaluation."	"Premières baies vér"	"735-1116"	"type=STADES, form=Le stade 33 "" fermeture de la grappe "" est observé depuis mi-juillet. Le stade 35 (une grappe sur deux avec au moins une baie vérée) pourrait donc être atteint la semaine prochaine.
+Les premiers prélèvements du réseau matu auront lieu le 19 aout."	"vigne"	""	""	"Chardonnay"	"mi-juillet"	"cours d'évaluation."	"Premières baies vér"	"735-1116"	"type=STADES, form=Le stade 33 "" fermeture de la grappe "" est observé depuis mi-juillet. Le stade 35 (une grappe sur deux avec au moins une baie vérée) pourrait donc être atteint la semaine prochaine.
 Chardonnay, Pinot noir, Meunier : stade 33 "" fermeture de la grappe "". La phénologie de la vigne reste proche de la moyenne décennale.
 Les premiers prélèvements du réseau matu auront lieu le 19 aout."
 "BSV_2019_n18_cle02fbf1"	"FIGCAPTION
-FIGURE"	"RESEAU D'OBSERVATION"	"Le réseau Vigne AOC Champagne compte 143 parcelles observées cette semaine."	"vigne"	""	""	""	""	"mières baies vérées"	"BSV n° 18 - 1 / 4"	"1140-1215"	"type=RESEAU D'OBSERVATION, form=Le réseau Vigne AOC Champagne compte 143 parcelles observées cette semaine."
+FIGURE"	"RESEAU D'OBSERVATION"	"Le réseau Vigne AOC Champagne compte 143 parcelles observées cette semaine."	"vigne"	""	""	"Champagne"	""	"mières baies vérées"	"BSV n° 18 - 1 / 4"	"1140-1215"	"type=RESEAU D'OBSERVATION, form=Le réseau Vigne AOC Champagne compte 143 parcelles observées cette semaine."
 "BSV_2019_n18_cle02fbf1"	"FOOTER
 BR"	"EDITION"	"BSV n° 18 - 1 / 4"	""	""	""	""	""	"vées cette semaine."	"MILDIOU 1.1 Situat"	"1216-1233"	"type=EDITION, form=BSV n° 18 - 1 / 4"
 "BSV_2019_n18_cle02fbf1"	"H2"	"RISQUE"	"MILDIOU"	""	"MILDIOU"	""	""	""	"BSV n° 18 - 1 / 4"	"1.1 Situation FRUI"	"1235-1242"	"type=RISQUE, form=MILDIOU"
@@ -1606,7 +1611,11 @@ P"	"RISQUE"	"Prospections jaunisses campagne 2019
 Le Comité Champagne, en collaboration avec la DRAAF-SRAL et la Fredon CA, reconduit les formations à la reconnaissance des symptômes de jaunisses et de sensibilisation au risque que représente la flavescence dorée pour la Champagne. Le planning de ces rencontres sera mis à jour régulièrement sur l'extranet du Comité Champagne à partir de la fin août. Il est également disponible auprès de votre technicien de proximité.Contact : secrétariat du service Vigne du Comité Champagne (03 26 51 50 64). Pascale Pienne (pascale.pienne@civc.fr) Alexandra Bonomelli (alexandra.bonomelli@civc.fr)
 Une fiche technique présentant les symptômes de jaunisses est disponible sur l'extranet du Comité Champagne ou dans la revue Le Vigneron Champenois de juin 2018. Cette surveillance peut débuter dès l'aoûtement complet des bois, soit probablement d'ici une quinzaine de jours. Les symptômes devraient être plus francs à partir de la fin août. Aussi, la surveillance ""Jaunisses"" peut être réalisée juste avant ou juste après vendanges jusqu'à la chute des feuilles. Cette opération est à coupler au marquage des pieds atteints des maladies du bois. En cas de détection d'un cep douteux, le signaler directement à la DRAAF-SRAL ou la Fredon CA ou encore via l'application mobile VIGICA."	"vigne,
 sylviculture,
-sylviculture"	""	""	""	"2019,
+sylviculture"	""	""	"Champagne,
+Champagne,
+Champagne,
+Champagne,
+Champagne"	"2019,
 août,
 juin 2018,
 août"	"VESCENCE DOREE FRUI"	"BSV n° 18 - 3 / 4"	"4746-6054"	"type=RISQUE, form=Prospections jaunisses campagne 2019
@@ -1662,6 +1671,7 @@ BR
 BR"	"META"	"Action pilotée par le ministère chargé de l'agriculture et le ministère de l'écologie, avec l'appui financier de l'AFB, par les crédits issus de la redevance pour pollutions diffuses attribués au financement du plan Ecophyto. Ce bulletin est rédigé à partir d'observations ponctuelles réalisées sur un réseau de parcelles. Il donne la tendance de la situation sanitaire. Toutefois celle-ci ne peut être transposée telle quelle à chacune des parcelles.Directeur de la publication : Christophe BUISSET - Président de la Chambre Régionale d'Agriculture Hauts-de-France.Animateurs filières et rédacteurs : Ludovic TOURNANT - FREDON Nord-Pas de Calais - co-animateur Picardie des filières pommes et poires : François Hanquart FREDON Picardie.Bulletin édité sur la base des observations réalisées par les partenaires du réseau Haut-de-France : producteurs, Techniciens, FREDON Nord Pas-de-Calais, FREDON Picardie.Coordination et renseignements : Jean Pierre Pardoux - Chambre d'Agriculture de la Somme, Samuel Bueche - Chambre d'Agriculture du Nord - Pas de CalaisMise en page et diffusion : Ludovic TOURNANT - FREDON Nord-Pas de Calais Publication gratuite, disponible sur les sites Internet de la DRAAF Nord-Pas-de-Calais-Picardie et des Chambre d'Agriculture Hauts-de-France"	"pommier,
 poirier"	""	""	"Nord-Pas de Calais,
 Picardie,
+François,
 Picardie,
 Nord Pas-de-Calais,
 Picardie,
@@ -1896,7 +1906,8 @@ TD"	"ZONE_GEO"	"Zones
     17 h
     24-ma i
     17 h
-    23-ma i"	""	""	""	"eure"	"80-60-02"	"S-DE-FRANCE"	"17 h 24-ma"	"3673-5037"	"type=ZONE_GEO, form=Zones
+    23-ma i"	""	""	""	"La Bassée,
+Lille"	"80-60-02"	"S-DE-FRANCE"	"17 h 24-ma"	"3673-5037"	"type=ZONE_GEO, form=Zones
     géographiques
   
   
@@ -2681,8 +2692,7 @@ FIGURE"	"METEO"	"
 663"
 "BSV_AF_n30_du_25052018_cle0ca846"	"H1"	"EDITION"	"du 25 mai 2018"	""	""	""	""	"25 mai 2018"	"9,0 663"	"page 2"	"8310-8324"	"type=EDITION, form=du 25 mai 2018"
 "BSV_AF_n30_du_25052018_cle0ca846"	"H1"	"FOOTER"	"page 2"	""	""	""	""	""	"663 du 25 mai 2018"	""	"8325-8331"	"type=FOOTER, form=page 2"
-"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"TITLE"	"TITLE"	"BULLETIN DE SANTE DU VEGETAL CORSE"	""	""	""	"CORSE"	""	""	"BULLETIN DE SANTE"	"1-35"	"type=TITLE, form=BULLETIN DE SANTE DU VEGETAL CORSE"
-"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"ZONE_GEO"	"CORSE"	""	""	""	"CORSE"	""	"DE SANTE DU VEGETAL"	"MARAÎCHAGE n°5 - 3"	"66-71"	"type=ZONE_GEO, form=CORSE"
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"TITLE"	"TITLE"	"BULLETIN DE SANTE DU VEGETAL CORSE"	""	""	""	""	""	""	"BULLETIN DE SANTE"	"1-35"	"type=TITLE, form=BULLETIN DE SANTE DU VEGETAL CORSE"
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"EDITION"	"MARAÎCHAGE n°5 - 3 septembre 2019"	"maraîchage"	""	""	""	"n°5 - 3 septembre 2019"	"TE DU VEGETAL CORSE"	"A retenir : Pressio"	"72-105"	"type=EDITION, form=MARAÎCHAGE n°5 - 3 septembre 2019"
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
 P"	"SOMMAIRE"	"A retenir :
@@ -2713,7 +2723,8 @@ Observation : 5 à 20% des plants observés sont touchés sur tige, feuille et f
 P
 BR
 BR"	"RISQUE"	" Oïdium
-Observation : Pression stagnante sur Biguglia et Borgo avec 5 à 30% des plants touchés.Évaluation du risque : Elevé.Gestion du risque : Il existe quelques méthodes préventives à savoir : réduire la densité, sous abri aérer intensivement et réduire l'humidité en gardant un feuillage sec, éliminer les débris végétaux (feuilles et fruits contaminés)."	""	"Oïdium"	""	""	""	"ettoyer les plants."	"TOMATE PLEIN CHAMP"	"1376-1733"	"type=RISQUE, form= Oïdium
+Observation : Pression stagnante sur Biguglia et Borgo avec 5 à 30% des plants touchés.Évaluation du risque : Elevé.Gestion du risque : Il existe quelques méthodes préventives à savoir : réduire la densité, sous abri aérer intensivement et réduire l'humidité en gardant un feuillage sec, éliminer les débris végétaux (feuilles et fruits contaminés)."	""	"Oïdium"	""	"Biguglia,
+Borgo"	""	"ettoyer les plants."	"TOMATE PLEIN CHAMP"	"1376-1733"	"type=RISQUE, form= Oïdium
 Observation : Pression stagnante sur Biguglia et Borgo avec 5 à 30% des plants touchés.Évaluation du risque : Elevé.Gestion du risque : Il existe quelques méthodes préventives à savoir : réduire la densité, sous abri aérer intensivement et réduire l'humidité en gardant un feuillage sec, éliminer les débris végétaux (feuilles et fruits contaminés)."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"TOMATE PLEIN CHAMP"	"tomate"	""	""	""	""	"fruits contaminés)."	"Stade phénologique"	"1734-1752"	"type=CULTURE, form=TOMATE PLEIN CHAMP"
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
@@ -2751,7 +2762,8 @@ BR
 BR"	"RISQUE"	"Acariens tétranyques
 Observation : Pression maintenue de Biguglia à Ghisonaccia avec entre 10 à 50% du feuillage touché.Évaluation du risque : Elevé.Gestion du risque : Des mesures de prophylaxie peuvent être mises en place : possibilité de lâchers d'acariens prédateurs (Phytoseiulus persimilis et/ou Nesoseiulus californicus), Cécidomyie prédatrice(Feltiella acarisuga) ou encore Macrolophus caliginosus. Possibilité de réaliser des bassinages sur les faces inférieures des feuilles, mais attention car favorise l'apparition de maladies (mildiou)."	"maïs"	"Acariens,
 Cécidomyie,
-mildiou"	""	""	""	"s au stade récolte."	"Mildiou Pseudoperon"	"3195-3744"	"type=RISQUE, form=Acariens tétranyques
+mildiou"	""	"Biguglia,
+Ghisonaccia"	""	"s au stade récolte."	"Mildiou Pseudoperon"	"3195-3744"	"type=RISQUE, form=Acariens tétranyques
 Observation : Pression maintenue de Biguglia à Ghisonaccia avec entre 10 à 50% du feuillage touché.Évaluation du risque : Elevé.Gestion du risque : Des mesures de prophylaxie peuvent être mises en place : possibilité de lâchers d'acariens prédateurs (Phytoseiulus persimilis et/ou Nesoseiulus californicus), Cécidomyie prédatrice(Feltiella acarisuga) ou encore Macrolophus caliginosus. Possibilité de réaliser des bassinages sur les faces inférieures des feuilles, mais attention car favorise l'apparition de maladies (mildiou)."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
 P
@@ -2777,13 +2789,15 @@ BR"	"EDITION"	"Maraîchage n°5 3 septembre 2019"	"maraîchage"	""	""	""	"3 sept
 P
 BR
 BR"	"RISQUE"	"Verticiliose Verticilium dahliae
-Observation : Présence sur 10% du feuillage observé à Biguglia et Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Pratiquer des rotations longues et diversifiées, utiliser des plants greffés sur porte-greffe résistant, butter les plants peut parfois limiter le développement de la maladie."	""	"Verticiliose"	""	""	""	"septembre 2019 2/6"	"Altises Observation"	"4699-5034"	"type=RISQUE, form=Verticiliose Verticilium dahliae
+Observation : Présence sur 10% du feuillage observé à Biguglia et Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Pratiquer des rotations longues et diversifiées, utiliser des plants greffés sur porte-greffe résistant, butter les plants peut parfois limiter le développement de la maladie."	""	"Verticiliose"	""	"Biguglia,
+Ghisonaccia"	""	"septembre 2019 2/6"	"Altises Observation"	"4699-5034"	"type=RISQUE, form=Verticiliose Verticilium dahliae
 Observation : Présence sur 10% du feuillage observé à Biguglia et Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Pratiquer des rotations longues et diversifiées, utiliser des plants greffés sur porte-greffe résistant, butter les plants peut parfois limiter le développement de la maladie."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
 P
 BR
 BR"	"RISQUE"	"Altises
-Observation : Forte attaque sur une parcelle plein champ à Biguglia et Vescovato sur la quasi-totalité des plants avec environ 5% du feuillage atteint.Évaluation du risque : Elevé.Gestion du risque : Oter les adventices de la culture et de ses abords (la moutarde sauvage est un hôte appétant). Installer des toiles anti-insectes (P10-P17) sur les rangs en plein champ à la plantation, et aux ouvertures des abris quand les conditions climatiques le permettent. Pailler la culture afin de limiter l'émergence des adultes."	"moutarde"	"Altises"	""	""	""	"ment de la maladie."	"COURGETTE SOUS ABRI"	"5035-5564"	"type=RISQUE, form=Altises
+Observation : Forte attaque sur une parcelle plein champ à Biguglia et Vescovato sur la quasi-totalité des plants avec environ 5% du feuillage atteint.Évaluation du risque : Elevé.Gestion du risque : Oter les adventices de la culture et de ses abords (la moutarde sauvage est un hôte appétant). Installer des toiles anti-insectes (P10-P17) sur les rangs en plein champ à la plantation, et aux ouvertures des abris quand les conditions climatiques le permettent. Pailler la culture afin de limiter l'émergence des adultes."	"moutarde"	"Altises"	""	"Biguglia,
+Vescovato"	""	"ment de la maladie."	"COURGETTE SOUS ABRI"	"5035-5564"	"type=RISQUE, form=Altises
 Observation : Forte attaque sur une parcelle plein champ à Biguglia et Vescovato sur la quasi-totalité des plants avec environ 5% du feuillage atteint.Évaluation du risque : Elevé.Gestion du risque : Oter les adventices de la culture et de ses abords (la moutarde sauvage est un hôte appétant). Installer des toiles anti-insectes (P10-P17) sur les rangs en plein champ à la plantation, et aux ouvertures des abris quand les conditions climatiques le permettent. Pailler la culture afin de limiter l'émergence des adultes."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H1"	"CULTURE"	"COURGETTE SOUS ABRI ET PLEIN CHAMP"	"courgette"	""	""	""	""	"rgence des adultes."	"Stade phénologique"	"5565-5599"	"type=CULTURE, form=COURGETTE SOUS ABRI ET PLEIN CHAMP"
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
@@ -2795,7 +2809,10 @@ P
 BR
 BR"	"RISQUE"	"Oïdium Oidium lycopersicum
 Observation : Présence sur 20% du feuillage touché sur Borgo, Biguglia, Vescovato et Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Aérer suffisamment et ne pas planter trop serré. Comme fumure, apporter du compost plutôt que du fumier. Dès l'apparition du feutrage blanc, enlever et brûler les parties atteintes. Il existe des variétés résistantes à l'oïdium en cas d'attaque récurrentes."	""	"Oïdium,
-Oidium"	""	""	""	"s au stade récolte."	"Mildiou Pseudomonas"	"5775-6205"	"type=RISQUE, form=Oïdium Oidium lycopersicum
+Oidium"	""	"Borgo,
+Biguglia,
+Vescovato,
+Ghisonaccia"	""	"s au stade récolte."	"Mildiou Pseudomonas"	"5775-6205"	"type=RISQUE, form=Oïdium Oidium lycopersicum
 Observation : Présence sur 20% du feuillage touché sur Borgo, Biguglia, Vescovato et Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Aérer suffisamment et ne pas planter trop serré. Comme fumure, apporter du compost plutôt que du fumier. Dès l'apparition du feutrage blanc, enlever et brûler les parties atteintes. Il existe des variétés résistantes à l'oïdium en cas d'attaque récurrentes."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H2
 P
@@ -2838,7 +2855,8 @@ Le stade de nos parcelles de référence varie en fonction de la date de plantat
 P
 BR
 BR"	"RISQUE"	"Oïdium des cucurbitacées
-Observation : Attaque sur 5 à 20% du feuillage sur des parcelles de Biguglia à Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Eviter les excès d'engrais azotés, éliminer les feuilles atteintes, bien désherber les abords des parcelles (le séneçon est une plante hôte à l'oïdium et constitue un réservoir de contamination pour les cultures)."	""	"Oïdium"	""	""	""	"/ et stade récolte."	"Mildiou Observation"	"7906-8284"	"type=RISQUE, form=Oïdium des cucurbitacées
+Observation : Attaque sur 5 à 20% du feuillage sur des parcelles de Biguglia à Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Eviter les excès d'engrais azotés, éliminer les feuilles atteintes, bien désherber les abords des parcelles (le séneçon est une plante hôte à l'oïdium et constitue un réservoir de contamination pour les cultures)."	""	"Oïdium"	""	"Biguglia,
+Ghisonaccia"	""	"/ et stade récolte."	"Mildiou Observation"	"7906-8284"	"type=RISQUE, form=Oïdium des cucurbitacées
 Observation : Attaque sur 5 à 20% du feuillage sur des parcelles de Biguglia à Ghisonaccia.Évaluation du risque : Elevé.Gestion du risque : Eviter les excès d'engrais azotés, éliminer les feuilles atteintes, bien désherber les abords des parcelles (le séneçon est une plante hôte à l'oïdium et constitue un réservoir de contamination pour les cultures)."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3
 P
@@ -2855,7 +2873,8 @@ Virus WMV,
 pucerons"	""	""	""	"efficace à ce jour."	"AUTRES Courges Fort"	"8535-8839"	"type=RISQUE, form=Virus WMV (Virus de la mosaïque de la pastèque)
 Observation : symptôme sur feuilles et fruits avec 5 à 10% des plants touchés.Évaluation du risque : Modéré.Gestion du risque : Il existe quelques méthodes de lutte préventive : surveillance, désherbage, paillage, couverture P17, lutte contre les pucerons."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"H3"	"CULTURE"	"Courges"	"courge"	""	""	""	""	"es pucerons. AUTRES"	"Forte attaque de mi"	"8847-8854"	"type=CULTURE, form=Courges"
-"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P"	"RISQUE"	"Forte attaque de mildiou sur 10 à 30% des parcelles en fin de récolte à Vescovato et Biguglia sur 30 à 50% du feuillage. Risque modéré."	""	"mildiou"	""	""	""	"ons. AUTRES Courges"	"PREVISION METEO (So"	"8855-8990"	"type=RISQUE, form=Forte attaque de mildiou sur 10 à 30% des parcelles en fin de récolte à Vescovato et Biguglia sur 30 à 50% du feuillage. Risque modéré."
+"BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P"	"RISQUE"	"Forte attaque de mildiou sur 10 à 30% des parcelles en fin de récolte à Vescovato et Biguglia sur 30 à 50% du feuillage. Risque modéré."	""	"mildiou"	""	"Vescovato,
+Biguglia"	""	"ons. AUTRES Courges"	"PREVISION METEO (So"	"8855-8990"	"type=RISQUE, form=Forte attaque de mildiou sur 10 à 30% des parcelles en fin de récolte à Vescovato et Biguglia sur 30 à 50% du feuillage. Risque modéré."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"FIGCAPTION
 FIGURE
 FIGCAPTION
@@ -2901,6 +2920,7 @@ Temps ensoleillé ; vent de Nord-Est modéré sur la côte orientale
 Temps changeant avec de possibles averses ; retour du soleil lundi en journée ; vent de Nord assez fort dans le Cap Corse. Poursuite de la baisse des températures
 Beau temps"	""	""	""	"Corse,
 Corse,
+Ciel,
 Nord,
 Nord,
 Corse,
@@ -2953,7 +2973,7 @@ courge"	"Bactrocera dorsalis,
 Bactrocera dorsalis,
 mouche,
 mouche,
-larves"	""	"la Réunion"	"2003,
+larves"	""	"Cayenne"	"2003,
 2018"	"Bractocera dorsalis"	"Comme les autres mo"	"12460-13923"	"type=RISQUE, form=Bactrocera dorsalis est une mouche des fruits tropicale, appelée communément ""mouche orientale des fruits"" qui affectionne les climats chauds et humides. Détectée pour la première fois en 2003 dans l'Est de l'Afrique, B. dorsalis a colonisé neuf pays en un an et au total 22 pays en sept ans. Elle est présente à la Réunion où elle cause d'importants dégâts sur les cultures locales. Elle a été signalée pour la première fois en verger en Europe en 2018, dans la région de Campanie dans le Sud de l'Italie. Cette situation doit nous conduire à être très vigilant et pouvoir détecter très précocement son apparition si besoin. Les dégâts sont occasionnés par les larves qui se nourrissent de la pulpe du fruit provoquant alors un affaissement des tissus, des coulures et des lésions sur le fruit. Celui-ci a tendance à mûrir plus vite et à chuter précocement. Ces dégâts sont également une porte d'entrée aux bioagresseurs secondaires comme les pourritures et les drosophiles. Les fruits sont alors non commercialisables. Extrêmement polyphage elle s'attaque à plus de 300 plantes hôtes, plantes cultivées et sauvages, légumières ou fruitières. Les fruits les plus attaqués sont l'avocat, la mangue et la papaye mais l'espèce s'en prend aussi au citron, goyave, banane, nèfle du Japon, tomate, cerise de Cayenne, fruit de la passion, kaki, ananas, pêche, poire, abricot, figue et café. Les légumes concernés sont notamment les tomates, poivrons, melons et courges."
 "BSV_Corse_Maraichage_5_3sept_2019_cle8b6a1e"	"P
 P"	"RISQUE"	"Comme les autres mouches de cette famille, elle a un cycle de vie très court et une fécondité élevée. La femelle peut pondre entre 800 à 1 500 œufs durant sa vie à raison d'une vingtaine par jour. Cf fiche de reconnaissance ANSES en cliquant sur le lien ci-dessous.
@@ -3190,7 +3210,7 @@ P"	"META"	"Action pilotée par le Ministère chargé de l'agriculture et le mini
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1"	"CULTURE"	"Maraîchage"	"maraîchage"	""	""	""	""	"DE SANTE DU VEGETAL"	"EDITION LANGUEDOC-R"	"610-620"	"type=CULTURE, form=Maraîchage"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H2
 H3"	"EDITION"	"EDITION LANGUEDOC-ROUSSILLON
-N°2 23 janvier 2019"	""	""	""	"LANGUEDOC-ROUSSILLON"	"23 janvier 2019"	"VEGETAL Maraîchage"	"ARTICHAUT Toutes ma"	"621-669"	"type=EDITION, form=EDITION LANGUEDOC-ROUSSILLON
+N°2 23 janvier 2019"	""	""	""	""	"23 janvier 2019"	"VEGETAL Maraîchage"	"ARTICHAUT Toutes ma"	"621-669"	"type=EDITION, form=EDITION LANGUEDOC-ROUSSILLON
 N°2 23 janvier 2019"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"H1
 P
@@ -3295,7 +3315,7 @@ P"	"RISQUE"	"Oïdium
 En Roussillon, le risque oïdium sur chicorée scarole de plein champ est en augmentation. Dans le Languedoc, le risque est également bien présent sous abris et particulièrement en agriculture biologique. Bien surveiller les parcelles.
 Évaluation du risque : en augmentation
 Lutte alternative : Il est possible d'utiliser en agriculture biologique, un produit à base d'huile essentielle d'orange douce."	"chicorée scarole"	"Oïdium,
-oïdium"	""	""	""	"les plus atteintes."	"Il est également po"	"4439-4846"	"type=RISQUE, form=Oïdium
+oïdium"	""	"Roussillon"	""	"les plus atteintes."	"Il est également po"	"4439-4846"	"type=RISQUE, form=Oïdium
 En Roussillon, le risque oïdium sur chicorée scarole de plein champ est en augmentation. Dans le Languedoc, le risque est également bien présent sous abris et particulièrement en agriculture biologique. Bien surveiller les parcelles.
 Évaluation du risque : en augmentation
 Lutte alternative : Il est possible d'utiliser en agriculture biologique, un produit à base d'huile essentielle d'orange douce."
@@ -3384,7 +3404,8 @@ Nous observons une augmentation des attaques de la mouche de la blette. A survei
 P"	"META"	"REPRODUCTION DU BULLETIN AUTORISEE SEULEMENT DANS SON INTEGRALITE ( REPRODUCTION PARTIELLE INTERDITE )"	""	""	""	""	""	"ue : en progression"	"Ce bulletin de sant"	"7952-8054"	"type=META, form=REPRODUCTION DU BULLETIN AUTORISEE SEULEMENT DANS SON INTEGRALITE ( REPRODUCTION PARTIELLE INTERDITE )"
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FIGCAPTION
 FIGURE"	"META"	"Ce bulletin de santé du végétal a été préparé par les animateurs filière maraîchage de la Chambre d'agriculture du Gard, CENTREX et SUDEXPE et a été élaboré sur la base des observations réalisées, tout au long de la campagne, par les Chambres d'agriculture de l'Hérault, du Gard et du Roussillon, Cathy Conseil, X. Dubreucq, la CAPL, JEEM, le CIVAM Bio 66."	"maraîchage"	""	""	"Gard,
-Gard"	""	"RTIELLE INTERDITE )"	"Ce bulletin est pro"	"8055-8411"	"type=META, form=Ce bulletin de santé du végétal a été préparé par les animateurs filière maraîchage de la Chambre d'agriculture du Gard, CENTREX et SUDEXPE et a été élaboré sur la base des observations réalisées, tout au long de la campagne, par les Chambres d'agriculture de l'Hérault, du Gard et du Roussillon, Cathy Conseil, X. Dubreucq, la CAPL, JEEM, le CIVAM Bio 66."
+Gard,
+Roussillon"	""	"RTIELLE INTERDITE )"	"Ce bulletin est pro"	"8055-8411"	"type=META, form=Ce bulletin de santé du végétal a été préparé par les animateurs filière maraîchage de la Chambre d'agriculture du Gard, CENTREX et SUDEXPE et a été élaboré sur la base des observations réalisées, tout au long de la campagne, par les Chambres d'agriculture de l'Hérault, du Gard et du Roussillon, Cathy Conseil, X. Dubreucq, la CAPL, JEEM, le CIVAM Bio 66."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FIGCAPTION
 FIGURE"	"META"	"Ce bulletin est produit à partir d'observations ponctuelles. S'il donne une tendance de la situation sanitaire régionale, celle-ci ne peut pas être transposée telle quelle à la parcelle. La CRA d'Occitanie dégage donc toute responsabilité quant aux décisions prises par les agriculteurs pour la protection de leurs cultures et les invite à prendre ces décisions sur la base des observations qu'ils auront réalisées et en s'appuyant sur les préconisations issues de bulletins techniques."	""	""	""	""	""	"M, le CIVAM Bio 66."	"BULLETIN DE SANTÉ D"	"8412-8898"	"type=META, form=Ce bulletin est produit à partir d'observations ponctuelles. S'il donne une tendance de la situation sanitaire régionale, celle-ci ne peut pas être transposée telle quelle à la parcelle. La CRA d'Occitanie dégage donc toute responsabilité quant aux décisions prises par les agriculteurs pour la protection de leurs cultures et les invite à prendre ces décisions sur la base des observations qu'ils auront réalisées et en s'appuyant sur les préconisations issues de bulletins techniques."
 "bsv_maraichage_lr_n02_23012019_cle055ce8"	"FOOTER
