@@ -46,7 +46,7 @@ then
 	echo "Please, choose an option :"
 	echo "	-tomap-train"
 	echo "	-annotate"
-	echo "	-visualize"
+	echo "	-stats"
 	echo ""
 
 
