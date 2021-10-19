@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="projectors">
+
+
+<!-- Parameters -->
+
+
+
+<param name="fcu-source">
+  <alias module="baseline.fcu.project" param="source"/>
+</param>
+
+<param name="stages-source">
+  <alias module="baseline.stages.project" param="source"/>
+</param>
+
+<param name="stages-source-to-align">
+  <alias module="baseline.stages.find-patterns.bbch.align" param="source"/>
+</param>
+
+
+
+<!-- global configs for tomap -->
+
+
+
+<param name="yateaExecutable">
+  <alias module="tomap.fcu.project" param="yateaExecutable"/>
+</param>
+
+<param name="perlLib">
+  <alias module="tomap.fcu.project" param="perlLib"/>
+</param>
+
+<param name="rcFile">
+  <alias module="tomap.fcu.project" param="rcFile"/>
+</param>
+
+<param name="configDir">
+  <alias module="tomap.fcu.project" param="configDir"/>
+</param>
+
+<param name="localeDir">
+  <alias module="tomap.fcu.project" param="localeDir"/>
+</param>
+
+
+
+<!-- tomap classififcation files -->
+
+<param name="fcu-mapping-file">
+  <alias module="tomap.fcu.project" param="mappingFile"/>
+</param>
+
+
+
+
+<!-- I. Baseline approach -->
+
+
+<baseline>
+	<fcu>
+		<project href="algos/project/rdf-projector.plan">
+			<targetLayerName>fcu-baseline</targetLayerName>
+		</project>
+
+		<filter>
+    		<ambiguous-words class="Action">
+      			<target>documents.sections.layer:fcu-baseline[
+        		@lemma == "orange"
+        		or @lemma== "marron"
+        		or @lemma == "fruit"
+        		or @lemma == "semence"
+        		or @lemma == "côte"
+        		or @lemma == "soleil"
+        		or @lemma == "gel"
+        		or @lemma == "fleur"]</target>
+     	 		<action>remove:fcu-baseline</action>
+      			<removeFromLayer/>
+    		</ambiguous-words>
+
+			<overlaps href="algos/preprocess/filter.plan">
+				<overlapsLayerName>fcu-baseline</overlapsLayerName>
+			</overlaps>
+		</filter>
+
+		<export>
+			<annotations href="algos/export/export.plan">
+				<outFile>fcu-baseline-annotations.csv</outFile>
+    			<outLayerName>documents.sections.(layer:fcu-baseline)</outLayerName>		
+			</annotations>
+
+			<scores href="algos/evaluate/scores.plan">
+				<keywords-bm25>sections.layer:fcu-baseline</keywords-bm25>
+				<outFile-bm25>output/annotations/fcu-baseline-bm25.csv</outFile-bm25>
+				<keywords-tfidf>sections.layer:fcu-baseline</keywords-tfidf>
+				<outFile-tfidf>output/annotations/fcu-baseline-tfidf.csv</outFile-tfidf>
+			</scores>
+		</export>
+	</fcu>
+
+
+	<stages>
+		<project href="algos/project/rdf-projector.plan">
+			<targetLayerName>stages-baseline</targetLayerName>
+		</project>
+
+		<find-patterns>
+			<bbch>
+				<patterns href="algos/patterns/bbch.plan"/>
+				<align class="RDFProjector">
+  					<subject layer="bbch" feature="canonical-form"/>
+  					<targetLayerName>stages-baseline</targetLayerName>
+  					<resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+  					<language>fr</language>
+  					<uriFeatureName>uri</uriFeatureName>
+  					<wordStartCaseInsensitive/>
+  					<allowJoined/>
+  					<constantAnnotationFeatures>type=PATTERN_BBCH
+  					</constantAnnotationFeatures>
+				</align>
+			</bbch>
+			<!-- ToDo : other scales -->
+		</find-patterns>
+
+		<filter href="algos/preprocess/filter.plan">
+			<overlapsLayerName>stages-baseline</overlapsLayerName>
+		</filter>
+
+		<export href="algos/export/export.plan">
+			<outFile>stages-baseline-annotations.csv</outFile>
+    		<outLayerName>documents.sections.(layer:stages-baseline)</outLayerName>		
+		</export>
+	</stages>
+
+</baseline>
+
+
+
+
+
+
+
+
+
+<!-- II. Tomap approach -->
+
+
+<tomap>
+	<fcu>
+		<project href="algos/project/tomap-projector.plan">
+			<!-- classify -->
+			<!-- ToDo : export to to shell script -->
+			<tomapClassifier graylist="resources/alvisnlp/tomap/tomap-graylist.txt" >resources/alvisnlp/tomap/frenchCropUsage_20210525.tomap</tomapClassifier>
+			<targetLayerName>fcu-tomap</targetLayerName>
+			<!-- label -->
+			<target>documents.sections.layer:fcu-tomap</target>
+		</project>
+
+		<filter>
+    		<ambiguous-words class="Action">
+      			<target>documents.sections.layer:fcu-tomap[
+        		@lemma == "orange" or
+        		@lemma== "marron"  or
+        		@lemma == "fruit" or
+        		@lemma == "semence" or
+        		@lemma == "côte" or
+        		@lemma == "soleil" or
+        		@lemma == "gel" or
+        		@lemma == "fleur"]</target>
+      			<action>remove:fcu-tomap</action>
+      			<removeFromLayer/>
+    		</ambiguous-words>
+
+    		<remove-not-similar-matches class="Action">
+      			<target>documents.sections.layer:fcu-tomap[0.5 > @similarity ]</target>
+      			<action>delete</action>
+      			<deleteElements>true</deleteElements>
+    		</remove-not-similar-matches>
+
+    		<overlaps href="algos/preprocess/filter.plan">
+				<overlapsLayerName>fcu-tomap</overlapsLayerName>
+			</overlaps>
+  		</filter>
+
+		<export>
+			<annotations href="algos/export/export.plan">
+				<outFile>fcu-tomap-annotations.csv</outFile>
+    			<outLayerName>documents.sections.(layer:fcu-tomap)</outLayerName>		
+			</annotations>
+
+			<scores href="algos/evaluate/scores.plan">
+				<keywords-bm25>sections.layer:fcu-tomap</keywords-bm25>
+				<outFile-bm25>output/annotations/fcu-tomap-bm25.csv</outFile-bm25>
+				<keywords-tfidf>sections.layer:fcu-tomap</keywords-tfidf>
+				<outFile-tfidf>output/annotations/fcu-tomap-tfidf.csv</outFile-tfidf>
+			</scores>
+		</export>	
+	</fcu>
+
+	<!-- ToDo : STAGES -->
+</tomap>
+
+	
+
+
+
+</alvisnlp-plan>

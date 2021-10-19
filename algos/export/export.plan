@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="export">
+
+
+<!-- Parameters -->
+
+<param name="outLayerName">
+  <alias module="save-annotations" param="lines"/>
+</param>
+
+<param name="outFile">
+  <alias module="save-annotations" param="corpusFile"/>
+</param>
+
+
+
+
+  <save-annotations class="TabularExport">
+  	<outDir>output/annotations</outDir>
+    <headers>"bsv", "corpus", "entity", "lemma", "prefLabel", "context before","context after","location", "number of words", "features"</headers>
+    <columns separator=";">
+      <!-- document id  -->
+      section.document.@id;
+      <!-- corpus -->
+      section.@corpus;
+      <!-- extracted term  -->
+      @form;
+      str:join:' '(inside:words, @lemma);
+      @skos-prefLabel;
+      <!-- context before  -->
+      str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+      <!-- context after  -->
+      str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+      <!-- location  -->
+      start ^ "-" ^ end;
+      <!-- number of words  -->
+      int(section.layer:words);
+      <!-- features  -->
+      str:join:', '(nav:features, @key ^ "=" ^ @value)
+
+    </columns>
+    <trueCSV/>
+  </save-annotations>
+  
+</alvisnlp-plan>

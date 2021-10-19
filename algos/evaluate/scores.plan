@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="scores">
+
+
+<!-- Parameters -->
+
+<param name="keywords-bm25">
+  <alias module="bm25-score" param="keywords"/>
+</param>
+
+<param name="outFile-bm25">
+  <alias module="bm25-score" param="outFile"/>
+</param>
+
+<param name="keywords-tfidf">
+  <alias module="tfidf-score" param="keywords"/>
+</param>
+
+<param name="outFile-tfidf">
+  <alias module="tfidf-score" param="outFile"/>
+</param>
+
+
+
+
+	<!-- Find the most important terms -->
+
+
+
+  	<bm25-score class="KeywordsSelector">
+ 
+ 		<!-- input terms -->
+    	<keywordForm>@skos-prefLabel</keywordForm>
+    	<documentId>document.@id</documentId>
+
+
+    	<!-- parameters -->
+    	<scoreFunction type="bm25" k1="1.2" b="0.75"/>
+    	<scoreThreshold>-1000</scoreThreshold>
+
+  	</bm25-score>
+
+
+
+  	<tfidf-score class="KeywordsSelector">
+
+  		<!-- input terms -->
+    	<keywordForm>@skos-prefLabel</keywordForm>
+
+    	<!-- parameters -->
+    	<scoreFunction>tfidf</scoreFunction>
+    	<scoreThreshold>-1000</scoreThreshold>
+    	
+  	</tfidf-score>
+
+
+</alvisnlp-plan>
+
+

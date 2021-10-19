@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="tomap-train">
+
+<!-- Parameters -->
+
+
+<!-- terms -->
+
+<param name="fcu-mapping-file">
+  <alias module="read-terms" param="source"/>
+</param>
+
+<!-- Preprocess text : treetagger -->
+
+<param name="treeTaggerExecutable">
+  <alias module="preprocess-text" param="treeTaggerExecutable"/>
+</param>
+
+<param name="parFile">
+  <alias module="preprocess-text" param="parFile"/>
+</param>
+
+
+<!-- global configs for tomap -->
+
+<param name="yateaExecutable">
+  <alias module="train" param="yateaExecutable"/>
+</param>
+
+<param name="perlLib">
+  <alias module="train" param="perlLib"/>
+</param>
+
+<param name="rcFile">
+  <alias module="train" param="rcFile"/>
+</param>
+
+<param name="configDir">
+  <alias module="train" param="configDir"/>
+</param>
+
+<param name="localeDir">
+  <alias module="train" param="localeDir"/>
+</param>
+
+<!-- export candidates-->
+
+<param name="fcu-candidates">
+  <alias module="train" param="outFile"/>
+</param>
+
+
+
+
+
+
+
+  <!-- Load ontology terms-->
+
+  <read-terms class="TabularReader">
+    <sourceElement>$</sourceElement>
+    <lineActions>
+      new:document(tab:column(1)).( new:section:label(tab:column(0)) | set:feat:skos-prefLabel(tab:column(2)) )
+    </lineActions>
+    <commitLines/>
+    <createDocuments/>
+    <createSections/>
+    <setFeatures/>
+  </read-terms>
+
+
+  <!-- Preprocess -->
+
+  <preprocess-text href="algos/preprocess/preprocess.plan"/>
+
+
+
+  <!-- Calculate syntaxic heads of candidates -->
+
+  <train class="TomapTrain">
+    <conceptIdentifier>document.@id</conceptIdentifier>
+    <language>FR</language>
+  </train>
+
+
+
+</alvisnlp-plan>

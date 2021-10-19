@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="tomap-projector">
+
+<!-- Parameters -->
+
+
+<!-- global configs for tomap -->
+
+<param name="yateaExecutable">
+  <alias module="yatea" param="yateaExecutable"/>
+</param>
+
+<param name="perlLib">
+  <alias module="yatea" param="perlLib"/>
+</param>
+
+<param name="rcFile">
+  <alias module="yatea" param="rcFile"/>
+</param>
+
+<param name="configDir">
+  <alias module="yatea" param="configDir"/>
+</param>
+
+<param name="localeDir">
+  <alias module="yatea" param="localeDir"/>
+</param>
+
+
+
+<!-- classification files for tomap -->
+
+<param name="tomapClassifier">
+  <alias module="classify" param="tomapClassifier"/>
+</param>
+
+<param name="targetLayerName">
+  <alias module="classify" param="targetLayerName"/>
+</param>
+
+<param name="mappingFile">
+  <alias module="label" param="mappingFile"/>
+</param>
+
+<param name="target">
+  <alias module="label" param="target"/>
+</param>
+
+
+
+
+  <yatea class="YateaExtractor">
+    <xmlTermsFile>../yatea.xml</xmlTermsFile>
+    <language>FR</language>
+  </yatea>
+
+
+  <classify class="TomapProjector">
+    <subject layer="words" feature="lemma"/>
+    <yateaFile output-feed="true">../yatea.xml</yateaFile>
+    <conceptFeature>IRI</conceptFeature>
+    <explanationFeaturePrefix>tomap-</explanationFeaturePrefix>
+    <scoreFeature>similarity</scoreFeature>
+    <lemmaKeys/>
+  </classify>
+
+
+  <label class="FileMapper">
+    <form>@IRI</form>
+    <targetFeatures>,,skos-prefLabel</targetFeatures>
+    <keyColumn>1</keyColumn>
+  </label>
+
+
+
+</alvisnlp-plan>

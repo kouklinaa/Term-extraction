@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="preprocess">
+
+
+<!-- Parameters -->
+
+<param name="treeTaggerExecutable">
+  <alias module="tt" param="treeTaggerExecutable"/>
+</param>
+
+<param name="parFile">
+  <alias module="tt" param="parFile"/>
+</param>
+
+
+
+	<!-- tokenize -->
+
+	<import>algos/preprocess/segmentation.plan</import>
+
+
+	<!-- set correct pos tags for some plants -->
+
+	<correct-plants class="Action">
+  		<target>documents.sections.layer:words[
+  			str:lower(@form) == "fraise" or
+    		str:lower(@form) == "celeri" or
+    		str:lower(@form) == "mineuse" or
+    		str:lower(@form) == "blette" or
+    		str:lower(@form) == "kaki" ]
+    	</target>
+  		<action>set:feat:pos("NOM")</action>
+  		<setFeatures/>
+	</correct-plants>
+
+
+	<!-- lemmatize -->
+
+	<tt class="TreeTagger">
+  		<noUnknownLemma/>
+  		<inputCharset>UTF-8</inputCharset>
+  		<outputCharset>UTF-8</outputCharset>
+	</tt>
+
+
+</alvisnlp-plan>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="filter">
+
+<!-- Parameters -->
+
+<param name="overlapsLayerName">
+  <alias module="overlaps" param="layerName"/>
+</param>
+
+
+
+  <!-- Remove overlaps -->
+
+  <overlaps class="RemoveOverlaps">
+    <removeEqual/>
+    <removeIncluded>true</removeIncluded>
+    <removeOverlapping>true</removeOverlapping>
+  </overlaps>
+
+
+
+</alvisnlp-plan>

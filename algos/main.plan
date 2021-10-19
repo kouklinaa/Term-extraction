@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="main">
+
+<!-- Parameters -->
+
+
+<!-- Read -->
+
+<param name="d2kab">
+  <alias module="load-corpus.d2kab" param="sourcePath"/>
+</param>
+
+<param name="vespa">
+  <alias module="load-corpus.vespa" param="sourcePath"/>
+</param>
+
+<param name="alea">
+  <alias module="load-corpus.alea" param="sourcePath"/>
+</param>
+
+<param name="stylesheet-d2kab">
+  <alias module="load-corpus.d2kab" param="xslTransform"/>
+</param>
+
+<param name="stylesheet-vespa">
+  <alias module="load-corpus.vespa" param="xslTransform"/>
+</param>
+
+<param name="stylesheet-alea">
+  <alias module="load-corpus.alea" param="xslTransform"/>
+</param>
+
+
+<!-- Preprocess text  -->
+
+<param name="treeTaggerExecutable">
+  <alias module="preprocess-text" param="treeTaggerExecutable"/>
+</param>
+
+<param name="parFile">
+  <alias module="preprocess-text" param="parFile"/>
+</param>
+
+
+<!-- Project terms  -->
+
+<param name="fcu-source">
+  <alias module="projectors" param="fcu-source"/>
+</param>
+
+<param name="stages-source">
+  <alias module="projectors" param="stages-source"/>
+</param>
+
+<param name="stages-source-to-align">
+  <alias module="projectors" param="stages-source-to-align"/>
+</param>
+
+
+<!-- global configs for tomap -->
+
+
+<param name="yateaExecutable">
+  <alias module="projectors" param="yateaExecutable"/>
+</param>
+
+<param name="perlLib">
+  <alias module="projectors" param="perlLib"/>
+</param>
+
+<param name="rcFile">
+  <alias module="projectors" param="rcFile"/>
+</param>
+
+<param name="configDir">
+  <alias module="projectors" param="configDir"/>
+</param>
+
+<param name="localeDir">
+  <alias module="projectors" param="localeDir"/>
+</param>
+
+
+<!-- tomap classififcation files -->
+
+<param name="fcu-mapping-file">
+  <alias module="projectors" param="fcu-mapping-file"/>
+</param>
+
+
+
+
+
+
+	<!-- I. Read -->
+
+	<load-corpus>
+		<d2kab class="XMLReader">
+			<constantSectionFeatures>corpus=d2kab</constantSectionFeatures>
+			<html/>
+		</d2kab>
+
+		<vespa class="XMLReader">
+			<constantSectionFeatures>corpus=vespa</constantSectionFeatures>
+			<html/>
+		</vespa>
+
+		<alea class="XMLReader">
+			<constantSectionFeatures>corpus=alea</constantSectionFeatures>
+			<html/>
+		</alea>
+	</load-corpus>
+
+
+
+<!-- II. Preprocess -->
+
+	<preprocess-text href="algos/preprocess/preprocess.plan"/>
+
+
+
+<!-- III. Project terms -->
+
+
+	<projectors href="algos/project/projectors.plan"/>
+
+
+<!-- IV. Conjunctions -->
+
+
+
+
+
+</alvisnlp-plan>

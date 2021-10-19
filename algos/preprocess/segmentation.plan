@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2016, 2017 Institut National de la Recherche Agronomique
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<alvisnlp-plan id="segmentation">
+
+	<preprocessing>
+		<latin class="TabularProjector">
+			<dictFile>res://latin_multi-word-expressions.txt</dictFile>
+			<targetLayerName>seg__latin</targetLayerName>
+			<constantAnnotationFeatures>type=latin,eos=not-eos</constantAnnotationFeatures>
+			<valueFeatures>seg__latin</valueFeatures>
+      		<skipConsecutiveWhitespaces/>
+		</latin>
+
+		<number-and-dates href="res://number-and-dates.plan"/>
+
+		<hanging-hyphens class="RegExp">
+			<pattern>(?&lt;=[A-Za-z])-(?= )</pattern>
+			<targetLayerName>seg__hanging-hyphens</targetLayerName>
+			<constantAnnotationFeatures>seg__hanging-hyphen=yes</constantAnnotationFeatures>
+		</hanging-hyphens>
+
+		<pre-segmentation>
+			<fixed class="MergeLayers">
+				<sourceLayerNames>rigid-entities,seg__latin,numbers,dates,seg__hanging-hyphens</sourceLayerNames>
+				<targetLayerName>seg__pre-fixed</targetLayerName>
+			</fixed>
+
+			<clear class="ClearLayers">
+				<layerNames>seg__hanging-hyphens</layerNames>
+			</clear>
+
+			<remove-fixed-overlaps class="RemoveOverlaps">
+				<layerName>seg__pre-fixed</layerName>
+			</remove-fixed-overlaps>
+
+			<tag-fixed class="Action">
+				<commit>documents.sections</commit>
+				<target>layer:seg__pre-fixed</target>
+				<action>set:feat:seg__fix("yes")</action>
+				<setFeatures/>
+			</tag-fixed>
+
+			<words class="WoSMig">
+				<balancedPunctuations>()[]{}""</balancedPunctuations>
+				<punctuations>?.!;,:'`-/</punctuations>
+				<fixedFormLayerName>seg__pre-fixed</fixedFormLayerName>
+				<targetLayerName>seg__pre-words</targetLayerName>
+			</words>
+
+			<clear2 class="ClearLayers">
+				<layerNames>seg__pre-fixed</layerNames>
+			</clear2>
+		</pre-segmentation>
+
+		<hyphen-correction>
+			<ref-before class="PatternMatcher">
+				<layerName>seg__pre-words</layerName>
+				<pattern>
+					[@seg__fix != "yes" and @form=~"^([A-Za-z][a-z]{0,2}|[0-9]+)$"]
+					[@form == "-" and @seg__hanging-hyphen != "yes"]
+					[true]
+				</pattern>
+				<actions>
+					<createAnnotation layer="seg__hyphenated"/>
+				</actions>
+			</ref-before>
+
+			<ref-after class="PatternMatcher">
+				<layerName>seg__pre-words</layerName>
+				<pattern>
+					[true]
+					[@form == "-" and @seg__hanging-hyphen != "yes"]
+					[@seg__fix != "yes" and @form=~"^([a-z]{1,3}|[0-9]+)$"]
+				</pattern>
+				<actions>
+					<createAnnotation layer="seg__hyphenated"/>
+				</actions>
+			</ref-after>
+
+			<clear class="ClearLayers">
+				<layerNames>seg__pre-words</layerNames>
+			</clear>
+		</hyphen-correction>
+
+		<create-fixed>
+			<merge class="MergeLayers">
+				<sourceLayerNames>rigid-entities,seg__latin,numbers,dates,seg__hyphenated</sourceLayerNames>
+				<targetLayerName>seg__fixed</targetLayerName>
+			</merge>
+
+			<remove-overlaps class="RemoveOverlaps">
+				<layerName>seg__fixed</layerName>
+			</remove-overlaps>
+
+			<clear class="ClearLayers">
+				<layerNames>seg__latin,numbers,dates,seg__hyphenated,rigid-entities</layerNames>
+			</clear>
+		</create-fixed>
+	</preprocessing>
+
+	<words class="WoSMig">
+		<fixedFormLayerName>seg__fixed</fixedFormLayerName>
+		<balancedPunctuations>()[]{}""</balancedPunctuations>
+		<punctuations>?.!;,:'`-/</punctuations>
+	</words>
+
+	<clear class="ClearLayers">
+		<layerNames>seg__fixed</layerNames>
+	</clear>
+
+	<sentences class="SeSMig">
+		<strongPunctuations>?.!</strongPunctuations>
+	</sentences>
+</alvisnlp-plan>

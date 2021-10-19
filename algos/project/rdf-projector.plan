@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="rdf-projector">
+
+
+<!-- Parameters -->
+
+<param name="source">
+  <alias module="baseline" param="source"/>
+</param>
+
+
+<param name="targetLayerName">
+  <alias module="baseline" param="targetLayerName"/>
+</param>
+
+
+
+
+  <!-- project concepts -->
+
+  <baseline class="RDFProjector">
+
+    <!-- concepts -->
+    <language>fr</language>
+    <uriFeatureName>uri</uriFeatureName>
+    <resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs>
+
+    <!-- entities from the corpus -->
+    <subject layer="words" feature="lemma"/>
+    <constantAnnotationFeatures>type=RDFProjector
+    </constantAnnotationFeatures>
+    <allowJoined>true</allowJoined>
+    <joinDash>true</joinDash>
+    <caseInsensitive>true</caseInsensitive>
+
+  </baseline>
+
+
+
+
+</alvisnlp-plan>
