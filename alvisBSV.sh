@@ -47,6 +47,7 @@ LOCALEDIR=/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTe
 
 find . -name ".DS_Store" -delete;
 
+
 if [ -z "$1" ]
 then
 	echo ""
@@ -99,7 +100,7 @@ then
 elif [ $1 = "-annotate" ]
 then
 	# project terms on the corpus of bsv
-	alvisnlp  algos/main.plan -alias stylesheet-d2kab $STYLESHEET \
+	alvisnlp  -J-Xmx8G algos/main.plan -alias stylesheet-d2kab $STYLESHEET \
 						 -alias stylesheet-vespa $STYLESHEET \
 						 -alias stylesheet-alea $STYLESHEET \
 						 -alias d2kab $D2KAB \
