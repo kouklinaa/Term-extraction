@@ -46,11 +46,38 @@
 </param>
 
 
+<param name="yateaExecutable-stages">
+  <alias module="tomap.stages.project" param="yateaExecutable"/>
+</param>
+
+<param name="perlLib-stages">
+  <alias module="tomap.stages.project" param="perlLib"/>
+</param>
+
+<param name="rcFile-stages">
+  <alias module="tomap.stages.project" param="rcFile"/>
+</param>
+
+<param name="configDir-stages">
+  <alias module="tomap.stages.project" param="configDir"/>
+</param>
+
+<param name="localeDir-stages">
+  <alias module="tomap.stages.project" param="localeDir"/>
+</param>
+
+
+
 
 <!-- tomap classififcation files -->
 
 <param name="fcu-mapping-file">
   <alias module="tomap.fcu.project" param="mappingFile"/>
+</param>
+
+
+<param name="stages-mapping-file">
+  <alias module="tomap.stages.project" param="mappingFile"/>
 </param>
 
 
@@ -151,11 +178,10 @@
 	<fcu>
 		<project href="algos/project/tomap-projector.plan">
 			<!-- classify -->
-			<!-- ToDo : export to to shell script -->
-			<tomapClassifier graylist="resources/alvisnlp/tomap/tomap-graylist.txt" >resources/alvisnlp/tomap/frenchCropUsage_20210525.tomap</tomapClassifier>
-			<targetLayerName>fcu-tomap</targetLayerName>
+			<candidates graylist="resources/alvisnlp/tomap/tomap-graylist.txt" >resources/alvisnlp/tomap/frenchCropUsage_20210525.tomap</candidates>
+			<classificationLayerName>fcu-tomap</classificationLayerName>
 			<!-- label -->
-			<target>documents.sections.layer:fcu-tomap</target>
+			<labelLayerName>documents.sections.layer:fcu-tomap</labelLayerName>
 		</project>
 
 		<filter>
@@ -199,7 +225,37 @@
 		</export>	
 	</fcu>
 
-	<!-- ToDo : STAGES -->
+
+
+	<stages>
+		<project href="algos/project/tomap-projector.plan">
+			<!-- classify -->
+			<candidates>resources/alvisnlp/tomap/ppdo_20210726.tomap</candidates>
+			<classificationLayerName>stages-tomap</classificationLayerName>
+			<!-- label -->
+			<labelLayerName>documents.sections.layer:stages-tomap</labelLayerName>
+		</project>
+
+		<filter>
+<!--     		<remove-not-similar-matches class="Action">
+      			<target>documents.sections.layer:stages-tomap[0.5 > @similarity ]</target>
+      			<action>delete</action>
+      			<deleteElements>true</deleteElements>
+    		</remove-not-similar-matches> -->
+
+    		<overlaps href="algos/preprocess/filter.plan">
+				<overlapsLayerName>stages-tomap</overlapsLayerName>
+			</overlaps>
+  		</filter>
+
+  		<export>
+			<annotations href="algos/export/export.plan">
+				<outFile>stages-tomap-annotations.csv</outFile>
+    			<outLayerName>documents.sections.(layer:stages-tomap)</outLayerName>		
+			</annotations>
+		</export>	
+	</stages>
+
 </tomap>
 
 	

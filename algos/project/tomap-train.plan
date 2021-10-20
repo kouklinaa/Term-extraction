@@ -7,7 +7,7 @@
 
 <!-- terms -->
 
-<param name="fcu-mapping-file">
+<param name="mapping-file">
   <alias module="read-terms" param="source"/>
 </param>
 
@@ -46,12 +46,9 @@
 
 <!-- export candidates-->
 
-<param name="fcu-candidates">
+<param name="candidates">
   <alias module="train" param="outFile"/>
 </param>
-
-
-
 
 
 
@@ -73,7 +70,6 @@
   <!-- Preprocess -->
 
   <preprocess-text href="algos/preprocess/preprocess.plan"/>
-
 
 
   <!-- Calculate syntaxic heads of candidates -->

@@ -82,12 +82,37 @@
 </param>
 
 
+<param name="yateaExecutable-stages">
+  <alias module="projectors" param="yateaExecutable-stages"/>
+</param>
+
+<param name="perlLib-stages">
+  <alias module="projectors" param="perlLib-stages"/>
+</param>
+
+<param name="rcFile-stages">
+  <alias module="projectors" param="rcFile-stages"/>
+</param>
+
+<param name="configDir-stages">
+  <alias module="projectors" param="configDir-stages"/>
+</param>
+
+<param name="localeDir-stages">
+  <alias module="projectors" param="localeDir-stages"/>
+</param>
+
+
+
 <!-- tomap classififcation files -->
 
 <param name="fcu-mapping-file">
   <alias module="projectors" param="fcu-mapping-file"/>
 </param>
 
+<param name="stages-mapping-file">
+  <alias module="projectors" param="stages-mapping-file"/>
+</param>
 
 
 

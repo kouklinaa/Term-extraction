@@ -9,13 +9,20 @@ ALEA=resources/corpus/alea/
 # html segmentation 
 STYLESHEET=resources/alvisnlp/segmentation/html2alvisnlp.xslt
 
+
+# -------------------change the version of FCU and PPDO if needed -----------------------
+
 # referentiels
-FCU=resources/referentiels/frenchCropUsage_20210525.rdf
-PPDO=resources/referentiels/ppdo_20210726.rdf
+FCU=frenchCropUsage_20210525
+PPDO=ppdo_20210726
+FCU_REFERENTIEL=resources/referentiels/$FCU.rdf
+PPDO_REFERENTIEL=resources/referentiels/$PPDO.rdf
 
 # tomap files
-MAPPINGFILE=resources/alvisnlp/tomap/frenchCropUsage_20210525.txt
-CANDIDATEFILE=resources/alvisnlp/tomap/frenchCropUsage_20210525.tomap
+FCU_MAPPINGFILE=resources/alvisnlp/tomap/$FCU.txt
+FCU_CANDIDATEFILE=resources/alvisnlp/tomap/$FCU.tomap
+PPDO_MAPPINGFILE=resources/alvisnlp/tomap/$PPDO.txt
+PPDO_CANDIDATEFILE=resources/alvisnlp/tomap/$PPDO.tomap
 
 
 # -------------------------change these paths to your local paths------------------------
@@ -38,6 +45,7 @@ LOCALEDIR=/Users/belka/Documents/work/inrae/outils/alvisnlp/YaTeA/usr/share/YaTe
 
 # --------------------------------------------------------------------------------------
 
+find . -name ".DS_Store" -delete;
 
 if [ -z "$1" ]
 then
@@ -54,13 +62,13 @@ then
 elif [ $1 = "-tomap-train" ]
 then 
 
-	# create a mapping file (list of candidates for tomap-train)
-	python algos/export/rdf2tabular.py $FCU > $MAPPINGFILE;
+	# # create a mapping file (list of candidates for tomap-train)
+	# python algos/export/rdf2tabular.py $FCU > $MAPPINGFILE;
 
 
 	# calculate syntaxic heads for the candidates from the mapping file
 	alvisnlp algos/project/tomap-train.plan \
-						 -alias fcu-mapping-file $MAPPINGFILE \
+						 -alias mapping-file $FCU_MAPPINGFILE \
  						 -alias treeTaggerExecutable $TREETAGGER \
  						 -alias parFile $PARFILE \
  						 -alias yateaExecutable $YATEA \
@@ -68,7 +76,20 @@ then
 						 -alias rcFile $RCFILE \
 						 -alias configDir $CONFIGDIR \
 						 -alias localeDir $LOCALEDIR  \
-						 -alias fcu-candidates $CANDIDATEFILE \
+						 -alias candidates $FCU_CANDIDATEFILE \
+						 -verbose;
+
+	# calculate syntaxic heads for the candidates from the mapping file
+	alvisnlp algos/project/tomap-train.plan \
+						 -alias mapping-file $PPDO_MAPPINGFILE \
+ 						 -alias treeTaggerExecutable $TREETAGGER \
+ 						 -alias parFile $PARFILE \
+ 						 -alias yateaExecutable $YATEA \
+						 -alias perlLib $PERLLIB \
+						 -alias rcFile $RCFILE \
+						 -alias configDir $CONFIGDIR \
+						 -alias localeDir $LOCALEDIR  \
+						 -alias candidates $PPDO_CANDIDATEFILE \
 						 -verbose;
 
 
@@ -78,23 +99,29 @@ then
 elif [ $1 = "-annotate" ]
 then
 	# project terms on the corpus of bsv
-	alvisnlp algos/main.plan -alias stylesheet-d2kab $STYLESHEET \
+	alvisnlp  algos/main.plan -alias stylesheet-d2kab $STYLESHEET \
 						 -alias stylesheet-vespa $STYLESHEET \
 						 -alias stylesheet-alea $STYLESHEET \
 						 -alias d2kab $D2KAB \
 						 -alias vespa $VESPA \
 						 -alias alea $ALEA \
+						 -alias fcu-source $FCU_REFERENTIEL \
+						 -alias fcu-mapping-file $FCU_MAPPINGFILE \
+						 -alias stages-source $PPDO_REFERENTIEL \
+						 -alias stages-source-to-align $PPDO_REFERENTIEL \
+						 -alias stages-mapping-file $PPDO_MAPPINGFILE \
 						 -alias treeTaggerExecutable $TREETAGGER \
 						 -alias parFile $PARFILE \
-						 -alias fcu-source $FCU \
-						 -alias fcu-mapping-file $MAPPINGFILE\
-						 -alias stages-source $PPDO \
-						 -alias stages-source-to-align $PPDO \
 						 -alias yateaExecutable $YATEA \
+						 -alias yateaExecutable-stages $YATEA \
 						 -alias perlLib $PERLLIB \
+						 -alias perlLib-stages $PERLLIB \
 						 -alias rcFile $RCFILE \
+						 -alias rcFile-stages $RCFILE \
 						 -alias configDir $CONFIGDIR  \
+						 -alias configDir-stages $CONFIGDIR  \
 						 -alias localeDir $LOCALEDIR  \
+						 -alias localeDir-stages $LOCALEDIR  \
 						 -verbose \
 						 -log ./output/logs/$(date +"%Y_%m_%d").log ;
 

@@ -31,11 +31,11 @@
 
 <!-- classification files for tomap -->
 
-<param name="tomapClassifier">
+<param name="candidates">
   <alias module="classify" param="tomapClassifier"/>
 </param>
 
-<param name="targetLayerName">
+<param name="classificationLayerName">
   <alias module="classify" param="targetLayerName"/>
 </param>
 
@@ -43,7 +43,7 @@
   <alias module="label" param="mappingFile"/>
 </param>
 
-<param name="target">
+<param name="labelLayerName">
   <alias module="label" param="target"/>
 </param>
 
