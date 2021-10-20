@@ -4,8 +4,8 @@ import owlready2 as owl
 import sys
 
 
-onto = owl.get_ontology(sys.argv[1]).load()
-for i in onto.individuals():
+fcu_onto = owl.get_ontology(sys.argv[1]).load()
+for i in fcu_onto.individuals():
     prefs = i.prefLabel
     if len(prefs) == 0:
         sys.stderr.write('no prefLabel, ignoring %s\n' % i.iri)
