@@ -49,7 +49,6 @@
 
 
 
-
   <yatea class="YateaExtractor">
     <xmlTermsFile>../yatea.xml</xmlTermsFile>
     <language>FR</language>

@@ -53,9 +53,15 @@
   <alias module="projectors" param="stages-source"/>
 </param>
 
-<param name="stages-source-to-align">
-  <alias module="projectors" param="stages-source-to-align"/>
+<param name="bbch-source-to-align">
+  <alias module="projectors" param="bbch-source-to-align"/>
 </param>
+
+<param name="baggiolini-source-to-align">
+  <alias module="projectors" param="baggiolini-source-to-align"/>
+</param>
+
+
 
 
 <!-- global configs for tomap -->

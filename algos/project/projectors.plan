@@ -15,8 +15,12 @@
   <alias module="baseline.stages.project" param="source"/>
 </param>
 
-<param name="stages-source-to-align">
+<param name="bbch-source-to-align">
   <alias module="baseline.stages.find-patterns.bbch.align" param="source"/>
+</param>
+
+<param name="baggiolini-source-to-align">
+  <alias module="baseline.stages.find-patterns.baggiolini.align" param="source"/>
 </param>
 
 
@@ -136,6 +140,10 @@
 		<find-patterns>
 			<bbch>
 				<patterns href="algos/patterns/bbch.plan"/>
+				<export href="algos/export/export.plan">
+					<outFile>stages-baseline-bbch.csv</outFile>
+    				<outLayerName>documents.sections.(layer:bbch)</outLayerName>		
+				</export>
 				<align class="RDFProjector">
   					<subject layer="bbch" feature="canonical-form"/>
   					<targetLayerName>stages-baseline</targetLayerName>
@@ -148,7 +156,27 @@
   					</constantAnnotationFeatures>
 				</align>
 			</bbch>
+
+			
+			<baggiolini>
+				<patterns href="algos/patterns/baggiolini.plan"/>
+				<export href="algos/export/export.plan">
+					<outFile>stages-baseline-baggiolini.csv</outFile>
+    				<outLayerName>documents.sections.(layer:baggiolini)</outLayerName>		
+				</export>
+				<align class="RDFProjector">
+  					<subject layer="baggiolini" feature="canonical-form"/>
+  					<targetLayerName>stages-baseline</targetLayerName>
+  					<resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs> 					
+  					<language>fr</language>
+  					<uriFeatureName>uri</uriFeatureName>
+  					<constantAnnotationFeatures>type=PATTERN_BAGGIOLINI
+  					</constantAnnotationFeatures>
+				</align>
+			</baggiolini>
+			
 			<!-- ToDo : other scales -->
+			
 		</find-patterns>
 
 		<filter href="algos/preprocess/filter.plan">
@@ -237,12 +265,7 @@
 		</project>
 
 		<filter>
-<!--     		<remove-not-similar-matches class="Action">
-      			<target>documents.sections.layer:stages-tomap[0.5 > @similarity ]</target>
-      			<action>delete</action>
-      			<deleteElements>true</deleteElements>
-    		</remove-not-similar-matches> -->
-
+			<!-- ToDo : add greyliste for stades phénologiques -->
     		<overlaps href="algos/preprocess/filter.plan">
 				<overlapsLayerName>stages-tomap</overlapsLayerName>
 			</overlaps>

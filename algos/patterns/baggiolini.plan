@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="baggiolini">
+
+  <!-- stade A -->
+  <a class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "A" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "bourgeon"]
+      	[@pos == "PRP:det" or @pos == "PRP" or @form == "d"] 
+      	[str:lower(@lemma) == "hiver"]
+    )?
+      
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("A")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </a>
+
+
+  <!-- stade B -->
+  <b class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "B" ]
+    )? 
+
+
+    (
+      	[str:lower(@lemma) == "bourgeon"]
+      	[str:lower(@lemma) == "dans"]
+      	[str:lower(@lemma) == "le"]
+      	[str:lower(@lemma) == "coton"]
+    )?
+
+
+    </pattern>
+    <actions>
+      <createAnnotation layer="baggiolini" features='canonical-form=("B")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </b>
+
+
+   <!-- stade C -->
+  <c class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "C" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "pointe"]
+      	[str:lower(@lemma) == "vert"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("C")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </c>
+
+
+  <!-- stade D -->
+  <d class="PatternMatcher">
+    <pattern>
+
+    (
+    	[ @form == "stade" ]
+    	[ @form == "D" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "sortie" ]
+      	[@pos == "PRP:det" or @pos == "PRP"] 
+      	[str:lower(@lemma) == "feuille"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("D")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </d>
+
+
+
+  <!-- stade E -->
+  <e class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "E" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "feuille"]
+      	[str:lower(@lemma) == "étalé"]
+    )?
+
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("E")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </e>
+
+
+  <!-- stade F -->
+  <f class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "F" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "grappe"  or str:lower(@lemma) == "inflorescence"]
+      	[str:lower(@lemma) == "visible"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("F")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </f>
+
+
+  <!-- stade G -->
+  <g class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "G" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "grappe" or str:lower(@lemma) == "inflorescence"] 
+      	[str:lower(@lemma) == "séparé"]
+    )?
+
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("G")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </g>
+
+
+
+  <!-- stade H -->
+  <h class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "H" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "bouton"]  
+      	[str:lower(@lemma) == "floral"]
+      	[str:lower(@lemma) == "séparé"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("H")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </h>
+
+
+
+  <!-- stade I -->
+  <i class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "I" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "floraison"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("I")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </i>
+
+
+  <!-- stade J -->
+  <j class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "J" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "nouaison"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("J")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </j>
+
+
+
+  <!-- stade K -->
+  <k class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "K" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "petit"]
+      	[str:lower(@lemma) == "pois"]
+    )?
+    
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("K")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </k>
+
+
+  <!-- stade L -->
+  <l class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "L" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "grappe"]
+      	[str:lower(@lemma) == "fermé"]
+    )?
+   
+
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("L")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </l>
+
+
+  <!-- stade M -->
+  <m class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "M" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "véraison"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("M")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </m>
+
+
+
+  <!-- stade N -->
+  <n class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "N" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "maturité"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("N")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </n>
+
+
+
+  <!-- stade O -->
+  <o class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "O" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "aoûtement"]
+    )?
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("O")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </o>
+
+
+
+  <!-- stade P -->
+  <p class="PatternMatcher">
+    <pattern>
+    (
+    	[ @form == "stade" ]
+    	[ @form == "P" ]
+    )? 
+
+    (
+      	[str:lower(@lemma) == "chute"]
+      	[@pos == "PRP:det" or @pos == "PRP"] 
+      	[str:lower(@lemma) == "feuille"]
+    )?
+    
+
+    </pattern>
+    <actions>
+       <createAnnotation layer="baggiolini" features='canonical-form=("P")'/>
+    </actions>
+    <constantAnnotationFeatures>type=Baggiolini</constantAnnotationFeatures>
+  </p>
+</alvisnlp-plan>

@@ -15,8 +15,11 @@ STYLESHEET=resources/alvisnlp/segmentation/html2alvisnlp.xslt
 # referentiels
 FCU=frenchCropUsage_20210525
 PPDO=ppdo_20210726
+
 FCU_REFERENTIEL=resources/referentiels/$FCU.rdf
 PPDO_REFERENTIEL=resources/referentiels/$PPDO.rdf
+
+STAGES=resources/referentiels/stades.rdf
 
 # tomap files
 FCU_MAPPINGFILE=resources/alvisnlp/tomap/$FCU.txt
@@ -108,9 +111,10 @@ then
 						 -alias alea $ALEA \
 						 -alias fcu-source $FCU_REFERENTIEL \
 						 -alias fcu-mapping-file $FCU_MAPPINGFILE \
-						 -alias stages-source $PPDO_REFERENTIEL \
-						 -alias stages-source-to-align $PPDO_REFERENTIEL \
 						 -alias stages-mapping-file $PPDO_MAPPINGFILE \
+						 -alias stages-source $PPDO_REFERENTIEL \
+						 -alias bbch-source-to-align $PPDO_REFERENTIEL \
+						 -alias baggiolini-source-to-align $STAGES \
 						 -alias treeTaggerExecutable $TREETAGGER \
 						 -alias parFile $PARFILE \
 						 -alias yateaExecutable $YATEA \
