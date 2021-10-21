@@ -61,7 +61,9 @@
   <alias module="projectors" param="baggiolini-source-to-align"/>
 </param>
 
-
+<param name="eicchorn-lorenz-source-to-align">
+  <alias module="projectors" param="eicchorn-lorenz-source-to-align"/>
+</param>
 
 
 <!-- global configs for tomap -->

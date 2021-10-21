@@ -19,7 +19,7 @@ PPDO=ppdo_20210726
 FCU_REFERENTIEL=resources/referentiels/$FCU.rdf
 PPDO_REFERENTIEL=resources/referentiels/$PPDO.rdf
 
-STAGES=resources/referentiels/stades.rdf
+GRAPEVINE_SCALES=resources/referentiels/grapevine_scales.rdf
 
 # tomap files
 FCU_MAPPINGFILE=resources/alvisnlp/tomap/$FCU.txt
@@ -114,7 +114,8 @@ then
 						 -alias stages-mapping-file $PPDO_MAPPINGFILE \
 						 -alias stages-source $PPDO_REFERENTIEL \
 						 -alias bbch-source-to-align $PPDO_REFERENTIEL \
-						 -alias baggiolini-source-to-align $STAGES \
+						 -alias baggiolini-source-to-align $GRAPEVINE_SCALES \
+						 -alias eicchorn-lorenz-source-to-align $GRAPEVINE_SCALES \
 						 -alias treeTaggerExecutable $TREETAGGER \
 						 -alias parFile $PARFILE \
 						 -alias yateaExecutable $YATEA \

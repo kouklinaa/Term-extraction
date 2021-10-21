@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://ontology.inrae.fr/ppdo/ontology/1.2" uri="grapevine_scales.rdf"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1634802217371" name="duplicate:http://ontology.inrae.fr/ppdo/ontology" uri="ppdo_20210726.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1634802217371" name="duplicate:http://ontology.inrae.fr/ppdo/ontology" uri="ppdo_20210709.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1634802217371" name="http://ontology.inrae.fr/ppdo/resource/grapevine" uri="grapevine_grapevine_scales.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1634814600054" name="duplicate:http://ontology.inrae.fr/ppdo/ontology" uri="ppdo_20210726.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1634814600054" name="duplicate:http://ontology.inrae.fr/ppdo/ontology" uri="ppdo_20210709.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1634814600054" name="duplicate:http://ontology.inrae.fr/ppdo/resource/grapevine" uri="stades.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1634814600054" name="duplicate:http://ontology.inrae.fr/ppdo/resource/grapevine" uri="grapevine_scales.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1634814600054" name="duplicate:http://ontology.inrae.fr/ppdo/resource/grapevine" uri="grapevine_grapevine_scales.owl"/>
     </group>
 </catalog>

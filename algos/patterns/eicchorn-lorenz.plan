@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alvisnlp-plan id="eicchorn-lorenz">
+
+
+<!-- Problem : skips a few matches  -->
+<!-- finds 11 documents with this context -->
+<!-- ToDo : add context before -->
+
+
+	<el_numbers_single class="PatternMatcher">
+		<pattern>
+		(number_single:
+			[@form == "1" or
+			@form =="2" or
+    		@form =="3" or
+    		@form =="5" or
+    		@form =="7" or
+    		@form =="9"
+		  ]
+		 )
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="el_numbers" features='canonical-form=("0" ^ group:number_single)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=el_numbers_single</constantAnnotationFeatures>
+	</el_numbers_single>
+
+
+	<el_numbers_double class="PatternMatcher">
+		<pattern>
+		[	@form == "01" or
+			@form =="02" or
+    		@form =="03" or
+    		@form =="05" or
+    		@form =="07" or
+    		@form =="09" or
+    		@form =="12" or
+    		@form =="15" or
+    		@form =="17" or
+    		@form =="19" or
+    		@form =="21" or
+    		@form =="23" or
+    		@form =="25" or
+    		@form =="27" or
+    		@form =="29" or
+    		@form =="31" or
+    		@form =="33" or
+    		@form =="35" or
+    		@form =="38" or
+    		@form =="41" or
+    		@form =="43" or
+    		@form =="47"
+		  ]
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="el_numbers"/>
+    	</actions>
+    	<constantAnnotationFeatures>type=el_numbers_double</constantAnnotationFeatures>
+	</el_numbers_double>
+
+
+	<context_0_2 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{0,2}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_0_2</constantAnnotationFeatures>
+	</context_0_2>
+
+
+	<context_3_5 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{3,5}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_3_5</constantAnnotationFeatures>
+	</context_3_5>
+
+
+
+	<context_6_8 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{6,8}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_6_8</constantAnnotationFeatures>
+	</context_6_8>
+
+
+	<context_9_11 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{9,11}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_9_11</constantAnnotationFeatures>
+	</context_9_11>
+
+
+	<context_12_14 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{12,14}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_12_14</constantAnnotationFeatures>
+	</context_12_14>
+
+
+	<context_15_17 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{15,17}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_15_17</constantAnnotationFeatures>
+	</context_15_17>
+
+
+
+	<context_18_20 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{18,20}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_18_20</constantAnnotationFeatures>
+	</context_18_20>
+
+
+	<context_21_23 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{21,23}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_21_23</constantAnnotationFeatures>
+	</context_21_23>
+
+
+	<context_24_26 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{24,26}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_24_26</constantAnnotationFeatures>
+	</context_24_26>
+
+
+
+	<context_27_29 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{27,29}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_27_29</constantAnnotationFeatures>
+	</context_27_29>
+
+
+	<context_30_32 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{30,32}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_30_32</constantAnnotationFeatures>
+	</context_30_32>
+
+
+	<context_33_35 class="PatternMatcher">
+		<pattern>
+			[str:lower(@form) == "lorenz"]
+			[ true ]{33,35}
+			(number: [span:el_numbers])
+	    </pattern>
+    	<actions>
+      	 <createAnnotation layer="eicchorn-lorenz" features='canonical-form=("EL " ^ group:number)'/>
+    	</actions>
+    	<constantAnnotationFeatures>type=context_33_35</constantAnnotationFeatures>
+	</context_33_35>
+
+
+
+
+</alvisnlp-plan>

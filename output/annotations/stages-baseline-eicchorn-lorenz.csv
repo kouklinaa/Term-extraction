@@ -1,0 +1,420 @@
+"bsv"	"corpus"	"entity"	"lemma"	"prefLabel"	"context before"	"context after"	"location"	"number of words"	"features"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93.html"	"d2kab"	"LORENZ :Le Chardonnay est au stade 31"	"LORENZ : le chardonnay être au stade @card@"	""	") Stade EICHHORN et"	": baies à taille de"	"2644-2681"	"2984"	"type=context_6_8, canonical-form=EL 31, form=LORENZ :Le Chardonnay est au stade 31"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Haut-Poitou_13_20190709_cle44ed93.html"	"d2kab"	"LORENZ :Le Sauvignon atteint le stade 31"	"LORENZ : le Sauvignon atteindre le stade @card@"	""	"n Stade EICHHORN et"	": baies à taille de"	"3079-3119"	"2984"	"type=context_6_8, canonical-form=EL 31, form=LORENZ :Le Sauvignon atteint le stade 31"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Haut-Poitou_15_20190806_cle4c661d.html"	"d2kab"	"LORENZ :Le Chardonnay et le Sauvignon sont au stade 33"	"LORENZ : le chardonnay et le Sauvignon être au stade @card@"	""	") Stade EICHHORN et"	": fermeture de la g"	"4263-4317"	"3189"	"type=context_9_11, canonical-form=EL 33, form=LORENZ :Le Chardonnay et le Sauvignon sont au stade 33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Limousin_02_20190409_cle81e534.html"	"d2kab"	"Lorenz :
+Stade 1 : Bourgeon d'hiverStade 5 : pointe verte
+Stade 3 : bourgeon dans le cotonStade 6 : sortie des feuilles
+Stade 9"	"Lorenz : stade @card@ : bourgeon d ' hiverStade @card@ : pointe vert stade @card@ : bourgeon dans le cotonStade @card@ : sortie du feuille stade @card@"	""	"rique de Eichhorn &"	": 2-3 feuilles étal"	"2795-2922"	"3352"	"type=context_24_26, canonical-form=EL 9, form=Lorenz :
+Stade 1 : Bourgeon d'hiverStade 5 : pointe verte
+Stade 3 : bourgeon dans le cotonStade 6 : sortie des feuilles
+Stade 9"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Limousin_02_20190409_cle81e534.html"	"d2kab"	"Lorenz :
+Stade 1 : Bourgeon d'hiverStade 5 : pointe verte
+Stade 3"	"Lorenz : stade @card@ : bourgeon d ' hiverStade @card@ : pointe vert stade @card@"	""	"rique de Eichhorn &"	": bourgeon dans le"	"2795-2860"	"3352"	"type=context_12_14, canonical-form=EL 3, form=Lorenz :
+Stade 1 : Bourgeon d'hiverStade 5 : pointe verte
+Stade 3"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Limousin_02_20190409_cle81e534.html"	"d2kab"	"Lorenz :
+Stade 1 : Bourgeon d'hiverStade 5"	"Lorenz : stade @card@ : bourgeon d ' hiverStade @card@"	""	"rique de Eichhorn &"	": pointe verte Stad"	"2795-2837"	"3352"	"type=context_6_8, canonical-form=EL 5, form=Lorenz :
+Stade 1 : Bourgeon d'hiverStade 5"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Limousin_02_20190409_cle81e534.html"	"d2kab"	"Lorenz :
+Stade 1"	"Lorenz : stade @card@"	""	"rique de Eichhorn &"	": Bourgeon d'hiverS"	"2795-2811"	"3352"	"type=context_0_2, canonical-form=EL 1, form=Lorenz :
+Stade 1"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Limousin_07_20190522_cle81f925.html"	"d2kab"	"Lorenz :
+Stade 15 : boutons floraux agglomérésStade 17 : boutons floraux séparés
+Stade 17"	"Lorenz : stade @card@ : bouton floraux agglomérésStade @card@ : bouton floraux séparer stade @card@"	""	"umérique Eichhorn &"	": boutons floraux s"	"3127-3216"	"2310"	"type=context_12_14, canonical-form=EL 17, form=Lorenz :
+Stade 15 : boutons floraux agglomérésStade 17 : boutons floraux séparés
+Stade 17"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Limousin_07_20190522_cle81f925.html"	"d2kab"	"Lorenz :
+Stade 15 : boutons floraux agglomérésStade 17"	"Lorenz : stade @card@ : bouton floraux agglomérésStade @card@"	""	"umérique Eichhorn &"	": boutons floraux s"	"3127-3181"	"2310"	"type=context_6_8, canonical-form=EL 17, form=Lorenz :
+Stade 15 : boutons floraux agglomérésStade 17"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/BSV_NA_VIGNE_Limousin_07_20190522_cle81f925.html"	"d2kab"	"Lorenz :
+Stade 15"	"Lorenz : stade @card@"	""	"umérique Eichhorn &"	": boutons floraux a"	"3127-3144"	"2310"	"type=context_0_2, canonical-form=EL 15, form=Lorenz :
+Stade 15"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_vigne_n17_gascogne_24072018_cle4238ae.html"	"d2kab"	"Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35 : Début de la véraison
+Colombard
+33
+Ugni b
+33
+Merlot
+33
+Tannat
+33
+Cabernet Sauv
+33"	"Lorenz ) : gros Mg @card@ stade @card@ : fermeture de le grappeStade @card@ : début de le véraison Colombard @card@ Ugni b @card@ merlot @card@ Tannat @card@ Cabernet Sauv @card@"	""	"stades (Eichhorn et"	"Le stade "" Fermetur"	"1496-1640"	"2831"	"type=context_27_29, canonical-form=EL 33, form=Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35 : Début de la véraison
+Colombard
+33
+Ugni b
+33
+Merlot
+33
+Tannat
+33
+Cabernet Sauv
+33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_vigne_n17_gascogne_24072018_cle4238ae.html"	"d2kab"	"Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35 : Début de la véraison
+Colombard
+33
+Ugni b
+33
+Merlot
+33
+Tannat
+33"	"Lorenz ) : gros Mg @card@ stade @card@ : fermeture de le grappeStade @card@ : début de le véraison Colombard @card@ Ugni b @card@ merlot @card@ Tannat @card@"	""	"stades (Eichhorn et"	"Cabernet Sauv 33 Le"	"1496-1623"	"2831"	"type=context_24_26, canonical-form=EL 33, form=Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35 : Début de la véraison
+Colombard
+33
+Ugni b
+33
+Merlot
+33
+Tannat
+33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_vigne_n17_gascogne_24072018_cle4238ae.html"	"d2kab"	"Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35 : Début de la véraison
+Colombard
+33
+Ugni b
+33"	"Lorenz ) : gros Mg @card@ stade @card@ : fermeture de le grappeStade @card@ : début de le véraison Colombard @card@ Ugni b @card@"	""	"stades (Eichhorn et"	"Merlot 33 Tannat 33"	"1496-1603"	"2831"	"type=context_21_23, canonical-form=EL 33, form=Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35 : Début de la véraison
+Colombard
+33
+Ugni b
+33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_vigne_n17_gascogne_24072018_cle4238ae.html"	"d2kab"	"Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35 : Début de la véraison
+Colombard
+33"	"Lorenz ) : gros Mg @card@ stade @card@ : fermeture de le grappeStade @card@ : début de le véraison Colombard @card@"	""	"stades (Eichhorn et"	"Ugni b 33 Merlot 33"	"1496-1593"	"2831"	"type=context_18_20, canonical-form=EL 33, form=Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35 : Début de la véraison
+Colombard
+33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_vigne_n17_gascogne_24072018_cle4238ae.html"	"d2kab"	"Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35"	"Lorenz ) : gros Mg @card@ stade @card@ : fermeture de le grappeStade @card@"	""	"stades (Eichhorn et"	": Début de la vérai"	"1496-1557"	"2831"	"type=context_12_14, canonical-form=EL 35, form=Lorenz):
+Gros Mg
+33
+Stade 33 : Fermeture de la grappeStade 35"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_vigne_n17_gascogne_24072018_cle4238ae.html"	"d2kab"	"Lorenz):
+Gros Mg
+33
+Stade 33"	"Lorenz ) : gros Mg @card@ stade @card@"	""	"stades (Eichhorn et"	": Fermeture de la g"	"1496-1524"	"2831"	"type=context_6_8, canonical-form=EL 33, form=Lorenz):
+Gros Mg
+33
+Stade 33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_vigne_n17_gascogne_24072018_cle4238ae.html"	"d2kab"	"Lorenz):
+Gros Mg
+33"	"Lorenz ) : gros Mg @card@"	""	"stades (Eichhorn et"	"Stade 33 : Fermetur"	"1496-1515"	"2831"	"type=context_3_5, canonical-form=EL 33, form=Lorenz):
+Gros Mg
+33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_cahors_n05_07052019-1_cle882e62.html"	"d2kab"	"Lorenz) :9"	"Lorenz ) : @card@"	""	"Echelle Eichhorn et"	": 2-3 feuilles étal"	"2602-2612"	"2181"	"type=context_0_2, canonical-form=EL 9, form=Lorenz) :9"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n02_09042019_cle0bbe75.html"	"d2kab"	"Lorenz) :1 : bourgeon d'hiver3 : bourgeon dans le coton5 : pointe verte6 : sortie des feuilles9 : 2-3 feuilles étalées12 : grappes visibles
+
+  
+    Muscadelle
+  
+  
+    1 à 3
+  
+  
+    Duras
+  
+  
+    6 à 9"	"Lorenz ) : @card@ : bourgeon d ' hiver3 : bourgeon dans le coton5 : pointe verte6 : sortir du feuilles9 : @card@ feuille étalées12 : grappe visible muscadelle @card@ à @card@ Duras @card@ à @card@"	""	"Echelle Eichhorn et"	"Loin de l"	"3339-3545"	"3506"	"type=context_33_35, canonical-form=EL 9, form=Lorenz) :1 : bourgeon d'hiver3 : bourgeon dans le coton5 : pointe verte6 : sortie des feuilles9 : 2-3 feuilles étalées12 : grappes visibles
+
+  
+    Muscadelle
+  
+  
+    1 à 3
+  
+  
+    Duras
+  
+  
+    6 à 9"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n02_09042019_cle0bbe75.html"	"d2kab"	"Lorenz) :1 : bourgeon d'hiver3 : bourgeon dans le coton5 : pointe verte6 : sortie des feuilles9 : 2-3 feuilles étalées12 : grappes visibles
+
+  
+    Muscadelle
+  
+  
+    1 à 3"	"Lorenz ) : @card@ : bourgeon d ' hiver3 : bourgeon dans le coton5 : pointe verte6 : sortir du feuilles9 : @card@ feuille étalées12 : grappe visible muscadelle @card@ à @card@"	""	"Echelle Eichhorn et"	"Duras"	"3339-3513"	"3506"	"type=context_30_32, canonical-form=EL 3, form=Lorenz) :1 : bourgeon d'hiver3 : bourgeon dans le coton5 : pointe verte6 : sortie des feuilles9 : 2-3 feuilles étalées12 : grappes visibles
+
+  
+    Muscadelle
+  
+  
+    1 à 3"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n02_09042019_cle0bbe75.html"	"d2kab"	"Lorenz) :1 : bourgeon d'hiver3 : bourgeon dans le coton5 : pointe verte6 : sortie des feuilles9 : 2-3 feuilles étalées12 : grappes visibles
+
+  
+    Muscadelle
+  
+  
+    1"	"Lorenz ) : @card@ : bourgeon d ' hiver3 : bourgeon dans le coton5 : pointe verte6 : sortir du feuilles9 : @card@ feuille étalées12 : grappe visible muscadelle @card@"	""	"Echelle Eichhorn et"	"à 3 Duras"	"3339-3509"	"3506"	"type=context_27_29, canonical-form=EL 1, form=Lorenz) :1 : bourgeon d'hiver3 : bourgeon dans le coton5 : pointe verte6 : sortie des feuilles9 : 2-3 feuilles étalées12 : grappes visibles
+
+  
+    Muscadelle
+  
+  
+    1"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n02_09042019_cle0bbe75.html"	"d2kab"	"Lorenz) :1"	"Lorenz ) : @card@"	""	"Echelle Eichhorn et"	": bourgeon d'hiver3"	"3339-3349"	"3506"	"type=context_0_2, canonical-form=EL 1, form=Lorenz) :1"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n13_25062019_cle0e5f7f.html"	"d2kab"	"Lorenz) :27 : nouaison29 : grains de plomb31 : grains de pois
+
+  
+    Mauzac
+  
+  
+    29
+  
+  
+    Duras
+  
+  
+    27-31
+  
+  
+    Loin de l'œil
+  
+  
+    29-31
+  
+  
+    Syrah
+  
+  
+    29
+  
+  
+    Merlot
+  
+  
+    29"	"Lorenz ) : @card@ : nouaison29 : grain de plomb31 : grain de pois Mauzac @card@ Duras @card@ loin de l ' œil @card@ Syrah @card@ merlot @card@"	""	"Echelle Eichhorn et"	"De la coulure e"	"1807-2027"	"1764"	"type=context_24_26, canonical-form=EL 29, form=Lorenz) :27 : nouaison29 : grains de plomb31 : grains de pois
+
+  
+    Mauzac
+  
+  
+    29
+  
+  
+    Duras
+  
+  
+    27-31
+  
+  
+    Loin de l'œil
+  
+  
+    29-31
+  
+  
+    Syrah
+  
+  
+    29
+  
+  
+    Merlot
+  
+  
+    29"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n13_25062019_cle0e5f7f.html"	"d2kab"	"Lorenz) :27 : nouaison29 : grains de plomb31 : grains de pois
+
+  
+    Mauzac
+  
+  
+    29"	"Lorenz ) : @card@ : nouaison29 : grain de plomb31 : grain de pois Mauzac @card@"	""	"Echelle Eichhorn et"	"Duras"	"1807-1896"	"1764"	"type=context_12_14, canonical-form=EL 29, form=Lorenz) :27 : nouaison29 : grains de plomb31 : grains de pois
+
+  
+    Mauzac
+  
+  
+    29"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n13_25062019_cle0e5f7f.html"	"d2kab"	"Lorenz) :27"	"Lorenz ) : @card@"	""	"Echelle Eichhorn et"	": nouaison29 : grai"	"1807-1818"	"1764"	"type=context_0_2, canonical-form=EL 27, form=Lorenz) :27"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa.html"	"d2kab"	"Lorenz) :33 : fermeture de la grappe35 : début véraison
+
+  
+    Chardonnay
+  
+  
+    33
+  
+  
+    Mauzac
+  
+  
+    33
+  
+  
+    Duras
+  
+  
+    33 (35)
+  
+  
+    Loin de l'œil
+  
+  
+    33"	"Lorenz ) : @card@ : fermeture de le grappe35 : début véraison chardonnay @card@ Mauzac @card@ Duras @card@ ( @card@ ) loin de l ' œil @card@"	""	"Echelle Eichhorn et"	"Action pilotée"	"1559-1747"	"4667"	"type=context_24_26, canonical-form=EL 33, form=Lorenz) :33 : fermeture de la grappe35 : début véraison
+
+  
+    Chardonnay
+  
+  
+    33
+  
+  
+    Mauzac
+  
+  
+    33
+  
+  
+    Duras
+  
+  
+    33 (35)
+  
+  
+    Loin de l'œil
+  
+  
+    33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa.html"	"d2kab"	"Lorenz) :33 : fermeture de la grappe35 : début véraison
+
+  
+    Chardonnay
+  
+  
+    33
+  
+  
+    Mauzac
+  
+  
+    33
+  
+  
+    Duras
+  
+  
+    33 (35"	"Lorenz ) : @card@ : fermeture de le grappe35 : début véraison chardonnay @card@ Mauzac @card@ Duras @card@ ( @card@"	""	"Echelle Eichhorn et"	") Loin de"	"1559-1709"	"4667"	"type=context_18_20, canonical-form=EL 35, form=Lorenz) :33 : fermeture de la grappe35 : début véraison
+
+  
+    Chardonnay
+  
+  
+    33
+  
+  
+    Mauzac
+  
+  
+    33
+  
+  
+    Duras
+  
+  
+    33 (35"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa.html"	"d2kab"	"Lorenz) :33 : fermeture de la grappe35 : début véraison
+
+  
+    Chardonnay
+  
+  
+    33
+  
+  
+    Mauzac
+  
+  
+    33
+  
+  
+    Duras
+  
+  
+    33"	"Lorenz ) : @card@ : fermeture de le grappe35 : début véraison chardonnay @card@ Mauzac @card@ Duras @card@"	""	"Echelle Eichhorn et"	"(35) Loin"	"1559-1705"	"4667"	"type=context_15_17, canonical-form=EL 33, form=Lorenz) :33 : fermeture de la grappe35 : début véraison
+
+  
+    Chardonnay
+  
+  
+    33
+  
+  
+    Mauzac
+  
+  
+    33
+  
+  
+    Duras
+  
+  
+    33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa.html"	"d2kab"	"Lorenz) :33 : fermeture de la grappe35 : début véraison
+
+  
+    Chardonnay
+  
+  
+    33
+  
+  
+    Mauzac
+  
+  
+    33"	"Lorenz ) : @card@ : fermeture de le grappe35 : début véraison chardonnay @card@ Mauzac @card@"	""	"Echelle Eichhorn et"	"Duras"	"1559-1676"	"4667"	"type=context_12_14, canonical-form=EL 33, form=Lorenz) :33 : fermeture de la grappe35 : début véraison
+
+  
+    Chardonnay
+  
+  
+    33
+  
+  
+    Mauzac
+  
+  
+    33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/d2kab/CorpusTestD2kabViti.html/bsv_viti_mp_gaillac_n18_30072019_cle0fe8aa.html"	"d2kab"	"Lorenz) :33"	"Lorenz ) : @card@"	""	"Echelle Eichhorn et"	": fermeture de la g"	"1559-1570"	"4667"	"type=context_0_2, canonical-form=EL 33, form=Lorenz) :33"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/alea/BSV_NA_VIGNE_Limousin_06_20180515_cle841333.html"	"alea"	"Lorenz) :Stade 15 : boutons floraux encore agglomérésStade 16 : 9-10 feuilles étaléesStade 17 : Boutons floraux séparésStade 18 : 11-12 feuilles étaléesStade 19"	"Lorenz ) : stade @card@ : bouton floraux encore agglomérésStade @card@ : @card@ feuille étaléesStade @card@ : bouton floraux séparésStade @card@ : @card@ feuille étaléesStade @card@"	""	"stades (Eichhorn et"	": tout début de flo"	"2618-2778"	"2194"	"type=context_24_26, canonical-form=EL 19, form=Lorenz) :Stade 15 : boutons floraux encore agglomérésStade 16 : 9-10 feuilles étaléesStade 17 : Boutons floraux séparésStade 18 : 11-12 feuilles étaléesStade 19"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/alea/BSV_NA_VIGNE_Limousin_06_20180515_cle841333.html"	"alea"	"Lorenz) :Stade 15 : boutons floraux encore agglomérésStade 16 : 9-10 feuilles étaléesStade 17"	"Lorenz ) : stade @card@ : bouton floraux encore agglomérésStade @card@ : @card@ feuille étaléesStade @card@"	""	"stades (Eichhorn et"	": Boutons floraux s"	"2618-2711"	"2194"	"type=context_12_14, canonical-form=EL 17, form=Lorenz) :Stade 15 : boutons floraux encore agglomérésStade 16 : 9-10 feuilles étaléesStade 17"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/alea/BSV_NA_VIGNE_Limousin_06_20180515_cle841333.html"	"alea"	"Lorenz) :Stade 15"	"Lorenz ) : stade @card@"	""	"stades (Eichhorn et"	": boutons floraux e"	"2618-2635"	"2194"	"type=context_3_5, canonical-form=EL 15, form=Lorenz) :Stade 15"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/alea/bsv_vigne_n10_fronton_07062017-3_cle0a711e.html"	"alea"	"Lorenz) :
+Stade 23 : Pleine floraison 50 % chute des capuchons Stade 24 : 50 80 % de floraison Stade 25 : Fin de floraison Stade 27 : Nouaison Stade 29"	"Lorenz ) : stade @card@ : plein floraison @card@ % chute du capuchon stade @card@ : @card@ @card@ % de floraison stade @card@ : fin de floraison stade @card@ : nouaison stade @card@"	""	"stades (Eichhorn et"	": Grain de plomb La"	"3064-3215"	"10412"	"type=context_30_32, canonical-form=EL 29, form=Lorenz) :
+Stade 23 : Pleine floraison 50 % chute des capuchons Stade 24 : 50 80 % de floraison Stade 25 : Fin de floraison Stade 27 : Nouaison Stade 29"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/alea/bsv_vigne_n10_fronton_07062017-3_cle0a711e.html"	"alea"	"Lorenz) :
+Stade 23 : Pleine floraison 50 % chute des capuchons Stade 24 : 50 80 % de floraison Stade 25 : Fin de floraison Stade 27"	"Lorenz ) : stade @card@ : plein floraison @card@ % chute du capuchon stade @card@ : @card@ @card@ % de floraison stade @card@ : fin de floraison stade @card@"	""	"stades (Eichhorn et"	": Nouaison Stade 29"	"3064-3195"	"10412"	"type=context_27_29, canonical-form=EL 27, form=Lorenz) :
+Stade 23 : Pleine floraison 50 % chute des capuchons Stade 24 : 50 80 % de floraison Stade 25 : Fin de floraison Stade 27"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/alea/bsv_vigne_n10_fronton_07062017-3_cle0a711e.html"	"alea"	"Lorenz) :
+Stade 23 : Pleine floraison 50 % chute des capuchons Stade 24 : 50 80 % de floraison Stade 25"	"Lorenz ) : stade @card@ : plein floraison @card@ % chute du capuchon stade @card@ : @card@ @card@ % de floraison stade @card@"	""	"stades (Eichhorn et"	": Fin de floraison"	"3064-3167"	"10412"	"type=context_21_23, canonical-form=EL 25, form=Lorenz) :
+Stade 23 : Pleine floraison 50 % chute des capuchons Stade 24 : 50 80 % de floraison Stade 25"
+"/Users/belka/Documents/work/inrae/scripts/alvisBSV/resources/corpus/alea/bsv_vigne_n10_fronton_07062017-3_cle0a711e.html"	"alea"	"Lorenz) :
+Stade 23"	"Lorenz ) : stade @card@"	""	"stades (Eichhorn et"	": Pleine floraison"	"3064-3082"	"10412"	"type=context_3_5, canonical-form=EL 23, form=Lorenz) :
+Stade 23"

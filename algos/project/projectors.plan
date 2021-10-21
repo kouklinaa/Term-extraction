@@ -23,6 +23,9 @@
   <alias module="baseline.stages.find-patterns.baggiolini.align" param="source"/>
 </param>
 
+<param name="eicchorn-lorenz-source-to-align">
+  <alias module="baseline.stages.find-patterns.eicchorn-lorenz.align" param="source"/>
+</param>
 
 
 <!-- global configs for tomap -->
@@ -138,6 +141,24 @@
 		</project>
 
 		<find-patterns>
+
+			<eicchorn-lorenz>
+				<patterns href="algos/patterns/eicchorn-lorenz.plan"/>
+				<export href="algos/export/export.plan">
+					<outFile>stages-baseline-eicchorn-lorenz.csv</outFile>
+    				<outLayerName>documents.sections.(layer:eicchorn-lorenz)</outLayerName>		
+				</export>
+				<align class="RDFProjector">
+  					<subject layer="eicchorn-lorenz" feature="canonical-form"/>
+  					<targetLayerName>stages-baseline</targetLayerName>
+  					<resourceTypeURIs>owl:NamedIndividual</resourceTypeURIs> 					
+  					<language>fr</language>
+  					<uriFeatureName>uri</uriFeatureName>
+  					<constantAnnotationFeatures>type=PATTERN_EICCHORN_LORENZ
+  					</constantAnnotationFeatures>
+				</align>
+			</eicchorn-lorenz>
+
 			<bbch>
 				<patterns href="algos/patterns/bbch.plan"/>
 				<export href="algos/export/export.plan">
@@ -174,14 +195,21 @@
   					</constantAnnotationFeatures>
 				</align>
 			</baggiolini>
-			
+
+
+
+
 			<!-- ToDo : other scales -->
 			
 		</find-patterns>
 
-		<filter href="algos/preprocess/filter.plan">
-			<overlapsLayerName>stages-baseline</overlapsLayerName>
-		</filter>
+		 <overlaps class="RemoveOverlaps">
+  			<layerName>stages-baseline</layerName>
+    		<removeEqual/>
+    		<removeIncluded>false</removeIncluded>
+    		<removeOverlapping>true</removeOverlapping>
+  		</overlaps>
+
 
 		<export href="algos/export/export.plan">
 			<outFile>stages-baseline-annotations.csv</outFile>
