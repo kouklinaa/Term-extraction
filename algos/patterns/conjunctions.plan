@@ -1,4 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <alvisnlp-plan id="conjunctions">
+
+<!-- toDo : 
+delete one word caracters
+ravageurs
+places
+does not contain numbers
+ -->
+
+
+
+<!-- 	<load-chunks class = "YateaTermsProjector">
+  		<yateaFile output-feed="true">../yatea.xml</yateaFile>
+  		<targetLayerName>yatea</targetLayerName>
+  		<projectLemmas/>
+  		<head/>
+  		<termLemma>lemma</termLemma>
+ 		<termPOS>pos</termPOS>
+	</load-chunks>
+
+	<N_KON_N class = "PatternMatcher">
+  		<pattern>
+  			 (
+  			 	[overlapping:yatea]
+  			 	[@form == ","]
+  			 )*
+    		 	[overlapping:yatea]
+    		 	[@form == "et" or @form == "ou"]
+    		 	[overlapping:yatea]
+  		</pattern>
+  		<actions>
+    		<createAnnotation layer="yatea_conj"/>
+  		</actions>
+  		<constantAnnotationFeatures>type=N_KON_N</constantAnnotationFeatures>
+  		
+	</N_KON_N> -->
+
+    		<ambiguous-words class="Action">
+      			<target>documents.sections.layer:words[
+        		@lemma == "orange"
+        		or @lemma== "marron"
+            or @lemma == "plante"
+        		or @lemma == "fruit"
+        		or @lemma == "fleur"
+        		or @lemma == "semence"
+        		or @lemma == "soleil"
+        		or @lemma == "gel"
+        		or @lemma == "jachère"
+        		or @lemma == "stade"
+        		or @lemma == "maladie"
+        		or @lemma == "feuille"
+        		or @lemma =^ "pousse"
+        		or @lemma == "tige"
+        		or @lemma == "parcelle"
+        		or @lemma == "flageolet"
+        		or @lemma == "gousse"
+            or @lemma == "enveloppe"
+            or @lemma == "levée"
+            or @lemma == "semis"
+        		or @lemma == "filet"
+        		or @lemma == "résidu"
+        		or @lemma == "dégât"
+            or @lemma == "état"
+        		or @lemma == "feu"
+        		or @lemma == "retour"
+            or @lemma == "végétal"
+        		or @lemma =^ "culture" ]</target>
+     	 		 <action>set:feat:type("filtrer")</action>
+  				<setFeatures/>
+    		</ambiguous-words> 
+
+    		<spaces class="Action">
+      			<target>documents.sections.layer:words[
+        		@lemma == "côte"
+        		or @lemma == "jardin"
+        		or @lemma == "parc"
+        		or @lemma == "bois"
+        		or @lemma == "verger"
+        		or @lemma == "prairie"
+        		or @lemma == "espace"
+        		or @lemma == "secteur"
+        		or @lemma == "region" 
+            or @lemma == "terre" 
+        		or @lemma == "zone" ]</target>
+     	 		 <action>set:feat:type("filtrer")</action>
+  				<setFeatures/>
+    		</spaces> 
+
+    		<stop-words class="Action">
+      			<target>documents.sections.layer:words[
+        		@form ^= "lorsqu"
+        		or @form =~ "autre"
+        		or @form =^ "-ci"
+        		or @form =^ "'un"
+            or @form == "c'est"]</target>
+     	 		 <action>set:feat:type("filtrer")</action>
+  				<setFeatures/>
+    		</stop-words> 
+
+    		<noun-endings class="Action">
+      			<target>documents.sections.layer:words[
+      				@lemma =^ "ion" 
+      				or @lemma =^ "ment"
+      				or @lemma =^ "age"
+      				or @lemma =^ "cence"
+      				or @lemma =^ "té"]</target>
+     	 		 <action>set:feat:type("filtrer")</action>
+  				<setFeatures/>
+    		</noun-endings>
+
+    		<abbreviations class="Action">
+      			<target>documents.sections.layer:words[
+      				@form == "SRA" ]</target>
+     	 		 <action>set:feat:type("filtrer")</action>
+  				<setFeatures/>
+    		</abbreviations>
+
+    		<time class="Action">
+      			<target>documents.sections.layer:words[
+        		@lemma == "janvier"
+        		or @lemma== "février"
+        		or @lemma == "mars"
+        		or @lemma == "avril"
+        		or @lemma == "mai"
+        		or @lemma == "juin"
+        		or @lemma == "juillet"
+        		or @lemma == "août"
+        		or @lemma == "septembre"
+        		or @lemma == "octobre"
+        		or @lemma == "novembre"
+        		or @lemma == "décembre" 
+        		or @lemma == "heure"
+        		or @lemma == "mi"
+        		or @lemma == "début"
+        		or @lemma == "fin"]</target>
+     	 		 <action>set:feat:type("filtrer")</action>
+  				<setFeatures/>
+    		</time> 
+
+        <project-bioagressors class="TabularProjector">
+        <subject layer="words" feature="lemma"/>
+        <dictFile>resources/lists/bioagressors_sorted.txt</dictFile>
+        <targetLayerName>bioagressors</targetLayerName>
+        <valueFeatures>$</valueFeatures>
+        <constantAnnotationFeatures>type=bioagressor</constantAnnotationFeatures>
+        <allowJoined/>
+        <caseInsensitive/>
+        <!-- <ignoreDiacritics/> -->
+        <wordStartCaseInsensitive/>
+        <skipWhitespace/>
+        </project-bioagressors>
+
+
+
+<N_KON_N class = "PatternMatcher">
+	<layerName>words</layerName>
+  		<pattern>
+
+<!--   			(
+  				[@form == "dans"]?
+  			  	[@form == "en"]?
+  			 	[@form == "de"]?
+  			 	[@form == "des"]?
+  			 	[@form == "les"]?
+  			 	[@form == "à"]?
+  			 	[@form == "la"]?
+  			 	[@form == "le"]?
+  			 	[@form == "au"]?
+  			 	[@form == "aux"]?
+
+  			 )? -->
+
+
+
+
+  			 (
+
+  			 	(
+
+  			 		[@pos == "NOM" and @type != "filtrer" and not overlapping:bioagressors]
+  			 		[@pos == "ADJ"]?
+  			 			[@form == "du" or @form == "des" or  @form == "de" or  @form == "d'" or @form == "à" or @form == "au"]
+  			 			[@form == "la"] ?
+  			 	)?	 	
+  			 	[@pos == "NOM"  and @type != "filtrer" and not overlapping:bioagressors]
+  			 	[@form == ","]
+
+  			 )*
+
+
+
+
+
+  			 	(
+  			 		[@pos == "NOM"  and @type != "filtrer" and not overlapping:bioagressors]
+  			 		[@pos == "ADJ"]?
+  			 			[@form == "du" or @form == "des" or  @form == "de"  or  @form == "d'" or @form == "à"]
+  			 			[@form == "la"]?
+  			 	)?
+  			 	[@pos == "NOM" and @type != "filtrer" and not overlapping:bioagressors]
+    		 	[@form == "et" or @form == "ou" or @form == ","]
+    		 	
+
+
+
+
+  			 	(	
+  			 		[@pos == "NOM"  and @type != "filtrer" and not overlapping:bioagressors]
+  			 		[@pos == "ADJ"]?
+  			 			[@form == "du" or @form == "des" or @form == "de" or  @form == "d'" or @form == "à"]
+  			 			[@form == "la"]?
+  			 	)?
+  			 	[@pos == "NOM" and @type != "filtrer" and not overlapping:bioagressors]
+  		</pattern>
+  		<actions>
+    		<createAnnotation layer="conjunctions"/>
+  		</actions>
+  		<constantAnnotationFeatures>type=N_KON_N</constantAnnotationFeatures>
+	</N_KON_N>
+
+
+
+
+  <overlaps class="RemoveOverlaps">
+    <layerName>conjunctions</layerName>
+    <removeEqual>true</removeEqual>
+  </overlaps>
+
+
+
+  <save-conj class="TabularExport">
+  	 <outDir>output/annotations</outDir>
+     <corpusFile>fcu-conjunctions.csv</corpusFile>
+     <lines>documents.sections.layer:conjunctions[inside:fcu-baseline]</lines>
+     <headers>"bsv", "conjunction", "pos tags", "lemma tags", "fcu concepts", "context before","context after", "location","features"</headers>
+     <columns separator=";">
+       <!-- short document id  -->
+       str:replace(str:basename(section.document.@id), ".html", "");
+       <!-- entity  -->
+       @form;
+       str:join:', '(inside:words, @pos);
+       str:join:', '(inside:words, @lemma);
+       <!-- match  -->
+       str:join:', '(inside:fcu-baseline, @form );
+       <!-- context before  -->
+       str:normalizeSpace(str:sub(section.contents, m:max(0, start - 20), start));
+       <!-- context after  -->
+       str:normalizeSpace(str:sub(section.contents, end, m:min(end + 20, str:len(section.contents))));
+       <!-- location  -->
+       start ^ "-" ^ end;
+       <!-- features  -->
+       str:join:', '(nav:features, @key ^ "=" ^ @value)
+     </columns>
+     <trueCSV/>
+   </save-conj>
+
+
+
 </alvisnlp-plan>
