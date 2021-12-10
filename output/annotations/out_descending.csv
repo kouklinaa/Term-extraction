@@ -1,0 +1,486 @@
+,proposal,label,cosine similarity
+67292,abutillon,grande airelle rouge d ’ amérique du nord,0.9334716200828552
+68815,abutillon,lentille d ’ espagne,0.9332545399665833
+68440,abutillon,cultures intermédiaires à usage d ’ engrais vert,0.9319546222686768
+68536,abutillon,lentille verte du puy,0.9316429495811462
+68128,abutillon,trèfle du roussillon,0.9311579465866088
+77409,ambroisie,vigne raisin de cuve non en production,0.9508405923843384
+77410,ambroisie,vigne raisins de cuve en production,0.9503968358039856
+75897,ambroisie,grande airelle rouge d ’ amérique du nord,0.948333740234375
+76667,ambroisie,culture légumière ou culture de champignons,0.9476571679115297
+76371,ambroisie,plante à parfum aromatique et médicinale,0.9465306997299194
+214483,amélanchier,chanvre papier,0.9357249736785888
+215089,amélanchier,vigne raisin de cuve non en production,0.9346131086349488
+213776,amélanchier,badianier de chine,0.93448144197464
+215060,amélanchier,plantes ayant des cultures ambigues,0.9340659976005554
+214641,amélanchier,plantain pucier,0.9334641098976136
+71900,asparagus,dolique asperge,0.929013192653656
+71208,asparagus,plante à parfum aromatique et médicinale,0.925123929977417
+71125,asparagus,asperge violette,0.9249778985977172
+71126,asparagus,aspergeraie,0.9243273735046388
+71124,asparagus,asperge verte,0.923105239868164
+114782,aubépine,codéine,0.9392088651657104
+135434,aubépine,codéine,0.9392088651657104
+113877,aubépine,avoine byzantine,0.9375118017196656
+134529,aubépine,avoine byzantine,0.9375118017196656
+114878,aubépine,pivoine ornementale,0.9366055727005004
+91345,bambou,reine des fruits en hommage à la reine victoria,0.949675679206848
+92016,bambou,barbe de bouc,0.9486205577850342
+91734,bambou,chou frangé,0.9480992555618286
+92418,bambou,grande bardane,0.94782292842865
+91248,bambou,ramboutan,0.9475759267807008
+245603,belchard,chardon marie,0.9515216946601868
+245604,belchard,chardon marie,0.9515216946601868
+245258,belchard,lin bätard,0.9462856650352478
+245060,belchard,vigne du nord,0.9412789940834044
+244514,belchard,reine des fruits en hommage à la reine victoria,0.9409987926483154
+60054,beurre,laitue beurre,0.9763672351837158
+60006,beurre,haricot beurre,0.967512309551239
+60050,beurre,laitue beurre pommée,0.9560258984565736
+59681,beurre,doubeurre,0.9476291537284852
+59633,beurre,laitue de serre,0.9356899857521056
+202893,beurré,laitue beurre pommée,0.9605408310890198
+202849,beurré,haricot beurre,0.9588615894317628
+202897,beurré,laitue beurre,0.9566896557807922
+201489,beurré,reine des fruits en hommage à la reine victoria,0.9546443223953248
+201530,beurré,grande airelle rouge d ’ amérique du nord,0.9539043307304382
+153159,boskoop,cresson alénois plante de service,0.937418520450592
+152139,boskoop,cran de bretagne,0.9357467889785768
+152339,boskoop,huile de lin,0.9354534149169922
+152508,boskoop,pomme de terre potagère,0.9347466230392456
+152273,boskoop,pomme de terre féculière,0.9345853328704834
+181818,bougainvillée,grosse bouclée,0.9453514814376832
+181508,bougainvillée,barbe de bouc,0.9394562840461732
+181830,bougainvillée,boursette,0.9352040886878968
+180761,bougainvillée,olive pour la bouche,0.9332001209259032
+181416,bougainvillée,bourrache officinale,0.9315727353096008
+24596,bruxelles,chou de bruxelles,0.9793286323547364
+25193,bruxelles,chicorée de bruxelle,0.9651268720626832
+25248,bruxelles,chou cabus blanc,0.9572498202323914
+24901,bruxelles,salsifis à feuilles de poireau,0.955785632133484
+24267,bruxelles,grande airelle rouge d ’ amérique du nord,0.9556833505630492
+77933,brède morelle,brède mafane,0.97907292842865
+77991,brède morelle,brède épinard,0.977639615535736
+77932,brède morelle,brède,0.9748762845993042
+78544,brède morelle,chicorée de bruxelle,0.9731337428092957
+78036,brède morelle,brède chouchou,0.9727024435997008
+34679,bulbille,chérophylle bulbeux,0.964261531829834
+239478,bulbille,chérophylle bulbeux,0.964261531829834
+34677,bulbille,cerfeuil bulbeux,0.9615042805671692
+239476,bulbille,cerfeuil bulbeux,0.9615042805671692
+34678,bulbille,cerfeuil à bulbe,0.9577898383140564
+224396,bulbille d alliums,oignon d espagne,0.9849166870117188
+224256,bulbille d alliums,épinard d automne,0.9831884503364564
+224630,bulbille d alliums,huile d oeillette,0.983178734779358
+224527,bulbille d alliums,radis d espagne,0.9826950430870056
+225426,bulbille d alliums,lentille d ’ espagne,0.9819451570510864
+233001,bulbille d oignon,oignon d espagne,0.9897028803825378
+232861,bulbille d oignon,épinard d automne,0.9786474108695984
+233235,bulbille d oignon,huile d oeillette,0.9785414338111876
+233872,bulbille d oignon,craquante d ’ avignon,0.9785112738609314
+233132,bulbille d oignon,radis d espagne,0.9784078001976012
+234321,bulbille oignon,oignon,0.9785365462303162
+234322,bulbille oignon,oignon blanc,0.9772968888282776
+234723,bulbille oignon,bunching oignon,0.9741262197494508
+234332,bulbille oignon,oignon précoce,0.9731220006942748
+234331,bulbille oignon,oignon de semis,0.9730147123336792
+110134,buxus sempervirens,cresson alénois plante de service,0.953892469406128
+108555,buxus sempervirens,reine des fruits en hommage à la reine victoria,0.952944815158844
+109729,buxus sempervirens,surfaces herbacées temporaires de 5 ans ou moins,0.9522367119789124
+108596,buxus sempervirens,grande airelle rouge d ’ amérique du nord,0.9517055749893188
+110112,buxus sempervirens,vigne jus de raisin,0.950985312461853
+129471,bégonia,photinia,0.9325097799301147
+130617,bégonia,laitue pommée lisse,0.9276832342147828
+129207,bégonia,reine des fruits en hommage à la reine victoria,0.9276092648506165
+129722,bégonia,plante à parfum aromatique et médicinale,0.927568018436432
+130449,bégonia,guizotia oléifère,0.926676332950592
+204148,canada,truffe du canada,0.9692240953445436
+204150,canada,cannabis,0.9548923373222352
+203249,canada,canneberge,0.9501490592956544
+203706,canada,groseille du cap,0.9460577368736268
+203357,canada,alpiste des canaries,0.9459242820739746
+190520,chamaerops humilis,bleuet des champs,0.9673577547073364
+190631,chamaerops humilis,cultures intermédiaires à usage d ’ engrais vert,0.9658122658729552
+189483,chamaerops humilis,grande airelle rouge d ’ amérique du nord,0.9657667279243468
+189957,chamaerops humilis,plante à parfum aromatique et médicinale,0.9657267928123474
+190458,chamaerops humilis,choux navets à chair blanche,0.964393675327301
+205882,chantecler,laine de chanvre,0.964126467704773
+207603,chantecler,laine de chanvre,0.964126467704773
+211045,chantecler,laine de chanvre,0.964126467704773
+205684,chantecler,tourteau de chanvre,0.963344395160675
+207405,chantecler,tourteau de chanvre,0.963344395160675
+32199,chardon,chardon marie,0.9726384282112122
+32200,chardon,chardon marie,0.9726384282112122
+31471,chardon,cardon,0.9497917890548706
+31563,chardon,cougourdon,0.9338270425796508
+31213,chardon,vigne cultivée,0.9301325082778932
+212275,charme,chayote,0.9459351897239684
+211968,charme,chaume,0.9384977221488952
+212756,charme,chanvre cultivé,0.93565833568573
+213305,charme,brome cathartique,0.935485541820526
+212568,charme,tourteau de chanvre,0.9341824054718018
+167633,chenin,radis de cheval,0.9262415170669556
+169354,chenin,radis de cheval,0.9262415170669556
+168357,chenin,farine de pois chiches,0.925613522529602
+170078,chenin,farine de pois chiches,0.925613522529602
+167446,chenin,chou de pékin,0.9241129159927368
+66531,chiendent,dent de lion,0.9659265279769896
+66704,chiendent,surfaces herbacées temporaires de 5 ans ou moins,0.9615761637687684
+66988,chiendent,lin non textile de printemps,0.9608854651451112
+65770,chiendent,badianier de chine,0.9607643485069276
+67050,chiendent,orge à deux rangs de printemps,0.9606560468673706
+4596,chou blanc,chou cabus blanc,0.9932559728622437
+4018,chou blanc,radis blanc,0.9825089573860168
+4996,chou blanc,radis blanc,0.9825089573860168
+4591,chou blanc,choux navet à chair blanche,0.9800340533256532
+4590,chou blanc,choux navets à chair blanche,0.9795560836791992
+185767,chénopode,ray grass hybride,0.934381067752838
+185401,chénopode,liane de grenade,0.9320692420005798
+184550,chénopode,rose de chine,0.9317715764045716
+184301,chénopode,groseille de chine,0.9314783811569214
+185752,chénopode,luzerne cultivée,0.9308985471725464
+199274,chénopode blanc,lupin blanc de printemps,0.9792727828025818
+199555,chénopode blanc,lupin blanc de printemps,0.9792727828025818
+199273,chénopode blanc,lupin blanc,0.9774284958839417
+199551,chénopode blanc,lupin blanc,0.9774284958839417
+199114,chénopode blanc,pavot blanc,0.9769255518913268
+141312,citrus,citron,0.9610133767127992
+143033,citrus,citron,0.9610133767127992
+141319,citrus,citron vert,0.948639988899231
+143040,citrus,citron vert,0.948639988899231
+141215,citrus,citron combera,0.9460886716842652
+39756,clairette du bas diois,grande airelle rouge d ’ amérique du nord,0.9840208292007446
+41000,clairette du bas diois,lentille verte du puy,0.9823099970817566
+41294,clairette du bas diois,cresson alénois plante de service,0.9805848598480223
+40904,clairette du bas diois,cultures intermédiaires à usage d ’ engrais vert,0.9801839590072632
+40210,clairette du bas diois,coqueret du pérou,0.9801141619682312
+105408,comice,poire williams,0.9423579573631288
+105113,comice,reine des fruits en hommage à la reine victoria,0.9411545395851136
+105413,comice,granny smith,0.940085768699646
+106657,comice,ray grass commun,0.9395598769187928
+105154,comice,grande airelle rouge d ’ amérique du nord,0.9394516944885254
+176848,cycas,surfaces herbacées temporaires de 5 ans ou moins,0.9501325488090516
+176825,cycas,campanule du texas,0.9477174878120422
+176189,cycas,plante à parfum aromatique et médicinale,0.9469429850578308
+176315,cycas,choux racines et tubercules fourragers,0.9464197754859924
+176317,cycas,racines et tubercules fourragères,0.945173442363739
+62893,céleri carotte,carotte,0.982357382774353
+62895,céleri carotte,céleri,0.9820442199707032
+62738,céleri carotte,céleri rave,0.9784058332443236
+62740,céleri carotte,céleri rave,0.9784058332443236
+62739,céleri carotte,céleri navet,0.978163719177246
+170511,dahlia,reine des fruits en hommage à la reine victoria,0.9507301449775696
+170990,dahlia,galia,0.949515700340271
+171026,dahlia,plante à parfum aromatique et médicinale,0.948294460773468
+170552,dahlia,grande airelle rouge d ’ amérique du nord,0.9471120834350586
+171753,dahlia,guizotia oléifère,0.9470773935317992
+172747,dipladenia,plante à parfum aromatique et médicinale,0.948132872581482
+172232,dipladenia,reine des fruits en hommage à la reine victoria,0.9472456574440002
+173215,dipladenia,ronde verte à cœur plein,0.946346879005432
+172273,dipladenia,grande airelle rouge d ’ amérique du nord,0.946286916732788
+173811,dipladenia,cresson alénois plante de service,0.9460236430168152
+117706,doyenné du comice,vigne du nord,0.9772040247917176
+124590,doyenné du comice,vigne du nord,0.9772040247917176
+117757,doyenné du comice,cumin du maroc,0.9750697612762452
+124641,doyenné du comice,cumin du maroc,0.9750697612762452
+117201,doyenné du comice,grande airelle rouge d ’ amérique du nord,0.9743719100952148
+95056,eucalyptus,hibiscus ornemental,0.944252610206604
+94828,eucalyptus,grande airelle rouge d ’ amérique du nord,0.9436951279640198
+94787,eucalyptus,reine des fruits en hommage à la reine victoria,0.9436651468276978
+95858,eucalyptus,hibiscus médicinal,0.9411024451255798
+95411,eucalyptus,sauge officinale,0.940792977809906
+107905,fagus sylvatica,hibiscus médicinal,0.9622455835342408
+106875,fagus sylvatica,grande airelle rouge d ’ amérique du nord,0.9602612853050232
+107912,fagus sylvatica,bleuet des champs,0.95994770526886
+107424,fagus sylvatica,crocus cultivé,0.959835648536682
+107349,fagus sylvatica,plante à parfum aromatique et médicinale,0.959529459476471
+158685,fruit rouge,petit fruit rouge,0.9909752011299132
+158775,fruit rouge,vigne rouge,0.975058376789093
+158954,fruit rouge,poivron rouge,0.9749217629432678
+159854,fruit rouge,batavia rouge,0.9739401936531068
+158498,fruit rouge,groseille rouge,0.9738636612892152
+29726,frêne,chêne,0.9638783931732178
+30969,frêne,frène,0.9611324667930604
+29729,frêne,chêne rouvre,0.953607976436615
+29728,frêne,chêne pédonculé,0.9517320394515992
+29631,frêne,badiane chinoise,0.948750138282776
+101671,fuji,reine des fruits en hommage à la reine victoria,0.949289083480835
+103392,fuji,reine des fruits en hommage à la reine victoria,0.949289083480835
+122323,fuji,reine des fruits en hommage à la reine victoria,0.949289083480835
+208373,fuji,reine des fruits en hommage à la reine victoria,0.949289083480835
+101975,fuji,pomme golden,0.9491037726402284
+134129,fusain,sain foin,0.9617681503295898
+134132,fusain,sainfoin remontant,0.9501440525054932
+134125,fusain,sainfoin,0.9499310851097108
+134202,fusain,vigne raisin de cuve non en production,0.939397633075714
+133949,fusain,lupin fourrager de printemps,0.9392271637916564
+148436,galaxy,gala,0.988900661468506
+148617,galaxy,galia,0.9559860229492188
+148473,galaxy,ray grass mélange gazon,0.92883962392807
+148472,galaxy,ivraie gazon,0.9287965893745422
+148471,galaxy,ray grass gazon,0.9272765517234802
+50374,gamay,ray grass gazon,0.9464225769042968
+50376,gamay,ray grass mélange gazon,0.94544917345047
+51529,gamay,ray grass hybride,0.941612184047699
+51581,gamay,ray grass anglais,0.941044807434082
+51584,gamay,ray grass anglais,0.941044807434082
+36221,gervanne,cerisier de cayenne,0.9546428322792052
+36222,gervanne,cerise de cayenne,0.9527102708816528
+36314,gervanne,grande airelle rouge d ’ amérique du nord,0.9524759650230408
+36273,gervanne,reine des fruits en hommage à la reine victoria,0.9514857530593872
+36495,gervanne,canne à sucre,0.9513011574745178
+85876,griseline,grise maraîchère,0.9599414467811584
+85203,griseline,cameline,0.9583926796913148
+84591,griseline,échalote grise,0.9567047953605652
+84461,griseline,reine des fruits en hommage à la reine victoria,0.9527323842048644
+84906,griseline,radis gris,0.950181484222412
+119169,guyot,jules guyot,0.962193727493286
+126053,guyot,jules guyot,0.962193727493286
+119240,guyot,grelot,0.9366855621337892
+126124,guyot,grelot,0.9366855621337892
+120137,guyot,mélilot,0.923937976360321
+120897,harrow sweet,poire williams,0.9462003707885742
+127781,harrow sweet,poire williams,0.9462003707885742
+120602,harrow sweet,reine des fruits en hommage à la reine victoria,0.9451786279678344
+127486,harrow sweet,reine des fruits en hommage à la reine victoria,0.9451786279678344
+120898,harrow sweet,poire williams pour transformation,0.9436758756637572
+1325,herse,trèfle de perse,0.9591718912124634
+1328,herse,trèfle de perse,0.9591718912124634
+3046,herse,trèfle de perse,0.9591718912124634
+3049,herse,trèfle de perse,0.9591718912124634
+261,herse,échalote de jersey,0.9566060900688172
+130928,hortensia,reine des fruits en hommage à la reine victoria,0.9637858867645264
+131443,hortensia,plante à parfum aromatique et médicinale,0.9605294466018676
+131022,hortensia,arbre à fruits secs,0.9603386521339417
+130885,hortensia,arbre à fruits tropicaux,0.9592958688735962
+130969,hortensia,grande airelle rouge d ’ amérique du nord,0.9590173363685608
+145000,idared,pomme golden,0.9420217871665956
+150163,idared,pomme golden,0.9420217871665956
+144991,idared,poire williams,0.9388317465782166
+150154,idared,poire williams,0.9388317465782166
+144995,idared,golden,0.936552345752716
+153605,jonagored,pomme golden,0.9420182704925536
+153596,jonagored,poire williams,0.9389596581459044
+153342,jonagored,grande airelle rouge d ’ amérique du nord,0.9372277855873108
+153301,jonagored,reine des fruits en hommage à la reine victoria,0.9367149472236632
+153847,jonagored,vigne du nord,0.9364975690841676
+74222,kumquat,cédrat,0.9480440020561218
+74650,kumquat,plante à parfum aromatique et médicinale,0.9479226469993592
+75688,kumquat,vigne raisin de cuve non en production,0.9465891122817992
+75689,kumquat,vigne raisins de cuve en production,0.9456485509872437
+74135,kumquat,reine des fruits en hommage à la reine victoria,0.9455415606498718
+79621,lantana,banane plantain,0.949966311454773
+79298,lantana,reine des fruits en hommage à la reine victoria,0.9473279714584352
+80405,lantana,plantain noir de provence,0.9471466541290284
+79285,lantana,fruit de la passion,0.9466568231582642
+79286,lantana,fruit de la passion,0.9466568231582642
+8996,laurier rose,laurier rose,1.0
+12438,laurier rose,laurier rose,1.0
+45137,laurier rose,laurier rose,1.0
+48579,laurier rose,laurier rose,1.0
+136350,laurier rose,laurier rose,1.0
+82006,lierre,laitue de serre,0.9396273493766784
+81947,lierre,pomme de terre potagère,0.9341862797737122
+81712,lierre,pomme de terre féculière,0.933826982975006
+82427,lierre,laitue beurre,0.9338185787200928
+81534,lierre,plante à parfum aromatique et médicinale,0.9325482845306396
+54584,liseron,gaillet gratteron,0.9318573474884032
+54918,liseron,pois lisses,0.93175208568573
+53998,liseron,plante à parfum aromatique et médicinale,0.9311333298683168
+54094,liseron,mélisse citronnelle,0.929920732975006
+55062,liseron,cresson alénois plante de service,0.9295987486839294
+61765,lollo,lolo rossa,0.929843544960022
+61770,lollo,lolla blonda,0.9269661903381348
+61764,lollo,lolla rossa,0.9226391315460204
+61575,lollo,dolique à longue cosse,0.9134517908096312
+60258,lollo,longane,0.9106816053390504
+161843,mirabellier,mirabelle,0.9791613221168518
+162914,mirabellier,chou moellier,0.9533648490905762
+162202,mirabellier,poire williams pour transformation,0.9518373608589172
+161906,mirabellier,reine des fruits en hommage à la reine victoria,0.9514979720115662
+162201,mirabellier,poire williams,0.9488653540611268
+200331,moutarde des champs,moutarde des allemands,0.988027572631836
+200846,moutarde des champs,bleuet des champs,0.987705409526825
+200836,moutarde des champs,pavot des jardins,0.9818294644355774
+200537,moutarde des champs,huile de graine de pavot,0.981814444065094
+200296,moutarde des champs,cerfeuil des jardins,0.9817784428596495
+39039,muscat,courge muscade,0.96449875831604
+42481,muscat,courge muscade,0.96449875831604
+38307,muscat,bananier musa,0.9553646445274352
+41749,muscat,bananier musa,0.9553646445274352
+38513,muscat,cerfeuil musqué,0.9522876739501952
+229159,oignon blanc botte,oignon blanc,0.9939119815826416
+229469,oignon blanc botte,radis blanc,0.9775521755218506
+230447,oignon blanc botte,radis blanc,0.9775521755218506
+229162,oignon blanc botte,oignon jaune,0.9748438000679016
+229167,oignon blanc botte,oignon de trébons,0.974218487739563
+222535,oignon blanc botte d automne,épinard d automne,0.987679123878479
+222675,oignon blanc botte d automne,oignon d espagne,0.9871013760566713
+223647,oignon blanc botte d automne,lupin blanc d hiver,0.9861773252487184
+222275,oignon blanc botte d automne,oignon blanc,0.9852648377418518
+222802,oignon blanc botte d automne,navet d automne,0.9844070076942444
+14033,oignon bulbille,oignon,0.9785365462303162
+15754,oignon bulbille,oignon,0.9785365462303162
+17475,oignon bulbille,oignon,0.9785365462303162
+19196,oignon bulbille,oignon,0.9785365462303162
+22638,oignon bulbille,oignon,0.9785365462303162
+227447,oignon de jour court,oignon de semis,0.986693263053894
+227439,oignon de jour court,oignon de couleur,0.984940230846405
+228478,oignon de jour court,surfaces herbacées temporaires de 5 ans ou moins,0.9843241572380066
+227446,oignon de jour court,oignon de trébons,0.9843095541000366
+228073,oignon de jour court,huile de graine de pavot,0.9841378331184388
+220768,oignon jour court,fraisiers jours courts,0.9841050505638124
+221594,oignon jour court,surfaces herbacées temporaires de 5 ans ou moins,0.975904941558838
+220554,oignon jour court,oignon blanc,0.9753042459487916
+220563,oignon jour court,oignon de semis,0.975286066532135
+220556,oignon jour court,oignon doux des cévennes,0.9751850366592408
+32964,oignon motte,oignon,0.979677677154541
+32965,oignon motte,oignon blanc,0.9746071696281432
+32975,oignon motte,oignon précoce,0.9729613661766052
+32974,oignon motte,oignon de semis,0.9717087745666504
+33366,oignon motte,bunching oignon,0.9710536003112792
+146545,oignon échalote,échalote,0.9811917543411256
+237758,oignon échalote,échalote,0.9811917543411256
+146551,oignon échalote,oignon blanc,0.9735855460166932
+237764,oignon échalote,oignon blanc,0.9735855460166932
+146550,oignon échalote,oignon,0.9727039337158204
+188159,palmier trachycarpus,palmier,0.9729042053222656
+188735,palmier trachycarpus,palmier royal,0.9686264395713806
+188161,palmier trachycarpus,coeur de palmier,0.9656181931495668
+187640,palmier trachycarpus,cerise bigarreau pour transformation,0.9602360725402832
+189274,palmier trachycarpus,vigne raisin de cuve non en production,0.9590573310852052
+69350,philocreton,chou de shanton,0.9305668473243712
+69437,philocreton,mirliton,0.9262842535972596
+68972,philocreton,reine des fruits en hommage à la reine victoria,0.9253365397453308
+69329,philocreton,cresson de para,0.9249348044395448
+69305,philocreton,ray grass gazon,0.9247565865516664
+82740,pink lady,reine des fruits en hommage à la reine victoria,0.97097909450531
+115439,pink lady,reine des fruits en hommage à la reine victoria,0.97097909450531
+215257,pink lady,reine des fruits en hommage à la reine victoria,0.97097909450531
+83044,pink lady,pomme golden,0.9677492380142212
+115743,pink lady,pomme golden,0.9677492380142212
+52207,pinot gris,radis gris,0.976069986820221
+52829,pinot gris,pavot blanc,0.9664018750190736
+52626,pinot gris,mélilot blanc,0.9641793370246888
+52988,pinot gris,lupin blanc,0.963932454586029
+53266,pinot gris,lupin blanc,0.963932454586029
+90798,pittospore,surfaces herbacées temporaires de 5 ans ou moins,0.9377497434616088
+91177,pittospore,vigne raisin de cuve non en production,0.9352643489837646
+89665,pittospore,grande airelle rouge d ’ amérique du nord,0.934881329536438
+90748,pittospore,passiflore officinale,0.9341880083084106
+90135,pittospore,avoine nue de printemps,0.9337409138679504
+179631,pittosporum,plante à parfum aromatique et médicinale,0.9542774558067322
+179157,pittosporum,grande airelle rouge d ’ amérique du nord,0.9499443769454956
+179791,pittosporum,salsifis à feuilles de poireau,0.9499324560165404
+180669,pittosporum,vigne raisin de cuve non en production,0.9491759538650512
+180186,pittosporum,pavot à opium,0.9488236904144288
+156985,platane,badiane chinoise,0.9520687460899352
+156837,platane,arbre à fruits secs,0.949148952960968
+156700,platane,arbre à fruits tropicaux,0.9486954808235168
+157258,platane,plante à parfum aromatique et médicinale,0.9486515522003174
+157066,platane,banane plantain,0.948239266872406
+86442,polygala,laurier du portugal,0.922584593296051
+87579,polygala,lolla rossa,0.9205700755119324
+86106,polygala,olive pour la bouche,0.9204087257385254
+87424,polygala,guizotia oléifère,0.9173845648765564
+87585,polygala,lolla blonda,0.9158750176429749
+72496,pomélo,pomelo,0.9604200720787048
+72716,pomélo,pomme,0.9557340741157532
+72718,pomélo,pomme golden,0.9545736312866212
+73823,pomélo,laitue pommée,0.9514958262443542
+72396,pomélo,goyave pomme,0.9481538534164428
+6952,prunus,prunier,0.9595553278923036
+10394,prunus,prunier,0.9595553278923036
+43093,prunus,prunier,0.9595553278923036
+46535,prunus,prunier,0.9595553278923036
+191099,prunus,prunier,0.9595553278923036
+112038,pyracantha,grande airelle rouge d ’ amérique du nord,0.9323362708091736
+113521,pyracantha,plantes ayant des cultures ambigues,0.932314932346344
+112712,pyracantha,jasmin d ’ espagne,0.929986298084259
+113373,pyracantha,haricot d espagne,0.9298203587532043
+113226,pyracantha,lupin bleu de printemps,0.9295392036437988
+56705,pâturin annuel,pâturin,0.9800268411636353
+55708,pâturin annuel,fourrage annuel,0.969415247440338
+56433,pâturin annuel,lupin bleu de printemps,0.9572839140892028
+56333,pâturin annuel,valériane officinale,0.9546256065368652
+56655,pâturin annuel,lin fibre de printemps,0.9541069865226746
+5959,radis noir,radis noir potager,0.9906398057937622
+57589,radis noir,radis noir potager,0.9906398057937622
+64473,radis noir,radis noir potager,0.9906398057937622
+5973,radis noir,salsifi noir,0.9829280972480774
+57603,radis noir,salsifi noir,0.9829280972480774
+88418,rhododendron,plante à parfum aromatique et médicinale,0.9342489242553712
+165863,rhododendron,plante à parfum aromatique et médicinale,0.9342489242553712
+88999,rhododendron,cynorhodon,0.9332285523414612
+166444,rhododendron,cynorhodon,0.9332285523414612
+88886,rhododendron,ronde verte à cœur plein,0.9324353337287904
+177436,roebellini,grande airelle rouge d ’ amérique du nord,0.9475194215774536
+178352,roebellini,lin textile,0.947045922279358
+178974,roebellini,cresson alénois plante de service,0.946808099746704
+178156,roebellini,lin non textile,0.9458123445510864
+178847,roebellini,lin textile de printemps,0.9457591772079468
+26374,romanesco,chou romanesco,0.9761075973510742
+28095,romanesco,chou romanesco,0.9761075973510742
+26567,romanesco,romarin,0.945137858390808
+28288,romanesco,romarin,0.945137858390808
+26189,romanesco,badiane chinoise,0.9387398362159728
+138066,saissetia oleae,olivier ornemental,0.9610874652862548
+137812,saissetia oleae,reine des fruits en hommage à la reine victoria,0.9585778713226318
+137738,saissetia oleae,olive à huile,0.9572471976280212
+137736,saissetia oleae,olive pour la bouche,0.9564999938011168
+137732,saissetia oleae,olivier fruit à noyaux,0.955962061882019
+100626,scorson,scorsonère,0.9831584095954896
+100629,scorson,scorsonère d espagne,0.9599666595458984
+100630,scorson,scorzonère,0.9581466913223268
+101298,scorson,haricot grain,0.9492043852806092
+101303,scorson,haricot grain,0.9492043852806092
+164145,sorgho d ariège,cerfeuil d espagne,0.98000168800354
+164816,sorgho d ariège,cultures intermédiaires à usage d ’ engrais vert,0.9798966646194458
+164664,sorgho d ariège,artichaut d espagne,0.9798471927642822
+164395,sorgho d ariège,huile d oeillette,0.9796916842460632
+164292,sorgho d ariège,radis d espagne,0.9793434739112854
+97817,tournesol soja,soja,0.982393741607666
+97818,tournesol soja,tournesol,0.9813218712806702
+97290,tournesol soja,soja oléoprotéagineux,0.9785135984420776
+97298,tournesol soja,soja protéagineux,0.9765456318855286
+97380,tournesol soja,soja fourrager,0.9763193130493164
+173872,trachycarpus,cerise bigarreau pour transformation,0.9343172907829284
+174249,trachycarpus,poire williams pour transformation,0.933369517326355
+175155,trachycarpus,trèfle des prés,0.9328320026397704
+174532,trachycarpus,bourrache officinale,0.93167245388031
+175208,trachycarpus,trigonelle fenugrec,0.9313117265701294
+187195,trapez,trèfle de micheli,0.9377440810203552
+186867,trapez,trèfle de bokhara,0.9360967874526978
+186877,trapez,trèfle du roussillon,0.9357410073280334
+187198,trapez,trèfle de hollande,0.9354999661445618
+186868,trapez,trèfle des mouches,0.935450315475464
+182599,tulipe,grande airelle rouge d ’ amérique du nord,0.9516531825065612
+184080,tulipe,orge à six rangs d hiver,0.9502755403518676
+184081,tulipe,orge d hiver à six rangs,0.9502754807472228
+183073,tulipe,plante à parfum aromatique et médicinale,0.9497402906417848
+182558,tulipe,reine des fruits en hommage à la reine victoria,0.949377179145813
+93335,viburnum,hibiscus ornemental,0.957402527332306
+110545,viburnum,hibiscus ornemental,0.957402527332306
+93581,viburnum,plante à parfum aromatique et médicinale,0.956322193145752
+110791,viburnum,plante à parfum aromatique et médicinale,0.956322193145752
+93066,viburnum,reine des fruits en hommage à la reine victoria,0.9554455280303956
+243871,vulpin des champs,bleuet des champs,0.9902626872062684
+244022,vulpin des champs,lupin bleu de printemps,0.9854860305786132
+244317,vulpin des champs,plantes ayant des cultures ambigues,0.98519766330719
+242662,vulpin des champs,usages des plantes cultivées,0.9849215149879456
+244093,vulpin des champs,lupin fourrager de printemps,0.984847605228424
+20912,échalote bulbille,échalote,0.9850867390632628
+218827,échalote bulbille,échalote,0.9850867390632628
+20916,échalote bulbille,échalote de plantation,0.9757686853408812
+218831,échalote bulbille,échalote de plantation,0.9757686853408812
+20913,échalote bulbille,échalote de jersey,0.9748807549476624
+155301,érable,érable sycomore,0.9764938354492188
+156447,érable,lentille comestible,0.9394984245300292
+155563,érable,bois du diable,0.9391950368881226
+156581,érable,raisin de table,0.9381528496742249
+156582,érable,vigne raisin de table,0.9374625086784364
+98508,érable champêtre,érable sycomore,0.9807427525520324
+99307,érable champêtre,bleuet des champs,0.9742637276649476
+98744,érable champêtre,plante à parfum aromatique et médicinale,0.9732570052146912
+99782,érable champêtre,vigne raisin de cuve non en production,0.9709622859954834
+99783,érable champêtre,vigne raisins de cuve en production,0.9704552292823792
